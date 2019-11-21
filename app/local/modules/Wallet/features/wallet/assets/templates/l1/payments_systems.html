@@ -1,0 +1,36 @@
+<ion-modal-view sb-page-background >
+
+    <ion-header-bar class="bar-custom">
+        <div class="buttons">
+            <button class="button button-clear" ng-click="addfunds_modal.hide();"><i class="icon ion-ios-arrow-back"></i></button>
+        </div>
+        <h1 class="title">{{ 'Add funds' | translate }}</h1>
+    </ion-header-bar>
+
+    <ion-content id="category-submenu">
+		<!-- ionic 4-->
+		<div ng-if="!old_style && !is_loading  && is_logged_in">
+		dd
+        </div>
+
+		
+		<!-- ionic 1-->
+		<div class="ionic1" ng-if="old_style && !is_loading">
+			<div class="card wallet-add-funds-dialog">
+				<div class="item item-text-wrap">
+					<div class="list">
+						<label class="item item-input item-stacked-label"><span class="input-label">{{'Amount'|translate}}</span><input type="number" ng-model="af.amount" placeholder="{{'Amount'|translate}}"></label>
+						<label class="item item-input item-select">
+							<div class="input-label">{{'Payment method'|translate}}</div>
+							<select ng-model = "af.addfund_method_current" ng-change="addFundMethodChange()">
+								<option value="{{pm.code}}" ng-repeat="pm in data.payments_systems">{{pm.title}}</option>
+							</select>
+						</label>
+						<div class="item"><button class="button button-full button-positive" ng-click="createPayment()"><i class="icon  ion-paper-airplane"></i> {{'Add funds to wallet'|translate}}</button></div>
+					</div>
+				</div>				
+			</div>				
+        </div>
+
+    </ion-content>
+</ion-modal-view>

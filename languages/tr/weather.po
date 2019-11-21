@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T20:44:25+03:00\n"
+"PO-Revision-Date: 2019-06-05T20:44:25+03:00\n"
+"Language: \n"
+
+msgid "Add an API Key"
+msgstr "API Anahtarı ekle"
+
+msgid "Astronomy"
+msgstr "Astronomi"
+
+msgid "Atmosphere"
+msgstr "Atmosfer"
+
+msgid "Change location"
+msgstr "Konum değiştir"
+
+msgid "Chill"
+msgstr "Soğuk"
+
+msgid "Chill:"
+msgstr "Serin:"
+
+msgid "City"
+msgstr "Şehir"
+
+msgid "Click here to view more details on current weather."
+msgstr "Şu anki hava durumu hakkında bilgi almak için buraya tıklayın."
+
+msgid "Country"
+msgstr "Ülke"
+
+msgid "Country:"
+msgstr "Ülke:"
+
+msgid "Direction"
+msgstr "Yön"
+
+msgid "Direction:"
+msgstr "Yön:"
+
+msgid "Fri"
+msgstr "Cum"
+
+msgid "Get weather near me!"
+msgstr "Bana yakın hava alın!"
+
+msgid "Humidity"
+msgstr "Nem"
+
+msgid "Humidity:"
+msgstr "Nem oranı:"
+
+msgid "Mon"
+msgstr "Mon"
+
+msgid "OR"
+msgstr "YADA"
+
+msgid "Postal code or city"
+msgstr "Posta kodu veya şehir"
+
+msgid "Pressure"
+msgstr "Basınç"
+
+msgid "Pressure:"
+msgstr "Basınç:"
+
+msgid "Rising:"
+msgstr "Artış:"
+
+msgid "Sat"
+msgstr "Sat"
+
+msgid "Select a country"
+msgstr "Bir ülke seçin"
+
+msgid "Sorry, but the weather service is not available for the moment. Please try again later."
+msgstr "Üzgünüz, hava durumu servisi şu an kullanılamıyor. Lütfen daha sonra tekrar deneyin."
+
+msgid "Speed"
+msgstr "Hız"
+
+msgid "Speed:"
+msgstr "Hız:"
+
+msgid "Sun"
+msgstr "Güneş"
+
+msgid "Sunrise"
+msgstr "Gün doğumu:"
+
+msgid "Sunrise:"
+msgstr "Gün doğumu:"
+
+msgid "Sunset"
+msgstr "Gün batımı"
+
+msgid "Sunset:"
+msgstr "Gün batımı:"
+
+msgid "Thu"
+msgstr "Prş"
+
+msgid "Tue"
+msgstr "Sal"
+
+msgid "Type in any location"
+msgstr "Herhangi bir yere yazın"
+
+msgid "Units:"
+msgstr "Birimler"
+
+msgid "Use my location"
+msgstr "Konumu kullan"
+
+msgid "Validate"
+msgstr "Doğrula"
+
+msgid "Visibility"
+msgstr "Görünürlük"
+
+msgid "Visibility:"
+msgstr "Görünürlük:"
+
+msgid "Weather information"
+msgstr "Hava durumu bilgisi"
+
+msgid "Wed"
+msgstr "Çrş"
+
+msgid "Wind"
+msgstr "Rüzgar"
+
+msgid "You must set an OpenWeatherMap API key in order to use the Weather feature."
+msgstr "Hava özelliği kullanmak için OpenWeatherMap bir API anahtarı ayarlamanız gerekir."

@@ -1,0 +1,14 @@
+{
+  "name": "Core",
+  "description": "",
+  "version": "4.17.0",
+  "dependencies": {
+    "system": {
+      "type": "SAE",
+      "version": "1.0"
+    },
+    "modules": {
+      "Application": "1.0"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Application",
+  "description": "",
+  "version": "4.17.5",
+  "dependencies": {
+    "system": {
+      "type": "SAE",
+      "version": "1.1"
+    }
+  }
+}

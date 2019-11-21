@@ -1,0 +1,150 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-11T17:32:47+03:00\n"
+"PO-Revision-Date: 2019-07-11T17:32:47+03:00\n"
+"Language: \n"
+
+msgid "Account"
+msgstr "Аккаунт"
+
+msgid "Activated"
+msgstr "Активированный"
+
+msgid "Address Mail"
+msgstr "Email"
+
+msgid "Amount of the subscription"
+msgstr "Сумма подписки"
+
+msgid "An error occurred during process. Please try again later."
+msgstr "Произошла ошибка во время процесса. Пожалуйста, попробуйте снова позже."
+
+msgid "An error occurred during process. Please try again later. (missing POST param)"
+msgstr "Произошла ошибка во время процесса. Пожалуйста, попробуйте снова позже. (отсутствует параметр POST)"
+
+msgid "CVC number :"
+msgstr "Номер CVC :"
+
+msgid "Choose the features to lock:"
+msgstr "Выбрать функции для блокировки:"
+
+msgid "Confirm payment"
+msgstr "Подтверждение оплаты"
+
+msgid "Date of subscription"
+msgstr "Дата подписки"
+
+msgid "Enable user to left a message when subscribing ?"
+msgstr "Позволить пользователю оставлять сообщение при подписке ?"
+
+msgid "Greetings message"
+msgstr "Приветственное сообщение"
+
+msgid "Incomplete form or incorrect data entered. Please check your correctly type each field required"
+msgstr "Неполная форма или введены неверные данные. Пожалуйста, проверьте правильность ввода каждого поля"
+
+msgid "Incomplete form or incorrect data. Please check you correctly typed each field required."
+msgstr "Неполная форма или неверны данные. Пожалуйста, проверьте правильность ввода каждого поля"
+
+msgid "Interval between two amount :"
+msgstr "Интервал между двумя суммами :"
+
+msgid "Lock the entire application?"
+msgstr "Заблокировать всё приложение?"
+
+msgid "Make a subscription"
+msgstr "Подписаться"
+
+msgid "Minimum amount required ?"
+msgstr "Минимальная сумма требуется ?"
+
+msgid "Minimum subscription amount :"
+msgstr "Сумма подписки :"
+
+msgid "New sub received from %s"
+msgstr "Новая подписка от %s"
+
+msgid "New subscription received from %s"
+msgstr "Новая подписка получена от %s"
+
+msgid "Page name"
+msgstr "Название страницы"
+
+msgid "Please add few users to enable this feature"
+msgstr "Пожалуйста, добавьте несколько пользователей для включения этой функции"
+
+msgid "Please add few users to enable this feature."
+msgstr "Пожалуйста, добавьте несколько пользователей, чтобы включить эту функцию."
+
+msgid "QRCode"
+msgstr "QR код"
+
+msgid "Received Subscriptions"
+msgstr "Все подписки"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Restrict Access"
+msgstr "Ограничить доступ"
+
+msgid "Select Customer"
+msgstr "Выберите Клиента"
+
+msgid "Select Customer:"
+msgstr "Выберите Клиента:"
+
+msgid "Select Role"
+msgstr "Выберите Роль"
+
+msgid "Select Role:"
+msgstr "Выберите Роль:"
+
+msgid "Send an email notification when receiving a new sub ?"
+msgstr "Отправить уведомление по электронной почте при получении новой подписки?"
+
+msgid "Send an email notification when receiving a new subscription ?"
+msgstr "Отправить уведомление по электронной почте при получении новых подписок ?"
+
+msgid "Social Sharing"
+msgstr "Социальный обмен"
+
+msgid "Subscribe"
+msgstr "Подписаться"
+
+msgid "Subscribe now"
+msgstr "Подпишитесь сейчас"
+
+msgid "Tracking of received subs is not available with Paypal as payment gateway"
+msgstr "Отслеживание подписок недоступно в Paypal"
+
+msgid "Tracking of received subscriptions is not available with Paypal as payment gateway"
+msgstr "Отслеживание полученных подписок не доступно с PayPal в качестве платежного шлюза"
+
+msgid "Unlock by:"
+msgstr "Разблокировать:"
+
+msgid "User Email"
+msgstr "Email Пользователя"
+
+msgid "Users with Access"
+msgstr "Пользователи с доступом"
+
+msgid "You haven't received any subs yet"
+msgstr "Нет подписок"
+
+msgid "You haven't received any subscriptions yet"
+msgstr "Ещё никто не подписался"
+
+msgid "You received a new subscription"
+msgstr "Вы получили новую подписку"
+
+msgid "iOS: subscription in browser (safari) ?"
+msgstr "для iOS: подписка в браузере (Safari) ?"

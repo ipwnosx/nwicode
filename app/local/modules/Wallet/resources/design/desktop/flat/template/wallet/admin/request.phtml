@@ -1,0 +1,171 @@
+<?php
+
+	if(!isset($this->layout()->wallet_payout_request_id)){throw new Exception(__('An error occurred during the process. Please try again later.')); }
+	
+	if ($this->getSession()->getAppId()) $app_id = $this->getSession()->getAppId(); else $app_id=$this->getApplication()->getId();
+	$db =Zend_Db_Table_Abstract::getDefaultAdapter();
+
+	$stmt = $db->query(
+		'SELECT version FROM module WHERE name = ?',
+		array('Wallet')
+	);
+	$current_version =$stmt->fetch()['version'];
+	
+
+	if (empty($current_version)) {
+		echo "Wallet module not found! Exit...";
+		?><br><a href="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";?>" rel="" class="navigation"><i class="fa fa-sign-out fa-lg"></i> <?php echo __('Exit to Editor'); ?></a><br><?php
+		die(__("Wallet module not found! Exit..."));
+	}	
+	
+	$stmt = $db->query(
+		'SELECT * FROM application_option WHERE code = ?',
+		array('wallet')
+	);
+	$option_id = $stmt->fetch()['option_id'];
+	$stmt = $db->query(
+		'SELECT * FROM application_option_value WHERE option_id = ? and app_id = ?',
+		array($option_id, $app_id)
+	);
+	$value_id = $stmt->fetch()['value_id'];
+
+	$wallet = new Wallet_Model_Wallet();
+	$wallet->find(array("value_id" => $value_id));
+	
+	$pr = new Wallet_Model_PayoutRequest();
+	$pr->find($this->layout()->wallet_payout_request_id);
+	
+	
+
+	
+?>
+<div class="row">
+	<div class="col-sm-2 col-xs-2">
+		<button type="button" class="btn btn-default btn-lg customer_back_button" id="request_back_button"><i class="fa fa-undo" aria-hidden="true"></i> <?php echo $this->_('Return'); ?></button>
+	</div>
+	<div class="col-sm-10 col-xs-10">
+		<div class="page-header">
+			<h1><?php echo __('Request payout №'); ?> <?php echo $pr->getId();?></h1>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-sm-4 col-xs-12">
+		<div class="panel panel-default">
+		  <div class="panel-heading">
+			<h3 class="panel-title"><?php echo __('Request information'); ?></h3>
+		  </div>
+		  <div class="panel-body">
+			<p class="lead1"><?php echo __('Data'); ?>: <strong><?php echo $pr->getCreatedAt();?></strong></p>
+			<p class="lead1"><?php echo __('Amount'); ?>: <strong><?php echo $pr->getSumm();?></strong></p>
+			<p class="lead1"><?php echo __('Method name'); ?>: <strong><?php echo $pr->getPayoutMethodTitle();?></strong></p>
+			<p class="lead1"><?php echo __('From'); ?>: <strong><?php echo $pr->getCustomer()->getEmail();?></strong></p>
+			<p class="lead1"><?php echo __('Status'); ?>: <strong><?php echo $pr->getStatus();?></strong></p>
+		  </div>
+		</div>	
+	</div>
+	<div class="col-sm-8 col-xs-12">
+		<div class="panel panel-default">
+		  <div class="panel-heading">
+			<h3 class="panel-title"><?php echo __('Information from customer'); ?></h3>
+		  </div>
+		  <div class="panel-body">
+			<?php echo $pr->getCustomerInfo();?>
+		  </div>
+		</div>
+	</div>
+</div>
+<hr>
+
+<div class="row">
+	<div class="col-sm-12 col-xs-12"><p class="lead"><?php echo __('Update payout request?'); ?></p></div>
+	<form class="form-horizontal" id="formRequestUpdate">
+	  <div class="form-group">
+		<label for="inputEmail3" class="col-sm-2 control-label"><?php echo __('Status'); ?></label>
+		<div class="col-sm-10">
+			<select class="form-control" name="status">
+			  <option value="pending" <?php if ($pr->getStatus()=="pending") echo 'selected="selected"';?>>Pending</option>
+			  <option value="complete" <?php if ($pr->getStatus()=="complete") echo 'selected="selected"';?>>Complete</option>
+			  <option value="decline" <?php if ($pr->getStatus()=="decline") echo 'selected="selected"';?>>Decline</option>
+			  <option value="cancel" <?php if ($pr->getStatus()=="cancel") echo 'selected="selected"';?>>Cancel</option>
+			</select>
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label for="inputPassword3" class="col-sm-2 control-label"><?php echo __('Reply message'); ?></label>
+		<div class="col-sm-10">
+		  <textarea class="form-control" rows="3" name="admin_info"><?php echo $pr->getAdminInfo();?></textarea>
+		</div>
+	  </div>
+	  <input type=hidden name="wallet_payout_request_id" value="<?php echo $pr->getId();?>">
+	</form>
+	  <div class="form-group">
+		<div class="col-sm-offset-2 col-sm-10">
+		  <button id="request_submit_button" class="btn btn-primary"><?php echo __('Save'); ?></button>
+		  <button id="request_return_button" class="btn btn-default"><?php echo __('Return'); ?></button>
+		</div>
+	  </div>
+
+</div>
+
+<script type="text/javascript">
+
+	
+	$("#request_back_button").on("click",function() {
+		loader_show();
+		$('#item-panel').hide();$('#list-panel').show();
+		$("html, body").animate({ scrollTop: 0 }, "fast");
+		loader_hide();
+	});	
+	$("#request_return_button").on("click",function() {
+		loader_show();
+		$('#item-panel').hide();$('#list-panel').show();
+		$("html, body").animate({ scrollTop: 0 }, "fast");
+		loader_hide();
+	});
+	
+
+	//Смена баланса
+	$("#request_submit_button").on("click",function() {
+		loader_show();
+		$.ajax({
+			   type: "POST",
+			   url:'<?php echo $this->getUrl('wallet/admin/requestedit'); ?>',
+			   data: $("#formRequestUpdate").serialize(), // serializes the form's elements.
+			   dataType: "json",
+			   cache: false,
+			   success: function(data)
+			   {
+				   console.log(data); // show response from the php script.
+				   $('#modalChangeFunds').modal('hide');
+				   if (data.success) {
+						$("#row-request-"+data.wallet_payout_request_id+" .request-status").html(data.status);
+						$("#row-request-"+data.wallet_payout_request_id+" .request-reply").html(data.admin_info);
+						$("#error-message").hide();
+						$("#success-message").html(data.success_message);
+						$("#success-message").show();
+						$('#item-panel').hide();$('#list-panel').show();
+						$("html, body").animate({ scrollTop: 0 }, "fast");
+						setTimeout('$("#success-message").hide()', 5000);
+				   }
+				   $("html, body").animate({ scrollTop: 0 }, "fast");
+				   loader_hide();
+			   },
+			   error: function (jqXHR) {
+				loader_hide();
+				var rdata = JSON.parse(jqXHR.responseText);
+				console.log(jqXHR.responseText);
+			   //console.log(exception);
+				$('#modalChangeFunds').modal('hide');
+				$("#error-message").html(rdata.message);
+				$("#error-message").show();
+				setTimeout('$("#error-message").hide()', 5000);
+				$("#success-message").html();
+				$("#success-message").hide();
+				$("html, body").animate({ scrollTop: 0 }, "fast");
+			   }
+			 });	
+	});		
+	
+</script>

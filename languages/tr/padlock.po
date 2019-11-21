@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T20:34:17+03:00\n"
+"PO-Revision-Date: 2019-06-05T20:34:17+03:00\n"
+"Language: \n"
+
+msgid "Access restricted to authorized members only"
+msgstr "Erişim yetkisi sadece üyelerinin kısıtlı"
+
+msgid "Allow all the users by default:"
+msgstr "Varsayılan olarak tüm kullanıcılara izin ver:"
+
+msgid "Choose the features to lock:"
+msgstr "Özellikleri kilitlemek için seçin:"
+
+msgid "Lock the entire application?"
+msgstr "Tüm uygulama kilidi?"
+
+msgid "Restrict Access"
+msgstr "Erişimi Kısıtlamak"
+
+msgid "Scan now to unlock"
+msgstr "Kilidi açmak için tara."
+
+msgid "Unlock by:"
+msgstr "tarafından kilitlendi."
+
+msgid "We are sorry but your account does not have enough permissions to access this page"
+msgstr "Üzgünüz ama hesabınız bu sayfaya erişmek için yeterli izinlere sahip değil"
+
+msgid "the email address"
+msgstr "e-posta"
+
+msgid "the first name"
+msgstr "ilk adı"
+
+msgid "the gender"
+msgstr "cinsiyeti"
+
+msgid "the last name"
+msgstr "soyadı"
+
+msgid "the password"
+msgstr "parola"

@@ -1,0 +1,174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-04T12:58:37+03:00\n"
+"PO-Revision-Date: 2019-07-04T12:58:37+03:00\n"
+"Language: \n"
+
+msgid "Activated"
+msgstr "Активированный"
+
+msgid "Add New"
+msgstr "Добавить новый"
+
+msgid "Add a field"
+msgstr "Добавить поле"
+
+msgid "Add a section"
+msgstr "Добавить раздел"
+
+msgid "Add an option"
+msgstr "Добавить опцию"
+
+msgid "Awesome Forms"
+msgstr "Формы"
+
+msgid "CREATE A NEW FIELD"
+msgstr "СОЗДАТЬ НОВОЕ ПОЛЕ"
+
+msgid "Checkbox"
+msgstr "Флажок"
+
+msgid "Choose a field type"
+msgstr "Выбрать тип поля"
+
+msgid "Choose a field type:"
+msgstr "Выбрать тип поля:"
+
+msgid "Civility"
+msgstr "Представился"
+
+msgid "Create a new field"
+msgstr "Создать новое поле"
+
+msgid "Created At"
+msgstr "Создан в"
+
+msgid "Created at"
+msgstr "Создан в"
+
+msgid "Creator"
+msgstr "Создать"
+
+msgid "Date/Hour"
+msgstr "Дата/Час"
+
+msgid "Download CSV"
+msgstr "Скачать CSV"
+
+msgid "Drop down"
+msgstr "вниз"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Fetch Location Info"
+msgstr "Информации О Местоположении"
+
+msgid "Field name"
+msgstr "Имя поля"
+
+msgid "Field name:"
+msgstr "Имя поля:"
+
+msgid "Form data will be sent to this email. Until you fill out this field, your form won't be displayed on client side"
+msgstr "Данные формы будут отправлены на этот адрес электронной почты. Пока вы не заполните это поле, то Ваша форма не будет отображаться на клиентской стороне"
+
+msgid "Form data will be sent to this email. Until you fill out this field, your form won't be displayed on client side."
+msgstr "Данные формы будут отправлены на этот адрес электронной почты. Пока вы не заполните это поле, то Ваша форма не будет отображаться на клиентской стороне."
+
+msgid "Frontend Admin email:"
+msgstr "Админ email:"
+
+msgid "Geolocation"
+msgstr "Геолокация"
+
+msgid "Hello,"
+msgstr "Здравствуйте,"
+
+msgid "INFORMATION"
+msgstr "Информация"
+
+msgid "Login As"
+msgstr "Войти как"
+
+msgid "MANAGE FIELDS"
+msgstr "Управление полями"
+
+msgid "Manage Data"
+msgstr "Управление данными"
+
+msgid "Manage Fields"
+msgstr "Управление полями"
+
+msgid "Manage Profiles"
+msgstr "Управление профилями"
+
+msgid "Manage fields"
+msgstr "Управление полями"
+
+msgid "Manage options"
+msgstr "Управление параметрами"
+
+msgid "Multiline text"
+msgstr "Многострочный текст"
+
+msgid "No user for now"
+msgstr "Нет пользователей сейчас"
+
+msgid "Number"
+msgstr "Количество"
+
+msgid "OK"
+msgstr "Ок"
+
+msgid "Option"
+msgstr "Опции"
+
+msgid "Page name"
+msgstr "Название страницы"
+
+msgid "Radio"
+msgstr "Радио"
+
+msgid "Recipient email"
+msgstr "email получателя"
+
+msgid "Switch View"
+msgstr "Переключить вид"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "This field is required"
+msgstr "Это поле является обязательным"
+
+msgid "Toggel Previewer"
+msgstr "Предпросмотрщик"
+
+msgid "Update History"
+msgstr "История обновлений"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "You have to choose a field type."
+msgstr "Вы должны выбрать тип поля."
+
+msgid "Your App user's new profile"
+msgstr "Новый профиль пользователя"
+
+msgid "Your App user\\'s new profile"
+msgstr "Приложение пользователя \\ новый профиль"
+
+msgid "Your new user profile has been completed"
+msgstr "Новый профиль пользователя был создан"
+
+msgid "Your new user profile has been completed."
+msgstr "Новый профиль пользователя был завершен."

@@ -1,0 +1,552 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T20:26:14+03:00\n"
+"PO-Revision-Date: 2019-06-05T20:26:14+03:00\n"
+"Language: \n"
+
+msgctxt "zend_validate"
+msgid "'%hostname%' does not appear to have a valid MX record for the email address '%value%'"
+msgstr "'%konak%' email adresi '%value%'geçerli bir MX kaydı var gibi görünmüyor"
+
+msgctxt "zend_validate"
+msgid "'%hostname%' is not a valid hostname for email address '%value%'"
+msgstr "'%konak%' email adresi '%value%'geçerli bir isim değil"
+
+msgctxt "zend_validate"
+msgid "'%hostname%' is not in a routable network segment. The email address '%value%' should not be resolved from public network"
+msgstr "'%konak%' yönlendirilebilir Ağ bir segment değil. E-posta adresi '%value%' ortak ağ üzerinden çözülmesi gerekir."
+
+msgctxt "zend_validate"
+msgid "'%localPart%' can not be matched against dot-atom format"
+msgstr "'%localPart%' nokta karşı uyumlu olamaz-atom biçimi"
+
+msgctxt "zend_validate"
+msgid "'%localPart%' can not be matched against quoted-string format"
+msgstr "'%localPart%' dize biçimi alıntı karşı uyumlu olamaz-"
+
+msgctxt "zend_validate"
+msgid "'%localPart%' is not a valid local part for email address '%value%'"
+msgstr "'%localPart%' email adresi '%value%'geçerli yerel bir parçası değildir"
+
+msgctxt "zend_validate"
+msgid "'%value%' appears to be a DNS hostname but cannot extract TLD part"
+msgstr "'%value%' görünür bir DNS ana bilgisayar adı için ancak 24 bölümünü"
+
+msgctxt "zend_validate"
+msgid "'%value%' appears to be a DNS hostname but cannot match TLD against known list"
+msgstr "'%value%' görünür bir DNS ana bilgisayar adı için ancak maç bilinen listesiyle 24"
+
+msgctxt "zend_validate"
+msgid "'%value%' appears to be a DNS hostname but cannot match against hostname schema for TLD '%tld%'"
+msgstr "'%value%' görünür 24%24%'için hostname şemayla DNS hostname ancak bir maç olacak"
+
+msgctxt "zend_validate"
+msgid "'%value%' appears to be a DNS hostname but contains a dash in an invalid position"
+msgstr "DNS hostname ama '%value%' görünür geçersiz bir pozisyonda bir çizgi içerir"
+
+msgctxt "zend_validate"
+msgid "'%value%' appears to be a DNS hostname but the given punycode notation cannot be decoded"
+msgstr "'%value%' görünür bir DNS hostname ama verilen punycode gösterim deşifre edilemez"
+
+msgctxt "zend_validate"
+msgid "'%value%' appears to be a local network name but local network names are not allowed"
+msgstr "'%value%' görünür, yerel ağ adı olabilir ama yerel ağ adları izin verilmez"
+
+msgctxt "zend_validate"
+msgid "'%value%' appears to be an IP address, but IP addresses are not allowed"
+msgstr "'%value%' görünür bir IP adresi olmak, ama IP adreslerine izin verilmez"
+
+msgctxt "zend_validate"
+msgid "'%value%' contains an invalid amount of digits"
+msgstr "'değeri %' basamak geçersiz bir miktarda içerir"
+
+msgctxt "zend_validate"
+msgid "'%value%' contains characters which are non alphabetic and no digits"
+msgstr "'%value%' olmayan harf ve rakam olmayan karakterler içeriyor"
+
+msgctxt "zend_validate"
+msgid "'%value%' contains invalid characters"
+msgstr "'%value%' geçersiz karakterler içeriyor"
+
+msgctxt "zend_validate"
+msgid "'%value%' contains non alphabetic characters"
+msgstr "'%value%' olmayan alfabetik karakterler içerir"
+
+msgctxt "zend_validate"
+msgid "'%value%' does not appear to be a float"
+msgstr "'%value%' bir şamandıra gibi görünmüyor"
+
+msgctxt "zend_validate"
+msgid "'%value%' does not appear to be a postal code"
+msgstr "'%value%' bir posta kodu görünmüyor"
+
+msgctxt "zend_validate"
+msgid "'%value%' does not appear to be a valid IP address"
+msgstr "'%value%' geçerli bir IP adresi görünmüyor"
+
+msgctxt "zend_validate"
+msgid "'%value%' does not appear to be a valid date"
+msgstr "'%value%' geçerli bir tarih görünmüyor"
+
+msgctxt "zend_validate"
+msgid "'%value%' does not appear to be a valid local network name"
+msgstr "'%value%' geçerli bir yerel ağ adı görünmüyor"
+
+msgctxt "zend_validate"
+msgid "'%value%' does not appear to be an integer"
+msgstr "'%value%' bir tamsayı görünmüyor"
+
+msgctxt "zend_validate"
+msgid "'%value%' does not fit the date format '%format%'"
+msgstr "'%value%' %format tarih biçimi '%uygun değil"
+
+msgctxt "zend_validate"
+msgid "'%value%' does not match against pattern '%pattern%'"
+msgstr "'%value%' desen '%karşı desen%eşleşmiyor'"
+
+msgctxt "zend_validate"
+msgid "'%value%' does not match the expected structure for a DNS hostname"
+msgstr "'%value%' DNS ana bilgisayar için beklenen yapı eşleşmiyor"
+
+msgctxt "zend_validate"
+msgid "'%value%' exceeds the allowed length"
+msgstr "'%value%' izin verilen uzunluğu aşıyor"
+
+msgctxt "zend_validate"
+msgid "'%value%' failed checksum validation"
+msgstr "'%value%' sağlama toplamı doğrulaması başarısız oldu"
+
+msgctxt "zend_validate"
+msgid "'%value%' has a false IBAN format"
+msgstr "'%value%' biçiminde yanlış bir IBAN vardır"
+
+msgctxt "zend_validate"
+msgid "'%value%' has failed the IBAN check"
+msgstr "'%value%' IBAN denetimi başarısız oldu"
+
+msgctxt "zend_validate"
+msgid "'%value%' has not only hexadecimal digit characters"
+msgstr "'%value%' tek haneli onaltılık karakter değil"
+
+msgctxt "zend_validate"
+msgid "'%value%' is an empty string"
+msgstr "'%value%' boş bir dize"
+
+msgctxt "zend_validate"
+msgid "'%value%' is less than %min% characters long"
+msgstr "'%value%' uzun az %min% karakterdir"
+
+msgctxt "zend_validate"
+msgid "'%value%' is more than %max% characters long"
+msgstr "'%value%' daha fazla %max% karakter uzunluğunda"
+
+msgctxt "zend_validate"
+msgid "'%value%' is not a valid ISBN number"
+msgstr "'%value%' geçerli bir ISBN numarası değil"
+
+msgctxt "zend_validate"
+msgid "'%value%' is not a valid email address in the basic format local-part@hostname"
+msgstr "'%value%' temel biçimi yerel olarak geçerli bir e-posta adresi değil-bölüm@hostname"
+
+msgctxt "zend_validate"
+msgid "'%value%' is not a valid sitemap changefreq"
+msgstr "'%value%' geçerli bir site değil changefreq"
+
+msgctxt "zend_validate"
+msgid "'%value%' is not a valid sitemap lastmod"
+msgstr "'%value%' geçerli bir site değil lastmod"
+
+msgctxt "zend_validate"
+msgid "'%value%' is not a valid sitemap location"
+msgstr "'%value%' geçerli bir site haritası bir yer değil"
+
+msgctxt "zend_validate"
+msgid "'%value%' is not a valid sitemap priority"
+msgstr "'%value%' geçerli bir site haritası bir öncelik değil"
+
+msgctxt "zend_validate"
+msgid "'%value%' is not between '%min%' and '%max%', inclusively"
+msgstr "'%value%' '%min%' ve '%max%' arasında değil, sonuçları"
+
+msgctxt "zend_validate"
+msgid "'%value%' is not from an allowed institute"
+msgstr "'%value%' izin verilen bir enstitü değil"
+
+msgctxt "zend_validate"
+msgid "'%value%' is not greater than '%min%'"
+msgstr "'%value%' '%min%'den büyük değildir"
+
+msgctxt "zend_validate"
+msgid "'%value%' is not less than '%max%'"
+msgstr "'%value%' '%max%'den daha az değildir"
+
+msgctxt "zend_validate"
+msgid "'%value%' is not strictly between '%min%' and '%max%'"
+msgstr "'%value%' kesinlikle '%min%' ve '%max%'arasında değil"
+
+msgctxt "zend_validate"
+msgid "'%value%' is not valid"
+msgstr "'%value%' geçerli değil"
+
+msgctxt "zend_validate"
+msgid "'%value%' must contain between 13 and 19 digits"
+msgstr "'%value%' 19 13 arasında bir rakam içermelidir"
+
+msgctxt "zend_validate"
+msgid "'%value%' must contain only digits"
+msgstr "'%value%' yalnızca rakam içermelidir"
+
+msgctxt "zend_validate"
+msgid "'%value%' seems to be an invalid creditcard number"
+msgstr "'%value%' geçersiz kredi kartı numarası gibi görünüyor"
+
+msgctxt "zend_validate"
+msgid "'%value%' seems to contain an invalid checksum"
+msgstr "'%value%' geçersiz bir sağlama toplamı içerir gibi görünüyor"
+
+msgctxt "zend_validate"
+msgid "'%value%' should have a length of %length% characters"
+msgstr "'%value%' %uzunluğu% karakter uzunluğunda olmalıdır"
+
+msgctxt "zend_validate"
+msgid "'%value%' was not found in the haystack"
+msgstr "'%value%' samanlıkta bulunamadı"
+
+msgid "<strong>%s</strong> is not a numerical value<br />"
+msgstr "<strong>%s</strong> rakamsal veri değil<br />"
+
+msgid "<strong>%s</strong> is not valid email address<br />"
+msgstr "<strong>%s</strong> geçerli bir e-posta adresi değil<br />"
+
+msgid "<strong>%s</strong> is required<br />"
+msgstr "<strong>%s</strong> gerekli<br />"
+
+msgid "<strong>%s</strong> must be a numerical value<br />"
+msgstr "<strong>%s</strong> rakamsal değer olmalı<br />"
+
+msgid "<strong>%s</strong> must be a valid email address<br />"
+msgstr "<strong>%s</strong> geçerli e-posta olmalı<br />"
+
+msgctxt "zend_validate"
+msgid "A PHP extension returned an error while uploading the file '%value%'"
+msgstr "Value%'dosyası '%yüklerken bir PHP uzantısı bir hata döndürdü"
+
+msgctxt "zend_validate"
+msgid "A crc32 hash could not be evaluated for the given file"
+msgstr "Crc32 karma verilen dosya için değerlendirilebilir değil"
+
+msgctxt "zend_validate"
+msgid "A hash could not be evaluated for the given file"
+msgstr "Bir karma verilen dosya için değerlendirilebilir değil"
+
+msgctxt "zend_validate"
+msgid "A md5 hash could not be evaluated for the given file"
+msgstr "Md5 bir hash verilen dosya için değerlendirilebilir değil"
+
+msgctxt "zend_validate"
+msgid "A record matching '%value%' was found"
+msgstr "'%Value%' eşleşen bir kayıt bulunamadı"
+
+msgctxt "zend_validate"
+msgid "A sha1 hash could not be evaluated for the given file"
+msgstr "Sha1 karma verilen dosya için değerlendirilebilir değil"
+
+msgid "Add a field"
+msgstr "Alan ekleme"
+
+msgid "Add a section"
+msgstr "Bölüm Ekle"
+
+msgid "Add an option"
+msgstr "Bir seçenek ekleyin"
+
+msgctxt "zend_validate"
+msgid "All files in sum should have a maximum size of '%max%' but '%size%' were detected"
+msgstr "Özetle tüm dosyaları '%max%' en büyük boyutu olmalı ama '%boyut%' tespit edildi"
+
+msgctxt "zend_validate"
+msgid "All files in sum should have a minimum size of '%min%' but '%size%' were detected"
+msgstr "Özetle tüm dosyaları '%min%' en az bir boyutu olmalı ama '%boyut%' tespit edildi"
+
+msgid "An error occurred while saving. A field can't be identified."
+msgstr "Kaydedilirken bir hata oluştu. Bir saha bulamadık."
+
+msgctxt "zend_validate"
+msgid "An exception has been raised while validating '%value%'"
+msgstr "Bir istisna doğrulama '%value%'iken çıkarılmıştır"
+
+msgctxt "zend_validate"
+msgid "An exception has been raised within the callback"
+msgstr "Bir istisna geri içinde büyütüldü"
+
+msgid "Are you sure you want to remove this field?"
+msgstr "Bu alanı kaldırmak istediğinizden emin misiniz?"
+
+msgid "Are you sure you want to remove this section?"
+msgstr "Bu bölümü silmek istediğinizden emin misiniz?"
+
+msgid "Checkbox"
+msgstr "Onay kutusu"
+
+msgid "Choose a field type:"
+msgstr "Alan türü seçin:"
+
+msgid "Create a new field"
+msgstr "Yeni bir alan oluşturun"
+
+msgid "Date/Hour"
+msgstr "Tarih/Saat"
+
+msgid "Drop down"
+msgstr "Açılır"
+
+msgid "Edit field %s"
+msgstr "Düzenleme alanının %s"
+
+msgid "Field name"
+msgstr "Alan adı"
+
+msgid "Field name:"
+msgstr "Alan adı:"
+
+msgctxt "zend_validate"
+msgid "File '%value%' can't be written"
+msgstr "Dosya '%value%' yazılabilir"
+
+msgctxt "zend_validate"
+msgid "File '%value%' does not exist"
+msgstr "Dosya '%value%' yok"
+
+msgctxt "zend_validate"
+msgid "File '%value%' does not match the given crc32 hashes"
+msgstr "Dosya '%value%' verilen crc32 sağlamalarının eşleşmiyor"
+
+msgctxt "zend_validate"
+msgid "File '%value%' does not match the given hashes"
+msgstr "Dosya '%value%' verilen karma eşleşmiyor"
+
+msgctxt "zend_validate"
+msgid "File '%value%' does not match the given md5 hashes"
+msgstr "Dosya '%value%' verilen md5 sağlamalarının eşleşmiyor"
+
+msgctxt "zend_validate"
+msgid "File '%value%' does not match the given sha1 hashes"
+msgstr "Dosya '%value%' verilen sha1 sağlamalarının eşleşmiyor"
+
+msgctxt "zend_validate"
+msgid "File '%value%' exceeds the defined form size"
+msgstr "Dosya '%value%' tanımlı form boyutunu aşıyor"
+
+msgctxt "zend_validate"
+msgid "File '%value%' exceeds the defined ini size"
+msgstr "Dosya '%value%' ini tanımlı boyutunu aşıyor"
+
+msgctxt "zend_validate"
+msgid "File '%value%' exists"
+msgstr "Dosya '%value%' var"
+
+msgctxt "zend_validate"
+msgid "File '%value%' has a false extension"
+msgstr "Dosya '%value%' yanlış bir uzantısı vardır"
+
+msgctxt "zend_validate"
+msgid "File '%value%' has a false mimetype of '%type%'"
+msgstr "Dosya '%value%' '%type%'yanlış bir mime türü vardır"
+
+msgctxt "zend_validate"
+msgid "File '%value%' is no image, '%type%' detected"
+msgstr "Dosya '%value%' görüntü yok, '%type%' tespit"
+
+msgctxt "zend_validate"
+msgid "File '%value%' is not compressed, '%type%' detected"
+msgstr "Dosya '%value%' sıkıştırılmamış '%type%' tespit"
+
+msgctxt "zend_validate"
+msgid "File '%value%' is not readable or does not exist"
+msgstr "Dosya '%value%' okunabilir değil veya yok"
+
+msgctxt "zend_validate"
+msgid "File '%value%' was illegally uploaded. This could be a possible attack"
+msgstr "Dosya '%value%' yasadışı karşıya. Bu olası bir saldırı olabilir"
+
+msgctxt "zend_validate"
+msgid "File '%value%' was not found"
+msgstr "'%Value%' dosyası bulunamadı"
+
+msgctxt "zend_validate"
+msgid "File '%value%' was not uploaded"
+msgstr "Dosya '%value%' karşıya"
+
+msgctxt "zend_validate"
+msgid "File '%value%' was only partially uploaded"
+msgstr "Dosya '%value%' yalnızca kısmen yüklenmiş"
+
+msgid "Form data will be sent to this email. Until you fill out this field, your form won't be displayed on client side."
+msgstr "Form verileri bu e-postaya gönderilecek. Bu alanı doldurana kadar, formunuz müşteri tarafında görüntülenmeyecek."
+
+msgid "Geolocation"
+msgstr "Coğrafi konum"
+
+msgid "Hello,"
+msgstr "Merhaba,"
+
+msgid "Import a picture"
+msgstr "Fotoğraf içe aktar"
+
+msgid "Import from Library"
+msgstr "Kütüphaneden aktar"
+
+msgctxt "zend_validate"
+msgid "Invalid type given. Numeric string, integer or float expected"
+msgstr "Geçersiz tür verildi. Sayısal dize, tamsayı veya kayan noktalı bekleniyor"
+
+msgctxt "zend_validate"
+msgid "Invalid type given. String expected"
+msgstr "Geçersiz tür verildi. String"
+
+msgctxt "zend_validate"
+msgid "Invalid type given. String or integer expected"
+msgstr "Geçersiz tür verildi. Dize veya tamsayı bekleniyor"
+
+msgctxt "zend_validate"
+msgid "Invalid type given. String, integer or float expected"
+msgstr "Geçersiz tür verildi. Dize, tamsayı veya kayan noktalı bekleniyor"
+
+msgctxt "zend_validate"
+msgid "Invalid type given. String, integer, array or Zend_Date expected"
+msgstr "Geçersiz tür verildi. Dize, tamsayı, Dizi veya Zend_Date bekleniyor"
+
+msgctxt "zend_validate"
+msgid "Invalid type given. String, integer, float, boolean or array expected"
+msgstr "Geçersiz tür verildi. Dize, tamsayı, kayan nokta, boolean veya dizi beklenen"
+
+msgctxt "zend_validate"
+msgid "Luhn algorithm (mod-10 checksum) failed on '%value%'"
+msgstr "(Mod-10 checksum) Luhn algoritması '%value%'başarısız oldu"
+
+msgid "Manage fields"
+msgstr "Yönet alanlar"
+
+msgid "Manage options:"
+msgstr "Seçenekler Yönet:"
+
+msgctxt "zend_validate"
+msgid "Maximum allowed height for image '%value%' should be '%maxheight%' but '%height%' detected"
+msgstr "Maksimum görüntü '%value%' yükseklik '%yukseklik%' ama '%büyüme% olmalıdır izin' tespit"
+
+msgctxt "zend_validate"
+msgid "Maximum allowed size for file '%value%' is '%max%' but '%size%' detected"
+msgstr "Maksimum dosya '%değer% boyutu' %max% 'ama' %boyut% 'olduğunu tespit izin"
+
+msgctxt "zend_validate"
+msgid "Maximum allowed width for image '%value%' should be '%maxwidth%' but '%width%' detected"
+msgstr "Maksimum görüntü '%value%' genişlik '%genislik%' olmalıdır izin ama '%eni%' tespit"
+
+msgctxt "zend_validate"
+msgid "Minimum expected height for image '%value%' should be '%minheight%' but '%height%' detected"
+msgstr "Görüntü '%value%' için Minimum beklenen yükseklik '%minheight%' olmalıdır ama '%büyüme%' tespit"
+
+msgctxt "zend_validate"
+msgid "Minimum expected size for file '%value%' is '%min%' but '%size%' detected"
+msgstr "Dosya '%değer% için Minimum beklenen boyutu' %min% 'ama' %boyut% 'olduğunu tespit"
+
+msgctxt "zend_validate"
+msgid "Minimum expected width for image '%value%' should be '%minwidth%' but '%width%' detected"
+msgstr "Görüntü '%value%' Minimum genişlik beklenen '%minwidth%' olmalıdır ama '%eni%' tespit"
+
+msgid "Multiline text"
+msgstr "Çok Satırlı Metin"
+
+msgctxt "zend_validate"
+msgid "No record matching '%value%' was found"
+msgstr "'%Value%' eşleşen hiçbir kayıt bulundu"
+
+msgctxt "zend_validate"
+msgid "No temporary directory was found for file '%value%'"
+msgstr "Geçici dizin dosyası '%değer%bulundu'"
+
+msgctxt "zend_validate"
+msgid "No token was provided to match against"
+msgstr "Hayır token maçında karşı verilmiştir"
+
+msgctxt "zend_validate"
+msgid "One or more files can not be read"
+msgstr "Bir veya daha fazla dosya okunabilir değil"
+
+msgid "Option"
+msgstr "Seçenek"
+
+msgid "Radio"
+msgstr "Radyo"
+
+msgid "Recipient email"
+msgstr "Alıcının e-postası"
+
+msgid "Recipient email:"
+msgstr "Alıcı e-posta:"
+
+msgid "Take a picture"
+msgstr "Fotoğraf çek"
+
+msgid "The form has been sent successfully"
+msgstr "Form başarıyla gönderildi"
+
+msgctxt "zend_validate"
+msgid "The mimetype of file '%value%' could not be detected"
+msgstr "Dosya '%value%' mimetype Tespit edilemedi"
+
+msgctxt "zend_validate"
+msgid "The size of image '%value%' could not be detected"
+msgstr "Görüntü '%value%' boyutunu Tespit edilemedi"
+
+msgctxt "zend_validate"
+msgid "The two given tokens do not match"
+msgstr "İki verilen belirteçleri eşleşmiyor"
+
+msgctxt "zend_validate"
+msgid "There was an internal error while using the pattern '%pattern%'"
+msgstr "Desen%desen '%kullanırken bir iç hata oluştu.'"
+
+msgctxt "zend_validate"
+msgid "Too few files, minimum '%min%' are expected but '%count%' are given"
+msgstr "Çok az dosyaları, en az '%min%' bekleniyordu ama '%sayısı%' verilir"
+
+msgctxt "zend_validate"
+msgid "Too less words, minimum '%min%' are expected but '%count%' were counted"
+msgstr "Çok az kelime, en az '%min%' bekleniyordu ama '%sayısı%' sayıldı"
+
+msgctxt "zend_validate"
+msgid "Too many files, maximum '%max%' are allowed but '%count%' are given"
+msgstr "Çok fazla dosya, en fazla '%max%' izin ama '%sayısı%' verilir"
+
+msgctxt "zend_validate"
+msgid "Too much words, maximum '%max%' are allowed but '%count%' were counted"
+msgstr "Çok fazla kelime, en fazla '%max%' izin ama '%sayısı%' sayıldı"
+
+msgctxt "zend_validate"
+msgid "Unknown country within the IBAN '%value%'"
+msgstr "Bilinmeyen ülkelere IBAN '%değer%içinde'"
+
+msgctxt "zend_validate"
+msgid "Unknown error while uploading file '%value%'"
+msgstr "Bilinmeyen hata yükleme dosyası '%değer%iken'"
+
+msgctxt "zend_validate"
+msgid "Value is required and can't be empty"
+msgstr "Değer gereklidir ve boş olamaz"
+
+msgid "You have to choose a field type."
+msgstr "Alan türü seçmek zorundasınız."
+
+msgid "Your app's form"
+msgstr "Uygulamanızın form"
+
+msgid "Your form has been filled out, here are the answers:"
+msgstr "Formunuz dolduruldu, cevaplar burda:"

@@ -1,0 +1,11 @@
+{
+  "name": "Cms",
+  "description": "",
+  "version": "4.16.7",
+  "dependencies": {
+    "system": {
+      "type": "PE",
+      "version": "1.0"
+    }
+  }
+}

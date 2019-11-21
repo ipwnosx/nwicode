@@ -1,0 +1,13 @@
+<ion-card class="list" style="--background:{{current.cardcustomcolor}} !important;"
+    ng-if="(current.showCover || current.showTitle)"
+    ng-show="!is_loading && current && !search.searchValue">
+    <div class="item item-image item-custom" style="background-color:{{current.cardcustomcolor}} !important;"
+        ng-if="current.showCover && current.picture">
+        <img ng-src="{{ imagePath(current.picture) }}" />
+    </div>
+    <div ng-if="current.showTitle"
+        class="item item-custom" style="background-color:{{current.cardcustomcolor}} !important;">
+        <h2>{{ current.title }}</h2>
+        <p ng-if="current.subtitle">{{ current.subtitle }}</p>
+    </div>
+</ion-card>

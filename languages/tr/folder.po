@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T20:25:06+03:00\n"
+"PO-Revision-Date: 2019-06-05T20:25:06+03:00\n"
+"Language: \n"
+
+msgid "Add a page"
+msgstr "Bir sayfa Ekle"
+
+msgid "Add feature"
+msgstr "Özellik ekle"
+
+msgid "Allow line return in Title & Subtitles"
+msgstr "Başlık & Altyazıları izin ver çizgi dönüş"
+
+msgid "By checking this, a search field will appear in your folder feature"
+msgstr "Bununla birlikte klasörünüzde bir arama alanı görünecektir."
+
+msgid "Cancel"
+msgstr "İptal et"
+
+msgid "Click on"
+msgstr "Tıklayın"
+
+msgid "Click on a feature to add it to the folder"
+msgstr "Klasöre eklemek için özelliğe tıklayın"
+
+msgid "Click on a page to add it to the folder"
+msgstr "Tıklayın bir sayfaya klasör eklemek için"
+
+msgid "Click on a page to add it to the folder <span id=\"folder_name\" class=\"folder_name\">\"%s\"</span>"
+msgstr "Klasöre eklemek için bir sayfaya tıklayın <span id=\"folder_name\" class=\"folder_name\">\"%s\"</span>"
+
+msgid "Click on a page to add it to the folder <span id='folder_name' class='folder_name'>%s</span>"
+msgstr "<Span id='klasör_adı' class='klasör_adı'>%s</span> klasörüne eklemek için bir sayfaya tıklayın."
+
+msgid "Close mobile display"
+msgstr "Yakın mobil ekran"
+
+msgid "Delete this folder and all its subfolders?"
+msgstr "Bu klasörü ve tüm alt klasörlerini sil."
+
+msgid "Edit folder"
+msgstr "Klasörü düzenle"
+
+msgid "Enable search in folders"
+msgstr "Klasörlerde aramaya izin ver"
+
+msgid "Folder title is required"
+msgstr "Klasör adı gereklidir"
+
+msgid "Folders"
+msgstr "Klasörler"
+
+msgid "Inherit global layout"
+msgstr "Genel layout'u al"
+
+msgid "Mobile display"
+msgstr "Mobil ekran"
+
+msgid "New folder"
+msgstr "Yeni Klasör"
+
+msgid "No results for your request."
+msgstr "Yeni talebiniz için sonuç yok."
+
+msgid "Override layout"
+msgstr "Layout'u geçersiz yap"
+
+msgid "Search results"
+msgstr "Sonuçları ara"
+
+msgid "Show cover"
+msgstr "Kapağı göster"
+
+msgid "Show search field"
+msgstr "Arama alanını göster"
+
+msgid "Show title"
+msgstr "Başlığı göster"
+
+msgid "Subtitle"
+msgstr "Altyazı"
+
+msgid "Thumbnail"
+msgstr "Küçük resim"
+
+msgid "Use card design"
+msgstr "Kullanım kart tasarımı"
+
+msgid "You cannot add this feature"
+msgstr "Bu özellik ekleyemezsiniz"
+
+msgid "You must first complete the current category creation process"
+msgstr "Gerekir ilk akım kategori oluşturma işlemini tamamladıktan"
+
+msgid "You will lose all unsaved changes, continue?"
+msgstr "Kaydedilmemiş tüm değişiklikleri kaybetmek, devam edecek misin?"
+
+msgid "to add a folder."
+msgstr "bir klasör eklemek için."

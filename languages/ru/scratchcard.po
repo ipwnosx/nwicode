@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-15T14:54:11+03:00\n"
+"PO-Revision-Date: 2019-07-15T14:54:11+03:00\n"
+"Language: \n"
+
+msgid "(you'll be able to remove this card later)"
+msgstr "(ты сможешь удалить ее позже)"
+
+msgid "A player can play again?"
+msgstr "Пользователь сможет сыграть снова?"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "All winners on your scratch card have been found"
+msgstr "Все победители на вашей скретч-карте были найдены"
+
+msgid "An error occurred while saving your scratch card. Please try again later."
+msgstr "Произошла ошибка при сохранение скретч-карты"
+
+msgid "Application: %s, scratchcard: %s"
+msgstr "Приложения: %s картами: %s"
+
+msgid "Card name"
+msgstr "Название карты"
+
+msgid "Create a new Scratch-Card"
+msgstr "Создать новые скретч-карты"
+
+msgid "Current card"
+msgstr "Текущая карта"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Editing"
+msgstr "Редактирование"
+
+msgid "Email for notification"
+msgstr "Email для уведомлений"
+
+msgid "Employee's name"
+msgstr "Имя сотрудника"
+
+msgid "Employee's password"
+msgstr "Пароль сотрудника"
+
+msgid "End date:"
+msgstr "Дата окончания:"
+
+msgid "Error while creating your reward. Sorry for the inconvenience."
+msgstr "Ошибка при создании вознаграждения."
+
+msgid "Error while validating reward."
+msgstr "Ошибка при активации награды."
+
+msgid "Game configuration"
+msgstr "Конфигурация игры"
+
+msgid "Hello, %s has won on your scratchcard!"
+msgstr "Здравствуйте, %s победил по скретч-карте!"
+
+msgid "Hello, maximum winner limit has been reached on your scratch card."
+msgstr "Здравствуйте, достигнут максимальный предел победителей по скретч-карте."
+
+msgid "Log in to scratch your card!"
+msgstr "Авторизуйтесь"
+
+msgid "Loser pop-up"
+msgstr "Всплывающее окошко при проигрыше"
+
+msgid "Manage"
+msgstr "Управление"
+
+msgid "Maximum points"
+msgstr "Максимальное количество очков"
+
+msgid "Maximum winner count"
+msgstr "Максимальное число победителей"
+
+msgid "Minimum points"
+msgstr "Минимальные баллы"
+
+msgid "My new scratch card"
+msgstr "Новая скретч-карта"
+
+msgid "My passwords"
+msgstr "Мои пароли"
+
+msgid "My scratchcard is in portrait mode"
+msgstr "Режим \"портрет\" на экране"
+
+msgid "New winner on your scratch card"
+msgstr "Новый победитель по скретч-карте"
+
+msgid "No cards for now."
+msgstr "Нет пока карт"
+
+msgid "Or unlimited"
+msgstr "Режим безлимит"
+
+msgid "Passwords"
+msgstr "Пароли"
+
+msgid "Picture"
+msgstr "Фото"
+
+msgid "Picture foreground"
+msgstr "Фото для стирания"
+
+msgid "Picture loser"
+msgstr "Фото  при проигрыше"
+
+msgid "Picture winner"
+msgstr "Фото  при победе"
+
+msgid "Previous cards"
+msgstr "Предыдущие карты"
+
+msgid "Reward"
+msgstr "Награда"
+
+msgid "Reward description"
+msgstr "Описание награждения"
+
+msgid "Reward name"
+msgstr "Название награды"
+
+msgid "Reward successfully validated."
+msgstr "Награда активирована успешно!"
+
+msgid "Scratch Card"
+msgstr "Скретч Карта"
+
+msgid "Scratch Cards"
+msgstr "Скретч-Карты"
+
+msgid "Scratchcard"
+msgstr "Скретч карта"
+
+msgid "Scratchcard points?"
+msgstr "Очки лотереи?"
+
+msgid "Set up your rate in Settings > Advanced section"
+msgstr "Настройте свой тариф в Настройки > дополнительно в разделе"
+
+msgid "Sorry!"
+msgstr "Жаль!"
+
+msgid "Sorry, but all winners for this card have been found."
+msgstr "Нам жаль, но все победители для этой карты были определены."
+
+msgid "Sorry, but the maximum number of winners for this card has been reached. Come back for the next game!"
+msgstr "Ой. превышена количество победителей на эту карту/ До следующей игры"
+
+msgid "Sorry, wrong password. Please try again."
+msgstr "Не верный пароль. Попробуй еще раз"
+
+msgid "This card is uniq:"
+msgstr "Эта карта уник:"
+
+msgid "Title"
+msgstr "Заголовок"
+
+msgid "Win percentage must be greater than zero."
+msgstr "Процент побед должен быть больше, чем ноль."
+
+msgid "Win percentage:"
+msgstr "Процент побед:"
+
+msgid "Winner count so far"
+msgstr "Победы на данный момент"
+
+msgid "Winner pop-up"
+msgstr "Всплывающее окошко при победе"
+
+msgid "Winning chance percentage (by card)"
+msgstr "Шанс на победу в процентах (по карте)"
+
+msgid "You have already used your daily limit for this card. Come back tomorrow!"
+msgstr "Увы, превышен дневной лимит карты. Ждем Вас завтра!"
+
+msgid "You must be logged in to validate rewards"
+msgstr "Вы должны авторизоваться для активации награды"
+
+msgid "Your scratch card has been deleted successfully."
+msgstr "Скретч-карта была успешно удалена"
+
+msgid "Your scratch card has been saved successfully."
+msgstr "Ваша скретч-карта сохранена"
+
+msgid "you'll be able to remove this card later"
+msgstr "вы сможете удалить эту карту позже"

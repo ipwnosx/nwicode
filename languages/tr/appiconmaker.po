@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-01-21T06:04:04+03:00\n"
+"PO-Revision-Date: 2019-01-21T06:04:04+03:00\n"
+"Language: \n"
+
+msgid "App Icon Maker"
+msgstr "Uygulama Simgesi Oluşturucu"
+
+msgid "Are you sure?"
+msgstr "Emin misin?"
+
+msgid "Background color"
+msgstr "Arka plan rengi"
+
+msgid "Cancel"
+msgstr "İptal et"
+
+msgid "Cast shadow"
+msgstr "Gölge düşürecek"
+
+msgid "Center"
+msgstr "Merkezi"
+
+msgid "Clipart"
+msgstr "Küçük resim"
+
+msgid "Color"
+msgstr "Renk"
+
+msgid "Crop"
+msgstr "Ürün"
+
+msgid "Don't trim"
+msgstr "Hiç döşeme yok"
+
+msgid "Effect"
+msgstr "Etkisi"
+
+msgid "Elevate"
+msgstr "Yükseltmek"
+
+msgid "Font"
+msgstr "Yazı tipi"
+
+msgid "Foreground"
+msgstr "Ön"
+
+msgid "From fonts.google.com"
+msgstr "google.com gelen Fontlar"
+
+msgid "Image"
+msgstr "Resim"
+
+msgid "Name"
+msgstr "Adı"
+
+msgid "None"
+msgstr "YOK"
+
+msgid "Padding"
+msgstr "Doldurma"
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Scaling"
+msgstr "Ölçekleme"
+
+msgid "Score"
+msgstr "Puan"
+
+msgid "Set to transparent to use original colors"
+msgstr "Orijinal renkleri kullanmak için saydam olarak ayarlayın"
+
+msgid "Shape"
+msgstr "Şekil"
+
+msgid "Text"
+msgstr "Metin"
+
+msgid "Trim"
+msgstr "Kesim"
+
+msgid "Trim whitespace"
+msgstr "Döşeme boşluk"
+
+msgid "Yes, save changes!"
+msgstr "Evet, değişiklikleri Kaydet."
+
+msgid "Your starup images and Icons will be replaced with changes."
+msgstr "Başlangıç görüntüleri ve Başlangıç ikonu değiştirilecektir."

@@ -1,0 +1,5 @@
+<?php
+	if(!isset($this->layout()->params)){throw new Exception(__('An error occurred during the process. Please try again later.')); }
+	$params = $this->layout()->params;
+	include($_SERVER['DOCUMENT_ROOT']. '/app/local/modules/'. $params['parameter'] . '/assets/payment_form.phtml');
+?>

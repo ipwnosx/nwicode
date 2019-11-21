@@ -1,0 +1,85 @@
+<?php
+$store = $this->getStore();
+$method = $store->getPaymentMethod('walletmcommerce');
+$methodId = $method->getId();
+$methodInstance = $method->getInstance();
+if ($store->getId()) $methodInstance->find($store->getId(),'store_id');
+?>
+
+<div class="form-group walletmcommerce_data">
+    <div class="col-sm-3">
+        <label for="walletmcommerce_intro_text">
+            <?php echo __("Intro text"); ?> <span>*</span>
+        </label>
+    </div>
+    <div class="col-sm-5">
+        <textarea
+               id="walletmcommerce_intro_text"
+               class="input-flat required"
+               name="details_payment_methods[<?php echo $this->getMethodId(); ?>][intro_text]"
+               placeholder="<?php echo __("Intro text"); ?>"><?php echo $methodInstance->getIntroText(); ?></textarea>
+    </div>
+</div>
+<div class="form-group walletmcommerce_data">
+    <div class="col-sm-3">
+        <label for="walletmcommerce_complete_text">
+            <?php echo __("Complete text"); ?> <span>*</span>
+        </label>
+    </div>
+    <div class="col-sm-5">
+        <textarea
+               id="walletmcommerce_complete_text"
+               class="input-flat required"
+               name="details_payment_methods[<?php echo $this->getMethodId(); ?>][complete_text]"
+               placeholder="<?php echo __("Complete text"); ?>"><?php echo $methodInstance->getCompleteText(); ?></textarea>
+    </div>
+</div>
+<div class="form-group walletmcommerce_data">
+    <div class="col-sm-3">
+        <label for="walletmcommerce_cancel_text">
+            <?php echo __("Status after payment"); ?> <span>*</span>
+        </label>
+    </div>
+    <div class="col-sm-5">
+                        <select name="details_payment_methods[<?php echo $this->getMethodId(); ?>][status_after_pay]" id="status_after_pay" class="form-control styled-select color-blue">
+                            <option value="2" <?php if($methodInstance->getStatusAfterPay() == '2') echo 'selected' ?>><?php echo __("Paid"); ?></option>
+                            <option value="3" <?php if($methodInstance->getStatusAfterPay() == '3') echo 'selected' ?>><?php echo __("Complete"); ?></option>
+                        </select>
+    </div>
+</div>
+<div class="form-group walletmcommerce_data">
+    <div class="col-sm-3">
+        <label for="walletmcommerce_cancel_text">
+            <?php echo __("Cancel text"); ?> <span>*</span>
+        </label>
+    </div>
+    <div class="col-sm-5">
+        <textarea
+               id="walletmcommerce_cancel_text"
+               class="input-flat required"
+               name="details_payment_methods[<?php echo $this->getMethodId(); ?>][cancel_text]"
+               placeholder="<?php echo __("Cancel text"); ?>"><?php echo $methodInstance->getCancelText(); ?></textarea>
+    </div>
+</div>
+
+<div class="form-group walletmcommerce_data">
+    <div class="col-sm-3">
+        <label for="walletmcommerce_title">
+            <?php echo __("Title"); ?> <span>*</span>
+        </label>
+    </div>
+    <div class="col-sm-5">
+        <input type="text"
+               id="walletmcommerce_title"
+               class="input-flat required"
+               name="details_payment_methods[<?php echo $this->getMethodId(); ?>][title]"
+               value="<?php echo $methodInstance->getTitle(); ?>"
+               placeholder="<?php echo __("Title"); ?>" />
+    </div>	
+</div>
+
+<script>
+$('#walletmcommerce_cancel_text').ckeditor(ckeditor_config.default);
+$('#walletmcommerce_complete_text').ckeditor(ckeditor_config.default);
+$('#walletmcommerce_intro_text').ckeditor(ckeditor_config.default);
+</script>

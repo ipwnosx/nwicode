@@ -1,0 +1,393 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-17T21:40:19+03:00\n"
+"PO-Revision-Date: 2019-06-17T21:40:19+03:00\n"
+"Language: \n"
+
+msgid "1 Point"
+msgstr "1 балл"
+
+msgid "4-digit pincode"
+msgstr "4-значный пинкод"
+
+msgid "AVERAGE NUMBER OF VISITS"
+msgstr "СРЕДНЕЕ КОЛИЧЕСТВО ПОСЕЩЕНИЙ"
+
+msgid "AVERAGE VALIDATED POINTS PER CUSTOMER"
+msgstr "СРЕДНЯЯ ПОДТВЕРЖДЕНО ОЧКОВ ЗА КЛИЕНТА"
+
+msgid "AVERAGE VALIDATED POINTS PER EMPLOYEE"
+msgstr "СРЕДНЯЯ ПОДТВЕРЖДЕНО ОЧКОВ ЗА РАБОТНИКА"
+
+msgid "Action"
+msgstr "Действие"
+
+msgid "Active Card"
+msgstr "Активная Карта"
+
+msgid "Active Reward"
+msgstr "Активная награда"
+
+msgid "An error occurred while redeem the reward. Please try again later."
+msgstr "Произошла ошибка при активации награды. Пожалуйста, попробуйте снова позже."
+
+msgid "An error occurred while retrieving QRCode. Please try again later"
+msgstr "Произошла ошибка при получении QR-кода. Пожалуйста, попробуйте снова позже"
+
+msgid "An error occurred while saving the pincode. Please try again later"
+msgstr "Произошла ошибка при сохранении пинкода. Пожалуйста, попробуйте снова позже"
+
+msgid "An error occurred while validating point. Please try again later."
+msgstr "Произошла ошибка при проверке точки. Пожалуйста, попробуйте снова позже."
+
+msgid "An error occurred with your QRCode."
+msgstr "Произошла ошибка с вашим QR-кодом."
+
+msgid "Card name"
+msgstr "Имя карты"
+
+msgid "Check Coupons"
+msgstr "Проверить купоны"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Coupons"
+msgstr "Купоны"
+
+msgid "Cover Image"
+msgstr "Обложка"
+
+msgid "Current card"
+msgstr "Текущая карта"
+
+msgid "Customer Name"
+msgstr "Имя Клиента"
+
+msgid "Customer data"
+msgstr "Данные клиента"
+
+msgid "DESIGN"
+msgstr "Дизайн"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Default Active Reward Image"
+msgstr "Активный - изображение вознаграждение"
+
+msgid "Default Inactive Reward Image"
+msgstr "Не активное вознаграждение - изображение"
+
+msgid "Delete this pincode?"
+msgstr "Удалить этот пинкод?"
+
+msgid "E-Mail"
+msgstr "E-mail"
+
+msgid "ESTIMATE TOTAL REVENUE"
+msgstr "ОЦЕНКА ОБЩЕЙ ВЫРУЧКИ"
+
+msgid "Edit Reward"
+msgstr "Редактировать награду"
+
+msgid "Employee"
+msgstr "Сотрудник"
+
+msgid "Employee's name"
+msgstr "Имя сотрудника"
+
+msgid "Employee's pincode"
+msgstr "Пинкод работника"
+
+msgid "Employee\\'s name"
+msgstr "Имя работника"
+
+msgid "Expires in"
+msgstr "Действует до"
+
+msgid "Expiry in days"
+msgstr "Срока в днях"
+
+msgid "Filter metrics"
+msgstr "Метрика"
+
+msgid "For each"
+msgstr "Для каждого"
+
+msgid "From"
+msgstr "От"
+
+msgid "Home"
+msgstr "Главная"
+
+msgid "Import sales from Commerce Module"
+msgstr "Импорт продаж из модуля коммерции"
+
+msgid "Inactive Reward"
+msgstr "Неактивные награды"
+
+msgid "Loading ..."
+msgstr "Загрузка ..."
+
+msgid "Loyalty Cards"
+msgstr "карты лояльности"
+
+msgid "Loyalty Control"
+msgstr "Контроль лояльности"
+
+msgid "Most loyal customers"
+msgstr "Самые лояльные клиенты"
+
+msgid "My Coupons"
+msgstr "Мои купоны"
+
+msgid "Name"
+msgstr "Название"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "No data for this metrics for now."
+msgstr "Нет данных для этой метрики."
+
+msgid "Number of points"
+msgstr "Количество очков"
+
+msgid "Number of points to redeem reward"
+msgstr "Количество очков, чтобы выкупить награды"
+
+msgid "Number of points to validate"
+msgstr "Количество точек для проверки"
+
+msgid "Number of visits"
+msgstr "Количество посещений"
+
+msgid "OK"
+msgstr "Ок"
+
+msgid "Options"
+msgstr "Варианты"
+
+msgid "POINTS"
+msgstr "очки"
+
+msgid "Pincode"
+msgstr "Пинкод"
+
+msgid "Please enter a name"
+msgstr "Пожалуйста, введите имя"
+
+msgid "Please give this to the store attendant to redeem this coupon"
+msgstr "Пожалуйста, передайте это работником магазина, чтобы использовать этот купон"
+
+msgid "Please insert estimate worth of 1 point. This amount will be used in the reporting to estimate sales. For $10.50, please type 10.50"
+msgstr "Пожалуйста, вставьте расчёт стоимости за 1 очко. Эта сумма будет использована в отчетности для оценки продаж. За 10.50 руб, пожалуйста, введите 10.50"
+
+msgid "Please set another pincode, the one you select is already used by another employee"
+msgstr "Пожалуйста, установите другой пинкод, вы выбрали один уже используется другой сотрудник"
+
+msgid "Please setup your pincode first to validate."
+msgstr "Пожалуйста, установите первый пин-код для проверки."
+
+msgid "Point%s successfully validated"
+msgstr "Очки%s успешно проверены"
+
+msgid "Points"
+msgstr "очки"
+
+msgid "Points Remaining"
+msgstr "Оставшиеся очки"
+
+msgid "Previous cards"
+msgstr "Предыдущие карты"
+
+msgid "REDEEM"
+msgstr "Выкупить"
+
+msgid "REDEEMED"
+msgstr "ВЫКУПАЕТСЯ"
+
+msgid "Reward Description"
+msgstr "Описание о награде"
+
+msgid "Reward Name"
+msgstr "Название Награды"
+
+msgid "Reward disabled"
+msgstr "Награды отключены"
+
+msgid "Reward enabled"
+msgstr "Вознаграждение включено"
+
+msgid "Rewards"
+msgstr "награды"
+
+msgid "Rewards Redeemed"
+msgstr "Награды, полученные"
+
+msgid "Rewards used"
+msgstr "Используемые вознаграждения"
+
+msgid "STAMP"
+msgstr "Штамп"
+
+msgid "Search:"
+msgstr "Поиск:"
+
+msgid "Start date must be lower than end date."
+msgstr "Дата начала должна быть меньше даты окончания."
+
+msgid "Success."
+msgstr "Успешно"
+
+msgid "TOTAL ESTIMATED REVENUE"
+msgstr "ОБЩАЯ ОЦЕНОЧНАЯ КОМПАНИЯ"
+
+msgid "TOTAL NUMBER OF VISITS"
+msgstr "ОБЩЕЕ КОЛИЧЕСТВО ПОСЕЩЕНИЙ"
+
+msgid "TOTAL POINTS VALIDATED"
+msgstr "ОБЩЕЕ КОЛИЧЕСТВО ОЧКОВ ПРОВЕРЕН"
+
+msgid "TOTAL REWARDS REDEEMED"
+msgstr "ОБЩАЯ ВОЗНАГРАЖДЕНИЙ, ПОЛУЧЕННЫХ"
+
+msgid "TOTAL VALIDATED POINTS"
+msgstr "ОБЩАЯ ПРОВЕРЕННЫХ ОЧКОВ"
+
+msgid "TOTAL VALIDATED REWARDS"
+msgstr "ОБЩАЯ ПРОВЕРЕННЫЕ НАГРАДЫ"
+
+msgid "Term & Conditions"
+msgstr "Правило и условия"
+
+msgid "The card you are trying to update isn't exists."
+msgstr "Карта, которую вы пытаетесь обновить, не существует."
+
+msgid "The reward you are trying to edit isn't exists."
+msgstr "Награда, которую вы пытаетесь изменить, не существует."
+
+msgid "This card is uniq:"
+msgstr "Эта карта уник:"
+
+msgid "Unauthorised user."
+msgstr "Неавторизованный пользователь."
+
+msgid "Use coupon"
+msgstr "Использовать купон"
+
+msgid "Use only once?"
+msgstr "Использовать только один раз?"
+
+msgid "Used Coupons"
+msgstr "Использованные"
+
+msgid "Validate 1 point only"
+msgstr "Проверьте 1 пункт"
+
+msgid "Validated Points"
+msgstr "Проверенные очки"
+
+msgid "Validated points by Employee"
+msgstr "Проверенные очки работником"
+
+msgid "Validated points by Loyalty card Analytics"
+msgstr "Проверенные очки, карты лояльности аналитика"
+
+msgid "Wrong pincode."
+msgstr "Неправильный пинкод."
+
+msgid "Wrong pincode. Be carefull! %d remaining attempt%s before locking your card. Ask the store person for validating your point"
+msgstr "Неправильный пинкод. Будьте осторожны! %d остальные попытки%s до блокировки вашей карты. Спросите в магазине человека для проверки вашей точки"
+
+msgid "Wrong pincode.<br />Be carefull! %d remaining attempt%s before locking your card.<br /> Ask the store person for validating your point"
+msgstr "Неправильный пинкод.<br />и будьте осторожны! %d остальные попытки%s до блокировки вашей карты.<br /> вы спросите в магазине человека для проверки вашей точки"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "You have exceeded the number of attempts to validate points. Your card is locked for 24h"
+msgstr "Вы превысили количество попыток для проверки очков. Ваша карта будет заблокирована на 24 часа"
+
+msgid "You have to chose a start and an end date."
+msgstr "Вы должны выбрать начальную и конечную дату."
+
+msgid "You haven\\'t reached the reward\\'s points. Please try after achive the required points."
+msgstr "Вы не достигли очков награды. Попробуйте собрать необходимые очки."
+
+msgid "You just finished your card"
+msgstr "Вы только что использовали Вашу карту"
+
+msgid "You just redeem your reward"
+msgstr "Вы можете забрать награду"
+
+msgid "You must be logged in to validate points"
+msgstr "Вы должны войти в систему для проверки очков"
+
+msgid "Your loyalty card has been saved successfully"
+msgstr "Ваша карта лояльности успешно сохранена"
+
+msgid "Your pincode must be 4 digits"
+msgstr "Пин-код должен быть 4 цифры"
+
+msgid "Your reward has been saved successfully"
+msgstr "Ваша награда успешно сохранена"
+
+msgid "add cards"
+msgstr "добавить карты"
+
+msgid "add new card"
+msgstr "добавить новую карту"
+
+msgid "add new rewards"
+msgstr "добавить новые награды"
+
+msgid "convert"
+msgstr "преобразования"
+
+msgid "days"
+msgstr "дней"
+
+msgid "days validity"
+msgstr "дней действия"
+
+msgid "employees"
+msgstr "сотрудники"
+
+msgid "log visit successfully"
+msgstr "журнал посещений"
+
+msgid "log visit unsuccessfull"
+msgstr "лог неудачных входов"
+
+msgid "loyalty cards"
+msgstr "карты лояльности"
+
+msgid "manage"
+msgstr "Управление"
+
+msgid "manual validation"
+msgstr "ручная проверка"
+
+msgid "point"
+msgstr "очко"
+
+msgid "points"
+msgstr "Баллы"
+
+msgid "rewards"
+msgstr "награды"
+
+msgid "to"
+msgstr "для"
+
+msgid "validation"
+msgstr "Проверка"

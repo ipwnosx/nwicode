@@ -1,0 +1,84 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-01-21T07:21:56+03:00\n"
+"PO-Revision-Date: 2019-01-21T07:21:56+03:00\n"
+"Language: \n"
+
+msgid "Background Color"
+msgstr "Arka plan rengi"
+
+msgid "Choose Navigation App"
+msgstr "Navigasyon Uygulaması Seçin"
+
+msgid "Current location not found.Please make sure GPS is enabled."
+msgstr "Geçerli konumu bulunamadı.Lütfen emin olun GPS etkinleştirildi."
+
+msgid "Data Source"
+msgstr "Veri Kaynağı"
+
+msgid "Default Icon Url"
+msgstr "Varsayılan Simge Url"
+
+msgid "Font Color"
+msgstr "Yazı Tipi Rengi"
+
+msgid "Google Maps"
+msgstr "Google Maps"
+
+msgid "Hide Label"
+msgstr "Etiket Gizle"
+
+msgid "Maps Navigation"
+msgstr "Haritalar Navigasyon"
+
+msgid "Navigating"
+msgstr "Gezinme"
+
+msgid "Nearby Places"
+msgstr "Yerler"
+
+msgid "No"
+msgstr "HAYIR"
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Select Awesome Form"
+msgstr "Müthiş Bir Form Seçin"
+
+msgid "Select Field"
+msgstr "Alanı Seçin"
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgid "Show Label"
+msgstr "Etiket Göster"
+
+msgid "Waze App"
+msgstr "Waze Uygulaması"
+
+msgid "Yes"
+msgstr "EVET"
+
+msgid "You are here"
+msgstr "Buradasın"
+
+msgid "description"
+msgstr "Açıklama"
+
+msgid "http://mysite/icon.png"
+msgstr "http://mysite/icon.png"
+
+msgid "picture"
+msgstr "Resim"
+
+msgid "title"
+msgstr "Başlık"

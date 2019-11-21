@@ -1,0 +1,11 @@
+{
+  "name": "Template",
+  "description": "",
+  "version": "4.17.3",
+  "dependencies": {
+    "system": {
+      "type": "SAE",
+      "version": "1.0"
+    }
+  }
+}

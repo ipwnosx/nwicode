@@ -1,0 +1,8 @@
+{
+    "name": "WalletYandexPS",
+    "description": "Yandex payment module for Wallet",
+    "type": "module",
+    "version": "1.0.1",
+    "dependencies": {
+    }
+}

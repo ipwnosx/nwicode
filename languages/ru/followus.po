@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-04-29T19:44:50+03:00\n"
+"PO-Revision-Date: 2019-04-29T19:44:50+03:00\n"
+"Language: \n"
+
+msgid "Color"
+msgstr "Цвет"
+
+msgid "Columns"
+msgstr "Столбцы"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Design type"
+msgstr "Тип отображения"
+
+msgid "Follow Us page"
+msgstr "Следуйте за нами страницы"
+
+msgid "Icon"
+msgstr "Значок"
+
+msgid "Icon size"
+msgstr "Размер иконы"
+
+msgid "Links"
+msgstr "Ссылки"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Settings"
+msgstr "Параметры"
+
+msgid "Shape color"
+msgstr "Цвет формы"
+
+msgid "Text bottom"
+msgstr "Нижний текст"
+
+msgid "Text color"
+msgstr "Цвет Текста"
+
+msgid "Text up"
+msgstr "Текст"
+
+msgid "Title"
+msgstr "Название"
+
+msgid "Transparent background"
+msgstr "Прозрачный фон"
+
+msgid "Url"
+msgstr "URL-адрес"

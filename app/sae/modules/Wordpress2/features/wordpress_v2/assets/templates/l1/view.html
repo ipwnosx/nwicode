@@ -1,0 +1,25 @@
+<ion-view sb-page-background
+          class="module-wordpress2 wordpress2-layout1 wordpress2-view">
+    <ion-nav-title ng-bind-html="page_title"></ion-nav-title>
+    <ion-content>
+
+        <ion-card ng-if="post">
+            <img ng-if="post.picture" ng-src="{{ post.picture }}" />
+            <ion-card-header ng-if="post.title">
+                    <ion-card-title ng-bind-html="post.title"></ion-card-title>
+                    <ion-card-subtitle ng-if="post.mtDate">{{ post.mtDate }}</ion-card-subtitle>
+            </ion-card-header>
+          
+            <ion-card-content ng-if="post.content" ng-bind-html="post.content | trusted_html" sb-a-click>
+
+            </ion-card-content>
+        </ion-card> 
+
+        <ion-card  ng-if="!post">
+            <ion-card-content>
+                        {{ "No item found" | translate }}
+                </ion-card-content>
+        </ion-card> 
+ 
+    </ion-content>
+</ion-view>

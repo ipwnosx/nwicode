@@ -1,0 +1,701 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-30T08:47:37+03:00\n"
+"PO-Revision-Date: 2019-06-30T08:47:37+03:00\n"
+"Language: \n"
+
+# GMT 1559644710.842
+msgctxt "zend_validate"
+msgid "'%hostname%' does not appear to have a valid MX record for the email address '%value%'"
+msgstr "'%имя%' не является допустимым MX-записи на адрес электронной почты '%значение%'"
+
+# GMT 1559644710.8385
+msgctxt "zend_validate"
+msgid "'%hostname%' is not a valid hostname for email address '%value%'"
+msgstr "'%имя%' не является допустимым именем хоста на адрес электронной почты '%значение%'"
+
+# GMT 1559644710.8463
+msgctxt "zend_validate"
+msgid "'%hostname%' is not in a routable network segment. The email address '%value%' should not be resolved from public network"
+msgstr "'%имя%' не сетевой сегмент маршрутизации. Адрес электронной почты '%значение%' не должны решаться с публичной сети"
+
+# GMT 1559644710.8506
+msgctxt "zend_validate"
+msgid "'%localPart%' can not be matched against dot-atom format"
+msgstr "'%localPart%' не может быть противопоставлена точка-атом формате"
+
+# GMT 1559644710.855
+msgctxt "zend_validate"
+msgid "'%localPart%' can not be matched against quoted-string format"
+msgstr "'%localPart% не могут быть сопоставлены в кавычках строку формата"
+
+# GMT 1559644710.8593
+msgctxt "zend_validate"
+msgid "'%localPart%' is not a valid local part for email address '%value%'"
+msgstr "'%localPart%' не является действительным локальной части на электронный адрес '%значение%'"
+
+# GMT 1559644711.0686
+msgctxt "zend_validate"
+msgid "'%value%' appears to be a DNS hostname but cannot extract TLD part"
+msgstr "появится символ '%значение%', чтобы быть DNS-имя хоста, но не может извлечь дву части"
+
+# GMT 1559644711.0566
+msgctxt "zend_validate"
+msgid "'%value%' appears to be a DNS hostname but cannot match TLD against known list"
+msgstr "появится символ '%значение%', чтобы быть DNS-имя хоста, но не может сопоставить дву от известных список"
+
+# GMT 1559644711.0651
+msgctxt "zend_validate"
+msgid "'%value%' appears to be a DNS hostname but cannot match against hostname schema for TLD '%tld%'"
+msgstr "'%значение%', как представляется, быть DNS-имя хоста, но не в матче с узла схемы на дву '%дву%'"
+
+# GMT 1559644711.0609
+msgctxt "zend_validate"
+msgid "'%value%' appears to be a DNS hostname but contains a dash in an invalid position"
+msgstr "появится символ '%значение%', чтобы быть DNS-имя хоста, но содержит прочерк в недопустимое положение"
+
+# GMT 1559644711.0854
+msgctxt "zend_validate"
+msgid "'%value%' appears to be a DNS hostname but the given punycode notation cannot be decoded"
+msgstr "появится символ '%значение%', чтобы быть DNS-имя хоста, но в данной нотации в Punycode не могут быть расшифрованы"
+
+# GMT 1559644711.0812
+msgctxt "zend_validate"
+msgid "'%value%' appears to be a local network name but local network names are not allowed"
+msgstr "появится символ '%значение%', чтобы быть локальной название сети, но местные названия сети не допускается"
+
+# GMT 1559644711.0522
+msgctxt "zend_validate"
+msgid "'%value%' appears to be an IP address, but IP addresses are not allowed"
+msgstr "появится символ '%значение%', чтобы быть IP-адрес, но IP-адреса не допускается"
+
+# GMT 1559644710.7951
+msgctxt "zend_validate"
+msgid "'%value%' contains an invalid amount of digits"
+msgstr "'%значение%' содержит недопустимое количество цифр"
+
+# GMT 1559644710.7306
+msgctxt "zend_validate"
+msgid "'%value%' contains characters which are non alphabetic and no digits"
+msgstr "'%значение%' содержит символы, которые не буквы и не цифры"
+
+# GMT 1559644710.7524
+msgctxt "zend_validate"
+msgid "'%value%' contains invalid characters"
+msgstr "'%значение%' содержит недопустимые символы"
+
+# GMT 1559644710.7437
+msgctxt "zend_validate"
+msgid "'%value%' contains non alphabetic characters"
+msgstr "'%значение%' содержит буквенные символы"
+
+# GMT 1559644711.0391
+msgctxt "zend_validate"
+msgid "'%value%' does not appear to be a float"
+msgstr "'%значение%' не представляется поплавок"
+
+# GMT 1559644711.1435
+msgctxt "zend_validate"
+msgid "'%value%' does not appear to be a postal code"
+msgstr "'%значение%' не представляется почтовый индекс"
+
+# GMT 1559644711.1218
+msgctxt "zend_validate"
+msgid "'%value%' does not appear to be a valid IP address"
+msgstr "'%значение%' не является допустимым IP-адрес"
+
+# GMT 1559644710.8168
+msgctxt "zend_validate"
+msgid "'%value%' does not appear to be a valid date"
+msgstr "'%значение%' не является допустимым дата"
+
+# GMT 1559644711.0772
+msgctxt "zend_validate"
+msgid "'%value%' does not appear to be a valid local network name"
+msgstr "'%значение%' не является допустимым именем локального сети"
+
+# GMT 1559644711.1175
+msgctxt "zend_validate"
+msgid "'%value%' does not appear to be an integer"
+msgstr "'%значение%' не представляется целочисленным"
+
+# GMT 1559644710.8212
+msgctxt "zend_validate"
+msgid "'%value%' does not fit the date format '%format%'"
+msgstr "'%значение%' не вписывается в формат даты '%формат%'"
+
+# GMT 1559644711.1479
+msgctxt "zend_validate"
+msgid "'%value%' does not match against pattern '%pattern%'"
+msgstr "'%значение%' не матч против шаблон '%шаблон%'"
+
+# GMT 1559644711.0729
+msgctxt "zend_validate"
+msgid "'%value%' does not match the expected structure for a DNS hostname"
+msgstr "'%значение%' не соответствует ожидаемой структуре DNS-имя хоста"
+
+# GMT 1559644710.8636
+msgctxt "zend_validate"
+msgid "'%value%' exceeds the allowed length"
+msgstr "'%значение%' превышает допустимую длину"
+
+# GMT 1559644710.7481
+msgctxt "zend_validate"
+msgid "'%value%' failed checksum validation"
+msgstr "'%значение%' ошибка при проверке контрольной суммы"
+
+# GMT 1559644711.0932
+msgctxt "zend_validate"
+msgid "'%value%' has a false IBAN format"
+msgstr "'%значение%' имеет формат ложные ОКОНХ"
+
+# GMT 1559644711.0975
+msgctxt "zend_validate"
+msgid "'%value%' has failed the IBAN check"
+msgstr "'%значение%' не Ибан проверить"
+
+# GMT 1559644711.0478
+msgctxt "zend_validate"
+msgid "'%value%' has not only hexadecimal digit characters"
+msgstr "'%значение%' не только шестнадцатеричных цифр"
+
+# GMT 1559644710.735
+msgctxt "zend_validate"
+msgid "'%value%' is an empty string"
+msgstr "'%значение%' является пустой строкой"
+
+# GMT 1559644711.1778
+msgctxt "zend_validate"
+msgid "'%value%' is less than %min% characters long"
+msgstr "'%значение%' меньше, чем %мин% символов"
+
+# GMT 1559644711.1821
+msgctxt "zend_validate"
+msgid "'%value%' is more than %max% characters long"
+msgstr "'%значение%' больше, чем %Макс% символов"
+
+# GMT 1559644711.1261
+msgctxt "zend_validate"
+msgid "'%value%' is not a valid ISBN number"
+msgstr "'%значение%' не является допустимым номером ISBN"
+
+# GMT 1559644710.8342
+msgctxt "zend_validate"
+msgid "'%value%' is not a valid email address in the basic format local-part@hostname"
+msgstr "'%значение%' - это не действительный адрес электронной почты в основной формат локальную local-part@hostname"
+
+# GMT 1559644711.1565
+msgctxt "zend_validate"
+msgid "'%value%' is not a valid sitemap changefreq"
+msgstr "'%значение%' не является допустимым Карта сайта changefreq"
+
+# GMT 1559644711.1609
+msgctxt "zend_validate"
+msgid "'%value%' is not a valid sitemap lastmod"
+msgstr "'%значение%' не является допустимым Карта сайта рассчитать"
+
+# GMT 1559644711.1652
+msgctxt "zend_validate"
+msgid "'%value%' is not a valid sitemap location"
+msgstr "'%значение%' не является допустимым файл sitemap"
+
+# GMT 1559644711.1695
+msgctxt "zend_validate"
+msgid "'%value%' is not a valid sitemap priority"
+msgstr "'%значение%' не является допустимым приоритетом Карта сайта"
+
+# GMT 1559644710.7611
+msgctxt "zend_validate"
+msgid "'%value%' is not between '%min%' and '%max%', inclusively"
+msgstr "'%значение%' между '%мин%' и '%Макс%', в том числе"
+
+# GMT 1559644710.7994
+msgctxt "zend_validate"
+msgid "'%value%' is not from an allowed institute"
+msgstr "'%значение%' это не позволило институту"
+
+# GMT 1559644711.0434
+msgctxt "zend_validate"
+msgid "'%value%' is not greater than '%min%'"
+msgstr "'%значение%' не более чем '%мин%'"
+
+# GMT 1559644711.1304
+msgctxt "zend_validate"
+msgid "'%value%' is not less than '%max%'"
+msgstr "'%значение%' не менее '%Макс%'"
+
+# GMT 1559644710.7655
+msgctxt "zend_validate"
+msgid "'%value%' is not strictly between '%min%' and '%max%'"
+msgstr "'%значение%' не является строго между '%мин%' и '%Макс%'"
+
+# GMT 1559644710.7698
+msgctxt "zend_validate"
+msgid "'%value%' is not valid"
+msgstr "'%значение%' не является допустимым"
+
+# GMT 1559644710.7785
+msgctxt "zend_validate"
+msgid "'%value%' must contain between 13 and 19 digits"
+msgstr "'%значение%' должен содержать от 13 до 19 цифр"
+
+# GMT 1559644710.7907
+msgctxt "zend_validate"
+msgid "'%value%' must contain only digits"
+msgstr "'%значение%' должно содержать только цифры"
+
+# GMT 1559644710.8038
+msgctxt "zend_validate"
+msgid "'%value%' seems to be an invalid creditcard number"
+msgstr "'%значение%', кажется, неверный номер кредитной карты"
+
+# GMT 1559644710.7864
+msgctxt "zend_validate"
+msgid "'%value%' seems to contain an invalid checksum"
+msgstr "'%значение%', кажется, содержит неверную контрольную сумму"
+
+# GMT 1559644710.7568
+msgctxt "zend_validate"
+msgid "'%value%' should have a length of %length% characters"
+msgstr "'%значение%' должны иметь длину %длины символа%"
+
+# GMT 1559644711.1088
+msgctxt "zend_validate"
+msgid "'%value%' was not found in the haystack"
+msgstr "'%значение%' не найден в стоге сена"
+
+msgid "<strong>%s</strong> is not a numerical value<br />"
+msgstr "<strong>%s</strong> - это не числовое значение<br />"
+
+msgid "<strong>%s</strong> is not valid email address<br />"
+msgstr "<strong>%s</strong> - это не действительный адрес электронной почты<br />"
+
+msgid "<strong>%s</strong> is required<br />"
+msgstr "<strong>%s</strong> обязательно<br />"
+
+msgid "<strong>%s</strong> must be a numerical value<br />"
+msgstr "<strong>%s</strong> должно быть числовое значение<br />"
+
+msgid "<strong>%s</strong> must be a valid date (e.g. dd/mm/yyyy)<br />"
+msgstr "<strong>%s</strong> должна быть действительная дата (e.g. dd/mm/yyyy)<br />"
+
+msgid "<strong>%s</strong> must be a valid date<br />"
+msgstr "<strong>%s</должна быть действительная дата<br />"
+
+msgid "<strong>%s</strong> must be a valid email address<br />"
+msgstr "<strong>%s</strong> должен быть действительный адрес электронной почты<br />"
+
+msgid "<strong>%s</strong> must be filled<br />"
+msgstr "<strong>%s</strong> нужно заполнить<br />"
+
+# GMT 1559644711.0138
+msgctxt "zend_validate"
+msgid "A PHP extension returned an error while uploading the file '%value%'"
+msgstr "Расширение PHP вернул ошибку при загрузке файла '%значение%'"
+
+# GMT 1559644710.8811
+msgctxt "zend_validate"
+msgid "A crc32 hash could not be evaluated for the given file"
+msgstr "А CRC32 в хэш не может быть оценена для данного файла"
+
+# GMT 1559644710.9231
+msgctxt "zend_validate"
+msgid "A hash could not be evaluated for the given file"
+msgstr "Хэш не может быть оценена для данного файла"
+
+# GMT 1559644710.9621
+msgctxt "zend_validate"
+msgid "A md5 hash could not be evaluated for the given file"
+msgstr "А MD5-хэш не может быть оценена для данного файла"
+
+# GMT 1559644710.8299
+msgctxt "zend_validate"
+msgid "A record matching '%value%' was found"
+msgstr "Была найдена запись, соответствующая '%значение%'"
+
+# GMT 1559644710.9746
+msgctxt "zend_validate"
+msgid "A sha1 hash could not be evaluated for the given file"
+msgstr "SHA1 хеш не может быть оценена для данного файла"
+
+# GMT 1559644710.6022
+msgid "Add a field"
+msgstr "Добавить поле"
+
+# GMT 1559644710.6059
+msgid "Add a section"
+msgstr "Добавить раздел"
+
+# GMT 1559644710.6096
+msgid "Add an option"
+msgstr "Добавить опцию"
+
+# GMT 1559644710.9064
+msgctxt "zend_validate"
+msgid "All files in sum should have a maximum size of '%max%' but '%size%' were detected"
+msgstr "Все файлы, в сумме должны иметь максимальный размер '%Макс%' но '%размер% выявлены"
+
+# GMT 1559644710.9107
+msgctxt "zend_validate"
+msgid "All files in sum should have a minimum size of '%min%' but '%size%' were detected"
+msgstr "Все файлы, в сумме должно быть не менее размера '%мин%' но '%размер% выявлены"
+
+# GMT 1559644710.6139
+msgid "An error occurred while saving. A field can't be identified."
+msgstr "Произошла ошибка при сохранении. Поле не может быть идентифицировано."
+
+# GMT 1559644710.8081
+msgctxt "zend_validate"
+msgid "An exception has been raised while validating '%value%'"
+msgstr "Исключение был поднят при проверке '%значение%'"
+
+# GMT 1559644710.7742
+msgctxt "zend_validate"
+msgid "An exception has been raised within the callback"
+msgstr "Исключение был поднят в рамках обратного вызова"
+
+# GMT 1559644710.6182
+msgid "Are you sure you want to remove this field?"
+msgstr "Вы уверены, что хотите удалить это поле?"
+
+# GMT 1559644710.6226
+msgid "Are you sure you want to remove this section?"
+msgstr "Вы уверены, что хотите удалить этот раздел?"
+
+# GMT 1559644710.6269
+msgid "Checkbox"
+msgstr "Флажок"
+
+# GMT 1559644710.6308
+msgid "Choose a field type:"
+msgstr "Выберите тип поля:"
+
+# GMT 1559644710.6349
+msgid "Create a new field"
+msgstr "Создать новое поле"
+
+# GMT 1559644710.6393
+msgid "Date/Hour"
+msgstr "Дата / час"
+
+# GMT 1559644710.6436
+msgid "Drop down"
+msgstr "Выбор"
+
+# GMT 1559644710.648
+msgid "Edit field %s"
+msgstr "Редактировать поле %s"
+
+# GMT 1559644710.6524
+msgid "Field name"
+msgstr "Наименование поля"
+
+msgid "Field name:"
+msgstr "Название поля:"
+
+# GMT 1559644711.0094
+msgctxt "zend_validate"
+msgid "File '%value%' can't be written"
+msgstr "Файл '%значение%' не может быть записана"
+
+# GMT 1559644710.902
+msgctxt "zend_validate"
+msgid "File '%value%' does not exist"
+msgstr "Файл '%значение%' не существует"
+
+# GMT 1559644710.8766
+msgctxt "zend_validate"
+msgid "File '%value%' does not match the given crc32 hashes"
+msgstr "Файл '%значение%' не соответствует заданному хэши CRC32 в"
+
+# GMT 1559644710.9193
+msgctxt "zend_validate"
+msgid "File '%value%' does not match the given hashes"
+msgstr "Файл '%значение%' не совпадает с заданным хэшам"
+
+# GMT 1559644710.9578
+msgctxt "zend_validate"
+msgid "File '%value%' does not match the given md5 hashes"
+msgstr "Файл '%значение%' не совпадает с заданным хэш MD5"
+
+# GMT 1559644710.9708
+msgctxt "zend_validate"
+msgid "File '%value%' does not match the given sha1 hashes"
+msgstr "Файл '%значение%' не соответствует заданному SHA1 хэши"
+
+# GMT 1559644710.992
+msgctxt "zend_validate"
+msgid "File '%value%' exceeds the defined form size"
+msgstr "Файл '%значение%' превышает определенные размеры, форма"
+
+# GMT 1559644710.9877
+msgctxt "zend_validate"
+msgid "File '%value%' exceeds the defined ini size"
+msgstr "Файл '%значение%' превышает определенный размер Ини"
+
+# GMT 1559644710.9664
+msgctxt "zend_validate"
+msgid "File '%value%' exists"
+msgstr "Файл '%значение%' существует"
+
+# GMT 1559644710.8898
+msgctxt "zend_validate"
+msgid "File '%value%' has a false extension"
+msgstr "Файл '%значение%' имеет ложные расширение"
+
+# GMT 1559644710.8941
+msgctxt "zend_validate"
+msgid "File '%value%' has a false mimetype of '%type%'"
+msgstr "Файл '%значение%' имеет значение false тип '%тип%'"
+
+# GMT 1559644710.9535
+msgctxt "zend_validate"
+msgid "File '%value%' is no image, '%type%' detected"
+msgstr "Файл '%значение%' нет изображения '%тип% выявленных"
+
+# GMT 1559644710.9491
+msgctxt "zend_validate"
+msgid "File '%value%' is not compressed, '%type%' detected"
+msgstr "Файл '%значение%' не сжимается, '%тип%' обнаружены"
+
+# GMT 1559644710.8854
+msgctxt "zend_validate"
+msgid "File '%value%' is not readable or does not exist"
+msgstr "Файл '%значение%' не читается или не существует"
+
+# GMT 1559644711.0181
+msgctxt "zend_validate"
+msgid "File '%value%' was illegally uploaded. This could be a possible attack"
+msgstr "Файл '%значение%' был незаконно загружен. Это может быть возможной атаки"
+
+# GMT 1559644711.0225
+msgctxt "zend_validate"
+msgid "File '%value%' was not found"
+msgstr "Файл '%значение%' не найден"
+
+# GMT 1559644711.0008
+msgctxt "zend_validate"
+msgid "File '%value%' was not uploaded"
+msgstr "Файл '%значение%' не был загружен"
+
+# GMT 1559644710.9964
+msgctxt "zend_validate"
+msgid "File '%value%' was only partially uploaded"
+msgstr "Файл '%значение%' лишь частично загружен"
+
+# GMT 1559644710.6567
+msgid "Form data will be sent to this email. Until you fill out this field, your form won't be displayed on client side."
+msgstr "Данные формы будут отправлены на этот адрес электронной почты. Пока вы не заполните это поле, ваша форма не будет отображаться на стороне клиента."
+
+# GMT 1559644710.661
+msgid "Geolocation"
+msgstr "Геолокация"
+
+# GMT 1559644710.6654
+msgid "Hello,"
+msgstr "Здравствуйте,"
+
+# GMT 1559644710.6698
+#, mobile
+msgid "Import a picture"
+msgstr "Импорт Фото"
+
+# GMT 1559644710.6741
+#, mobile
+msgid "Import from Library"
+msgstr "Импорт из галереи"
+
+# GMT 1559644711.1735
+msgctxt "zend_validate"
+msgid "Invalid type given. Numeric string, integer or float expected"
+msgstr "Недопустимый тип дал. Числовая строка, integer или float ожидается"
+
+# GMT 1559644710.7393
+msgctxt "zend_validate"
+msgid "Invalid type given. String expected"
+msgstr "Недопустимый тип. Строка ожидается"
+
+# GMT 1559644711.1131
+msgctxt "zend_validate"
+msgid "Invalid type given. String or integer expected"
+msgstr "Недопустимый тип дал. String или integer ожидается"
+
+# GMT 1559644710.7263
+msgctxt "zend_validate"
+msgid "Invalid type given. String, integer or float expected"
+msgstr "Недопустимый тип дал. Строка, integer или float ожидается"
+
+# GMT 1559644710.8125
+msgctxt "zend_validate"
+msgid "Invalid type given. String, integer, array or Zend_Date expected"
+msgstr "Недопустимый тип дал. Строка, целое число, массив или Zend_Date ожидается"
+
+# GMT 1559644711.1347
+msgctxt "zend_validate"
+msgid "Invalid type given. String, integer, float, boolean or array expected"
+msgstr "Недопустимый тип дал. Строка, целое, вещественное, логическое или массив"
+
+# GMT 1559644710.7829
+msgctxt "zend_validate"
+msgid "Luhn algorithm (mod-10 checksum) failed on '%value%'"
+msgstr "Алгоритм luhn (мод-10 контрольная сумма) не на '%значение%'"
+
+# GMT 1559644710.6785
+msgid "Manage fields"
+msgstr "Управление полем"
+
+# GMT 1559644710.6828
+msgid "Manage options:"
+msgstr "Управление параметрами:"
+
+# GMT 1559644710.9362
+msgctxt "zend_validate"
+msgid "Maximum allowed height for image '%value%' should be '%maxheight%' but '%height%' detected"
+msgstr "Максимальная разрешенная высота для изображения '%значение%' должно быть '%значение maxheight%' но '%рост% выявленных"
+
+# GMT 1559644710.979
+msgctxt "zend_validate"
+msgid "Maximum allowed size for file '%value%' is '%max%' but '%size%' detected"
+msgstr "Максимально допустимый размер для файла '%значение%' на '%МАКС%' но '%размер% выявленных"
+
+# GMT 1559644710.9275
+msgctxt "zend_validate"
+msgid "Maximum allowed width for image '%value%' should be '%maxwidth%' but '%width%' detected"
+msgstr "Максимально допустимая ширина изображения '%значение%' должно быть '%значение maxwidth%' но '%ширина% выявленных"
+
+# GMT 1559644710.9405
+msgctxt "zend_validate"
+msgid "Minimum expected height for image '%value%' should be '%minheight%' but '%height%' detected"
+msgstr "Минимальная ожидаемая высота для изображения '%значение%' должно быть '%свойство minheight%' но '%рост% выявленных"
+
+# GMT 1559644710.9833
+msgctxt "zend_validate"
+msgid "Minimum expected size for file '%value%' is '%min%' but '%size%' detected"
+msgstr "Минимальный ожидаемый размер для файла '%значение%' на '%Мин%' но '%размер% выявленных"
+
+# GMT 1559644710.9318
+msgctxt "zend_validate"
+msgid "Minimum expected width for image '%value%' should be '%minwidth%' but '%width%' detected"
+msgstr "Минимальная ожидаемая ширина для изображения '%значение%' должно быть '%свойство minwidth%' но '%ширина% выявленных"
+
+# GMT 1559644710.6871
+msgid "Multiline text"
+msgstr "Текст многострочный"
+
+# GMT 1559644710.8255
+msgctxt "zend_validate"
+msgid "No record matching '%value%' was found"
+msgstr "Нет соответствующей записи '%значение%'"
+
+# GMT 1559644711.0051
+msgctxt "zend_validate"
+msgid "No temporary directory was found for file '%value%'"
+msgstr "Нет временный каталог был найден файл '%значение%'"
+
+# GMT 1559644711.1045
+msgctxt "zend_validate"
+msgid "No token was provided to match against"
+msgstr "Фишка не была предоставлена в матче против"
+
+# GMT 1559644710.915
+msgctxt "zend_validate"
+msgid "One or more files can not be read"
+msgstr "Один или несколько файлов не может быть прочитан"
+
+# GMT 1559644710.6914
+msgid "Option"
+msgstr "Опция"
+
+# GMT 1559644710.6958
+msgid "Radio"
+msgstr "Радио"
+
+# GMT 1559644710.7002
+msgid "Recipient email"
+msgstr "email получателя"
+
+msgid "Recipient email:"
+msgstr "Адрес электронной почты получателя:"
+
+# GMT 1559644710.7045
+#, mobile
+msgid "Take a picture"
+msgstr "Сделать снимок"
+
+# GMT 1559644710.7089
+msgid "The form has been sent successfully"
+msgstr "Успешно отправлена"
+
+# GMT 1559644710.8976
+msgctxt "zend_validate"
+msgid "The mimetype of file '%value%' could not be detected"
+msgstr "MimeType из файла '%значение%' не могли быть обнаружены"
+
+# GMT 1559644710.9449
+msgctxt "zend_validate"
+msgid "The size of image '%value%' could not be detected"
+msgstr "Размер изображения '%значение%' не могли быть обнаружены"
+
+# GMT 1559644711.101
+msgctxt "zend_validate"
+msgid "The two given tokens do not match"
+msgstr "Два данной лексемы не совпадают"
+
+# GMT 1559644711.1522
+msgctxt "zend_validate"
+msgid "There was an internal error while using the pattern '%pattern%'"
+msgstr "Произошла внутренняя ошибка при использовании шаблона '%шаблон%'"
+
+# GMT 1559644710.8723
+msgctxt "zend_validate"
+msgid "Too few files, minimum '%min%' are expected but '%count%' are given"
+msgstr "Слишком мало файлов, минимума %минимальный% ожидается, но '%количество% дается"
+
+# GMT 1559644711.0347
+msgctxt "zend_validate"
+msgid "Too less words, minimum '%min%' are expected but '%count%' were counted"
+msgstr "Слишком мало слов, минимума %минимальный% ожидается, но '%количество% были подсчитаны"
+
+# GMT 1559644710.8679
+msgctxt "zend_validate"
+msgid "Too many files, maximum '%max%' are allowed but '%count%' are given"
+msgstr "Слишком много файлов, максимальное '%Макс%' возможно '%количество% дается"
+
+# GMT 1559644711.0304
+msgctxt "zend_validate"
+msgid "Too much words, maximum '%max%' are allowed but '%count%' were counted"
+msgstr "Слишком много слов, максимум '%Макс%' возможно '%количество% были подсчитаны"
+
+# GMT 1559644711.0898
+msgctxt "zend_validate"
+msgid "Unknown country within the IBAN '%value%'"
+msgstr "Неизвестная страна в Ибан '%значение%'"
+
+# GMT 1559644711.026
+msgctxt "zend_validate"
+msgid "Unknown error while uploading file '%value%'"
+msgstr "Неизвестная ошибка при загрузке файла '%значение%'"
+
+# GMT 1559644711.1391
+msgctxt "zend_validate"
+msgid "Value is required and can't be empty"
+msgstr "Требуемое значение не может быть пустым"
+
+# GMT 1559644710.7132
+msgid "You have to choose a field type."
+msgstr "Вы должны выбрать тип поля."
+
+# GMT 1559644710.7176
+msgid "Your app's form"
+msgstr "Форма вашего приложения"
+
+# GMT 1559644710.7219
+msgid "Your form has been filled out, here are the answers:"
+msgstr "Ваша форма была заполнена, вот ответы:"

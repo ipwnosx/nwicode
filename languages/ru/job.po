@@ -1,0 +1,378 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-02T19:02:38+03:00\n"
+"PO-Revision-Date: 2019-07-02T19:02:38+03:00\n"
+"Language: \n"
+
+msgid "A new contact form has been sent for the following offer:"
+msgstr "Новые данные были отправлены на следующее предложение:"
+
+msgid "Add a position"
+msgstr "Доб. вакансию"
+
+msgid "Add category"
+msgstr "Доб.категорию"
+
+msgid "Add company"
+msgstr "Доб.компанию"
+
+msgid "Add place"
+msgstr "Доб.место"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Administrators"
+msgstr "Администраторы"
+
+msgid "All fields are required !"
+msgstr "Все поля обязательны !"
+
+msgid "Alternate name for 'Company'"
+msgstr "Альтернаивное название \"Компания\""
+
+msgid "Alternate name for 'Place'"
+msgstr "Альтернаивное название \"Место\""
+
+msgid "Categories"
+msgstr "Категории"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Category disabled"
+msgstr "нет категории"
+
+msgid "Category enabled"
+msgstr "Категория включена"
+
+msgid "City"
+msgstr "Город"
+
+msgid "Clear"
+msgstr "Понятно"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Companies"
+msgstr "Компании"
+
+msgid "Company"
+msgstr "Компания"
+
+msgid "Company disabled"
+msgstr "Компании отключены"
+
+msgid "Company enabled"
+msgstr "Компании включены"
+
+msgid "Company saved."
+msgstr "Сохранено"
+
+msgid "Contact"
+msgstr "Контакты"
+
+msgid "Contact e-mail"
+msgstr "Контактный e-mail"
+
+msgid "Contact form"
+msgstr "Контактная форма"
+
+msgid "Contract type"
+msgstr "Тип контракта"
+
+msgid "Create a new Category"
+msgstr "Создать новую Категорию"
+
+msgid "Create a new company"
+msgstr "Создать Новую Компанию"
+
+msgid "Create a new place"
+msgstr "Добавить Новое Место"
+
+msgid "Create a new position"
+msgstr "Создать новую позицию"
+
+msgid "Create position"
+msgstr "Создание позиции"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Disable category"
+msgstr "Отключить категории"
+
+msgid "Disable company"
+msgstr "Отключить компании"
+
+msgid "Display Search"
+msgstr "Показать Поиск"
+
+msgid "Display contact"
+msgstr "Показать контакт"
+
+msgid "Display income"
+msgstr "Показать З/П"
+
+msgid "Display place icon"
+msgstr "Показать иконку на карте"
+
+msgid "Distance"
+msgstr "Расстояние"
+
+msgid "Email & Contact form"
+msgstr "Email & Контактная Форма"
+
+msgid "Email successfully sent."
+msgstr "Письмо успешно отправлено."
+
+msgid "Employee count"
+msgstr "Число сотрудников"
+
+msgid "Enable category"
+msgstr "Включение категории"
+
+msgid "Enable company"
+msgstr "Включить компанию"
+
+msgid "For more options use the editor"
+msgstr "Дополнительные опции использовать редактор"
+
+msgid "Form error"
+msgstr "Ошибка Формы"
+
+msgid "Form has the following errors"
+msgstr "Форма содержит следующие ошибки"
+
+msgid "Full name"
+msgstr "Полное название"
+
+msgid "General"
+msgstr "Основное"
+
+msgid "Header"
+msgstr "Заголовок"
+
+msgid "Hidden"
+msgstr "Скрыть"
+
+msgid "Icon"
+msgstr "Иконка"
+
+msgid "Import a header"
+msgstr "Импортировать Заголовок"
+
+msgid "Import a header image"
+msgstr "Импортировать картинку в Заголовок"
+
+msgid "Import a logo"
+msgstr "Импорт логотип"
+
+msgid "Import an icon"
+msgstr "Импорт иконки"
+
+msgid "Import an icon image"
+msgstr "Импортировать иконку"
+
+msgid "Income from:"
+msgstr "ЗП от:"
+
+msgid "Input your keywords ..."
+msgstr "Введите ключевые слова ..."
+
+msgid "Is active"
+msgstr "активно"
+
+msgid "Job"
+msgstr "Работа"
+
+msgid "Keywords"
+msgstr "Теги"
+
+msgid "Keywords, coma separated"
+msgstr "Ключевые слова, разделенные запятыми"
+
+msgid "Locality"
+msgstr "Район"
+
+msgid "Logo"
+msgstr "Логотип"
+
+msgid "Manage"
+msgstr "Управление"
+
+msgid "Manage company"
+msgstr "Управлять компанией"
+
+msgid "Manage place"
+msgstr "Управлять местом"
+
+msgid "Message"
+msgstr "Сообщение"
+
+msgid "Missing category_id"
+msgstr "Отсутствует category_id"
+
+msgid "My companies"
+msgstr "Мои компании"
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "New contact for:"
+msgstr "Новый контак для:"
+
+msgid "New contact for: %s"
+msgstr "Новый контакт для: %s"
+
+msgid "None"
+msgstr "Нету"
+
+msgid "OK"
+msgstr "Ок"
+
+msgid "Place"
+msgstr "Место"
+
+msgid "Place enabled"
+msgstr "Место включено"
+
+msgid "Place saved."
+msgstr "Место сохранено"
+
+msgid "Place successfully deleted."
+msgstr "Место успешно удалено"
+
+msgid "Places"
+msgstr "Места"
+
+msgid "Positions"
+msgstr "Вакансии"
+
+msgid "Publish"
+msgstr "Опубликовать"
+
+msgid "Required fields are missing !"
+msgstr "Обязательные поля отсутствуют !"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Search..."
+msgstr "Поиск..."
+
+msgid "Select a city ..."
+msgstr "Выберите город ..."
+
+msgid "Submit"
+msgstr "Представить"
+
+msgid "Success."
+msgstr "Принято."
+
+msgid "Thank you"
+msgstr "Благодарим!"
+
+msgid "The category you are trying to edit doesn't exists."
+msgstr "Категорию которую вы пытаетесь изменить, не существует."
+
+msgid "The company you are trying to edit doesn't exists."
+msgstr "Компании вы пытаетесь изменить, не существует."
+
+msgid "The place is successfully created."
+msgstr "Место успешно создано."
+
+msgid "The place you are trying to edit doesn't exists."
+msgstr "Место, которое вы пытаетесь изменить, не существует."
+
+msgid "This place is inactive."
+msgstr "Место дезактивировано"
+
+msgid "Use global configuration"
+msgstr "Исп. глобальные настройки"
+
+msgid "Views"
+msgstr "Просмотр"
+
+msgid "Website"
+msgstr "Веб сайт"
+
+msgid "You are about to remove this Category ! Are you sure ?"
+msgstr "Вы собираетесь удалить эту категорию ! Вы уверены ?"
+
+msgid "You are about to remove this Category !\\n Are you sure ?"
+msgstr "Хочешь удалить эту категорию, уверен?"
+
+msgid "You are about to remove this Company and all the associated Places !\\n Are you sure ?"
+msgstr "Если ты удалишь эту компанию, то удалятся все ассоциации в \"Места\". Уверен?"
+
+msgid "You are about to remove this Company and all the associated Positions ! Are you sure ?"
+msgstr "Вы собираетесь удалить эту компанию и все связанные с ним посты ! Вы уверены ?"
+
+msgid "You are about to remove this Place ! Are you sure ?"
+msgstr "Вы собираетесь Удалить это место ! Вы уверены ?"
+
+msgid "You are about to remove this Place !\\n Are you sure ?"
+msgstr "Хочешь удалить это место? Уверен?"
+
+msgid "You are not allowed to create a place for this company"
+msgstr "Вы не позволили создавать места для этой компании"
+
+msgid "administrators"
+msgstr "администраторы"
+
+msgid "banner"
+msgstr "Баннер"
+
+msgid "contract_type"
+msgstr "contract_type"
+
+msgid "description"
+msgstr "описание"
+
+msgid "display_contact"
+msgstr "display_contact"
+
+msgid "employee_count"
+msgstr "employee_count"
+
+msgid "header"
+msgstr "Заголовок"
+
+msgid "icon"
+msgstr "иконка"
+
+msgid "income_from"
+msgstr "income_from"
+
+msgid "income_to"
+msgstr "income_to"
+
+msgid "keywords"
+msgstr "Ключевые слова"
+
+msgid "location"
+msgstr "Расположение"
+
+msgid "logo"
+msgstr "Логотип"
+
+msgid "name"
+msgstr "имя"
+
+msgid "to:"
+msgstr "до:"
+
+msgid "website"
+msgstr "сайт"

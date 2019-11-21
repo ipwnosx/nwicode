@@ -1,0 +1,37 @@
+<ion-modal-view sb-page-background >
+
+    <ion-header-bar class="bar-custom">
+        <div class="buttons">
+            <button class="button button-clear" ng-click="payout_modal.hide();"><i class="icon ion-ios-arrow-back"></i></button>
+        </div>
+        <h1 class="title">{{ 'Payout' | translate }} {{data.id}}</h1>
+    </ion-header-bar>
+
+    <ion-content id="category-submenu">
+		<!-- ionic 4-->
+		<div ng-if="!old_style && !is_loading  && is_logged_in">
+		dd
+        </div>
+
+		
+		<!-- ionic 1-->
+		<div class="ionic1" ng-if="old_style && !is_loading">
+			<div class="card wallet-card-payout">
+			  <div class="item item-text-wrap">
+				<p>{{ 'Date' | translate }} <b>{{t.date}}</b></p>
+				<p>{{ 'Amount' | translate }}: <b>{{t.amount}}</b></p> 
+				<p>{{ 'Method' | translate }}: <b>{{t.method}}</b></p>
+				<p>{{ 'Status' | translate }}: <b>{{t.status}}</b></p>
+			  </div>
+				<div class="item item-divider">{{'Request information'|translate}}</div>
+				<div class="item item-text-wrap"><p>{{t.info}}</p></div>			  
+
+				<div class="item item-divider" ng-if="t.reply!=''">{{'Reply'|translate}}</div>
+				<div class="item item-text-wrap" ng-if="t.reply!=''"><p>{{t.reply}}</p></div>			
+				<div class="item item-divider" ng-if="t.status=='pending'">{{'Action'|translate}}</div>
+				<div class="item" ng-if="t.status=='pending'"><button class="button button-full button-assertive" ng-click="cancelRequest(t)"><i class="icon  ion-android-cancel"></i> {{'Cancel request'|translate}}</button></div>
+			</div>				
+        </div>
+
+    </ion-content>
+</ion-modal-view>

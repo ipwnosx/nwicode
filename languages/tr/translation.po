@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T20:43:43+03:00\n"
+"PO-Revision-Date: 2019-06-05T20:43:43+03:00\n"
+"Language: \n"
+
+msgid "Create a new language"
+msgstr "Yeni bir dil oluşturmak"
+
+msgid "Default text"
+msgstr "Varsayılan metin"
+
+msgid "Edit the language: %s"
+msgstr "Dil Düzenle: %s"
+
+msgid "Language"
+msgstr "Dil"
+
+msgid "Language successfully saved"
+msgstr "Dili başarıyla kaydedildi"
+
+msgid "List of your languages"
+msgstr "Diller listesi"
+
+msgid "Please, choose a file."
+msgstr "Lütfen bir dosya seçin."
+
+msgid "Please, choose a language."
+msgstr "Lütfen bir dil seçin."
+
+msgid "Select a file"
+msgstr "Bir dosya seçin"
+
+msgid "Select a language"
+msgstr "Bir dil seçin"
+
+msgid "Text translation"
+msgstr "Metin çeviri"
+
+msgid "Translate all"
+msgstr "Tamamını çevir"
+
+msgid "Translate missing entries"
+msgstr "Eksik girdileri çevir"
+
+msgid "Translate the 'e.g.' between parentheses only."
+msgstr "'Örn:' sadece parantez arasında."
+
+msgid "Translation API is not available for the current language."
+msgstr "Mevcut dil için çeviri API'i mevcut değildir."
+
+msgid "Translations"
+msgstr "Çeviriler"
+
+msgid "Warning: translation API is experimental for the current language and may fail."
+msgstr "Uyarı: çeviri API'si geçerli dil için deneyseldir ve başarısız olabilir."
+
+msgid "Your translation"
+msgstr "Çeviri"

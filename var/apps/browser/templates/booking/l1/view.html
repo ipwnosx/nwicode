@@ -1,0 +1,109 @@
+<ion-view sb-page-background can-swipe-back="false" class="booking-view booking-view-l1">
+    <ion-nav-title>{{ pageTitle }}</ion-nav-title>
+    <ion-nav-buttons side="secondary">
+        <button ng-click="clearForm()" class="button button-clear">											
+            <i class="icon ion-sb-clear-brush"></i>
+        </button>
+    </ion-nav-buttons>
+    <ion-content>
+        <ion-alert-controller class="hydrated"></ion-alert-controller>
+        <ion-picker-controller class="hydrated"></ion-picker-controller>
+        <form name="bookingForm" ng-submit="submitForm();" novalidate ng-show="stores">
+            <ion-card>
+				<div class="list" ng-if="settings.cover || settings.description" ng-class="{'card' : cardDesign}">
+					<img ng-if="settings.cover" ng-src="{{ coverSrc(settings.cover) }}" style="width: 100vw; display: block;" />
+					<div class="item item-custom" style="white-space: normal;" ng-if="settings.description">
+						<span ng-bind-html="settings.description | trusted_html"></span>
+					</div>
+				</div>
+                <div class="list" ng-class="{'card' : card_design}" style="padding-bottom: inherit;box-shadow: none;background-color: #ffffff00 !important;">
+                    <div class="item item-divider item-divider-custom">
+                        {{ "Information" | translate:"booking" }}
+                    </div>
+					<label class="item item-input item-custom">
+                        <i class="icon ion-person"></i>
+                        <ion-input class="native-input sc-ion-input-ios">
+                            <input class="native-input sc-ion-input-ios" ng-model="formData.name" type="text" ng-class="{error: bookingForm.name.$invalid && bookingForm.submitted}" placeholder='{{ "First name / Last name" | translate:" booking " }}' required/>
+                        </ion-input>
+                        <label class="error" ng-show="bookingForm.name.$invalid">{{ "This field is required" | translate:"booking" }}</label>
+                    </label>
+                    <label class="item item-input item-custom">
+                        <i class="icon ion-ios-telephone"></i>
+                        <ion-input class="native-input sc-ion-input-ios">
+                            <input type="tel" placeholder='{{ "Phone" | translate: "booking" }}' ng-model="formData.phone" class="native-input sc-ion-input-ios" ng-class="{error: bookingForm.phone.$invalid && bookingForm.submitted}" required />
+                        </ion-input>
+                        <label class="error" ng-show="bookingForm.phone.$invalid && bookingForm.submitted">{{ "This field is required" | translate:"booking" }}</label>
+                    </label>
+
+                    <label class="item item-input item-custom">
+                        <i class="icon ion-email"></i>
+                        <ion-input class="native-input sc-ion-input-ios">
+                            <input class="native-input sc-ion-input-ios" type="email" placeholder='{{ "Email" | translate:" booking " }}' ng-model="formData.email" ng-class="{error: bookingForm.email.$invalid && bookingForm.submitted}" required />
+                        </ion-input>
+                        <label class="error" ng-show="bookingForm.email.$invalid && bookingForm.submitted">{{ "Please enter a valid email address" | translate:"booking" }}</label>
+                    </label>
+                    <label class="item item-input item-select item-custom">
+                        <i class="icon ion-ios-people"></i>
+                        <div class="input-label">
+                            {{ "Number of people" | translate:"booking" }}
+                        </div>
+                        <input ng-click="goCheckPeople()" type="text" class="native-input sc-ion-input-ios" ng-model="formData.people" ng-class="{error: bookingForm.people.$invalid && bookingForm.submitted}" required>
+                        <label class="error" ng-show="bookingForm.people.$invalid && bookingForm.submitted">{{ "This field is required" | translate:"booking" }}</label>
+                    </label>
+                    <label ng-if="stores.length > 1" class="item item-input item-select item-custom">
+                        <i class="icon ion-ios-location"></i>
+                        <div class="input-label">
+                            {{ "Location" | translate:"booking" }}
+                        </div>
+                        <input ng-click="goCheckStore()" type="text" class="native-input sc-ion-input-ios" ng-model="formData.store" ng-class="{error: bookingForm.store.$invalid && bookingForm.submitted}" required>
+                        <label class="error" ng-show="bookingForm.store.$invalid && bookingForm.submitted">{{ "This field is required" | translate:"booking" }}</label>
+                    </label>	
+					<label ng-if="stores.length == 1" class="item item-input item-custom">
+						<i class="icon ion-ios-location"></i>
+						<div class="input-label">
+							{{ stores[0].name }}
+						</div>
+					</label>
+                    <label ng-if="settings.datepicker == 'single'" class="item item-input item-custom" sb-datetime-picker title="dateTime.date" headers="true" format="settings.date_format" model="formData.date">
+						<i class="icon ion-ios-clock"></i>
+						<div class="input-label">
+							{{ "Date & time" | translate:"booking" }}
+						</div>
+						<input type="text" class="text-right" style="cursor: pointer !important;" ng-model="formData.date" readonly="readonly" />
+					</label>
+					<label ng-if="settings.datepicker == 'checkin'" class="item item-input item-custom" sb-datetime-picker title="dateTime.checkIn" headers="true" format="settings.date_format" model="formData.checkIn">
+						<i class="icon ion-ios-clock"></i>
+						<div class="input-label">
+							{{ "Checkin" | translate:"booking" }}
+						</div>
+						<input type="text" class="text-right" style="cursor: pointer !important;" ng-model="formData.checkIn" readonly="readonly" />
+					</label>
+					<label ng-if="settings.datepicker == 'checkin'" class="item item-input item-custom" sb-datetime-picker title="dateTime.checkOut" headers="true" format="settings.date_format" model="formData.checkOut">
+						<i class="icon ion-ios-clock"></i>
+						<div class="input-label">
+							{{ "Checkout" | translate:"booking" }}
+						</div>
+						<input type="text" class="text-right" style="cursor: pointer !important;" ng-model="formData.checkOut" readonly="readonly" />
+					</label>
+                    <div class="item item-divider item-divider-custom">
+                        {{ 'Booking details' | translate:"booking" }}
+                    </div>
+                    <label class="item item-input item-custom">
+                        <textarea placeholder='{{ "Booking details" | translate:" booking " }}' rows="4" ng-model="formData.prestation" ng-class="{error: bookingForm.prestation.$invalid && bookingForm.submitted}" required></textarea>
+                        <label class="error" ng-show="bookingForm.prestation.$invalid && bookingForm.submitted">{{ "This field is required" | translate:"booking" }}</label>
+                    </label>
+                    <div class="item item-divider item-divider-custom">
+                        {{ 'Comment' | translate:"booking" }}
+                    </div>
+                    <label class="item item-input item-custom">
+                        <textarea placeholder='{{ "Comment" | translate:" booking " }}' name="comment" rows="4" ng-model="formData.comment"></textarea>
+                    </label>
+                </div>
+            </ion-card>
+            <ion-button expand="block" type="submit" ng-show="!isLoading">{{ "Send" | translate:"booking" }}</ion-button>
+        </form>
+        <div class="loader" ng-show="isLoading || !stores">
+            <ion-spinner class="spinner-custom"></ion-spinner>
+        </div>
+    </ion-content>
+</ion-view>

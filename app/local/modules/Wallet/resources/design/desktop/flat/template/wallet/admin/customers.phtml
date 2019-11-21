@@ -1,0 +1,194 @@
+<?php 
+
+	//Получим данные кошелька
+	//$application = $this->getApplication();
+	if ($this->getSession()->getAppId()) $app_id = $this->getSession()->getAppId(); else $app_id=$this->getApplication()->getId();
+	$db =Zend_Db_Table_Abstract::getDefaultAdapter();
+
+	$recommend_version = "2.7.8";
+	$stmt = $db->query(
+		'SELECT version FROM module WHERE name = ?',
+		array('Wallet')
+	);
+	$current_version =$stmt->fetch()['version'];
+	
+
+	if (empty($current_version)) {
+		echo "Wallet module not found! Exit...";
+		?><br><a href="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";?>" rel="" class="navigation"><i class="fa fa-sign-out fa-lg"></i> <?php echo __('Exit to Editor'); ?></a><br><?php
+		die(__("Wallet module not found! Exit..."));
+	}	
+	
+	$stmt = $db->query(
+		'SELECT * FROM application_option WHERE code = ?',
+		array('wallet')
+	);
+	$option_id = $stmt->fetch()['option_id'];
+	$stmt = $db->query(
+		'SELECT * FROM application_option_value WHERE option_id = ? and app_id = ?',
+		array($option_id, $app_id)
+	);
+	$value_id = $stmt->fetch()['value_id'];
+
+	$wallet = new Wallet_Model_Wallet();
+	$wallet->find(array("value_id" => $value_id));
+	
+	//Customers
+	$customers = new Customer_Model_Customer();
+	$customers = $customers->findAll(array('app_id'=>$app_id),array('created_at DESC')) ;	
+	
+?>
+
+<div id="list-panel">
+<div class="row">
+	<div class="col-sm-12">
+		<h1><?php echo __('Customers'); ?></h1>
+	</div>
+</div>
+
+<table id="customers" class="table table-striped table-bordered  table-condensed" style="width:100%">
+        <thead>
+		  <tr>
+			<th><?php echo __('Date'); ?></th>
+			<th><?php echo __('Time'); ?></th>
+			<th><?php echo __('Firstname'); ?></th>
+			<th><?php echo __('Lastname'); ?></th>
+			<th><?php echo __('Email'); ?></th>
+			<th><?php echo __('Online'); ?></th>
+			<th><?php echo __('Blocked'); ?></th>
+			<th><?php echo __('Balance'); ?></th>
+			<th><em class="fa fa-cog"></em></th>
+		  </tr>
+        </thead>
+		<tbody>
+		<?php foreach($customers as $customer_o) { $customer = new Customer_Model_Customer(); $customer->find($customer_o->getId());?>
+			<?php 
+				$balance = 0;
+				$is_blocked = false;
+				$customer_wallet = new Wallet_Model_Customer(); 
+				$customer_wallet->find(array('wallet_id'=>$wallet->getId(), 'customer_id'=>$customer->getId()));
+				if ($customer_wallet->getId()) $balance = $customer_wallet->getScore();
+				if ($customer_wallet->getId() && $customer_wallet->getIsBlocked()==1) $is_blocked = true;
+			?>
+			<tr id="row-customer-<?php echo $customer->getId();?>" <?php if ($is_blocked) echo "class='bg-danger'";?>>
+			<td><?php echo explode(" ",$customer->getData('created_at'))[0];?></td>
+			<td><?php echo explode(" ",$customer->getData('created_at'))[1];?></td>
+			<td class="customer-firstname"><?php echo $customer->getFirstname();?></td>
+			<td class="customer-lastname"><?php echo $customer->getLastname();?></td>
+			<td class="customer-email"><?php echo $customer->getEmail();?></td>
+			<td class="text-center"><?php if ($customer->getIsOnline()) echo __('Yes'); else echo __('No');?></td>
+			<td class="customer-blocked text-center"><?php if ($is_blocked) echo __('Yes'); else echo __('No');?></td>
+			<td class="customer-balance text-center"><?php echo $balance;?></td>
+			<td><a class="btn btn-default" onclick="openCustomer(<?php echo $customer->getId();?>);"><em class="fa fa-eye"></em></a></td>
+			</tr>
+		<?php } ?>
+		</tbody>
+        <tfoot>
+            <tr>
+			<th><?php echo __('Date'); ?></th>
+			<th><?php echo __('Time'); ?></th>
+			<th><?php echo __('Firstname'); ?></th>
+			<th><?php echo __('Lastname'); ?></th>
+			<th><?php echo __('Email'); ?></th>
+			<th><?php echo __('Online'); ?></th>
+			<th><?php echo __('Blocked'); ?></th>
+			<th><?php echo __('Balance'); ?></th>
+	
+            </tr>
+        </tfoot>
+    </table>
+</div>
+<div id="item-panel">
+
+</div>
+
+<div id="item-subpanel">
+
+</div>
+
+
+<script type="text/javascript">
+
+function openCustomer(id) {
+	loader_show();
+	var url = '<?php echo $this->getUrl('wallet/admin/customer'); ?>';
+	$.ajax({
+	   url:url,
+	   type:'POST',
+	   data: "customer_id="+id,
+	   dataType: "json",
+	   cache: false,
+	   success: function(data){
+			console.log(data);
+		   $('#list-panel').hide();
+		   $("#success-message").hide();
+		   $("#error-message").hide();		   
+		   $('#item-panel').html(data.html).show();
+		   $("html, body").animate({ scrollTop: 0 }, "fast");
+		   loader_hide();
+		   
+	   }
+	});	
+
+}
+
+$(document).ready(function() {
+    var table_customers = $('#customers').DataTable(
+		{
+			"pagingType": "full_numbers",
+			language: {
+				paginate: {
+					first:    '«',
+					previous: '‹',
+					next:     '›',
+					last:     '»'
+				},
+				aria: {
+					paginate: {
+						first:    '<?php echo __('First'); ?>',
+						previous: '<?php echo __('Previous'); ?>',
+						next:     '<?php echo __('Next'); ?>',
+						last:     '<?php echo __('Last'); ?>'
+					}
+				},
+				"emptyTable": "<?php echo __('No data available in table'); ?>",
+				"info": "<?php echo __('Showing page _PAGE_ of _PAGES_'); ?>",
+				"infoEmpty": "<?php echo __('No entries to show'); ?>",
+				"search": "<?php echo __('Search'); ?>"
+				
+			}
+		}	
+	
+	);
+	
+	table_customers.columns().flatten().each( function ( colIdx ) {
+		
+		if (colIdx==0 || colIdx==5 || colIdx==6) {
+			console.log(colIdx);
+			// Create the select list and search operation
+			var select = $('<select><option value=""></option></select>')
+				.appendTo(
+					table_customers.column(colIdx).footer()
+				)
+				.on( 'change', function () {
+					table_customers
+						.column( colIdx )
+						.search( $(this).val() )
+						.draw();
+				} );
+		 
+			// Get the search data for the first column and add to the select list
+			table_customers
+				.column( colIdx )
+				.cache( 'search' )
+				.sort()
+				.unique()
+				.each( function ( d ) {
+					select.append( $('<option value="'+d+'">'+d+'</option>') );
+				} );
+			
+		}	
+	} );	
+	
+} );
+</script>

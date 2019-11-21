@@ -1,0 +1,325 @@
+<?php 
+    $application = $this->getApplication();
+    $blocks = $this->getApplication()->getBlocks();
+    $folder = '/' . $application->getId() . '/tour_images/';
+    
+    //get colors table for usability
+    $ionic_colors = Template_Model_Design::getIonicColors($application);
+    
+
+
+?>
+
+<form id="formapplicationtour" enctype="multipart/form-data" method="post" class="form sb-form feature-form form-horizontal" action="/application/customization_publication_app/tourpost">
+<div class="row">
+    <div class="col-xs-12 col-sm-3">
+        <div class="content-options content-white-bkg">
+            <fieldset>
+            <b><?php echo __("Header"); ?></b>
+            <br><input type="text" name="tour_header" id="tour_header" value="<?php echo $application->getData('tour_header');?>" is_form_horizontal="1" color="color-green" class="sb-input-name input-flat">
+           </fieldset><br>
+            <fieldset>
+            <b><?php echo __("Tour enabled"); ?></b>
+            <br><label for="enable_tour_1"><input id="enable_tour_1" class="color-red" type="radio" name="enable_tour" <?php if ($application->getData('enable_tour')=="1") echo 'checked="checked"';?> value="1"><?php echo __("Yes"); ?></label>
+            <br><label for="enable_tour_0"><input id="enable_tour_0" class="color-red" type="radio" name="enable_tour" <?php if ($application->getData('enable_tour')=="0") echo 'checked="checked"';?> value="0"><?php echo __("No"); ?></label>
+           </fieldset>
+        </div>
+        <div class="content-options content-white-bkg">
+            <fieldset>
+            <b><?php echo __("Tour title color type"); ?></b>
+            <br><label for="tour_title_color_type_normal"><input id="tour_title_color_type_normal" class="color-red" type="radio" name="tour_title_color_type" <?php if ($application->getData('tour_title_color_type')=="normal") echo 'checked="checked"';?> value="normal"><?php echo __("Normal"); ?></label>
+            <br><label for="tour_title_color_type_tint"><input id="tour_title_color_type_tint" class="color-red" type="radio" name="tour_title_color_type" <?php if ($application->getData('tour_title_color_type')=="tint") echo 'checked="checked"';?> value="tint"><?php echo __("Tint"); ?></label>
+            <br><label for="tour_title_color_type_shade"><input id="tour_title_color_type_shade" class="color-red" type="radio" name="tour_title_color_type" <?php if ($application->getData('tour_title_color_type')=="shade") echo 'checked="checked"';?> value="shade"><?php echo __("Shade"); ?></label>
+           </fieldset>
+        </div>
+        <div class="content-options content-white-bkg">
+            <fieldset>
+            <b><?php echo __("Tour subtitle color type"); ?></b>
+            <br><label for="tour_subtitle_color_type_normal"><input id="tour_subtitle_color_type_normal" class="color-red" type="radio" name="tour_subtitle_color_type" <?php if ($application->getData('tour_subtitle_color_type')=="normal") echo 'checked="checked"';?> value="normal"><?php echo __("Normal"); ?></label>
+            <br><label for="tour_subtitle_color_type_tint"><input id="tour_subtitle_color_type_tint" class="color-red" type="radio" name="tour_subtitle_color_type" <?php if ($application->getData('tour_subtitle_color_type')=="tint") echo 'checked="checked"';?> value="tint"><?php echo __("Tint"); ?></label>
+            <br><label for="tour_subtitle_color_type_shade"><input id="tour_subtitle_color_type_shade" class="color-red" type="radio" name="tour_subtitle_color_type" <?php if ($application->getData('tour_subtitle_color_type')=="shade") echo 'checked="checked"';?> value="shade"><?php echo __("Shade"); ?></label>
+           </fieldset>
+        </div>             
+        <br>
+        <button type="button" name="reset_tour" id="reset_tour" is_form_horizontal="1" color="color-purple" class="btn default_button color-red" data-loading-text="<?php echo __("Loading"); ?>"><i class="fa fa-bolt" aria-hidden="true"></i> <?php echo __("Reset tour on devices"); ?></button>
+     
+    </div>    
+    <div class="col-xs-12 col-sm-3">
+        <div class="content-options content-white-bkg">
+            <fieldset>
+            <b><?php echo __("Text button Skip"); ?></b>
+            <br><input type="text" name="tour_tbs" id="tour_tbs" value="<?php echo $application->getData('tour_tbs');?>" is_form_horizontal="1" color="color-green" class="sb-input-name input-flat">
+           </fieldset><br>
+            <fieldset>
+            <b><?php echo __("Login button text"); ?></b>
+            <br><input type="text" name="tour_lbt" id="tour_lbt" value="<?php echo $application->getData('tour_lbt');?>" is_form_horizontal="1" color="color-green" class="sb-input-name input-flat">
+           </fieldset><br>
+            <fieldset>
+            <b><?php echo __("Tour title color"); ?></b>
+            <br><label for="title_color_primary"><input id="title_color_primary" class="color-red" type="radio" name="tour_title_color" <?php if ($application->getData('tour_title_color')=="primary") echo 'checked="checked"';?> value="primary"><?php echo __("Primary"); ?></label>
+            <br><label for="title_color_secondary"><input id="title_color_secondary" class="color-red" type="radio" name="tour_title_color" <?php if ($application->getData('tour_title_color')=="secondary") echo 'checked="checked"';?> value="secondary"><?php echo __("Secondary"); ?></label>
+            <br><label for="title_color_tertiary"><input id="title_color_tertiary" class="color-red" type="radio" name="tour_title_color" <?php if ($application->getData('tour_title_color')=="tertiary") echo 'checked="checked"';?> value="tertiary"><?php echo __("Tertiary"); ?></label>
+            <br><label for="title_color_success"><input id="title_color_success" class="color-red" type="radio" name="tour_title_color" <?php if ($application->getData('tour_title_color')=="success") echo 'checked="checked"';?> value="success"><?php echo __("Success"); ?></label>
+            <br><label for="title_color_warning"><input id="title_color_warning" class="color-red" type="radio" name="tour_title_color" <?php if ($application->getData('tour_title_color')=="warning") echo 'checked="checked"';?> value="warning"><?php echo __("Warning"); ?></label>
+            <br><label for="title_color_danger"><input id="title_color_danger" class="color-red" type="radio" name="tour_title_color" <?php if ($application->getData('tour_title_color')=="danger") echo 'checked="checked"';?> value="danger"><?php echo __("Danger"); ?></label>
+            <br><label for="title_color_dark"><input id="title_color_dark" class="color-red" type="radio" name="tour_title_color" <?php if ($application->getData('tour_title_color')=="dark") echo 'checked="checked"';?> value="dark"><?php echo __("Dark"); ?></label>
+            <br><label for="title_color_medium"><input id="title_color_medium" class="color-red" type="radio" name="tour_title_color" <?php if ($application->getData('tour_title_color')=="medium") echo 'checked="checked"';?> value="medium"><?php echo __("Medium"); ?></label>
+            <br><label for="title_color_light"><input id="title_color_light" class="color-red" type="radio" name="tour_title_color" <?php if ($application->getData('tour_title_color')=="light") echo 'checked="checked"';?> value="light"><?php echo __("Light"); ?></label>
+            </fieldset>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+        <div class="content-options content-white-bkg">
+            <fieldset>
+            <b><?php echo __("Text button continue"); ?></b>
+            <br><input type="text" name="tour_tbc" id="tour_tbc" value="<?php echo $application->getData('tour_tbc');?>" is_form_horizontal="1" color="color-green" class="sb-input-name input-flat">
+           </fieldset><br>
+            <fieldset>
+            <b><?php echo __("Tour subtitle color"); ?></b>
+            <br><label for="subtitle_color_primary"><input id="subtitle_color_primary" class="color-red" type="radio" name="tour_subtitle_color" <?php if ($application->getData('tour_subtitle_color')=="primary") echo 'checked="checked"';?> value="primary"><?php echo __("Primary"); ?></label>
+            <br><label for="subtitle_color_secondary"><input id="subtitle_color_secondary" class="color-red" type="radio" name="tour_subtitle_color" <?php if ($application->getData('tour_subtitle_color')=="secondary") echo 'checked="checked"';?> value="secondary"><?php echo __("Secondary"); ?></label>
+            <br><label for="subtitle_color_tertiary"><input id="subtitle_color_tertiary" class="color-red" type="radio" name="tour_subtitle_color" <?php if ($application->getData('tour_subtitle_color')=="tertiary") echo 'checked="checked"';?> value="tertiary"><?php echo __("Tertiary"); ?></label>
+            <br><label for="subtitle_color_success"><input id="subtitle_color_success" class="color-red" type="radio" name="tour_subtitle_color" <?php if ($application->getData('tour_subtitle_color')=="success") echo 'checked="checked"';?> value="success"><?php echo __("Success"); ?></label>
+            <br><label for="subtitle_color_warning"><input id="subtitle_color_warning" class="color-red" type="radio" name="tour_subtitle_color" <?php if ($application->getData('tour_subtitle_color')=="warning") echo 'checked="checked"';?> value="warning"><?php echo __("Warning"); ?></label>
+            <br><label for="subtitle_color_danger"><input id="subtitle_color_danger" class="color-red" type="radio" name="tour_subtitle_color" <?php if ($application->getData('tour_subtitle_color')=="danger") echo 'checked="checked"';?> value="danger"><?php echo __("Danger"); ?></label>
+            <br><label for="subtitle_color_dark"><input id="subtitle_color_dark" class="color-red" type="radio" name="tour_subtitle_color" <?php if ($application->getData('tour_subtitle_color')=="dark") echo 'checked="checked"';?> value="dark"><?php echo __("Dark"); ?></label>
+            <br><label for="subtitle_color_medium"><input id="subtitle_color_medium" class="color-red" type="radio" name="tour_subtitle_color" <?php if ($application->getData('tour_subtitle_color')=="medium") echo 'checked="checked"';?> value="medium"><?php echo __("Medium"); ?></label>
+            <br><label for="subtitle_color_light"><input id="subtitle_color_light" class="color-red" type="radio" name="tour_subtitle_color" <?php if ($application->getData('tour_subtitle_color')=="light") echo 'checked="checked"';?> value="light"><?php echo __("Light"); ?></label>
+            </fieldset>
+        </div> 
+    </div>
+    <div class="col-xs-12 col-sm-3 text-center">
+       <h4><?php echo __("Slide preview"); ?></h4>
+        <div class="content-options content-white-bkg">
+            <div id="slide_preview">
+                <img src="<?php echo $application->getLogo();?>">
+                <div class="title-text">Title examples</div>
+                <div class="subtitle-text">Some example of subtitle text. Subtitle example.</div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+
+<div class="form-group sb-form-line ">
+<ul class="nav nav-tabs nav-justified" id="tour-tabs">
+  <li role="presentation" class="active"><a  data-toggle="tab" href="#slide1"><?php echo __("Slide"); ?> 1</a></li>
+  <li role="presentation"><a data-toggle="tab" href="#slide2"><?php echo __("Slide"); ?> 2</a></li>
+  <li role="presentation"><a data-toggle="tab" href="#slide3"><?php echo __("Slide"); ?> 3</a></li>
+  <li role="presentation"><a data-toggle="tab" href="#slide4"><?php echo __("Slide"); ?> 4</a></li>
+  <li role="presentation"><a data-toggle="tab" href="#slide5"><?php echo __("Slide"); ?> 5</a></li>
+</ul>
+<div class="tab-content" id="tour-tabs-content">
+    <div class="content-options content-white-bkg">
+    <?php for($i=1; $i<=5;$i++) {?>
+        <div id="slide<?php echo $i;?>" class="tab-pane <?php if ($i==1) {?>in active<?php } ?>">
+            <h3><?php echo __("Settings of slide"); ?> #<?php echo $i; ?></h3>
+
+            <div class="form-group sb-form-line">
+                <label for="tour_title_<?php echo $i;?>" class="sb-form-line-title col-sm-3 optional"><?php echo __("Title"); ?></label>
+                <div class="col-sm-7">
+                    <input type="text" name="tour_title_<?php echo $i;?>" id="tour_title_<?php echo $i;?>" value="<?php echo $application->getData('tour_title_'.$i);?>" is_form_horizontal="1" color="color-green" class="sb-input-name input-flat">
+                </div>
+                <div class="sb-cb"></div>
+            </div>
+            
+            <div class="form-group sb-form-line">
+                <label for="tour_subtitle_<?php echo $i;?>" class="sb-form-line-title col-sm-3 optional"><?php echo __("Subtitle"); ?></label>
+                <div class="col-sm-7">
+                    <input type="text" name="tour_subtitle_<?php echo $i;?>" id="tour_subtitle_<?php echo $i;?>" value="<?php echo $application->getData('tour_subtitle_'.$i);?>" is_form_horizontal="1" color="color-green" class="sb-input-name input-flat">
+                </div>
+                <div class="sb-cb"></div>
+            </div>
+            <input id="picture_uploader_slide<?php echo $i;?>" class="uploader" style="display:none" type="file" name="files_uploader_slide<?php echo $i;?>[]" data-url="<?php echo $this->getUrl('template/crop/upload'); ?>">
+            <div class="form-group sb-form-line">
+                <div class="col-sm-4"> 
+                    <img class="tour_slide"  src="/images/application<?php echo $application->getData('tour_slide_'.$i);?>" <?php if ($application->getData('tour_slide_'.$i)=="") { ?>style="display:none; width:100%;"<?php } ?> id="tour_slide_<?php echo $i;?>">
+                 </div>
+                 <div class="col-sm-5">
+                     <button id="button_picture_upload_slide<?php echo $i;?>" type="button" is_form_horizontal="1" color="color-purple"  class="btn color-purple feature-upload-button default_button add color-blue" ><i class="fa fa-upload" aria-hidden="true"></i> <?php echo __("Upload image for slide:"); ?><?php echo $i;?></button><br><br>
+                     <button id="button_picture_remove_slide<?php echo $i;?>" <?php if ($application->getData('tour_slide_'.$i)=="") { ?>style="display:none;"<?php } ?> type="button" is_form_horizontal="1" color="color-red"  class="btn color-red feature-upload-button default_button add color-blue" ><i class="fa fa-trash" aria-hidden="true"></i> <?php echo __("Remove image for slide:"); ?><?php echo $i;?></button>                    
+                </div>                 
+                <div class="sb-cb"></div>
+            </div>
+            <input type="hidden" name="tour_slide_<?php echo $i;?>_img" id="tour_slide_<?php echo $i;?>_img" value="<?php echo $application->getData('tour_slide_'.$i);?>">
+            <input type="hidden" name="tour_slide_<?php echo $i;?>_img_new" id="tour_slide_<?php echo $i;?>_img_new" value="0">
+            <input type="hidden" name="tour_slide_<?php echo $i;?>_img_remove" id="tour_slide_<?php echo $i;?>_img_remove" value="0">
+        </div>
+    <?php } ?>
+
+    </div>
+</div>
+<br>
+<div class="form-group sb-form-line">
+    <div class="col-sm-11">
+        <button type="submit" is_form_horizontal="1" color="color-purple" class="btn pull-right default_button color-purple" data-loading-text="Loading ..."><?php echo __("Save tour settings"); ?></button>
+
+    </div>
+</div>
+
+</form>
+<style>
+    #tour-tabs > li {height: auto;}
+    #tour-tabs {padding-left: 5px;padding-right: 5px;}
+    #tour-tabs-content .tab-pane {display:none;}
+    #tour-tabs-content .tab-pane.active {display:block;}
+    img.tour_slide {width:100%;}
+    .title_color_primary {float:right;}
+    #slide_preview {border:1px solid #000;border-radius:3px;}
+    #slide_preview img {padding: 20px 5px;}
+    #slide_preview {background-color: <?php echo $ionic_colors['--ion-background-color'];?>;}
+    #slide_preview .title-text {padding: 20px 5px; color: <?php echo $ionic_colors['--ion-color-primary'];?>; font-size:20px;}
+    #slide_preview .subtitle-text {padding: 20px 5px; color: <?php echo $ionic_colors['--ion-color-primary'];?>; font-size:15px;}
+    #slide_preview .primary-normal {color: <?php echo $ionic_colors['--ion-color-primary'];?>;}
+    #slide_preview .secondary-normal {color: <?php echo $ionic_colors['--ion-color-secondary'];?>;}
+    #slide_preview .tertiary-normal {color: <?php echo $ionic_colors['--ion-color-tertiary'];?>;}
+    #slide_preview .success-normal {color: <?php echo $ionic_colors['--ion-color-success'];?>;}
+    #slide_preview .warning-normal {color: <?php echo $ionic_colors['--ion-color-warning'];?>;}
+    #slide_preview .danger-normal {color: <?php echo $ionic_colors['--ion-color-danger'];?>;}
+    #slide_preview .dark-normal {color: <?php echo $ionic_colors['--ion-color-dark'];?>;}
+    #slide_preview .medium-normal {color: <?php echo $ionic_colors['--ion-color-medium'];?>;}
+    #slide_preview .light-normal {color: <?php echo $ionic_colors['--ion-color-light'];?>;}
+    #slide_preview .primary-shade {color: <?php echo $ionic_colors['--ion-color-primary-shade'];?>;}
+    #slide_preview .secondary-shade {color: <?php echo $ionic_colors['--ion-color-secondary-shade'];?>;}
+    #slide_preview .tertiary-shade {color: <?php echo $ionic_colors['--ion-color-tertiary-shade'];?>;}
+    #slide_preview .success-shade {color: <?php echo $ionic_colors['--ion-color-success-shade'];?>;}
+    #slide_preview .warning-shade {color: <?php echo $ionic_colors['--ion-color-warning-shade'];?>;}
+    #slide_preview .danger-shade {color: <?php echo $ionic_colors['--ion-color-danger-shade'];?>;}
+    #slide_preview .dark-shade {color: <?php echo $ionic_colors['--ion-color-dark-shade'];?>;}
+    #slide_preview .medium-shade {color: <?php echo $ionic_colors['--ion-color-medium-shade'];?>;}
+    #slide_preview .light-shade {color: <?php echo $ionic_colors['--ion-color-light-shade'];?>;}
+    #slide_preview .primary-tint {color: <?php echo $ionic_colors['--ion-color-primary-tint'];?>;}
+    #slide_preview .secondary-tint {color: <?php echo $ionic_colors['--ion-color-secondary-tint'];?>;}
+    #slide_preview .tertiary-tint {color: <?php echo $ionic_colors['--ion-color-tertiary-tint'];?>;}
+    #slide_preview .success-tint {color: <?php echo $ionic_colors['--ion-color-success-tint'];?>;}
+    #slide_preview .warning-tint {color: <?php echo $ionic_colors['--ion-color-warning-tint'];?>;}
+    #slide_preview .danger-tint {color: <?php echo $ionic_colors['--ion-color-danger-tint'];?>;}
+    #slide_preview .dark-tint {color: <?php echo $ionic_colors['--ion-color-dark-tint'];?>;}
+    #slide_preview .medium-tint {color: <?php echo $ionic_colors['--ion-color-medium-tint'];?>;}
+    #slide_preview .light-tint {color: <?php echo $ionic_colors['--ion-color-light-tint'];?>;}      
+
+    
+</style>
+<!--<pre>
+<?php print_r(Template_Model_Design::getIonicColors($application));?>
+    </pre>-->
+<script type="text/javascript">
+
+    $("#reset_tour").on("click",function(){
+        reload(this, "/application/customization_publication_app/touruidupdate", true, function(datas) {
+            var loading = new AlertMessage();
+
+            if(datas.success) {
+                loading.show();
+            }
+        });
+        return false;
+    })
+
+
+    var picture_uploader_slide1 = new Uploader();
+    var picture_uploader_slide2 = new Uploader();
+    var picture_uploader_slide3 = new Uploader();
+    var picture_uploader_slide4 = new Uploader();
+    var picture_uploader_slide5 = new Uploader();
+
+    <?php for($i=1; $i<=5;$i++) {?>
+        $("#button_picture_remove_slide<?php echo $i;?>").on("click",function() {
+
+            if (confirm("<?php echo __("Are you sure to delete image?");?>")) {
+                $("#tour_slide_<?php echo $i;?>_img_remove").val("1");
+                $("#tour_slide_<?php echo $i;?>").attr("src","");
+                $("#button_picture_remove_slide<?php echo $i;?>").css("display","none");
+            }
+        
+        });
+
+        $('#picture_uploader_slide<?php echo $i;?>').fileupload({
+            dataType: 'json',
+            add: function(e, data) {
+                data.submit();
+                picture_uploader_slide<?php echo $i;?>.showProgressbar();
+            },
+            progressall: function(e, data) {
+                picture_uploader_slide<?php echo $i;?>.moveProgressbar(data);
+            },
+            done: function(e, data) {
+                if (data.result.error) {
+                    picture_uploader_slide<?php echo $i;?>.showError(data.result.message);
+                }
+                if (data.result.success) {
+
+                    picture_uploader_slide<?php echo $i;?>.hide();
+                    var params = {};
+                    params["url"] = '<?php echo $this->getUrl('template/crop/crop'); ?>';
+                    params["file"] = data.result.files;
+                    params["output_w"] = 840;
+                    params["output_h"] = 590;
+                    //params["output_url"] = '<?php echo $this->getUrl('template/crop/crop'); ?>';
+                    params["output_url"] = '<?php echo str_replace('/', '$', $this->getUrl('template/crop/validate')) ?>';
+                    params["uploader"] = 'picture_uploader_slide<?php echo $i;?>';
+                    picture_uploader_slide<?php echo $i;?>.crop(params);
+                    picture_uploader_slide<?php echo $i;?>.callback = function(file) {
+                        console.log("Upload tour file <?php echo $i;?>:");
+                        console.log(file);
+                        $("#tour_slide_<?php echo $i;?>_img").val(file);
+                        $("#tour_slide_<?php echo $i;?>_img_new").val(1);
+                        $("#tour_slide_<?php echo $i;?>").attr("src","<?php echo Core_Model_Directory::getTmpDirectory() . "/"?>"+file).css("display","block");
+                        
+                        $("#button_picture_remove_slide<?php echo $i;?>").css("display","block");
+                    }
+                }
+            }
+        });
+        $('#button_picture_upload_slide<?php echo $i;?>').click(function() {
+            $('#picture_uploader_slide<?php echo $i;?>').trigger('click');
+            return false;
+        });
+    <?php } ?>
+
+    function update_preview() {
+
+        var title_color = $('input[name=tour_title_color]:checked', '#formapplicationtour').val();
+        var subtitle_color = $('input[name=tour_subtitle_color]:checked', '#formapplicationtour').val();
+        var title_mode = $('input[name=tour_title_color_type]:checked', '#formapplicationtour').val();
+        var subtitle_mode = $('input[name=tour_subtitle_color_type]:checked', '#formapplicationtour').val();
+
+        $('#formapplicationtour div.title-text').attr('class', 'title-text');
+        $('#formapplicationtour div.subtitle-text').attr('class', 'subtitle-text');
+
+        $('#formapplicationtour div.title-text').addClass(title_color+"-"+title_mode);
+        $('#formapplicationtour div.subtitle-text').addClass(subtitle_color+"-"+subtitle_mode);
+
+        console.log(title_color);
+    }
+
+    $(document).ready(function() {
+        $('#formapplicationtour').submit(function() {
+            reload(this, this.action, true, function(datas) {
+                var loading = new AlertMessage();
+              
+                if(datas.success) {
+                    loading.show();
+                }
+            });
+            return false;
+        }); 
+      
+
+        //preview
+        update_preview();
+        $('input[name=tour_title_color]').change(function() {
+            update_preview();
+        });
+        $('input[name=tour_subtitle_color]').change(function() {
+            update_preview();
+        });
+        $('input[name=tour_title_color_type]').change(function() {
+            update_preview();
+        });
+        $('input[name=tour_subtitle_color_type]').change(function() {
+            update_preview();
+        });               
+    });
+</script>

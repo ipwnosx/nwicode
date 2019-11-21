@@ -1,0 +1,155 @@
+<div id="tourwindow">
+    <ion-header>
+        <ion-toolbar class="new-background-color">
+            <ion-buttons slot="start">
+                <ion-button color="primary" ng-click="restartTour()"><ion-icon name="refresh"></ion-icon></ion-button>
+            </ion-buttons>
+            <ion-title>{{tour_header}}</ion-title>
+            <ion-buttons slot="primary">
+                <ion-button color="primary" ng-click="close_tour_modal()">{{tour_tbs}}</ion-button>
+            </ion-buttons>
+        </ion-toolbar>
+    </ion-header>
+    <div class="swiper-container ion-padding">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" ng-hide="!tour_title_1 && !tour_slide_1 && !tour_subtitle_1">
+                <div class="tour-slide-img" ng-if="tour_slide_1">
+                    <img ng-src="{{tour_slide_1}}">
+                </div>
+                <div class="tour-slide-title" ng-if="tour_title_1"><h2>{{tour_title_1}}</h2></div>
+                <div class="tour-slide-subtitle" ng-if="tour_subtitle_1"><h4>{{tour_subtitle_1}}</h4></div>
+                <div>
+                    <br><br>
+                    <ion-button shape="round" fill="outline" color="primary" expand="block" ng-click="openLoginForm()"><ion-icon slot="start" name="person-add" ></ion-icon> <ion-icon slot="end" name="log-in" ></ion-icon>{{tour_lbt}}</ion-button>
+                    <ion-button ng-show="lastslide === '0'" shape="round" fill="outline" color="primary" expand="block" ng-click="close_tour_modal()"><ion-icon slot="end" name="arrow-forward" ></ion-icon>{{tour_tbc}}</ion-button>
+                </div>
+            </div>
+            <div class="swiper-slide" ng-hide="!tour_title_2 && !tour_slide_2 && !tour_subtitle_2">
+                <div class="tour-slide-img" ng-if="tour_slide_2">
+                    <img ng-src="{{tour_slide_2}}">
+                </div>
+                <div class="tour-slide-title" ng-if="tour_title_2"><h2>{{tour_title_2}}</h2></div>
+                <div class="tour-slide-subtitle" ng-if="tour_subtitle_2"><h4>{{tour_subtitle_2}}</h4></div>
+                <div ng-show="lastslide == 1">
+                    <br><br>
+                    <ion-button  shape="round" fill="outline" color="primary" expand="block" ng-click="close_tour_modal()"><ion-icon slot="end" name="arrow-forward" ></ion-icon>{{tour_tbc}}</ion-button>
+                </div>
+            </div>
+            <div class="swiper-slide" ng-hide="!tour_title_3 && !tour_slide_3 && !tour_subtitle_3">
+                <div class="tour-slide-img" ng-if="tour_slide_3">
+                    <img ng-src="{{tour_slide_3}}">
+                </div>
+                <div class="tour-slide-title" ng-if="tour_title_3"><h2>{{tour_title_3}}</h2></div>
+                <div class="tour-slide-subtitle" ng-if="tour_subtitle_3"><h4>{{tour_subtitle_3}}</h4></div>
+                <div ng-show="lastslide == 2">
+                    <br><br>
+                    <ion-button shape="round" fill="outline" color="primary" expand="block" ng-click="close_tour_modal()"><ion-icon slot="end" name="arrow-forward" ></ion-icon>{{tour_tbc}}</ion-button>
+                </div>
+            </div>
+            <div class="swiper-slide" ng-hide="!tour_title_4 && !tour_slide_4 && !tour_subtitle_4">
+                <div class="tour-slide-img" ng-if="tour_slide_4">
+                    <img ng-src="{{tour_slide_4}}">
+                </div>
+                <div class="tour-slide-title" ng-if="tour_title_4"><h2>{{tour_title_4}}</h2></div>
+                <div class="tour-slide-subtitle" ng-if="tour_subtitle_4"><h4>{{tour_subtitle_4}}</h4></div>
+                <div ng-show="lastslide == 3">
+                    <br><br>
+                    <ion-button shape="round" fill="outline" color="primary" expand="block" ng-click="close_tour_modal()"><ion-icon slot="end" name="arrow-forward" ></ion-icon>{{tour_tbc}}</ion-button>
+                </div>
+            </div>
+            <div class="swiper-slide" ng-hide="!tour_title_5 && !tour_slide_5 && !tour_subtitle_5">
+                <div class="tour-slide-img" ng-if="tour_slide_5">
+                    <img ng-src="{{tour_slide_5}}">
+                </div>
+                <div class="tour-slide-title" ng-if="tour_title_5"><h2>{{tour_title_5}}</h2></div>
+                <div class="tour-slide-subtitle" ng-if="tour_subtitle_5"><h4>{{tour_subtitle_5}}</h4></div>
+                <div ng-show="lastslide == 4">
+                    <br><br>
+                    <ion-button shape="round" fill="outline" color="primary" expand="block" ng-click="close_tour_modal()"><ion-icon slot="end" name="arrow-forward" ></ion-icon>{{tour_tbc}}</ion-button>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <style>
+        .swiper-container-horizontal>.swiper-pagination {
+            bottom: auto !important;
+            top: 0 !important;
+            position: relative !important;
+        }
+        .swiper-pagination-bullet {
+            background: var(--ion-color-primary) !important;
+        }
+        .header-ios ion-toolbar:last-child {
+            --border-width: 0 0 0px !important;
+        }
+        .new-background-color{
+            --background: #fff;
+        }
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            padding: 15px;
+            padding-top: 30px;
+        }  
+        .tour-slide-buttons {
+            display: none;
+            padding-bottom: 30px;
+        }
+        .tour-slide-buttons.show {
+            display: block;
+        }
+        .modal-backdrop-bg {
+            opacity: 0 !important;
+        }
+        .tour-slide-img {
+            text-align: center;
+            width:100%;
+        }    
+        .tour-slide-img img {
+            width:90%;
+            max-width: 420px;
+        }
+        .tour-slide-title {
+            width: 100%;
+            padding-top:40px;
+        }
+        .tour-slide-title h2 {
+            font-weight: bold;
+            color:var({{title_color}});
+            }
+        .tour-slide-subtitle {
+            width: 100%;
+            padding-top:20px;
+        }
+        .tour-slide-subtitle h4 {
+            font-weight: bold;
+            color:var({{subtitle_color}});
+        }
+        #tourwindow {
+            z-index: 999999 !important;
+        }
+    </style>
+</div>

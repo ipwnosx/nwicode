@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-30T08:50:52+03:00\n"
+"PO-Revision-Date: 2019-06-30T08:50:52+03:00\n"
+"Language: \n"
+
+# GMT 1559644710.4714
+msgid "Add a page"
+msgstr "Добавить функцию"
+
+# GMT 1559644710.4757
+msgid "Add feature"
+msgstr "Добавление"
+
+# GMT 1559644710.4801
+msgid "Allow line return in Title & Subtitles"
+msgstr "Возвращать на главную в папки"
+
+# GMT 1559644710.4844
+msgid "By checking this, a search field will appear in your folder feature"
+msgstr "По проверке этого, появится окно поиска в папке"
+
+# GMT 1559644710.4887
+#, mobile
+msgid "Cancel"
+msgstr "Отменить"
+
+# GMT 1559644710.4931
+msgid "Click on"
+msgstr "Нажмите на"
+
+# GMT 1559644710.4975
+msgid "Click on a feature to add it to the folder"
+msgstr "Нажмите на функцию, чтобы добавить в папку"
+
+# GMT 1559644710.5018
+msgid "Click on a page to add it to the folder"
+msgstr "Нажмите на функцию, чтобы добавить его в папку"
+
+msgid "Click on a page to add it to the folder <span id=\"folder_name\" class=\"folder_name\">\"%s\"</span>"
+msgstr "Нажмите на функцию, чтобы добавить его в папку <span id=\"folder_name\" class=\"folder_name\">\"%s\"</span>"
+
+# GMT 1559644710.5062
+msgid "Click on a page to add it to the folder <span id='folder_name' class='folder_name'>%s</span>"
+msgstr "Нажмите на функцию, чтобы добавить его в папку  <span id='folder_name' class='folder_name'>%s</span>"
+
+# GMT 1559644710.5105
+msgid "Close mobile display"
+msgstr "Закрыть моб. дисплей"
+
+# GMT 1559644710.5148
+msgid "Delete this folder and all its subfolders?"
+msgstr "Удалить эту папку и все вложенные папки?"
+
+# GMT 1559644710.5191
+msgid "Edit folder"
+msgstr "Изменить папку"
+
+# GMT 1559644710.5235
+msgid "Enable search in folders"
+msgstr "Включить поиск в папках"
+
+# GMT 1559644710.5278
+msgid "Folder title is required"
+msgstr "Нужно дать название папки"
+
+# GMT 1559644710.5321
+msgid "Folders"
+msgstr "Папки"
+
+# GMT 1559644710.5365
+msgid "Inherit global layout"
+msgstr "Наследование глобальный макет"
+
+# GMT 1559644710.5409
+msgid "Mobile display"
+msgstr "Моб. дисплей"
+
+# GMT 1559644710.5452
+msgid "New folder"
+msgstr "Новая папка"
+
+# GMT 1559644710.5496
+#, mobile
+msgid "No results for your request."
+msgstr "Нет результатов для вашего запроса."
+
+# GMT 1559644710.5539
+msgid "Override layout"
+msgstr "Переопределение макетов"
+
+# GMT 1559644710.5583
+msgid "Search results"
+msgstr "Результаты поиска"
+
+# GMT 1559644710.5626
+msgid "Show cover"
+msgstr "Показать обложку"
+
+# GMT 1559644710.5669
+msgid "Show search field"
+msgstr "Показать поле поиска"
+
+# GMT 1559644710.5713
+msgid "Show title"
+msgstr "Показать Заголовок"
+
+msgid "Subtitle"
+msgstr "Подзаголовок"
+
+# GMT 1559644710.5756
+msgid "Thumbnail"
+msgstr "Эскиз"
+
+# GMT 1559644710.5799
+msgid "Use card design"
+msgstr "Использовать дизайн карты"
+
+# GMT 1559644710.5841
+msgid "You cannot add this feature"
+msgstr "Вы не можете добавить эту функцию"
+
+# GMT 1559644710.5884
+msgid "You must first complete the current category creation process"
+msgstr "Вы должны сначала завершить текущий процесс по созданию категории"
+
+# GMT 1559644710.5928
+msgid "You will lose all unsaved changes, continue?"
+msgstr "Вы можете потерять все не сохраненные изменения!"
+
+# GMT 1559644710.5971
+msgid "to add a folder."
+msgstr "добавить папку."

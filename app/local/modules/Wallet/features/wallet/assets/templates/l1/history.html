@@ -1,0 +1,36 @@
+<ion-view sb-page-background class="sourcecode-view">
+    <ion-nav-title>{{ 'Transactions history' | translate }}</ion-nav-title>
+    <ion-content sb-background-image>
+
+	
+		<!-- ionic 4-->
+		<div ng-if="!old_style && !is_loading  && is_logged_in">
+		dd
+        </div>
+
+		
+		<!-- ionic 1-->
+		<div class="ionic1" ng-if="old_style && !is_loading">
+			<div class="card wallet-card-history" ng-repeat="t in data.transactions">
+			  <div class="item item-text-wrap">
+				<span class="item-note">{{t.from_account}}</span>
+				<p>{{ 'Date' | translate }} <b>{{t.date}}</b></p>
+				<p>{{ 'Balance' | translate }}: <b>{{t.summ}}</b></p>
+				<p>{{ 'Amount' | translate }}: <b>{{t.operation_summ}}</b></p>
+				<span class="item-note" ng-if="t.transaction_note!=''">{{t.transaction_note}}</span>
+				<p>{{t.description}}</p>
+				
+			  </div>
+			  <!--<div class="item item-text-wrap" ng-if="t.payment_message!=''" ng-bind-html="t.payment_message"></div>-->
+			</div>			
+			<div class="card wallet-card-history wallet-card-history-emty" ng-if="data.transactions.length==0">
+			  <div class="item item-text-wrap">
+				<p>{{'The list is empty'|translate}}</p>
+				
+			  </div>
+			</div>			
+        </div>
+    </ion-content>
+
+</ion-view>
+

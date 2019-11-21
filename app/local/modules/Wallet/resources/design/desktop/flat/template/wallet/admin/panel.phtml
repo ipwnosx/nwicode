@@ -1,0 +1,147 @@
+<?php 
+
+	//Получим данные кошелька
+	//$application = $this->getApplication();
+	if ($this->getSession()->getAppId()) $app_id = $this->getSession()->getAppId(); else $app_id=$this->getApplication()->getId();
+	$db =Zend_Db_Table_Abstract::getDefaultAdapter();
+
+	$stmt = $db->query(
+		'SELECT version FROM module WHERE name = ?',
+		array('Wallet')
+	);
+	$current_version =$stmt->fetch()['version'];
+	
+
+	if (empty($current_version)) {
+		echo "Wallet module not found! Exit...";
+		?><br><a href="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";?>" rel="" class="navigation"><i class="fa fa-sign-out fa-lg"></i> <?php echo __('Exit to Editor'); ?></a><br><?php
+		die(__("Wallet module not found! Exit..."));
+	}	
+	
+	$stmt = $db->query(
+		'SELECT * FROM application_option WHERE code = ?',
+		array('wallet')
+	);
+	$option_id = $stmt->fetch()['option_id'];
+	$stmt = $db->query(
+		'SELECT * FROM application_option_value WHERE option_id = ? and app_id = ?',
+		array($option_id, $app_id)
+	);
+	$value_id = $stmt->fetch()['value_id'];
+
+	$wallet = new Wallet_Model_Wallet();
+	$wallet->find(array("value_id" => $value_id));
+	
+	if (!$wallet->getId()) {
+		echo __("Wallet module not activated! Exit...");
+		?><br><a href="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";?>" rel="" class="navigation"><i class="fa fa-sign-out fa-lg"></i> <?php echo __('Exit to Editor'); ?></a><br><?php
+		die(__("Wallet module not activated! Exit..."));
+	}	
+	
+	$payment_systems = (new Wallet_Model_PaymentSystems())->findAll();
+	
+	//print_r($payment_systems);
+?>
+<script type="text/javascript">
+	var returnUrl = '';
+</script>
+<link href="/app/local/modules/Wallet/assets/css/bootstrap.css" rel="stylesheet">
+<link href="/app/local/modules/Wallet/assets/css/bootstrap-theme.css" rel="stylesheet">
+<link href="/app/local/modules/Wallet/assets/css/datatables.css" rel="stylesheet">
+<link href="/app/local/modules/Wallet/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+<link href="/app/local/modules/Wallet/assets/css/style.css" rel="stylesheet">
+<script type="text/javascript" src="/app/local/modules/Wallet/assets/js/datatables.js"></script>
+<script type="text/javascript" src="/app/local/modules/Wallet/assets/js/jquery.form-validator.min.js"></script>
+<script type="text/javascript" src="/app/sae/design/desktop/flat/js/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="/app/sae/design/desktop/flat/js/ckeditor/adapters/jquery.js"></script>
+<script type="text/javascript" src="/app/local/modules/Wallet/assets/js/tree.jquery.js"></script>
+<script type="text/javascript" src="/app/local/modules/Wallet/assets/amcharts4/core.js"></script>
+<script type="text/javascript" src="/app/local/modules/Wallet/assets/amcharts4/charts.js"></script>
+<script type="text/javascript" src="/app/local/modules/Wallet/assets/amcharts4/themes/animated.js"></script>
+<script type="text/javascript" src="/app/local/modules/Wallet/assets/amcharts4/themes/dataviz.js"></script>
+<script type="text/javascript" src="/app/local/modules/Wallet/assets/amcharts4/themes/material.js"></script>
+
+<div class="loader-wrapper"><div class="loader"></div></div>
+<div class="nav-side-menu">
+    <div class="brand"><?php echo __("Wallet");?></div>
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+  
+        <div class="menu-list">
+  
+            <ul id="menu-content" class="menu-content collapse out">
+                <li><a href="#" rel="dashboard" class="navigation" id="first_menu"><i class="fa fa-dashboard fa-lg"></i> <?php echo __('Dashboard'); ?></a></li>
+                <li><a href="#" rel="settings" class="navigation"><i class="fa fa-wrench fa-lg"></i> <?php echo __('Settings'); ?></a></li>
+
+                <li  data-toggle="collapse" data-target="#payment_systems" class="collapsed active">
+                  <a href="#"><i class="fa fa-globe fa-lg"></i> <?php echo __('Payment Systems'); ?><span class="arrow"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="payment_systems">
+					<?php foreach ($payment_systems as $ps) {?>
+						<li><a class="navigation" href="#" rel="payment_<?php echo $ps->getCode();?>"><?php echo $ps->getTitle();?></a></li>
+                    <?php } ?>
+                </ul>
+				
+                <li><a href="#" rel="customers" class="navigation"><i class="fa fa-users fa-lg"></i> <?php echo __('Customers'); ?></a></li>
+                <li><a href="#" rel="requests" class="navigation"><i class="fa fa-money fa-lg"></i> <?php echo __('Payout requests'); ?></a></li>
+                <li><a href="#" rel="bills" class="navigation"><i class="fa fa-print fa-lg"></i> <?php echo __('Bills'); ?></a></li>
+                <li><a href="#" rel="transactions" class="navigation"><i class="fa fa-exchange fa-lg"></i> <?php echo __('Transactions'); ?></a></li>
+                <li><a href="#" rel="addfundshistory" class="navigation"><i class="fa fa-retweet fa-lg"></i> <?php echo __('Add funds history'); ?></a></li>
+				<li><a href="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";?>/application/customization_design_style/edit" rel="" class="navigation"><i class="fa fa-sign-out fa-lg"></i> <?php echo __('Exit to Editor'); ?></a></li>
+
+            </ul>
+     </div>
+</div>
+<div class="row">
+	<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">&nbsp;</div>
+	<div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
+		<div id="success-message" class="alert alert-success" role="alert"></div>
+		<div id="error-message" class="alert alert-danger" role="alert"></div>
+		<div id="main">
+		Processing...
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+$("#menu-content a.navigation").on("click", function() {
+	loader_show();
+	$("#menu-content >li").removeClass("active");
+	$(this).parent().addClass("active");
+	var page = $(this).attr('rel');
+	var parameter = "";
+	if (page.indexOf("_")!==-1)  {
+		var ps = page.split("_");
+		parameter = ps[1];
+		page = ps[0];
+	}
+	var url = '<?php echo $this->getUrl('wallet/admin'); ?>';
+	console.log(url + "/" + page);
+	$.ajax({
+	   url:url + "/" + page,
+	   type:'GET',
+	   dataType: "json",
+	   cache: false,
+		data: "parameter="+parameter,
+		dataType: "json",
+	   success: function(data){
+			$("#error-message").hide();
+			$("#success-message").hide();
+		   $('#main').html(data.html);
+		   loader_hide();
+	   }
+	});
+	
+});
+$("#first_menu").trigger("click");
+
+function loader_show() {
+	$(".loader-wrapper").show();
+	$(".loader").show();	
+}
+
+function loader_hide() {
+	$(".loader-wrapper").hide();
+	$(".loader").hide();
+}
+</script>

@@ -1,0 +1,46 @@
+<ion-view sb-page-background cache-view="false" >
+	<ion-nav-title>{{ page_title }}</ion-nav-title>
+    <ion-header-bar class="bar-custom">
+		<ion-nav-buttons side="secondary">
+			<button ng-click="history_back_action()" class="button button-clear header-item" ng-if="right_button">
+				<span class="back-text"><span class="default-title">{{ right_button.label }}</span></span>
+				<i class="icon" ng-class="right_button.icon"></i>
+			</button>
+		</ion-nav-buttons>
+    </ion-header-bar>
+
+    <ion-content id="sberbank-dialog">
+		<div class="card" ng-show="!is_loading && !is_logged_in">
+			<div class="item item-text-wrap item-custom">{"You must be registerd customer!"|translate}</div>
+		</div>
+        <div class="card" ng-show="!is_loading && is_logged_in">
+            <div class="item item-text-wrap item-custom" ng-show="!is_loading && is_logged_in" ng-bind-html="intro_text"></div>
+			<div class="item item-text-wrap item-custom" ng-show="!is_loading && is_logged_in" ng-if="wallet_customer_score>=bill_summ">
+				<button ng-click="ConfirmOrder()" class="button icon-left button-positive button-100" >
+
+					<span class="back-text">
+						<span class="default-title">{{ "Pay now" | translate }}</span>
+					</span>
+
+					<i class="icon" ng-class="right_button.icon"></i>
+				</button>				
+			</div>
+			<div class="item item-text-wrap assertive" ng-show="!is_loading && is_logged_in" ng-if="wallet_customer_score<bill_summ">{{'An bill has been created for payment, but you do not have enough funds in your wallet to pay for it.'|translate}}</div>
+			<div class="item item-text-wrap assertive" ng-show="!is_loading && is_logged_in" ng-if="wallet_customer_score<bill_summ">{{'Refill your balance, after which you can pay this bill from your wallet in the bills section.'|translate}}</div>
+            <div class="item item-text-wrap item-custom"  ng-show="!is_loading && is_logged_in">
+				<button ng-click="returnToMobilcart()" class="button icon-left button-assertive button-100" >
+
+					<span class="back-text">
+						<span class="default-title">{{ "Pay later" | translate }}</span>
+					</span>
+
+					<i class="icon" ng-class="right_button.icon"></i>
+				</button>
+		
+            </div>			
+		</div>
+	<style>
+	.button-100 {width: 100%;}
+	</style>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,28 @@
+<ion-view sb-page-background class="sourcecode-view">
+    <ion-nav-title>{{ 'Bill' | translate }} {{data.id}}</ion-nav-title>
+    <ion-content sb-background-image>
+
+		<!-- ionic 1-->
+		<div class="ionic1" ng-show="old_style && !is_loading"> 
+			<div class="card wallet-card-bill">
+			  <div class="item item-text-wrap">
+				<p><h2># {{data.id}}</h2></p>
+				<p>{{ 'Date' | translate }} <b>{{data.created_at}}</b></p>
+				<p>{{ 'Amount' | translate }}: <b>{{data.summ}}</b></p> 
+				<p>{{ 'Status' | translate }}: <b>{{data.status}}</b></p>
+			  </div>
+			  <div class="item item-text-wrap"><h2>{{data.bill_source}}</h2></div>			  
+			  <div class="item item-text-wrap"><p>{{data.title}}</p></div>
+				<div class="item item-divider" ng-show="data.description!=''">{{'Description'|translate}}</div>
+				<div class="item item-text-wrap" ng-show="data.description!=''" ng-bind-html="data.description"></div>
+				<div class="item item-text-wrap" ng-show="data.status=='cancel' && data.cancel_text!=''" ng-bind-html="data.cancel_text"></div>					
+				<div class="item item-text-wrap" ng-show="data.status=='complete' && data.complete_text!=''" ng-bind-html="data.complete_text"></div>					
+				<div class="item item-divider" ng-if="data.status=='pending'">{{'Action'|translate}}</div>
+				<div class="item" ng-if="data.status=='pending' && customer.score>=data.summ"><button class="button button-full button-positive" ng-click="acceptBill(data)"><i class="icon ion-cash"></i> {{'Pay'|translate}}</button></div>
+				<div class="item item-text-wrap assertive" ng-if="data.status=='pending' && customer.score<data.summ">{{'You do not have enough funds to pay. Please replenish your account at the beginning with the required amount.'|translate}}</div>
+				<div class="item" ng-if="data.status=='pending'"><button class="button button-full button-assertive" ng-click="cancelBill(data)"><i class="icon  ion-android-cancel"></i> {{'Cancel'|translate}}</button></div>
+			</div>				
+        </div>
+
+    </ion-content>
+</ion-view>

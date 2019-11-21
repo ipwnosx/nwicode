@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-04-18T04:06:58+03:00\n"
+"PO-Revision-Date: 2019-04-18T04:06:58+03:00\n"
+"Language: \n"
+
+msgctxt "advanced_translations"
+msgid "A similar translation already exists."
+msgstr "Benzer bir çeviri zaten var."
+
+msgctxt "advanced_translations"
+msgid "Actions"
+msgstr "Eylemler"
+
+msgctxt "advanced_translations"
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+msgctxt "advanced_translations"
+msgid "Advanced translations"
+msgstr "Gelişmiş çevirileri"
+
+msgctxt "advanced_translations"
+msgid "Are you sure?"
+msgstr "Emin misin?"
+
+msgctxt "advanced_translations"
+msgid "Confirmation"
+msgstr "Onay"
+
+msgctxt "advanced_translations"
+msgid "Context"
+msgstr "Bağlam"
+
+msgctxt "advanced_translations"
+msgid "Context key"
+msgstr "Bağlam anahtarı"
+
+msgctxt "advanced_translations"
+msgid "Create a new translation"
+msgstr "Yeni bir çeviri oluşturmak"
+
+msgctxt "advanced_translations"
+msgid "DELETE"
+msgstr "Sil"
+
+msgctxt "advanced_translations"
+msgid "Editor, backoffice"
+msgstr "Editör, idari büro"
+
+msgctxt "advanced_translations"
+msgid "Flag"
+msgstr "Bayrak"
+
+msgctxt "advanced_translations"
+msgid "Leave blank unless you explicitly know it."
+msgstr "Açıkça bilmiyorsanız boş bırakın."
+
+msgctxt "advanced_translations"
+msgid "Manage your translations"
+msgstr "Çeviriler yönetmek"
+
+msgctxt "advanced_translations"
+msgid "Mobile app"
+msgstr "Mobil uygulama"
+
+msgctxt "advanced_translations"
+msgid "New translation saved."
+msgstr "Yeni çeviri kurtardı."
+
+msgctxt "advanced_translations"
+msgid "No, go back."
+msgstr "Hayır, geri dön."
+
+msgctxt "advanced_translations"
+msgid "String to translate"
+msgstr "Dize çevirmek için"
+
+msgctxt "advanced_translations"
+msgid "Tanslation removed."
+msgstr "Tanslation kaldırıldı."
+
+msgctxt "advanced_translations"
+msgid "Translation list"
+msgstr "Çeviri listesi"
+
+msgctxt "advanced_translations"
+msgid "Translation removed."
+msgstr "Çeviri kaldırıldı."
+
+msgctxt "advanced_translations"
+msgid "Yes, delete!"
+msgstr "Evet, Sil!"
+
+msgctxt "advanced_translations"
+msgid "You have no translation."
+msgstr "Bir çeviri var."

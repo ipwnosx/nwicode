@@ -1,0 +1,1910 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-16T07:47:38+03:00\n"
+"PO-Revision-Date: 2019-07-16T07:47:38+03:00\n"
+"Language: \n"
+
+# GMT 1559644702.4631
+msgid "setting."
+msgstr "настройки"
+
+# GMT 1559644704.4895
+msgid "%s %s"
+msgstr "%s %s"
+
+# GMT 1559644704.4851
+msgid "%s Image%s"
+msgstr "%s фото%s"
+
+# GMT 1559644702.4671
+msgid "1 An error occurred while saving. Please try again later."
+msgstr "1 произошла ошибка при сохранении. Пожалуйста, попробуйте снова позже."
+
+# GMT 1559644702.4715
+msgid "1An error occurred while saving. Please try again later."
+msgstr "произошла ошибка при сохранении. Пожалуйста, попробуйте снова позже."
+
+# GMT 1559644702.4758
+msgid "2 An error occurred while saving. Please try again later."
+msgstr "Ошибка при сохранении. Пожалуйста, попробуйте снова позже."
+
+# GMT 1559644702.4801
+msgid "20,00 %"
+msgstr "20,00 %"
+
+# GMT 1559644702.4845
+msgid "2An error occurred while saving. Please try again later."
+msgstr "ошибка при сохранении. Пожалуйста, попробуйте снова позже."
+
+# GMT 1559644702.4889
+msgid "2Checkout subscription is inactive, tray again later."
+msgstr "Подписка 2Checkout не активна, попробуй позже."
+
+# GMT 1559644702.4932
+msgid "3 An error occurred while saving. Please try again later."
+msgstr "ошибка при сохранении. Пожалуйста, попробуйте снова позже."
+
+# GMT 1559644702.4976
+msgid "3An error occurred while saving. Please try again later."
+msgstr "произошла ошибка при сохранении. Пожалуйста, попробуйте снова позже."
+
+# GMT 1559644702.5019
+msgid "403 Forbidden"
+msgstr "403 запрещено"
+
+# GMT 1559644704.4461
+msgid "<b>%s</b> is not supported with the current currency <b>%s</b>!"
+msgstr "<b>%s</b> не поддерживается в текущей валюте <b>%s</b>!"
+
+# GMT 1559644704.433
+msgid "<b>Danger zone</b>: below you can definitively delete your account."
+msgstr "<b>в опасной зоне</b>: ниже вы можете окончательно удалить свой аккаунт."
+
+# GMT 1559644704.4374
+msgid "<b>Warning:</b> translation API is experimental for the current language and may fail."
+msgstr "<b>внимание:</b>  перевод API является экспериментальным для текущего языка и может произойти сбой."
+
+# GMT 1559644702.5063
+msgid "A new user just registered!"
+msgstr "Новый пользователь только что зарегистрировался!"
+
+# GMT 1559644702.5106
+msgid "A user just made a new subscription on the Platform <b>%s</b>, for the Application <b>%s</b>."
+msgstr "Пользователь сделал новую подписку на платформе <b>%s</b>, приложения <b>%s</b>."
+
+# GMT 1559644702.515
+msgid "A user registered on your Platform %s"
+msgstr "Пользователь, зарегистрированный на вашей платформе %s"
+
+# GMT 1559644702.5193
+msgid "APK Generation"
+msgstr "Генерация АПК"
+
+# GMT 1559644702.5236
+msgid "APK build failed!"
+msgstr "APK создать не удалось!"
+
+# GMT 1559644702.528
+msgid "APK build succeed!"
+msgstr "Полная сборка удалась!"
+
+# GMT 1559644702.5323
+msgid "APK generation for App: %s"
+msgstr "Генерация APK для приложения: %s"
+
+# GMT 1559644702.5367
+msgid "Account Created"
+msgstr "Создание учетной записи"
+
+# GMT 1559644702.541
+msgid "Activate the user"
+msgstr "Активировать пользователей"
+
+# GMT 1559644702.5454
+msgid "Activating or Deactivating a parent subscription will apply to it's childs."
+msgstr "Включение и отключение родительской подписки, будет распространяться на его приложения."
+
+# GMT 1559644702.5497
+msgid "Activation"
+msgstr "Активация"
+
+# GMT 1559644702.5541
+msgid "Activation of your Subscription!"
+msgstr "Активация вашей подписки!"
+
+# GMT 1559644702.5584
+msgid "Active subscriptions with remaining slots."
+msgstr "Активные подписки."
+
+# GMT 1559644702.5628
+msgid "Add a region"
+msgstr "Добавить регион"
+
+# GMT 1559644702.5672
+msgid "Adding %s to SAN."
+msgstr "Добавить %s в ."
+
+# GMT 1559644702.5712
+msgid "Admin Cancellation"
+msgstr "Отмена администратором"
+
+# GMT 1559644702.5756
+msgid "AdminId is required to save the Application."
+msgstr "AdminId требуется для сохранения приложения."
+
+# GMT 1559644702.5799
+msgid "Album:"
+msgstr "Альбом:"
+
+# GMT 1559644702.5843
+msgid "All sessions are now migrated to Redis."
+msgstr "Все сеансы теперь мигрировали в Redis."
+
+# GMT 1559644702.5886
+msgid "An administrator of the Platform <b>%s</b>, activated your subscription for the Application <b>%s</b>"
+msgstr "Администратор платформы <b>%s</b> позволяет активировать подписку для приложения <b>%s</b>"
+
+# GMT 1559644702.5929
+msgid "An administrator of the Platform <b>%s</b>, cancelled your subscription for the Application <b>%s</b>"
+msgstr "Администратор платформы <b>%s</b>,  отменил подписку для приложения <b>%s</b>"
+
+# GMT 1559644702.5967
+msgid "An administrator of the Platform <b>%s</b>, deactivated your subscription for the Application <b>%s</b>"
+msgstr "Администратор платформы <b>%s</b> позволяет деактивировать подписки для приложения <b>%s</b>"
+
+# GMT 1559644702.6001
+msgid "An error occured while adding the block."
+msgstr "Произошла ошибка при добавлении блока."
+
+# GMT 1559644702.6167
+msgid "An error occurred when generating the apk"
+msgstr "Произошла ошибка при создании АПК"
+
+# GMT 1559644702.6211
+msgid "An error occurred while hidding the Android Status Bar."
+msgstr "Произошла ошибка при настройки строке состояния Android."
+
+# GMT 1559644702.6254
+msgid "An error occurred while hidding the iOS Status Bar."
+msgstr "Произошла ошибка при настройки строке состояния iOS."
+
+# GMT 1559644702.6298
+msgid "An error occurred while importing line %s : impossible to save the object. Please check your file format."
+msgstr "Произошла ошибка при импорте строке на %s : невозможно сохранить объект. Пожалуйста, проверьте формат файла."
+
+# GMT 1559644702.6342
+msgid "An error occurred while loading. Please, try again later."
+msgstr "Произошла ошибка при загрузке. Пожалуйста, повторите попытку позже."
+
+# GMT 1559644702.6385
+msgid "An error occurred while saving the password. Please try again later."
+msgstr "Ошибка при сохранении пароля. Пожалуйста, попробуйте снова позже."
+
+# GMT 1559644702.6428
+msgid "An error occurred while saving your APK. Please try again later."
+msgstr "Произошла ошибка при сохранении файла APK. Пожалуйста, попробуйте снова позже."
+
+# GMT 1559644702.6472
+msgid "An error occurred while saving your Keystore. Please try again later."
+msgstr "Произошла ошибка при сохранении вашего хранилища. Пожалуйста, попробуйте снова позже."
+
+# GMT 1559644702.6515
+msgid "An error occurred while saving your page subtitle."
+msgstr "Произошла ошибка при сохранении подзаголовка вашей страницы."
+
+# GMT 1559644702.6559
+msgid "An error occurred while saving your picture. Please try againg later."
+msgstr "Произошла ошибка при сохранении вашей картинки. Пожалуйста, попробуйте againg позже."
+
+# GMT 1559644702.6599
+msgid "An error occurred while upload the APK. Please try again later."
+msgstr "Произошла ошибка при загрузки АПК. Пожалуйста, попробуйте снова позже."
+
+# GMT 1559644702.6642
+msgid "An error occurred while validating point<br />Please try again later."
+msgstr "Произошла ошибка при проверке очков <br />пожалуйста, попробуйте снова позже."
+
+# GMT 1559644702.6081
+msgid "An error occurred, backButton is required!"
+msgstr "Произошла ошибка!"
+
+# GMT 1559644702.6124
+msgid "An error occurred, please try again."
+msgstr "Произошла ошибка, пожалуйста, попробуйте снова."
+
+# GMT 1559644702.6038
+msgid "An error occurred. Please try again later."
+msgstr "Произошла ошибка. Пожалуйста, попробуйте снова позже."
+
+# GMT 1559644702.6683
+msgid "An unknown error occured."
+msgstr "Неизвестная ошибка."
+
+# GMT 1559644702.6769
+msgid "An unknown error occurred while listing applications."
+msgstr "Произошла неизвестная ошибка при получении списка приложений."
+
+# GMT 1559644702.6726
+msgid "An unknown error occurred, please try again later."
+msgstr "Произошла неизвестная ошибка, пожалуйста, повторите попытку позже."
+
+# GMT 1559644702.6813
+msgid "An user of the Platform <b>%s</b>, cancelled the subscription of the Application <b>%s</b>"
+msgstr "Пользователь платформы <b>%s</b>, отменил подписку на приложение <b>%s</b>"
+
+# GMT 1559644702.6857
+msgid "Android SDK is marked for update."
+msgstr "SDK для Android настроен для обновления."
+
+# GMT 1559644702.69
+msgid "Anniversary"
+msgstr "Годовщина"
+
+# GMT 1559644702.6944
+msgid "App ID:"
+msgstr "Идентификатор приложения:"
+
+# GMT 1559644702.6987
+msgid "App Id is required!"
+msgstr "Требуется ID приложение!"
+
+# GMT 1559644702.7031
+msgid "App name:"
+msgstr "Название приложения:"
+
+# GMT 1559644702.7074
+msgid "Application id %s not found."
+msgstr "Идентификатор приложение %s не найден."
+
+# GMT 1559644702.7118
+msgid "Application identifier:"
+msgstr "Идентификатор приложения:"
+
+# GMT 1559644702.7153
+msgid "Application not found!"
+msgstr "Приложение не найдено!"
+
+# GMT 1559644702.7196
+msgid "Application template successfully imported."
+msgstr "Шаблон приложения успешно импортированы."
+
+# GMT 1559644702.724
+msgid "Applications tied to this subscription"
+msgstr "Приложения привязаны к этой подписке"
+
+# GMT 1559644702.7283
+msgid "Apps Qty"
+msgstr "Приложения кол-во."
+
+# GMT 1559644702.7327
+msgid "Authentication failed."
+msgstr "Ошибка аутентификации."
+
+# GMT 1559644702.737
+msgid "Automatic Cancellation"
+msgstr "Автоматическая отмена"
+
+# GMT 1559644702.7414
+msgid "Back button choice saved!"
+msgstr "Назад выбор кнопки сохранено!"
+
+# GMT 1559644702.7457
+msgid "Background Color"
+msgstr "Цвет фона"
+
+# GMT 1559644702.7492
+msgid "Banner %s price"
+msgstr "Цена баннера %s"
+
+# GMT 1559644702.7535
+msgid "Banner %s store label"
+msgstr "Баннер %s название магазина"
+
+# GMT 1559644702.7579
+msgid "Be aware that if the code you enter here requires any kind of server interaction it will not work properly in offline mode."
+msgstr "Помните, что если код, который вы вводите здесь требует какой-либо сервер взаимодействия, то это будет не правильно работать в автономном режиме."
+
+# GMT 1559644702.7622
+msgid "Before publishing your Application you must upload a homepage background."
+msgstr "Перед публикацией приложения необходимо загрузить домашний фон."
+
+# GMT 1559644702.7665
+msgid "Before publishing your Application you must upload a splashscreen."
+msgstr "Перед публикацией приложения необходимо загрузить заставку."
+
+# GMT 1559644702.7709
+msgid "Below you'll find important informations required in some services!"
+msgstr "Ниже вы найдете важную информацию, необходимую в некоторых сервисах!"
+
+# GMT 1559644702.7753
+msgid "Bin SQLite3:"
+msgstr "SQLite3:"
+
+# GMT 1559644702.7796
+msgid "Black"
+msgstr "Черный"
+
+# GMT 1559644702.7835
+msgid "Booking details:"
+msgstr "Детали бронирования:"
+
+# GMT 1559644702.7878
+msgid "Border Color"
+msgstr "Цвет Границы"
+
+# GMT 1559644702.7922
+msgid "Build Mobile Social Gaming"
+msgstr "Создание мобильных социальных сетей"
+
+# GMT 1559644702.7965
+msgid "Build failed"
+msgstr "Сгенерировать не удалось"
+
+# GMT 1559644702.8009
+msgid "Build succeed"
+msgstr "Сгенерировано"
+
+# GMT 1559644702.8052
+msgid "CORE TEMPLATE"
+msgstr "БАЗОВЫЙ ШАБЛОН"
+
+# GMT 1559644702.8096
+msgid "Cache cleared."
+msgstr "Кэш очищается."
+
+# GMT 1559644702.814
+msgid "Cancel current Subscription"
+msgstr "Отмена текущей подписки"
+
+# GMT 1559644702.8183
+msgid "Cancel subscription"
+msgstr "Отменить подписку"
+
+# GMT 1559644702.8218
+msgid "Cancellation of your Subscription!"
+msgstr "Отмена подписки!"
+
+# GMT 1559644702.8261
+msgid "Cancelling a child subscription will only affect the concerned application."
+msgstr "Отмена подписки,  влияет только на соответствующие приложения."
+
+# GMT 1559644702.8305
+msgid "Cancelling a paid subscription will mark it as cancelled, and the subscription will automatically expire on it's expiration date."
+msgstr "Отмена платной подписки  будет помечено как отмененный, и подписка будет автоматически отключена."
+
+# GMT 1559644702.8344
+msgid "Cancelling a parent subscription will also cancel it's childs."
+msgstr "Отмена родительской подписки также  отменит это приложение."
+
+# GMT 1559644702.8378
+msgid "Cannot find application from token."
+msgstr "Не могу найти токен приложение."
+
+# GMT 1559644702.8421
+msgid "Cannot send APK build to service %s."
+msgstr "Не могу отправить apk для генерации %s."
+
+# GMT 1559644702.8459
+msgid "Cannot send build to service %s."
+msgstr "Не могу отправить на генерацию %s."
+
+# GMT 1559644702.8503
+msgid "Catalog not found!"
+msgstr "В каталоге не найдено!"
+
+# GMT 1559644702.8538
+msgid "Category has been deleted."
+msgstr "Категория была удалена."
+
+# GMT 1559644702.8581
+msgid "Category not found!"
+msgstr "Категория не найдена!"
+
+# GMT 1559644702.8618
+msgid "Category successfully deleted."
+msgstr "Категория успешно удалена."
+
+# GMT 1559644702.8661
+msgid "Certificate renewal is disabled until %s due to rate limit hit."
+msgstr "Обновление сертификата отключено до %s из-за предела лимита."
+
+# GMT 1559644702.8704
+msgid "Change your homepage"
+msgstr "Изменить вашу домашнюю страницу"
+
+# GMT 1559644702.8747
+msgid "Change your startup image"
+msgstr "Изменить стартовую страницу"
+
+# GMT 1559644702.8791
+msgid "Check out our support pages:"
+msgstr "Проверьте наши страницы поддержки:"
+
+# GMT 1559644702.8834
+msgid "Chef de projet"
+msgstr "Руководитель проекта"
+
+# GMT 1559644702.8878
+msgid "Child"
+msgstr "Наследуемый"
+
+# GMT 1559644702.8921
+msgid "Choose a"
+msgstr "Выбрать"
+
+# GMT 1559644702.8955
+msgid "City:"
+msgstr "Город:"
+
+# GMT 1559644702.8998
+msgid "ClamAV:"
+msgstr "Антивирус ClamAV:"
+
+# GMT 1559644702.9041
+msgid "Code Used"
+msgstr "Код"
+
+# GMT 1559644702.9083
+msgid "Coiffeurs"
+msgstr "Парикмахеры"
+
+# GMT 1559644702.9127
+msgid "Company successfully deleted."
+msgstr "Компания успешно удалена"
+
+# GMT 1559644702.917
+msgid "Create a new plan"
+msgstr "Создайте новый план"
+
+# GMT 1559644702.9214
+msgid "Created at:"
+msgstr "Создан в:"
+
+# GMT 1559644702.9257
+msgid "Credentials successfully saved!"
+msgstr "Учетные данные успешно сохранены!"
+
+# GMT 1559644702.9301
+msgid "Date and time:"
+msgstr "Дата и время:"
+
+# GMT 1559644702.9345
+msgid "Deactivation"
+msgstr "Отключение"
+
+# GMT 1559644702.9388
+msgid "Deactivation of your Subscription!"
+msgstr "Деактивация подписки!"
+
+# GMT 1559644702.9431
+msgid "Define how many applications can be activated with this Subscription"
+msgstr "Установить, сколько приложений можно активировать в эту подписку"
+
+# GMT 1559644702.9474
+msgid "Delete my account."
+msgstr "Удалить мой аккаунт."
+
+# GMT 1559644702.9518
+msgid "Delivery fees:"
+msgstr "Тарифы на доставку:"
+
+# GMT 1559644702.9561
+msgid "Delivery methods:"
+msgstr "Способы доставки:"
+
+# GMT 1559644702.9605
+msgid "Delivery radius:"
+msgstr "Радиус доставки:"
+
+# GMT 1559644702.9649
+msgid "Delivery time:"
+msgstr "Срок поставки:"
+
+# GMT 1559644702.9692
+msgid "Description:"
+msgstr "Описание:"
+
+# GMT 1559644702.9735
+msgid "Disable this Subscription!"
+msgstr "Отключите эту подписку!"
+
+# GMT 1559644702.9778
+msgid "Disabling cache can have significant performance impacts."
+msgstr "Отключение кэша может иметь значительное влияние на производительность."
+
+# GMT 1559644702.9822
+msgid "Distributeur logiciel"
+msgstr "Дистрибьютор программного обеспечения"
+
+# GMT 1559644702.9866
+msgid "Do not edit the following settings if your APK Generator is working!"
+msgstr "Не изменяйте следующие параметры, если ваш генератор АПК работает!"
+
+# GMT 1559644702.991
+msgid "Download QRCode for employee"
+msgstr "Скачать qrcode для сотрудника"
+
+# GMT 1559644702.9953
+msgid "Download images archive"
+msgstr "Скачать архив изображений"
+
+# GMT 1559644702.9996
+msgid "Download template as"
+msgstr "Шаблон скачать как"
+
+# GMT 1559644703.0036
+msgid "Download the APK !"
+msgstr "Скачать APK !"
+
+# GMT 1559644703.0079
+msgid "Download the source archive !"
+msgstr "Скачать архив-исходник !"
+
+# GMT 1559644703.0123
+msgid "Downloading your package."
+msgstr "Скачивание пакета."
+
+# GMT 1559644703.0161
+msgid "Edit the account \"%s\""
+msgstr "Редактирование учетной записи \"%s\""
+
+# GMT 1559644703.0196
+msgid "Edit the plan"
+msgstr "Редактирование плана"
+
+# GMT 1559644703.0239
+msgid "Employee's name"
+msgstr "Имя сотрудника"
+
+# GMT 1559644703.0282
+msgid "Employee's password"
+msgstr "Пароль сотрудника"
+
+# GMT 1559644703.0323
+msgid "Enable this Subscription!"
+msgstr "Включите эту подписку!"
+
+# GMT 1559644703.0366
+msgid "Error: unable to write Environment in config.php"
+msgstr "Ошибка: не удается записать  в config.php"
+
+# GMT 1559644703.041
+msgid "Essayez gratuitement !"
+msgstr "Попробуй бесплатно!"
+
+# GMT 1559644703.0453
+msgid "Expired on"
+msgstr "Истек"
+
+# GMT 1559644703.0496
+msgid "Extension not allowed, '%s' only"
+msgstr "Расширение не разрешено, только '%s'"
+
+msgid "Extension not allowed, \\'%s\\' only"
+msgstr "Продление не допускается, \\'%s\\'"
+
+# GMT 1559644703.054
+msgid "Feature is now %s"
+msgstr "Функция теперь %s"
+
+# GMT 1559644703.0583
+msgid "Feature not found."
+msgstr "Функция не найдена."
+
+# GMT 1559644703.0627
+msgid "Feature successfully added inside folder!"
+msgstr "Функция успешно добавлена в папку!"
+
+# GMT 1559644703.067
+msgid "Feature successfuly imported."
+msgstr "Функция - успешно импортированы."
+
+# GMT 1559644703.0714
+msgid "Firebase is not well configured."
+msgstr "Firebase не настроена."
+
+# GMT 1559644703.0757
+msgid "Firewall Slack settings have been saved."
+msgstr "Параметры брандмауэра были сохранены."
+
+# GMT 1559644703.08
+msgid "Firstname:"
+msgstr "Имя:"
+
+# GMT 1559644703.0844
+msgid "Fixed"
+msgstr "Исправлено"
+
+# GMT 1559644703.0887
+msgid "Folder not found!"
+msgstr "Папку не нашел!"
+
+# GMT 1559644703.0925
+msgid "Free"
+msgstr "Бесплатно"
+
+# GMT 1559644703.0968
+msgid "Free delivery starting from:"
+msgstr "Бесплатная доставка начиная от:"
+
+# GMT 1559644703.1005
+msgid "Free plan"
+msgstr "Свободный план"
+
+# GMT 1559644703.1048
+msgid "Free plans have no expiration date."
+msgstr "Бесплатные планы не имеют срока годности."
+
+# GMT 1559644703.1091
+msgid "Free trial period duration must be a numeric value."
+msgstr "Бесплатная пробная продолжительность периода должно быть числовое значение."
+
+# GMT 1559644703.1134
+msgid "Galerie photos"
+msgstr "Фото галерея"
+
+# GMT 1559644703.1178
+msgid "Gallery has been deleted!"
+msgstr "Галерея была удалена!"
+
+# GMT 1559644703.1213
+msgid "Google Service file successfully saved!"
+msgstr "Файл сервиса Google успешно сохранен!"
+
+# GMT 1559644703.1257
+msgid "Hide overlay"
+msgstr "Скрыть оверлей"
+
+# GMT 1559644703.13
+msgid "IP:Port"
+msgstr "IP:порт"
+
+# GMT 1559644703.1344
+msgid "If your credit card, or subscription expired, you can purchase a new one."
+msgstr "Если ваша кредитная карта или подписка закончена, вы можете приобрести новый план."
+
+# GMT 1559644703.1431
+msgid "Import success."
+msgstr "Успех импорт."
+
+# GMT 1559644703.1474
+msgid "Installed templates"
+msgstr "Установленные шаблоны"
+
+# GMT 1559644703.1518
+msgid "Interface en Marque Blanche"
+msgstr "Интерфейс en Marque Blanche"
+
+# GMT 1559644703.1562
+msgid "Invalid QRCode parameters."
+msgstr "Недопустимые параметры отображение."
+
+# GMT 1559644703.1606
+msgid "Invalid twitter handle/url!"
+msgstr "Недопустимый идентификатор в Twitter/URL-адрес!"
+
+# GMT 1559644703.165
+msgid "Invoice"
+msgstr "Счет-фактура"
+
+# GMT 1559644703.1693
+msgid "Invoice %s"
+msgstr "Счет %s"
+
+# GMT 1559644703.1737
+msgid "Is Active?"
+msgstr "Является активным?"
+
+# GMT 1559644703.1781
+msgid "JpegOptim:"
+msgstr "JpegOptim:"
+
+# GMT 1559644703.1824
+msgid "Label:"
+msgstr "Названия:"
+
+# GMT 1559644703.1867
+msgid "Lastname:"
+msgstr "Фамилия:"
+
+# GMT 1559644703.1911
+msgid "Let your users know what is locked."
+msgstr "Пусть ваши пользователи знают, что заблокировано."
+
+# GMT 1559644703.1954
+msgid "Linked to Subscription"
+msgstr "Связанных с подпиской"
+
+# GMT 1559644703.1997
+msgid "List of your taxes"
+msgstr "Список ваших налогов"
+
+# GMT 1559644703.2041
+msgid "Listing produits"
+msgstr "Листинг как produits"
+
+# GMT 1559644703.2085
+msgid "Listing produits / tarifs"
+msgstr "Листинг как produits / тарифы"
+
+# GMT 1559644703.2129
+msgid "Loading your white label editor."
+msgstr "Загрузка редактора white label."
+
+# GMT 1559644703.2216
+msgid "Main domain is required!"
+msgstr "Требуется главный домен!"
+
+# GMT 1559644703.2259
+msgid "Main domain is required, you can set it in <b>Settings > General</b>"
+msgstr "Требуется главный домен, вы можете установить его в <b>параметры > общие</b>"
+
+# GMT 1559644703.2302
+msgid "Major update disclaimer, confirmation required!"
+msgstr "Отказ от ответственности обновления, требуется подтверждение!"
+
+# GMT 1559644703.2346
+msgid "Manifest rebuilt with succes."
+msgstr "Манифест восстановлен с успехом."
+
+# GMT 1559644703.2432
+msgid "Message is required."
+msgstr "Необходимое сообщение."
+
+# GMT 1559644703.2389
+msgid "Message:"
+msgstr "Сообщение:"
+
+# GMT 1559644703.2476
+msgid "Migration done!"
+msgstr "Миграция сделана!"
+
+# GMT 1559644703.252
+msgid "Minimum order:"
+msgstr "Минимальный заказ:"
+
+# GMT 1559644703.2563
+msgid "Missing categories."
+msgstr "Отсутствующие категории."
+
+# GMT 1559644703.2606
+msgid "Missing data."
+msgstr "Недостающие данные."
+
+# GMT 1559644703.265
+msgid "Missing design_id."
+msgstr "Отсутствует design_id."
+
+# GMT 1559644703.2694
+msgid "Missing form data!"
+msgstr "Недостающие данные формы!"
+
+# GMT 1559644703.2737
+msgid "Missing parameter value_id."
+msgstr "Отсутствует value_id параметра."
+
+# GMT 1559644703.2781
+msgid "Missing parameters!"
+msgstr "Недостающие параметры!"
+
+# GMT 1559644703.2824
+msgid "Missing parameters, value_id or message."
+msgstr "Отсутствующие параметры, value_id или сообщение."
+
+# GMT 1559644703.2861
+msgid "Missing params!"
+msgstr "Недостающие параметры!"
+
+# GMT 1559644703.2904
+msgid "Missing request."
+msgstr "Отсутствует запрос."
+
+# GMT 1559644703.2947
+msgid "Missing token and/or status."
+msgstr "Отсутствует токен и/или статус."
+
+# GMT 1559644703.2991
+msgid "Missing value_id!"
+msgstr "Отсутствует value_id!"
+
+# GMT 1559644703.3034
+msgid "Mode"
+msgstr "Режим"
+
+# GMT 1559644703.3078
+msgid "Mur de news"
+msgstr "Стена новостей"
+
+# GMT 1559644703.3121
+msgid "Mur de news mobile"
+msgstr "Мобильная новостная стена"
+
+# GMT 1559644703.3164
+msgid "My Subscriptions"
+msgstr "Мои подписки"
+
+# GMT 1559644703.3208
+msgid "My subscriptions"
+msgstr "Мои подписки"
+
+# GMT 1559644703.3251
+msgid "N.A."
+msgstr "N.A."
+
+# GMT 1559644703.3295
+msgid "Name is required to save the Application."
+msgstr "Имя требуется сохранить в приложение."
+
+# GMT 1559644703.3338
+msgid "National"
+msgstr "Национальный"
+
+# GMT 1559644703.3381
+msgid "New sale"
+msgstr "Новая распродажа"
+
+# GMT 1559644703.3417
+msgid "New subscription on your Platform %s!"
+msgstr "Новые подписки на вашу платформу %s!"
+
+# GMT 1559644703.346
+msgid "New user Account"
+msgstr "Новая учетная запись пользователя"
+
+# GMT 1559644703.3503
+msgid "Next payment date"
+msgstr "Следующая дата платежа"
+
+# GMT 1559644703.3547
+msgid "No build."
+msgstr "Не сгенерирован."
+
+# GMT 1559644703.3588
+msgid "No credentials found!"
+msgstr "Учетные данные не найдены!"
+
+# GMT 1559644703.363
+msgid "No customers available."
+msgstr "Нет доступных клиентов."
+
+# GMT 1559644703.3674
+msgid "No data sent."
+msgstr "Не отправляет данные."
+
+# GMT 1559644703.3714
+msgid "No file found."
+msgstr "Файл не найден."
+
+# GMT 1559644703.3801
+msgid "No templates"
+msgstr "Нет шаблонов"
+
+# GMT 1559644703.3757
+msgid "No, go back!"
+msgstr "Нет, вернитесь!"
+
+# GMT 1559644703.3844
+msgid "Nobody is online."
+msgstr "Никто не онлайн."
+
+# GMT 1559644703.3932
+msgid "Not a Yahoo weather request, aborting."
+msgstr "Нет запроса Yahoo погода."
+
+# GMT 1559644703.3975
+msgid "Notifications Push"
+msgstr "Уведомления Push"
+
+# GMT 1559644703.4018
+msgid "Notifications Push en marque blanche"
+msgstr "Уведомления push"
+
+# GMT 1559644703.4105
+msgid "Number of Applications"
+msgstr "Количество заявок"
+
+# GMT 1559644703.4148
+msgid "Offline"
+msgstr "В автономном режиме"
+
+# GMT 1559644703.4192
+msgid "Only cancelled"
+msgstr "Только отменили"
+
+# GMT 1559644703.4236
+msgid "OptiPNG:"
+msgstr "OptiPNG:"
+
+# GMT 1559644703.4279
+msgid "Option name:"
+msgstr "Имя параметра:"
+
+# GMT 1559644703.4323
+msgid "Or purchase a new subscription"
+msgstr "Оформить подписку на сервис"
+
+# GMT 1559644703.441
+msgid "Order successfully saved saved."
+msgstr "Заказ успешно сохранен."
+
+# GMT 1559644703.4366
+msgid "Order:"
+msgstr "Заказ:"
+
+# GMT 1559644703.4453
+msgid "Overlay color"
+msgstr "Наложение цвета"
+
+# GMT 1559644703.4497
+msgid "Owner"
+msgstr "Владелец"
+
+# GMT 1559644703.454
+msgid "Owner Cancellation"
+msgstr "Отмена Владельцем"
+
+# GMT 1559644703.4583
+msgid "PEM Request generally takes 1 minute to complete."
+msgstr "Запрос PEM, как правило, занимает 1 минуту, чтобы закончить."
+
+# GMT 1559644703.4627
+msgid "PHP SQLite3:"
+msgstr "PHP и sqlite3:"
+
+# GMT 1559644703.467
+msgid "PNGQuant:"
+msgstr "PNGQuant:"
+
+# GMT 1559644703.4705
+msgid "PROTECTED"
+msgstr "Защищены"
+
+# GMT 1559644703.4749
+msgid "Partially saved."
+msgstr "Частично сохранены."
+
+# GMT 1559644703.4792
+msgid "Password:"
+msgstr "Пароль:"
+
+# GMT 1559644703.4835
+msgid "PayPal is not configured in your Backoffice, recurrencies will not work correctly."
+msgstr "PayPal не настроен в вашем личном кабинете, recurrencies не будет правильно работать."
+
+# GMT 1559644703.4879
+msgid "PayPal subscription is %s."
+msgstr "Подписка на PayPal %s."
+
+# GMT 1559644703.4922
+msgid "Payment Information:"
+msgstr "Информация об оплате:"
+
+# GMT 1559644703.4965
+msgid "Payments are verified through their respective APIs."
+msgstr "Платежи проверяются через их соответствующие интерфейсы."
+
+# GMT 1559644703.5009
+msgid "Percentage"
+msgstr "Процент"
+
+# GMT 1559644703.5052
+msgid "Please correct the following errors <br>"
+msgstr "Пожалуйста, исправьте следующие ошибки <br>в"
+
+# GMT 1559644703.5096
+msgid "Please enter a correct version for the %s app"
+msgstr "Пожалуйста, введите правильную версию для приложения с"
+
+# GMT 1559644703.5182
+msgid "Please enter a valid date."
+msgstr "Введите действительную дату."
+
+# GMT 1559644703.5226
+msgid "Please fill iTunes Connect Credentials."
+msgstr "Пожалуйста, заполните iTunes подключите учетные данные."
+
+# GMT 1559644703.5267
+msgid "Please verify the"
+msgstr "Пожалуйста, проверьте"
+
+# GMT 1559644703.5139
+msgid "Please, enter a password."
+msgstr "Пожалуйста, введите пароль."
+
+# GMT 1559644703.531
+msgid "Plesk from 12.0 to 17.0"
+msgstr "Плеск от 12,0 до 17,0"
+
+# GMT 1559644703.5354
+msgid "Plus d'infos"
+msgstr "Плюс D'infos"
+
+# GMT 1559644703.5397
+msgid "Postal code or city:"
+msgstr "Почтовый код или город:"
+
+# GMT 1559644703.5441
+msgid "Previous and/or Expired subscriptions"
+msgstr "Предыдущие и/или подписки"
+
+# GMT 1559644703.5485
+msgid "Previous version"
+msgstr "Предыдущие версии"
+
+# GMT 1559644703.5528
+msgid "Price:"
+msgstr "Цена:"
+
+# GMT 1559644703.5572
+msgid "Product has been deleted."
+msgstr "Продукт был удален."
+
+# GMT 1559644703.5615
+msgid "Product name:"
+msgstr "Наименование товара:"
+
+# GMT 1559644703.5654
+msgid "Product not found!"
+msgstr "Товар не найден!"
+
+# GMT 1559644703.5697
+msgid "Promo not found"
+msgstr "Промо не нашел"
+
+# GMT 1559644703.5741
+msgid "Promo successfully deleted"
+msgstr "Акция успешно удалена"
+
+# GMT 1559644703.5784
+msgid "Promotion successfully deleted."
+msgstr "Акция успешно удалена."
+
+# GMT 1559644703.5828
+msgid "Provider"
+msgstr "Поставщик"
+
+# GMT 1559644703.5872
+msgid "Purchase a new subscription!"
+msgstr "Оформить новую подписку!"
+
+# GMT 1559644703.5914
+msgid "Query successfully deleted."
+msgstr "Запрос успешно удален."
+
+# GMT 1559644703.5958
+msgid "Question"
+msgstr "Вопрос"
+
+# GMT 1559644703.5993
+msgid "RSS application mobile"
+msgstr "RSS для мобильных приложений"
+
+# GMT 1559644703.6072
+msgid "Rate"
+msgstr "Ставка"
+
+# GMT 1559644703.6115
+msgid "Reason:"
+msgstr "Причина:"
+
+# GMT 1559644703.6158
+msgid "Recipient email:"
+msgstr "Адрес получателя:"
+
+# GMT 1559644703.6202
+msgid "Recurrent fee"
+msgstr "Абонплата"
+
+# GMT 1559644703.6239
+msgid "Region"
+msgstr "Область"
+
+# GMT 1559644703.6274
+msgid "Regular fee"
+msgstr "Регулярный сбор"
+
+# GMT 1559644703.6315
+msgid "Removing CRON Scheduler generator lock files."
+msgstr "Удаление файлов генератор cron-планировщик ."
+
+# GMT 1559644703.635
+msgid "Removing CRON Scheduler source lock files."
+msgstr "Удаление крон исходные файлы планировщика блокировки."
+
+# GMT 1559644703.6393
+msgid "Removing domain %s, domain in dot notation is not supported."
+msgstr "Удаление домена %s домена в точечной нотации не поддерживается."
+
+# GMT 1559644703.6436
+msgid "Render Test"
+msgstr "Тест Рендер"
+
+# GMT 1559644703.648
+msgid "Request a new PEM certificate."
+msgstr "Запросить новый сертификат PEM."
+
+# GMT 1559644703.6515
+msgid "Reset to default Privacy Policy GDPR."
+msgstr "По умолчанию Политика конфиденциальности GDPR."
+
+# GMT 1559644703.6558
+msgid "Resize your picture:"
+msgstr "Размер изображения:"
+
+# GMT 1559644703.6601
+msgid "Safe in landscape"
+msgstr "Безопасный в пейзаж"
+
+# GMT 1559644703.6645
+msgid "Safe in portrait"
+msgstr "Безопасный в портретном"
+
+# GMT 1559644703.6688
+msgid "Safe zone overlay"
+msgstr "Безопасная зона наложения"
+
+# GMT 1559644703.6732
+msgid "Scan this QR Code:"
+msgstr "Отсканируйте этот QR-код:"
+
+# GMT 1559644703.6776
+msgid "Scratchcard"
+msgstr "Лотерейка"
+
+# GMT 1559644703.6819
+msgid "Secret Key:"
+msgstr "Секретный Ключ:"
+
+# GMT 1559644703.6862
+msgid "Seems the appId is empty or invalid, aborting!"
+msgstr "Кажется AppID является пустым или недействительным, прерываюсь!"
+
+# GMT 1559644703.6906
+msgid "Seems we could delete unwanted files, aborting!"
+msgstr "Кажется, мы можем удалить ненужные файлы, прерываюсь!"
+
+# GMT 1559644703.6949
+msgid "Select a connection type:"
+msgstr "Выбор тип подключения:"
+
+# GMT 1559644703.6993
+msgid "Select one of the available subscriptions with remaining slots"
+msgstr "Выберите одну из доступных подписок"
+
+# GMT 1559644703.7036
+msgid "Send your favicon"
+msgstr "Отправить ваш favicon"
+
+# GMT 1559644703.708
+msgid "Send your logo"
+msgstr "Отправьте ваш логотип"
+
+# GMT 1559644703.7123
+msgid "Service status / load"
+msgstr "Статус услуги / нагрузки"
+
+# GMT 1559644703.7167
+msgid "Setting successfully saved."
+msgstr "Настройки успешно сохранены."
+
+# GMT 1559644703.721
+msgid "Show applications removed from the editor."
+msgstr "Показать приложений удаленные из редактора."
+
+# GMT 1559644703.7253
+msgid "Show child subscriptions"
+msgstr "Показать подписки субприложений"
+
+# GMT 1559644703.7297
+msgid "Signature:"
+msgstr "Подпись:"
+
+# GMT 1559644703.7341
+msgid "Snacking / Restaurants"
+msgstr "Кафе / Рестораны"
+
+# GMT 1559644703.7384
+msgid "Snacking<br />Restaurants"
+msgstr "Перекусить<br />в ресторане"
+
+# GMT 1559644703.7428
+msgid "Social Gaming"
+msgstr "Социальные"
+
+# GMT 1559644703.7471
+msgid "Something went wrong while restoring files, process aborted!"
+msgstr "Что-то пошло не так при восстановлении файлов, процесс прерывается!"
+
+# GMT 1559644703.7514
+msgid "Sorry but an error occurred while duplicating your application."
+msgstr "Извините, но произошла ошибка при дублировании вашего приложения."
+
+# GMT 1559644703.7558
+msgid "Source type:"
+msgstr "Тип исходника:"
+
+# GMT 1559644703.7601
+msgid "Sources Generation"
+msgstr "Исходный код"
+
+# GMT 1559644703.7645
+msgid "Sources are successfully restored."
+msgstr "Исходник успешно восстановлен."
+
+# GMT 1559644703.7732
+msgid "Subscription date"
+msgstr "Дата подписки"
+
+# GMT 1559644703.7776
+msgid "Subscription updated."
+msgstr "Подписка на обновления."
+
+# GMT 1559644703.7689
+msgid "Subscription:"
+msgstr "Подписка:"
+
+# GMT 1559644703.7819
+msgid "Successfully saved default project."
+msgstr "Успешно сохраненного проекта по умолчанию."
+
+# GMT 1559644703.7906
+msgid "Tax name:"
+msgstr "Наименование налога:"
+
+# GMT 1559644703.795
+msgid "Tax rate:"
+msgstr "Налоговая ставка:"
+
+# GMT 1559644703.7863
+msgid "Tax:"
+msgstr "Налог:"
+
+# GMT 1559644703.7993
+msgid "Teams successfully refreshed!"
+msgstr "Команды успешно обновились!"
+
+# GMT 1559644703.8036
+msgid "Telephone"
+msgstr "Телефон"
+
+# GMT 1559644703.8071
+msgid "Temp cleared."
+msgstr "Темп очищается."
+
+# GMT 1559644703.8113
+msgid "Test App"
+msgstr "Тест Приложение"
+
+# GMT 1559644703.8151
+msgid "Text Color"
+msgstr "Цвет Текста"
+
+# GMT 1559644703.8187
+msgid "Thanks for working with us!"
+msgstr "Спасибо за проявленный интерес к нашей платформе!"
+
+# GMT 1559644703.8221
+msgid "Thanks for your report."
+msgstr "Спасибо за ваш отчет."
+
+# GMT 1559644703.8263
+msgid "Thanks for your subscription."
+msgstr "Спасибо за вашу подписку."
+
+# GMT 1559644703.8297
+msgid "The APK for the application %s has been generated !"
+msgstr "APK для приложение %s был создан !"
+
+# GMT 1559644703.8339
+msgid "The APK generation failed !"
+msgstr "APK не создан !"
+
+# GMT 1559644703.8382
+msgid "The APK generation is done !"
+msgstr "APK готов !"
+
+# GMT 1559644703.8426
+msgid "The APK has been generated!"
+msgstr "APK  создан!"
+
+# GMT 1559644703.846
+msgid "The CNAME for the URL \"%s\" is not properly set"
+msgstr "Запись CNAME для URL \"%s\" не правильно установлена"
+
+# GMT 1559644703.8504
+msgid "The CNAME for the domain \"%s\" is not properly set"
+msgstr "Запись CNAME для домена \"%s\" не правильно установлена"
+
+# GMT 1559644703.8547
+msgid "The Source code for the application %s has been generated !"
+msgstr "Исходный код для приложения %s был создан !"
+
+# GMT 1559644703.859
+msgid "The Source code generation failed !"
+msgstr "Генерация исходного кода не удалось !"
+
+# GMT 1559644703.8631
+msgid "The categories for line %s couldn't be created : no parent category found."
+msgstr "Категории по строке %s не могла быть создана :  родительская категория не найдена."
+
+# GMT 1559644703.8674
+msgid "The categories for line %s couldn't be created : no root category found."
+msgstr "Категории в строке %s не могла быть созданы : нет корневой категории."
+
+# GMT 1559644703.8718
+msgid "The categories for line %s couldn't be read."
+msgstr "Категории по строке %s не могла быть прочитана."
+
+# GMT 1559644703.8761
+msgid "The data has been saved successfully"
+msgstr "Данные успешно сохранены"
+
+# GMT 1559644703.8804
+msgid "The entered package name is incorrect, it should be like: com.nwicodecms.app"
+msgstr "Введенное имя пакета неверное, надо так: com.nwicodecms.app"
+
+# GMT 1559644703.8848
+msgid "The feature you are trying to edit doesn't exists!"
+msgstr "Функция, которую вы пытаетесь изменить, не существует!"
+
+# GMT 1559644703.8891
+msgid "The formats for line %s couldn't be read."
+msgstr "Форматы строке %s не могла быть прочитана."
+
+# GMT 1559644703.8935
+msgid "The given template does not exists."
+msgstr "Данный шаблон не существует."
+
+# GMT 1559644703.8978
+msgid "The local APK generator requires %s"
+msgstr "Генератор АПК  %s"
+
+# GMT 1559644703.9022
+msgid "The options for line %s couldn't be read."
+msgstr "Параметры строки %s не прочитана."
+
+# GMT 1559644703.9065
+msgid "The options for line %s couldn't be saved."
+msgstr "Параметры строки %s не  сохранена."
+
+# GMT 1559644703.9108
+msgid "The overlay helps you check if important content and/or text on your homepage image is inside the safe boundaries."
+msgstr "Оверлей поможет вам проверить, если важно содержание и/или текста на изображении странице находится внутри безопасных границ."
+
+# GMT 1559644703.9152
+msgid "The requested APK generation failed: %s"
+msgstr "Запрашиваемая генерация APK не получилась: %s"
+
+# GMT 1559644703.9195
+msgid "The requested APK/Source generation failed !"
+msgstr "Запрашиваемая APK генерация не получилась !"
+
+# GMT 1559644703.9239
+msgid "The search request is empty."
+msgstr "Поисковый запрос пуст."
+
+# GMT 1559644703.9282
+msgid "The selected subscription is not valid."
+msgstr "Некоторые подписки не действительны."
+
+# GMT 1559644703.9318
+msgid "The source generation is done !"
+msgstr "Генерация исходников запущена !"
+
+# GMT 1559644703.9361
+msgid "The subscription is cancelled!"
+msgstr "Подписка отменена!"
+
+# GMT 1559644703.9404
+msgid "The subscription is now active."
+msgstr "Подписка сейчас активна."
+
+# GMT 1559644703.9448
+msgid "The subscription is now inactive."
+msgstr "Подписка сейчас не активна."
+
+# GMT 1559644703.9492
+msgid "The user doesn't exist."
+msgstr "Пользователь не существует."
+
+# GMT 1559644703.9536
+msgid "There is not corresponding release to restore from, process aborted!"
+msgstr "Нет соответствующего выхода для восстановления, процесс прерывается!"
+
+# GMT 1559644703.9579
+msgid "This Application doesn't exists, aborting!"
+msgstr "Это приложение не существует, прерываясь!"
+
+# GMT 1559644703.9623
+msgid "This Application has some invoices associated, you can not delete it!"
+msgstr "Это приложение имеет некоторые накладные связаны, вы не можете удалить его!"
+
+# GMT 1559644703.9666
+msgid "This action is used to migrate all current active session into a Redis server instance, use this only with care if you want to migrate from MySQL session to Redis session storage."
+msgstr "Это действие используется, чтобы перенести все текущие активные сессии в экземпляр сервера Redis использовать только с осторожностью, если вы хотите перенести из сеанса MySQL в Redis для хранения сессии."
+
+# GMT 1559644703.971
+msgid "This admin can download application sources code."
+msgstr "Этот админ может скачать исходные коды приложения."
+
+# GMT 1559644703.9753
+msgid "This application does not belong to you."
+msgstr "Это приложение не принадлежит вам."
+
+# GMT 1559644703.9796
+msgid "This block type doesn't exists."
+msgstr "Этот тип блока не существует."
+
+# GMT 1559644703.984
+msgid "This feature is not ready yet. Please try again later."
+msgstr "Эта функция еще не готова. Пожалуйста, попробуйте снова позже."
+
+# GMT 1559644703.9877
+msgid "This field is required."
+msgstr "Это поле является обязательным."
+
+# GMT 1559644703.992
+msgid "This icon is not allowed!"
+msgstr "Этот значок не допускается!"
+
+# GMT 1559644703.9964
+msgid "This is a child subscription, it is tied to a parent with 2 or more application slots."
+msgstr "Это подписка субприложений, он привязан к родителю с 2 или более слотов для приложений."
+
+# GMT 1559644704.0008
+msgid "This is a demo version, these changes can't be saved."
+msgstr "Это демо-версия, эти изменения не могут быть сохранены."
+
+# GMT 1559644704.0045
+msgid "This is a demo version, you are not allowed to change the default role."
+msgstr "Это демо-версия, вы не можете изменить роль по умолчанию."
+
+# GMT 1559644704.0176
+msgid "This is a demo version, you can't download any source codes / APKs"
+msgstr "Это демо-версия, вы не могу скачать какие-либо коды источников / Апкс"
+
+# GMT 1559644704.0088
+msgid "This is a demo version, you cannot deactive an user."
+msgstr "Это демо-версия, вы не выключена пользователем."
+
+# GMT 1559644704.0132
+msgid "This is a demo version, you cannot save these settings."
+msgstr "Это демо-версия, вы не можете сохранить эти настройки."
+
+# GMT 1559644704.0211
+msgid "This is probably %s"
+msgstr "Это, наверное, %s"
+
+# GMT 1559644704.0253
+msgid "This method is deprecated, please update!"
+msgstr "Этот метод является устаревшим, пожалуйста, обновите!"
+
+# GMT 1559644704.0297
+msgid "This subscription does not exists!"
+msgstr "Эта подписка не существует!"
+
+# GMT 1559644704.0341
+msgid "This subscription doesn't exists!"
+msgstr "Эта подписка не существует!"
+
+# GMT 1559644704.0384
+msgid "This subscription is cancelled, and will expire by <b>%s</b>."
+msgstr "Эта подписка будет отменена, и истекает <b>%s</b>."
+
+# GMT 1559644704.0423
+msgid "This template installer is not supported anymore, please refer to the documentation to update your installer."
+msgstr "Этот установщик шаблона не поддерживается больше, пожалуйста, обратитесь к документации, чтобы обновить установщик."
+
+# GMT 1559644704.0466
+msgid "This user does not exist."
+msgstr "Этот пользователь не существует."
+
+# GMT 1559644704.0509
+msgid "Tip: %s"
+msgstr "Тип: %s"
+
+# GMT 1559644704.0553
+msgid "Title:"
+msgstr "Название:"
+
+# GMT 1559644704.0597
+msgid "Touch To Call"
+msgstr "Нажмите, Чтобы Позвонить"
+
+# GMT 1559644704.064
+msgid "Translation in progress ..."
+msgstr "Перевод в прогрессе ..."
+
+# GMT 1559644704.0677
+msgid "UPGRADE NOW!"
+msgstr "ОБНОВИТЬ СЕЙЧАС!"
+
+# GMT 1559644704.072
+msgid "Unable to cancel 2Checkout subscription, tray again later."
+msgstr "Можете отменить позже подписки 2Checkout."
+
+# GMT 1559644704.0763
+msgid "Unable to cancel PayPal subscription, tray again later."
+msgstr "Можете отменить позже подписки PayPal."
+
+# GMT 1559644704.0807
+msgid "Unable to fetch your application background images."
+msgstr "Невозможно получить фоновые изображения вашего приложения."
+
+# GMT 1559644704.085
+msgid "Unable to find either folder or feature!"
+msgstr "Не удалось найти папку или функцией!"
+
+# GMT 1559644704.0893
+msgid "Unable to find option."
+msgstr "Не удалось найти вариант."
+
+# GMT 1559644704.0936
+msgid "Unable to find the corresponding build."
+msgstr "Не удалось найти соответствующей сборки."
+
+# GMT 1559644704.098
+msgid "Unable to find the order id!"
+msgstr "Не удалось найти номер заказа!"
+
+# GMT 1559644704.1015
+msgid "Unable to load CMS Blocks without value_id."
+msgstr "Не удалось загрузить CMS блоков без value_id."
+
+# GMT 1559644704.1058
+msgid "Unable to parse certificate."
+msgstr "Не удалось разобрать сертификат."
+
+# GMT 1559644704.1101
+msgid "Unable to retrieve 2Checkout subscription, tray again later."
+msgstr "Не удалось получить подписки 2Checkout."
+
+# GMT 1559644704.1145
+msgid "Unable to update a user from here."
+msgstr "Можете обновить пользователя отсюда."
+
+# GMT 1559644704.1189
+msgid "Unauthorized access to feature."
+msgstr "Несанкционированный доступ к объекту."
+
+# GMT 1559644704.1232
+msgid "Unified homepage"
+msgstr "Единая домашняя страница"
+
+# GMT 1559644704.1275
+msgid "Unified splashscreen"
+msgstr "Загрузочная страница"
+
+# GMT 1559644704.1319
+msgid "Unknown action for this module."
+msgstr "Неизвестные действия для данного модуля."
+
+# GMT 1559644704.1356
+msgid "Unkown error!"
+msgstr "Неизвестная ошибка!"
+
+# GMT 1559644704.1399
+msgid "Until %s"
+msgstr "До %s"
+
+# GMT 1559644704.1442
+msgid "Upgrade required"
+msgstr "Требуется обновление"
+
+# GMT 1559644704.1486
+msgid "Upload your %s file below."
+msgstr "Загрузите ваш файл %s ниже."
+
+# GMT 1559644704.1573
+msgid "User ID:"
+msgstr "ID пользователя:"
+
+# GMT 1559644704.1617
+msgid "User cancelled his Subscription!"
+msgstr "Пользователь отменил свою подписку!"
+
+# GMT 1559644704.166
+msgid "User email:"
+msgstr "Адрес электронной почты:"
+
+# GMT 1559644704.1703
+msgid "User name"
+msgstr "Имя пользователя"
+
+# GMT 1559644704.153
+msgid "User:"
+msgstr "Пользователь:"
+
+# GMT 1559644704.1747
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+# GMT 1559644704.179
+msgid "View the Application"
+msgstr "Просмотр приложения"
+
+msgid "We are sorry but our Wordpress plugin hasn\\'t been detected on your website. Please be sure it is correctly installed and activated."
+msgstr "Нам очень жаль, но наш плагин WordPress hasn\\'т были обнаружены на вашем сайте. Пожалуйста, убедитесь, что он правильно установлен и активирован."
+
+# GMT 1559644704.1877
+msgid "We are sorry but this nickname is already used."
+msgstr "Нам очень жаль, но этот ник уже используется."
+
+# GMT 1559644704.192
+msgid "We can't delete the only application from your installation."
+msgstr "Мы не можем удалить единственное приложение из вашей установки."
+
+# GMT 1559644704.1956
+msgid "We were unable to determine your %s version."
+msgstr "Нам не удалось определить ваш %версия ."
+
+# GMT 1559644704.1999
+msgid "We were unable to find your last payment for the subscription of the Application <b>%s</b>"
+msgstr "Мы не смогли найти ваш последний платеж по подписке приложений <b>%s</b>"
+
+# GMT 1559644704.2043
+msgid "Website:"
+msgstr "Сайт:"
+
+# GMT 1559644704.2087
+msgid "Welcome on our Platform %s"
+msgstr "Добро пожаловать на нашу платформу %s"
+
+# GMT 1559644704.2124
+msgid "White"
+msgstr "Белый"
+
+# GMT 1559644704.2167
+msgid "Xcode 9.2"
+msgstr "В Xcode 10.0 +"
+
+# GMT 1559644704.221
+msgid "Yes, Delete!"
+msgstr "Да, Удалить!"
+
+# GMT 1559644704.2254
+msgid "Yes, Proceed to update!"
+msgstr "Да, продолжить обновление!"
+
+# GMT 1559644704.2297
+msgid "You are about to cancel this subscription, the payments will be stopped, and the application will be disabled!<br />You can enter a customer message below to inform the Application owner!<br /><br />"
+msgstr "Вы собираетесь отменить эту подписку, платежи будут остановлены, и приложение будет отключено!<br />вы можете ввести сообщение ниже поддержки, чтобы сообщить владельцу приложения!<br /><br />"
+
+# GMT 1559644704.234
+msgid "You are about to update to version %s, this version introduces breaking changes in the platform,"
+msgstr "Вы собираетесь обновить до версии %s, Эта версия вносит критические изменения в платформе,"
+
+# GMT 1559644704.2384
+msgid "You are going to love it!<br />Thanks to our effective features, you will be able to create great mobile apps in your name, within minutes."
+msgstr "Вам понравится!<br />Благодаря множеству эффективных функций, вы сможете создавать отличные мобильные приложения, в течение нескольких минут."
+
+# GMT 1559644704.2427
+msgid "You are not allowed to access this page"
+msgstr "Вам не разрешен доступ к этой странице"
+
+# GMT 1559644704.247
+msgid "You are not allowed to cancel child subscriptions."
+msgstr "Не допускается отмена подписок субприложений."
+
+# GMT 1559644704.2513
+msgid "You are not allowed to cancel free subscriptions."
+msgstr "Вы не можете отменить бесплатную подписку."
+
+# GMT 1559644704.2557
+msgid "You are not allowed to cancel offline/paid subscriptions."
+msgstr "Не допускается отмена автономных/платных подписок."
+
+# GMT 1559644704.26
+msgid "You are not allowed to cancel online/paid subscriptions."
+msgstr "Вы не можете отменить онлайн/платные подписки."
+
+# GMT 1559644704.2644
+msgid "You are not allowed to delete applications."
+msgstr "Вам не разрешается удалять приложения."
+
+# GMT 1559644704.2688
+msgid "You can activate <b>%s</b> more App%s"
+msgstr "Вы можете активировать <b>%s</b>  на другое приложение%s"
+
+# GMT 1559644704.2731
+msgid "You can contact your Administrator to get more informations."
+msgstr "Вы можете связаться с администратором, чтобы получить больше информаций."
+
+# GMT 1559644704.2774
+msgid "You can disable a template globally!"
+msgstr "Вы можете отключить шаблон глобально!"
+
+# GMT 1559644704.2818
+msgid "You can only edit offline subscriptions!"
+msgstr "Вы можете только редактировать подписки в автономном режиме!"
+
+# GMT 1559644704.2861
+msgid "You can publish <b>up to %s Apps</b>"
+msgstr "Вы можете опубликовать  <b>до %s приложений</b>"
+
+# GMT 1559644704.3036
+msgid "You can't activate an online subscription!"
+msgstr "Вы не можете активировать онлайн подписку!"
+
+# GMT 1559644704.3079
+msgid "You can't assign a role to this child role, this will break the hierarchy!"
+msgstr "Вы не можете назначить роль, это роль суб приложения, это нарушит иерархию!"
+
+# GMT 1559644704.3122
+msgid "You can't deactivate an online subscription!"
+msgstr "Вы не можете отключить онлайн подписки!"
+
+# GMT 1559644704.3158
+msgid "You can't go back to Angular."
+msgstr "Вы не можете вернуться на Angular."
+
+# GMT 1559644704.3201
+msgid "You can't go back with Angular."
+msgstr "Ты не можешь вернуться с Angular."
+
+# GMT 1559644704.2905
+msgid "You cannot add a Folder feature inside a folder!"
+msgstr "Нельзя добавить папку в папки!"
+
+# GMT 1559644704.2949
+msgid "You cannot change Firewall settings, it's a demo version."
+msgstr "Вы не можете изменить параметры брандмауэра, это демо-версия."
+
+# GMT 1559644704.2992
+msgid "You cannot change translation, it's a demo version."
+msgstr "Вы не можете изменить перевод, это демо-версия."
+
+# GMT 1559644704.3244
+msgid "You don't have any plans yet"
+msgstr "У вас еще нет никаких планов"
+
+# GMT 1559644704.3288
+msgid "You don't have created any taxes yet"
+msgstr "Вы не создали никаких налогов"
+
+# GMT 1559644704.3324
+msgid "You have exceeded the number of attempts to validate points.<br />Your card is locked for 24h"
+msgstr "Вы превысили количество попыток для проверки очков..<br />ваша карта заблокирована на 24 часа"
+
+# GMT 1559644704.341
+msgid "You have no subscription with free slots, please proceed to a new purchase."
+msgstr "У вас нет оплаченного тарифа, пожалуйста, выберете и оплатите тариф для дальнейшей работы."
+
+# GMT 1559644704.3367
+msgid "You have no subscription."
+msgstr "У вас нет подписки."
+
+# GMT 1559644704.3453
+msgid "You have no users."
+msgstr "У вас нет пользователей."
+
+# GMT 1559644704.3489
+msgid "You have no whitelabel yet."
+msgstr "У вас нет whitelabel ."
+
+# GMT 1559644704.3524
+msgid "You have received a publication request:"
+msgstr "Вы получили запрос на публикацию:"
+
+# GMT 1559644704.3567
+msgid "You manually handle the payments via check, cash, etc... and activations/deactivations."
+msgstr "Вы вручную обрабатывать платежи с помощью чека, наличными, и т. д.... и активаций/деактиваций."
+
+# GMT 1559644704.361
+msgid "You must be connected to create a post!"
+msgstr "Вы должны быть зарегистрированы!"
+
+# GMT 1559644704.3653
+msgid "You must select a subscription!"
+msgstr "Вы должны выбрать подписку!"
+
+# GMT 1559644704.3697
+msgid "You must select an existing subscription!"
+msgstr "Вы должны выбрать уже существующую подписку!"
+
+# GMT 1559644704.374
+msgid "You must set a Google Maps API Key in <b>Settings > Advanced</b> in order to use this feature."
+msgstr "У вас должен быть установлен API Карт Google ключ в <b>Параметры > Дополнительно</b> в целях использования этой функции."
+
+# GMT 1559644704.3784
+msgid "You must upgrade Java to 1.8"
+msgstr "Вы должны обновить Java до 1,8"
+
+# GMT 1559644704.3827
+msgid "You will disable the current Application subscription!<br />You can enter a customer message below to inform the Application owner!<br /><br />"
+msgstr "Вы отключаете текущую подписку приложения!<br />вы можете ввести сообщение ниже поддержки, чтобы сообщить владельцу приложения!<br /><br />"
+
+# GMT 1559644704.3863
+msgid "You will enable the current Application subscription!<br />You can enter a customer message below to inform the Application owner!<br /><br />"
+msgstr "Активация текущей подписки приложения!<br />вы можете ввести сообщение ниже, чтобы сообщить владельцу приложения!<br /><br />"
+
+# GMT 1559644704.407
+msgid "Your %s version is %s."
+msgstr "Ваш %s версия %s"
+
+# GMT 1559644704.3906
+msgid "Your APK is being generated. Please come back in a few minutes."
+msgstr "APK не создается. Пожалуйста, повторите через несколько минут."
+
+# GMT 1559644704.3949
+msgid "Your PHP version %s is not supported, PHP versions from 5.6 to 7.0 are supported."
+msgstr "Ваш PHP версии %s Не поддерживается, версиях PHP от 5.6 до 7.0 поддерживаются."
+
+# GMT 1559644704.3992
+msgid "Your account doesn't exists on editor side. Please create it before using tour edition."
+msgstr "Ваша учетная запись не существует на стороне редактора. Пожалуйста, создайте её, используя данное издание."
+
+# GMT 1559644704.4035
+msgid "Your application has been successfully added to your subscription!"
+msgstr "Ваше приложение успешно добавлено в подписки!"
+
+# GMT 1559644704.4113
+msgid "Your subscription expired!"
+msgstr "Срок действия вашей подписки истек!"
+
+# GMT 1559644704.4157
+msgid "Your subscription was automatically cancelled."
+msgstr "Ваша подписка будет автоматически отменена."
+
+# GMT 1559644704.42
+msgid "Your subscription was manually cancelled."
+msgstr "Ваша подписка будет отменена вручную."
+
+# GMT 1559644704.4244
+msgid "Zip Code:"
+msgstr "Индекс:"
+
+# GMT 1559644704.4287
+msgid "Zone overlay"
+msgstr "Зоны наложения"
+
+# GMT 1559644704.4417
+msgid "before updating we strongly advise you to read the release note and the following document."
+msgstr "перед обновлением настоятельно советую вам прочитать заметки о выпуске и следующий документ."
+
+# GMT 1559644704.4505
+msgid "dismiss"
+msgstr "удалить"
+
+# GMT 1559644704.4548
+msgid "home/features/admin_marque_blanche.png"
+msgstr "home/features/admin_marque_blanche.png"
+
+# GMT 1559644704.4591
+msgid "home/features/appel_en_un_clique.png"
+msgstr "home/features/appel_en_un_clique.png"
+
+# GMT 1559644704.4635
+msgid "home/features/geolocalisation.png"
+msgstr "home/features/geolocalisation.png"
+
+# GMT 1559644704.4678
+msgid "home/features/listing_produits.png"
+msgstr "home/features/listing_produits.png"
+
+# GMT 1559644704.4722
+msgid "iOS Descriptions saved!"
+msgstr "описания IOS сохранены!"
+
+# GMT 1559644704.4765
+msgid "iPhone X:"
+msgstr "для iPhone Х:"
+
+# GMT 1559644702.4588
+msgid "of the"
+msgstr "из"
+
+# GMT 1559644704.4808
+msgid "password"
+msgstr "пароль"
+
+# GMT 1559644704.4938
+msgid "you know it!"
+msgstr "известен только Вам!"

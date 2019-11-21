@@ -1,0 +1,228 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-01-29T03:46:55+03:00\n"
+"PO-Revision-Date: 2019-01-29T03:46:55+03:00\n"
+"Language: \n"
+
+msgid "An error occurred during process. Please try again later."
+msgstr "Bir hata işlemi sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while saving. Please try again later."
+msgstr "Kaydedilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "Are you sure you want to remove the picture?"
+msgstr "Resmi silmek istediğinizden emin misiniz?"
+
+msgid "CRON Job Information"
+msgstr "CRON İş Bilgileri"
+
+msgid "CRON Job Log"
+msgstr "CRON İşi Günlüğü"
+
+msgid "Change DOB"
+msgstr "Değişiklik DOB"
+
+msgid "Choose the features to open:"
+msgstr "Açmak için gerekli özellikleri seçin:"
+
+msgid "Created At"
+msgstr "Oluşturulan"
+
+msgid "Cron does not executed successfully."
+msgstr "Cron başarıyla yürütüldü değil."
+
+msgid "Cron executed successfully."
+msgstr "Cron başarıyla yürütüldü."
+
+msgid "Custom URL cannot be empty."
+msgstr "Özel URL boş olamaz."
+
+msgid "Custom URL not valid."
+msgstr "Özel URL geçerli değil."
+
+msgid "Custom URL:"
+msgstr "Özel URL:"
+
+msgid "Custom URL?"
+msgstr "Özel URL?"
+
+msgid "D.O.B"
+msgstr "D. O. B"
+
+msgid "D.O.B Field:"
+msgstr "D. O. B Alan:"
+
+msgid "D.O.B cannot be empty."
+msgstr "D. O. B boş olamaz."
+
+msgid "D.O.B field is not selected"
+msgstr "D. O. B alan seçilmedi"
+
+msgid "D.O.B is not valid."
+msgstr "D. O. B geçerli değil."
+
+msgid "D.O.B should be between %s and %s."
+msgstr "D. O. B s ve %s arasında olmalıdır."
+
+msgid "Description"
+msgstr "Açıklama"
+
+msgid "Description:"
+msgstr "Açıklama:"
+
+msgid "Disabled"
+msgstr "devre dışı"
+
+msgid "Enabled"
+msgstr "etkin"
+
+msgid "Enter your date of birth, we will surprise you with a present for your birthday, leave the notifications on."
+msgstr "Doğum tarihinizi girin, doğum günün için bir hediye ile sürpriz, bildirimleri bırakacağız."
+
+msgid "Help URL cannot be empty."
+msgstr "Yardım URL boş olamaz."
+
+msgid "Help URL is not valid."
+msgstr "Yardım URL geçerli değil."
+
+msgid "Help URL updated successfully."
+msgstr "URL başarıyla güncelleştirilmiş yardım."
+
+msgid "Info successfully saved."
+msgstr "Bilgi başarılı bir şekilde kaydedildi."
+
+msgid "Insert a <span class=\\'bold\\'>cover image</span>"
+msgstr "Ekle <span class=\\\"bold\\\">kapak resim</span>"
+
+msgid "Invitation Push"
+msgstr "Davetiye Bas"
+
+msgid "Last Error"
+msgstr "Son hata"
+
+msgid "Last Error Date"
+msgstr "Son Hata Tarihi"
+
+msgid "Last Fail"
+msgstr "Son Başarısız"
+
+msgid "Last Success"
+msgstr "Son Başarı"
+
+msgid "Last Trigger"
+msgstr "Son Tetik"
+
+msgid "License key cannot be empty."
+msgstr "Lisans anahtarı boş olamaz."
+
+msgid "License key is invalid."
+msgstr "Lisans anahtarı geçersiz."
+
+msgid "Message cannot be empty."
+msgstr "Mesaj boş olamaz."
+
+msgid "Message:"
+msgstr "Mesaj:"
+
+msgid "Miga Birthday"
+msgstr "Mıga Doğum Günü"
+
+msgid "Migabirthday"
+msgstr "Migabirthday"
+
+msgid "Modify D.O.B?"
+msgstr "Değiştir D. O. B?"
+
+msgid "Module is active."
+msgstr "Modül aktif."
+
+msgid "Module is expired and license is deleted."
+msgstr "Modül süresi ve lisans silinir."
+
+msgid "No"
+msgstr "HAYIR"
+
+msgid "No license found for this module."
+msgstr "Hiçbir lisans bu modül bulunamadı."
+
+msgid "No token sent."
+msgstr "Hiç bir hediye gönderdi."
+
+msgid "Open a feature or a custom URL:"
+msgstr "Özellik veya özel bir URL açmak:"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile DOB"
+msgstr "Profil DOB"
+
+msgid "Profile Fields:"
+msgstr "Profil Alanları:"
+
+msgid "Push successfully saved."
+msgstr "Başarıyla kaydedildi itin."
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Save Birthday"
+msgstr "Doğum Günü Kaydet"
+
+msgid "Select Profile Field"
+msgstr "Seç Profil Alanı"
+
+msgid "Settings"
+msgstr "Ayarları"
+
+msgid "Settings successfully saved."
+msgstr "Ayarlar başarıyla kaydedildi."
+
+msgid "Status:"
+msgstr "Durum:"
+
+msgid "The cron is set to run every day after %s hours and if you want to run it now just click on the link above. If you want you can add this link to your own server cron."
+msgstr "Cron her gün çalıştırmak sonra ayarlanır %s saat ve eğer şimdi yukarıdaki linke tıklayınız çalıştırmak istiyorsanız. İsterseniz kendi sunucu cron için bu bağlantıyı ekleyebilirsiniz."
+
+msgid "Title cannot be empty."
+msgstr "Adı boş olamaz."
+
+msgid "Title:"
+msgstr "Başlık:"
+
+msgid "Unable to connect to the license server."
+msgstr "Lisans sunucusuna bağlanamıyor."
+
+msgid "Updated At"
+msgstr "Güncelleme At"
+
+msgid "Upload a cover:"
+msgstr "Bir kapak yükleme:"
+
+msgid "Yes"
+msgstr "EVET"
+
+msgid "You are using default help URL (https://www.migastone.eu/migabirthday).\""
+msgstr "(Https://www.migastone.eu/migabirthday varsayılan yardım URL kullanıyorsunuz.\""
+
+msgid "You are using your custom help URL."
+msgstr "Özel yardım URL kullanıyorsunuz."
+
+msgid "Your Module Help URL"
+msgstr "Modülü Yardım URL"
+
+msgid "Your Module License Key"
+msgstr "Modül Lisans Anahtarınızı"
+
+msgid "Your license has been expired on %s (READ ONLY ACTIVATED)."
+msgstr "Lisansınızı %(SADECE AKTİF OKUMA s) doldu."
+
+msgid "Your license is active on the domain %s for %s days from %s to %s."
+msgstr "S %lisansını alan %aktif %s gün, %s."

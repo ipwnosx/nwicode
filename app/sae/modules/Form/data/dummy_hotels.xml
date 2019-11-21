@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designs>
+    <b_b>
+        <content>
+            <form>
+                <email>bandb@bandb.com</email>
+            </form>
+            <form_sections>
+                <section>
+                    <name>What do you think of us?</name>
+                    <fields>
+                        <field>
+                            <name>How would you describe your stay with us?</name>
+                            <required>1</required>
+                            <type>radio</type>
+                            <option>Awful;Fine;Perfect</option>
+                        </field>
+                        <field>
+                            <name>Would you recommend our B&amp;B to your friends?</name>
+                            <required>1</required>
+                            <type>radio</type>
+                            <option>No way!;Yes, gladly!</option>
+                        </field>
+                    </fields>
+                </section>
+                <section>
+                    <name>Would you change anything?</name>
+                    <fields>
+                        <field>
+                            <name>If you could change anything, what would it be?</name>
+                            <type>textarea</type>
+                        </field>
+                    </fields>
+                </section>
+            </form_sections>
+        </content>
+    </b_b>
+</designs>
+

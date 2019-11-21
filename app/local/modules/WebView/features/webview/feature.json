@@ -1,0 +1,42 @@
+{
+    "name": "WebView",
+    "code": "webview",
+    "version": "2.2.2",
+    "category": "integration",
+    "model": "WebView_Model_WebView",
+    "desktop_uri": "webview/application/",
+    "routes": [
+        {
+            "root": true,
+            "state": "webview-view",
+            "controller": "WebViewViewController",
+            "url": "webview/mobile_view/index/value_id/:value_id",
+            "template": "view.html",
+            "layouts": {
+                "1": "l1",
+                "2": "l2",
+                "3": "l3",
+                "4": "l4"
+            },
+            "cache": false
+        }
+    ],
+    "layouts": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "icons": [
+        "icons/webview1.png",
+        "icons/webview2.png",
+        "icons/webview3.png"
+    ],
+    "files": [
+        "js/controllers/webview.js",
+        "js/factory/webview.js"
+    ],
+    "compile": true,
+    "use_account": false,
+    "only_once": false
+}

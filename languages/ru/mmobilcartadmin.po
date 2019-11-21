@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-08-05T10:58:26+03:00\n"
+"PO-Revision-Date: 2019-08-05T10:58:26+03:00\n"
+"Language: \n"
+
+msgid ""
+"Add format\n"
+"Add pictures"
+msgstr "Добавить формат/добавить фотографии"
+
+msgid ""
+"Choice\n"
+"Orders\""
+msgstr "Выбор Заказов\""
+
+msgid ""
+"From module main settings\n"
+"Price type:\""
+msgstr "Из основных настроек модуля тип цены:\""
+
+msgid ""
+"Name is undefined\n"
+"Product list\""
+msgstr "Имя-это неопределенный список продуктов\""
+
+msgid ""
+"Optional\n"
+"Mandatory"
+msgstr "Необязательное/ Обязательное"
+
+msgid ""
+"Product categories\n"
+"Product stikers"
+msgstr "Категории товаров / стикеры"
+
+msgid ""
+"Product item note field:\n"
+"Hidden"
+msgstr "Поле товар Примечание: скрытый"
+
+msgid ""
+"Product model\n"
+"Product SKU:\""
+msgstr "артикул продукта:\""
+
+msgid ""
+"Product name\n"
+"Product model:\""
+msgstr "Название модели продукта :\""

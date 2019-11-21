@@ -1,0 +1,14 @@
+{
+  "name": "Importer",
+  "description": "",
+  "version": "4.16.5",
+  "dependencies": {
+    "system": {
+      "type": "SAE",
+      "version": "4.15.10"
+    },
+    "modules": {
+      "Acl": "4.10.0"
+    }
+  }
+}

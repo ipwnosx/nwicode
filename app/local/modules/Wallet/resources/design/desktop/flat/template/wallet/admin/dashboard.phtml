@@ -1,0 +1,425 @@
+<?php 
+
+	//Получим данные кошелька
+	//$application = $this->getApplication();
+	if ($this->getSession()->getAppId()) $app_id = $this->getSession()->getAppId(); else $app_id=$this->getApplication()->getId();
+	$db =Zend_Db_Table_Abstract::getDefaultAdapter();
+
+	$recommend_version = "2.7.8";
+	$stmt = $db->query(
+		'SELECT version FROM module WHERE name = ?',
+		array('Wallet')
+	);
+	$current_version =$stmt->fetch()['version'];
+	
+
+	if (empty($current_version)) {
+		echo "Wallet module not found! Exit...";
+		?><br><a href="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";?>" rel="" class="navigation"><i class="fa fa-sign-out fa-lg"></i> <?php echo __('Exit to Editor'); ?></a><br><?php
+		die(__("Wallet module not found! Exit..."));
+	}	
+	
+	$stmt = $db->query(
+		'SELECT * FROM application_option WHERE code = ?',
+		array('wallet')
+	);
+	$option_id = $stmt->fetch()['option_id'];
+	$stmt = $db->query(
+		'SELECT * FROM application_option_value WHERE option_id = ? and app_id = ?',
+		array($option_id, $app_id)
+	);
+	$value_id = $stmt->fetch()['value_id'];
+
+	$wallet = new Wallet_Model_Wallet();
+	$wallet->find(array("value_id" => $value_id));
+	
+	//Подсчеты
+	$customers = (new Customer_Model_Customer())->findAll(array('app_id'=>$app_id),array('created_at DESC')) ;	
+	$customers_blocked = (new Wallet_Model_Customer())->findAll(array('wallet_id'=>$wallet->getId(),'is_blocked'=>"1")) ;	
+	$summ = 0;
+	foreach ($wallet->getCustomers() as $cb) $summ+=$cb->getScore();
+	
+	$transactions = $wallet->getTransactions();
+	$transactions_count_all = 0;
+	$transactions_count_today = 0;
+	$transactions_summ_today = 0;
+	$transactions_summ_all = 0;
+	foreach($transactions as $tr) if ($tr->getOsTransactionId()==0){
+		$transactions_count_all++;
+		$transactions_summ_all+=abs($tr->getOperationSumm());
+		if (date('Ymd', strtotime($tr->getCreatedAt())) === date('Ymd')) {
+		$transactions_count_today++;
+		$transactions_summ_today+=abs($tr->getOperationSumm());		
+		}
+		
+	}
+	
+	$requests = $wallet->getPayoutRequests();
+	$requests_total = 0;
+	$payouts_total_today = 0;
+	$payouts_total = 0;
+	$payouts_summ = 0;
+	$payouts_summ_today = 0;
+	foreach ($requests as $r) {
+		if ($r->getStatus()=="pending") $requests_total++;
+		if ($r->getStatus()=="complete") {
+			$payouts_total++;
+			$payouts_summ += $r->getSumm();
+			if (date('Ymd', strtotime($r->getCreatedAt())) === date('Ymd')) {
+				$payouts_total_today++;
+				$payouts_summ_today += $r->getSumm();
+			}
+			
+		}
+	}
+	
+	$bill_summ = 0;
+	$bill_total = 0;
+	$bills = $wallet->getBills();
+	foreach ($bills as $r) {
+			if (date('Ymd', strtotime($r->getCreatedAt())) === date('Ymd')) {
+				$bill_total++;
+				$bill_summ += $r->getSumm();
+			}	
+	}
+	
+	//Подготовим графики 
+	$date_counter1 = [];    //Массив с датами
+	//предзаполнинм нулевыми данными месяц
+	$date_period = new DatePeriod((new DateTime('NOW'))->modify('-30 days'), new DateInterval('P1D'), (new DateTime('NOW'))->modify('+1 day'));				
+	foreach ($date_period as $key => $value) $date_counter1[$value->format('Y-m-d')]=0;
+	
+	//Запросим все транзакции
+	$transactions2 = (new Wallet_Model_Wallet())->getTransactionsLimit(array("wallet_id = ?"=>$wallet->getId(), "type"=>"in", "created_at > ?"=>(new DateTime('NOW'))->modify('-30 days')->format('Y-m-d')));
+	foreach ($transactions2 as $tr) {
+		$dt = (new DateTime($tr->getCreatedAt()))->format('Y-m-d');
+		if (isset($date_counter1[$dt])) $date_counter1[$dt]=$date_counter1[$dt]+(float)abs($tr->getOperationSumm());
+	}
+	
+	$date_counter2 = [];    //Массив с датами
+	//предзаполнинм нулевыми данными месяц
+	$date_period = new DatePeriod((new DateTime('NOW'))->modify('-30 days'), new DateInterval('P1D'), (new DateTime('NOW'))->modify('+1 day'));				
+	foreach ($date_period as $key => $value) $date_counter2[$value->format('Y-m-d')]=0;
+	
+	//Запросим все транзакции
+	$transactions2 = $wallet->getAddFundsHsitory();
+	foreach ($transactions2 as $tr) if ($tr->getComplete()) {
+		$dt = (new DateTime($tr->getCreatedAt()))->format('Y-m-d');
+		if (isset($date_counter2[$dt])) $date_counter2[$dt]=$date_counter2[$dt]+(float)abs($tr->getSumm());
+	}	
+	//print_r($date_counter1);
+?>
+
+
+<div id="list-panel" class="dashboard-panel">
+	<div class="row">
+		<div class="col-sm-12">
+			<h1><?php echo __('Dashboard'); ?></h1>
+		</div>
+	  </div>  
+	<!-- users -->
+	 <div class="row">
+		 <div class="col-lg-4 col-sm-4">
+		  <div class="circle-tile ">
+			<a href="#" rel="customers"><div class="circle-tile-heading dark-blue"><i class="fa fa-users fa-fw fa-3x"></i></div></a>
+			<div class="circle-tile-content dark-blue">
+			  <div class="circle-tile-description text-faded"> <?php echo __('Total Users'); ?></div>
+			  <div class="circle-tile-number text-faded "> <?php echo $customers->count();?></div>
+			  <a class="circle-tile-footer" href="#" rel="customers"><?php echo __('More Info'); ?> <i class="fa fa-chevron-circle-right"></i></a>
+			</div>
+		  </div>
+		</div> 
+
+		<div class="col-lg-4 col-sm-4">
+		  <div class="circle-tile ">
+			<div class="circle-tile-heading red"><i class="fa fa-user-times  fa-fw fa-3x"></i></div>
+			<div class="circle-tile-content red">
+			  <div class="circle-tile-description text-faded"> <?php echo __('Blocked Users'); ?></div>
+			  <div class="circle-tile-number text-faded "> <?php echo $customers_blocked->count();?></div>
+			  <a  class="circle-tile-footer" href="#" rel="customers"><?php echo __('More Info'); ?> <i class="fa fa-chevron-circle-right"></i></a>
+			</div>
+		  </div>
+		</div>
+  
+		<div class="col-lg-4 col-sm-4">
+		  <div class="circle-tile ">
+			<a href="#" rel="customers"><div class="circle-tile-heading green"><i class="fa fa-money fa-fw fa-3x"></i></div></a>
+			<div class="circle-tile-content green">
+			  <div class="circle-tile-description text-faded"> <?php echo __('Bills today (qty/summ)'); ?></div>
+			  <div class="circle-tile-number text-faded "> (<?php echo $bill_total;?> / <?php echo $bill_summ;?>)</div>
+			  <a class="circle-tile-footer" href="#" rel="bills"><?php echo __('More Info'); ?> <i class="fa fa-chevron-circle-right"></i></a>
+			</div>
+		  </div>
+		</div>	 
+	 </div>
+	 
+	<!-- transactions -->
+	 <div class="row">
+		 <div class="col-lg-4 col-sm-4">
+		  <div class="circle-tile ">
+			<a href="#" rel="customers"><div class="circle-tile-heading orange"><i class="fa fa-exchange fa-fw fa-3x"></i></div></a>
+			<div class="circle-tile-content orange">
+			  <div class="circle-tile-description text-faded"> <?php echo __('Transactions Total (qty/summ)'); ?></div>
+			  <div class="circle-tile-number text-faded "> (<?php echo $transactions_count_all;?> / <?php echo $transactions_summ_all;?>)</div>
+			  <a class="circle-tile-footer" href="#" rel="transactions"><?php echo __('More Info'); ?> <i class="fa fa-chevron-circle-right"></i></a>
+			</div>
+		  </div>
+		</div> 
+
+		 <div class="col-lg-4 col-sm-4">
+		  <div class="circle-tile ">
+			<a href="#" rel="customers"><div class="circle-tile-heading yellow" ><i class="fa fa-exchange fa-fw fa-3x"></i></div></a>
+			<div class="circle-tile-content yellow text-dark-blue">
+			  <div class="circle-tile-description text-faded"> <?php echo __('Transactions Today (qty/summ)'); ?></div>
+			  <div class="circle-tile-number text-faded "> (<?php echo $transactions_count_today;?> / <?php echo $transactions_summ_today;?>)</div>
+			  <a class="circle-tile-footer" href="#" rel="transactions"><?php echo __('More Info'); ?> <i class="fa fa-chevron-circle-right"></i></a>
+			</div>
+		  </div>
+		</div> 
+  
+		<div class="col-lg-4 col-sm-4">
+		  <div class="circle-tile ">
+			<a href="#" rel="customers"><div class="circle-tile-heading blue"><i class="fa fa-money fa-fw fa-3x"></i></div></a>
+			<div class="circle-tile-content blue">
+			  <div class="circle-tile-description text-faded"> <?php echo __('In wallets'); ?></div>
+			  <div class="circle-tile-number text-faded "> <?php echo $summ;?></div>
+			  <a class="circle-tile-footer" href="#" rel="customers"><?php echo __('More Info'); ?> <i class="fa fa-chevron-circle-right"></i></a>
+			</div>
+		  </div>
+		</div>	 
+	 </div>
+	 
+	<!-- requests -->
+	 <div class="row">
+		 <div class="col-lg-4 col-sm-4">
+		  <div class="circle-tile ">
+			<a href="#" rel="customers"><div class="circle-tile-heading green"><i class="fa fa-money fa-fw fa-3x"></i></div></a>
+			<div class="circle-tile-content green">
+			  <div class="circle-tile-description text-faded"> <?php echo __('Payout Total (qty/summ)'); ?></div>
+			  <div class="circle-tile-number text-faded "> (<?php echo $payouts_total;?> / <?php echo $payouts_summ;?>)</div>
+			  <a class="circle-tile-footer" href="#" rel="requests"><?php echo __('More Info'); ?> <i class="fa fa-chevron-circle-right"></i></a>
+			</div>
+		  </div>
+		</div> 
+
+		 <div class="col-lg-4 col-sm-4">
+		  <div class="circle-tile ">
+			<a href="#" rel="customers"><div class="circle-tile-heading yellow" ><i class="fa fa-money fa-fw fa-3x"></i></div></a>
+			<div class="circle-tile-content yellow text-dark-blue">
+			  <div class="circle-tile-description text-faded"> <?php echo __('Payout Today(qty/summ)'); ?></div>
+			  <div class="circle-tile-number text-faded "> (<?php echo $payouts_total_today;?> / <?php echo $payouts_summ_today;?>)</div>
+			  <a class="circle-tile-footer" href="#" rel="requests"><?php echo __('More Info'); ?> <i class="fa fa-chevron-circle-right"></i></a>
+			</div>
+		  </div>
+		</div> 
+  
+		<div class="col-lg-4 col-sm-4">
+		  <div class="circle-tile ">
+			<a href="#" rel="customers"><div class="circle-tile-heading blue"><i class="fa fa-external-link fa-fw fa-3x"></i></div></a>
+			<div class="circle-tile-content blue">
+			  <div class="circle-tile-description text-faded"> <?php echo __('Requests'); ?></div>
+			  <div class="circle-tile-number text-faded "> <?php echo $requests_total;?></div>
+			  <a class="circle-tile-footer" href="#" rel="requests"><?php echo __('More Info'); ?> <i class="fa fa-chevron-circle-right"></i></a>
+			</div>
+		  </div>
+		</div>	 
+	 </div>	 
+
+	 
+	<!-- charts-->
+	<div class="row">
+		<div class="col-sm-6">
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+				<h3 class="panel-title"><?php echo __("Last 30 days transactions");?></h3>
+			  </div>
+			  <div class="panel-body" id="chartdiv1">
+			  </div>
+			</div>	
+		</div>
+		<div class="col-sm-6">
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+				<h3 class="panel-title"><?php echo __("Last 30 fund upload");?></h3>
+			  </div>
+			  <div class="panel-body"  id="chartdiv2">
+			  </div>
+			</div>		
+		</div>
+	</div>
+
+	 
+<div id="item-panel">
+
+</div>
+
+<div id="item-subpanel">
+
+</div>
+
+<div id="item-dashboard" style="display:none;">
+
+</div>
+  
+<script>
+
+function openCustomer(id) {
+	loader_show();
+	var url = '<?php echo $this->getUrl('wallet/admin/customer'); ?>';
+	$.ajax({
+	   url:url,
+	   type:'POST',
+	   data: "customer_id="+id,
+	   dataType: "json",
+	   success: function(data){
+			console.log(data);
+		   $('#list-panel').hide();
+		   $("#success-message").hide();
+		   $("#error-message").hide();		   
+		   $('#item-panel').html(data.html).show();
+		   loader_hide();
+	   }
+	});	
+
+}
+
+function openOrder(orderId) {
+	loader_show();
+	var url = '<?php echo $this->getUrl('wallet/admin/order'); ?>';
+	$.ajax({
+	   url:url,
+	   type:'POST',
+	   data: {order_id:orderId},
+	   dataType: "json",
+	   success: function(data){
+		   $('#list-panel').hide();
+		   $("#success-message").hide();
+		   $("#error-message").hide();
+		   $('#item-panel').html(data.html).show();
+		   loader_hide();
+	   }
+	});	
+
+}
+
+$(document).ready(function() {
+	$('#top-customers').DataTable( {
+        "paging":   false,
+        "ordering": false,
+        "info":     false,
+		"searching": false,
+    } );
+	$('#top-orders').DataTable( {
+        "paging":   false,
+        "ordering": false,
+        "info":     false,
+		"searching": false,
+    } );
+});
+</script> 
+<script type="text/javascript">
+$(".dashboard-panel a").on("click", function() {
+	loader_show();
+	$("#menu-content >li").removeClass("active");
+	$(this).parent().addClass("active");
+	var page = $(this).attr('rel');
+	var url = '<?php echo $this->getUrl('wallet/admin'); ?>';
+	console.log(url + "/" + page);
+	$.ajax({
+	   url:url + "/" + page,
+	   type:'GET',
+	   dataType: "json",
+	   success: function(data){
+			$("#error-message").hide();
+			$("#success-message").hide();
+		   $('#main').html(data.html);
+		   loader_hide();
+	   }
+	});
+	
+});
+
+</script>
+
+<!-- Styles -->
+<style>
+#chartdiv1 {
+  width: 100%;
+  height: 300px;
+}
+#chartdiv2 {
+  width: 100%;
+  height: 300px;
+}
+</style>
+
+
+<!-- Charts code -->
+<script>
+am4core.ready(function() {
+
+	// Themes begin
+	am4core.useTheme(am4themes_material);
+	am4core.useTheme(am4themes_animated);
+	// Themes end
+
+	// Create chart instance
+	var chart1 = am4core.create("chartdiv1", am4charts.XYChart);
+
+	// Add data
+	<?php $tmp_array = array(); foreach ($date_counter1 as $date=>$value) $tmp_array[]='{"date":"'.$date.'","amount":'.$value.'}'; ?>
+	chart1.data = [<?php echo implode(",",$tmp_array);?>];
+
+	var dateAxes = chart1.xAxes.push(new am4charts.CategoryAxis());
+	dateAxes.dataFields.category = "date";
+	dateAxes.title.text = "<?php echo __("Date"); ?>";
+	
+	
+	var valueAxis = chart1.yAxes.push(new am4charts.ValueAxis());
+	valueAxis.title.text = "<?php echo __("Amount"); ?>";
+	valueAxis.dataFields.category = "amount";
+	
+	// Create series
+	var series = chart1.series.push(new am4charts.ColumnSeries());
+	series.dataFields.valueY = "amount";
+	series.dataFields.categoryX = "date";
+	series.name = "<?php echo __("Amount"); ?>";
+	series.columns.template.tooltipText = "{categoryX}: [bold]{valueY}[/]";
+	series.columns.template.fillOpacity = .8;
+
+	var columnTemplate = series.columns.template;
+	columnTemplate.strokeWidth = 2;
+	columnTemplate.strokeOpacity = 1;
+	
+	
+	// Create chart instance
+	var chart2 = am4core.create("chartdiv2", am4charts.XYChart);
+
+	// Add data
+	<?php $tmp_array = array(); foreach ($date_counter2 as $date=>$value) $tmp_array[]='{"date":"'.$date.'","amount":'.$value.'}'; ?>
+	chart2.data = [<?php echo implode(",",$tmp_array);?>];
+
+	var dateAxes2 = chart2.xAxes.push(new am4charts.CategoryAxis());
+	dateAxes2.dataFields.category = "date";
+	dateAxes2.title.text = "<?php echo __("Date"); ?>";
+	
+	
+	var valueAxis2 = chart2.yAxes.push(new am4charts.ValueAxis());
+	valueAxis2.title.text = "<?php echo __("Amount"); ?>";
+	valueAxis2.dataFields.category = "amount";
+	
+	// Create series
+	var series2 = chart2.series.push(new am4charts.ColumnSeries());
+	series2.dataFields.valueY = "amount";
+	series2.dataFields.categoryX = "date";
+	series2.name = "<?php echo __("Amount"); ?>";
+	series2.columns.template.tooltipText = "{categoryX}: [bold]{valueY}[/]";
+	series2.columns.template.fillOpacity = .8;
+
+	var columnTemplate2 = series2.columns.template;
+	columnTemplate2.strokeWidth = 2;
+	columnTemplate2.strokeOpacity = 1;	
+
+}); // end am4core.ready()
+
+</script>

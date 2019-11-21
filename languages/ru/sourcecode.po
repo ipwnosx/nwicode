@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-30T08:32:00+03:00\n"
+"PO-Revision-Date: 2019-06-30T08:32:00+03:00\n"
+"Language: \n"
+
+# GMT 1559644714.6794
+msgid "Allow offline mode"
+msgstr "Разрешить offline"
+
+msgid "Be aware that if the code you enter here requires any kind of server interaction it will not work properly in offline mode."
+msgstr "Имейте в виду, что если код, который вы вводите здесь, требует какого-либо взаимодействия с сервером, он не будет работать должным образом в offline."
+
+# GMT 1559644714.6837
+msgid "Be aware that if the code you enter here requires any kind of server interaction it will not work properly in offline mode.)"
+msgstr "Имейте в виду, что если код, который вы вводите здесь, требует какого-либо взаимодействия с сервером, он не будет работать должным образом в автономном режиме.)"
+
+# GMT 1559644714.6881
+msgid "Insert in-app link"
+msgstr "Вставить ссылку на приложение"
+
+# GMT 1559644714.6924
+msgid "Insert your HTML code:"
+msgstr "Вставьте свой HTML-код:"
+
+# GMT 1559644714.6967
+msgid "Source Code"
+msgstr "Исходный код"

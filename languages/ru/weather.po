@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-05-05T16:56:59+03:00\n"
+"PO-Revision-Date: 2019-05-05T16:56:59+03:00\n"
+"Language: \n"
+
+msgid "Add an API Key"
+msgstr "Добавить API-ключ"
+
+msgid "Astronomy"
+msgstr "Астрономия"
+
+msgid "Atmosphere"
+msgstr "Атмосфера"
+
+msgid "Change location"
+msgstr "Изменить локацию"
+
+msgid "Chill"
+msgstr "Холодок"
+
+msgid "Chill:"
+msgstr "Холод:"
+
+msgid "City"
+msgstr "Город"
+
+msgid "Click here to view more details on current weather."
+msgstr "Кликните здесь, чтобы посмотреть более подробную информацию о текущей погоде."
+
+msgid "Country"
+msgstr "Страна"
+
+msgid "Country:"
+msgstr "Страна:"
+
+msgid "Direction"
+msgstr "Направление"
+
+msgid "Direction:"
+msgstr "Направление:"
+
+msgid "Fri"
+msgstr "Пт"
+
+msgid "Get weather near me!"
+msgstr "Узнать погоду рядом со мной!"
+
+msgid "Humidity"
+msgstr "Влажность"
+
+msgid "Humidity:"
+msgstr "Влажность:"
+
+msgid "Mon"
+msgstr "Пн"
+
+msgid "OR"
+msgstr "Или"
+
+msgid "Postal code or city"
+msgstr "Почтовый индекс или город"
+
+msgid "Postal code or city:"
+msgstr "Индекс или город:"
+
+msgid "Pressure"
+msgstr "Давление"
+
+msgid "Pressure:"
+msgstr "Давление:"
+
+msgid "Rising:"
+msgstr "Восход:"
+
+msgid "Sat"
+msgstr "Сб"
+
+msgid "Select a country"
+msgstr "Выберите страну"
+
+msgid "Sorry, but the weather service is not available for the moment. Please try again later."
+msgstr "Извините, но сервис \"погода\" не доступен в данный момент. Пожалуйста, повторите попытку позже."
+
+msgid "Speed"
+msgstr "Скорость"
+
+msgid "Speed:"
+msgstr "Скорость:"
+
+msgid "Sun"
+msgstr "Вс"
+
+msgid "Sunrise"
+msgstr "Восход"
+
+msgid "Sunrise:"
+msgstr "Восход:"
+
+msgid "Sunset"
+msgstr "Закат"
+
+msgid "Sunset:"
+msgstr "Закат:"
+
+msgid "Thu"
+msgstr "Чт"
+
+msgid "Tue"
+msgstr "Вт"
+
+msgid "Type in any location"
+msgstr "Типа в любом месте"
+
+msgid "Units:"
+msgstr "Единицы:"
+
+msgid "Use my location"
+msgstr "Используйте мое местоположение"
+
+msgid "Validate"
+msgstr "Подтвердить"
+
+msgid "Visibility"
+msgstr "Видимость"
+
+msgid "Visibility:"
+msgstr "Видимость:"
+
+msgid "Weather information"
+msgstr "Информация о погоде"
+
+msgid "Wed"
+msgstr "Ср"
+
+msgid "Wind"
+msgstr "Ветер"
+
+msgid "You must set an OpenWeatherMap API key in order to use the Weather feature."
+msgstr "Вы должны установить ключ API OpenWeatherMap для того, чтобы использовать функцию погода."

@@ -1,0 +1,15 @@
+<ion-view sb-page-background view-title="{{ 'Add a comment' | translate }}" can-swipe-back="false">
+    <ion-content>
+
+        <ion-card><div class="list" ng-class="{'card': card_design}">
+            <label class="item item-input item-custom">
+                <textarea rows="5" placeholder="{{ 'Add a comment' | translate }}" ng-model="comment.text" maxlength="1020"></textarea>
+            </label>
+        </div></ion-card>
+
+            <ion-button expand="block" type="button"
+                    ng-click="post()" ng-disabled="is_loading">{{ "Send" | translate }}</ion-button>
+
+
+    </ion-content>
+</ion-view>

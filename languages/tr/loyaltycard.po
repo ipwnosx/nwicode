@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T20:29:15+03:00\n"
+"PO-Revision-Date: 2019-06-05T20:29:15+03:00\n"
+"Language: \n"
+
+msgid "%d validated points ="
+msgstr "%d onaylı puanlar ="
+
+msgid "1 loyalty point ="
+msgstr "1 sadakat noktası ="
+
+msgid "1 point"
+msgstr "1 puan"
+
+msgid "1 validated point ="
+msgstr "1 doğrulanmış puan ="
+
+msgid "An error occurred while retrieving QRCode. Please try again later"
+msgstr "QR kod alınırken bir hata oluştu. Lütfen daha sonra tekrar deneyiniz"
+
+msgid "An error occurred while saving the password. Please try again later"
+msgstr "Parola kaydedilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin"
+
+msgid "An error occurred while saving the password. Please try again later."
+msgstr "Parolanızı kaydedilirken bir hata oluştu. Daha sonra tekrar deneyiniz."
+
+msgid "An error occurred while saving your loyalty card."
+msgstr "Sadakat kartı kaydedilirken bir hata oluştu."
+
+msgid "An error occurred while saving your loyalty card. Please fill all fields in."
+msgstr "Sadakat kartı kaydedilirken bir hata oluştu. Lütfen tüm alanları doldurun."
+
+msgid "An error occurred while validating point. Please try again later."
+msgstr "Nokta doğrulanırken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred with your QRCode."
+msgstr "QR kodunuzda bir hata oluştu."
+
+msgid "Card name"
+msgstr "Kart adı"
+
+msgid "Congratulations"
+msgstr "Tebrikler"
+
+msgid "Current card"
+msgstr "Geçerli kart"
+
+msgid "Delete this password?"
+msgstr "Bu şifre sil?"
+
+msgid "Employee's name"
+msgstr "Çalışanın ismi:"
+
+msgid "Employee's name:"
+msgstr "Çalışanın adı:"
+
+msgid "Employee's password"
+msgstr "Çalışanın şifresi"
+
+msgid "Employee's password:"
+msgstr "Çalışanın şifre:"
+
+msgid "Enter password"
+msgstr "Parolanızı girin"
+
+msgid "Enter the password"
+msgstr "Parolayı girin"
+
+msgid "My new loyalty card"
+msgstr "Yeni sadakat kartım"
+
+msgid "My passwords"
+msgstr "Benim şifreleri"
+
+msgid "No cards available"
+msgstr "Mevcut kart yok."
+
+msgid "Number of points"
+msgstr "Puan sayısı"
+
+msgid "Please enter a name"
+msgstr "Lütfen bir isim girin"
+
+msgid "Please enter the password"
+msgstr "Lütfen parolayı girin"
+
+msgid "Please show your phone to the store person so that he enters his password"
+msgstr "Yani şifre girme lütfen deposu kişinin telefonunu göster"
+
+msgid "Point active"
+msgstr "Puan aktif"
+
+msgid "Point inactive"
+msgstr "Puan aktif değil."
+
+msgid "Point%s successfully validated"
+msgstr "Point%s başarıyla doğrulandı"
+
+msgid "Previous cards"
+msgstr "Önceki kartları"
+
+msgid "Reward"
+msgstr "Ödül"
+
+msgid "Rewards"
+msgstr "Ödülleri"
+
+msgid "Scan QRCode"
+msgstr "QR Kodu tara"
+
+msgid "This card is uniq:"
+msgstr "Bu kart tektir:"
+
+msgid "Unlock by QRCode"
+msgstr "Kilidi QR kod ile aç"
+
+msgid "Unreadable QRCode, sorry."
+msgstr "QR Kod okunabilir değil, üzgünüz."
+
+msgid "Use only once?"
+msgstr "Yalnızca bir kez kullanılsın mı?"
+
+msgid "We are sorry but this card is temporarily blocked"
+msgstr "Üzgünüz ama bu kart geçici olarak bloke olur"
+
+msgid "Wrong password. Be carefull! %d remaining attempt%s before locking your card. Ask the store person for validating your point"
+msgstr "Yanlış şifre. Dikkatli ol! %d girişimde%s kartınızı kilitleme önce kalan. Noktasını doğrulamak için mağaza sor"
+
+msgid "Wrong password.<br />Be careful !<br />%d remaining attempt%s before locking your card.<br />Ask the store person for validating your point"
+msgstr "Yanlış şifre. <br /> Dikkatli olun! <br /> Kartınızı kilitlemeden önce %s kalan %s deneme hakkı. <br /> Puanınızı doğrulamak için mağaza yetkilisine sorun."
+
+msgid "Wrong password.<br />Be carefull! %d remaining attempt%s before locking your card.<br /> Ask the store person for validating your point"
+msgstr "Yanlış şifre.<br />Dikkat edin! %d kez denediniz %s kartınızı kitlemeden önce kalan deneme sayınız %s.<br /> puanlarınızı doğrulatmak için mağza çalışanıyla konuşunuz"
+
+msgid "You have exceeded the number of attempts to validate points. Your card is locked for 24h"
+msgstr "Puan doğrulamak için deneme sayısını aştınız. Kartınız kilitli için 24 saat"
+
+msgid "You just finished your card"
+msgstr "Sadece kartınızı bitirdin"
+
+msgid "You must be logged in to validate points"
+msgstr "Üye olmalısınız noktaları doğrulamak için"
+
+msgid "Your loyalty card has been saved successfully"
+msgstr "Sadakat kartı başarıyla kaydedildi"
+
+msgid "Your password must be 4 digits"
+msgstr "Şifre 4 haneli olmalı"
+
+msgid "is now yours!"
+msgstr "Şimdi sizin!"
+
+msgid "point"
+msgstr "nokta"
+
+msgid "point to validate"
+msgstr "nokta doğrulamak için"
+
+msgid "points to validate"
+msgstr "puan doğrulamak için"
+
+msgid "validated points ="
+msgstr "Onaylanmış puanlar ="

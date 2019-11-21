@@ -1,0 +1,570 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-20T01:51:14+03:00\n"
+"PO-Revision-Date: 2019-06-20T01:51:14+03:00\n"
+"Language: \n"
+
+msgid "Active bonuses"
+msgstr "Aktif bonuslar"
+
+msgid "Add additional address"
+msgstr "Ek Adres ekleyin"
+
+msgid "Add category"
+msgstr "Kategori Ekle"
+
+msgid "Add cuisine"
+msgstr "Ekle mutfağı"
+
+msgid "Add cuisines"
+msgstr "Mutfakları Ekle"
+
+msgid "Add dish"
+msgstr "Eklemek çanak"
+
+msgid "Add ingridient"
+msgstr "Ekleyin ingridient"
+
+msgid "Add option"
+msgstr "Ekle seçeneği"
+
+msgid "Add option value"
+msgstr "Seçenek değeri ekleyin"
+
+msgid "Add restaurant"
+msgstr "Restoran eklemek"
+
+msgid "Add tag"
+msgstr "Etiket Ekle"
+
+msgid "Add to cart"
+msgstr "Sepete Ekle"
+
+msgid "Additional address"
+msgstr "Ek adresi"
+
+msgid "Additional addresses"
+msgstr "Ek adresler"
+
+msgid "Address"
+msgstr "Adres"
+
+msgid "Address data"
+msgstr "Adres bilgileri"
+
+msgid "All * fields are required!"
+msgstr "* Tüm alanlar gereklidir."
+
+msgid "Apply"
+msgstr "Uygula"
+
+msgid "Are you sure?"
+msgstr "Emin misin?"
+
+msgid "Available bonuses"
+msgstr "Mevcut ikramiye"
+
+msgid "Awaiting payment"
+msgstr "Ödeme bekleyen"
+
+msgid "Bonus percent (-1, if disable)"
+msgstr "(-1)Bonus yüzde, devre dışı"
+
+msgid "Booking"
+msgstr "Rezervasyon"
+
+msgid "Booking Orders"
+msgstr "Rezervasyon Talepleri"
+
+msgid "Booking history"
+msgstr "Tarih rezervasyon"
+
+msgid "Booking status"
+msgstr "Rezervasyon durumu"
+
+msgid "But it should not be so. Look at the menu of our restaurants - we are sure that you will pick up something for yourself!"
+msgstr "Ama böyle olmamalı. Bizim restoran menü bak - kendin için bir şeyler almak olacaktır eminiz!"
+
+msgid "Can pay from customer bonus?"
+msgstr "Müşteri bonus ödeme yapabilirsiniz?"
+
+msgid "Cart"
+msgstr "Sepeti"
+
+msgid "Cash"
+msgstr "Nakit"
+
+msgid "Categories"
+msgstr "Kategori"
+
+msgid "Check again - you have not selected the required options."
+msgstr "Tekrar kontrol edin, gerekli seçenek seçili değil."
+
+msgid "Checkbox"
+msgstr "Onay kutusu"
+
+msgid "Checkout"
+msgstr "Checkout"
+
+msgid "Choose category"
+msgstr "Kategori seçin"
+
+msgid "Choose cuisine"
+msgstr "Yemekleri seçin"
+
+msgid "Choose option"
+msgstr "Seçeneğini seçin"
+
+msgid "Choose restoraunt"
+msgstr "Restoraunt seçin"
+
+msgid "Close now"
+msgstr "Şimdi kapat"
+
+msgid "Comment"
+msgstr "Yorum"
+
+msgid "Confirmed"
+msgstr "Onaylandı"
+
+msgid "Confirmed by"
+msgstr "Tarafından onaylandı"
+
+msgid "Contact data"
+msgstr "İletişim verileri"
+
+msgid "Cuisines"
+msgstr "Mutfakları"
+
+msgid "Customer"
+msgstr "Müşteri"
+
+msgid "Customer information"
+msgstr "Müşteri bilgi"
+
+msgid "Date"
+msgstr "Tarih"
+
+msgid "Declined"
+msgstr "Reddedildi"
+
+msgid "Deliver methods"
+msgstr "Yöntemleri sunmak"
+
+msgid "Deliver methods zonas and costs"
+msgstr "Zonas yöntemleri ve maliyetleri sağlamak"
+
+msgid "Delivery"
+msgstr "Teslimat"
+
+msgid "Delivery cost to zona"
+msgstr "Zona teslimat ücreti"
+
+msgid "Delivery datetime"
+msgstr "Teslimat datetime"
+
+msgid "Delivery/Pickup"
+msgstr "Teslim/Alma"
+
+msgid "Delivery/Pickup price"
+msgstr "Teslim/Alma fiyatı"
+
+msgid "Description"
+msgstr "Açıklama"
+
+msgid "Dishes"
+msgstr "Yemekleri"
+
+msgid "Documentation"
+msgstr "Belgeleri"
+
+msgid "Drop down list"
+msgstr "Liste açılır"
+
+msgid "Edit additional address"
+msgstr "Düzenleme ek adresi"
+
+msgid "Edit category"
+msgstr "Kategori Düzenle"
+
+msgid "Edit cuisine"
+msgstr "Edit mutfağı"
+
+msgid "Edit dish"
+msgstr "Düzenlemek için yemek"
+
+msgid "Edit ingridient"
+msgstr "Edit ingridient"
+
+msgid "Edit option"
+msgstr "Düzenleme seçeneği"
+
+msgid "Edit restaurant"
+msgstr "Edit restoran"
+
+msgid "Edit tag"
+msgstr "Etiketi Düzenle"
+
+msgid "Email"
+msgstr "E-posta"
+
+msgid "Enable Exit button?"
+msgstr "Çıkış düğmesini etkinleştir."
+
+msgid "Enable cash method"
+msgstr "Nakit yöntemi etkinleştir"
+
+msgid "Enabled zona"
+msgstr "Etkin zona"
+
+msgid "Exit"
+msgstr "Çıkış"
+
+msgid "Fill out the form below and wait for the notice from the restaurant staff"
+msgstr "Aşağıdaki formu doldurunuz ve bildirim için restoran personelinden bekle"
+
+msgid "Filtering"
+msgstr "Filtreleme"
+
+msgid "Final calculation"
+msgstr "Son hesaplama"
+
+msgid "First Name"
+msgstr "İlk adı"
+
+msgid "First name"
+msgstr "İlk adı"
+
+msgid "For delivery, specify the delivery address"
+msgstr "Teslimat için, teslimat adresi belirtmek"
+
+msgid "From"
+msgstr "Gelen"
+
+msgid "Getting ready"
+msgstr "Hazırlanıyor"
+
+msgid "Handed to the client"
+msgstr "Müşteri teslim"
+
+msgid "Home"
+msgstr "Ev"
+
+msgid "I have only one restaurant!"
+msgstr "Tek bir restoran var."
+
+msgid "Information"
+msgstr "Bilgi"
+
+msgid "Ingridients"
+msgstr "İngridients"
+
+msgid "Is completed"
+msgstr "Tamamlanan"
+
+msgid "Is required"
+msgstr "Gereklidir"
+
+msgid "Items"
+msgstr "Öğeleri"
+
+msgid "Items subtotal"
+msgstr "Öğeleri toplam"
+
+msgid "Last Name"
+msgstr "Soyadı"
+
+msgid "Last name"
+msgstr "Soyadı"
+
+msgid "Latitude"
+msgstr "Enlem"
+
+msgid "Login / Registration"
+msgstr "Giriş / Kayıt"
+
+msgid "Logo on main screen"
+msgstr "Ana ekranda Logo"
+
+msgid "Longitude"
+msgstr "Boylam"
+
+msgid "Main settings"
+msgstr "Ana ayarları"
+
+msgid "Mark the necessary tags and tags of dishes, then click apply."
+msgstr "Yemeklerin gerekli etiketleri ve etiketleri işaretleyin ve ardından Uygula."
+
+msgid "Menu"
+msgstr "Menü"
+
+msgid "No Records Found"
+msgstr "Hiçbir Kayıt Bulundu"
+
+msgid "None"
+msgstr "Yok"
+
+msgid "Note"
+msgstr "Not"
+
+msgid "On map"
+msgstr "Haritada"
+
+msgid "Online payments"
+msgstr "Online ödeme"
+
+msgid "Open all restaurants on map"
+msgstr "Haritada tüm restoranlar açık"
+
+msgid "Option type"
+msgstr "Seçenek türü"
+
+msgid "Option value"
+msgstr "Seçenek değeri"
+
+msgid "Option values"
+msgstr "Seçenek değerleri"
+
+msgid "Optional"
+msgstr "İsteğe bağlı"
+
+msgid "Options"
+msgstr "Seçenekleri"
+
+msgid "Order all"
+msgstr "Sipariş tüm"
+
+msgid "Order canceled"
+msgstr "Sipariş iptal edildi"
+
+msgid "Order complete"
+msgstr "Siparişi tamamlamak"
+
+msgid "Order this"
+msgstr "Sipariş bu"
+
+msgid "Orders history"
+msgstr "Emir geçmişi"
+
+msgid "Orders will be created"
+msgstr "Emir oluşturulur"
+
+msgid "Parent category"
+msgstr "Üst kategori"
+
+msgid "Payments methods"
+msgstr "Ödeme yöntemleri"
+
+msgid "Pending"
+msgstr "bekleyen"
+
+msgid "Persons"
+msgstr "Kişiler"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Pickup"
+msgstr "Pikap"
+
+msgid "Pickup datetime"
+msgstr "Pikap datetime"
+
+msgid "Place an order(s)"
+msgstr "(S)sipariş"
+
+msgid "Qty"
+msgstr "Miktar"
+
+msgid "Radio button"
+msgstr "Radyo düğmesi"
+
+msgid "Received"
+msgstr "Alınan"
+
+msgid "Require datetime delivery?"
+msgstr "Datetime teslim gerektirir?"
+
+msgid "Require pickup delivery?"
+msgstr "Teslim alma gerektirir."
+
+msgid "Required"
+msgstr "Gerekli"
+
+msgid "Reserve a table"
+msgstr "Bir masa ayırtmak"
+
+msgid "Reset"
+msgstr "Sıfırla"
+
+msgid "Restaurant"
+msgstr "Restoran"
+
+msgid "Restaurant Phone"
+msgstr "Restoran, Telefon"
+
+msgid "Restaurant hours schedule"
+msgstr "Restoran saatler"
+
+msgid "Restaurant settings"
+msgstr "Restoran ayarları"
+
+msgid "Restaurants"
+msgstr "Restoranlar"
+
+msgid "Restoraunts on map"
+msgstr "Harita üzerinde Restoraunts"
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Selected restaurants are asked to specify the date of delivery or pickup."
+msgstr "Seçilen restoranlar pikap veya teslimat tarihini belirlemek için istenir."
+
+msgid "Send request"
+msgstr "İstek gönder"
+
+msgid "Show cuisine choice on main screen"
+msgstr "Ana ekranda mutfağı seçim göster"
+
+msgid "Show on map"
+msgstr "Haritada göster"
+
+msgid "Show restaurant on map"
+msgstr "Harita üzerinde restoran göster"
+
+msgid "Something went wrong, but we hope that you will come back to us."
+msgstr "Bize geri dönecek bir şey yanlış gitti, ama umut ediyoruz."
+
+msgid "Specials"
+msgstr "Özel"
+
+msgid "Stuff"
+msgstr "Şeyler"
+
+msgid "Subtitle"
+msgstr "Altyazı"
+
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgid "TAX"
+msgstr "Vergi"
+
+msgid "Tags"
+msgstr "Etiketler"
+
+msgid "Thank you for the order! We will be glad to see you as a regular customer!"
+msgstr "Sipariş için teşekkür ederiz! Düzenli bir müşteri olarak görmekten memnun olacağız."
+
+msgid "Thank you for the order."
+msgstr "Sipariş için teşekkür ederiz."
+
+msgid "The order was canceled from the wallet."
+msgstr "Sipariş cüzdanında iptal edildi."
+
+msgid "The order was paid from the wallet."
+msgstr "Sipariş cüzdanından para aldı."
+
+msgid "There are no active special offers."
+msgstr "Etkin bir özel teklifler var."
+
+msgid "There are no items."
+msgstr "Hiçbir öğe vardır."
+
+msgid "Time"
+msgstr "Zaman"
+
+msgid "Title"
+msgstr "Başlık"
+
+msgid "Title cash method"
+msgstr "Başlık nakit yöntemi"
+
+msgid "Title zona"
+msgstr "Başlık zona"
+
+msgid "Top-level category"
+msgstr "Üst düzey kategori"
+
+msgid "Total"
+msgstr "Toplam"
+
+msgid "Total items in the cart for the amount of"
+msgstr "Miktarı sepeti toplam öğeleri"
+
+msgid "Total orders"
+msgstr "Toplam siparişler"
+
+msgid "Use quantity"
+msgstr "Kullanım miktarı"
+
+msgid "User data"
+msgstr "Kullanıcı veri"
+
+msgid "VAT"
+msgstr "KDV"
+
+msgid "VAT included in price"
+msgstr "KDV fiyata dahil"
+
+msgid "Vat or Tax"
+msgstr "KDV veya Vergi"
+
+msgid "View all in category:"
+msgstr "Kategorideki tüm görünüm:"
+
+msgid "View menu"
+msgstr "Görünüm menüsü"
+
+msgid "Wallet"
+msgstr "Cüzdan"
+
+msgid "Warning"
+msgstr "Uyarı"
+
+msgid "Wrong bonus summ!"
+msgstr "Yanlış bonus summ!"
+
+msgid "You can use them to pay for orders in part."
+msgstr "Siparişler için ödeme için kullanabilirsiniz."
+
+msgid "You did not fill in the customer information"
+msgstr "Müşteri bilgileri doldurun vermedi"
+
+msgid "You did not specify a payment method!"
+msgstr "Ödeme yöntemi belirtmedi."
+
+msgid "You must check delivery method and fill in the date and time of delivery/pickup"
+msgstr "Teslim/alma zamanı tarihi, doğum şekli ve dolgu kontrol edin ve gerekir"
+
+msgid "You order at the same time in several restaurants. Please specify payment and delivery methods for each restaurant."
+msgstr "Birçok restoran aynı zamanda sipariş. Her restoran için ödeme ve teslimat yöntemlerini belirtiniz."
+
+msgid "Your cart is empty."
+msgstr "Sepetiniz boş."
+
+msgid "Your position"
+msgstr "Konumunuzu"
+
+msgid "Your request has been sent."
+msgstr "İsteğiniz gönderildi."
+
+msgid "booking"
+msgstr "Rezervasyon"
+
+msgid "delivery"
+msgstr "Teslimat"
+
+msgid "or choose subcategory:"
+msgstr "veya alt kategori seçin:"
+
+msgid "pickup"
+msgstr "Pikap"

@@ -1,0 +1,1046 @@
+<?php
+
+	if(!isset($this->layout()->current_customer)){throw new Exception(__('An error occurred during the process. Please try again later.')); }
+	
+	if ($this->getSession()->getAppId()) $app_id = $this->getSession()->getAppId(); else $app_id=$this->getApplication()->getId();
+	$db =Zend_Db_Table_Abstract::getDefaultAdapter();
+
+	$stmt = $db->query(
+		'SELECT version FROM module WHERE name = ?',
+		array('Wallet')
+	);
+	$current_version =$stmt->fetch()['version'];
+	
+
+	if (empty($current_version)) {
+		echo "Wallet module not found! Exit...";
+		?><br><a href="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";?>" rel="" class="navigation"><i class="fa fa-sign-out fa-lg"></i> <?php echo __('Exit to Editor'); ?></a><br><?php
+		die(__("Wallet module not found! Exit..."));
+	}	
+	
+	$stmt = $db->query(
+		'SELECT * FROM application_option WHERE code = ?',
+		array('wallet')
+	);
+	$option_id = $stmt->fetch()['option_id'];
+	$stmt = $db->query(
+		'SELECT * FROM application_option_value WHERE option_id = ? and app_id = ?',
+		array($option_id, $app_id)
+	);
+	$value_id = $stmt->fetch()['value_id'];
+
+	$wallet = new Wallet_Model_Wallet();
+	$wallet->find(array("value_id" => $value_id));
+	
+	$customer = (new Customer_Model_Customer())->find($this->layout()->current_customer);
+	$wallet_customer = (new Wallet_Model_Customer())->find(array('wallet_id'=>$wallet->getId(),'customer_id'=>$customer->getId()));
+	$wallet_customers = (new Wallet_Model_Customer())->findAll(array('wallet_id'=>$wallet->getId(),'is_blocked'=>0));
+	
+	//Если нет - создадим
+	if (!$wallet_customer->getId()) {
+		$wallet_customer
+			->setCustomerId($customer->getId())
+			->setWalletId($wallet->getId())
+			->setIsBlocked(0)
+			->setEmail($customer->getEmail())
+			//->setScore($wallet->getSignUpBonus())
+			->save();
+		$wallet_customer->addTransaction($wallet->getSignUpBonus(),__("Registration bonus."),"in");
+	}
+	
+	$is_blocked = false;
+	if ($wallet_customer->getId() && $wallet_customer->getIsBlocked()==1) $is_blocked = true;
+	
+?>
+<div class="row">
+	<div class="col-sm-2 col-xs-2">
+		<button type="button" class="btn btn-default btn-lg customer_back_button" id="customer_back_button"><i class="fa fa-undo" aria-hidden="true"></i> <?php echo $this->_('Return'); ?></button>
+	</div>
+	<div class="col-sm-10 col-xs-10">
+		<div class="page-header">
+			<h1><?php echo $this->_('Customer'); ?> <?php echo $customer->getFirstname()?> <?php echo $customer->getLastname()?> <small>#<?php echo $customer->getId();?>, <?php echo $customer->getData('created_at');?></small></h1>
+		</div>
+	</div>
+</div>
+
+<div class="row" style="padding:10px;">
+	<div class="col-sm-8 col-xs-12 text-center">
+		<div class="well well-lg score-board text-center" id="scorePanel">
+			<?php echo $wallet_customer->getScore();?>
+		</div>
+		<div class="btn-group" role="group" aria-label="Default button group">
+			<button type="button" id="block-user-btn" class="btn btn-danger" <?php if ($is_blocked) {?> style='display:none;'<?php } ?>><i class="fa fa-ban" aria-hidden="true"></i> <?php echo __("Block wallet");?></button>
+			<button type="button" id="unblock-user-btn" class="btn btn-success"  <?php if (!$is_blocked) {?> style='display:none;'<?php } ?>><i class="fa fa-check" aria-hidden="true"></i> <?php echo __("Unblock wallet");?></button>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalChangeFunds"><i class="fa fa-money" aria-hidden="true"></i> <?php echo __("Change funds");?></button>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalTransferFunds"><i class="fa fa-exchange" aria-hidden="true"></i> <?php echo __("Transfer to other");?></button>
+			<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalRequestpayout"><i class="fa fa-money" aria-hidden="true"></i> <?php echo __("Request payout");?></button>
+			<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalCreateBill" ><i class="fa fa-plus" aria-hidden="true"></i> <?php echo __("Create Bill");?></button>
+
+		</div>
+	</div>
+	<div class="col-sm-4 col-xs-12">
+		<table class="table table-bordered">
+		  <tr>
+			<td><?php echo __('ID'); ?></td>
+			<td><?php echo $customer->getId();?></td>
+		  </tr>			
+		  <tr>
+			<td><?php echo __('Firstname'); ?></td>
+			<td><?php echo $customer->getFirstname();?></td>
+		  </tr>
+		  <tr>
+			<td><?php echo __('Lastname'); ?></td>
+			<td><?php echo $customer->getLastname();?></td>
+		  </tr>
+		  <tr>
+			<td><?php echo __('Email'); ?></td>
+			<td><?php echo $customer->getEmail();?></td>
+		  </tr>
+		  <tr <?php if ($is_blocked) echo "class='bg-danger'";?> id="blocked-row-info">
+			<td><?php echo __('Blocked'); ?></td>
+			<td id="blocked-row-info-column"><?php if ($is_blocked) echo __('Yes'); else echo __('No');?></td>
+		  </tr>			  
+		</table>	
+	</div>	
+</div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#transactions" aria-controls="transactions" role="tab" data-toggle="tab"><?php echo __('Wallet transaction list'); ?></a></li>
+    <li role="presentation"><a href="#payouts" aria-controls="payouts" role="tab" data-toggle="tab"><?php echo __('Payouts'); ?></a></li>
+    <li role="presentation"><a href="#bills" aria-controls="bills" role="tab" data-toggle="tab"><?php echo __('Bills'); ?></a></li>
+    <li role="presentation"><a href="#addfunds" aria-controls="addfunds" role="tab" data-toggle="tab"><?php echo __('History of add funds'); ?></a></li>
+  </ul>
+
+<div class="tab-content"> 
+	<div role="tabpanel" class="row tab-pane active" id="transactions">
+		<div class="col-sm-12">
+			<h3><?php echo __('Wallet transaction list'); ?></h3>
+			<table id="transaction_list" class="table table-striped table-bordered  table-condensed" width="100%">
+				<thead>
+						<tr>
+							<th><?php echo __("Date");?></th>
+							<th><?php echo __("Balance");?></th>
+							<th><?php echo __("Amount");?></th>
+							<th><?php echo __("Description");?></th>
+							<th><?php echo __("From or To account");?></th>
+						</tr>
+					</thead>
+					<tfoot>
+						<tr>
+							<th><?php echo __("Date");?></th>
+							<th><?php echo __("Balance");?></th>
+							<th><?php echo __("Amount");?></th>
+							<th><?php echo __("Description");?></th>
+							<th><?php echo __("From or To account");?> </th>
+						</tr>
+					</tfoot>		
+			
+			</table>
+		</div>
+	</div>
+
+	<div role="tabpanel" class="row tab-pane" id="payouts">
+		<div class="col-sm-12">
+			<h3><?php echo __('Payouts'); ?></h3>
+			<table id="payout_list" class="table table-striped table-bordered  table-condensed" width="100%">
+				<thead>
+						<tr>
+							<th><?php echo __("Date");?></th>
+							<th><?php echo __("Method");?></th>
+							<th><?php echo __("Amount");?></th>
+							<th><?php echo __("Comment");?></th>
+							<th><?php echo __("Status");?></th>
+							<th><?php echo __("Reply");?></th>
+							<th>-</th>
+						</tr>
+					</thead>
+					<tfoot>
+						<tr>
+							<th><?php echo __("Date");?></th>
+							<th><?php echo __("Method");?></th>
+							<th><?php echo __("Amount");?></th>
+							<th><?php echo __("Comment");?></th>
+							<th><?php echo __("Status");?></th>
+							<th><?php echo __("Reply");?></th>
+							<th>-</th>
+						</tr>
+					</tfoot>		
+			
+			</table>
+		</div>
+	</div>
+
+	
+	<div role="tabpanel" class="row tab-pane" id="bills">
+		<div class="col-sm-12">
+			<h3><?php echo __('Bills'); ?></h3>
+			<table id="bills_list" class="table table-striped table-bordered  table-condensed" width="100%">
+				<thead>
+						<tr>
+							<th><?php echo __("Date");?></th>
+							<th><?php echo __("Amount");?></th>
+							<th><?php echo __("Bill source");?></th>
+							<th><?php echo __("Title");?></th>
+							<th><?php echo __("Description");?></th>
+							<th><?php echo __("Status");?></th>
+							<th>-</th>
+						</tr>
+					</thead>
+					<tfoot>
+						<tr>
+							<th><?php echo __("Date");?></th>
+							<th><?php echo __("Amount");?></th>
+							<th><?php echo __("Bill source");?></th>
+							<th><?php echo __("Title");?></th>
+							<th><?php echo __("Description");?></th>
+							<th><?php echo __("Status");?></th>
+							<th>-</th>
+						</tr>
+					</tfoot>		
+			
+			</table>
+		</div>
+	</div>
+	
+	<div role="tabpanel" class="row tab-pane" id="addfunds">
+		<div class="col-sm-12">
+			<h3><?php echo __('History of add funds'); ?></h3>
+			<table id="addfundshistory_list" class="table table-striped table-bordered  table-condensed" width="100%">
+				<thead>
+					  <tr>
+						<th><?php echo __("Date");?></th>
+						<th><?php echo __("Amount");?></th>
+						<th><?php echo __("Description");?> </th>
+						<th><?php echo __("Status");?> </th>
+					  </tr>
+					</thead>
+					<tfoot>
+					  <tr>
+						<th><?php echo __("Date");?></th>
+						<th><?php echo __("Amount");?></th>
+						<th><?php echo __("Description");?> </th>
+						<th><?php echo __("Status");?> </th>
+					  </tr>
+					</tfoot>		
+			
+			</table>
+		</div>	
+	</div>	
+</div>
+
+
+<div class="row" style="padding:10px;">
+  <div class="col-sm-6 text-left"><button type="button" class="btn btn-default btn-lg customer_back_button" id="customer_back_button"><i class="fa fa-undo" aria-hidden="true"></i> <?php echo $this->_('Return'); ?></button></div>
+</div>
+
+
+<!-- modals-->
+<!-- Modal create bill-->
+<div class="modal fade" id="modalCreateBill" tabindex="-1" role="dialog" aria-labelledby="modalCreateBillLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="modalCreateBillLabel"><?php echo __("Create bill");?></h4>
+      </div>
+      <div class="modal-body">
+        <p><?php echo __("Bill customer. Balance can not be negative.");?></p>
+		<form class="form-horizontal" id="createBillForm">
+		  
+		  <div class="form-group">
+			<label class="col-sm-3 control-label " for="walletInputAmount"><?php echo __("Amount");?></label>
+			<div class="input-group col-sm-4">
+			  <div class="input-group-addon"><i class="fa fa-money" aria-hidden="true"></i></div>
+			  <input type="text" name="amount" class="form-control" id="walletInputAmount" value="<?php echo $wallet_customer->getScore();?>" placeholder="<?php echo __("Amount");?>">
+			</div>
+
+		  </div>
+		  <div class="form-group">
+			<label class="col-sm-3 control-label " for="walletInputComment"><?php echo __("Title");?></label>
+			<div class="input-group col-sm-8">
+			  <input type="text" class="form-control" name="title" id="walletInputComment" value="" placeholder="<?php echo __("Bill title");?>">
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label for="billdescription" class="col-sm-3 control-label"><?php echo __('Description'); ?></label>
+			<div class="col-sm-9">
+			  <textarea class="form-control" rows="3" name="description" id="billdescription"></textarea>
+			</div>
+		  </div>		  
+			<input type="hidden" name="customer_id" value="<?php echo $wallet_customer->getCustomerId();?>">
+		</form>
+		<!--<div class="alert alert-danger" id="changeAmountFormAlert" role="alert"></div>-->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $this->_('Close'); ?></button>
+		<button type="button" class="btn btn-primary" id="bill-customer-btn"><?php echo $this->_('Create bill'); ?></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal change funds-->
+<div class="modal fade" id="modalChangeFunds" tabindex="-1" role="dialog" aria-labelledby="modalChangeFundsLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="modalChangeFundsLabel"><?php echo __("Change funds in current wallet");?></h4>
+      </div>
+      <div class="modal-body">
+        <p><?php echo __("Change the balance of the wallet manually. Balance can not be negative.");?></p>
+		<form class="form-horizontal" id="changeAmountForm">
+		  
+		  <div class="form-group">
+			<label class="col-sm-2 control-label " for="walletInputAmount"><?php echo __("Amount");?></label>
+			<div class="input-group col-sm-4">
+			  <div class="input-group-addon"><i class="fa fa-money" aria-hidden="true"></i></div>
+			  <input type="text" name="amount" class="form-control" id="walletInputAmount" value="<?php echo $wallet_customer->getScore();?>" placeholder="<?php echo __("Amount");?>">
+			</div>
+
+		  </div>
+		  <div class="form-group">
+			<label class="col-sm-2 control-label " for="walletInputComment2"><?php echo __("Comment");?></label>
+			<div class="input-group col-sm-9">
+			  <input type="text" class="form-control" name="comment" id="walletInputComment2" value="<?php echo __("Amount changed manually.");?>" placeholder="<?php echo __("Comment");?>">
+			</div>
+
+		  </div>
+			<input type="hidden" name="customer_id" value="<?php echo $wallet_customer->getCustomerId();?>">
+		</form>
+		<!--<div class="alert alert-danger" id="changeAmountFormAlert" role="alert"></div>-->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $this->_('Close'); ?></button>
+		<button type="button" class="btn btn-primary" id="change-amount-btn"><?php echo $this->_('Change'); ?></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal transfer funds-->
+<div class="modal fade" id="modalTransferFunds" tabindex="-1" role="dialog" aria-labelledby="modalTransferFundsLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="modalTransferFundsLabel"><?php echo __("Transfer funds");?></h4>
+      </div>
+      <div class="modal-body">
+        <p><?php echo __("Send funds to other customer. Balance can not be negative.");?></p>
+        <p><?php echo __("The recipient will see your comment.");?></p>
+		<form class="form-horizontal" id="transferAmountForm">
+		  
+		<div class="form-group">
+			<label class="col-sm-2 control-label " for="walletInputAmount"><?php echo __("Recepient");?></label>
+			<div class="input-group col-sm-4">
+				<select class="form-control" name="to_customer_id">
+					<?php foreach($wallet_customers as $sc) if ($sc->getId()!=$wallet_customer->getId()){ ?>
+						<option value="<?php echo $sc->getId();?>"><?php echo $sc->getEmail();?></option>
+					<?php }?>
+				</select>				
+			</div>
+		</div>
+	  
+		  
+		  
+		  <div class="form-group">
+			<label class="col-sm-2 control-label " for="walletInputAmount"><?php echo __("Amount");?></label>
+			<div class="input-group col-sm-4">
+			  <div class="input-group-addon"><i class="fa fa-money" aria-hidden="true"></i></div>
+			  <input type="text" name="amount" class="form-control" id="walletInputAmount" value="<?php echo $wallet_customer->getScore();?>" placeholder="<?php echo __("Amount");?>">
+			</div>
+
+		  </div>
+		  <div class="form-group">
+			<label class="col-sm-2 control-label " for="walletInputComment3"><?php echo __("Comment");?></label>
+			<div class="input-group col-sm-9">
+			  <input type="text" class="form-control" name="comment" id="walletInputComment3" value="<?php echo __("Transfer funds");?>" placeholder="<?php echo __("Comment");?>">
+			</div>
+
+		  </div>
+			<input type="hidden" name="customer_id" value="<?php echo $wallet_customer->getCustomerId();?>">
+		</form>
+		<!--<div class="alert alert-danger" id="changeAmountFormAlert" role="alert"></div>-->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $this->_('Close'); ?></button>
+		<button type="button" class="btn btn-primary" id="transfer-amount-btn"><?php echo $this->_('Send'); ?></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal request payout-->
+<div class="modal fade" id="modalRequestpayout" tabindex="-1" role="dialog" aria-labelledby="modalRequestpayoutLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="modalRequestpayoutLabel"><?php echo __("Change funds in current wallet");?></h4>
+      </div>
+      <div class="modal-body">
+        <p><?php echo __("Specify the amount and specify the payment options. Balance can not be negative.");?></p>
+		<form class="form-horizontal" id="RequestPayoutForm">
+		  
+		  <div class="form-group">
+			<label class="col-sm-2 control-label " for="walletInputAmount1"><?php echo __("Amount");?></label>
+			<div class="input-group col-sm-4">
+			  <div class="input-group-addon"><i class="fa fa-money" aria-hidden="true"></i></div>
+			  <input type="text" name="amount" class="form-control" id="walletInputAmount1" value="<?php echo $wallet_customer->getScore();?>" placeholder="<?php echo __("Amount");?>">
+			</div>
+		</div>
+		
+
+		<div class="form-group">
+			<label class="col-sm-2 control-label " for="walletInputAmount"><?php echo __('Payout methods'); ?></label>
+			<div class="input-group col-sm-4">
+				<select class="form-control" name="payout_method" id="select_payout_method">
+					<?php if ($wallet->getPayoutMethods()) foreach ($wallet->getPayoutMethods() as $pm) if ($pm->getActive()=="1"){?>
+						<option value="<?php echo $pm->getId();?>"><?php echo $pm->getData('title');?></option>
+					<?php }?>
+				</select>
+			</div>
+		</div>
+
+		<?php if ($wallet->getPayoutMethods()) foreach ($wallet->getPayoutMethods() as $pm) if ($pm->getActive()=="1"){?>
+			<div class="row">
+			<div class="payment-request-well well well-sm col-sm-10 col-sm-offset-2" id="pm-id-<?php echo $pm->getId();?>">
+			  <p><?php echo __("Payout minimum");?>: <?php echo $pm->getMinimum();?></p>
+			  <p><?php echo $pm->getDescription();?></p>
+			</div>
+			</div>
+		<?php }?>			
+		
+		<div class="form-group">
+			<label class="col-sm-2 control-label " for="walletInputComment1"><?php echo __("Comment");?></label>
+			<div class="input-group col-sm-9">
+			  <input type="text" class="form-control" name="comment" id="walletInputComment1" value="<?php echo __("Request payout");?>" placeholder="<?php echo __("Comment");?>">
+			</div>
+
+		  </div>
+			<input type="hidden" name="customer_id" value="<?php echo $wallet_customer->getCustomerId();?>">
+		</form>
+		<!--<div class="alert alert-danger" id="changeAmountFormAlert" role="alert"></div>-->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $this->_('Close'); ?></button>
+		<button type="button" class="btn btn-primary" id="request-payout-btn"><?php echo $this->_('Request payout'); ?></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.payment-request-well {display:none;}
+</style>
+
+<script type="text/javascript">
+
+
+	$("#row-customer-<?php echo $wallet_customer->getCustomerId();?> .customer-balance").html('<?php echo $wallet_customer->getScore();?>');
+	build_transaction_table();
+	build_requests_table();
+	build_bills_table();
+	build_addfundshistory_table();
+	
+	
+
+
+	$('#select_payout_method').on('change', function (e) {
+		var optionSelected = $("option:selected", this);
+		var valueSelected = this.value;
+		$(".payment-request-well").hide();
+		$("#pm-id-"+valueSelected).show();
+	});
+	$('#select_payout_method').trigger("change");
+
+	
+	$(".customer_back_button").on("click",function() {
+		loader_show();
+		$('#item-panel').hide();$('#list-panel').show();
+		$("html, body").animate({ scrollTop: 0 }, "fast");
+		loader_hide();
+	});
+
+	//выставление счета
+	$("#bill-customer-btn").on("click",function() {
+		loader_show();
+		$.ajax({
+			   type: "POST",
+			   url:'<?php echo $this->getUrl('wallet/admin/createbill'); ?>',
+			   data: $("#createBillForm").serialize(), // serializes the form's elements.
+			   dataType: "json",
+			   cache: false,
+			   success: function(data)
+			   {
+				   console.log(data); // show response from the php script.
+				   $('#modalCreateBill').modal('hide');
+				   if (data.success) {
+						
+						$("#error-message").hide();
+						$("#success-message").html(data.success_message);
+						$("#success-message").show();
+						$("#row-customer-"+data.customer_id+" .customer-balance").html(data.customer_balance);
+						$("#scorePanel").html(data.customer_balance);
+						build_transaction_table();
+						build_requests_table();
+						build_bills_table();
+						setTimeout('$("#success-message").hide()', 5000);
+				   }
+				   $("html, body").animate({ scrollTop: 0 }, "fast");
+				   loader_hide();
+			   },
+			   error: function (jqXHR) {
+				loader_hide();
+				var rdata = JSON.parse(jqXHR.responseText);
+				console.log(jqXHR.responseText);
+			   //console.log(exception);
+				$('#modalCreateBill').modal('hide');
+				$("#error-message").html(rdata.message);
+				$("#error-message").show();
+				setTimeout('$("#error-message").hide()', 5000);
+				$("#success-message").html();
+				$("#success-message").hide();
+				$("html, body").animate({ scrollTop: 0 }, "fast");
+			   }
+			 });	
+	});	
+	
+	//Смена баланса
+	$("#change-amount-btn").on("click",function() {
+		loader_show();
+		$.ajax({
+			   type: "POST",
+			   url:'<?php echo $this->getUrl('wallet/admin/customereditpost'); ?>',
+			   data: $("#changeAmountForm").serialize(), // serializes the form's elements.
+			   dataType: "json",
+			   cache: false,
+			   success: function(data)
+			   {
+				   console.log(data); // show response from the php script.
+				   $('#modalChangeFunds').modal('hide');
+				   if (data.success) {
+						
+						$("#error-message").hide();
+						$("#success-message").html(data.success_message);
+						$("#success-message").show();
+						$("#row-customer-"+data.customer_id+" .customer-balance").html(data.customer_balance);
+						$("#scorePanel").html(data.customer_balance);
+						build_transaction_table();
+						setTimeout('$("#success-message").hide()', 5000);
+				   }
+				   $("html, body").animate({ scrollTop: 0 }, "fast");
+				   loader_hide();
+			   },
+			   error: function (jqXHR) {
+				loader_hide();
+				var rdata = JSON.parse(jqXHR.responseText);
+				console.log(jqXHR.responseText);
+			   //console.log(exception);
+				$('#modalChangeFunds').modal('hide');
+				$("#error-message").html(rdata.message);
+				$("#error-message").show();
+				setTimeout('$("#error-message").hide()', 5000);
+				$("#success-message").html();
+				$("#success-message").hide();
+				$("html, body").animate({ scrollTop: 0 }, "fast");
+			   }
+			 });	
+	});	
+	
+	//Запрос выплаты
+	$("#request-payout-btn").on("click",function() {
+		loader_show();
+		$.ajax({
+			   type: "POST",
+			   url:'<?php echo $this->getUrl('wallet/admin/requestpayout'); ?>',
+			   data: $("#RequestPayoutForm").serialize(), // serializes the form's elements.
+			   dataType: "json",
+			   cache: false,
+			   success: function(data)
+			   {
+				   console.log(data); // show response from the php script.
+				   $('#modalRequestpayout').modal('hide');
+				   if (data.success) {
+						
+						$("#error-message").hide();
+						$("#success-message").html(data.success_message);
+						$("#success-message").show();
+						$("#row-customer-"+data.customer_id+" .customer-balance").html(data.customer_balance);
+						$("#scorePanel").html(data.customer_balance);
+						build_transaction_table();
+						build_requests_table();
+						setTimeout('$("#success-message").hide()', 5000);
+				   }
+				   $("html, body").animate({ scrollTop: 0 }, "fast");
+				   loader_hide();
+			   },
+			   error: function (jqXHR) {
+				loader_hide();
+				var rdata = JSON.parse(jqXHR.responseText);
+				console.log(jqXHR.responseText);
+			   //console.log(exception);
+				$('#modalRequestpayout').modal('hide');
+				$("#error-message").html(rdata.message);
+				$("#error-message").show();
+				setTimeout('$("#error-message").hide()', 5000);
+				$("#success-message").html();
+				$("#success-message").hide();
+				$("html, body").animate({ scrollTop: 0 }, "fast");
+			   }
+			 });	
+	});
+	
+	
+	//Пересылка
+	$("#transfer-amount-btn").on("click",function() {
+		loader_show();
+		$.ajax({
+			   type: "POST",
+			   url:'<?php echo $this->getUrl('wallet/admin/transferfunds'); ?>',
+			   data: $("#transferAmountForm").serialize(), // serializes the form's elements.
+			   dataType: "json",
+			   cache: false,
+			   success: function(data)
+			   {
+				   console.log(data); // show response from the php script.
+				   $('#modalTransferFunds').modal('hide');
+				   if (data.success) {
+						
+						$("#error-message").hide();
+						$("#success-message").html(data.success_message);
+						$("#success-message").show();
+						$("#row-customer-"+data.customer_id+" .customer-balance").html(data.customer_balance);
+						$("#row-customer-"+data.customer2_id+" .customer-balance").html(data.customer2_balance);
+						$("#scorePanel").html(data.customer_balance);
+						build_transaction_table();
+						setTimeout('$("#success-message").hide()', 5000);
+				   }
+				   $("html, body").animate({ scrollTop: 0 }, "fast");
+				   loader_hide();
+			   },
+			   error: function (jqXHR) {
+				loader_hide();
+				var rdata = JSON.parse(jqXHR.responseText);
+				console.log(jqXHR.responseText);
+			   //console.log(exception);
+				$('#modalTransferFunds').modal('hide');
+				$("#error-message").html(rdata.message);
+				$("#error-message").show();
+				setTimeout('$("#error-message").hide()', 5000);
+				$("#success-message").html();
+				$("#success-message").hide();
+				$("html, body").animate({ scrollTop: 0 }, "fast");
+			   }
+			 });	
+	});		
+	
+	//блокировка
+/*	$("#block-user-btn").on("click",function() {
+		if (confirm("<?php echo $this->_('Are you sure?'); ?>")) {
+			loader_show();
+			$.ajax({
+				   type: "POST",
+				   url:'<?php echo $this->getUrl('wallet/admin/customerblockpost'); ?>',
+				   data: "block=1&customer_id=<?php echo $wallet_customer->getCustomerId();?>", // serializes the form's elements.
+				   dataType: "json",
+				   cache: false,
+				   success: function(data)
+				   {
+					   console.log(data); // show response from the php script.
+					   $('#modalChangeFunds').modal('hide');
+					   if (data.success) {
+							
+							$("#error-message").hide();
+							$("#success-message").html(data.success_message);
+							$("#success-message").show();
+							$("#row-customer-"+data.customer_id+" .customer-blocked").html('<?php echo __("Yes");?>');
+							$("#blocked-row-info").addClass("bg-danger");
+							$("#blocked-row-info-column").html('<?php echo __("Yes");?>');
+							$("#block-user-btn").hide();
+							$("#unblock-user-btn").show();
+							build_transaction_table();
+							setTimeout('$("#success-message").hide()', 5000);
+					   }
+					   $("html, body").animate({ scrollTop: 0 }, "fast");
+					   loader_hide();
+				   },
+				   error: function (jqXHR) {
+					loader_hide();
+					var rdata = JSON.parse(jqXHR.responseText);
+					console.log(jqXHR.responseText);
+				   //console.log(exception);
+					$('#modalChangeFunds').modal('hide');
+					$("#error-message").html(rdata.message);
+					$("#error-message").show();
+					setTimeout('$("#error-message").hide()', 5000);
+					$("#success-message").html();
+					$("#success-message").hide();
+					$("html, body").animate({ scrollTop: 0 }, "fast");
+				   }
+				 });
+		} else {
+			//
+		}		
+	
+	});
+	*/
+	
+	//подтверждение счета
+	function accept_bill(id) {
+		if (confirm("<?php echo $this->_('Are you sure?'); ?>")) {
+			loader_show();
+			$.ajax({
+				   type: "POST",
+				   url:'<?php echo $this->getUrl('wallet/admin/acceptbill'); ?>',
+				   data: "bill_id="+id+"&customer_id=<?php echo $wallet_customer->getCustomerId();?>", // serializes the form's elements.
+				   dataType: "json",
+				   cache: false,
+				   success: function(data)
+				   {
+					   console.log(data); // show response from the php script.
+					   if (data.success) {
+							
+							$("#error-message").hide();
+							$("#success-message").html(data.success_message);
+							$("#success-message").show();
+							$("#row-customer-"+data.customer_id+" .customer-balance").html(data.customer_balance);
+							$("#scorePanel").html(data.customer_balance);							
+							build_transaction_table();
+							build_bills_table();
+							setTimeout('$("#success-message").hide()', 5000);
+					   }
+					   $("html, body").animate({ scrollTop: 0 }, "fast");
+					   loader_hide();
+				   },
+				   error: function (jqXHR) {
+					loader_hide();
+					var rdata = JSON.parse(jqXHR.responseText);
+					console.log(jqXHR.responseText);
+				   //console.log(exception);
+					$('#modalChangeFunds').modal('hide');
+					$("#error-message").html(rdata.message);
+					$("#error-message").show();
+					setTimeout('$("#error-message").hide()', 5000);
+					$("#success-message").html();
+					$("#success-message").hide();
+					$("html, body").animate({ scrollTop: 0 }, "fast");
+				   }
+				 });		
+		
+		} else {
+			//
+		}		
+	}
+	
+	//отмена счета
+	function cancel_bill(id) {
+		if (confirm("<?php echo $this->_('Are you sure?'); ?>")) {
+			loader_show();
+			$.ajax({
+				   type: "POST",
+				   url:'<?php echo $this->getUrl('wallet/admin/cancelbill'); ?>',
+				   data: "bill_id="+id+"&customer_id=<?php echo $wallet_customer->getCustomerId();?>", // serializes the form's elements.
+				   dataType: "json",
+				   cache: false,
+				   success: function(data)
+				   {
+					   console.log(data); // show response from the php script.
+					   if (data.success) {
+							
+							$("#error-message").hide();
+							$("#success-message").html(data.success_message);
+							$("#success-message").show();
+							build_bills_table();
+							setTimeout('$("#success-message").hide()', 5000);
+					   }
+					   $("html, body").animate({ scrollTop: 0 }, "fast");
+					   loader_hide();
+				   },
+				   error: function (jqXHR) {
+					loader_hide();
+					var rdata = JSON.parse(jqXHR.responseText);
+					console.log(jqXHR.responseText);
+				   //console.log(exception);
+					$('#modalChangeFunds').modal('hide');
+					$("#error-message").html(rdata.message);
+					$("#error-message").show();
+					setTimeout('$("#error-message").hide()', 5000);
+					$("#success-message").html();
+					$("#success-message").hide();
+					$("html, body").animate({ scrollTop: 0 }, "fast");
+				   }
+				 });		
+		
+		} else {
+			//
+		}		
+	}	
+	$("#block-user-btn").on("click",function() {
+		if (confirm("<?php echo $this->_('Are you sure?'); ?>")) {
+			loader_show();
+			$.ajax({
+				   type: "POST",
+				   url:'<?php echo $this->getUrl('wallet/admin/customerblockpost'); ?>',
+				   data: "block=1&customer_id=<?php echo $wallet_customer->getCustomerId();?>", // serializes the form's elements.
+				   dataType: "json",
+				   cache: false,
+				   success: function(data)
+				   {
+					   console.log(data); // show response from the php script.
+					   $('#modalChangeFunds').modal('hide');
+					   if (data.success) {
+							
+							$("#error-message").hide();
+							$("#success-message").html(data.success_message);
+							$("#success-message").show();
+							$("#row-customer-"+data.customer_id+" .customer-blocked").html('<?php echo __("Yes");?>');
+							$("#blocked-row-info").addClass("bg-danger");
+							$("#blocked-row-info-column").html('<?php echo __("Yes");?>');
+							$("#block-user-btn").hide();
+							$("#unblock-user-btn").show();
+							build_transaction_table();
+							setTimeout('$("#success-message").hide()', 5000);
+					   }
+					   $("html, body").animate({ scrollTop: 0 }, "fast");
+					   loader_hide();
+				   },
+				   error: function (jqXHR) {
+					loader_hide();
+					var rdata = JSON.parse(jqXHR.responseText);
+					console.log(jqXHR.responseText);
+				   //console.log(exception);
+					$('#modalChangeFunds').modal('hide');
+					$("#error-message").html(rdata.message);
+					$("#error-message").show();
+					setTimeout('$("#error-message").hide()', 5000);
+					$("#success-message").html();
+					$("#success-message").hide();
+					$("html, body").animate({ scrollTop: 0 }, "fast");
+				   }
+				 });
+		} else {
+			//
+		}		
+	
+	});	
+	
+	//разблокировака
+	$("#unblock-user-btn").on("click",function() {
+		if (confirm("<?php echo $this->_('Are you sure?'); ?>")) {
+			loader_show();
+			$.ajax({
+				   type: "POST",
+				   url:'<?php echo $this->getUrl('wallet/admin/customerblockpost'); ?>',
+				   data: "block=0&customer_id=<?php echo $wallet_customer->getCustomerId();?>", // serializes the form's elements.
+				   dataType: "json",
+				   cache: false,
+				   success: function(data)
+				   {
+					   console.log(data); // show response from the php script.
+					   $('#modalChangeFunds').modal('hide');
+					   if (data.success) {
+							
+							$("#error-message").hide();
+							$("#success-message").html(data.success_message);
+							$("#success-message").show();
+							$("#row-customer-"+data.customer_id+" .customer-blocked").html('<?php echo __("No");?>');
+							$("#blocked-row-info").removeClass("bg-danger");
+							$("#blocked-row-info-column").html('<?php echo __("No");?>');
+							$("#block-user-btn").show(); 
+							$("#unblock-user-btn").hide();
+							build_transaction_table();
+							setTimeout('$("#success-message").hide()', 5000);
+					   }
+					   $("html, body").animate({ scrollTop: 0 }, "fast");
+					   loader_hide();
+				   },
+				   error: function (jqXHR) {
+					loader_hide();
+					var rdata = JSON.parse(jqXHR.responseText);
+					console.log(jqXHR.responseText);
+				   //console.log(exception);
+					$('#modalChangeFunds').modal('hide');
+					$("#error-message").html(rdata.message);
+					$("#error-message").show();
+					setTimeout('$("#error-message").hide()', 5000);
+					$("#success-message").html();
+					$("#success-message").hide();
+					$("html, body").animate({ scrollTop: 0 }, "fast");
+				   }
+				 });
+		} else {
+			//
+		}		
+	
+	});
+	
+
+ 
+	function build_transaction_table() {
+
+				$.ajax({
+					   type: "POST",
+					   url:'<?php echo $this->getUrl('wallet/admin/customertransactions'); ?>',
+					   data: "customer_id=<?php echo $wallet_customer->getCustomerId();?>", // serializes the form's elements.
+					   dataType: "json",
+					   cache: false,
+					   success: function(data)
+					   {
+						   console.log(data); // show response from the php script.
+							var transaction_table = $('#transaction_list').DataTable( {
+									destroy: true,
+									data: data.transactions
+								} );
+
+								transaction_table.column( '0:visible' ).order( 'desc' ).draw();
+		
+					   },
+					   error: function (jqXHR) {
+							loader_hide();
+							var rdata = JSON.parse(jqXHR.responseText);
+							console.log(jqXHR.responseText);
+
+					   }
+					 });
+
+
+	};
+
+
+	function build_requests_table() {
+
+				$.ajax({
+					   type: "POST",
+					   url:'<?php echo $this->getUrl('wallet/admin/customerpayoutrequests'); ?>',
+					   data: "customer_id=<?php echo $wallet_customer->getCustomerId();?>", // serializes the form's elements.
+					   dataType: "json",
+					   cache: false,
+					   success: function(data)
+					   {
+						   console.log(data); // show response from the php script.
+							var payout_table = $('#payout_list').DataTable( {
+									destroy: true,
+									data: data.requests
+								} );
+
+								payout_table.column( '0:visible' ).order( 'desc' ).draw();
+		
+					   },
+					   error: function (jqXHR) {
+							loader_hide();
+							var rdata = JSON.parse(jqXHR.responseText);
+							console.log(jqXHR.responseText);
+
+					   }
+					 });
+
+	};
+
+	
+	function build_bills_table() {
+
+				$.ajax({
+					   type: "POST",
+					   url:'<?php echo $this->getUrl('wallet/admin/customerbills'); ?>',
+					   data: "customer_id=<?php echo $wallet_customer->getCustomerId();?>", // serializes the form's elements.
+					   dataType: "json",
+					   cache: false,
+					   success: function(data)
+					   {
+						   console.log(data); // show response from the php script.
+							var bills_table = $('#bills_list').DataTable( {
+									destroy: true,
+									data: data.bills
+								} );
+
+								bills_table.column( '0:visible' ).order( 'desc' ).draw();
+		
+					   },
+					   error: function (jqXHR) {
+							loader_hide();
+							var rdata = JSON.parse(jqXHR.responseText);
+							console.log(jqXHR.responseText);
+
+					   }
+					 });
+
+	};
+	function build_addfundshistory_table() {
+
+				$.ajax({
+					   type: "POST",
+					   url:'<?php echo $this->getUrl('wallet/admin/customeraddfundshistory'); ?>',
+					   data: "customer_id=<?php echo $wallet_customer->getCustomerId();?>", // serializes the form's elements.
+					   dataType: "json",
+					   cache: false,
+					   success: function(data)
+					   {
+						   console.log(data); // show response from the php script.
+							var bills_table = $('#addfundshistory_list').DataTable( {
+									destroy: true,
+									data: data.history
+								} );
+
+								bills_table.column( '0:visible' ).order( 'desc' ).draw();
+		
+					   },
+					   error: function (jqXHR) {
+							loader_hide();
+							var rdata = JSON.parse(jqXHR.responseText);
+							console.log(jqXHR.responseText);
+
+					   }
+					 });
+
+	};	
+	
+	function cancel_request_payout(id) {
+	
+		if (confirm("<?php echo $this->_('Are you sure?'); ?>")) {
+			$.ajax({
+				   type: "POST",
+				   url:'<?php echo $this->getUrl('wallet/admin/cancelpayout'); ?>',
+				   data: "wallet_payout_request_id="+id+"&customer_id=<?php echo $wallet_customer->getCustomerId();?>", // serializes the form's elements.
+				   dataType: "json",
+				   cache: false,
+				   success: function(data)
+				   {
+					   console.log(data); // show response from the php script.
+					   if (data.success) {
+							
+						$("#error-message").hide();
+						$("#success-message").html(data.success_message);
+						$("#success-message").show();
+						$("#row-customer-"+data.customer_id+" .customer-balance").html(data.customer_balance);
+						$("#scorePanel").html(data.customer_balance);
+						build_transaction_table();
+						build_requests_table();
+						setTimeout('$("#success-message").hide()', 5000);
+					   }
+					   $("html, body").animate({ scrollTop: 0 }, "fast");
+					   loader_hide();
+				   },
+				   error: function (jqXHR) {
+					loader_hide();
+					var rdata = JSON.parse(jqXHR.responseText);
+					console.log(jqXHR.responseText);
+				   //console.log(exception);
+					$('#modalChangeFunds').modal('hide');
+					$("#error-message").html(rdata.message);
+					$("#error-message").show();
+					setTimeout('$("#error-message").hide()', 5000);
+					$("#success-message").html();
+					$("#success-message").hide();
+					$("html, body").animate({ scrollTop: 0 }, "fast");
+				   }
+				 });		
+		} else {
+			//
+		}
+	
+	}
+
+</script>

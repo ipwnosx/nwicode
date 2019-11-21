@@ -1,0 +1,1455 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-06T23:01:44+03:00\n"
+"PO-Revision-Date: 2019-06-06T23:01:44+03:00\n"
+"Language: \n"
+
+msgid "of the"
+msgstr "bu"
+
+msgid "setting."
+msgstr "ayar."
+
+msgid "%s %s"
+msgstr "%%s s"
+
+msgid "%s Image%s"
+msgstr "%s Resim%s"
+
+msgid "1 An error occurred while saving. Please try again later."
+msgstr "1 kaydedilirken Bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "1An error occurred while saving. Please try again later."
+msgstr "1An kaydedilirken hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "2 An error occurred while saving. Please try again later."
+msgstr "2 kaydedilirken Bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "20,00 %"
+msgstr "20.00 %"
+
+msgid "2An error occurred while saving. Please try again later."
+msgstr "2 kaydedilirken hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "2Checkout subscription is inactive, tray again later."
+msgstr "2Checkout abonelik daha sonra tekrar aktif olmayan, tepsi."
+
+msgid "3 An error occurred while saving. Please try again later."
+msgstr "3 kaydedilirken Bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "3An error occurred while saving. Please try again later."
+msgstr "3An kaydedilirken hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "403 Forbidden"
+msgstr "403 Yasak"
+
+msgid "<b>%s</b> is not supported with the current currency <b>%s</b>!"
+msgstr "<b>%s</b> geçerli para birimi <b>%s</b>ile desteklenmiyor."
+
+msgid "<b>Danger zone</b>: below you can definitively delete your account."
+msgstr "kesinlikle hesabınızı silebilirsiniz aşağıda <b>Tehlike bölgesi</b>."
+
+msgid "<b>Warning:</b> translation API is experimental for the current language and may fail."
+msgstr "<b>Uyarı:</b> çeviri API geçerli dil için deneysel ve başarısız olabilir."
+
+msgid "A new user just registered!"
+msgstr "Yeni bir kullanıcı sadece kayıtlı!"
+
+msgid "A user just made a new subscription on the Platform <b>%s</b>, for the Application <b>%s</b>."
+msgstr "Bir kullanıcı sadece Platform <b>%s</b> yeni bir abonelik yapılmış, Uygulama <b>%s</b>için."
+
+msgid "A user registered on your Platform %s"
+msgstr "Platform %kayıtlı kullanıcı s"
+
+msgid "APK Generation"
+msgstr "Kuru temizleme Nesil"
+
+msgid "APK build failed!"
+msgstr "MUAYENE oluşturma başarısız oldu!"
+
+msgid "APK build succeed!"
+msgstr "Başarılı MUAYENE yapın!"
+
+msgid "APK generation for App: %s"
+msgstr "Uygulama için MUAYENE nesil: %s"
+
+msgid "Account Created"
+msgstr "Hesap Oluşturuldu"
+
+msgid "Activate the user"
+msgstr "Kullanıcı etkinleştirmek"
+
+msgid "Activating or Deactivating a parent subscription will apply to it's childs."
+msgstr "Etkinleştirme veya üst bir abonelik devre dışı bırakılmasına kadar childs için geçerlidir."
+
+msgid "Activation"
+msgstr "Etkinleştirme"
+
+msgid "Activation of your Subscription!"
+msgstr "Aboneliğinizin aktivasyonu!"
+
+msgid "Active subscriptions with remaining slots."
+msgstr "Kalan slot ile aktif abonelikleri."
+
+msgid "Add a region"
+msgstr "Bölge eklemek"
+
+msgid "Adding %s to SAN."
+msgstr "Ekleme SAN %s."
+
+msgid "Admin Cancellation"
+msgstr "Admin İptal"
+
+msgid "AdminId is required to save the Application."
+msgstr "Adminİd Uygulama kaydetmek için gereklidir."
+
+msgid "Album:"
+msgstr "Albüm:"
+
+msgid "All sessions are now migrated to Redis."
+msgstr "Tüm oturumlar şimdi Redis geçirilir."
+
+msgid "An administrator of the Platform <b>%s</b>, activated your subscription for the Application <b>%s</b>"
+msgstr "Platform <b>%s</b>, bir yönetici Uygulama <b>%s</b>aboneliğinizi aktif"
+
+msgid "An administrator of the Platform <b>%s</b>, cancelled your subscription for the Application <b>%s</b>"
+msgstr "Platform <b>%s</b>, bir yönetici Uygulama <b>%s</b>aboneliğinizi iptal edildi"
+
+msgid "An administrator of the Platform <b>%s</b>, deactivated your subscription for the Application <b>%s</b>"
+msgstr "Platform <b>%s</b>, bir yönetici Uygulama <b>%s</b>aboneliğinizi aktif"
+
+msgid "An error occured while adding the block."
+msgstr "Blok eklerken bir hata oluştu."
+
+msgid "An error occurred when generating the apk"
+msgstr "Bu muayene oluşturulurken bir hata oluştu"
+
+msgid "An error occurred while hidding the Android Status Bar."
+msgstr "Android Durum Çubuğu hidding sırasında bir hata oluştu."
+
+msgid "An error occurred while hidding the iOS Status Bar."
+msgstr "İOS Durum Çubuğu hidding sırasında bir hata oluştu."
+
+msgid "An error occurred while importing line %s : impossible to save the object. Please check your file format."
+msgstr "Satır %alma nesneyi kaydetmek için imkansız : sırasında bir hata oluştu. Lütfen dosya biçimini kontrol edin."
+
+msgid "An error occurred while loading. Please, try again later."
+msgstr "Yüklenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while saving the password. Please try again later."
+msgstr "Parola kaydedilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while saving your APK. Please try again later."
+msgstr "MUAYENE kaydetme sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while saving your Keystore. Please try again later."
+msgstr "Anahtar kaydetme sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while saving your page subtitle."
+msgstr "Sayfanın alt yazı kaydedilirken bir hata oluştu."
+
+msgid "An error occurred while saving your picture. Please try againg later."
+msgstr "Resim kaydedilirken bir hata oluştu. Againg lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while upload the APK. Please try again later."
+msgstr "APK yükleme sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while validating point<br />Please try again later."
+msgstr "Doğrulama noktası<br />Lütfen daha sonra tekrar deneyin bir hata oluştu."
+
+msgid "An error occurred, backButton is required!"
+msgstr "Bir hata oluştu, backButton gereklidir."
+
+msgid "An error occurred, please try again."
+msgstr "Bir hata oluştu, lütfen tekrar deneyin."
+
+msgid "An error occurred. Please try again later."
+msgstr "Bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An unknown error occured."
+msgstr "Bilinmeyen bir hata oluştu."
+
+msgid "An unknown error occurred while listing applications."
+msgstr "Uygulamalar listelenirken bilinmeyen bir hata oluştu."
+
+msgid "An unknown error occurred, please try again later."
+msgstr "Bilinmeyen bir hata oluştu, lütfen daha sonra tekrar deneyin."
+
+msgid "An user of the Platform <b>%s</b>, cancelled the subscription of the Application <b>%s</b>"
+msgstr "Platform <b>%s</b> bir kullanıcı, Uygulama <b>%s</b>aboneliği iptal"
+
+msgid "Android SDK is marked for update."
+msgstr "Android SDK Güncellemesi için işaretlendi."
+
+msgid "Anniversary"
+msgstr "Yıldönümü"
+
+msgid "App ID:"
+msgstr "Uygulama KİMLİĞİ:"
+
+msgid "App Id is required!"
+msgstr "Uygulama Kimliği gereklidir."
+
+msgid "App name:"
+msgstr "Uygulama adı:"
+
+msgid "Application id %s not found."
+msgstr "Uygulama kimliği %s bulundu."
+
+msgid "Application identifier:"
+msgstr "Uygulama tanımlayıcısı:"
+
+msgid "Application not found!"
+msgstr "Uygulama bulunamadı!"
+
+msgid "Application template successfully imported."
+msgstr "Uygulama başarıyla alınan şablonu."
+
+msgid "Applications tied to this subscription"
+msgstr "Uygulamalar bu abonelik için bağlı"
+
+msgid "Apps Qty"
+msgstr "Uygulamalar Miktar"
+
+msgid "Authentication failed."
+msgstr "Kimlik doğrulaması başarısız oldu."
+
+msgid "Automatic Cancellation"
+msgstr "Otomatik İptal"
+
+msgid "Back button choice saved!"
+msgstr "Geri düğmesi seçim kurtardı!"
+
+msgid "Background Color"
+msgstr "Arka plan rengi"
+
+msgid "Banner %s price"
+msgstr "Banner %fiyat s"
+
+msgid "Banner %s store label"
+msgstr "Banner %mağaza etiket s"
+
+msgid "Be aware that if the code you enter here requires any kind of server interaction it will not work properly in offline mode."
+msgstr "Eğer buraya girdiğiniz kod sunucu herhangi bir etkileşimi gerektirir düzgün çevrimdışı modunda çalışmaz unutmayın."
+
+msgid "Before publishing your Application you must upload a homepage background."
+msgstr "Uygulamanızı yayınlamadan önce ana arka plan yüklemeniz gerekir."
+
+msgid "Before publishing your Application you must upload a splashscreen."
+msgstr "Uygulamanızı yayınlamadan önce bir karşılama resmi yüklemeniz gerekir."
+
+msgid "Below you'll find important informations required in some services!"
+msgstr "Aşağıda bazı hizmetler için gerekli önemli bilgileri bulabilirsiniz!"
+
+msgid "Bin SQLite3:"
+msgstr "Bin SQLite3:"
+
+msgid "Black"
+msgstr "Siyah"
+
+msgid "Booking details:"
+msgstr "Rezervasyon detayları:"
+
+msgid "Border Color"
+msgstr "Kenarlık rengi"
+
+msgid "Build Mobile Social Gaming"
+msgstr "Mobil Sosyal Oyun Oluşturma"
+
+msgid "Build failed"
+msgstr "Oluşturma başarısız oldu"
+
+msgid "Build succeed"
+msgstr "Derleme başarılı"
+
+msgid "CORE TEMPLATE"
+msgstr "ÇEKİRDEK ŞABLONU"
+
+msgid "Cache cleared."
+msgstr "Önbellek temizlendi."
+
+msgid "Cancel current Subscription"
+msgstr "Geçerli Abonelik iptal"
+
+msgid "Cancel subscription"
+msgstr "Aboneliği iptal"
+
+msgid "Cancellation of your Subscription!"
+msgstr "Aboneliğinizi iptal!"
+
+msgid "Cancelling a child subscription will only affect the concerned application."
+msgstr "Çocuk aboneliği iptal sadece ilgili uygulamayı etkileyecektir."
+
+msgid "Cancelling a paid subscription will mark it as cancelled, and the subscription will automatically expire on it's expiration date."
+msgstr "Ücretli bir aboneliği iptal iptal edildi olarak işaretle ve abonelik otomatik olarak bu son kullanma tarihi sona erecektir."
+
+msgid "Cancelling a parent subscription will also cancel it's childs."
+msgstr "Üst aboneliği iptal da childs iptal edecektir."
+
+msgid "Cannot find application from token."
+msgstr "Token uygulama bulunamıyor."
+
+msgid "Cannot send APK build to service %s."
+msgstr "Olamaz MUAYENE s %hizmet için inşa gönderin."
+
+msgid "Cannot send build to service %s."
+msgstr "S %hizmet için inşa gönderemezsiniz."
+
+msgid "Catalog not found!"
+msgstr "Katalog bulunamadı!"
+
+msgid "Category has been deleted."
+msgstr "Kategori silindi."
+
+msgid "Category not found!"
+msgstr "Kategori bulunamadı!"
+
+msgid "Category successfully deleted."
+msgstr "Kategori başarıyla silindi."
+
+msgid "Certificate renewal is disabled until %s due to rate limit hit."
+msgstr "Sertifika yenileme %sınırı isabet oranı nedeniyle s kadar devre dışı bırakılır."
+
+msgid "Change your homepage"
+msgstr "Anasayfa"
+
+msgid "Change your startup image"
+msgstr "Başlangıç resmi değiştirme"
+
+msgid "Check out our support pages:"
+msgstr "Destek sayfalarına göz atın:"
+
+msgid "Chef de projet"
+msgstr "Chef de proje"
+
+msgid "Child"
+msgstr "Çocuk"
+
+msgid "Choose a"
+msgstr "Seçin"
+
+msgid "City:"
+msgstr "Şehir:"
+
+msgid "ClamAV:"
+msgstr "Deniztarağı:"
+
+msgid "Code Used"
+msgstr "Kod kullanılır"
+
+msgid "Coiffeurs"
+msgstr "Coiffeurs"
+
+msgid "Company successfully deleted."
+msgstr "Şirket başarıyla silindi."
+
+msgid "Create a new plan"
+msgstr "Yeni bir plan oluşturmak"
+
+msgid "Created at:"
+msgstr "Oluşturuldu:"
+
+msgid "Credentials successfully saved!"
+msgstr "Kimlik bilgileri başarıyla kaydedildi!"
+
+msgid "Date and time:"
+msgstr "Tarih ve saat:"
+
+msgid "Deactivation"
+msgstr "Deaktivasyon"
+
+msgid "Deactivation of your Subscription!"
+msgstr "Aboneliğiniz devre dışı bırakma!"
+
+msgid "Define how many applications can be activated with this Subscription"
+msgstr "Tanımlama kaç uygulama bu Abonelik ile aktif hale getirilebilir"
+
+msgid "Delete my account."
+msgstr "Hesabımı silin."
+
+msgid "Delivery fees:"
+msgstr "Teslimat ücreti:"
+
+msgid "Delivery methods:"
+msgstr "Teslimat yöntemleri:"
+
+msgid "Delivery radius:"
+msgstr "Teslim alan:"
+
+msgid "Delivery time:"
+msgstr "Teslim süresi:"
+
+msgid "Description:"
+msgstr "Açıklama:"
+
+msgid "Disable this Subscription!"
+msgstr "Bu Abonelik devre dışı bırakın!"
+
+msgid "Disabling cache can have significant performance impacts."
+msgstr "Önbelleği devre dışı bırakılması önemli performans etkileri olabilir."
+
+msgid "Distributeur logiciel"
+msgstr "Distributeur yazılım devi"
+
+msgid "Do not edit the following settings if your APK Generator is working!"
+msgstr "Eğer MUAYENE Jeneratör çalışıyorsa aşağıdaki ayarları düzenleyin."
+
+msgid "Download QRCode for employee"
+msgstr "Aztek indir çalışanın"
+
+msgid "Download images archive"
+msgstr "İndir resimleri arşivi"
+
+msgid "Download template as"
+msgstr "İndirmek şablonu"
+
+msgid "Download the APK !"
+msgstr "APK indir !"
+
+msgid "Download the source archive !"
+msgstr "Kaynak arşiv indirin !"
+
+msgid "Downloading your package."
+msgstr "Paket indirme."
+
+msgid "Edit the account \"%s\""
+msgstr "\"%S\"hesabı Düzenle"
+
+msgid "Edit the plan"
+msgstr "Planı düzenlemek"
+
+msgid "Employee's name"
+msgstr "Çalışanın adı"
+
+msgid "Employee's password"
+msgstr "Çalışanın şifre"
+
+msgid "Enable this Subscription!"
+msgstr "Bu Abonelik etkinleştirin!"
+
+msgid "Error: unable to write Environment in config.php"
+msgstr "Hata: Çevre yazamıyor config.php içinde"
+
+msgid "Essayez gratuitement !"
+msgstr "Denemek bedava !"
+
+msgid "Expired on"
+msgstr "Süresi dolmuş hakkında"
+
+msgid "Extension not allowed, '%s' only"
+msgstr "İzin Verilmiyor uzantısı, '%s'"
+
+msgid "Extension not allowed, \\'%s\\' only"
+msgstr "Uzatma İzin Verilmiyor, \\'%\\' s"
+
+msgid "Feature is now %s"
+msgstr "Özelliği %s"
+
+msgid "Feature not found."
+msgstr "Bulunan özellik değil."
+
+msgid "Feature successfully added inside folder!"
+msgstr "Özelliği başarıyla klasörü içinde eklendi!"
+
+msgid "Feature successfuly imported."
+msgstr "Başarılı bir şekilde alınan özellik."
+
+msgid "Firebase is not well configured."
+msgstr "Firebase iyi yapılandırılmamış."
+
+msgid "Firewall Slack settings have been saved."
+msgstr "Güvenlik duvarı Gevşek ayarlar kaydedildi."
+
+msgid "Firstname:"
+msgstr "Ad:"
+
+msgid "Fixed"
+msgstr "Sabit"
+
+msgid "Folder not found!"
+msgstr "Klasörü bulunamadı!"
+
+msgid "Free"
+msgstr "Ücretsiz"
+
+msgid "Free delivery starting from:"
+msgstr "Başlatılmasını ücretsiz teslimat:"
+
+msgid "Free plan"
+msgstr "Ücretsiz planı"
+
+msgid "Free plans have no expiration date."
+msgstr "Ücretsiz planları hiçbir son kullanma tarihi vardır."
+
+msgid "Free trial period duration must be a numeric value."
+msgstr "Ücretsiz deneme süresi süresi sayısal bir değer olmalıdır."
+
+msgid "Galerie photos"
+msgstr "Galerie fotoğrafları"
+
+msgid "Gallery has been deleted!"
+msgstr "Galeri silindi!"
+
+msgid "Google Service file successfully saved!"
+msgstr "Google Hizmet dosya başarılı bir şekilde kaydedildi."
+
+msgid "Hide overlay"
+msgstr "Gizleme"
+
+msgid "IP:Port"
+msgstr "IP : PORT"
+
+msgid "If your credit card, or subscription expired, you can purchase a new one."
+msgstr "Eğer kredi kartı veya abonelik süresi doldu, yeni bir tane satın alabilirsiniz."
+
+msgid "Immobilier"
+msgstr "Immobilier"
+
+msgid "Import success."
+msgstr "Alma başarılı."
+
+msgid "Installed templates"
+msgstr "Yüklü şablonlar"
+
+msgid "Interface en Marque Blanche"
+msgstr "Arayüzü en Marque Blanche"
+
+msgid "Invalid QRCode parameters."
+msgstr "Geçersiz parametreler Oluşturmak."
+
+msgid "Invalid twitter handle/url!"
+msgstr "Geçersiz twitter/url işlemek!"
+
+msgid "Invoice"
+msgstr "Fatura"
+
+msgid "Invoice %s"
+msgstr "Fatura %s"
+
+msgid "Is Active?"
+msgstr "Aktif Mi?"
+
+msgid "JpegOptim:"
+msgstr "Resim Optimizasyon"
+
+msgid "Label:"
+msgstr "Etiket:"
+
+msgid "Lastname:"
+msgstr "Soyadı:"
+
+msgid "Let your users know what is locked."
+msgstr "Kilitli kullanıcılara bildirin."
+
+msgid "Linked to Subscription"
+msgstr "Abonelik bağlantılı"
+
+msgid "List of your taxes"
+msgstr "Vergi listesi"
+
+msgid "Listing produits"
+msgstr "Listeleme bakım ürünleri"
+
+msgid "Listing produits / tarifs"
+msgstr "Listeleme bakım ürünleri / Crystal. ASP"
+
+msgid "Loading your white label editor."
+msgstr "Beyaz etiket editörü yükleniyor."
+
+msgid "MM/dd/y"
+msgstr "aa/gg/yyyy"
+
+msgid "Main domain is required!"
+msgstr "Ana etki alanı gereklidir."
+
+msgid "Main domain is required, you can set it in <b>Settings > General</b>"
+msgstr "Ana etki alanı gereklidir, <b>Ayarlar > Genel</b>ayarlayabilirsiniz"
+
+msgid "Major update disclaimer, confirmation required!"
+msgstr "Gerekli büyük güncelleme tekzip, onay!"
+
+msgid "Manifest rebuilt with succes."
+msgstr "Apaçık bir başarı ile yeniden inşa edildi."
+
+msgid "Message is required."
+msgstr "Mesaj gereklidir."
+
+msgid "Message:"
+msgstr "Mesaj:"
+
+msgid "Migration done!"
+msgstr "Geçiş yapmış!"
+
+msgid "Minimum order:"
+msgstr "Minimum sipariş:"
+
+msgid "Missing categories."
+msgstr "Eksik kategoriler."
+
+msgid "Missing data."
+msgstr "Eksik veri."
+
+msgid "Missing design_id."
+msgstr "Eksik design_id."
+
+msgid "Missing form data!"
+msgstr "Eksik form verileri!"
+
+msgid "Missing parameter value_id."
+msgstr "Eksik parametre value_id."
+
+msgid "Missing parameters!"
+msgstr "Eksik parametre!"
+
+msgid "Missing parameters, value_id or message."
+msgstr "Eksik parametreleri, value_id veya mesaj."
+
+msgid "Missing params!"
+msgstr "Kayıp parametreler."
+
+msgid "Missing request."
+msgstr "Eksik istek."
+
+msgid "Missing token and/or status."
+msgstr "Token ve/veya durum eksik."
+
+msgid "Missing value_id!"
+msgstr "Eksik value_id!"
+
+msgid "Mode"
+msgstr "Mod"
+
+msgid "Mur de news"
+msgstr "Bahía de haber"
+
+msgid "Mur de news mobile"
+msgstr "Bahía de haber mobil"
+
+msgid "My Subscriptions"
+msgstr "Benim Abonelikleri"
+
+msgid "My subscriptions"
+msgstr "Benim abonelikleri"
+
+msgid "N.A."
+msgstr "N. A."
+
+msgid "Name is required to save the Application."
+msgstr "Adı Uygulama kaydetmek için gereklidir."
+
+msgid "National"
+msgstr "Ulusal"
+
+msgid "New sale"
+msgstr "Yeni satış"
+
+msgid "New subscription on your Platform %s!"
+msgstr "Platform %yeni abonelik!"
+
+msgid "New user Account"
+msgstr "Yeni kullanıcı Hesabı"
+
+msgid "Next payment date"
+msgstr "Bir sonraki ödeme tarihi"
+
+msgid "No build."
+msgstr "Hayır oluşturun."
+
+msgid "No credentials found!"
+msgstr "Kimlik bilgileri bulundu."
+
+msgid "No customers available."
+msgstr "Hayır müşteriler mevcut."
+
+msgid "No data sent."
+msgstr "Veri gönderdi."
+
+msgid "No file found."
+msgstr "Hiçbir dosya bulunamadı."
+
+msgid "No templates"
+msgstr "Hayır şablonları"
+
+msgid "No, go back!"
+msgstr "Hayır, geri dön!"
+
+msgid "Nobody is online."
+msgstr "Kimse çevrimiçi."
+
+msgid "Nos plateformes"
+msgstr "Nos plateformes"
+
+msgid "Not a Yahoo weather request, aborting."
+msgstr "Yahoo hava isteği iptal ediliyor."
+
+msgid "Notifications Push"
+msgstr "Bildirimleri İtin"
+
+msgid "Notifications Push en marque blanche"
+msgstr "Bildirimleri en marque blanche İtin"
+
+msgid "Nous supportons toutes les plateformes"
+msgstr "Nous supportons diğer les plateformes"
+
+msgid "Number of Applications"
+msgstr "Uygulama sayısı"
+
+msgid "Offline"
+msgstr "Çevrimdışı"
+
+msgid "Only cancelled"
+msgstr "Sadece iptal"
+
+msgid "OptiPNG:"
+msgstr "PNG Resim Optimizasyom"
+
+msgid "Option name:"
+msgstr "Seçenek adı:"
+
+msgid "Or purchase a new subscription"
+msgstr "Veya yeni bir abonelik satın alma"
+
+msgid "Order successfully saved saved."
+msgstr "Sipariş başarıyla kaydedildi kurtardı."
+
+msgid "Order:"
+msgstr "Sipariş:"
+
+msgid "Overlay color"
+msgstr "Kaplama rengi"
+
+msgid "Owner"
+msgstr "Sahibi"
+
+msgid "Owner Cancellation"
+msgstr "Sahibi İptal"
+
+msgid "PEM Request generally takes 1 minute to complete."
+msgstr "PEM İsteği genellikle tamamlamak için 1 dakika sürer."
+
+msgid "PHP SQLite3:"
+msgstr "PHP SQL Lite3"
+
+msgid "PNGQuant:"
+msgstr "PNG Quant"
+
+msgid "PROTECTED"
+msgstr "KORUMALI"
+
+msgid "Partially saved."
+msgstr "Kısmen kurtardı."
+
+msgid "Password:"
+msgstr "Şifre:"
+
+msgid "PayPal is not configured in your Backoffice, recurrencies will not work correctly."
+msgstr "PayPal idari büro içinde yapılandırılmamış, recurrencies düzgün çalışmaz."
+
+msgid "PayPal subscription is %s."
+msgstr "PayPal abonelik %s."
+
+msgid "Payment Information:"
+msgstr "Ödeme Bilgileri:"
+
+msgid "Payments are verified through their respective APIs."
+msgstr "Ödemeler ilgili API aracılığıyla doğrulanır."
+
+msgid "Percentage"
+msgstr "Yüzde"
+
+msgid "Please correct the following errors <br>"
+msgstr "Lütfen aşağıdaki hataları <br>doğru"
+
+msgid "Please enter a correct version for the %s app"
+msgstr "Lütfen %için doğru bir sürümünü girin app s"
+
+msgid "Please enter a valid date."
+msgstr "Geçerli bir tarih girin."
+
+msgid "Please fill iTunes Connect Credentials."
+msgstr "Lütfen doldurun iTunes Kimlik bilgilerini Bağlayın."
+
+msgid "Please verify the"
+msgstr "Lütfen doğrulayın"
+
+msgid "Please, enter a password."
+msgstr "Lütfen bir parola girin."
+
+msgid "Plesk from 12.0 to 17.0"
+msgstr "12.0 gelen 12.8 Plesk"
+
+msgid "Plus d'infos"
+msgstr "Artı d'infos"
+
+msgid "Postal code or city:"
+msgstr "Posta kodu ya da şehir:"
+
+msgid "Previous and/or Expired subscriptions"
+msgstr "Önceki ve/veya Süresi dolan abonelikleri"
+
+msgid "Previous version"
+msgstr "Önceki sürüm"
+
+msgid "Price:"
+msgstr "Fiyatı:"
+
+msgid "Product has been deleted."
+msgstr "Ürün silindi."
+
+msgid "Product name:"
+msgstr "Ürün Adı:"
+
+msgid "Product not found!"
+msgstr "Ürün bulunamadı!"
+
+msgid "Promo not found"
+msgstr "Promo bulunamadı"
+
+msgid "Promo successfully deleted"
+msgstr "Promo başarıyla silindi"
+
+msgid "Promotion successfully deleted."
+msgstr "Promosyon başarıyla silindi."
+
+msgid "Provider"
+msgstr "Sağlayıcı"
+
+msgid "Purchase a new subscription!"
+msgstr "Yeni bir abonelik satın almak!"
+
+msgid "Query successfully deleted."
+msgstr "Sorgu başarıyla silindi."
+
+msgid "Question"
+msgstr "Soru"
+
+msgid "RSS application mobile"
+msgstr "RSS uygulaması mobil"
+
+msgid "RSS/Atom"
+msgstr "RSS/Atom"
+
+msgid "Rate"
+msgstr "Oranı"
+
+msgid "Reason:"
+msgstr "Sebep:"
+
+msgid "Recipient email:"
+msgstr "Alıcının e-posta:"
+
+msgid "Recurrent fee"
+msgstr "Tekrarlayan ücreti"
+
+msgid "Region"
+msgstr "Bölge"
+
+msgid "Regular fee"
+msgstr "Normal ücret"
+
+msgid "Removing CRON Scheduler generator lock files."
+msgstr "CRON Zamanlayıcı jeneratör kilidi dosyaları kaldırma."
+
+msgid "Removing CRON Scheduler source lock files."
+msgstr "CRON Zamanlayıcı kaynak lock dosyaları kaldırma."
+
+msgid "Removing domain %s, domain in dot notation is not supported."
+msgstr "Etki alanı %s kaldırılıyor, etki nokta gösterimde desteklenmiyor."
+
+msgid "Render Test"
+msgstr "Render Test"
+
+msgid "Request a new PEM certificate."
+msgstr "Yeni PEM sertifika isteme."
+
+msgid "Reset to default Privacy Policy GDPR."
+msgstr "Gizlilik Politikası GDPR varsayılan Sıfırla."
+
+msgid "Resize your picture:"
+msgstr "Resim yeniden boyutlandırma:"
+
+msgid "Safe in landscape"
+msgstr "Manzara güvenli"
+
+msgid "Safe in portrait"
+msgstr "Portre güvenli"
+
+msgid "Safe zone overlay"
+msgstr "Güvenli bölge yerleşimi"
+
+msgid "Scan this QR Code:"
+msgstr "Bu tarama QR Kodu:"
+
+msgid "Scratchcard"
+msgstr "Kazı-Kazan"
+
+msgid "Secret Key:"
+msgstr "Gizli Anahtar:"
+
+msgid "Seems the appId is empty or invalid, aborting!"
+msgstr "Görünüyor kimliği boş ya da geçersiz, iptal ediliyor!"
+
+msgid "Seems we could delete unwanted files, aborting!"
+msgstr "İstenmeyen dosyaları silmek, iptal edebiliriz gibi görünüyor."
+
+msgid "Select a connection type:"
+msgstr "Bir bağlantı türü seçin:"
+
+msgid "Select one of the available subscriptions with remaining slots"
+msgstr "Kalan yuvaları ile mevcut abonelikleri birini seçin"
+
+msgid "Send your favicon"
+msgstr "Favicon gönder"
+
+msgid "Send your logo"
+msgstr "Logo gönder"
+
+msgid "Service status / load"
+msgstr "Hizmet durumu / yük"
+
+msgid "Setting successfully saved."
+msgstr "Ayar başarılı bir şekilde kaydedildi."
+
+msgid "Show applications removed from the editor."
+msgstr "Editör kaldırıldı uygulamaları göster."
+
+msgid "Show child subscriptions"
+msgstr "Çocuk abonelikleri göster"
+
+msgid "Signature:"
+msgstr "İmza:"
+
+msgid "Snacking / Restaurants"
+msgstr "Atıştırma / Restoranlar"
+
+msgid "Snacking<br />Restaurants"
+msgstr "Atıştırma<br />Restoran"
+
+msgid "Social Gaming"
+msgstr "Sosyal Oyun"
+
+msgid "Something went wrong while restoring files, process aborted!"
+msgstr "Geri yükleme dosyaları, iptal işlemi sırasında bir şeyler ters gitti!"
+
+msgid "Sorry but an error occurred while duplicating your application."
+msgstr "Uygulamanız çoğaltarak ise özür dilerim ama bir hata oluştu."
+
+msgid "Source type:"
+msgstr "Kaynak türü:"
+
+msgid "Sources Generation"
+msgstr "Kaynakları Üretimi"
+
+msgid "Sources are successfully restored."
+msgstr "Kaynakları başarıyla yüklenir."
+
+msgid "Subscription date"
+msgstr "Abonelik tarihi"
+
+msgid "Subscription updated."
+msgstr "Abonelik güncellendi."
+
+msgid "Subscription:"
+msgstr "Abonelik:"
+
+msgid "Successfully saved default project."
+msgstr "Varsayılan proje başarıyla kurtardı."
+
+msgid "Tax name:"
+msgstr "Vergi adı:"
+
+msgid "Tax rate:"
+msgstr "Vergi oranı:"
+
+msgid "Tax:"
+msgstr "Vergi:"
+
+msgid "Teams successfully refreshed!"
+msgstr "Takım başarılı bir şekilde yenilendi."
+
+msgid "Telephone"
+msgstr "Telefon"
+
+msgid "Temp cleared."
+msgstr "Temp temizledi."
+
+msgid "Test App"
+msgstr "Test Uygulaması"
+
+msgid "Text Color"
+msgstr "Metin rengi"
+
+msgid "Thanks for working with us!"
+msgstr "Bizimle çalışma için teşekkürler!"
+
+msgid "Thanks for your report."
+msgstr "Raporunuz için teşekkürler."
+
+msgid "Thanks for your subscription."
+msgstr "Abonelik için teşekkürler."
+
+msgid "The APK for the application %s has been generated !"
+msgstr "Bu MUAYENE uygulama %için oluşturuldu."
+
+msgid "The APK generation failed !"
+msgstr "MUAYENE nesil başarısız oldu !"
+
+msgid "The APK generation is done !"
+msgstr "MUAYENE nesil bitti !"
+
+msgid "The APK has been generated!"
+msgstr "Bu MUAYENE oluşturuldu."
+
+msgid "The CNAME for the URL \"%s\" is not properly set"
+msgstr "%S \"URL\" için CNAME düzgün ayarlanmamış"
+
+msgid "The CNAME for the domain \"%s\" is not properly set"
+msgstr "%S etki alanı \"için CNAME düzgün ayarlanmamış"
+
+msgid "The Source code for the application %s has been generated !"
+msgstr "Kaynak kod uygulama %için oluşturuldu."
+
+msgid "The Source code generation failed !"
+msgstr "Kaynak kod oluşturma işlemi başarısız oldu !"
+
+msgid "The categories for line %s couldn't be created : no parent category found."
+msgstr "Satır %s kategoriler oluşturulamadı : üst kategori bulundu."
+
+msgid "The categories for line %s couldn't be created : no root category found."
+msgstr "Satır %s kategoriler oluşturulamadı : root kategori bulundu."
+
+msgid "The categories for line %s couldn't be read."
+msgstr "Satır %s için kategoriler okuma olamazdı."
+
+msgid "The data has been saved successfully"
+msgstr "Veri başarıyla kaydedildi"
+
+msgid "The entered package name is incorrect, it should be like: com.nwicodecms.app"
+msgstr "Girilen paket adı yanlıştır, com gibi olmalı.nwicodecms.app"
+
+msgid "The feature you are trying to edit doesn't exists!"
+msgstr "Düzenlemeye çalıştığınız özellik yok!"
+
+msgid "The formats for line %s couldn't be read."
+msgstr "Satır %s biçimleri okuma olamazdı."
+
+msgid "The given template does not exists."
+msgstr "Belirli bir şablon yok."
+
+msgid "The local APK generator requires %s"
+msgstr "Yerel kuru temizleme jeneratör %gerekir s"
+
+msgid "The options for line %s couldn't be read."
+msgstr "Satır %s için seçenekler okuma olamazdı."
+
+msgid "The options for line %s couldn't be saved."
+msgstr "Satır %s için seçenekler kaydedilmiş olamaz."
+
+msgid "The overlay helps you check if important content and/or text on your homepage image is inside the safe boundaries."
+msgstr "Kaplamayı eğer ana görüntü üzerinde önemli içerik ve/veya metin güvenli sınırlar içinde olup olmadığını kontrol eder."
+
+msgid "The requested APK generation failed: %s"
+msgstr "İstenen MUAYENE nesil başarısız oldu: %s"
+
+msgid "The requested APK/Source generation failed !"
+msgstr "İstenen MUAYENE/Kaynak oluşturma işlemi başarısız oldu !"
+
+msgid "The search request is empty."
+msgstr "Arama isteği boş."
+
+msgid "The selected subscription is not valid."
+msgstr "Seçilen abonelik geçerli değil."
+
+msgid "The source generation is done !"
+msgstr "Kaynak üretimi yapılır ."
+
+msgid "The subscription is cancelled!"
+msgstr "Aboneliği iptal edilir."
+
+msgid "The subscription is now active."
+msgstr "Abonelik şimdi etkin."
+
+msgid "The subscription is now inactive."
+msgstr "Abonelik şimdi etkin değil."
+
+msgid "The user doesn't exist."
+msgstr "Kullanıcı yok."
+
+msgid "There is not corresponding release to restore from, process aborted!"
+msgstr "Açıklaması, iptal işlemi geri yüklemek için, ilgili değildir."
+
+msgid "This Application doesn't exists, aborting!"
+msgstr "Bu Uygulama öyle bir şey yok, iptal ediliyor!"
+
+msgid "This Application has some invoices associated, you can not delete it!"
+msgstr "Bu Uygulama ile ilgili bazı faturalar var, silemezsiniz!"
+
+msgid "This action is used to migrate all current active session into a Redis server instance, use this only with care if you want to migrate from MySQL session to Redis session storage."
+msgstr "Bu eylem, Redis sunucu örneği tüm geçerli etkin oturum geçirmek için, sadece dikkatli kullanın oturum MySQL oturum depolama Redis geçirmek istiyorsanız kullanılır."
+
+msgid "This admin can download application sources code."
+msgstr "Bu yönetim uygulama kaynaklar kodu indirebilirsiniz."
+
+msgid "This application does not belong to you."
+msgstr "Bu uygulama sana ait değil."
+
+msgid "This block type doesn't exists."
+msgstr "Türü değil bu bloğu var."
+
+msgid "This feature is not ready yet. Please try again later."
+msgstr "Bu özellik henüz hazır değil. Lütfen daha sonra tekrar deneyin."
+
+msgid "This field is required."
+msgstr "Bu alan gereklidir."
+
+msgid "This icon is not allowed!"
+msgstr "Bu simge yasak!"
+
+msgid "This is a child subscription, it is tied to a parent with 2 or more application slots."
+msgstr "Bu çocuk bir abonelik, bir ebeveyn için 2 veya daha fazla uygulama yuvaları ile bağlıdır."
+
+msgid "This is a demo version, these changes can't be saved."
+msgstr "Bu bir demo versiyonu, bu değişiklikler kaydedilemedi."
+
+msgid "This is a demo version, you are not allowed to change the default role."
+msgstr "Bu bir demo sürümü, varsayılan rolünü değiştirmek için izin verilmez."
+
+msgid "This is a demo version, you can't download any source codes / APKs"
+msgstr "Bu bir demo sürümü, herhangi bir kaynak kodları indirebilirsiniz / APKs"
+
+msgid "This is a demo version, you cannot deactive an user."
+msgstr "Bu bir demo sürümü, bir kullanıcı deactive olamaz."
+
+msgid "This is a demo version, you cannot save these settings."
+msgstr "Bu bir demo versiyonu, bu ayarlar kaydedilemiyor."
+
+msgid "This is probably %s"
+msgstr "Bu muhtemelen %s"
+
+msgid "This method is deprecated, please update!"
+msgstr "Bu yöntem kaldırılmış, güncelleme lütfen!"
+
+msgid "This subscription does not exists!"
+msgstr "Bu abonelik mevcut değil."
+
+msgid "This subscription doesn't exists!"
+msgstr "Bu abonelik yok!"
+
+msgid "This subscription is cancelled, and will expire by <b>%s</b>."
+msgstr "Bu aboneliği iptal edilir ve <b>%s</b>ile sona erecek."
+
+msgid "This template installer is not supported anymore, please refer to the documentation to update your installer."
+msgstr "Bu şablon yükleyici artık, belgelere yükleyici güncelleme için başvurun desteklenmiyor."
+
+msgid "This user does not exist."
+msgstr "Bu kullanıcı yok."
+
+msgid "Tip: %s"
+msgstr "İpucu: %s"
+
+msgid "Title:"
+msgstr "Başlık:"
+
+msgid "Touch To Call"
+msgstr "Aramak İçin Dokunun"
+
+msgid "Translation in progress ..."
+msgstr "İlerleme çeviri ..."
+
+msgid "UPGRADE NOW!"
+msgstr "ŞİMDİ YÜKSELT!"
+
+msgid "Unable to cancel 2Checkout subscription, tray again later."
+msgstr "Daha sonra tekrar 2Checkout abonelik, tepsi iptal edilemiyor."
+
+msgid "Unable to cancel PayPal subscription, tray again later."
+msgstr "Daha sonra tekrar PayPal abonelik, tepsi iptal edilemiyor."
+
+msgid "Unable to fetch your application background images."
+msgstr "Uygulama arka plan görüntüleri getirilemedi."
+
+msgid "Unable to find either folder or feature!"
+msgstr "Bir klasör veya özellik bulunamadı!"
+
+msgid "Unable to find option."
+msgstr "Seçenek bulamadı."
+
+msgid "Unable to find the corresponding build."
+msgstr "Yapı karşılık bulamadı."
+
+msgid "Unable to find the order id!"
+msgstr "Sipariş kimliği bulunamadı!"
+
+msgid "Unable to load CMS Blocks without value_id."
+msgstr "Value_id CMS Blokları yüklenemiyor."
+
+msgid "Unable to parse certificate."
+msgstr "Sertifika ayrıştırılamıyor."
+
+msgid "Unable to retrieve 2Checkout subscription, tray again later."
+msgstr "Daha sonra tekrar 2Checkout abonelik, tepsi alınamıyor."
+
+msgid "Unable to update a user from here."
+msgstr "Buradan bir kullanıcı güncelleme yapılamıyor."
+
+msgid "Unauthorized access to feature."
+msgstr "Özellik yetkisiz erişim."
+
+msgid "Unified homepage"
+msgstr "Birleşik Anasayfa"
+
+msgid "Unified splashscreen"
+msgstr "Birleşik karşılama resmi"
+
+msgid "Unknown action for this module."
+msgstr "Bu modül için bilinmeyen eylem."
+
+msgid "Unkown error!"
+msgstr "Bilinmeyen hata!"
+
+msgid "Until %s"
+msgstr "%Kadar s"
+
+msgid "Upgrade required"
+msgstr "Gerekli yükseltme"
+
+msgid "Upload your %s file below."
+msgstr "Aşağıda dosya %s yükleyin."
+
+msgid "User ID:"
+msgstr "Kullanıcı KİMLİĞİ:"
+
+msgid "User cancelled his Subscription!"
+msgstr "Kullanıcı aboneliğini iptal edildi!"
+
+msgid "User email:"
+msgstr "Kullanıcının e-posta:"
+
+msgid "User name"
+msgstr "Kullanıcı adı"
+
+msgid "User:"
+msgstr "Kullanıcı:"
+
+msgid "Username:"
+msgstr "Kullanıcı adı:"
+
+msgid "View the Application"
+msgstr "Uygulama görünümü"
+
+msgid "We are sorry but our Wordpress plugin hasn't been detected on your website. Please be sure it is correctly installed and activated."
+msgstr "Üzgünüz ama Wordpress eklenti bizim web sitenizde tespit edilmedi. Lütfen emin olun düzgün yüklenmiş ve etkinleştirilmiş."
+
+msgid "We are sorry but our Wordpress plugin hasn\\'t been detected on your website. Please be sure it is correctly installed and activated."
+msgstr "Üzgünüz ama bizim Wordpress eklentisi web sitenizde tespit edildi\\'t değil. Lütfen emin olun düzgün yüklenmiş ve etkinleştirilmiş."
+
+msgid "We are sorry but this nickname is already used."
+msgstr "Üzgünüz ama bu takma ad zaten kullanılıyor."
+
+msgid "We can't delete the only application from your installation."
+msgstr "Yükleme sadece uygulamayı silebiliriz."
+
+msgid "We were unable to determine your %s version."
+msgstr "%S sürümünü belirlemek için koyamadık."
+
+msgid "We were unable to find your last payment for the subscription of the Application <b>%s</b>"
+msgstr "Uygulama <b>%s</b>abonelik için son ödeme bulamadık"
+
+msgid "Website:"
+msgstr "Web sitesi:"
+
+msgid "Welcome on our Platform %s"
+msgstr "Platform %hoş geldiniz bizim s"
+
+msgid "White"
+msgstr "Beyaz"
+
+msgid "Xcode 9.2"
+msgstr "9.2 boru"
+
+msgid "Yes, Delete!"
+msgstr "Evet, Sil!"
+
+msgid "Yes, Proceed to update!"
+msgstr "Evet, güncelleme ile Devam edin!"
+
+msgid "You are about to cancel this subscription, the payments will be stopped, and the application will be disabled!<br />You can enter a customer message below to inform the Application owner!<br /><br />"
+msgstr "Bu aboneliği iptal etmek üzeresiniz, ödemeler durdurulacak ve uygulama<devre dışı bırakılacak.!<Başvuru sahibi bilgilendirmek için aşağıda müşteri bir mesaj girebilirsiniz br /> br /><br />"
+
+msgid "You are about to update to version %s, this version introduces breaking changes in the platform,"
+msgstr "Sürüm %s için güncelleme üzere, bu sürüm platform son değişiklikleri tanıtır,"
+
+msgid "You are going to love it!<br />Thanks to our effective features, you will be able to create great mobile apps in your name, within minutes."
+msgstr "<Bayılacaksınız!etkili özelliklerimiz br />Teşekkürler, senin adına büyük mobil uygulamalar oluşturmak için, birkaç dakika içinde mümkün olacaktır."
+
+msgid "You are not allowed to access this page"
+msgstr "Bu sayfaya erişmek için izin verilmez"
+
+msgid "You are not allowed to cancel child subscriptions."
+msgstr "Çocuk abonelikleri iptal etmek için izin verilmez."
+
+msgid "You are not allowed to cancel free subscriptions."
+msgstr "Ücretsiz abonelikleri iptal etmek için izin verilmez."
+
+msgid "You are not allowed to cancel offline/paid subscriptions."
+msgstr "Çevrimdışı/ücretli aboneliği iptal etmek için izin verilmez."
+
+msgid "You are not allowed to cancel online/paid subscriptions."
+msgstr "Online/ücretli aboneliği iptal etmek için izin verilmez."
+
+msgid "You are not allowed to delete applications."
+msgstr "Uygulamaları silmek için izin verilmez."
+
+msgid "You can activate <b>%s</b> more App%s"
+msgstr "S <b>%s</b> daha fazla Uygulama%etkinleştirebilirsiniz"
+
+msgid "You can contact your Administrator to get more informations."
+msgstr "Daha fazla bilgi almak için Yöneticinize başvurun."
+
+msgid "You can disable a template globally!"
+msgstr "Genel bir şablon devre dışı bırakabilirsiniz."
+
+msgid "You can only edit offline subscriptions!"
+msgstr "Sadece çevrimdışı abonelikleri düzenleyebilirsiniz."
+
+msgid "You can publish <b>up to %s Apps</b>"
+msgstr "%<B>yayınlayabilirsin</b>Apps s"
+
+msgid "You can't activate an online subscription!"
+msgstr "Çevrimiçi bir abonelik etkinleştirebilirsiniz."
+
+msgid "You can't assign a role to this child role, this will break the hierarchy!"
+msgstr "Bu çocuk rol için bir rol atayabilirsiniz, bu hiyerarşi kıracak!"
+
+msgid "You can't deactivate an online subscription!"
+msgstr "Çevrimiçi bir abonelik devre dışı bırakabilirsiniz."
+
+msgid "You can't go back to Angular."
+msgstr "Geri Açısal gidebilirsiniz."
+
+msgid "You can't go back with Angular."
+msgstr "Geri Eğik ile gidebilirsiniz."
+
+msgid "You cannot add a Folder feature inside a folder!"
+msgstr "Bir klasör içinde bir Klasör özelliği eklenemiyor."
+
+msgid "You cannot change Firewall settings, it's a demo version."
+msgstr "Güvenlik Duvarı ayarlarını değiştiremezsiniz, bir demo versiyonu."
+
+msgid "You cannot change translation, it's a demo version."
+msgstr "Çeviri değiştiremezsiniz, bir demo versiyonu."
+
+msgid "You don't have any plans yet"
+msgstr "Henüz bir planın yok mu"
+
+msgid "You don't have created any taxes yet"
+msgstr "Henüz herhangi bir vergi oluşturulan zorunda değilsiniz"
+
+msgid "You have exceeded the number of attempts to validate points.<br />Your card is locked for 24h"
+msgstr "<Noktalarını doğrulamak için deneme sayısını aştınız.br />kart kilitli için 24 saat"
+
+msgid "You have no subscription with free slots, please proceed to a new purchase."
+msgstr "Ücretsiz yuvası ile herhangi bir abonelik var, yeni bir satın almaya devam edin."
+
+msgid "You have no subscription."
+msgstr "Hiçbir abonelik."
+
+msgid "You have no users."
+msgstr "Hiçbir kullanıcı var."
+
+msgid "You have no whitelabel yet."
+msgstr "Henüz whitelabel var."
+
+msgid "You have received a publication request:"
+msgstr "Yayın bir istek aldık:"
+
+msgid "You manually handle the payments via check, cash, etc... and activations/deactivations."
+msgstr "El Çek, nakit, vb ödemelerde işlemek... ve/deactivations aktivasyonu."
+
+msgid "You must be connected to create a post!"
+msgstr "Bir yazı oluşturmak için bağlı olmanız gerekir."
+
+msgid "You must select a subscription!"
+msgstr "Bir abonelik seçmeniz gerekir."
+
+msgid "You must select an existing subscription!"
+msgstr "Varolan bir abonelik seçmeniz gerekir."
+
+msgid "You must set a Google Maps API Key in <b>Settings > Advanced</b> in order to use this feature."
+msgstr "Bu özelliği kullanmak için <b>Ayarlar > Gelişmiş</b> Google Haritalar API Anahtarı ayarlamanız gerekir."
+
+msgid "You must upgrade Java to 1.8"
+msgstr "1.8 Java yükseltmelisiniz"
+
+msgid "You will disable the current Application subscription!<br />You can enter a customer message below to inform the Application owner!<br /><br />"
+msgstr "Geçerli Uygulama abonelik devre dışı bırak<!!<Başvuru sahibi bilgilendirmek için aşağıda müşteri bir mesaj girebilirsiniz br /> br /><br />"
+
+msgid "You will enable the current Application subscription!<br />You can enter a customer message below to inform the Application owner!<br /><br />"
+msgstr "Geçerli Uygulama abonelik etkinleştir<!!<Başvuru sahibi bilgilendirmek için aşağıda müşteri bir mesaj girebilirsiniz br /> br /><br />"
+
+msgid "Your %s version is %s."
+msgstr "%Sürüm %s s."
+
+msgid "Your APK is being generated. Please come back in a few minutes."
+msgstr "MUAYENE sizin oluşturuluyor. Birkaç dakika sonra gelin lütfen."
+
+msgid "Your PHP version %s is not supported, PHP versions from 5.6 to 7.0 are supported."
+msgstr "S PHP sürüm %desteklenmiyor, 5.6 7.0 PHP sürümlerinde desteklenir."
+
+msgid "Your account doesn't exists on editor side. Please create it before using tour edition."
+msgstr "Hesabınız editörü tarafında yok. Lütfen tur edition kullanmadan önce oluşturun."
+
+msgid "Your application has been successfully added to your subscription!"
+msgstr "Uygulama başarıyla aboneliğinizi eklendi!"
+
+msgid "Your subscription expired!"
+msgstr "Aboneliğinizin süresi doldu!"
+
+msgid "Your subscription was automatically cancelled."
+msgstr "Abonelik otomatik olarak iptal edilmiştir."
+
+msgid "Your subscription was manually cancelled."
+msgstr "Abonelik el ile iptal edildi."
+
+msgid "Zip Code:"
+msgstr "Posta Kodu:"
+
+msgid "Zone overlay"
+msgstr "Bölge yerleşimi"
+
+msgid "before updating we strongly advise you to read the release note and the following document."
+msgstr "güncellemeden önce güçlü yayın Not ve aşağıdaki belgeyi okumanızı tavsiye ederiz."
+
+msgid "dismiss"
+msgstr "Görevden"
+
+msgid "home/features/admin_marque_blanche.png"
+msgstr "home//admin_marque_blanche özellikleri.png"
+
+msgid "home/features/appel_en_un_clique.png"
+msgstr "home//appel_en_un_clique özellikleri.png"
+
+msgid "home/features/geolocalisation.png"
+msgstr "home//geolocalisation özellikleri.png"
+
+msgid "home/features/listing_produits.png"
+msgstr "home//listing_produits özellikleri.png"
+
+msgid "iOS Descriptions saved!"
+msgstr "iOS Açıklamaları kurtardı!"
+
+msgid "iPhone X:"
+msgstr "iPhone X:"
+
+msgid "password"
+msgstr "şifre"
+
+msgid "you know it!"
+msgstr "bunu sen de biliyorsun!"

@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-01-21T06:47:02+03:00\n"
+"PO-Revision-Date: 2019-01-21T06:47:02+03:00\n"
+"Language: \n"
+
+msgid "<strong>%s</strong> must be a numerical value<br />"
+msgstr "<strong>%s</strong> sayısal değer<br />olmalı"
+
+msgid "<strong>%s</strong> must be a valid date (e.g. dd/mm/yyyy)<br />"
+msgstr "<strong>%s</strong> geçerli bir tarih olmalıdır (örn. GG/AA/yyyy)<br />"
+
+msgid "<strong>%s</strong> must be a valid email address<br />"
+msgstr "<strong>%s</strong> geçerli bir e-posta adresi<br />olmalı"
+
+msgid "<strong>%s</strong> must be filled<br />"
+msgstr "<strong>%s</strong><br />doldurulmalıdır"
+
+msgid "Activated"
+msgstr "Aktif"
+
+msgid "Add a field"
+msgstr "Alan ekleme"
+
+msgid "Add a section"
+msgstr "Bölüm Ekle"
+
+msgid "Add an option"
+msgstr "Bir seçenek ekleyin"
+
+msgid "CREATE A NEW FIELD"
+msgstr "Yeni bir alan oluşturun"
+
+msgid "Checkbox"
+msgstr "Onay kutusu"
+
+msgid "Choose a field type"
+msgstr "Alan türü seçin"
+
+msgid "Choose a field type:"
+msgstr "Alan türü seçin:"
+
+msgid "Civility"
+msgstr "Nezaket"
+
+msgid "Create a new field"
+msgstr "Yeni bir alan oluşturun"
+
+msgid "Created at"
+msgstr "Oluşturulan"
+
+msgid "Date/Hour"
+msgstr "Tarih/Saat"
+
+msgid "Download CSV"
+msgstr "İndirme CSV"
+
+msgid "Drop down"
+msgstr "Düşür"
+
+msgid "Email"
+msgstr "E-posta"
+
+msgid "Field name"
+msgstr "Alan adı"
+
+msgid "Field name:"
+msgstr "Alan adı:"
+
+msgid "Form data will be sent to this email. Until you fill out this field, your form won't be displayed on client side"
+msgstr "Form veri bu e-posta gönderilecektir. Bu alanı doldurmak kadar, form istemci tarafında görüntülenmez"
+
+msgid "Form data will be sent to this email. Until you fill out this field, your form won't be displayed on client side."
+msgstr "Form veri bu e-posta gönderilecektir. Bu alanı doldurmak kadar, form istemci tarafında görüntülenmez."
+
+msgid "Geolocation"
+msgstr "Coğrafi konum"
+
+msgid "Hello,"
+msgstr "Merhaba,"
+
+msgid "INFORMATION"
+msgstr "BİLGİ"
+
+msgid "Login As"
+msgstr "Giriş Olarak"
+
+msgid "MANAGE FIELDS"
+msgstr "Yönet Alanlar"
+
+msgid "Manage Profile Fields"
+msgstr "Profil Alanları Yönetmek"
+
+msgid "Manage Profiles"
+msgstr "Profilleri Yönet"
+
+msgid "Manage fields"
+msgstr "Yönet Alanlar"
+
+msgid "Manage options"
+msgstr "Seçenekler Yönet"
+
+msgid "Manage options:"
+msgstr "Seçenekler Yönet:"
+
+msgid "Multiline text"
+msgstr "Çok Satırlı Metin"
+
+msgid "No user for now"
+msgstr "Şimdilik hiçbir kullanıcı"
+
+msgid "Number"
+msgstr "Numarası"
+
+msgid "OK"
+msgstr "Tamam"
+
+msgid "Option"
+msgstr "Seçenek"
+
+msgid "Page name"
+msgstr "Sayfa adı"
+
+msgid "Radio"
+msgstr "Radyo"
+
+msgid "Recipient email"
+msgstr "Alıcı e-posta"
+
+msgid "Recipient email:"
+msgstr "Alıcının e-posta:"
+
+msgid "Switch View"
+msgstr "Görünüm Anahtarı"
+
+msgid "Text"
+msgstr "Metin"
+
+msgid "The data has been saved successfully"
+msgstr "Veri başarıyla kaydedildi"
+
+msgid "This field is required"
+msgstr "Bu alan gereklidir"
+
+msgid "Toggel Previewer"
+msgstr "Toggel Görüntüle"
+
+msgid "User"
+msgstr "Kullanıcı"
+
+msgid "You have to choose a field type."
+msgstr "Alan türü seçin."
+
+msgid "Your App user's new profile"
+msgstr "Uygulama, kullanıcının yeni bir profil"
+
+msgid "Your App user\\'s new profile"
+msgstr "App kullanıcı'ın yeni profil"
+
+msgid "Your new user profile has been completed"
+msgstr "Yeni kullanıcı profiline tamamlandı"
+
+msgid "Your new user profile has been completed."
+msgstr "Yeni kullanıcı profiline tamamlandı."

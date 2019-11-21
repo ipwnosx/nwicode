@@ -1,0 +1,252 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T20:32:19+03:00\n"
+"PO-Revision-Date: 2019-06-05T20:32:19+03:00\n"
+"Language: \n"
+
+msgid "A specific date and time"
+msgstr "Belirli bir tarih ve saat"
+
+msgid "ADD NEW FUNNEL"
+msgstr "YENİ HUNİ EKLE"
+
+msgid "ASAP"
+msgstr "En kısa zamanda"
+
+msgid "Active"
+msgstr "Aktif"
+
+msgid "Add First Push"
+msgstr "İlk İtme Ekleyin"
+
+msgid "Add New Funnel"
+msgstr "Yeni Huni Ekle"
+
+msgid "All the date related to the funnel & push will be deleted. Are you sure?"
+msgstr "Huni & bas ile ilgili tüm tarihten silinir. Emin misin?"
+
+msgid "All the date related to the push will be deleted. Are you sure?"
+msgstr "İtme ile ilgili tüm tarihten silinir. Emin misin?"
+
+msgid "An error occurred during process. Please try again later."
+msgstr "Bir hata işlemi sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while deleting the funnel. Please try again later."
+msgstr "Huni silinirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while deleting the push. Please try again later."
+msgstr "Bas silinirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while saving. Please try again later."
+msgstr "Kaydedilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "Are you sure you want to remove the picture?"
+msgstr "Resmi silmek istediğinizden emin misiniz?"
+
+msgid "As Soon As Possible"
+msgstr "En Kısa Sürede"
+
+msgid "Choose the features to open:"
+msgstr "Açmak için gerekli özellikleri seçin:"
+
+msgid "Cron does not executed successfully."
+msgstr "Cron başarıyla yürütüldü değil."
+
+msgid "Cron executed successfully."
+msgstr "Cron başarıyla yürütüldü."
+
+msgid "Custom URL:"
+msgstr "Özel URL:"
+
+msgid "Custom URL?"
+msgstr "Özel URL?"
+
+msgid "Date"
+msgstr "Tarih"
+
+msgid "Days"
+msgstr "Gün"
+
+msgid "Delay"
+msgstr "Gecikme"
+
+msgid "Description"
+msgstr "Açıklama"
+
+msgid "Description cannot be empty."
+msgstr "Açıklama boş olamaz."
+
+msgid "Description successfully saved."
+msgstr "Açıklama başarılı bir şekilde kaydedildi."
+
+msgid "Description:"
+msgstr "Açıklama:"
+
+msgid "Disabled"
+msgstr "devre dışı"
+
+msgid "Feature"
+msgstr "Özellik"
+
+msgid "First coupon used"
+msgstr "İlk kupon kullandım"
+
+msgid "First login inside the app"
+msgstr "Uygulama içinde ilk giriş"
+
+msgid "First loyalty point used"
+msgstr "İlk sadakat noktası"
+
+msgid "First order placed"
+msgstr "İlk sipariş"
+
+msgid "Funnel successfully deleted."
+msgstr "Başarıyla silindi huni."
+
+msgid "Funnel successfully saved."
+msgstr "Huni başarılı bir şekilde kaydedildi."
+
+msgid "Funnel title cannot be empty."
+msgstr "Huni adı boş olamaz."
+
+msgid "Help URL cannot be empty."
+msgstr "Yardım URL boş olamaz."
+
+msgid "Help URL is not valid."
+msgstr "Yardım URL geçerli değil."
+
+msgid "Help URL updated successfully."
+msgstr "URL başarıyla güncelleştirilmiş yardım."
+
+msgid "Hours"
+msgstr "Saat"
+
+msgid "How Many?"
+msgstr "Kaç Tane?"
+
+msgid "Info successfully saved."
+msgstr "Bilgi başarılı bir şekilde kaydedildi."
+
+msgid "Invalid Access."
+msgstr "Geçersiz Erişim."
+
+msgid "Invalid tokens"
+msgstr "Geçersiz belirteçleri"
+
+msgid "License key cannot be empty."
+msgstr "Lisans anahtarı boş olamaz."
+
+msgid "License key is invalid."
+msgstr "Lisans anahtarı geçersiz."
+
+msgid "Message:"
+msgstr "Mesaj:"
+
+msgid "Module is active."
+msgstr "Modül aktif."
+
+msgid "Module is expired and license is deleted."
+msgstr "Modül süresi ve lisans silinir."
+
+msgid "NONE"
+msgstr "YOK"
+
+msgid "NOTE: You can add more Push Messages by editing a funnel after it is created."
+msgstr "NOT: oluşturulduktan sonra bir huni düzenleyerek, güzel Mesajlar ekleyebilirsiniz."
+
+msgid "No"
+msgstr "HAYIR"
+
+msgid "No license found for this module."
+msgstr "bu modül için Hiçbir lisans bulunamadı."
+
+msgid "No token sent."
+msgstr "Hiç bir hediye gönderdi."
+
+msgid "Open a feature or a custom URL:"
+msgstr "Özellik veya özel bir URL açmak:"
+
+msgid "Push Start:"
+msgstr "Bas Başlat:"
+
+msgid "Push custom URL cannot be empty."
+msgstr "Bas özel URL boş olamaz."
+
+msgid "Push custom URL not valid."
+msgstr "Bas özel URL geçerli değil."
+
+msgid "Push how many should be greater than 0."
+msgstr "Birçok 0'dan büyük olmalıdır nasıl itin."
+
+msgid "Push message cannot be empty."
+msgstr "Push mesaj boş olamaz."
+
+msgid "Push title cannot be empty."
+msgstr "İtin adı boş olamaz."
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Start"
+msgstr "Başlat"
+
+msgid "Start After:"
+msgstr "Sonra Başlat:"
+
+msgid "Status"
+msgstr "Durumu"
+
+msgid "Status:"
+msgstr "Durum:"
+
+msgid "Stopped"
+msgstr "Durdu"
+
+msgid "This app sends you periodically interesting information by push messages. This is a special free service. In this page, you can turn on or off this service. The standard push still active, to disable totally the pushes just disable them in your Operative System."
+msgstr "Bu uygulama push mesajları ile periyodik olarak ilginç bir bilgi gönderir. Bu özel ücretsiz bir hizmettir. Bu sayfada, bu hizmeti açmak veya kapatmak. Standart bas hala aktif, tamamen iter sadece Operasyon Sistemi onları devre dışı devre dışı bırakmak için."
+
+msgid "Title:"
+msgstr "Başlık:"
+
+msgid "Trigger:"
+msgstr "Tetik:"
+
+msgid "Unable to connect to the license server."
+msgstr "Lisans sunucusuna bağlanamıyor."
+
+msgid "Upload a cover"
+msgstr "Bir kapak yükleme"
+
+msgid "Warning! Individual Push Notifications module is necessary."
+msgstr "Uyarı! Bireysel Push Bildirimleri modülü gereklidir."
+
+msgid "Yes"
+msgstr "EVET"
+
+msgid "You are using default help URL"
+msgstr "URL varsayılan yardım kullanıyorsunuz"
+
+msgid "You are using your custom help URL."
+msgstr "Özel yardım URL kullanıyorsunuz."
+
+msgid "Your Module Help URL"
+msgstr "Modülü Yardım URL"
+
+msgid "Your Module License Key"
+msgstr "Modül Lisans Anahtarınızı"
+
+msgid "Your license has been expired on %s(READ ONLY ACTIVATED)."
+msgstr "Lisansınızı %(SADECE AKTİF OKUMA s) doldu."
+
+msgid "Your license is active on the domain %s for %d days from %s to %s."
+msgstr "%S lisansını alan %Aktif %d gün %s."
+
+msgid "minutes"
+msgstr "dakika"

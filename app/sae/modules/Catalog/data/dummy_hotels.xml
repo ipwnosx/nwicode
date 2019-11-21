@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designs>
+    <b_b>
+        <catalog>
+            <category>
+                <name>Bedrooms</name>
+                <products>
+                    <product>
+                        <content>
+                            <name>2 person bedroom</name>
+                            <price>60</price>
+                        </content>
+                    </product>
+                    <product>
+                        <content>
+                            <name>3 person bedroom</name>
+                            <price>80</price>
+                        </content>
+                    </product>
+                </products>
+            </category>
+        </catalog>
+    </b_b>
+</designs>

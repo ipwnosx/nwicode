@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-04-18T04:15:16+03:00\n"
+"PO-Revision-Date: 2019-04-18T04:15:16+03:00\n"
+"Language: \n"
+
+msgctxt "rss"
+msgid "1 day"
+msgstr "1 gün"
+
+msgctxt "rss"
+msgid "1 hour"
+msgstr "1 saat"
+
+msgctxt "rss"
+msgid "1 minute"
+msgstr "1 dakika"
+
+msgctxt "rss"
+msgid "12 hours"
+msgstr "12 saat"
+
+msgctxt "rss"
+msgid "15 minutes"
+msgstr "15 dakika"
+
+msgctxt "rss"
+msgid "3 hours"
+msgstr "3 saat"
+
+msgctxt "rss"
+msgid "30 minutes"
+msgstr "30 dakika"
+
+msgctxt "rss"
+msgid "6 hours"
+msgstr "6 saat"
+
+msgctxt "rss"
+msgid "Add a feed"
+msgstr "Bir besleme ekleyin"
+
+msgctxt "rss"
+msgid "Add a thumbnail"
+msgstr "Bir küçük resim eklemek"
+
+msgctxt "rss"
+msgid "Cache lifetime (excluding pull to refresh)"
+msgstr "Önbellek ömür boyu (çekme hariç yenilemek için)"
+
+msgctxt "rss"
+msgid "Cache lifetime (excluding user refresh)"
+msgstr "(Hariç kullanıcı yenileme)önbellek ömür boyu"
+
+msgctxt "rss"
+msgid "Card"
+msgstr "Kartı"
+
+msgctxt "rss"
+msgid "Card &  option only applies to layout 1."
+msgstr "Kart ve seçenek yalnızca 1 düzeni için geçerlidir."
+
+msgctxt "rss"
+msgid "Card & list only applies to layout 1"
+msgstr "Kart ve liste sadece 1 düzeni için geçerlidir"
+
+msgctxt "rss"
+msgid "Contact information"
+msgstr "İletişim bilgileri"
+
+msgctxt "rss"
+msgid "Date format"
+msgstr "Tarih Biçimi"
+
+msgctxt "rss"
+msgid "Description / Subtitle"
+msgstr "Açıklama / Altyazı"
+
+msgctxt "rss"
+msgid "Design"
+msgstr "Tasarım"
+
+msgctxt "rss"
+msgid "Disabling cache can have significant performance impacts on aggregated feeds."
+msgstr "Önbelleği devre dışı bırakılması, toplu akışları üzerinde önemli performans etkileri olabilir."
+
+msgctxt "rss"
+msgid "Disabling cache can have significant performance impacts."
+msgstr "Önbelleği devre dışı bırakılması önemli performans etkileri olabilir."
+
+msgctxt "rss"
+msgid "Display cover image"
+msgstr "Ekran kapağı resim"
+
+msgctxt "rss"
+msgid "Display feeds as groups"
+msgstr "Ekran grupları olarak beslenir"
+
+msgctxt "rss"
+msgid "Display thumbnail"
+msgstr "Küçük resim"
+
+msgctxt "rss"
+msgid "Feed"
+msgstr "Besleme"
+
+msgctxt "rss"
+msgid "Feed URL (RSS)"
+msgstr "Besleme URL (RSS)"
+
+msgctxt "rss"
+msgid "Feed URL, Atom / RSS"
+msgstr "Besleme URL, Atom / RSS"
+
+msgctxt "rss"
+msgid "Feed saved"
+msgstr "Yem kurtardı"
+
+msgctxt "rss"
+msgid "Feeds aggregation"
+msgstr "Toplama beslemeleri"
+
+msgctxt "rss"
+msgid "Link"
+msgstr "Bağlantı"
+
+msgctxt "rss"
+msgid "List"
+msgstr "Liste"
+
+msgctxt "rss"
+msgid "Manage content"
+msgstr "İçeriği Yönet"
+
+msgctxt "rss"
+msgid "Manage feeds"
+msgstr "Yönetmek beslemeleri"
+
+msgctxt "rss"
+msgid "Merge all feeds"
+msgstr "Tüm beslemeleri birleştirme"
+
+msgctxt "rss"
+msgid "Merge all feeds (defaults)"
+msgstr "Tüm yayınları (varsayılan)birleştirme"
+
+msgctxt "rss"
+msgid "No cache"
+msgstr "Hayır önbellek"
+
+msgctxt "rss"
+msgid "Note: cache is automatically refreshed on any user pull to refresh action whatever the lifetime set."
+msgstr "Not: önbellek otomatik olarak herhangi bir kullanıcı ömür boyu kümesi ne olursa olsun eylem yenilemek için çekin yenilenir."
+
+msgctxt "rss"
+msgid "Nothing to re-order!"
+msgstr "Yeniden bir şey sipariş!"
+
+msgctxt "rss"
+msgid "Position"
+msgstr "Pozisyon"
+
+msgctxt "rss"
+msgid "Replace feed subtitle"
+msgstr "Altyazı yem"
+
+msgctxt "rss"
+msgid "Replace feed thumbnail"
+msgstr "Küçük besleme değiştirin"
+
+msgctxt "rss"
+msgid "Replace feed title"
+msgstr "Besleme başlığını değiştir"
+
+msgctxt "rss"
+msgid "Save"
+msgstr "Kaydet"
+
+msgctxt "rss"
+msgid "Settings"
+msgstr "Ayarları"
+
+msgctxt "rss"
+msgid "Settings & Design"
+msgstr "Ayarlar & Tasarım"
+
+msgctxt "rss"
+msgid "Subtitle"
+msgstr "Altyazı"
+
+msgctxt "rss"
+msgid "This feed doesn't exists."
+msgstr "Bu yem yok."
+
+msgctxt "rss"
+msgid "Title"
+msgstr "Başlık"
+
+msgctxt "rss"
+msgid "Unlimited (until any pull to refresh)"
+msgstr "(Herhangi bir çek yenilemek kadar)sınırsız"
+
+msgctxt "rss"
+msgid "Use first entry as cover"
+msgstr "Kapak olarak ilk girişi kullanın"
+
+msgctxt "rss"
+msgid "You are about to remove this Feed ! Are you sure ?"
+msgstr "Bu Yem silmek üzeresiniz ! Emin misin ?"

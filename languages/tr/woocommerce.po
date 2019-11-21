@@ -1,0 +1,321 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-06T22:42:53+03:00\n"
+"PO-Revision-Date: 2019-06-06T22:42:53+03:00\n"
+"Language: \n"
+
+msgid "Add To Cart"
+msgstr "Sepete Ekle"
+
+msgid "Address (1):"
+msgstr "(1) Adres:"
+
+msgid "Address (2):"
+msgstr "(2) Adres:"
+
+msgid "All products"
+msgstr "Tüm ürünler"
+
+msgid "An error occurred while making your payment. Please try again later."
+msgstr "Ödeme yaparken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while trying to set up Paypal transaction. Please contact an administrator."
+msgstr "Paypal işlem ayarlamaya çalışırken bir hata oluştu. Yönetici ile iletişim kurun."
+
+msgid "Api endpoint"
+msgstr "Apı uç noktası"
+
+msgid "Are you sure to remove this line from cart?"
+msgstr "Arabasından bu satırı kaldırmak istiyor musunuz?"
+
+msgid "Billing Address"
+msgstr "Fatura Adresi"
+
+msgid "CVC"
+msgstr "CVC"
+
+msgid "Cart"
+msgstr "Arabası"
+
+msgid "Cart total"
+msgstr "Sepeti toplam"
+
+msgid "Categories"
+msgstr "Kategori"
+
+msgid "City:"
+msgstr "Şehir:"
+
+msgid "Code"
+msgstr "Kod"
+
+msgid "Company:"
+msgstr "Şirket:"
+
+msgid "Configuration error. Please contact an administrator."
+msgstr "Yapılandırma hatası. Yönetici ile iletişim kurun."
+
+msgid "Consumer key"
+msgstr "Tüketici anahtarı"
+
+msgid "Country:"
+msgstr "Ülke:"
+
+msgid "Create Customer"
+msgstr "Müşteri Oluşturmak"
+
+msgid "Credit Card payment"
+msgstr "Kredi kartı ile ödeme"
+
+msgid "Customer error"
+msgstr "Müşteri hatası"
+
+msgid "Email*:"
+msgstr "E-posta*:"
+
+msgid "Email:"
+msgstr "E-posta:"
+
+msgid "Error during order creation"
+msgstr "Sipariş oluşturma sırasında hata"
+
+msgid "Error during registration"
+msgstr "Kayıt sırasında hata"
+
+msgid "Error while getting products"
+msgstr "Hata yaparken yakalanma ürünleri"
+
+msgid "Error while loading shop configuration."
+msgstr "Dükkan yapılandırma yüklenirken hata oluştu."
+
+msgid "Exp Month"
+msgstr "Ay Exp"
+
+msgid "Exp Year"
+msgstr "Exp Yıl"
+
+msgid "First Name*:"
+msgstr "İlk İsim*:"
+
+msgid "First Name:"
+msgstr "İlk İsim:"
+
+msgid "Grouped product details"
+msgstr "Gruplanmış ürün detayları"
+
+msgid "Header"
+msgstr "Başlık"
+
+msgid "Hey"
+msgstr "Hey"
+
+msgid "Import a header"
+msgstr "Bir başlık al"
+
+msgid "In order to proceed, please fill your Woocommerce customer email below:"
+msgstr "Devam etmek için, lütfen aşağıda Woocommerce müşteri e-posta doldurun:"
+
+msgid "Invalid Quantity"
+msgstr "Geçersiz Miktar"
+
+msgid "Last Name*:"
+msgstr "Soyadı*:"
+
+msgid "Last Name:"
+msgstr "Soyadı:"
+
+msgid "Loading"
+msgstr "Yükleme"
+
+msgid "New Customer"
+msgstr "Yeni Müşteri"
+
+msgid "New user"
+msgstr "Yeni kullanıcı"
+
+msgid "No categories for now"
+msgstr "Şu an için herhangi bir kategori yok."
+
+msgid "No products for now."
+msgstr "Şu an için herhangi bir ürün yok."
+
+msgid "OK"
+msgstr "Tamam"
+
+msgid "Oops!"
+msgstr "Oops!"
+
+msgid "Order cancelled"
+msgstr "Sipariş iptal edildi"
+
+msgid "Our online shop"
+msgstr "Online alışveriş"
+
+msgid "Out of stock"
+msgstr "Stokta"
+
+msgid "Password*:"
+msgstr "Şifre*:"
+
+msgid "Pay by Credit Card"
+msgstr "Ödeme Kredi kartıyla"
+
+msgid "Pay by Paypal"
+msgstr "Ödeme Paypal"
+
+msgid "Pay on our online store"
+msgstr "Online mağaza ödeme"
+
+msgid "Payment result"
+msgstr "Ödeme sonucu"
+
+msgid "Paypal Settings"
+msgstr "Paypal ayarları"
+
+msgid "Paypal password"
+msgstr "Paypal şifre"
+
+msgid "Paypal signature"
+msgstr "Paypal imza"
+
+msgid "Paypal username"
+msgstr "Paypal kullanıcı adı"
+
+msgid "Personal Information*"
+msgstr "Kişisel Bilgiler*"
+
+msgid "Phone:"
+msgstr "Telefon:"
+
+msgid "Please enter a Password."
+msgstr "Bir Parola girin lütfen."
+
+msgid "Please enter a Username."
+msgstr "Bir Kullanıcı adı girin lütfen."
+
+msgid "Please enter a credit card number"
+msgstr "Lütfen kredi kartı numaranızı girin"
+
+msgid "Please enter an Email."
+msgstr "Bir e-Posta girin lütfen."
+
+msgid "Please enter the credit card expiration month"
+msgstr "Lütfen kredi kartı son kullanma ay girin"
+
+msgid "Please enter the credit card expiration year"
+msgstr "Lütfen kredi kartı son kullanma tarihi girin"
+
+msgid "Please enter your First Name."
+msgstr "Lütfen Adınızı yazın."
+
+msgid "Please enter your Last Name."
+msgstr "Lütfen soyadınızı girin."
+
+msgid "Please fill in your information in order to pay by credit card"
+msgstr "Ödeme için kredi kartı bilgilerinizi doldurunuz"
+
+msgid "Postcode:"
+msgstr "Posta kodu:"
+
+msgid "Proceed"
+msgstr "Devam edin"
+
+msgid "Product successfully added to your Cart."
+msgstr "Ürün başarıyla Sepete eklendi."
+
+msgid "Products"
+msgstr "Ürünleri"
+
+msgid "Quantity:"
+msgstr "Miktar:"
+
+msgid "Registration successful"
+msgstr "Kayıt başarılı"
+
+msgid "Remove product"
+msgstr "Ürünü Kaldır"
+
+msgid "Same as billing address"
+msgstr "Fatura adresi ile aynı"
+
+msgid "See you soon on our store!"
+msgstr "Yakında Mağazamız görüşürüz!"
+
+msgid "Shipping Address"
+msgstr "Nakliye Adres"
+
+msgid "Social Profiles"
+msgstr "Sosyal Profiller"
+
+msgid "Sorry, product not found."
+msgstr "Üzgünüm, ürün bulunamadı."
+
+msgid "State:"
+msgstr "Durum:"
+
+msgid "Stock Quantity:"
+msgstr "Stok Miktarı:"
+
+msgid "Stripe Publishable Key"
+msgstr "Şerit Yayınlanabilir Anahtar"
+
+msgid "Stripe Secret Key"
+msgstr "Şerit Gizli Anahtar"
+
+msgid "Stripe Settings"
+msgstr "Şerit ayarları"
+
+msgid "Success"
+msgstr "Başarı"
+
+msgid "Success."
+msgstr "Başarı."
+
+msgid "Thank you!"
+msgstr "Teşekkür Ederim!"
+
+msgid "The payment has been cancelled, something wrong happened? Feel free to contact us."
+msgstr "Ödeme iptal edildi, yanlış bir şey mi oldu? Bizimle temas kurmaktan çekinmeyin."
+
+msgid "This customer doesn't exists in our database or is an administrator account. Please register."
+msgstr "Bu müşteri bizim veritabanımızda var ya da bir yönetici hesabı yok. Lütfen kayıt olun."
+
+msgid "This email is invalid. Please enter a valid Email."
+msgstr "Bu e-posta geçersiz. Geçerli bir e-Posta girin lütfen."
+
+msgid "Username*:"
+msgstr "Kullanıcı adı*:"
+
+msgid "Variation:"
+msgstr "Varyasyon:"
+
+msgid "Woocommerce Settings"
+msgstr "Woocommerce Ayarları"
+
+msgid "Woocommerce url"
+msgstr "Woocommerce url"
+
+msgid "Your account has been created successfully"
+msgstr "Hesabınız var başarıyla oluşturuldu"
+
+msgid "Your card has been declined."
+msgstr "Kartınız iptal edilmiş."
+
+msgid "Your cart"
+msgstr "Sepeti"
+
+msgid "Your cart is empty."
+msgstr "Sepetiniz boş."
+
+msgid "Your order has been created successfully, please choose a payment method below:"
+msgstr "Siparişiniz başarıyla oluşturuldu, aşağıda bir ödeme yöntemi seçiniz:"
+
+msgid "Your payment has been done successfully."
+msgstr "Ödemeniz başarıyla yapıldı."

@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-04-27T09:00:53+03:00\n"
+"PO-Revision-Date: 2019-04-27T09:00:53+03:00\n"
+"Language: \n"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Apr"
+msgstr "Апреля"
+
+#, mobile
+msgctxt "datepicker"
+msgid "April"
+msgstr "Апреля"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Cancel"
+msgstr "Отменить"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Day"
+msgstr "День"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Dec"
+msgstr "Декабря"
+
+#, mobile
+msgctxt "datepicker"
+msgid "December"
+msgstr "Декабря"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Feb"
+msgstr "Февраля"
+
+#, mobile
+msgctxt "datepicker"
+msgid "February"
+msgstr "Февраль"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Hour"
+msgstr "Час"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Jan"
+msgstr "Января"
+
+#, mobile
+msgctxt "datepicker"
+msgid "January"
+msgstr "Января"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Jul"
+msgstr "Июля"
+
+#, mobile
+msgctxt "datepicker"
+msgid "July"
+msgstr "Июля"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Jun"
+msgstr "Июня"
+
+#, mobile
+msgctxt "datepicker"
+msgid "June"
+msgstr "Июня"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Mar"
+msgstr "Марта"
+
+#, mobile
+msgctxt "datepicker"
+msgid "March"
+msgstr "Марта"
+
+#, mobile
+msgctxt "datepicker"
+msgid "May"
+msgstr "Может"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Millisecond"
+msgstr "Миллисекунд"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Minute"
+msgstr "Минуту"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Month"
+msgstr "Месяц"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Nov"
+msgstr "Ноября"
+
+#, mobile
+msgctxt "datepicker"
+msgid "November"
+msgstr "Ноября"
+
+#, mobile
+msgctxt "datepicker"
+msgid "OK"
+msgstr "ОК"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Oct"
+msgstr "Октября"
+
+#, mobile
+msgctxt "datepicker"
+msgid "October"
+msgstr "Октября"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Pick a date and time"
+msgstr "Выберите дату и время"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Second"
+msgstr "Секунд"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Sep"
+msgstr "Сентября"
+
+#, mobile
+msgctxt "datepicker"
+msgid "September"
+msgstr "Сентября"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Year"
+msgstr "Год"

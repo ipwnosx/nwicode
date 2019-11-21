@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T20:29:29+03:00\n"
+"PO-Revision-Date: 2019-06-05T20:29:29+03:00\n"
+"Language: \n"
+
+msgid "About"
+msgstr "Hakkında"
+
+msgid "Address is mandatory."
+msgstr "Adres zorunlu."
+
+msgid "Destination address"
+msgstr "Varış noktası adresi"
+
+msgid "From:"
+msgstr "den:"
+
+msgid "Hide itinerary steps"
+msgstr "Seyahat adımlarını gizle"
+
+msgid "Maps configuration"
+msgstr "Haritalar konfigürasyonu"
+
+msgid "Maps navigation"
+msgstr "Haritalar navigasyonu"
+
+msgid "More Information"
+msgstr "Daha Fazla Bilgi"
+
+msgid "See itinerary steps"
+msgstr "Seyahat adımlarını göster"
+
+msgid "Sorry, the route cannot be calculated."
+msgstr "Üzgünüz, rota hesaplanamıyor."
+
+msgid "To:"
+msgstr "e:"
+
+msgid "Unit distance"
+msgstr "Birim mesafe"

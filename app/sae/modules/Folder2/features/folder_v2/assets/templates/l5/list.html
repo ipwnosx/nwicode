@@ -1,0 +1,121 @@
+<ion-view sb-page-background can-swipe-back="false"
+          class="module-folder2 folder2-layout2">
+    <ion-nav-title>{{ page_title }}</ion-nav-title>
+    <ion-nav-buttons side="secondary">
+        <button ng-show="showSearch" ng-click="showSearchinf()"
+                class="button button-clear header-item places-secondary-button">
+            <i class="icon ion-search"></i>
+        </button>
+    </ion-nav-buttons>
+    <ion-content>
+        <div class="loader"
+             ng-show="is_loading">
+            <ion-spinner class="spinner-custom">
+            </ion-spinner>
+        </div>
+        <ng-include ng-show="isVisibleSearch" src="'features/folder_v2/assets/templates/search.html'"></ng-include>
+        <ng-include src="'features/folder_v2/assets/templates/cover.html'"></ng-include>
+        <div class="list folder-layout folder-l5"
+             ng-class="{'card': cardDesign}"
+             ng-show="collection.length && !search.searchValue">
+            <div class="folder-l5-row"
+                 ng-repeat="chunks in chunks2 track by $index">
+                <div tabbar-items style="background-color:{{current.cardcustomcolor}} !important;"
+                     class="folder-l5-col item item-custom"
+                     ng-if="current.cardcustomcolor"
+                     option="item"
+                     ng-repeat="item in chunks track by item.url"
+                     ng-class="{'single': chunks.length == 1}"
+                     ng-style="{'background-image':'url(' + imagePath(item.thumbnail) + ')'}">
+                    <img src="./img/placeholder/blank-512.png" />
+                    <p class="folder-title">{{ item.title }}</p>
+                    <p class="folder-subtitle" ng-if="item.subtitle">{{ item.subtitle }}</p>
+                </div>
+                <div tabbar-items
+                     class="folder-l5-col item item-custom"
+                     ng-if="!current.cardcustomcolor"
+                     option="item"
+                     ng-repeat="item in chunks track by item.url"
+                     ng-class="{'single': chunks.length == 1}"
+                     ng-style="{'background-image':'url(' + imagePath(item.thumbnail) + ')'}">
+                    <img src="./img/placeholder/blank-512.png" />
+                    <p class="folder-title">{{ item.title }}</p>
+                    <p class="folder-subtitle" ng-if="item.subtitle">{{ item.subtitle }}</p>
+                </div>
+            </div>
+        </div>
+        <ion-card class="list" style="--background:{{current.cardcustomcolor}} !important;"
+                  ng-if="!is_loading && !collection.length && !current && !search.searchValue">
+            <div class="item text-center item-custom" style="background-color:{{current.cardcustomcolor}} !important;">
+                {{ "No items found" | translate }}
+            </div>
+        </ion-card>
+    </ion-content>
+    <style type="text/css">
+        .folder-layout.folder-l5 {
+            margin-top: 15px;
+        }
+        .folder-layout.folder-l5.card {
+            box-shadow: none;
+        }
+        .folder-layout.folder-l5 .folder-l5-row {
+            padding: 0;
+            display: flex;
+            margin-bottom: 48px;
+            overflow: visible;
+        }
+        .folder-layout.folder-l5 .folder-l5-col {
+            padding: 0;
+            width: 50%;
+        }
+        .folder-layout.folder-l5 .folder-l5-row div.folder-l5-col {
+            margin: 0 6px;
+            padding: 0;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 50%;
+            overflow: visible;
+        }
+        .folder-layout.folder-l5 .folder-l5-row div.folder-l5-col img {
+            width: 100%;
+        }
+        .folder-layout.folder-l5 .folder-l5-row div.folder-l5-col.single {
+            flex: 0 1 calc(50% - 30px);
+        }
+        .folder-layout.folder-l5 .folder-l5-row div.folder-l5-col,
+        .folder-layout.folder-l5.card .folder-l5-row div.folder-l5-col {
+            border-radius: 100%;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            font-size: 14px;
+            -webkit-box-shadow: 0 4px 16px rgba(0,0,0,.12);
+            box-shadow: 0 4px 16px rgba(0,0,0,.12);
+        }
+        .folder-layout.folder-l5.card .folder-l5-row div.folder-l5-col:nth-child(1) {
+            margin: 0 6px 0 0;
+        }
+        .folder-layout.folder-l5.card .folder-l5-row div.folder-l5-col:nth-child(2) {
+            margin: 0 0 0 6px;
+        }
+        .folder-layout.folder-l5 .folder-title {
+            position: absolute;
+            bottom: -24px;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            padding: 0 10px;
+        }
+        .folder-layout.folder-l5 .folder-subtitle {
+            position: absolute;
+            bottom: -40px;
+            width: 100%;
+            text-align: center;
+            font-size: 13px;
+            padding: 0 10px;
+        }
+    </style>
+</ion-view>

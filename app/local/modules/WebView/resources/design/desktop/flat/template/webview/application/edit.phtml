@@ -1,0 +1,139 @@
+<?php
+$optionValue = $this->getOptionValue();
+
+$webview = (new WebView_Model_WebView())
+    ->find($optionValue->getId(), 'value_id');
+
+$form = new WebView_Form_WebView();
+$form->setValueId($optionValue->getId());
+$form->populate($webview->getData());
+
+$color = $webview->getBannerTextColor();
+$colorBg = $webview->getBannerBgColor();
+
+?>
+
+<div id="list" class="webview">
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+            <a href="#folder" aria-controls="folder" role="tab" data-toggle="tab">
+                <i class="fa fa-folder-open-o"></i>
+                <?php echo __('WebView') ?>
+            </a>
+        </li>
+        <li role="presentation">
+            <a href="#design" aria-controls="design" role="tab" data-toggle="tab">
+                <i class="fa fa-pencil"></i>
+                <?php echo __('Design') ?>
+            </a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <!-- START FOLDER TAB -->
+        <div role="tabpanel" class="tab-pane active" id="folder">
+            <div class="feature-block-add">
+                <h3 class="title-editor no-border-radius title-feature-indent">
+                    <?php echo __('WebView'); ?>
+                </h3>
+                <div class="container-fluid subcontent content-feature">
+                    <div class="content">
+                        <div>
+                            <?php echo $form; ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /END FOLDER TAB -->
+
+        <!-- START DESIGN TAB -->
+        <div role="tabpanel" class="tab-pane" id="design">
+            <?php echo $this->importLayout($optionValue, false); ?>
+
+            <?php echo $this->importBackground($optionValue, false); ?>
+        </div>
+        <!-- /END DESIGN TAB -->
+
+    </div>
+</div>
+
+<style type="text/css">
+    .icon-colorpicker,
+    .icon-colorpicker-bg {
+         width: 32px;
+         height: 32px;
+         display: block;
+         float: left;
+         box-shadow: 1px 1px 1px #d2d2d2;
+         border-radius: 2px;
+         margin-right: 10px;
+         margin-top: 1px;
+    }
+
+    .icon-colorpicker {
+        background-color: <?php echo (!empty($color)) ? $color : "#0099C7"; ?>;
+    }
+
+    .icon-colorpicker-bg {
+        background-color: <?php echo (!empty($colorBg)) ? $colorBg : "#0099C7"; ?>;
+    }
+
+    .colorlabel {
+        margin-top: 7px;
+        float: left;
+    }
+
+    .colorpicker-input {
+        float: right;
+        width: 70%;
+    }
+
+    #form-webview .feature-upload-placeholder img {
+        min-width: 128px;
+    }
+
+    .layouts img {
+        max-width: 200px;
+    }
+</style>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var colorPicker = $('.icon-colorpicker');
+        var colorPickerInput = $('#banner_text_color');
+
+        var colorBgPicker = $('.icon-colorpicker-bg');
+        var colorBgPickerInput = $('#banner_bg_color');
+
+        $('.icon-colorpicker, #banner_text_color').ColorPicker({
+            color: '<?php echo (!empty($color)) ? $color : '#00CC97'; ?>',
+            onChange: function (hsb, hex, rgb) {
+                colorPicker.css('backgroundColor', '#' + hex);
+                colorPickerInput.val('#' + hex);
+            }
+        });
+
+        $('.icon-colorpicker-bg, #banner_bg_color').ColorPicker({
+            color: '<?php echo (!empty($colorBg)) ? $colorBg : '#00CC97'; ?>',
+            onChange: function (hsb, hex, rgb) {
+                colorBgPicker.css('backgroundColor', '#' + hex);
+                colorBgPickerInput.val('#' + hex);
+            }
+        });
+
+        colorPickerInput.on('change blur', function() {
+            $(this).ColorPickerSetColor($(this).val());
+        });
+        colorBgPickerInput.on('change blur', function() {
+            $(this).ColorPickerSetColor($(this).val());
+        });
+
+        colorPickerInput.val('<?php echo (!empty($color)) ? $color : '#0099C7'; ?>');
+        colorBgPickerInput.val('<?php echo (!empty($colorBg)) ? $colorBg : '#0099C7'; ?>');
+
+        bindForms('#list');
+    });
+</script>

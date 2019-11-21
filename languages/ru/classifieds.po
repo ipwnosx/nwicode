@@ -1,0 +1,444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-29T06:10:49+03:00\n"
+"PO-Revision-Date: 2019-07-29T06:10:49+03:00\n"
+"Language: \n"
+
+msgid "#bookmarked"
+msgstr "#закладки"
+
+msgid "%s is interested by your ad %s"
+msgstr "%s заинтересовало ваше объявление на %s"
+
+msgid "Ad has been saved successfully"
+msgstr "Объявление успешно сохранено"
+
+msgid "Add a category"
+msgstr "Добавить категорию"
+
+msgid "Add a section"
+msgstr "Добавить раздел"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Address is not inside authorized area"
+msgstr "Адрес не в установленном районе"
+
+msgid "Address latitude and longitude are missing"
+msgstr "Укажите широту и долготу"
+
+msgid "Ads expiration"
+msgstr "Срок действия объявлений"
+
+msgid "All categories"
+msgstr "Все категории"
+
+msgid "All fields are mandatory, photos are optional"
+msgstr "Все поля являются обязательными, фотографии не являются обязательными"
+
+msgid "An error occured"
+msgstr "Ошибка"
+
+msgid "An error occured."
+msgstr "Произошла ошибка."
+
+msgid "An unexpected error prevent this ad to be saved!"
+msgstr "Неожиданная ошибка..."
+
+msgid "An unkown error occured"
+msgstr "Неизвестная ошибка"
+
+msgid "Are you sure ?"
+msgstr "Вы уверены ?"
+
+msgid "Are you sure you want to change the status of this ad?"
+msgstr "Вы уверены, что хотите изменить статус этого объявления?"
+
+msgid "Are you sure you want to delete this category and all ads using it"
+msgstr "Вы уверены, что хотите удалить этот раздел и все объявления?"
+
+msgid "Are you sure you want to delete this section, all of its subcategories and all ads using them"
+msgstr "Вы уверены, что хотите удалить этот раздел, во всех его городах?"
+
+msgid "Bookmark ad"
+msgstr "Добавить в закладки"
+
+msgid "Cancel"
+msgstr "Отменить"
+
+msgid "Cancel ad"
+msgstr "Снять с публикации"
+
+msgid "Cancelled"
+msgstr "Отменен"
+
+msgid "Categories"
+msgstr "Категории"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Category not found"
+msgstr "Категория не найдена"
+
+msgid "Category:"
+msgstr "Категории:"
+
+msgid "Change status"
+msgstr "Изменение статуса"
+
+msgid "City"
+msgstr "Город"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Contact"
+msgstr "Контакты"
+
+msgid "Could not check country limitation"
+msgstr "Не удалось проверить ограничение по стране"
+
+msgid "Could not find ad"
+msgstr "Не могу найти объявление"
+
+msgid "Could not find category"
+msgstr "Не могу найти категории"
+
+msgid "Could not find customer"
+msgstr "Не могу найти клиента"
+
+msgid "Could not find or create shop"
+msgstr "Не удается найти или создать магазин"
+
+msgid "Could not find requested ad"
+msgstr "Не удалось найти запрашиваемое объявление"
+
+msgid "Could not find seller"
+msgstr "Не могу найти продавца"
+
+msgid "Could not find shop"
+msgstr "Не могу найти магазин"
+
+msgid "Could not find your current location"
+msgstr "Не могу найти ваше текущее местоположение"
+
+msgid "Country"
+msgstr "Страна"
+
+msgid "Country is not authorized"
+msgstr "Страна не разрешена"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Default View"
+msgstr "Вид по умолчанию"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Description is mandatory and should be at least 15 characters long"
+msgstr "Описание является обязательным и должно быть не менее 15 символов"
+
+msgid "Drag Me"
+msgstr "Перетащите Меня"
+
+msgid "Edit ad"
+msgstr "Редактировать объявление"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Email is mandatory"
+msgstr "E-mail является обязательным"
+
+msgid "Email should be valid"
+msgstr "E-mail должнен быть действительным"
+
+msgid "Email:"
+msgstr "E-mail:"
+
+msgid "Error"
+msgstr "Ошибка"
+
+msgid "Expired"
+msgstr "Истек"
+
+msgid "Flag as inappropriate"
+msgstr "Пожаловаться"
+
+msgid "Flagged"
+msgstr "Отмеченные"
+
+msgid "From:"
+msgstr "От:"
+
+msgid "Hi. I just found: $1 for $2 in the $3 app."
+msgstr "Привет. Я только что нашел: $1 за $2 в приложении $3 ."
+
+msgid "Hide my address"
+msgstr "Скрыть мой адрес"
+
+msgid "Hide my phone"
+msgstr "Скрыть мой телефон"
+
+msgid "High to Low"
+msgstr "максимальные"
+
+msgid "If address is hidden, your ad will not be visible on public map"
+msgstr "Если адрес скрыт, ваше объявление не будет отображаться на общей карте"
+
+msgid "Import from Library"
+msgstr "Импорт из библиотеки"
+
+msgid "Limit ads to this country only"
+msgstr "Ограничение объявлений только для этой страны"
+
+msgid "List"
+msgstr "Список"
+
+msgid "Low to High"
+msgstr "минимальные"
+
+msgid "Manage ads"
+msgstr "Управление объявлением"
+
+msgid "Map"
+msgstr "Карта"
+
+msgid "Mark ad as sold"
+msgstr "Пометить объявление как продано"
+
+msgid "Max price:"
+msgstr "Макс. цена:"
+
+msgid "Message sent"
+msgstr "Сообщение отправлено"
+
+msgid "Message:"
+msgstr "Сообщение:"
+
+msgid "Min price:"
+msgstr "Мин. цена:"
+
+msgid "Moderate Ads"
+msgstr "Модерируемое объявления"
+
+msgid "My shop"
+msgstr "Мой кабинет"
+
+msgid "New ad"
+msgstr "Новые объявления"
+
+msgid "Newest first"
+msgstr "Сначала новые"
+
+msgid "No items found"
+msgstr "ничего не найдено"
+
+msgid "OK"
+msgstr "Ок"
+
+msgid "Oldest first"
+msgstr "Сначала старые"
+
+msgid "Only 3 pictures are allowed"
+msgstr "Разрешено только 3 фотографии"
+
+msgid "Order by:"
+msgstr "Выбор:"
+
+msgid "Pending"
+msgstr "В ожидании"
+
+msgid "Phone"
+msgstr "Телефон"
+
+msgid "Phone is mandatory"
+msgstr "Телефон является обязательным"
+
+msgid "Phone:"
+msgstr "Телефон:"
+
+msgid "Pictures"
+msgstr "Фото"
+
+msgid "Please choose"
+msgstr "Пожалуйста, выберите"
+
+msgid "Price"
+msgstr "Цена"
+
+msgid "Price is mandatory"
+msgstr "Цена является обязательной"
+
+msgid "Price is required ?"
+msgstr "Цена обязательна ?"
+
+msgid "Price:"
+msgstr "Цена:"
+
+msgid "Publish"
+msgstr "Опубликовать"
+
+msgid "Published"
+msgstr "Опубликовано"
+
+msgid "Radius"
+msgstr "Радиус"
+
+msgid "Remove picture"
+msgstr "Удалить картинку"
+
+msgid "Reset flags"
+msgstr "Сброс флажков"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Saved!"
+msgstr "Сохранено!"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Send"
+msgstr "Отправить"
+
+msgid "Send an email"
+msgstr "Отправить по email"
+
+msgid "Sent!"
+msgstr "Отправлено!"
+
+msgid "Settings"
+msgstr "Параметры"
+
+msgid "Shop ID"
+msgstr "Идентификатор магазина"
+
+msgid "Show bookmarked ads only"
+msgstr "Показать закладки объявлений"
+
+msgid "Show only ads including:"
+msgstr "Показать только объявления, содержащие:"
+
+msgid "Sold"
+msgstr "Продается"
+
+msgid "Some errors prevent this ad to be saved:"
+msgstr "Некоторые ошибки не позволяют сохранить это объявление:"
+
+msgid "Some errors prevents your message to be sent:"
+msgstr "Некоторые ошибки предотвращают отправку вашего сообщения:"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Status changed successfully"
+msgstr "Статус успешно изменен"
+
+msgid "Status is not authorized"
+msgstr "Статус - не разрешено"
+
+msgid "Status:"
+msgstr "Статус:"
+
+msgid "Success"
+msgstr "Успешно"
+
+msgid "Successfully flagged as inappropriate!"
+msgstr "Отправлено модератору!"
+
+msgid "Take a picture"
+msgstr "Сфотографировать"
+
+msgid "Title"
+msgstr "Название"
+
+msgid "Title is mandatory"
+msgstr "Заголовок является обязательным"
+
+msgid "Unbookmark ad"
+msgstr "Удалить из закладок"
+
+msgid "Uncancel ad"
+msgstr "Активировать"
+
+msgid "Unknown customer"
+msgstr "Неизвестный клиент"
+
+msgid "Unknown error"
+msgstr "Неизвестная ошибка"
+
+msgid "Unmark ad as sold"
+msgstr "Снять объявление с продажи"
+
+msgid "View details"
+msgstr "Посмотреть детали"
+
+msgid "Your ad has been flagged"
+msgstr "Ваше объявление было помечено"
+
+msgid "Your email"
+msgstr "Ваш email"
+
+msgid "Your message"
+msgstr "Ваше сообщение"
+
+msgid "Your message has been sent successfully!"
+msgstr "Ваше сообщение успешно отправлено!"
+
+msgid "Your name"
+msgstr "Ваше имя"
+
+msgid "Zip Code:"
+msgstr "Индекс:"
+
+msgid "address"
+msgstr "Адрес"
+
+msgid "and"
+msgstr "и"
+
+msgid "category: %s"
+msgstr "Категория: %s"
+
+msgid "email should be valid"
+msgstr "Email должно быть действительным"
+
+msgid "max: %s"
+msgstr "Макс: %s"
+
+msgid "message should be present and 50 characters long at least"
+msgstr "в сообщение должно быть не менее 50 символов"
+
+msgid "min: %s"
+msgstr "мин: %s"
+
+msgid "name should be present"
+msgstr "имя должно быть указано"
+
+msgid "order: %s"
+msgstr "заказ: %s"
+
+msgid "phone"
+msgstr "Телефон"
+
+msgid "pictures"
+msgstr "фотографии"
+
+msgid "with: %s"
+msgstr "с: %s"
+
+msgid "zip: %s"
+msgstr "индекс: %s"

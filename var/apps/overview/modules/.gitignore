@@ -1,0 +1,10 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+!/tour/
+!/tour/controllers/
+!/tour/templates/
+!/tour/templates/l1/
+!/tour/templates/l1/tour.html
+!/tour/controllers/tour.js

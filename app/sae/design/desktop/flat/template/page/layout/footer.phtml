@@ -1,0 +1,115 @@
+<div class="footer_content">
+    <div class="copyright a-center">
+    </div>
+</div>
+
+<!-- Default loader -->
+<div id="mask"
+     class="mask">
+    <div class="loader"></div>
+</div>
+
+<script type="text/javascript">
+	
+	$( document ).ready(function() {
+		if ($("#nav-header-id").length) { 
+			var myNavbar = document.getElementById("nav-header-id").classList;
+			if ($("#left-sidebar-wrapper").length) {
+			} else {
+				myNavbar.add("togglegnavnoleft");
+			}
+		}
+    }); 
+
+	function toggleMenu() {
+		if ($("#content_editor_toggle").length) {
+			var mySideMenu = document.getElementById("left-sidebar-wrapper").classList;
+			var myNavbar = document.getElementById("nav-header-id").classList;
+			var myPreviewer = document.getElementById("iphone").classList;
+			var myContentEditor = document.getElementById("content_editor_toggle").classList;
+			var myLeftSidebar = document.getElementById("left-sidebar-wy").classList;
+
+			if (myContentEditor.contains("toggleeditor")) {
+				myContentEditor.remove("toggleeditor");
+				myContentEditor.remove("col-lg-12");
+				myContentEditor.add("col-lg-8");
+				myLeftSidebar.add("has-sidebar");
+				localStorage.setItem('toggleeditor', '0');
+				if ($("#carousel-container").lenght) {
+					$("#carousel-container").width(400);
+					//$("#carousel-container").css("display","none"); 
+					setTimeout(function(){
+					  $("#carousel-container").css("display","block");
+					  var new_width = parseInt($("#pages_list").width()-210);
+					  $("#carousel-container").width(new_width);
+					}, 800);
+				}
+			} else {
+				myContentEditor.add("toggleeditor");
+				myContentEditor.remove("col-lg-8");
+				myContentEditor.add("col-lg-12");
+				myLeftSidebar.remove("has-sidebar");
+				localStorage.setItem('toggleeditor', '1');
+				if ($("#carousel-container").lenght) {
+					setTimeout(function(){
+					  var new_width = parseInt($("#pages_list").width()-210);
+					  $("#carousel-container").width(new_width);			
+					  $("#carousel-container").css("display","block");
+
+					}, 800);
+				}
+			}
+			if (myPreviewer.contains("togglepreviewer")) {
+				myPreviewer.remove("togglepreviewer");
+			} else {
+				myPreviewer.add("togglepreviewer");
+			}
+			if (mySideMenu.contains("togglegmenu")) {
+				mySideMenu.remove("togglegmenu");
+			} else {
+				mySideMenu.add("togglegmenu");
+			}
+			if (myNavbar.contains("togglegnav")) {
+				myNavbar.remove("togglegnav");
+			} else {
+				myNavbar.add("togglegnav");
+			}
+		}
+	}
+	if (!$("#content_editor_toggle").length) $("#menu-toggler").hide();
+	
+	console.log("toggleeditor");
+	console.log(localStorage.getItem('toggleeditor'));
+	if (localStorage.getItem('toggleeditor')=="1") {
+		toggleMenu();
+	}
+
+    $(document).ready(function() {
+        $("#mask").hide();
+    });
+
+    var ajaxInProgress = 0;
+
+    /**
+     * Don't show mask on load (it's done elsewhere), and will also pop every 12 seconds because of the appId poller
+     */
+    $(document).ajaxStart(function() {
+        ajaxInProgress++;
+    });
+
+    /**
+     * Hide loader (sometimes it's not hidden by the ajaxRequest)
+     */
+    $(document).ajaxComplete(function() {
+        ajaxInProgress--;
+        if(ajaxInProgress <= 0) {
+            ajaxInProgress = 0;
+            setTimeout(function() {
+                $("#mask").hide();
+            }, 800);
+        }
+    });
+</script>
+<!-- /Default loader -->
+
+<?php echo Nwicode_Debug::render(); ?>

@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-04-18T04:14:03+03:00\n"
+"PO-Revision-Date: 2019-04-18T04:14:03+03:00\n"
+"Language: \n"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Apr"
+msgstr "Nis"
+
+#, mobile
+msgctxt "datepicker"
+msgid "April"
+msgstr "Nisan"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Cancel"
+msgstr "İptal"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Day"
+msgstr "Gün"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Dec"
+msgstr "Ara"
+
+#, mobile
+msgctxt "datepicker"
+msgid "December"
+msgstr "Aralık"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Feb"
+msgstr "Şub"
+
+#, mobile
+msgctxt "datepicker"
+msgid "February"
+msgstr "Şubat"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Hour"
+msgstr "Saat"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Jan"
+msgstr "Ocak"
+
+#, mobile
+msgctxt "datepicker"
+msgid "January"
+msgstr "Ocak"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Jul"
+msgstr "Tem"
+
+#, mobile
+msgctxt "datepicker"
+msgid "July"
+msgstr "Temmuz"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Jun"
+msgstr "Haz"
+
+#, mobile
+msgctxt "datepicker"
+msgid "June"
+msgstr "Haziran"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Mar"
+msgstr "Mar"
+
+#, mobile
+msgctxt "datepicker"
+msgid "March"
+msgstr "Mart"
+
+#, mobile
+msgctxt "datepicker"
+msgid "May"
+msgstr "Mayıs"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Millisecond"
+msgstr "Milisaniyelik"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Minute"
+msgstr "dakika"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Month"
+msgstr "Ay"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Nov"
+msgstr "Kas"
+
+#, mobile
+msgctxt "datepicker"
+msgid "November"
+msgstr "Kasım"
+
+#, mobile
+msgctxt "datepicker"
+msgid "OK"
+msgstr "Tamam"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Oct"
+msgstr "Ekim"
+
+#, mobile
+msgctxt "datepicker"
+msgid "October"
+msgstr "Ekim"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Pick a date and time"
+msgstr "Tarih ve saati seçin"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Second"
+msgstr "İkinci"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Sep"
+msgstr "Eylül"
+
+#, mobile
+msgctxt "datepicker"
+msgid "September"
+msgstr "Eylül"
+
+#, mobile
+msgctxt "datepicker"
+msgid "Year"
+msgstr "Yıl"

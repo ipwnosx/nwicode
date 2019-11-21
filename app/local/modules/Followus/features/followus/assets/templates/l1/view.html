@@ -1,0 +1,62 @@
+<ion-view sb-page-background>
+    <ion-nav-title>{{ title }}</ion-nav-title>
+    <ion-content>
+	<ion-card ng-if="data.use_item_custom==1">
+		<ion-card-content ng-if="data.designt_type=='0' && data.description!=''" ng-bind-html="data.description | trusted_html"></ion-card-content>
+		<ion-card-content>
+		<ion-grid>
+			<ion-row ng-repeat="row in links_list_chunks" >
+				<ion-col ng-repeat="column in row">
+				<div class="ion-text-center followus-icon">
+					<div>
+						<ion-text color="{{data.color}}" ng-click="openLink(column)">
+						<i class="{{column.icon}} fa-{{data.icon_size}}"></i>
+						</ion-text>
+						<br ng-if="column.title!=''">
+						<ion-text color="{{data.color}}" ng-if="column.title!=''" ng-click="openLink(column)">
+						{{column.title}}
+						</ion-text>
+					</div>
+				</div>
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+		</ion-card-content>
+		<ion-card-content ng-if="data.designt_type=='1' && data.description!=''" ng-bind-html="data.description | trusted_html"></ion-card-content>
+	</ion-card>
+	
+	
+	
+	<ion-text class="ion-margin" ng-if="data.use_item_custom==0 && data.designt_type=='0' && data.description!=''" ng-bind-html="data.description | trusted_html"></ion-text>
+		<ion-grid ng-if="data.use_item_custom==0">
+			<ion-row ng-repeat="row in links_list_chunks" >
+				<ion-col ng-repeat="column in row">
+				<div class="ion-text-center followus-icon">
+					<div>
+						<ion-text color="{{data.color}}" ng-click="openLink(column)">
+						<i class="{{column.icon}} fa-{{data.icon_size}}"></i>
+						</ion-text>
+						<br ng-if="column.title!=''">
+						<ion-text color="{{data.color}}" ng-if="column.title!=''" ng-click="openLink(column)">
+						{{column.title}}
+						</ion-text>
+					</div>
+				</div>
+				</ion-col>
+			</ion-row>
+		</ion-grid>	
+	<ion-text class="ion-margin" ng-if="data.use_item_custom==0 && data.designt_type=='1' && data.description!=''" ng-bind-html="data.description | trusted_html"></ion-text>	
+
+
+	
+	
+	
+
+	</ion-content>
+	<style>
+	.followus-icon {text-align:center; padding:5px 0px; min-height:20vw;}
+	.followus-icon div{padding-top: 5px; padding-bottom: 10px;}
+	.item-followus {margin:10px 20px;}
+
+	</style>
+</ion-view>

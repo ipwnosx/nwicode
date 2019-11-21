@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-04-20T05:09:06+03:00\n"
+"PO-Revision-Date: 2019-04-20T05:09:06+03:00\n"
+"Language: \n"
+
+msgid "lb13_Change Password"
+msgstr "HALK KART Parola değiştir"
+
+msgid "lb13_Connection"
+msgstr "HALK KART Bağlantı"
+
+msgid "lb13_Create account"
+msgstr "HALK KART Hesap oluştur"
+
+msgid "lb13_Email"
+msgstr "E-posta"
+
+msgid "lb13_Firstname"
+msgstr "İsim"
+
+msgid "lb13_Forgot your password?"
+msgstr "HALK KART Parolanızı mı unuttunuz?"
+
+msgid "lb13_Forgot your password? Enter your email address, it will be emailed to you"
+msgstr "HALK KART Parolanızı mı unuttunuz? E-posta adresinizi girin, e-postanıza iletilsin."
+
+msgid "lb13_I accept the privacy policy"
+msgstr "Kuralları kabul ediyorum."
+
+msgid "lb13_Lastname"
+msgstr "Soyisim"
+
+msgid "lb13_Nickname"
+msgstr "Kullanıcı adı"
+
+msgid "lb13_Old Password"
+msgstr "Eski parola"
+
+msgid "lb13_Or sign in with Facebook"
+msgstr "Facebook ile giriş yap"
+
+msgid "lb13_Password"
+msgstr "HALK KART Parola"
+
+msgid "lb13_Save"
+msgstr "Kaydet"
+
+msgid "lb13_Send me my password"
+msgstr "HALK KART Parolamı gönder"
+
+msgid "lb13_Show me in ranking"
+msgstr "Beni sıralamada göster"
+
+msgid "lb13_Sign in"
+msgstr "HALK KART Oturum aç"
+
+msgid "lb13_Sign up"
+msgstr "HALK KART Kaydol"
+
+msgid "lb13_Welcome"
+msgstr "HALK KART Mobile Hoş geldiniz"
+
+msgid "lb13_Your points"
+msgstr "HALK KART Puanlarınız"

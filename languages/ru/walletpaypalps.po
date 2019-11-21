@@ -1,0 +1,27 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-14T13:24:36+03:00\n"
+"PO-Revision-Date: 2019-06-14T13:24:36+03:00\n"
+"Language: \n"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Deposit funds in the wallet"
+msgstr "Пополнить баланс"
+
+msgid "Operation result"
+msgstr "Результат операции"
+
+msgid "Sorry, something went wrong. Try later."
+msgstr "К сожалению, что-то пошло не так. Попробуйте позже."
+
+msgid "Thank. Funds will be credited automatically."
+msgstr "Спасибо. Средства будут автоматически зачислены."

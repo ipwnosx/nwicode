@@ -1,0 +1,188 @@
+<?php
+	//error_reporting(E_ALL);
+	//ini_set('display_errors', 1);
+	//Получим данные кошелька
+	//$application = $this->getApplication();
+	if ($this->getSession()->getAppId()) $app_id = $this->getSession()->getAppId(); else $app_id=$this->getApplication()->getId();
+	$db =Zend_Db_Table_Abstract::getDefaultAdapter();
+
+	$stmt = $db->query(
+		'SELECT version FROM module WHERE name = ?',
+		array('Wallet')
+	);
+	$current_version =$stmt->fetch()['version'];
+	
+
+	if (empty($current_version)) {
+		echo "Wallet module not found! Exit...";
+		?><br><a href="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";?>" rel="" class="navigation"><i class="fa fa-sign-out fa-lg"></i> <?php echo __('Exit to Editor'); ?></a><br><?php
+		die(__("Wallet module not found! Exit..."));
+	}	
+	
+	$stmt = $db->query(
+		'SELECT * FROM application_option WHERE code = ?',
+		array('wallet')
+	);
+	$option_id = $stmt->fetch()['option_id'];
+	$stmt = $db->query(
+		'SELECT * FROM application_option_value WHERE option_id = ? and app_id = ?',
+		array($option_id, $app_id)
+	);
+	$value_id = $stmt->fetch()['value_id'];
+
+	$wallet = new Wallet_Model_Wallet();
+	$wallet->find(array("value_id" => $value_id));
+
+	$paypal = new WalletPaypalPS_Model_PaymentMethodsPaypal();
+	$paypal->find(array('wallet_id'=>$wallet->getId()));
+?>
+
+<div id="list-panel" class="settings-panel">  
+	<div class="row">
+		<div class="col-sm-12">
+			<h1>Paypal. <?php echo __('Settings'); ?></h1>
+		</div>
+	  </div>
+	  <br>
+	  <br>
+	  <form class="form-horizontal" id="paypalsettingsForm" method="post" action="<?php echo $this->getUrl('walletpaypalps/admin/save'); ?>">
+	  <input type="hidden" name="wallet_id" value="<?php echo $wallet->getId();?>">
+	  <input type="hidden" name="paypal_id" value="<?php echo $paypal->getId();?>">
+	  <div class="row">
+		<div class="col-sm-12">
+		
+		  <div class="form-group">
+			<label for="inputTitle" class="col-sm-2 control-label">Enabled?</label>
+			<div class="col-sm-10">
+				<select class="form-control" name="enabled">
+					<option value=1 <?php if ($paypal->getData('enabled')=="1") echo "selected='selected'";?>><?php echo __('Method enabled'); ?></option>
+					<option value=0 <?php if ($paypal->getData('enabled')=="0") echo "selected='selected'";?>><?php echo __('Method disabled'); ?></option>
+				</select>
+			</div>
+		  </div>	
+		  
+		  <div class="form-group">
+			<label for="inputTitle" class="col-sm-2 control-label"><?php echo __('Method title'); ?></label>
+			<div class="col-sm-10">
+			  <input type="text" class="form-control" id="inputTitle" name="title" placeholder="via Paypal, Paypal card , etc..." value="<?php echo $paypal->getData('title');?>">
+			</div>
+		  </div>
+		  
+		  <div class="form-group">
+			<label for="inputUsername" class="col-sm-2 control-label">Client ID</label>
+			<div class="col-sm-10">
+			  <input type="text" class="form-control" id="inputUsername" name="username" placeholder="Username" value="<?php echo $paypal->getData('username');?>">
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label for="inputPassword" class="col-sm-2 control-label">Secret</label>
+			<div class="col-sm-10">
+			  <input type="text" class="form-control" name="password" id="inputPassword" placeholder="Password" value="<?php echo $paypal->getData('password');?>">
+			</div>
+		  </div>
+		  <input type="hidden" name="signature" value="">
+		  <!--
+		  <div class="form-group">
+			<label for="inputSignature" class="col-sm-2 control-label">Signature</label>
+			<div class="col-sm-10">
+			  <input type="text" class="form-control" name="signature" id="inputSignature" placeholder="Signature" value="<?php echo $paypal->getData('signature');?>">
+			</div>
+		  </div>-->		  
+		  <div class="form-group">
+			<label for="inputTitle" class="col-sm-2 control-label">Test mode</label>
+			<div class="col-sm-10">
+				<select class="form-control" name="is_testing">
+					<option value=1 <?php if ($paypal->getData('is_testing')=="1") echo "selected='selected'";?>><?php echo __('Yes'); ?></option>
+					<option value=0 <?php if ($paypal->getData('is_testing')=="0") echo "selected='selected'";?>><?php echo __('No'); ?></option>
+				</select>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	<div class="row" style="padding:10px;">
+		<div class="col-sm-6 text-right"><button type="button" class="btn btn-success btn-lg paypal_save_settings" id="paypal_save_settings"><i class="fa fa-floppy-o" aria-hidden="true"></i> <?php echo $this->_('Save'); ?></button></div>
+		<div class="col-sm-6 text-left"><button type="button" class="btn btn-default btn-lg paypal_back_button" id="paypal_back_button"><i class="fa fa-undo" aria-hidden="true"></i> <?php echo $this->_('Undo'); ?></button></div>
+	</div></form>	  
+</div>
+<script type="text/javascript">
+var form_valid = false;
+$(document).ready(function(){
+	$("#paypal_back_button").on("click",function() {
+		loader_show();
+		$.ajax({
+		   url: '<?php echo $this->getUrl('wallet/admin/payment'); ?>',
+		   type:'GET',
+		   data:"parameter=WalletPaypalPS",
+		   dataType: "json",
+		   success: function(data){
+				$("#error-message").hide();
+				$("#success-message").hide();
+			   $('#main').html(data.html);
+			   loader_hide();
+		   }
+		});
+	});
+	
+	
+	$("#paypal_save_settings").on("click",function() {
+
+		//swal("Here's a message!");
+		loader_show();
+		
+		$.ajax({
+			   type: "POST",
+			   url:$("#paypalsettingsForm").attr("action"),
+			   data: $("#paypalsettingsForm").serialize(), // serializes the form's elements.
+			   dataType: "json",
+			   success: function(data)
+			   {
+				   console.log(data); // show response from the php script.
+				   if (data.success) {
+						$("#error-message").hide();
+						$("#success-message").html(data.success_message);
+						$("#success-message").show();
+						if ($('#item-subpanel').length) {
+							$('#item-subpanel').hide();
+							$('#item-panel').show();
+							$('#list-panel').hide();
+						} else {
+							$('#item-panel').hide();
+							$('#list-panel').show();		
+						}
+						
+						/*simple reload page*/
+						loader_show();							
+						$.ajax({
+						   url:'<?php echo $this->getUrl('wallet/admin/payment'); ?>',
+						   type:'GET',
+						   data: "parameter=WalletPaypalPS",
+						   dataType: "json",
+						   success: function(data1){
+								$("#error-message").hide();
+								$("#success-message").hide();
+							   $('#main').html(data1.html);
+							   $("#success-message").html(data.success_message).show();
+							   loader_hide();
+						   }
+						});							
+
+						
+				   }
+				   $("html, body").animate({ scrollTop: 0 }, "fast");
+			   },
+			   error: function (jqXHR) {
+				var rdata = JSON.parse(jqXHR.responseText);
+				console.log(jqXHR.responseText);
+			   //console.log(exception);
+				$("#error-message").html(rdata.message);
+				$("#error-message").show();
+				$("#success-message").html();
+				$("#success-message").hide();
+				loader_hide();
+				$("html, body").animate({ scrollTop: 0 }, "fast");
+			   }
+			 });		
+	});		
+	
+});
+</script>

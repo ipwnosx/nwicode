@@ -1,0 +1,39 @@
+<ion-modal-view sb-page-background >
+
+    <ion-header-bar class="bar-custom">
+        <div class="buttons">
+            <button class="button button-clear" ng-click="request_modal.hide();"><i class="icon ion-ios-arrow-back"></i></button>
+        </div>
+        <h1 class="title">{{ 'Request payout' | translate }} {{data.id}}</h1>
+    </ion-header-bar>
+
+    <ion-content id="category-submenu">
+		<!-- ionic 4-->
+		<div ng-if="!old_style && !is_loading  && is_logged_in">
+		dd
+        </div>
+
+		
+		<!-- ionic 1-->
+		<div class="ionic1" ng-if="old_style && !is_loading">
+			<div class="card wallet-card-payout-request">
+				<div class="item item-text-wrap">
+					<div class="list">
+						<label class="item item-input item-stacked-label"><span class="input-label">{{'Amount'|translate}}</span><input type="number" ng-model="mr.request_amount" placeholder="{{'Amount'|translate}}"></label>
+						<label class="item item-input item-select">
+							<div class="input-label">{{'Payout method'|translate}}</div>
+							<select ng-model = "data.payout_method_current" ng-change="PayoutMethodChange()">
+								<option ng-selected="$index ==0" value="{{pm.wallet_payout_methods_id}}" ng-if="pm.active=='1'" ng-repeat="pm in data.payment_methods">{{pm.title}}</option>
+							</select>
+						</label>
+						<div class="item item-text-wrap dark" ng-if="data.payout_method_current>0"><p>{{'Payout minimum'|translate}}: {{current_payout_method.minimum}}</p><p>{{current_payout_method.description}}</p></div>
+						<label class="item item-input item-stacked-label"><span class="input-label">{{'Comment'|translate}}</span><textarea ng-model="mr.request_comment" placeholder="{{'Comment'|translate}}"></textarea></label>
+						<div class="item item-text-wrap assertive" ng-if="mr.error_message!=''">{{mr.error_message}}</div>
+						<div class="item"><button class="button button-full button-positive" ng-click="makeRequest()"><i class="icon  ion-paper-airplane"></i> {{'Make request'|translate}}</button></div>
+					</div>
+				</div>				
+			</div>				
+        </div>
+
+    </ion-content>
+</ion-modal-view>

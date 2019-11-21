@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T19:40:49+03:00\n"
+"PO-Revision-Date: 2019-06-05T19:40:49+03:00\n"
+"Language: \n"
+
+msgid "Booking details"
+msgstr "Rezervasyon detayları"
+
+msgid "Booking details:"
+msgstr "Rezervasyon detayları:"
+
+msgid "Booking location:"
+msgstr "Konum rezervasyon:"
+
+msgid "Booking subject:"
+msgstr "Rezervasyon konusu:"
+
+msgid "Comment:"
+msgstr "Yorum:"
+
+msgid "Date and time"
+msgstr "Tarih ve saat"
+
+msgid "Date and time:"
+msgstr "Tarih ve zaman:"
+
+msgid "Email address:"
+msgstr "E-posta adresi:"
+
+msgid "Enter the location name and contact email:"
+msgstr "Konum adı ve iletişim e-posta girin:"
+
+msgid "First name / Last name"
+msgstr "İlk Adı / Soyadı"
+
+msgid "Here are his personal information:"
+msgstr "Kişisel bilgiler şunlardır:"
+
+msgid "Information"
+msgstr "Bilgi"
+
+msgid "Location"
+msgstr "Konum"
+
+msgid "Name:"
+msgstr "Adı:"
+
+msgid "Nom du lieu :"
+msgstr "Yer Adı:"
+
+msgid "Number of people"
+msgstr "Kişi sayısı"
+
+msgid "People number:"
+msgstr "Kişi No:"
+
+msgid "Phone number:"
+msgstr "Telefon numarası:"
+
+msgid "Please fill out the following fields:"
+msgstr "Aşağıdaki alanları eksiksiz doldurunuz:"
+
+msgid "Please fill out the following fields:<br />"
+msgstr "Aşağıdaki alanları eksiksiz doldurunuz:<br />"
+
+msgid "Please fill out the following fields:<br/>"
+msgstr "Lütfen aşağıdaki alanları doldurun: <br/>"
+
+msgid "Please, choose a store"
+msgstr "Lütfen, bir mağaza seçin"
+
+msgid "Thank you for your request. We'll answer you as soon as possible."
+msgstr "İsteğiniz için teşekkür ederim. En kısa sürede size cevap vereceğiz."
+
+msgid "The booking information"
+msgstr "Rezervasyon bilgileri"
+
+msgid "The booking informations"
+msgstr "Rezervasyon bilgileri"
+
+msgid "The date and time of the booking"
+msgstr "Rezervasyon tarih ve saati"
+
+msgid "The number of people"
+msgstr "Kişi sayısı"
+
+msgid "You have received a message for the booking of"
+msgstr "Rezervasyon için mesaj aldınız"
+
+msgid "Your name"
+msgstr "Adınızı"
+
+msgid "Your phone number or email address"
+msgstr "Telefon numarası ya da e-posta adresiniz"

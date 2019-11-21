@@ -1,0 +1,1134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T19:40:09+03:00\n"
+"PO-Revision-Date: 2019-06-05T19:40:09+03:00\n"
+"Language: \n"
+
+msgid "%d Unread Message"
+msgstr "%d Okunmamış mesaj"
+
+msgid "%d Unread Messages"
+msgstr "%d Okunmamış mesajlar"
+
+msgid "60000 maximum allowed."
+msgstr "En fazla 60000'e izin verilir."
+
+msgid "<b>Actual preview version is Nwicode 5.0</b>."
+msgstr "<b>Gerçek önizleme sürümü Sibirya 5.0</b>."
+
+msgid "<b>Disclaimer:</b> You are using the <b>preview</b> update channel, this channel is intended for <b>tests & previews</b> of new features, if you are not sure stay with <b>stable channel</b>."
+msgstr "<b> Feragatname: Şu anda güncel kanalın</b> <b> Önizlemesini </b> kullanıyorsunuz, bu kanal yeni özelliklerin <b> test ve önizlemeleri</b> için kullanılmaktadır, emin değilseniz <b> stabil kanalda </b> kalın."
+
+msgid "<b>Note for Bug report:</b> give us a maximum of description of how you reached the bug, and possibly screenshots."
+msgstr "<b>Hata raporu için not:</b> bize hataya nasıl eriştiğinizi ve muhtemel ekran görüntülerini sağlar."
+
+msgid "<b>Note</b>: sources & push will be sent immediately after their creation, scheduled push will not work & media optimization is disabled."
+msgstr "<b>Not</b>: Kaynaklar ve push, oluşturulduktan hemen sonra gönderilecek, planlanan push çalışmayacak ve medya optimizasyonu devre dışı bırakılacak."
+
+msgid "A certificate already exists for the domain %s, if you want to re-generate it, use 'Force re-generate' to proceed."
+msgstr "%s domaini için bir sertifika mevcut, yeniden üretmek istiyorsanız \"Yeniden üretmeye zorla\"yı seçin"
+
+msgid "APK Queue empty"
+msgstr "APK Sırası boş"
+
+msgid "APK Queue status"
+msgstr "APK Sıra Durumu"
+
+msgid "APNS Feedback port 2196 is:"
+msgstr "APNS Feedback girişi 2196:"
+
+msgid "APNS Feedback:"
+msgstr "APNS Geri Bildirimi"
+
+msgid "APNS Port 2195 is:"
+msgstr "APNS Girişi 2195:"
+
+msgid "Account"
+msgstr "Hesap"
+
+msgid "Account Role"
+msgstr "Hesap Rolü"
+
+msgid "Actions"
+msgstr "Eylemler"
+
+msgid "Activate VAT number check with VIES"
+msgstr "VIES ile KDV numarasını kontrol et"
+
+msgid "Activate user"
+msgstr "Aktif kullanıcı"
+
+msgid "Active ?"
+msgstr "Aktif?"
+
+msgid "Add a custom text to the footer of your invoices"
+msgstr "Faturaların sonuna özel bir mesaj ekle"
+
+msgid "Admin panel type"
+msgstr "Admin panel türü"
+
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+msgid "Alert: The APK build for the Application: %s (%s) is stuck for more than one hour."
+msgstr "Uyarı: Uygulama için APK yapısı:%s (%s), bir saatten uzun bir süre boyunca sıkışmış."
+
+msgid "Alert: The Source build for the Application: %s (%s) is stuck for more than one hour."
+msgstr "Uyarı: Uygulama için Kaynak oluşturma:%s (%s), bir saatten uzun bir süre boyunca sıkışmış."
+
+msgid "All the files are required."
+msgstr "Tüm dosyalar gerekli."
+
+msgid "An entry already exists for this hostname, remove it first if you need to change your certificates."
+msgstr "Bu sunucu adı için bir giriş zaten var, sertifikalarınızı değiştirmeniz gerekiyorsa önce onu kaldırın."
+
+msgid "An error occured"
+msgstr "Bir hata oluştu"
+
+msgid "An error occured while saving certificate to %s."
+msgstr "Sertifika %s e kaydedilirken bir hata oluştu."
+
+msgid "An error occurred during the process. Please try again later."
+msgstr "İşlem esnasında hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An unknown error occured while issueing your certificate."
+msgstr "Sertifikanız verilirken bilinmeyen bir hata oluştu."
+
+msgid "Android SDK:"
+msgstr "Android SDK'sı:"
+
+msgid "App name"
+msgstr "Uygulama adı"
+
+msgid "Application settings"
+msgstr "Uygulama ayarlaro"
+
+msgid "Application successfully queued for generation."
+msgstr "Uygulama, üretim için başarıyla sıraya alındı."
+
+msgid "Applications/Previewer manifest for automatic updates."
+msgstr "Otomatik güncellemeler için Uygulamalar/Önizleyici göster"
+
+msgid "Are you sure ?"
+msgstr "Emin misiniz?"
+
+msgid "Auth type"
+msgstr "Yetkili türü"
+
+msgid "Authenticate"
+msgstr "Doğrula"
+
+msgid "Average build time in seconds:"
+msgstr "Saniye olarak ortalama yapım süresi:"
+
+msgid "Average sources/apk build time:"
+msgstr "Ortalama kaynaklar / apk yapım süresi:"
+
+msgid "Backoffice options"
+msgstr "Backoffice ayarları"
+
+msgid "Bearer Token Auth (API)"
+msgstr "Taşıyıcı Token Doğrulama (API)"
+
+msgid "Bearer Token Auth is valid."
+msgstr "Token Taşıyıcı Doğrulama geçerli."
+
+msgid "Beta"
+msgstr "Beta"
+
+msgid "Build status"
+msgstr "Kurgu statüsü"
+
+msgid "Build time (in seconds)"
+msgstr "Zamanı ayarla (saniye cinsinde)"
+
+msgid "By clicking on link below, you will open your editor in tour editing mode. Please note that your user account must be created on editor side."
+msgstr "Aşağıdaki linke tıklayarak editörünüzü tur düzenleme modunda açacaksınız. Lütfen kullanıcı hesabınızın editör tarafında oluşturulması gerektiğini unutmayın."
+
+msgid "CA"
+msgstr "CA"
+
+msgid "CA certificate"
+msgstr "CA sertifikası"
+
+msgid "CA path:"
+msgstr "CA path:"
+
+msgid "CRON Scheduler interval"
+msgstr "CRON Planlayıcı aralığı"
+
+msgid "Cache (var/cache, system cache)"
+msgstr "(Var/cache sistemi cache)önbellek"
+
+msgid "Cache cleared"
+msgstr "Cache temizlendi"
+
+msgid "Can generate APK"
+msgstr "APK üretebilir"
+
+msgid "Cert"
+msgstr "Sertf"
+
+msgid "Certificate"
+msgstr "Sertifika"
+
+msgid "Certificate is valid and SSL is reachable, valid until: %s.<br />Issuer: %s%s"
+msgstr "Sertifika geçerli ve SSL'ye erişilebilir, şu tarihe kadar geçerlidir:% s. <br /> İhraç eden:%s %s"
+
+msgid "Certificate path:"
+msgstr "Sertifika yolu:"
+
+msgid "Certificate successfully generated."
+msgstr "Sertifika başarıyla üretildi."
+
+msgid "Certificate successfully generated. Please wait while %s is reloading configuration ..."
+msgstr "Sertifika başarıyla oluşturuldu. Lütfen %s yapılandırmayı yeniden yüklerken bekleyin..."
+
+msgid "Certificate successfully re-generated."
+msgstr "Sertifika başarıyla yeniden üretildi."
+
+msgid "Change the password"
+msgstr "Şifreyi değiştir"
+
+msgid "Check if this cron command is installed under the web user & if you have set a timezone in Settings > General"
+msgstr "Cron komutu web kullanıcısının altında yüklüyse ve Ayarlar > Genel’de saat diliminizi ayarladıysanız kontrol edin"
+
+msgid "Clear"
+msgstr "Temizle"
+
+msgid "Clear cache"
+msgstr "Cache temizle"
+
+msgid "Clear logs"
+msgstr "Logları temizle"
+
+msgid "Cleared cron errors."
+msgstr "Cron hataları giderildi."
+
+msgid "Click here to send your CA certificate"
+msgstr "CA sertifikanızı göndermek için buraya tıklayın"
+
+msgid "Click here to send your Private certificate"
+msgstr "Özel sertifika göndermek için buraya tıklayın"
+
+msgid "Click here to send your certificate"
+msgstr "Sertifikanızı göndermek için buraya tıklayın"
+
+msgid "Click to mark as not read"
+msgstr "Okunmamış olarak işaretle"
+
+msgid "Click to mark as read"
+msgstr "Okunmuş olarak işaretle"
+
+msgid "Closed"
+msgstr "Kapalı"
+
+msgid "Complete build log"
+msgstr "Kurgu log'unu tamamla"
+
+msgid "Configuration"
+msgstr "Konfigürasyon"
+
+msgid "Configuration successfully saved"
+msgstr "Yapılandırma başarıyla tamamlandı"
+
+msgid "Core modules"
+msgstr "Çekirdek modüller"
+
+msgid "Create a user"
+msgstr "Yeni kullanıcı oluştur"
+
+msgid "Created At"
+msgstr "Oluşturuldu"
+
+msgid "Creation date"
+msgstr "Oluşturma tarihi"
+
+msgid "Cron"
+msgstr "Cron"
+
+msgid "Cron alerts"
+msgstr "Cron alarmlaı"
+
+msgid "Cron interval"
+msgstr "Cron aralığı"
+
+msgid "Cron scheduler"
+msgstr "Cron planlayıcısı"
+
+msgid "Cron scheduler help"
+msgstr "Cron planlayıcı yardım"
+
+msgid "Custom SMTP Configuration"
+msgstr "Özel STMP Yapılandırması"
+
+msgid "Day of month"
+msgstr "Ayın günü"
+
+msgid "Day of week"
+msgstr "Haftanın günü"
+
+msgid "Deactivate user"
+msgstr "Aktif olmayan kullancı"
+
+msgid "Default (no)"
+msgstr "Default (hayır)"
+
+msgid "Development"
+msgstr "Geliştirme"
+
+msgid "DirectAdmin"
+msgstr "DirectAdmin"
+
+msgid "DirectAdmin (beta)"
+msgstr "DirectAdmin (beta)"
+
+msgid "Disable cron jobs"
+msgstr "Cron işlerini devredışı bırak"
+
+msgid "Disabled"
+msgstr "Engellendi"
+
+msgid "Disk usage & Cache:"
+msgstr "Disk kullanımı ve Cache:"
+
+msgid "Dismiss & install later"
+msgstr "Kapat ve daha sonra yükle"
+
+msgid "Display"
+msgstr "Göster"
+
+msgid "Doesn't meet the requirements"
+msgstr "Gereklilikleri karşılamıyor."
+
+msgid "Download latest source"
+msgstr "En son kaynağı indir"
+
+msgid "Drop your certificate here"
+msgstr "Sertifikanızı buraya bırakın"
+
+msgid "Edit the account \"%s\""
+msgstr "\"%s\" hesabını düzenle"
+
+msgid "Edit the user"
+msgstr "Kullanıcı düzenle"
+
+msgid "Editor's Design"
+msgstr "Editörün tasarımı"
+
+msgid "Enable custom SMTP configuration"
+msgstr "Özel SMTP yapılandırmasını etkinleştir"
+
+msgid "Enter your credentials:"
+msgstr "Kimlik bilgilerinizi girin:"
+
+msgid "Environment"
+msgstr "Çevre"
+
+msgid "Error, order already paid."
+msgstr "Hata, sipariş daha önce ödendi."
+
+msgid "Errors are displayed on page, outputs are more verbose, this is an option for debug purpose, use with care as it may output some critical informations about your server."
+msgstr "Hata sayfasında görüntülenir, çıkışları daha ayrıntılı olup, bu hata ayıklama amacı, sunucunuz ilgili önemli bilgiler çıktı bile kullanmak için bir seçenek yoktur."
+
+msgid "Exists"
+msgstr "Mevcut"
+
+msgid "External extensions"
+msgstr "Dış uzantılar"
+
+msgid "Failed"
+msgstr "Başarısız"
+
+msgid "File hash is different from manifest."
+msgstr "Dosya karma manifest'ten farklı."
+
+msgid "File is missing."
+msgstr "Dosya eksik."
+
+msgid "Force re-generation"
+msgstr "Yeniden üretmeyi zorla"
+
+msgid "Forgot password"
+msgstr "Parolamı unuttum"
+
+msgid "Full"
+msgstr "Dolu"
+
+msgid "Full path to use within your webserver."
+msgstr "Web sunucunuzda kullanmak için tam yol."
+
+msgid "General settings"
+msgstr "Genel ayarlar"
+
+msgid "Generate"
+msgstr "Üret"
+
+msgid "Generate a certificate via Let's Encrypt."
+msgstr "Let's Encyript üzerinden sertifika üretin"
+
+msgid "Generate source"
+msgstr "Kaynak üret"
+
+msgid "Generating"
+msgstr "Üretiliyor"
+
+msgid "Grant user"
+msgstr "Kullanıcı ver"
+
+msgid "HTTP Basic Auth (API)"
+msgstr "HTTP Temel Yetkisi (API)"
+
+msgid "HTTP Basic Auth is valid."
+msgstr "HTTP Temel Yetki geçerli."
+
+msgid "HTTPS & SSL Certificates"
+msgstr "HTTPS & SSL Sertifikaları"
+
+msgid "HTTPS host is unreachable."
+msgstr "HTTPS host'u ulaşılabilir değil."
+
+msgid "HTTPS is not available on your server."
+msgstr "HTTPS sunucunuzda mevcut değil."
+
+msgid "HTTPS not reachable"
+msgstr "HTTPS ulaşılabilir değil"
+
+msgid "HTTPS support is in <b>Beta</b>, you should test it on your <b>development server</b> first & prepare for further migration."
+msgstr "HTTPS desteği <b> Beta </ b> ’da, önce <b> geliştirme sunucunuzda </ b> test etmeli ve daha fazla geçiş için hazırlamalısınız."
+
+msgid "HTTPS support is in test, you should only try it on your development server prior to prepare for further migration."
+msgstr "HTTPS desteği test aşamasındadır, daha fazla geçiş için hazırlanmadan önce bunu yalnızca geliştirme sunucunuzda denemeniz gerekir."
+
+msgid "Hide"
+msgstr "Gizle"
+
+msgid "Host"
+msgstr "Sunucu"
+
+msgid "Hostname"
+msgstr "Sunucu ismi"
+
+msgid "Hostnames associated with this Certificate"
+msgstr "Bu sertifika ile ilişkili sunucu adları"
+
+msgid "Hour"
+msgstr "Saat"
+
+msgid "ID"
+msgstr "Kimlik"
+
+msgid "If inactive, your customer won't see the tour."
+msgstr "Aktif değilse müşteriniz turu görüntüleyemeyecek."
+
+msgid "If you are unable to install or run the cronjob on your hosting/server you can disable it."
+msgstr "Eğer cronjob'i sunucu/server'ınıza yükleyemiyorsanız veya çalıştıramazsanız, devre dışı bırakabilirsiniz."
+
+msgid "Info"
+msgstr "Bilgi"
+
+msgid "Installed"
+msgstr "Yüklendi"
+
+msgid "Installed icon packs"
+msgstr "Yüklenmiş ikon paketleri"
+
+msgid "Installed layouts"
+msgstr "Yüklenmiş layoutlar"
+
+msgid "Installed modules"
+msgstr "Yüklenmiş modüller"
+
+msgid "Installed, version"
+msgstr "Yüklendi, versiyon,"
+
+msgid "Integrity check"
+msgstr "Bütünlük denetimi"
+
+msgid "Invoice options"
+msgstr "Fatura ayarları"
+
+msgid "Issued certificates"
+msgstr "Verilen sertifikalar"
+
+msgid "JAVA:"
+msgstr "JAVA"
+
+msgid "Last cron error"
+msgstr "Son cron hatası"
+
+msgid "Last failure"
+msgstr "Son hata"
+
+msgid "Last success"
+msgstr "Son başarı"
+
+msgid "Last trigger"
+msgstr "Son tetikleyici"
+
+msgid "Let's Encrypt certificates renewal"
+msgstr "Sertifika yenileme işlemlerini şifreleyelim"
+
+msgid "Let's Encrypt environment"
+msgstr "Hadi Şifrelemek ortamı"
+
+msgid "Link preview"
+msgstr "Link önizleme"
+
+msgid "List of backoffice accounts"
+msgstr "Backofis kullanıcıları listesi"
+
+msgid "List of the messages"
+msgstr "Mesajlar listesi"
+
+msgid "Loaded"
+msgstr "Yüklendi"
+
+msgid "Log"
+msgstr "Günlük"
+
+msgid "Log (var/log, log files)"
+msgstr "Günlük (var/log, log dosyaları)"
+
+msgid "Login to your backoffice interface"
+msgstr "Backofis arabirimine giriş"
+
+msgid "Logs cleared."
+msgstr "Kayıtlar temizlendi"
+
+msgid "Mark all as read"
+msgstr "Tamamını okundu olarak işaretle."
+
+msgid "Mark as new"
+msgstr "Yeni olarak işaretle"
+
+msgid "Mark as read"
+msgstr "Okundu olarak işaretle"
+
+msgid "Messages"
+msgstr "Mesajlar"
+
+msgid "Minute"
+msgstr "Dakika"
+
+msgid "Missing parameters for generation."
+msgstr "Üretim için eksik parametreler"
+
+msgid "Mobile Source Codes & Builds"
+msgstr "Mobil Üretim Kodları & Kurgular"
+
+msgid "Module/User tasks"
+msgstr "Modül/kullanıcı görevleri"
+
+msgid "Month"
+msgstr "Ay"
+
+msgid "My Invoices"
+msgstr "Faturalar"
+
+msgid "My tour is active"
+msgstr "Turum aktif"
+
+msgid "Name"
+msgstr "İsim"
+
+msgid "New messages"
+msgstr "Yeni mesajlar"
+
+msgid "New users"
+msgstr "Yeni kullanıcılar"
+
+msgid "No"
+msgstr "Hayır"
+
+msgid "No file has been sent"
+msgstr "Hiçbir dosya gönderilmedi."
+
+msgid "No icon packs"
+msgstr "İkon paketi yok."
+
+msgid "No informations."
+msgstr "Bilgi yok."
+
+msgid "No layouts"
+msgstr "Layout yok"
+
+msgid "No module/user tasks"
+msgstr "Modül/kullanıcı görevi yok"
+
+msgid "No system tasks"
+msgstr "Sistem görevi yok."
+
+msgid "None"
+msgstr "Hiçbiri"
+
+msgid "Not found"
+msgstr "Bulunamadı"
+
+msgid "Not running"
+msgstr "Çalışmıyor."
+
+msgid "Not yet generated."
+msgstr "Henüz üretilmedi."
+
+msgid "Note:"
+msgstr "Not:"
+
+msgid "Note: Let's encrypt X1 is a staging certificate."
+msgstr "Not: X1 şifreleyelim; kademelenme sertifikası."
+
+msgid "Number of typed characters:"
+msgstr "Yazılan karakter sayısı"
+
+msgid "Nwicode - Backoffice"
+msgstr "Nwicode - Backoffice"
+
+msgid "Nwicode CMS"
+msgstr "Nwicode CMS"
+
+msgid "OR"
+msgstr "OR"
+
+msgid "Ok"
+msgstr "Tamam"
+
+msgid "Ok, you may consider upgrade to >=5.4"
+msgstr "Tamam,> = 5.4’e yükseltebilirsiniz."
+
+msgid "Ok, you may upgrade to php 5.6"
+msgstr "Tamam, php 5.6'ya yükseltebilirsiniz"
+
+msgid "One of the three given Certificates path is not readable, please make sure they have the good rights."
+msgstr "Verilen üç Sertifika yolundan biri okunamaz, lütfen iyi haklara sahip olduklarından emin olun."
+
+msgid "Open"
+msgstr "Açık"
+
+msgid "Open the tour editing mode"
+msgstr "Tur düzenleme modunu aç"
+
+msgid "Optional binaries"
+msgstr "İsteğe bağlı ikili"
+
+msgid "Optional libraries"
+msgstr "İsteğe bağlı kütüphaneler"
+
+msgid "Otherwise install it manually, from your panel, or directly from your ssh access."
+msgstr "Ya da panalden veya doğrudan ssh erişiminizden manuel olarak yükleyin."
+
+msgid "Overview - WebApp (var/apps/browser, overview & webapp cache)"
+msgstr "(Var/apps/Tarayıcı, Genel Bakış & web önbellek)genel bakış - Web"
+
+msgid "Overview cache cleared."
+msgstr "Genel bakış cache'si temizlendi"
+
+msgid "PEM test:"
+msgstr "PEM test:"
+
+msgid "PHP version %s:"
+msgstr "PHP versiyonu %s:"
+
+msgid "Password"
+msgstr "Parola"
+
+msgid "Path to your CA certificate"
+msgstr "Sertifikanıza yol"
+
+msgid "Path to your Certificate"
+msgstr "Sertifikanıza yol"
+
+msgid "Path to your Private certificate"
+msgstr "Özel sertifikaya yolunuz"
+
+msgid "Path to your Private key"
+msgstr "Özel anahtara yol"
+
+msgid "Payment received"
+msgstr "Ödeme alındı"
+
+msgid "People who are allowed to access the backoffice"
+msgstr "Backofis kullanmasına izin verilenler"
+
+msgid "Permission, denied from Plesk, please use the admin account."
+msgstr "İzin, Plesk'den reddedildi, lütfen yönetici hesabını kullanın."
+
+msgid "Plesk"
+msgstr "Plesk"
+
+msgid "Plesk 12+"
+msgstr "Plesk 12+"
+
+msgid "Port"
+msgstr "Giriş/Bağlantı noktası"
+
+msgid "Preview 5.0"
+msgstr "Ön izleme 5.0"
+
+msgid "Privacy policy URL"
+msgstr "Gizlilik Politikası URL'i"
+
+msgid "Private"
+msgstr "Özel"
+
+msgid "Private certificate"
+msgstr "Özel sertifika"
+
+msgid "Private path:"
+msgstr "Özel yol:"
+
+msgid "Production"
+msgstr "Üretim"
+
+msgid "Progress"
+msgstr "İlerleme"
+
+msgid "Publication access type"
+msgstr "Yayınlama erişim türü"
+
+msgid "Push messages:"
+msgstr "Push mesajları"
+
+msgid "Queued"
+msgstr "Sıraya alındı"
+
+msgid "Queued %s/%s"
+msgstr "%s/%s sıraya alındı"
+
+msgid "Read"
+msgstr "Oku"
+
+msgid "Rebuild"
+msgstr "Yeniden kurgula"
+
+msgid "Rebuild manifest"
+msgstr "Tekrar manifest kurgula"
+
+msgid "Rebuilding application manifest files."
+msgstr "Uygulama manifest dosyalarını yeniden oluşturma."
+
+msgid "Regular updates system"
+msgstr "Düzenli güncellem sistemi"
+
+msgid "Remove locks"
+msgstr "Kilitleri kaldır"
+
+msgid "Remove locks now"
+msgstr "Kilitleri limdi kaldır"
+
+msgid "Removing CRON Scheduler lock files."
+msgstr "CRON Scheduler kilit dosyalarını kaldırma."
+
+msgid "Removing domains: %s"
+msgstr "Alan adları kaldırılıyor: %s"
+
+msgid "Request"
+msgstr "Talep"
+
+msgid "Request the certificate via Let's Encrypt."
+msgstr "Sertifikayı Let's Encrypt üzerinden isteyin."
+
+msgid "Required extensions"
+msgstr "Gerekli uzantılar"
+
+msgid "Revoke user"
+msgstr "Kullanıcıyı iptal et"
+
+msgid "Run test"
+msgstr "Testi çalıştır"
+
+msgid "SSL"
+msgstr "SSL"
+
+msgid "Sales"
+msgstr "Satış"
+
+msgid "Sales configuration"
+msgstr "Satış konfigürasyonu"
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Select API access"
+msgstr "API erişimi seçin"
+
+msgid "Select a panel type or self-managed"
+msgstr "Bir panel türü veya self-managed türü seçin"
+
+msgid "Self-managed"
+msgstr "Kendi yöneten"
+
+msgid "Self-managed sync is not available for now."
+msgstr "Kendi yöneten senkronizasyon şimdilik mevcut değil."
+
+msgid "Send anonymous statistics to improve the apps builder."
+msgstr "Uygulama oluşturucuyu geliştirmek için anonim istatistikler gönderin."
+
+msgid "Server"
+msgstr "Sunucu"
+
+msgid "Services"
+msgstr "Servisler"
+
+msgid "Show All Applications"
+msgstr "Tüm uygulamaları göster"
+
+msgid "Show more"
+msgstr "Daha fazla göster"
+
+msgid "Something went wrong with the API Sync to %s, retry or check in your panel if your SSL certificate is correctly setup."
+msgstr "API Senkronizasyonu ile % s arasındaki bir sorun oluştu, SSL sertifikanız doğru bir şekilde ayarlanmışsa panelinizi yeniden deneyin veya kontrol edin."
+
+msgid "Source"
+msgstr "Kaynak"
+
+msgid "Source Queue empty"
+msgstr "Kaynak sırası boş"
+
+msgid "Source Queue status"
+msgstr "Kaynak Sıra Durumu"
+
+msgid "Sources code"
+msgstr "Kaynak kodu"
+
+msgid "Stable"
+msgstr "Stabil"
+
+msgid "Staging"
+msgstr "Kademelendirme"
+
+msgid "Start editing your platform tour"
+msgstr "Platform turunuzu düzenlemeye başlayın"
+
+msgid "Statistics"
+msgstr "İstatistikler"
+
+msgid "Statistics are used to improve the platform and help understanding usage of the apps builder."
+msgstr "İstatistikler platformu geliştirmek ve uygulama oluşturucunun kullanımını anlamada yardımcı olmak için kullanılır."
+
+msgid "Status"
+msgstr "Durum"
+
+msgid "Submit a bug report or improvement request for beta/preview"
+msgstr "Beta/önizleme için bir hata raporu veya iyileştirme isteği gönderin"
+
+msgid "Success"
+msgstr "Başarılı"
+
+msgid "Successfully cleaned-up old certificate."
+msgstr "Eski sertifika başarıyla kaldırıldı."
+
+msgid "Successfully installed new certificate."
+msgstr "Yeni sertifika başarıyla yüklendi."
+
+msgid "Successfully removed the certificate."
+msgstr "Sertifika başarıyla kaldırıldı."
+
+msgid "Successfully saved Certificate to %s"
+msgstr "Sertifika başarıyla %s e kaydedildi."
+
+msgid "Sync files"
+msgstr "Senkronize dosyalar"
+
+msgid "System Diagnostic"
+msgstr "Sistem Tanısı"
+
+msgid "System tasks"
+msgstr "Sistem görevleri"
+
+msgid "System was unable to validate any Bearer Token Auth call."
+msgstr "Sistem herhangi bir Bearer Token Auth çağrısını doğrulayamadı."
+
+msgid "System was unable to validate any HTTP Basic Auth call."
+msgstr "Sistem, herhangi bir HTTP Temel Kimlik Doğrulama çağrısını doğrulayamadı."
+
+msgid "Temp (var/tmp, application sources & apk)"
+msgstr "Temp (var/tmp, uygulama kaynakları & apk)"
+
+msgid "Templates"
+msgstr "Şablonlar"
+
+msgid "Test SSL/HTTPS"
+msgstr "SSL/HTTPS'i test et"
+
+msgid "Testing: %s"
+msgstr "Test ediliyor: %s"
+
+msgid "The PHP executable guessed path <b>'%s'</b> may be incorrect, please double check for it."
+msgstr "PHP çalıştırılabilir tahmin edilen yol <b>'%s'</b> yanlış olabilir, lütfen bunun için iki kez kontrol edin."
+
+msgid "The default setting to run your production server."
+msgstr "Üretim sunucunuzu çalıştırmak için varsayılan ayar."
+
+msgid "The domain %s doesn't belong to you, or is not configured on your server."
+msgstr "%s domaini size ait değil veya server'ınızda yapılandırılmamış."
+
+msgid "The given CA certificate doesn't match the hostname."
+msgstr "Verilen CA sertifikası, sunucu adıyla eşleşmiyor."
+
+msgid "The given certificate doesn't match the hostname or wiSibldcard."
+msgstr "Verilen sertifika, hostname veya wiSibldcard ile eşleşmiyor."
+
+msgid "The given certificate doesn't match the hostname."
+msgstr "Verilen sertifika sunucu adıyla eşleşmiyor."
+
+msgid "This account can't be deleted, it's the only one"
+msgstr "Bu hesap silinemez"
+
+msgid "This action mainly serves as a development & support purpose<br />This will restore App sources 'iOS', 'Android', 'HTML5' & 'Overview' from the latest Nwicode version, then rebuild the manifest to restore installed modules."
+msgstr "Bu eylem temel olarak bir geliştirme ve destek amacıyla işlev görür. <br /> Bu, en son Nwicode sürümünden uygulama kaynakları 'iOS', 'Android', 'HTML5' ve 'Genel Bakış'ı geri yükler, ardından yüklenen modülleri iyileştirmek için manifest'i yeniden oluşturur."
+
+msgid "This e-mail address must be reachable, as you will receive important e-mails from the system & user actions."
+msgstr "Sistem ve kullanıcı işlemlerinden önemli e-postalar alacağınız için bu e-posta adresi erişilebilir olmalıdır."
+
+msgid "This message will be displayed as a waiting message when your users chose an offline payment method"
+msgstr "Kullanıcılarınız çevrimdışı ödeme yöntemi seçtiğinde bu mesaj bir bekleme mesajı olarak görüntülenir."
+
+msgid "This message will be displayed as an information message to describe which offline payment method you offer"
+msgstr "Bu mesaj, sunduğunuz çevrimdışı ödeme yöntemini tanımlamak için bir bilgi mesajı olarak görüntülenir."
+
+msgid "This test is for development & support usage, this only highlights potential missing and/or modified files, results need to be interpreted."
+msgstr "Bu test geliştirme ve destek kullanımı içindir, sadece potansiyel eksik ve/veya değiştirilmiş dosyaları gösterir, sonuçlar yorumlanmalıdır."
+
+msgid "Tools"
+msgstr "Araçlar"
+
+msgid "Total sales"
+msgstr "Toplam satış"
+
+msgid "Total usage:"
+msgstr "Toplam kullanım:"
+
+msgid "Tour settings"
+msgstr "Tur ayarları"
+
+msgid "Tour status"
+msgstr "Tur statüsü"
+
+msgid "Tour status successfully saved."
+msgstr "Tur başarıyla kaydedildi."
+
+msgid "UID"
+msgstr "UİD"
+
+msgid "Unable to connect in HTTPS or to validate the SSL Certificate.<br />Check if your are not in `Staging`"
+msgstr "HTTPS'ye bağlanılamıyor veya SSL Sertifikasını doğrulamıyor. <br/> \"Staging\"de olup olmadığınızı kontrol edin."
+
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+msgid "Unknown - Self-managed"
+msgstr "22/5000 Bilinmeyen - Kendi yöneten"
+
+msgid "Update"
+msgstr "Güncelle"
+
+msgid "Update channel"
+msgstr "Kanalı güncelle"
+
+msgid "Updated At"
+msgstr "Güncellendi"
+
+msgid "Upload"
+msgstr "Yükle"
+
+msgid "Upload files or use existing certificates on my server"
+msgstr "Sunucumdaki dosyaları yükle veya mevcut sertifikaları kullan"
+
+msgid "Upload my certificates"
+msgstr "Sertifikalarımı yükle"
+
+msgid "Upload your own certificates"
+msgstr "Kendinize ait tüm sertifikaları yükleyin"
+
+msgid "Use HTTPS"
+msgstr "HTTPS kullanın"
+
+msgid "Use existing certificates on my server"
+msgstr "Serverımda mevcut sertifikaları kullan"
+
+msgid "User successfully deleted"
+msgstr "Kullanıcı başarıyla silindi"
+
+msgid "User's status successfully edited"
+msgstr "Kullanıcı durumu başarıyla düzenlendi"
+
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+msgid "VAT check options"
+msgstr "KDV kontrol seçenekleri"
+
+msgid "Validation"
+msgstr "Doğrulama"
+
+msgid "VestaCP"
+msgstr "VestaCP"
+
+msgid "VestaCP (php 5.6+ only)"
+msgstr "VestaCP (yalnızca php 5.6+)"
+
+msgid "View Details"
+msgstr "Ayrıntıları görüntüle"
+
+msgid "WHM cPanel"
+msgstr "WHM cPanel"
+
+msgid "Waiting for %s to reload, this can take a while..."
+msgstr "%s in yeniden yüklemesi bekleniyor, biraz zaman alabilir."
+
+msgid "We recommned using <b>preview</b> on a testing or development server, we won't provide regular ticket support for these update channels, only bug reports via the form below."
+msgstr "Bir test veya geliştirme sunucusunda <b> önizleme </b> kullanmanızı öneririz. Bu güncelleme kanalları için normal bilet desteği sağlamayacağız, yalnızca aşağıdaki form aracılığıyla hata raporları sunacağız."
+
+msgid "Web space"
+msgstr "Web alanı"
+
+msgid "White Label"
+msgstr "White Label"
+
+msgid "Whitelabel"
+msgstr "Whitelabel"
+
+msgid "Whitelabel hostnames associated with this Certificate"
+msgstr "Bu sertifika ile ilişkili whitelabel sunucu adları"
+
+msgid "Whitelabel request"
+msgstr "Whitelabel talebi"
+
+msgid "Whitelabels"
+msgstr "Whitelabel'lar"
+
+msgid "Yes"
+msgstr "Evet"
+
+msgid "Yes, install the update."
+msgstr "Evet, güncellemeyi indir."
+
+msgid ""
+"You are about to clean all the cron lock files !\n"
+"Are you sure ?"
+msgstr ""
+"Temiz olduğunuz tüm cron kilit dosyaları .\n"
+"Emin misin ?"
+
+msgid "You are about to clean all the cron lock files !\\nAre you sure ?"
+msgstr "Tüm cron kilit dosyalarınızı temizlemek üzeresiniz !\\n Emin misiniz?"
+
+msgid ""
+"You are about to clean all your log files !\n"
+"Are you sure ?"
+msgstr ""
+"Tüm temizlik için günlük dosyaları .\n"
+"Emin misin ?"
+
+msgid "You are about to clean all your log files !\\nAre you sure ?"
+msgstr "Tüm log dosyalarınızı temizlemek üzeresiniz !\\n Emin misiniz?"
+
+msgid "You are about to delete this certificate, Are you sure ?"
+msgstr "Bu sertifikayı silmek üzeresiniz, emin misiniz?"
+
+msgid ""
+"You are about to wipe all your temporary files, this includes the generated sources & apk builds !\n"
+"Are you sure ?"
+msgstr ""
+"Tüm geçici dosyaları silmek üzere olduğunuz bu oluşturulan kaynakları ve muayene yapılar içerir .\n"
+"Emin misin ?"
+
+msgid "You are about to wipe all your temporary files, this includes the generated sources & apk builds !\\nAre you sure ?"
+msgstr "Tüm geçici dosyalarınızı silmek üzeresiniz, bu, oluşturulan kaynakları ve apk oluşumlarını içerir !\\n Emin misiniz?"
+
+msgid "You can use <b>%s</b> as a dynamic variable for your application name."
+msgstr "Uygulama adınız için <b>%s </b> bir dinamik değişken olarak kullanabilirsiniz."
+
+msgid "You have a Source generation stuck for more than 1 hour, please check in <b>Settings > Advanced > Cron</b> for the stuck build.<br />To unlock further builds you can remove locks from the button below."
+msgstr "1 saatten daha uzun bir süredir bekleyen bir Kaynak oluşturma işleminiz var, lütfen <b> Ayarlar> Gelişmiş> Cron </ b> 'u kontrol edin. <br /> Daha fazla kurgunun kilidini açmak için aşağıdaki düğmeden kilitleri kaldırabilirsiniz."
+
+msgid "You have an APK generation stuck for more than 1 hour, please check in <b>Settings > Advanced > Cron</b> for the stuck build.<br />To unlock further builds you can remove locks from the button below."
+msgstr "1 saatten fazla bir süredir takılı kalmış bir APK sürümünüz var, lütfen takılı yapı için <b> Ayarlar> Gelişmiş> Cron </ b> 'u kontrol edin. <br /> Daha fazla kurulumun kilidini açmak için aşağıdaki düğmeden kilitleri kaldırabilirsiniz."
+
+msgid "You have no certificate yet."
+msgstr "Henüz sertifikanız yok."
+
+msgid "You have no new messages."
+msgstr "Yeni mesajınız yok."
+
+msgid "You must select an Admin panel type before requesting a Certificate."
+msgstr "Bir sertifika paneli türü seçmelisiniz."
+
+msgid "Your HTTPS/SSL Certificate is about to expire in <b>%s day%s</b>, don't forget to renew it on the following page <a href=\"%s\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\">configuration</a>.\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+msgstr "HTTPS/SSL Sertifikanızın, <b>%s gün%s</ b> içinde sona ermek üzere aşağıdaki sayfada yenilemeyi unutmayın <a href=\"%s\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"> yapılandırma </a> .\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+
+msgid "Your HTTPS/SSL Certificate is about to expire in <b>%s day%s</b>, don't forget to renew it on the following page <a href=\"%s\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\">configuration</a>.\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+msgstr "HTTPS/SSL Sertifikanız, <b>%s gün%s </b> içinde sona ermek üzere, aşağıdaki sayfada yenilemeyi unutmayın <a href=\"%s\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"> yapılandırma</a> .\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+
+msgid "Your HTTPS/SSL Certificate is about to expire in <b>%s day%s</b>, don't forget to renew it on the following page <a href=\"%s\"\"\"\"\"\"\"\">configuration</a>.\"\"\"\"\"\"\""
+msgstr "HTTPS/SSL Sertifikanızın, <b>%sgün%s</b> içinde sona ermek üzere, aşağıdaki sayfada yenilemeyi unutmayın <a href=\"%s\"\"\"\"\"\"\"\"> yapılandırma </a> .\"\"\"\"\"\"\""
+
+msgid "Your HTTPS/SSL Certificate is about to expire in <b>%s day%s</b>, don't forget to renew it on the following page <a href=\"%s\"\">configuration</a>.\""
+msgstr "HTTPS/SSL Sertifikası <b>%</b> s gün,%s, aşağıdaki sayfada a href=\"%s\"\">yapılandırma </a><yenilemek unutmayın.sona gelmek üzere \""
+
+msgid "Your HTTPS/SSL Certificate is about to expire in <b>%s day%s</b>, don't forget to renew it on the following page <a href=\"%s\">configuration</a>."
+msgstr "HTTPS/SSL Sertifikası <b>%</b> s gün,%s, aşağıdaki sayfa yenilemek\"%>yapılandırma </a>s\"<a href=unutma.sona gelmek üzere"
+
+msgid "Your certificate is invalid"
+msgstr "Sertifikanız geçersiz"
+
+msgid "Your certificate is valid until:"
+msgstr "Sertifikanız şu tarihe kadar geçerli:"
+
+msgid "Your certificates are saved."
+msgstr "Sertifikalarınız kaydedildi."
+
+msgid "Your new password"
+msgstr "Yeni şifreniz"
+
+msgid "Your password"
+msgstr "Şifreniz"
+
+msgid "[APK]"
+msgstr "[APK]"
+
+msgid "[Global]"
+msgstr "[Küresel]"
+
+msgid "[Let's Encrypt] renewing certificate."
+msgstr "[Let's Encrypt] sertifika yenileniyor."
+
+msgid "[Let's Encrypt] will add %s to SAN."
+msgstr "[Let's Encrypt] %s'i SAN'a ekler."
+
+msgid "[Nwicode_Cpanel] Unable to update cPanel SSL Certificate for %s"
+msgstr "[Nwicode_Cpanel] %s için cPanel SSL Sertifikası güncellenemiyor"
+
+msgid "[Nwicode_VestaCP] requires php 5.6+"
+msgstr "[Nwicode_VestaCP], php 5.6+ gerektiriyor"
+
+msgid "[Plesk] Unknown error."
+msgstr "Bilinmeyen hata."
+
+msgid "[Sources]"
+msgstr "[Kaynaklar]"
+
+msgid "customer"
+msgstr "Müşteri"
+
+msgid "for the bundle id:"
+msgstr "Bundle kimliği için:"
+
+msgid "letsencrypt"
+msgstr "letsencrypt"
+
+msgid "per page"
+msgstr "Sayfa başına"
+
+msgid "see Settings > Advanced > Configuration > Cron to edit options."
+msgstr "Seçenekleri düzenlemek için Ayarlar> Gelişmiş> Yapılandırma> Cron'a bakın."
+
+msgid "values are refreshed once a day only!"
+msgstr "Değerler sadece günde bir kez yenilenir!"

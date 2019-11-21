@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-01-21T06:26:47+03:00\n"
+"PO-Revision-Date: 2019-01-21T06:26:47+03:00\n"
+"Language: \n"
+
+msgid "Activated"
+msgstr "Aktif"
+
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+msgid "Add a field"
+msgstr "Alan ekleme"
+
+msgid "Add a section"
+msgstr "Bölüm Ekle"
+
+msgid "Add an option"
+msgstr "Bir seçenek ekleyin"
+
+msgid "Awesome Forms"
+msgstr "Muhteşem Formlar"
+
+msgid "Checkbox"
+msgstr "Onay kutusu"
+
+msgid "Choose a field type"
+msgstr "Alan türü seçin"
+
+msgid "Choose a field type:"
+msgstr "Bir alan tipi seçin:"
+
+msgid "Civility"
+msgstr "Nezaket"
+
+msgid "Create a new field"
+msgstr "Yeni bir alan oluşturun"
+
+msgid "Created At"
+msgstr "Oluşturulan"
+
+msgid "Created at"
+msgstr "Oluşturulan"
+
+msgid "Creator"
+msgstr "Oluşturan"
+
+msgid "Date/Hour"
+msgstr "Tarih/Saat"
+
+msgid "Download CSV"
+msgstr "İndirme CSV"
+
+msgid "Drop down"
+msgstr "Düşür"
+
+msgid "Email"
+msgstr "E-posta"
+
+msgid "Fetch Location Info"
+msgstr "Konum Bilgisi Getir"
+
+msgid "Field name"
+msgstr "Alan adı"
+
+msgid "Field name:"
+msgstr "Alan adı:"
+
+msgid "Form data will be sent to this email. Until you fill out this field, your form won't be displayed on client side"
+msgstr "Form veri bu e-posta gönderilecektir. Bu alanı doldurmak kadar, form istemci tarafında görüntülenmez"
+
+msgid "Form data will be sent to this email. Until you fill out this field, your form won't be displayed on client side."
+msgstr "Form veri bu e-posta gönderilecektir. Bu alanı doldurmak kadar, form istemci tarafında görüntülenmez."
+
+msgid "Frontend Admin email:"
+msgstr "Önuç Yönetici e-posta:"
+
+msgid "Geolocation"
+msgstr "Coğrafi konum"
+
+msgid "Hello,"
+msgstr "Merhaba,"
+
+msgid "INFORMATION"
+msgstr "BİLGİ"
+
+msgid "Login As"
+msgstr "Giriş Olarak"
+
+msgid "MANAGE FIELDS"
+msgstr "Yönet Alanlar"
+
+msgid "Manage Data"
+msgstr "Verileri Yönetin"
+
+msgid "Manage Fields"
+msgstr "Yönet Alanlar"
+
+msgid "Manage Profiles"
+msgstr "Profilleri Yönet"
+
+msgid "Manage fields"
+msgstr "Yönet alanlar"
+
+msgid "Manage options"
+msgstr "Seçenekler Yönet"
+
+msgid "Multiline text"
+msgstr "Çok Satırlı Metin"
+
+msgid "No user for now"
+msgstr "Şimdilik hiçbir kullanıcı"
+
+msgid "Number"
+msgstr "Numarası"
+
+msgid "OK"
+msgstr "Tamam"
+
+msgid "Option"
+msgstr "Seçenek"
+
+msgid "Page name"
+msgstr "Sayfa adı"
+
+msgid "Radio"
+msgstr "Radyo"
+
+msgid "Recipient email"
+msgstr "Alıcı e-posta"
+
+msgid "Switch View"
+msgstr "Görünüm Anahtarı"
+
+msgid "Text"
+msgstr "Metin"
+
+msgid "This field is required"
+msgstr "Bu alan gereklidir"
+
+msgid "Toggel Previewer"
+msgstr "Toggel Görüntüle"
+
+msgid "Update History"
+msgstr "Tarih Güncelleme"
+
+msgid "User"
+msgstr "Kullanıcı"
+
+msgid "You have to choose a field type."
+msgstr "Bir alan tipi seçmelisiniz."
+
+msgid "Your App user's new profile"
+msgstr "Uygulama, kullanıcının yeni bir profil"
+
+msgid "Your App user\\'s new profile"
+msgstr "App kullanıcı\\'ın yeni profil"
+
+msgid "Your new user profile has been completed"
+msgstr "Yeni kullanıcı profiline tamamlandı"
+
+msgid "Your new user profile has been completed."
+msgstr "Yeni kullanıcı profiliniz tamamlandı."

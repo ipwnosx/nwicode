@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-15T15:39:42+03:00\n"
+"PO-Revision-Date: 2019-07-15T15:39:42+03:00\n"
+"Language: \n"
+
+msgid "%s. Use my referral code %s once you download the app. Install From: %s"
+msgstr "%s. Используйте мой реферальный код %s после того как вы загрузите приложение. Установки: %s"
+
+msgid "Action"
+msgstr "Действие"
+
+msgid "Add your friend's code"
+msgstr "Добавить код вашего друга"
+
+msgid "An error occurred during process. Please try again later."
+msgstr "Произошла ошибка во время процесса. Пожалуйста, попробуйте снова позже."
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Click here to log-in"
+msgstr "Нажмите здесь, чтобы войти в"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Disable on webview!"
+msgstr "Отключить на WebView!"
+
+msgid "For each friend you invite and registers on our App, we'll give you %d points and your friend as well."
+msgstr "Для каждого друга, которого вы приглашаете и он регистрируется на наше приложение, мы зачислим вам и другу %d на счёт."
+
+msgid "Invite A Referal"
+msgstr "Пригласить друга"
+
+msgid "Invite Successfully!"
+msgstr "Успешно Приглашён!"
+
+msgid "Invite your friends and win!"
+msgstr "Приглашайте своих друзей и зарабатывайте!"
+
+msgid "Manage"
+msgstr "Управление"
+
+msgid "No Active Card Present. Please contact to Admin."
+msgstr "Нет Активных Карт. Пожалуйста, свяжитесь с Администратором."
+
+msgid "Nothing to share"
+msgstr "Ничего не найдено"
+
+msgid "Or share your code:"
+msgstr "Или поделиться :"
+
+msgid "Please enter correct code!"
+msgstr "Пожалуйста, введите правильный код!"
+
+msgid "Please enter other code!"
+msgstr "Пожалуйста введите другой код!"
+
+msgid "Progressive Loyalty Card not actived. Please contact to Admin."
+msgstr "Карта лояльности не активизированна. Пожалуйста, свяжитесь с Администратором."
+
+msgid "Saved successfully."
+msgstr "Успешно."
+
+msgid "Share"
+msgstr "Поделиться"
+
+msgid "Sharing text"
+msgstr "Текст обмена"
+
+msgid "The card you are trying to update isn't exists."
+msgstr "Карту, которую вы пытаетесь обновить, не существует."

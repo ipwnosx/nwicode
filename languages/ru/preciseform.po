@@ -1,0 +1,294 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-04T12:59:45+03:00\n"
+"PO-Revision-Date: 2019-07-04T12:59:45+03:00\n"
+"Language: \n"
+
+msgid "mbprecise_AM / PM format"
+msgstr "Формат AM / PM"
+
+msgid "mbprecise_Add a field"
+msgstr "Добавить поле"
+
+msgid "mbprecise_Are you sure you want to remove this field ?"
+msgstr "Вы уверены, что хотите удалить это поле ?"
+
+msgid "mbprecise_Button to pick today"
+msgstr "Кнопка для выбора сегодня"
+
+msgid "mbprecise_Close time button text"
+msgstr "Текст кнопки закрытия времени"
+
+msgid "mbprecise_Color List"
+msgstr "Список Цветов"
+
+msgid "mbprecise_Config"
+msgstr "Конфигурация"
+
+msgid "mbprecise_Config & model saved successfully"
+msgstr "Конфигурация и модель успешно сохранены"
+
+msgid "mbprecise_Config error while trying to save"
+msgstr "Ошибка конфигурации при попытке сохранить"
+
+msgid "mbprecise_Confirmation - request sent to %s"
+msgstr "mbprecise_Confirmation - заявку отправлено на %S"
+
+msgid "mbprecise_Content Html"
+msgstr "Контент в HTML"
+
+msgid "mbprecise_Content to display after form submission"
+msgstr "Контент для отображения после отправки формы"
+
+msgid "mbprecise_Data"
+msgstr "Данные"
+
+msgid "mbprecise_Data received from users"
+msgstr "Данные полученные от пользователей"
+
+msgid "mbprecise_Data recieved time"
+msgstr "Время получения данных"
+
+msgid "mbprecise_Date"
+msgstr "Дата"
+
+msgid "mbprecise_Date Format"
+msgstr "Формат даты"
+
+msgid "mbprecise_Days list"
+msgstr "Список дней"
+
+msgid "mbprecise_Default value"
+msgstr "Значение по умолчанию"
+
+msgid "mbprecise_Default value On/Off"
+msgstr "Значение по умолчанию Вкл/Выкл"
+
+msgid "mbprecise_Description"
+msgstr "Описание"
+
+msgid "mbprecise_Divider"
+msgstr "Разделитель"
+
+msgid "mbprecise_Email"
+msgstr "email"
+
+msgid "mbprecise_Email, text, number, date... Start by adding a field to your form model to define what user will be able to send you throught it."
+msgstr "Email, текст, число, Дата... начнем с добавления полей в вашей форме модель, чтобы определить, что пользователь сможет отправлять вам через это."
+
+msgid "mbprecise_Feature id to open after form submission"
+msgstr "Страница функции, которая открывается после отправки формы"
+
+msgid "mbprecise_Footer"
+msgstr "Подвал"
+
+msgid "mbprecise_Form Configuration"
+msgstr "Конфигурация формы"
+
+msgid "mbprecise_Form submitted from %s"
+msgstr "mbprecise_Form представлены из %S"
+
+msgid "mbprecise_Header"
+msgstr "Описание"
+
+msgid "mbprecise_Here is where you can configure what kind of data your form will receive."
+msgstr "Здесь можно настроить, какие данные будет получать ваша форма."
+
+msgid "mbprecise_Hour format"
+msgstr "Часовой формат"
+
+msgid "mbprecise_Html separator"
+msgstr "разделитель Html"
+
+msgid "mbprecise_Id"
+msgstr "Id"
+
+msgid "mbprecise_Image"
+msgstr "mbprecise_image"
+
+msgid "mbprecise_Incomplete form message"
+msgstr "Краткое сообщение формы"
+
+msgid "mbprecise_Incomplete form title"
+msgstr "Краткое название формы"
+
+msgid "mbprecise_Invalid email message"
+msgstr "неверный email"
+
+msgid "mbprecise_Long Text"
+msgstr "Длинный текст"
+
+msgid "mbprecise_Mail Confirmation message"
+msgstr "подтверждение mbprecise_Mail"
+
+msgid "mbprecise_Max"
+msgstr "Max"
+
+msgid "mbprecise_Min"
+msgstr "Min"
+
+msgid "mbprecise_Model"
+msgstr "Модель"
+
+msgid "mbprecise_Model Configuration"
+msgstr "Конфигурация Модели"
+
+msgid "mbprecise_Monday as first day"
+msgstr "Понедельник как первый день"
+
+msgid "mbprecise_Months list"
+msgstr "Список месяцев"
+
+msgid "mbprecise_Multi List"
+msgstr "Мульти список"
+
+msgid "mbprecise_New field"
+msgstr "Новое поле"
+
+msgid "mbprecise_No field in this form model yet"
+msgstr "Поля в этой модели еще нет"
+
+msgid "mbprecise_Number of decimal"
+msgstr "Десятичное число"
+
+msgid "mbprecise_PlaceHolder"
+msgstr "Место заполнения"
+
+msgid "mbprecise_Please enter new item id"
+msgstr "Пожалуйста введите новый id элемента"
+
+msgid "mbprecise_Range"
+msgstr "Диапазон"
+
+msgid "mbprecise_Receiver mail address"
+msgstr "email получателя"
+
+msgid "mbprecise_Request number"
+msgstr "mbprecise_Request количество"
+
+msgid "mbprecise_Required"
+msgstr "Обязательно"
+
+msgid "mbprecise_Required field message"
+msgstr "Обязательное поле сообщение"
+
+msgid "mbprecise_Select list"
+msgstr "Список выбора"
+
+msgid "mbprecise_Send confirmation email to user"
+msgstr "mbprecise_Send подтверждение по электронной почте пользователю"
+
+msgid "mbprecise_Set time button text"
+msgstr "Установить текст кнопки времени"
+
+msgid "mbprecise_Step"
+msgstr "Шаг"
+
+msgid "mbprecise_Submit button text"
+msgstr "текст кнопки ОТПРАВИТЬ"
+
+msgid "mbprecise_Text"
+msgstr "Текст"
+
+msgid "mbprecise_Time"
+msgstr "Время"
+
+msgid "mbprecise_Today button text"
+msgstr "Текст на кнопке СЕГОДНЯ"
+
+msgid "mbprecise_Toggle"
+msgstr "Переключатель"
+
+msgid "mbprecise_Type"
+msgstr "Тип"
+
+msgid "mbprecise_Value list"
+msgstr "Список значений"
+
+msgid "mbprecise_add"
+msgstr "добавить"
+
+msgid "mbprecise_add new entrie"
+msgstr "добавление нового контакта"
+
+msgid "mbprecise_apply"
+msgstr "применить"
+
+msgid "mbprecise_cancel"
+msgstr "закрыть"
+
+msgid "mbprecise_color"
+msgstr "цвет"
+
+msgid "mbprecise_date"
+msgstr "дата"
+
+msgid "mbprecise_divider"
+msgstr "разделитель"
+
+msgid "mbprecise_edit"
+msgstr "редактировать"
+
+msgid "mbprecise_email"
+msgstr "email"
+
+msgid "mbprecise_export csv"
+msgstr "export csv"
+
+msgid "mbprecise_export json"
+msgstr "export в json"
+
+msgid "mbprecise_features to open after submission"
+msgstr "страница открытия после отправки"
+
+msgid "mbprecise_field id"
+msgstr "ID поля"
+
+msgid "mbprecise_image"
+msgstr "mbprecise_image"
+
+msgid "mbprecise_longtext"
+msgstr "длинный текст"
+
+msgid "mbprecise_max_length"
+msgstr "max_длина"
+
+msgid "mbprecise_multilist"
+msgstr "мульти лист"
+
+msgid "mbprecise_number"
+msgstr "номер"
+
+msgid "mbprecise_range"
+msgstr "диапазон"
+
+msgid "mbprecise_remove"
+msgstr "удалить"
+
+msgid "mbprecise_selectlist"
+msgstr "выбор списка"
+
+msgid "mbprecise_separatorhtml"
+msgstr "Код html"
+
+msgid "mbprecise_show"
+msgstr "смотреть"
+
+msgid "mbprecise_text"
+msgstr "текст"
+
+msgid "mbprecise_this id is al-ready used by some other field"
+msgstr "этот идентификатор уже используется другим полем"
+
+msgid "mbprecise_time"
+msgstr "время"
+
+msgid "mbprecise_toggle"
+msgstr "переключатель"

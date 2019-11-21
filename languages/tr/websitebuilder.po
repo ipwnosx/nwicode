@@ -1,0 +1,318 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-06T22:46:24+03:00\n"
+"PO-Revision-Date: 2019-06-06T22:46:24+03:00\n"
+"Language: \n"
+
+msgid "1 Block"
+msgstr "1 Blok"
+
+msgid "2 Blocks"
+msgstr "2 Blok"
+
+msgid "3 Blocks"
+msgstr "3 Blok"
+
+msgid "Adam Smith"
+msgstr "Adam Smith"
+
+msgid "Add Custom Domain to Your Site"
+msgstr "Sitenize özel domain ekleyin."
+
+msgid "Alignment"
+msgstr "Hiza"
+
+msgid "App description text goes here.We can write important points about your app here."
+msgstr "Uygulama açıklama metni burada. Uygulaman hakkında önemli noktaları buraya yazabiliriz."
+
+msgid "Attachment"
+msgstr "Ek"
+
+msgid "Background"
+msgstr "Arka plan"
+
+msgid "Badges"
+msgstr "Rozetler"
+
+msgid "Blur"
+msgstr "Bulanıklaştır"
+
+msgid "Border Radius"
+msgstr "Kenar yarıçapı"
+
+msgid "Bottom"
+msgstr "Alt"
+
+msgid "Box Shadow"
+msgstr "Kutu gölgesi"
+
+msgid "CEO"
+msgstr "CEO"
+
+msgid "Center"
+msgstr "Ortala"
+
+msgid "Color"
+msgstr "Renklendir"
+
+msgid "Custom Domain"
+msgstr "Özel domain"
+
+msgid "Dimension"
+msgstr "Boyut"
+
+msgid "Duration"
+msgstr "Süre"
+
+msgid "Easing"
+msgstr "Genişletme"
+
+msgid "Extra"
+msgstr "Ekstra"
+
+msgid "Favicon URL"
+msgstr "Favicon URL"
+
+msgid "Font"
+msgstr "Üst"
+
+msgid "Font Size"
+msgstr "Font büyüklüğü"
+
+msgid "Font color"
+msgstr "Font rengi"
+
+msgid "General"
+msgstr "Genel"
+
+msgid "Height"
+msgstr "Yükseklik"
+
+msgid "Hero section"
+msgstr "Büyük web banner görsel alanı"
+
+msgid "Image"
+msgstr "Görsel"
+
+msgid "Important features and description of each feature can be described here"
+msgstr "Her bir önemli özellik ve özelliklerin açıklaması burada açıklanabilir"
+
+msgid "Jessica White"
+msgstr "Jessica White"
+
+msgid "John Black"
+msgstr "John Black"
+
+msgid "Justify"
+msgstr "Yanaştır"
+
+msgid "Learn More"
+msgstr "Daha fazla öğren"
+
+msgid "Learn more block here"
+msgstr "Daha fazla bilgi edin"
+
+msgid "Left"
+msgstr "Sol"
+
+msgid "Letter Spacing"
+msgstr "Harf Boşluğu"
+
+msgid "Line Height"
+msgstr "Satır Yüksekliği"
+
+msgid "Line-through"
+msgstr "Üstünü çiz"
+
+msgid "Link"
+msgstr "Link"
+
+msgid "Link Block"
+msgstr "Link bloğu"
+
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+
+msgid "Map"
+msgstr "Harita"
+
+msgid "Margin"
+msgstr "Kenar boşluğu"
+
+msgid "Max Width"
+msgstr "Maksimum genişlik"
+
+msgid "Min Height"
+msgstr "Minimum yükseklik"
+
+msgid "My App Headline goes here"
+msgstr "Uygulama başlığım burada"
+
+msgid "None"
+msgstr "Hiçbiri"
+
+msgid "Open Website"
+msgstr "Websitesi aç"
+
+msgid "Padding"
+msgstr "Dolgu"
+
+msgid "Perspective"
+msgstr "Derinlik"
+
+msgid "Please create a CNAME of your domain pointing to"
+msgstr "Lütfen alan adınızı gösteren bir CNAME oluşturun."
+
+msgid "Position"
+msgstr "Yerleştir"
+
+msgid "Property"
+msgstr "Özellik"
+
+msgid "Quote"
+msgstr "Alıntı"
+
+msgid "Repeat"
+msgstr "Tekrarla"
+
+msgid "Right"
+msgstr "Sağ"
+
+msgid "Rotate X"
+msgstr "X'i döndür"
+
+msgid "Rotate Y"
+msgstr "Y'yi döndür"
+
+msgid "Rotate Z"
+msgstr "Z'yi döndür"
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid "SEO Meta data Settings"
+msgstr "SEO Meta veri ayarları"
+
+msgid "Scale X"
+msgstr "X'i ölçeklendir"
+
+msgid "Scale Y"
+msgstr "Y'yi döndür"
+
+msgid "Scale Z"
+msgstr "Z'yi ölçeklendir"
+
+msgid "Select an element before using Style Manager"
+msgstr "Style Manager'ı kullanmadan önce bir element seçin"
+
+msgid "Shadow type"
+msgstr "Gölge türü"
+
+msgid "Size"
+msgstr "Boyut"
+
+msgid "Software Engineer"
+msgstr "Yazılım Mühendisi"
+
+msgid "Spread"
+msgstr "Yay"
+
+msgid "Subtitle five"
+msgstr "Alt başlık beş"
+
+msgid "Subtitle four"
+msgstr "Alt başlık dört"
+
+msgid "Subtitle one"
+msgstr "Alt başlık bir"
+
+msgid "Subtitle six"
+msgstr "Alt başlık altı"
+
+msgid "Subtitle three"
+msgstr "Alt başlık üç"
+
+msgid "Subtitle two"
+msgstr "Alt başlık iki"
+
+msgid "Text"
+msgstr "Metin"
+
+msgid "Text Align"
+msgstr "Metni Hizala"
+
+msgid "Text Decoration"
+msgstr "Metin Dekorasyonu"
+
+msgid "Text Shadow"
+msgstr "Metin Gölgesi"
+
+msgid "Text section"
+msgstr "Text bölümü"
+
+msgid "The team"
+msgstr "Takım"
+
+msgid "Title five"
+msgstr "Başlık beş"
+
+msgid "Title four"
+msgstr "Başlık dört"
+
+msgid "Title one"
+msgstr "Başlık bir"
+
+msgid "Title six"
+msgstr "Başlık altı"
+
+msgid "Title three"
+msgstr "Başlık üç"
+
+msgid "Title two"
+msgstr "Başlık iki"
+
+msgid "Top"
+msgstr "Üst"
+
+msgid "Transform"
+msgstr "Dönüştür"
+
+msgid "Transition"
+msgstr "Geçiş"
+
+msgid "Typography"
+msgstr "Tipografi"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Web Designer"
+msgstr "Web tasarımcısı"
+
+msgid "Weight"
+msgstr "Dolgunluk"
+
+msgid "Width"
+msgstr "Genişlik"
+
+msgid "X position"
+msgstr "X pozisyonu"
+
+msgid "Y position"
+msgstr "Y pozisyonu"
+
+msgid "Your CNAME is not valid."
+msgstr "CNAME'niz geçerli değil."
+
+msgid "are you sure ?"
+msgstr "Emin misiniz?"
+
+msgid "underline"
+msgstr "Altını çiz"

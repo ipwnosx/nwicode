@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designs>
+    <university>
+        <content>
+            <form>
+                <email>test@ipsum.co</email>
+            </form>
+            <form_sections>
+                <section>
+                    <name>Lorem Ipsum</name>
+                    <fields>
+                        <field>
+                            <name>Ipsum</name>
+                            <type>date</type>
+                        </field>
+                        <field>
+                            <name>Lorem</name>
+                            <type>email</type>
+                        </field>
+                        <field>
+                            <name>Ipsum</name>
+                            <type>texte</type>
+                        </field>
+                    </fields>
+                </section>
+                <section>
+                    <name>Lorem ipsum dolor sit amet</name>
+                    <fields>
+                        <field>
+                            <name>Ipsum</name>
+                            <type>radio</type>
+                            <option>Option 1;Option 2;Option 3</option>
+                        </field>
+                        <field>
+                            <name>Lorem</name>
+                            <type>select</type>
+                            <option>Option 1;Option 2;Option 3</option>
+                        </field>
+                        <field>
+                            <name>Ipsum</name>
+                            <type>textarea</type>
+                        </field>
+                    </fields>
+                </section>
+            </form_sections>
+        </content>
+    </university>
+</designs>
+

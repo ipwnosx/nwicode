@@ -1,0 +1,329 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-10-30T23:09:12+11:00\n"
+"PO-Revision-Date: 2019-10-30T23:09:12+11:00\n"
+"Language: \n"
+
+# GMT 1559644715.096
+msgid "60000 maximum allowed."
+msgstr "60000 максимально допустимое."
+
+# GMT 1559644715.384
+msgid "<b>File types:</b> %s<br /><b>Recommended size:</b> %s"
+msgstr "<b>Типы файлов:</b> %s<br /><b>Рекомендуемый размер:</b> %s"
+
+# GMT 1559644715.0996
+msgid "Admob ID"
+msgstr "Идентификатор сети admob"
+
+# GMT 1559644715.1038
+msgid "Admob type"
+msgstr "Admob тип"
+
+# GMT 1559644715.1081
+msgid "Android"
+msgstr "Андроид"
+
+# GMT 1559644715.1124
+msgid "App limit for displaying real data"
+msgstr "Ограничение приложения для отображения реальных данных"
+
+# GMT 1559644715.1167
+msgid "Banner"
+msgstr "Баннер"
+
+# GMT 1559644715.121
+msgid "Below are variables you can use to be replaced in the extent."
+msgstr "Ниже перечислены переменные, которые вы можете использовать, чтобы их можно было заменить."
+
+msgid "Button 1"
+msgstr "Кнопка 1"
+
+msgid "Button 1 name"
+msgstr "Кнопка 1 - имя"
+
+msgid "Button 2"
+msgstr "Кнопка 2"
+
+msgid "Button 2 name"
+msgstr "Кнопка 2 - имя"
+
+msgid "Button 3"
+msgstr "Кнопка 3"
+
+msgid "Button 3 name"
+msgstr "Кнопка 3 - имя"
+
+msgid "Buy a license"
+msgstr "Купить лицензию"
+
+# GMT 1559644715.1254
+msgid "Click here to force analytics computing"
+msgstr "Нажмите здесь, чтобы заставить аналитические вычисления"
+
+# GMT 1559644715.1297
+msgid "Click here to send your favicon"
+msgstr "Нажмите здесь, чтобы отправить свой значок"
+
+# GMT 1559644715.1341
+msgid "Click here to send your logo"
+msgstr "Нажмите здесь, чтобы отправить свой логотип"
+
+# GMT 1559644715.1385
+msgid "Communications"
+msgstr "Общение"
+
+# GMT 1559644715.1428
+msgid "Current favicon"
+msgstr "Текущий фавикон"
+
+# GMT 1559644715.1472
+msgid "Current logo"
+msgstr "Текущий логотип"
+
+msgid "Custom HTML"
+msgstr "Свой HTML код"
+
+# GMT 1559644715.1515
+msgid "Default privacy policy"
+msgstr "Политика конфиденциальности по умолчанию"
+
+# GMT 1559644715.1559
+msgid "Default privacy policy section for GDPR"
+msgstr "Политика конфиденциальности по умолчанию для GDPR"
+
+# GMT 1559644715.1602
+msgid "Display a link to your clients to your support platform"
+msgstr "Показать ссылку для ваших клиентов на вашу платформу поддержки"
+
+msgid "Documentation"
+msgstr "Документация"
+
+# GMT 1559644715.1645
+msgid "Drop your favicon here"
+msgstr "Вставьте свой значок сайта сюда"
+
+# GMT 1559644715.1688
+msgid "Drop your logo here"
+msgstr "Вставьте ваш логотип сюда"
+
+# GMT 1559644715.1732
+msgid "Duration of the free trial period of your platform (in days, 0 for no free trial)."
+msgstr "Продолжительность бесплатного ознакомительного периода платформы (в днях, 0 для отмены)."
+
+# GMT 1559644715.1775
+msgid "Editor's Design"
+msgstr "Дизайн редактора"
+
+# GMT 1559644715.384
+msgid "Enable do for me button"
+msgstr "Включить кнопку \"Сделать за меня\""
+
+# GMT 1559644715.1818
+msgid "Enter here your terms & conditions"
+msgstr "Введите здесь ваши правила и условия"
+
+# GMT 1559644715.1862
+msgid "Enter the javascript code provided by your Chat provider in order to display a Chat from the editor."
+msgstr "Введите код JavaScript, предоставленный вашим провайдером чата, для отображения чата из редактора."
+
+# GMT 1559644715.1904
+msgid "European <b>General Data Protection Regulation (GDPR)</b>."
+msgstr "Европейское <b> Общее регулирование защиты данных (GDPR) </b>."
+
+# GMT 1559644715.1948
+msgid "Favicon"
+msgstr "Фавикон"
+
+# GMT 1559644715.199
+msgid "Flat"
+msgstr "Квартира"
+
+# GMT 1559644715.2033
+msgid "Force all app to use Owner AdMob"
+msgstr "Заставить все приложение использовать владелец AdMob"
+
+# GMT 1559644715.2077
+msgid "Free trial period"
+msgstr "Бесплатный пробный период"
+
+msgid "Free trial period duration must be a numeric value."
+msgstr "Продолжительность бесплатного пробного периода должна быть числовым значением."
+
+# GMT 1559644715.212
+msgid "Full platform owner contact"
+msgstr "Контакт с полноправным владельцем платформы"
+
+# GMT 1559644715.2164
+msgid "Interstitial"
+msgstr "Промежуточный"
+
+# GMT 1559644715.2207
+msgid "Invalid license key"
+msgstr "Недопустимый ключ лицензии"
+
+# GMT 1559644715.2246
+msgid "Ios"
+msgstr "Ios"
+
+# GMT 1559644715.2285
+msgid "License has no more activation left"
+msgstr "У лицензии больше нет активации"
+
+# GMT 1559644715.2329
+msgid "License is valid"
+msgstr "Лицензия действительна"
+
+# GMT 1559644715.2372
+#, mobile
+msgid "Logo"
+msgstr "Логотип"
+
+# GMT 1559644715.2415
+msgid "None = no sign-up form, validation = admin must validate created account, full = free sign-up"
+msgstr "Нет = нет формы регистрации, проверки = админ должен подтвердить созданный аккаунт, полным = бесплатно"
+
+# GMT 1559644715.2459
+msgid "Number of typed characters:"
+msgstr "Количество набранных символов:"
+
+# GMT 1559644715.2893
+msgid "Nwicode"
+msgstr "Nwicode"
+
+# GMT 1559644715.2502
+msgid "Online Chat"
+msgstr "Онлайн чат"
+
+msgid "Order development"
+msgstr "Заказать разработку"
+
+# GMT 1559644715.2545
+msgid "Platform or Whitelabel Company name"
+msgstr "Название платформы или Whitelabel"
+
+# GMT 1559644715.2589
+msgid "Platform or Whitelabel name"
+msgstr "Название платформы или Whitelabel"
+
+# GMT 1559644715.2632
+msgid "Privacy Settings"
+msgstr "Настройки Конфиденциальности"
+
+# GMT 1559644715.2676
+msgid "Publication access type"
+msgstr "Тип доступа к публикации"
+
+# GMT 1559644715.2719
+msgid "Sales"
+msgstr "Продажи"
+
+# GMT 1559644715.2763
+msgid "Sales Email Address"
+msgstr "E-mail адрес продаж"
+
+# GMT 1559644715.2806
+msgid "Sender's email address of the emails sent by the site to your clients"
+msgstr "Адрес электронной почты отправителя из письма, отправленные на сайт вашим клиентам"
+
+# GMT 1559644715.2849
+msgid "Sender's name of the emails sent by the site to your clients"
+msgstr "Имя отправителя из письма, отправленные на сайт вашим клиентам"
+
+# GMT 1559644715.384
+msgid "Show support form in home page"
+msgstr "Показать форму поддержки на домашней странице"
+
+# GMT 1559644715.2936
+msgid "Sign-up mode"
+msgstr "Режим регистрации"
+
+# GMT 1559644715.298
+msgid "Sign-up mode for your platform."
+msgstr "Режим регистрации для вашей платформы."
+
+msgid "Site"
+msgstr "Сайт"
+
+# GMT 1559644715.3024
+msgid "Support Email Address"
+msgstr "E-mail адрес поддержки"
+
+# GMT 1559644715.3067
+msgid "The Application name"
+msgstr "Имя приложения"
+
+# GMT 1559644715.3111
+msgid "The european <b>General Data Protection Regulation (GDPR)</b> is applicable to your country, you must enable it in the privacy settings below."
+msgstr "Европейское <b> Общее правило защиты данных (GDPR) </b> применимо к вашей стране, вы должны включить его в настройках конфиденциальности ниже."
+
+# GMT 1559644715.3154
+msgid "The folder /images/default is not writable."
+msgstr "Папка / images / default недоступна для записи."
+
+# GMT 1559644715.3197
+msgid "This number will be used to switch between demo mode and real time mode for your analytics on your dashboard"
+msgstr "Этот номер будет использоваться для переключения между демонстрационным режимом и режимом реального времени для аналитики на панели инструментов."
+
+# GMT 1559644715.3241
+msgid "This privacy policy will be used for every new Application created as a template."
+msgstr "Эта политика конфиденциальности будет использоваться для каждого нового Приложения, созданного в качестве шаблона."
+
+# GMT 1559644715.3284
+msgid "This section of the privacy policy is added when the GDPR settings are active."
+msgstr "В этом разделе Политика конфиденциальности добавляется при настройки GDPR активны."
+
+# GMT 1559644715.3327
+msgid "This text will appear in the checkout page. 65,000 characters max."
+msgstr "Этот текст появится на странице оформления заказа. Не более 65 000 символов"
+
+# GMT 1559644715.3371
+msgid "Users can download application sources code."
+msgstr "Пользователи могут загружать исходные коды приложений."
+
+# GMT 1559644715.3414
+msgid "Users can generate APK"
+msgstr "Пользователи могут генерировать АПК"
+
+# GMT 1559644715.3458
+msgid "Users can not generate APK."
+msgstr "Пользователи не могут создавать android игры."
+
+# GMT 1559644715.3501
+msgid "Users give you the required information to publish applications."
+msgstr "Пользователи дают вам необходимую информацию для публикации приложений."
+
+# GMT 1559644715.3537
+msgid "We cannot get your license information"
+msgstr "Мы не можем получить информацию о вашей лицензии"
+
+# GMT 1559644715.358
+msgid "You can use <b>%s</b> as a dynamic variable for your application name."
+msgstr "Вы можете использовать <b>%s</b> в качестве динамической переменной для имени приложения."
+
+# GMT 1559644715.3623
+msgid "Your Applications"
+msgstr "Ваши приложения"
+
+# GMT 1559644715.3667
+msgid "Your CMS License Key"
+msgstr "Ключ лицензию CMS"
+
+# GMT 1559644715.371
+msgid "Your Location"
+msgstr "Ваше местонахождение"
+
+# GMT 1559644715.3753
+msgid "Your Platform"
+msgstr "Ваша Платформа"
+
+# GMT 1559644715.3796
+msgid "Your company"
+msgstr "Ваша компания"

@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-29T19:08:58+03:00\n"
+"PO-Revision-Date: 2019-06-29T19:08:58+03:00\n"
+"Language: \n"
+
+# GMT 1559644699.1357
+msgctxt "booking"
+msgid "Add content"
+msgstr "Добавить контент"
+
+# GMT 1559644699.0942
+#, mobile
+msgctxt "booking"
+msgid "Booking details"
+msgstr "Детали бронирования"
+
+# GMT 1559657430.1073
+msgctxt "booking"
+msgid "Booking location"
+msgstr "Место бронирования"
+
+# GMT 1559657430.1069
+msgctxt "booking"
+msgid "Booking subject"
+msgstr "Бронирование"
+
+# GMT 1559644699.1103
+msgctxt "booking"
+msgid "Card"
+msgstr "Карта"
+
+# GMT 1559656845.831
+#, mobile
+msgctxt "booking"
+msgid "Checkin"
+msgstr "Регистрация"
+
+# GMT 1559748985.5895
+msgctxt "booking"
+msgid "Checkin & Checkout"
+msgstr "Регистрация и оформление"
+
+# GMT 1559656845.8313
+#, mobile
+msgctxt "booking"
+msgid "Checkout"
+msgstr "Проверка"
+
+# GMT 1559644699.0532
+#, mobile
+msgctxt "booking"
+msgid "Clear"
+msgstr "Очистить"
+
+# GMT 1560416731.8028
+msgctxt "booking"
+msgid "Close"
+msgstr "Закрыть"
+
+# GMT 1559644699.0984
+#, mobile
+msgctxt "booking"
+msgid "Comment"
+msgstr "Комментарий"
+
+# GMT 1559656854.5908
+msgctxt "booking"
+msgid "Cover"
+msgstr "Обложка"
+
+# GMT 1560416731.7926
+msgctxt "booking"
+msgid "Create a new location"
+msgstr "Создать новое место"
+
+# GMT 1559748324.2416
+#, mobile
+msgctxt "booking"
+msgid "Date"
+msgstr "Дата"
+
+# GMT 1559644699.09
+#, mobile
+msgctxt "booking"
+msgid "Date & time"
+msgstr "Дата и время"
+
+# GMT 1559815716.2896
+msgctxt "booking"
+msgid "Date and time"
+msgstr "Дата и время"
+
+# GMT 1559644699.1187
+msgctxt "booking"
+msgid "Date format"
+msgstr "Формат даты"
+
+# GMT 1559748985.5884
+msgctxt "booking"
+msgid "Dates"
+msgstr "Даты"
+
+# GMT 1559656854.592
+msgctxt "booking"
+msgid "Description"
+msgstr "Описание"
+
+# GMT 1559644699.1061
+msgctxt "booking"
+msgid "Design"
+msgstr "Дизайн"
+
+# GMT 1559644699.1444
+msgctxt "booking"
+msgid "E-mail"
+msgstr "Электронной почты"
+
+# GMT 1559644699.0732
+#, mobile
+msgctxt "booking"
+msgid "Email"
+msgstr "Электронной почты"
+
+# GMT 1559657430.1049
+msgctxt "booking"
+msgid "Email address"
+msgstr "Адрес электронной почты"
+
+# GMT 1559644699.14
+msgctxt "booking"
+msgid "Enter the location name and contact email"
+msgstr "Введите имя, расположение и контактный email"
+
+# GMT 1560418208.5603
+#, mobile
+msgctxt "booking"
+msgid "Error"
+msgstr "Ошибка"
+
+# GMT 1559644699.0614
+#, mobile
+msgctxt "booking"
+msgid "First name / Last name"
+msgstr "Имя / фамилия"
+
+# GMT 1559657430.102
+msgctxt "booking"
+msgid "Hello,"
+msgstr "Здравствуйте,"
+
+# GMT 1559657430.1029
+msgctxt "booking"
+msgid "Here are his personal information:"
+msgstr "Вот данные:"
+
+# GMT 1559644699.0575
+#, mobile
+msgctxt "booking"
+msgid "Information"
+msgstr "Информация"
+
+# GMT 1560417101.3085
+msgctxt "booking"
+msgid "Invalid e-mail address."
+msgstr "Недопустимый адрес электронной почты."
+
+# GMT 1559644699.1145
+msgctxt "booking"
+msgid "List"
+msgstr "Список"
+
+# GMT 1559644699.0858
+#, mobile
+msgctxt "booking"
+msgid "Location"
+msgstr "Расположение"
+
+# GMT 1560416731.7986
+msgctxt "booking"
+msgid "Location name"
+msgstr "Название местоположения"
+
+# GMT 1560415813.1919
+msgctxt "booking"
+msgid "Location successfully saved"
+msgstr "Местоположение успешно сохранено"
+
+# GMT 1560416211.2624
+msgctxt "booking"
+msgid "Locations"
+msgstr "Места"
+
+# GMT 1559644699.1274
+msgctxt "booking"
+msgid "Manage locations"
+msgstr "Управление местами"
+
+# GMT 1560417295.7471
+msgctxt "booking"
+msgid "Missing params."
+msgstr "Недостающие параметры."
+
+# GMT 1559657430.104
+#, mobile
+msgctxt "booking"
+msgid "Name"
+msgstr "Название"
+
+# GMT 1559644699.0816
+#, mobile
+msgctxt "booking"
+msgid "Number of people"
+msgstr "Количество людей"
+
+# GMT 1560418208.5608
+#, mobile
+msgctxt "booking"
+msgid "OK"
+msgstr "ОК"
+
+# GMT 1559644699.0697
+#, mobile
+msgctxt "booking"
+msgid "Phone"
+msgstr "Телефон"
+
+# GMT 1559816057.0521
+#, mobile
+msgctxt "booking"
+msgid "Phone and/or E-mail"
+msgstr "Телефон и/или электронная почта"
+
+# GMT 1559658647.8115
+msgctxt "booking"
+msgid "Phone number"
+msgstr "Номер телефона"
+
+# GMT 1559644699.0774
+#, mobile
+msgctxt "booking"
+msgid "Please enter a valid email address"
+msgstr "Пожалуйста, введите действительный email"
+
+# GMT 1560418208.5574
+#, mobile
+msgctxt "booking"
+msgid "Please fill out the following fields"
+msgstr "Пожалуйста, заполните следующие поля"
+
+# GMT 1560418208.564
+#, mobile
+msgctxt "booking"
+msgid "Please fill out the following fields<br />Name<br />Phone and/or E-mail<br />Location<br />Number of people<br />Date<br />Booking details"
+msgstr "Пожалуйста, заполните следующие поля<br />и имя<br />по телефону и/или электронной почте в<br />расположение<br />и количество людей,<br />дата<br />и бронирования детали"
+
+# GMT 1560418208.5605
+#, mobile
+msgctxt "booking"
+msgid "Please fill out the following fields<br />Name<br />Phone and/or E-mail<br />Number of people<br />Date<br />Booking details"
+msgstr "Пожалуйста, заполните следующие поля <br />название<br /> телефон и/или по электронной почте<br />и количество людей,<br />дата<br />и бронирования детали"
+
+# GMT 1560417080.7185
+msgctxt "booking"
+msgid "Please name a store."
+msgstr "Пожалуйста, название места."
+
+# GMT 1559644699.1231
+#, mobile
+msgctxt "booking"
+msgid "Save"
+msgstr "Сохранить"
+
+# GMT 1559644699.1018
+#, mobile
+msgctxt "booking"
+msgid "Send"
+msgstr "Отправить"
+
+# GMT 1560418208.5571
+#, mobile
+msgctxt "booking"
+msgid "Sending request ..."
+msgstr "Отправка запроса ..."
+
+# GMT 1559644699.1318
+msgctxt "booking"
+msgid "Settings"
+msgstr "Параметры"
+
+# GMT 1559644699.1487
+msgctxt "booking"
+msgid "Settings saved"
+msgstr "Настройки сохранены"
+
+# GMT 1559748985.589
+msgctxt "booking"
+msgid "Single date"
+msgstr "Один день"
+
+# GMT 1560417662.7402
+msgctxt "booking"
+msgid "Store deleted."
+msgstr "Место удалено"
+
+# GMT 1560416211.2594
+msgctxt "booking"
+msgid "Store name"
+msgstr "Название"
+
+# GMT 1560418208.5612
+#, mobile
+msgctxt "booking"
+msgid "Success"
+msgstr "Успешно"
+
+# GMT 1559658569.9656
+#, mobile
+msgctxt "booking"
+msgid "Thank you for your request.<br />We'll answer you as soon as possible."
+msgstr "Спасибо за ваш запрос.<br />мы ответим вам как можно скорее."
+
+# GMT 1559644699.0654
+#, mobile
+msgctxt "booking"
+msgid "This field is required"
+msgstr "Это поле является обязательным"
+
+# GMT 1560416731.7896
+msgctxt "booking"
+msgid "You are about to remove this Location! Are you sure ?"
+msgstr "Вы собираетесь удалить это место! Вы уверены ?"
+
+# GMT 1559657430.1024
+msgctxt "booking"
+msgid "You have received a message for the booking of"
+msgstr "Вы получили сообщение о бронировании"
+
+# GMT 1559658857.2483
+msgctxt "booking"
+msgid "You just sent a booking request"
+msgstr "Вы отправили запрос на бронирование"
+
+# GMT 1559658857.281
+msgctxt "booking"
+msgid "Your booking details"
+msgstr "Детали бронирования"
+
+# GMT 1559658857.2485
+msgctxt "booking"
+msgid "Your contact information"
+msgstr "Ваши контактные данные"

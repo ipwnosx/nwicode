@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T20:27:57+03:00\n"
+"PO-Revision-Date: 2019-06-05T20:27:57+03:00\n"
+"Language: \n"
+
+msgid "%s. Use my referral code %s once you download the app. Install From: %s"
+msgstr "%s. Kullanım referans kodu %benim bir kez app indirmek. %S: yüklemek"
+
+msgid "Action"
+msgstr "Eylem"
+
+msgid "Add your friend's code"
+msgstr "Arkadaşının kodu Ekle"
+
+msgid "An error occurred during process. Please try again later."
+msgstr "Bir hata işlemi sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "Back"
+msgstr "Geri"
+
+msgid "Click here to log-in"
+msgstr "Burada günlük İçin Tıklayın"
+
+msgid "Close"
+msgstr "Yakın"
+
+msgid "Disable on webview!"
+msgstr "Web görünümü devre dışı bırak!"
+
+msgid "For each friend you invite and registers on our App, we'll give you %d points and your friend as well."
+msgstr "Kayıtları bizim App üzerinde davet ettiğiniz her arkadaşınız için de size %d puan ve arkadaşın vereceğiz."
+
+msgid "Invite A Friend"
+msgstr "Bir Arkadaşı Davet"
+
+msgid "Invite Successfully!"
+msgstr "Başarıyla Davet!"
+
+msgid "Invite your friends and win!"
+msgstr "Arkadaşlarını davet et ve kazan!"
+
+msgid "Manage"
+msgstr "Yönetmek"
+
+msgid "No Active Card Present. Please contact to Admin."
+msgstr "Aktif Kartı Mevcut. Yönetici ile irtibata geçiniz."
+
+msgid "Nothing to share"
+msgstr "Paylaşmak için bir şey"
+
+msgid "Please enter correct code!"
+msgstr "Doğru kodu girin lütfen!"
+
+msgid "Please enter other code!"
+msgstr "Lütfen başka bir kod girin."
+
+msgid "Progressive Loyalty Card not actived. Please contact to Admin."
+msgstr "İlerici Sadakat Kartı aktif değil. Yönetici ile irtibata geçiniz."
+
+msgid "Saved successfully."
+msgstr "Başarılı bir şekilde kaydedildi."
+
+msgid "Share"
+msgstr "Paylaşmak"
+
+msgid "Sharing text"
+msgstr "Paylaşım metin"
+
+msgid "The card you are trying to update isn't exists."
+msgstr "Güncelleştirmeye çalıştığınız kartı mevcut değil."

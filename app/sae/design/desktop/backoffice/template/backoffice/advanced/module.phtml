@@ -1,0 +1,365 @@
+
+<sb-section title="'<?php echo addcslashes(__("Installed modules"), "'"); ?>'">
+    <table class="table">
+        <thead>
+            <tr>
+                <th style="width:50%;"><?php echo __("Name") ?></th>
+                <th style="width:30%;"><?php echo __("Version") ?></th>
+                <th style="width:20%;text-align:right;"><?php echo __("Actions") ?></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="module in modules" ng-show="modules.length">
+                <td>{{ module.name }}</td>
+                <td>{{ module.version }}</td>
+                <td style="text-align:right;">
+                    <button ng-show="package_details.is_visible && installmodule == module.name" class="btn btn-primary" ng-click="showReleasenote();" ng-disabled="permissions.is_visible"><?php echo __("Install"); ?></button>
+                    <button ng-show="module.updatepathurl != null" class="btn btn-primary" ng-click="downloadUpdatemodule(module.updatepathurl, module.version, module.name)"><i class="fa fa-download"></i></button>
+                    <button class="btn btn-danger" ng-if="module.name != 'Wallet'" ng-click="deleteModule(module.name,module.version)"><i class="fa fa fa-trash"></i></button>
+                </td>
+            </tr>
+            <tr ng-show="!modules.length">
+                <td colspan="3"><?php echo __("No modules") ?></td>
+            </tr>
+        </tbody>
+    </table>
+
+</sb-section>
+<sb-section title="'<?php echo addcslashes(__("Permissions"), "'"); ?>'"
+            class="slide-top"
+            ng-show="permissions.is_visible">
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th width="15%"><?php echo __("Action") ?></th>
+            <th width="78%"><?php echo __("Progress") ?></th>
+            <th width="7%"><?php echo __("Status") ?></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><?php echo __("Checking Permissions"); ?></td>
+            <td>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped"
+                         role="progressbar"
+                         ng-style="{ 'width': permissions.progress + '%' }"
+                         ng-class="{'progress-bar-danger': permissions.error, 'progress-bar-success': permissions.success}"></div>
+                </div>
+            </td>
+            <td nowrap>
+                <sb-loader is_visible="permissions.running"
+                           type="'inner_content'"
+                           size="'tiny'"
+                           animation="'no'"></sb-loader>
+                <i class="fa fa-check"
+                   ng-show="permissions.success"></i>
+                <button class="btn btn-primary btn-xs right"
+                        ng-if="permissions.error"
+                        ng-click="checkPermissions();"><?php echo __("Retry"); ?></button>
+                <i class="fa fa-remove error"
+                   ng-show="permissions.error"></i>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div class="slide-top"
+         ng-show="permissions.error">
+
+        <div class="alert alert-warning">
+            <p><?php echo __("Some files and folder are not writable. You can either provide your FTP access to install this update:"); ?></p>
+        </div>
+
+        <div>
+            <form ng-submit="saveFtp();">
+                <div class="col-md-6">
+                    <div class="form-group required"
+                         ng-class="{'has-error': ftp.error_from_info}">
+                        <label for="ftp_host"
+                               class="control-label"><?php echo __("Host"); ?></label>
+                        <input type="text"
+                               id="ftp_host"
+                               ng-model="ftp.credentials.host"
+                               class="form-control"
+                               placeholder="<?php echo __("Host"); ?>"/>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group required"
+                         ng-class="{'has-error': ftp.error_from_info}">
+                        <label for="ftp_username" class="control-label"><?php echo __("Username"); ?></label>
+                        <input type="text"
+                               id="ftp_username"
+                               ng-model="ftp.credentials.username"
+                               class="form-control"
+                               placeholder="<?php echo __("Username"); ?>"/>
+                    </div>
+                </div>
+
+                <div class="clear col-md-6">
+                    <div class="form-group required"
+                         ng-class="{'has-error': ftp.error_from_info}">
+                        <label for="ftp_password"
+                               class="control-label"><?php echo __("Password"); ?></label>
+                        <input type="password"
+                               id="ftp_password"
+                               ng-model="ftp.credentials.password"
+                               class="form-control"
+                               placeholder="<?php echo __("Password"); ?>"/>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group"
+                         ng-class="{'has-error': ftp.error_from_info}">
+                        <label for="ftp_port"
+                               class="control-label"><?php echo __("Port"); ?></label>
+                        <input type="text"
+                               id="ftp_port"
+                               ng-model="ftp.credentials.port"
+                               class="form-control"
+                               placeholder="<?php echo Nwicode_Ftp::DEFAULT_PORT ?>"/>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group"
+                         ng-class="{'has-error': ftp.error_from_path}">
+                        <label for="ftp_path"
+                               class="control-label"><?php echo __("Path to your system"); ?></label>
+                        <input type="text"
+                               id="ftp_path"
+                               ng-model="ftp.credentials.path"
+                               class="form-control"
+                               placeholder="/"/>
+                    </div>
+                </div>
+
+                <div class="col-md-12 text-danger">
+                    <p ng-show="ftp.error"> {{ ftp.error_message }}</p>
+                </div>
+                <div class="col-md-12">
+                    <p class="required-info"><?php echo __("Required fields"); ?></p>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <button type="submit"
+                                class="btn btn-primary left"><?php echo __("Save"); ?></button>
+                        <sb-loader is_visible="ftp.loader_is_visible"
+                                   type="'inner_content'"
+                                   size="'small'"
+                                   animation="'no'"
+                                   class="form_loader"></sb-loader>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="clear">
+            <div class="alert alert-warning">
+                <p><?php echo __("Or set the correct permissions to the following files and folders and try again:"); ?></p>
+                <p class="text-error"
+                   ng-bind-html="permissions.error_message | trusted_html">
+            </div>
+
+        </div>
+
+    </div>
+
+</sb-section>
+
+<sb-section title="'<?php echo __title("Installing your module"); ?>'"
+            class="slide-top"
+            ng-show="installation.copy.is_visible">
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th width="15%"><?php echo __("Action") ?></th>
+            <th width="78%"><?php echo __("Progress") ?></th>
+            <th width="7%"><?php echo __("Status") ?></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><?php echo __("Copying"); ?></td>
+            <td>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped"
+                         role="progressbar"
+                         ng-style="{ 'width': installation.copy.progress + '%' }"
+                         ng-class="{
+                            'progress-bar-danger': installation.copy.error,
+                            'progress-bar-success': installation.copy.success}"></div>
+                </div>
+            </td>
+            <td nowrap>
+                <sb-loader is_visible="installation.copy.running"
+                           type="'inner_content'"
+                           size="'tiny'"
+                           animation="'no'"></sb-loader>
+                <i class="fa fa-check"
+                   ng-show="installation.copy.success"></i>
+                <button class="btn btn-primary btn-xs right"
+                        ng-if="installation.copy.error"
+                        ng-click="copyModule();"><?php echo __("Retry"); ?></button>
+                <i class="fa fa-remove error"
+                   ng-show="installation.copy.error"></i>
+            </td>
+        </tr>
+        <tr ng-show="installation.install.is_visible">
+            <td><?php echo __("Installing"); ?></td>
+            <td>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar"
+                         ng-style="{ 'width': installation.install.progress + '%' }"
+                         ng-class="{
+                            'progress-bar-danger': installation.install.error,
+                            'progress-bar-success': installation.install.success}"></div>
+                </div>
+            </td>
+            <td nowrap>
+                <sb-loader is_visible="installation.install.running"
+                           type="'inner_content'"
+                           size="'tiny'"
+                           animation="'no'"></sb-loader>
+                <i class="fa fa-check"
+                   ng-show="installation.install.success"></i>
+                <button class="btn btn-primary btn-xs right"
+                        ng-if="installation.install.error"
+                        ng-click="installModule();"><?php echo __("Retry"); ?></button>
+                <i class="fa fa-remove error"
+                   ng-show="installation.install.error"></i>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+</sb-section>
+<sb-section title="'<?php echo addcslashes(__("Installed layouts"), "'"); ?>'">
+    <table class="table">
+        <thead>
+        <tr>
+            <th style="width:50%;"><?php echo __("Name") ?></th>
+            <th style="width:30%;"><?php echo __("Version") ?></th>
+            <th style="width:20%;text-align:right;"><?php echo __("Actions") ?></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="layout in layouts" ng-show="layouts.length">
+            <td>{{ layout.name }}</td>
+            <td>{{ layout.version }}</td>
+            <td style="text-align:right;">-</td>
+        </tr>
+        <tr ng-show="!layouts.length">
+            <td colspan="3"><?php echo __("No layouts") ?></td>
+        </tr>
+        </tbody>
+    </table>
+
+</sb-section>
+
+<sb-section title="'<?php echo addcslashes(__("Installed templates"), "'"); ?>'">
+    <table class="table">
+        <thead>
+        <tr>
+            <th style="width:50%;"><?php echo __("Name") ?></th>
+            <th style="width:50%;text-align: right"><?php echo __("Version") ?></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="template in templates"
+            ng-show="templates.length">
+            <td>{{ template.name }}</td>
+            <td style="text-align: right">{{ template.version }}</td>
+        </tr>
+        <tr ng-show="!templates.length">
+            <td colspan="3"><?php echo __("No templates") ?></td>
+        </tr>
+        </tbody>
+    </table>
+</sb-section>
+
+<sb-section title="'<?php echo addcslashes(__("Installed icon packs"), "'"); ?>'">
+    <table class="table">
+        <thead>
+        <tr>
+            <th style="width:50%;"><?php echo __("Name") ?></th>
+            <th style="width:30%;"><?php echo __("Version") ?></th>
+            <th style="width:20%;text-align:right;"><?php echo __("Actions") ?></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="icon in icons" ng-show="icons.length">
+            <td>{{ icon.name }}</td>
+            <td>{{ icon.version }}</td>
+            <td style="text-align:right;">-</td>
+        </tr>
+        <tr ng-show="!icons.length">
+            <td colspan="3"><?php echo __("No icon packs") ?></td>
+        </tr>
+        </tbody>
+    </table>
+</sb-section>
+
+<sb-section title="'<?php echo addcslashes(__("Core modules"), "'"); ?>'">
+    <table class="table">
+        <thead>
+        <tr>
+            <th style="width:50%;"><?php echo __("Name") ?></th>
+            <th style="width:50%;text-align:right;"><?php echo __("Version") ?></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="module in core_modules"
+            ng-show="core_modules.length">
+            <td>{{ module.name }}</td>
+            <td style="width:50%;text-align:right;">{{ module.version }}</td>
+        </tr>
+        <tr ng-show="!core_modules.length">
+            <td colspan="2"><?php echo __("No modules") ?></td>
+        </tr>
+        </tbody>
+    </table>
+
+</sb-section>
+
+<sb-section title="'<?php echo addcslashes(__("Features"), "'"); ?>'">
+    <div class="alert alert-info">
+        <?php echo __('You can globally disable a feature!') ?>
+        <br />
+        <?php echo __('Note: A disabled feature is not removed from published applications & can still be edited, but users can\'t add it anymore!') ?>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th style="width:15%;"><?php echo __("Name") ?></th>
+                <th style="width:15%;"><?php echo __("Code") ?></th>
+                <th style="width:50%;"><?php echo __("Description") ?></th>
+                <th style="width:20%;text-align:right;"><?php echo __("Enabled?") ?></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="feat in features track by feat.id"
+                ng-show="features.length">
+                <td>{{ feat.name }}</td>
+                <td>{{ feat.code }}</td>
+                <td style="white-space: normal;">{{ feat.description }}</td>
+                <td style="text-align:right;">
+                    <input type="checkbox"
+                           ng-model="feat.is_enabled"
+                           ng-change="toggleFeature(feat)" />
+                </td>
+            </tr>
+            <tr ng-show="!features.length">
+                <td colspan="2"><?php echo __("No features") ?></td>
+            </tr>
+        </tbody>
+    </table>
+</sb-section>
+
+

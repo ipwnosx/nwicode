@@ -1,0 +1,174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T19:48:56+03:00\n"
+"PO-Revision-Date: 2019-06-05T19:48:56+03:00\n"
+"Language: \n"
+
+msgid "%s - Account creation"
+msgstr "%s - Hesap oluşturma"
+
+msgid "%s - Your new password"
+msgstr "%yeni şifrenizi s -"
+
+msgid "A request to reset your password has been made."
+msgstr "Parolanızı sıfırlamak için bir istek yapıldı."
+
+msgid "An error occurred while connecting to your Facebook account. Please try again later"
+msgstr "Facebook hesabınıza bağlanırken bir hata oluştu. Lütfen daha sonra tekrar deneyin"
+
+msgid "Are you sure you want to remove this user?"
+msgstr "Bu kullanıcıyı silmek istediğinizden emin misiniz?"
+
+msgid "Change Password"
+msgstr "Parolayı Değiştir"
+
+msgid "Civility"
+msgstr "Nezaket"
+
+msgid "Congratulations,"
+msgstr "Tebrikler"
+
+msgid "Create"
+msgstr "Oluşturun"
+
+msgid "Create a new user"
+msgstr "Yeni kullanıcı oluştur"
+
+msgid "Create an account"
+msgstr "Hesap oluştur"
+
+msgid "Customer"
+msgstr "Müşteri"
+
+msgid "Customers"
+msgstr "Müşteriler"
+
+msgid "Disconnect"
+msgstr "Çıkarın"
+
+msgid "Edit the user %s"
+msgstr "Kullanıcı %s Düzenle"
+
+msgid "First name"
+msgstr "İlk adı"
+
+msgid "Forgot your password?"
+msgstr "Şifrenizi mi unuttunuz?"
+
+msgid "Gender"
+msgstr "Cinsiyet"
+
+msgid "Here are your credentials:"
+msgstr "Kimlik bilgilerinizi şunlardır:"
+
+msgid "I accept the <u>privacy policy</u>"
+msgstr "Gizlilik politikasını <u>kabul ediyorum</u>"
+
+msgid "I accept the privacy policy"
+msgstr "Gizlilik politikasın kabul ediyorum."
+
+msgid "If you encounter any problems, do not hesitate to contact us:"
+msgstr "Eğer herhangi bir sorunla karşılaşırsanız, bizimle irtibata geçmekten çekinmeyin:"
+
+msgid "Last name"
+msgstr "Soyadı"
+
+msgid "Log-in with Facebook"
+msgstr "Facebook ile gir"
+
+msgid "Login:"
+msgstr "Giriş:"
+
+msgid "Miss"
+msgstr "Bayan"
+
+msgid "Mr"
+msgstr "Bay"
+
+msgid "Mrs"
+msgstr "Bayan"
+
+msgid "My Account"
+msgstr "Hesabım"
+
+msgid "My application's users"
+msgstr "Benim uygulamanın kullanıcılar"
+
+msgid "No user for now."
+msgstr "Şu an için kullanıcı yok."
+
+msgid "No user match your request."
+msgstr "Talebiniz ile eşleşen kullanıcı yok."
+
+msgid "Old Password"
+msgstr "Önceki şifre"
+
+msgid "Or with your account"
+msgstr "Ya da hesabınızda"
+
+msgid "Please enter your email address. We'll send you your password right now."
+msgstr "Lütfen e-posta adresinizi girin. Parolanızı hemen göndereceğiz."
+
+msgid "Please log in with your mobile phone"
+msgstr "Cep telefonu ile giriş yapın lütfen"
+
+msgid "Privacy Policy"
+msgstr "Gizlilik Politikası"
+
+msgid "See you soon,"
+msgstr "Yakında görüşürüz,"
+
+msgid "Show me in ranking"
+msgstr "Sıralamada göster bana"
+
+msgid "The old email address does not match the entered email address."
+msgstr "Eski e-posta adresini girdiğiniz e-posta adresi ile uyuşmuyor."
+
+msgid "This user can access the pages locked by the \"Locker\" feature"
+msgstr "Bu kullanıcı \"Locker\" özelliği ile kilitli sayfaları erişebilir"
+
+msgid "This user is visible in ranking"
+msgstr "Bu kullanıcı sıralamasında görülebilir"
+
+msgid "Title"
+msgstr "Başlık"
+
+msgid "User"
+msgstr "Kullanıcı"
+
+msgid "User Information"
+msgstr "Kullanıcı Bilgileri"
+
+msgid "Users"
+msgstr "Kullanıcılar"
+
+msgid "We are sorry but the %s account is already linked to one of our customers"
+msgstr "Üzgünüz ancak% s hesap müşterilerimizin birine bağlıdır"
+
+msgid "We are sorry but this nickname is already used"
+msgstr "Üzgünüz, bu kullanıcı adı kullanılıyor."
+
+msgid "We are sorry but this nickname is not valid. Use only alphanumerical characters and underscores and use 15 characters maximum"
+msgstr "Üzgünüz, bu kullanıcı geçerli değil. Yalnızca alfasayısal karakterler ile alt çizgiler kullanın ve maksimum 15 karakter kullanın."
+
+msgid "You have created your account. With this account, you will be able to enjoy great offers available in our application."
+msgstr "Hesabınızı oluşturdunuz. Bu hesapla, bizim uygulama mevcut büyük teklifler zevk mümkün olacak."
+
+msgid "You must agree to our privacy policy to create an account."
+msgstr "Hesap oluşturmak için gizlilik politikamızı kabul etmelisiniz."
+
+msgid "You must fill firstname and lastname fields."
+msgstr "İsim soyisim alanlarını doldurmalısınız."
+
+msgid "Your account has been successfully saved"
+msgstr "Hesabınız başarıyla kaydedildi"
+
+msgid "Your points"
+msgstr "Puanlarınız"

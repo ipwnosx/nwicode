@@ -1,0 +1,4062 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-30T07:39:03+03:00\n"
+"PO-Revision-Date: 2019-06-30T07:39:03+03:00\n"
+"Language: \n"
+
+# GMT 1559644710.2268
+msgid "%s / Month"
+msgstr "%s / Месяц"
+
+# GMT 1559644710.2311
+msgid "%s / Year"
+msgstr "%s / Год"
+
+# GMT 1559644710.2355
+msgid "%s An unknown error occurred, please try again later."
+msgstr "%s  произошла неизвестная ошибка, пожалуйста, повторите попытку позже."
+
+# GMT 1559644710.2398
+msgid "%s Image"
+msgstr "%s изображ."
+
+# GMT 1559644710.2442
+msgid "%s Images"
+msgstr "%s фото"
+
+# GMT 1559644710.2526
+msgid "%s ago"
+msgstr "%s назад"
+
+# GMT 1559644710.2485
+msgid "%s, No params sent."
+msgstr "%s, нет параметра отправки."
+
+# GMT 1559644707.0152
+msgid "(DEMO)"
+msgstr "(ДЭМО)"
+
+# GMT 1559644706.1282
+msgid "10 seconds"
+msgstr "10 секунд"
+
+# GMT 1559644706.1325
+msgid "15 seconds"
+msgstr "15 секунд"
+
+# GMT 1559644706.1369
+msgid "20 seconds"
+msgstr "20 секунд"
+
+# GMT 1559644706.1413
+msgid "2Checkout"
+msgstr "2Checkout"
+
+# GMT 1559644706.1456
+msgid "30 seconds"
+msgstr "30 секунд"
+
+# GMT 1559644706.15
+msgid "404, page not found"
+msgstr "404, страница не найдена"
+
+# GMT 1559644706.1543
+msgid "A step requires at least a title and a text."
+msgstr "Шаг требует, как минимум, заголовок и текст."
+
+# GMT 1559644706.1587
+msgid "API"
+msgstr "API-интерфейс"
+
+# GMT 1559644706.163
+msgid "APIs"
+msgstr "APIs"
+
+# GMT 1559644706.1675
+msgid "APK Generator Service"
+msgstr "Обслуживание генератора АПК"
+
+# GMT 1559644706.1719
+msgid "APK Generator advanced settings"
+msgstr "Расширенные настройки генератора APK"
+
+# GMT 1559644706.1762
+msgid "APK Generator for builds from the Editor (Local or Service)"
+msgstr "Генератор APK для сборки из редактора (локальный или служебный)"
+
+# GMT 1559644706.1806
+msgid "Access Management"
+msgstr "Дать доступ"
+
+# GMT 1559644706.1849
+msgid "Account"
+msgstr "Аккаунт"
+
+# GMT 1559644706.1892
+msgid "Accounts"
+msgstr "Аккаунты"
+
+# GMT 1559644706.1936
+msgid "Acl"
+msgstr "Управления доступом"
+
+# GMT 1559644706.198
+msgid "Actions"
+msgstr "Действия"
+
+# GMT 1559644706.2024
+msgid "Activate"
+msgstr "Активировать"
+
+# GMT 1559644706.2067
+msgid "Activity"
+msgstr "Деятельность"
+
+# GMT 1559644706.2111
+msgid "AdMob Banner ID"
+msgstr "Идентификатор баннера AdMob"
+
+# GMT 1559644706.2155
+msgid "AdMob Interstitial ID"
+msgstr "AdMob интерстициальный ID"
+
+# GMT 1559644706.2199
+#, mobile
+msgid "Add"
+msgstr "Добавить"
+
+# GMT 1559644706.2242
+#, mobile
+msgid "Add Image"
+msgstr "Добавить фото"
+
+# GMT 1559644706.2286
+msgid "Add a"
+msgstr "Добавить"
+
+# GMT 1559644706.233
+msgid "Add a page"
+msgstr "Добавить её.."
+
+# GMT 1559644706.2373
+msgid "Add a picture"
+msgstr "Добавить фото"
+
+# GMT 1559644706.2416
+msgid "Add content"
+msgstr "Добавить содержимое"
+
+# GMT 1559644706.2459
+msgid "Add extension"
+msgstr "Добавить расширение"
+
+# GMT 1559644706.2502
+msgid "Add feature"
+msgstr "Добавление"
+
+# GMT 1559644706.2546
+msgid "Add image"
+msgstr "Добавить фото"
+
+# GMT 1559644706.2589
+msgid "Add new upload extensions."
+msgstr "Добавьте новые расширения для загрузки."
+
+# GMT 1559644706.2633
+#, mobile
+msgid "Address"
+msgstr "Адрес"
+
+# GMT 1559644706.2676
+msgid "Address (more)"
+msgstr "Адреса (больше)"
+
+# GMT 1559644706.272
+msgid "Addresses"
+msgstr "Адреса"
+
+# GMT 1559644706.2763
+msgid "Admin"
+msgstr "Админ"
+
+# GMT 1559644706.2807
+msgid "Admin panel type"
+msgstr "Тип панели администратора"
+
+# GMT 1559644706.2851
+msgid "Admob Banner ID"
+msgstr "В admob ID баннера"
+
+# GMT 1559644706.2894
+msgid "Admob Interstitial ID"
+msgstr "Admob интерстициальный ID"
+
+# GMT 1559644706.2938
+msgid "Advanced options"
+msgstr "Дополнительные опции"
+
+# GMT 1559644706.2981
+msgid "After validating, you will be redirected to the 2Checkout checkout page."
+msgstr "После проверки, вы будете перенаправлены на 2контроль странице оформления заказа."
+
+# GMT 1559644706.3025
+msgid "After validating, you will be redirected to the PayPal checkout page."
+msgstr "После проверки, вы будете перенаправлены на страницу PayPal для оплаты."
+
+# GMT 1559644706.3068
+msgid "Alert: The SSL Certificate %s automatic renewal failed."
+msgstr "Предупреждение: SSL-сертификата %автоматическое продление ы не удалось."
+
+# GMT 1559644706.3112
+msgid "Alignment"
+msgstr "Выравнивание"
+
+# GMT 1559644706.3156
+msgid "All data"
+msgstr "Все данные"
+
+# GMT 1559644706.3199
+#, mobile
+msgid "All items"
+msgstr "Все детали"
+
+# GMT 1559644706.3234
+msgid "All user list"
+msgstr "Список всех пользователей"
+
+# GMT 1559644706.3277
+msgid "Allow users to export features"
+msgstr "Разрешить пользователям экспортировать функции"
+
+# GMT 1559644706.3321
+msgid "Allow users to import features"
+msgstr "Разрешить пользователям импортировать функции"
+
+# GMT 1559644706.3364
+msgid "Allowed upload extensions."
+msgstr "Разрешенные расширения для загрузки."
+
+# GMT 1559644706.3408
+msgid "An error occurred during process. Please try again later."
+msgstr "Произошла ошибка во время процесса. Пожалуйста, повторите попытку позже."
+
+# GMT 1559644706.3443
+msgid "An error occurred during process.<br />Please try again later."
+msgstr "Произошла ошибка во время процесса.<br />пожалуйста, попробуйте снова позже."
+
+# GMT 1559644706.3486
+msgid "An error occurred during the process. Please try again later."
+msgstr "Произошла ошибка во время процесса. Пожалуйста, повторите попытку позже."
+
+# GMT 1559644706.353
+msgid "An error occurred while editing your invoice : can't find order"
+msgstr "Ошибка при редактировании счета-фактуры : не могу найти заказ"
+
+# GMT 1559644706.3617
+msgid "An error occurred while loading places."
+msgstr "Произошла ошибка при загрузке места."
+
+# GMT 1559644706.3573
+msgid "An error occurred while loading. Please try again later."
+msgstr "Произошла ошибка при загрузке. Пожалуйста, повторите попытку позже."
+
+msgid "An error occurred while loading. Please, try again later."
+msgstr "Произошла ошибка при загрузке. Пожалуйста, повторите попытку позже."
+
+# GMT 1559644706.366
+msgid "An error occurred while processing your payment."
+msgstr "Произошла ошибка во время обработки вашего платежа."
+
+# GMT 1559644706.3703
+msgid "An error occurred while saving"
+msgstr "Произошла ошибка при сохранении"
+
+# GMT 1559644706.3783
+msgid "An error occurred while saving your account. Please try again later."
+msgstr "Произошла ошибка при сохранении вашего аккаунта. Пожалуйста, повторите попытку позже."
+
+# GMT 1559644706.3827
+msgid "An error occurred while saving your picture. Please try again later."
+msgstr "Произошла ошибка при сохранении изображения. Пожалуйста, повторите попытку позже."
+
+msgid "An error occurred while saving your picture. Please try againg later."
+msgstr "Произошла ошибка при сохранении вашего аккаунта. Пожалуйста, повторите попытку позже."
+
+# GMT 1559644706.374
+msgid "An error occurred while saving. Please try again later."
+msgstr "Произошла ошибка при сохранении. Пожалуйста, повторите попытку позже."
+
+msgid "An error occurred while saving. Please, try again later."
+msgstr "Произошла ошибка при сохранении. Пожалуйста, повторите попытку позже."
+
+# GMT 1559644706.387
+msgid "An error occurred while uploading your file. Please, try again later."
+msgstr "Произошла ошибка при загрузке файла. Пожалуйста, повторите попытку позже."
+
+# GMT 1559644706.3913
+#, mobile
+msgid "An unexpected error occurred while calculating the route."
+msgstr "Произошла непредвиденная ошибка при расчете маршрута."
+
+# GMT 1559644706.3956
+msgid "An unknown error occurred while creating the push notification."
+msgstr "Произошла неизвестная ошибка при создании push-уведомлений."
+
+# GMT 1559644706.3999
+msgid "An unknown error occurred while issue-ing your certificate."
+msgstr "Произошла неизвестная ошибка при вопрос-ную ваш сертификат."
+
+# GMT 1559644706.4042
+msgid "An unknown error occurred while loading the page."
+msgstr "Произошла неизвестная ошибка во время загрузки страницы."
+
+# GMT 1559644706.4085
+msgid "Android APK"
+msgstr "Андроид apk"
+
+# GMT 1559644706.4129
+msgid "Android SDK is not installed"
+msgstr "SDK для Android не устанавливается"
+
+# GMT 1559644706.4172
+msgid "Android Source"
+msgstr "Источник Android"
+
+# GMT 1559644706.4215
+msgid "Android Spinner"
+msgstr "Android грузилка"
+
+# GMT 1559644706.4259
+msgid "Android base Package Name can't be empty."
+msgstr "Название пакета для Android не может быть пустым."
+
+# GMT 1559644706.4346
+msgid "Android base Package Name must contain only letters, dots & minus with at least two dots.<br />Example: com.mydomain.admin"
+msgstr "Название пакета для Android должен содержать только буквы, точки и минуса как минимум с двух точек.<br />Example: com.mydomain.admin"
+
+# GMT 1559644706.4303
+msgid "Android base Package Name must contain only letters, dots & minus."
+msgstr "Название пакета для Android должно содержать только буквы, точки и знаки."
+
+# GMT 1559644706.439
+msgid "Android only"
+msgstr "Только Android"
+
+# GMT 1559644706.4433
+msgid "Answers"
+msgstr "Ответы"
+
+# GMT 1559644706.4477
+msgid "App"
+msgstr "Приложение"
+
+# GMT 1559644706.4521
+msgid "App analytics"
+msgstr "App Аналитика"
+
+# GMT 1559644706.4564
+msgid "App id"
+msgstr "Идентификатор приложения"
+
+# GMT 1559644706.4608
+msgid "Appearance"
+msgstr "Внешность"
+
+# GMT 1559644706.4652
+msgid "Apple Development teams"
+msgstr "Группы разработчиков Apple"
+
+# GMT 1559644706.4695
+msgid "Application"
+msgstr "Приложение"
+
+# GMT 1559644706.4729
+msgid "Application Name"
+msgstr "Название App"
+
+# GMT 1559644706.4773
+msgid "Application base Bundle ID (iOS)"
+msgstr "Основание применения идентификатора пакета (иос)"
+
+# GMT 1559644706.4816
+msgid "Application base Package Name (Android)"
+msgstr "База приложения имя пакета (Android)"
+
+# GMT 1559644706.4859
+msgid "Applications"
+msgstr "Приложения"
+
+# GMT 1559644706.4903
+msgid "Are you sure you want to delete this admin?"
+msgstr "Вы уверены, что хотите удалить администратора?"
+
+# GMT 1559644706.4946
+msgid "Are you sure you want to delete this element?"
+msgstr "Вы уверены, что хотите удалить этот элемент?"
+
+# GMT 1559644706.4989
+msgid "Are you sure you want to delete this invoice?"
+msgstr "Вы уверены, что хотите удалить этот счет?"
+
+# GMT 1559644706.5033
+msgid "Are you sure you want to delete this subscription?"
+msgstr "Вы уверены, что хотите удалить эту подписку?"
+
+# GMT 1559644706.5076
+msgid "Are you sure you want to remove this account?"
+msgstr "Вы уверены, что хотите удалить этот аккаунт?"
+
+# GMT 1559644706.5119
+msgid "Artist"
+msgstr "Художник"
+
+# GMT 1559644706.5205
+msgid "At least one <b>published</b> application is required in order to use global push notifications."
+msgstr "Нужно минимум одно <b>опубликованное</b> приложение, для того, чтобы использовать глобальные push-уведомления."
+
+# GMT 1559644706.5163
+msgid "At least, 1 page in the application"
+msgstr "По крайней мере, 1 страница в заявке"
+
+# GMT 1559644706.5249
+msgid "Attachment"
+msgstr "Вложение"
+
+# GMT 1559644706.5292
+msgid "Audio"
+msgstr "Аудио"
+
+# GMT 1559644706.5336
+msgid "Authentication failed"
+msgstr "Ошибка аутентификации"
+
+# GMT 1559644706.5423
+msgid "Authentication failed. Please check your email and/or your password"
+msgstr "Ошибка аутентификации. Пожалуйста, проверьте свою электронную почту или пароль"
+
+# GMT 1559644706.5379
+msgid "Authentication failed. Please, check the username and/or the password"
+msgstr "Ошибка аутентификации. Пожалуйста, проверьте имя пользователя или пароль"
+
+# GMT 1559644706.5466
+msgid "Autocomplete & Suggestions ..."
+msgstr "Автозаполнение И Предложения ..."
+
+# GMT 1559644706.5509
+msgid "Average cart"
+msgstr "Средняя покупка"
+
+# GMT 1559644706.5553
+msgid "Average for active users"
+msgstr "Средник активных пользователей"
+
+# GMT 1559644706.5596
+msgid "Average for all users"
+msgstr "Среднее для всех пользователей"
+
+# GMT 1559644706.564
+#, mobile
+msgid "Back"
+msgstr "Назад"
+
+# GMT 1559644706.5682
+msgid "Back button icon"
+msgstr "Значок кнопки \"Назад\""
+
+# GMT 1559644706.5725
+msgid "Background"
+msgstr "Фон"
+
+# GMT 1559644706.5769
+msgid "Background (landscape)"
+msgstr "Фон (пейзаж)"
+
+# GMT 1559644706.5812
+msgid "Background (portrait)"
+msgstr "Фон (портрет)"
+
+# GMT 1559644706.5856
+msgid "Backoffice"
+msgstr "Офис"
+
+# GMT 1559644706.5899
+msgid "Bad settings can break your APK Generator, leave empty to use defaults."
+msgstr "Плохие настройки могут привести к повреждению вашего APK-генератора, оставьте пустым, чтобы использовать настройки по умолчанию."
+
+# GMT 1559644706.5942
+msgid "Banner"
+msgstr "Баннер"
+
+# GMT 1559644706.5986
+msgid "Banner & Interstitial"
+msgstr "Баннер И Интерстициальные"
+
+# GMT 1559644706.6021
+msgid "Be careful you are working in"
+msgstr "Будьте осторожны, вы работаете в"
+
+# GMT 1559644706.6099
+msgid "Before you can send push notification, you must have at least one of iOS or Android application in a published state."
+msgstr "Прежде чем вы сможете отправлять push-уведомления, вы должны иметь по крайней мере один из iOS или Android приложение в опубликованном состоянии."
+
+# GMT 1559644706.6142
+msgid "Booking"
+msgstr "Бронирование"
+
+# GMT 1559644706.6186
+#, mobile
+msgid "Booking details"
+msgstr "Детали бронирования"
+
+# GMT 1559644706.6229
+msgid "Booking::findAction An unknown error occurred, please try again later."
+msgstr "Бронирование::findAction неизвестная ошибка, пожалуйста, повторите попытку позже."
+
+# GMT 1559644706.6272
+msgid "Bottom"
+msgstr "Снизу"
+
+# GMT 1559644706.6316
+msgid "Browse"
+msgstr "Обзор"
+
+# GMT 1559644706.6356
+msgid "Button"
+msgstr "Кнопка"
+
+# GMT 1559644706.6399
+msgid "Button assertive"
+msgstr "Кнопка подтверждения"
+
+# GMT 1559644706.6442
+msgid "Button balanced"
+msgstr "Кнопка balanced"
+
+# GMT 1559644706.6486
+msgid "Button calm"
+msgstr "Кнопка спокойно"
+
+# GMT 1559644706.6529
+msgid "Button dark"
+msgstr "Темная кнопка"
+
+# GMT 1559644706.6573
+msgid "Button energized"
+msgstr "Кнопка"
+
+# GMT 1559644706.6616
+msgid "Button light"
+msgstr "Кнопка светлая"
+
+# GMT 1559644706.666
+msgid "Button positive"
+msgstr "Положительная кнопка"
+
+# GMT 1559644706.67
+msgid "Button royal"
+msgstr "Кнопки"
+
+# GMT 1559644706.6743
+msgid "By checking this, a search field will appear in your folder feature"
+msgstr "По установки, появится окно поиска, в папке"
+
+# GMT 1559644706.6786
+msgid "By default, popups steps try to use a smart placement. You can force this placement if needed."
+msgstr "По умолчанию всплывающие окна, шаги старайтесь использовать смарт-размещения. Вы можете выключить это размещение, если необходимо."
+
+# GMT 1559644706.6829
+msgid "Cache"
+msgstr "Кэш"
+
+# GMT 1559644706.6873
+msgid "Calendar"
+msgstr "Календарь"
+
+# GMT 1559644706.6917
+msgid "Callback URIs"
+msgstr "Обратный URIs"
+
+# GMT 1559644706.696
+msgid "Can only be used once"
+msgstr "Это предложение может быть использовано только один раз."
+
+# GMT 1559644706.7004
+#, mobile
+msgid "Cancel"
+msgstr "Сброс"
+
+# GMT 1559644706.7047
+msgid "Card"
+msgstr "Карточка товара"
+
+# GMT 1559644706.7091
+msgid "Card Item"
+msgstr "Элементы корзины"
+
+# GMT 1559644706.7134
+msgid "Careful, someone else is working on this application."
+msgstr "Не стесняйтесь задавать нам вопросы, мы поможем!"
+
+# GMT 1559644706.7178
+#, mobile
+msgid "Cart"
+msgstr "Корзина"
+
+# GMT 1559644706.7221
+msgid "Catalog"
+msgstr "Каталог"
+
+# GMT 1559644706.7265
+msgid "Certificate is valid and SSL is reachable, valid until: %s.<br />Issuer: %s%s"
+msgstr "Сертификат является действительным и SSL можно, действует до: %s.<br />Issuer: %s%s"
+
+# GMT 1559644706.7308
+msgid "Change password"
+msgstr "Сменить пароль"
+
+# GMT 1559644706.7352
+msgid "Change your<br /><span class='bold'>picture</span>"
+msgstr "Сменить<br /><span class='bold'>картинку</span>"
+
+# GMT 1559644706.7395
+msgid "Changing the Application icon requires a rebuild / republication."
+msgstr "При изменение иконки приложения, необходима перепубликации приложения"
+
+# GMT 1559644706.7438
+msgid "Changing this option requires you to republish your iOS application."
+msgstr "Изменение этой опции требует от вас, чтобы опубликовать приложение для iOS."
+
+# GMT 1559644706.7482
+msgid "Checkbox"
+msgstr "Чекбокс"
+
+# GMT 1559644706.7525
+msgid "Checkbox off"
+msgstr "Чекбокс OFF"
+
+# GMT 1559644706.7564
+msgid "Checkbox on"
+msgstr "Чекбокс ON"
+
+# GMT 1559644706.7607
+msgid "Checking Permissions"
+msgstr "Проверка Разрешений"
+
+# GMT 1559644706.7651
+msgid "Choose a file to import:"
+msgstr "Выбрать файл для импорта:"
+
+# GMT 1559644706.7694
+msgid "Choose an object to import:"
+msgstr "Выбирите объект для импорта:"
+
+# GMT 1559644706.7738
+#, mobile
+msgid "City"
+msgstr "Город"
+
+msgid "City:"
+msgstr "Город:"
+
+# GMT 1559644706.7781
+msgid "ClamAV is an optional anti-virus, you can enable it up below."
+msgstr "ClamAV является дополнительным антивирусом, вы можете включить его ниже."
+
+# GMT 1559644706.7825
+msgid "ClamAV settings"
+msgstr "Настройки ClamAV"
+
+# GMT 1559644706.7869
+msgid "ClamAV settings have been saved."
+msgstr "Настройки ClamAV сохранены."
+
+# GMT 1559644706.7912
+#, mobile
+msgid "Click here to log-in"
+msgstr "Жми, чтобы войти"
+
+# GMT 1559644706.7955
+msgid "Click here to open the application"
+msgstr "Щелкните здесь, чтобы открыть приложения"
+
+# GMT 1559644706.7999
+msgid "Click on"
+msgstr "Нажмите на"
+
+# GMT 1559644706.8043
+msgid "Click on a feature to add it to the folder"
+msgstr "Нажмите на функцию, чтобы добавить его в папку"
+
+# GMT 1559644706.8086
+msgid "Click on a feature to add it to the folder %s"
+msgstr "Нажмите на функцию, чтобы добавить его в папку %s"
+
+# GMT 1559644706.813
+msgid "Click to import your file"
+msgstr "Выбирите файл для импорта"
+
+# GMT 1559644706.8173
+#, mobile
+msgid "Close"
+msgstr "Закрыть"
+
+# GMT 1559644706.8217
+msgid "Close mobile display"
+msgstr "Закрыть мобильный дисплей"
+
+# GMT 1559644706.826
+msgid "CloudFlare is not supported, please use a CNAME."
+msgstr "Cloudflare  не поддерживается, пожалуйста, используйте запись cname."
+
+# GMT 1559644706.8304
+msgid "CloudFlare is not supported, you must use a CNAME targeting your main domain."
+msgstr "Компания cloudflare не поддерживается, вы должны использовать запись cname таргетинга вашего основного домена."
+
+# GMT 1559644706.839
+msgid "Codescan"
+msgstr "codescan"
+
+# GMT 1559644706.8434
+#, mobile
+msgid "Comment"
+msgstr "Комментарий"
+
+# GMT 1559644706.8477
+#, mobile
+msgid "Comments"
+msgstr "Комментарии"
+
+# GMT 1559644706.8521
+msgid "Commerce"
+msgstr "Коммерция"
+
+# GMT 1559644706.8555
+msgid "Communication"
+msgstr "Связи"
+
+# GMT 1559644706.8599
+#, mobile
+msgid "Company"
+msgstr "Компания"
+
+# GMT 1559644706.8642
+#, mobile
+msgid "Coms"
+msgstr "Система связи"
+
+# GMT 1559644706.8685
+msgid "Conditions"
+msgstr "Условия"
+
+# GMT 1559644706.8725
+msgid "Configuration partially saved"
+msgstr "Конфигурация частично сохранены"
+
+# GMT 1559644706.8768
+msgid "Confirm"
+msgstr "Подтвердить"
+
+# GMT 1559644706.8811
+msgid "Confirm Password"
+msgstr "Подтвердите пароль"
+
+# GMT 1559644706.8854
+msgid "Confirm new password"
+msgstr "Подтвердите новый пароль"
+
+# GMT 1559644706.8898
+#, mobile
+msgid "Confirmation"
+msgstr "Подтверждение"
+
+# GMT 1559644706.8941
+msgid "Confirmation required"
+msgstr "Подтверждение требуется"
+
+# GMT 1559644706.8985
+msgid "Connection type"
+msgstr "Тип соединения"
+
+# GMT 1559644706.9028
+msgid "Contact"
+msgstr "Контакт"
+
+# GMT 1559644706.9072
+msgid "Contact successfully added to your address book"
+msgstr "Обратный адрес успешно добавлен в вашу адресную книгу"
+
+# GMT 1559644706.9111
+msgid "Contact us"
+msgstr "Контакты"
+
+# GMT 1559644706.9154
+msgid "Contest"
+msgstr "Рейтинги"
+
+# GMT 1559644706.9197
+msgid "Coordinates"
+msgstr "Координаты"
+
+# GMT 1559644706.9241
+#, mobile
+msgid "Copy"
+msgstr "Копия"
+
+# GMT 1559644706.9284
+msgid "Copying"
+msgstr "Копирование"
+
+# GMT 1559644706.9327
+msgid "Core"
+msgstr "Основной"
+
+# GMT 1559644706.937
+#, mobile
+msgid "Country"
+msgstr "Страна"
+
+msgid "Country:"
+msgstr "Страна:"
+
+# GMT 1559644706.9414
+msgid "Cover"
+msgstr "Обложка"
+
+# GMT 1559644706.9457
+msgid "Create"
+msgstr "Создать"
+
+# GMT 1559644706.95
+msgid "Create / Edit a User"
+msgstr "Создавать / редактировать пользователей"
+
+# GMT 1559644706.9544
+msgid "Create a new account"
+msgstr "Создать новый аккаунт"
+
+# GMT 1559644706.9587
+#, mobile
+msgid "Create an account"
+msgstr "Создать аккаунт"
+
+# GMT 1559644706.9631
+msgid "Created at"
+msgstr "Создано"
+
+msgid "Created at:"
+msgstr "Создано с:"
+
+# GMT 1559644706.9718
+msgid "Currency"
+msgstr "Валюта"
+
+# GMT 1559644706.9761
+msgid "Current load is"
+msgstr "Текущая нагрузка"
+
+# GMT 1559644706.9805
+msgid "Current password"
+msgstr "Текущий пароль"
+
+# GMT 1559644706.9848
+msgid "Current status is"
+msgstr "Текущее состояние"
+
+# GMT 1559644706.9892
+msgid "Custom Page"
+msgstr "Своя страница"
+
+# GMT 1559644706.9935
+msgid "Customization"
+msgstr "Кастомизация"
+
+# GMT 1559644706.9979
+msgid "Customization mode activated"
+msgstr "Режим Настройки активен"
+
+# GMT 1559644707.0022
+msgid "Customize your app's colors"
+msgstr "Настройка цветовой схемы приложения"
+
+# GMT 1559644707.0065
+msgid "DEFAULT"
+msgstr "По умолчанию"
+
+# GMT 1559644707.0108
+msgid "DELETE"
+msgstr "Удалить"
+
+# GMT 1559644707.0196
+msgid "Dashboard"
+msgstr "Консоль"
+
+# GMT 1559644707.0239
+msgid "Data saved successfully."
+msgstr "Данные успешно сохранены."
+
+# GMT 1559644707.0282
+msgid "Date"
+msgstr "Дата"
+
+# GMT 1559644707.0326
+#, mobile
+msgid "Date and time"
+msgstr "Дата и время"
+
+# GMT 1559644707.037
+#, mobile
+msgid "Date of birth"
+msgstr "Дата рождения"
+
+msgid "Date of birth:"
+msgstr "Дата рождения:"
+
+# GMT 1559644707.0413
+msgid "Deactivate"
+msgstr "Отключить"
+
+# GMT 1559644707.0456
+msgid "Debug"
+msgstr "Отлаживать"
+
+# GMT 1559644707.0499
+msgid "Debug output"
+msgstr "Отладочный вывод"
+
+# GMT 1559644707.0543
+msgid "Default Languages"
+msgstr "Язык по умолчанию"
+
+# GMT 1559644707.0586
+msgid "Default role for all new users"
+msgstr "Роль по умолчанию для всех новых пользователей"
+
+# GMT 1559644707.0629
+msgid "Default search distance"
+msgstr "Расстояние по умолчанию поиск"
+
+# GMT 1559644707.0668
+#, mobile
+msgid "Delete"
+msgstr "Удалить"
+
+# GMT 1559644707.0711
+msgid "Delete a feature"
+msgstr "Удаление объекта"
+
+# GMT 1559644707.0755
+msgid "Delete the Application"
+msgstr "Удалить приложение"
+
+# GMT 1559644707.0793
+msgid "Delete this folder and all its subfolders?"
+msgstr "Удалить эту папку и все ее подпапки?"
+
+# GMT 1559644707.0836
+msgid "Delivered"
+msgstr "Доставлено"
+
+# GMT 1559644707.0879
+msgid "Delivery Cost"
+msgstr "Стоимость доставки"
+
+# GMT 1559644707.0923
+msgid "Delivery method"
+msgstr "Способ доставки"
+
+# GMT 1559644707.0966
+#, mobile
+msgid "Description"
+msgstr "Описание"
+
+msgid "Description:"
+msgstr "Описание:"
+
+# GMT 1559644707.1002
+msgid "Details"
+msgstr "Детали"
+
+# GMT 1559644707.1045
+msgid "Development"
+msgstr "Разработчик"
+
+# GMT 1559644707.1088
+msgid "Dialog"
+msgstr "Диалог"
+
+# GMT 1559644707.1132
+msgid "Dialog background"
+msgstr "Диалоговое окно фон"
+
+# GMT 1559644707.1175
+msgid "Dialog button"
+msgstr "Кнопки диалогового окна"
+
+# GMT 1559644707.1209
+msgid "Dialog text"
+msgstr "Диалоговое окно текст"
+
+# GMT 1559644707.1253
+#, mobile
+msgid "Discount"
+msgstr "Скидка"
+
+# GMT 1559644707.1292
+msgid "Discounts"
+msgstr "Скидки"
+
+# GMT 1559644707.1336
+msgid "Display pictogram instead of image in map"
+msgstr "Дисплей пиктограммы вместо изображения на карте"
+
+# GMT 1559644707.1379
+msgid "Distance unit"
+msgstr "Расстояние"
+
+# GMT 1559644707.1423
+msgid "Do not export"
+msgstr "Не экспортировать"
+
+# GMT 1559644707.1467
+#, mobile
+msgid "Do you want to download all the contents now to access it when offline? If you do, we recommend you to use a WiFi connection."
+msgstr "Хотите загрузить весь контент приложения, для дальнейшего доступа к нему в режиме offline? Для этого рекомендуется подключение Wi-Fi."
+
+# GMT 1559644707.151
+msgid "Do you want to return to the homepage?"
+msgstr "Вы хотите вернуться на главную страницу?"
+
+# GMT 1559644707.1596
+msgid "Don't close the app while downloading. This may take a while."
+msgstr "Не закрывайте приложение при загрузке. Это может занять некоторое время."
+
+# GMT 1559644707.1553
+#, mobile
+msgid "Done"
+msgstr "Закрыть"
+
+# GMT 1559644707.1638
+msgid "Download APK"
+msgstr "Скачать APK"
+
+# GMT 1559644707.1681
+msgid "Download a copy of my data"
+msgstr "Скачать копию моих данных"
+
+# GMT 1559644707.1725
+msgid "Download as zip"
+msgstr "Скачать как zip"
+
+# GMT 1559644707.176
+msgid "Download complete list for this metric"
+msgstr "Скачать полный список метрики"
+
+# GMT 1559644707.1803
+msgid "Download current search as CSV"
+msgstr "Загрузить текущий поиск в формате CSV"
+
+# GMT 1559644707.1847
+msgid "Download file is not available in DEMO mode."
+msgstr "Файл не доступен для скачивания в ДЭМО-режиме"
+
+# GMT 1559644707.189
+msgid "Download latest APK"
+msgstr "Скачать последнюю apk"
+
+# GMT 1559644707.1933
+msgid "Download latest sources"
+msgstr "Скачать последнюю источники"
+
+# GMT 1559644707.1977
+msgid "Download list of user who used this discount"
+msgstr "Скачать список пользователей Дисконт. сист."
+
+# GMT 1559644707.202
+msgid "Download list of user who used this loyalty card"
+msgstr "Скачать список тех, кто пользуется картами лояльности"
+
+# GMT 1559644707.2064
+msgid "Download list of user who used this scratch card"
+msgstr "Скачать список пользователей, которые использовали эту скретч-карту"
+
+# GMT 1559644707.2107
+msgid "Download only winner list for this scratch card"
+msgstr "Скачать только список победителей скретч-карты"
+
+# GMT 1559644707.2151
+msgid "Download the APK"
+msgstr "Скачать APK"
+
+# GMT 1559644707.2195
+msgid "Download the Source code"
+msgstr "Скачать исходный код"
+
+# GMT 1559644707.2229
+#, mobile
+msgid "Downloading..."
+msgstr "Загрузка..."
+
+# GMT 1559644707.2272
+msgid "Drop your json here"
+msgstr "Уроните свой JSON здесь"
+
+# GMT 1559644707.2315
+msgid "EDIT"
+msgstr "Редактировать"
+
+# GMT 1559644707.2359
+msgid "Edit"
+msgstr "Редактировать"
+
+# GMT 1559644707.2392
+msgid "Edit an invoice for this plan"
+msgstr "Редактировать счет-фактуру этого тарифа"
+
+# GMT 1559644707.2436
+msgid "Edit folder"
+msgstr "Изменить папку"
+
+# GMT 1559644707.2479
+msgid "Edit step for this element"
+msgstr "Редактировать шаг для этого элемента"
+
+# GMT 1559644707.2522
+msgid "Editing"
+msgstr "Редактирование"
+
+# GMT 1559644707.2566
+msgid "Editor"
+msgstr "Редактор"
+
+# GMT 1559644707.261
+msgid "Editor note: A user with a given role can only assign Self role (if the role is SELF-ASSIGNABLE) & Child roles."
+msgstr "Примечание редактора. Пользователь с заданной ролью может назначать только роль Self (если роль принадлежит SELF-ASSIGNABLE) и дочерние роли."
+
+# GMT 1559644707.2654
+msgid "Editor note: A user with a given role can only assign self & child roles."
+msgstr "Редактор Примечание: пользователь с данной ролью может назначить только самооценки и роли ребенка."
+
+# GMT 1559644707.2697
+msgid "Element n°"
+msgstr "Элемент N°"
+
+# GMT 1559644707.2741
+#, mobile
+msgid "Email"
+msgstr "Email"
+
+# GMT 1559644707.2784
+msgid "Email address"
+msgstr "Адрес Email"
+
+msgid "Email:"
+msgstr "Email:"
+
+# GMT 1559644707.2828
+msgid "Enable search in folders"
+msgstr "Включить поиск в папках"
+
+# GMT 1559644707.2871
+msgid "Enable test API ?"
+msgstr "Включить тест API ?"
+
+# GMT 1559644707.2914
+msgid "End at"
+msgstr "Окончание действия"
+
+# GMT 1559644707.2957
+msgid "End tour"
+msgstr "Конец тура"
+
+# GMT 1559644707.3001
+msgid "Enter your twitter handle"
+msgstr "Введите ваше имя пользователя в Twitter"
+
+# GMT 1559644707.3044
+#, mobile
+msgid "Error"
+msgstr "Ошибка"
+
+# GMT 1559644707.3088
+msgid "Error : <br/>"
+msgstr "Ошибка: <br/>"
+
+# GMT 1559644707.3131
+msgid "Error on import configuration."
+msgstr "Ошибка импорта."
+
+# GMT 1559644707.3175
+msgid "Errors : <br/>"
+msgstr "Ошибки: <br/>"
+
+# GMT 1559644707.3218
+msgid "European <b>General Data Protection Regulation (GDPR)</b>"
+msgstr "Европейское <b>Общее Регулирование Защиты Данных (GDPR)</b>"
+
+# GMT 1559644707.3263
+msgid "Event"
+msgstr "Событие"
+
+# GMT 1559644707.3302
+msgid "Events"
+msgstr "События"
+
+# GMT 1559644707.3345
+msgid "Export / Import"
+msgstr "Экспорт / Импорт"
+
+# GMT 1559644707.3388
+msgid "Export / Import of features is currently in beta and available only with some features."
+msgstr "Экспорт / Импорт функций в настоящее время находится в стадии бета-тестирования и доступен только с некоторыми функциями."
+
+# GMT 1559644707.343
+msgid "Export your customers"
+msgstr "Экспорт клиентов"
+
+# GMT 1559644707.3473
+msgid "Extension"
+msgstr "Расширение"
+
+# GMT 1559644707.36
+msgid "Extension %s is strictly forbidden."
+msgstr "Расширение %s строго запрещено."
+
+# GMT 1559644707.3515
+msgid "Extension can't be empty."
+msgstr "Расширение не может быть пустым."
+
+# GMT 1559644707.3557
+msgid "Extension not allowed, '%s' only"
+msgstr "Расширение не допускается, '%s' только"
+
+# GMT 1559644707.3642
+msgid "Extension: txt, png, jpeg, avi, etc..."
+msgstr "Расширение: txt, png, jpeg, avi и т.д."
+
+# GMT 1559644707.3678
+#, mobile
+msgid "Facebook"
+msgstr "Facebook"
+
+# GMT 1559644707.3721
+msgid "Fan Wall"
+msgstr "Стена"
+
+# GMT 1559644707.3764
+msgid "Fanwall"
+msgstr "Стена"
+
+# GMT 1559644707.3807
+msgid "Feature Analytics"
+msgstr "Характеристика и аналитика"
+
+# GMT 1559644707.3842
+msgid "Feature Top 5 visits"
+msgstr "Топ-5 посещений"
+
+msgid "Feature settings"
+msgstr "Настройка характеристик"
+
+# GMT 1559644707.3885
+msgid "Features"
+msgstr "Функции"
+
+# GMT 1559644707.3928
+msgid "Filter metrics"
+msgstr "Фильтр метрики"
+
+# GMT 1559644707.3971
+msgid "Firewall"
+msgstr "Брандмауэр"
+
+# GMT 1559644707.4015
+#, mobile
+msgid "First Name"
+msgstr "Ваше Имя"
+
+# GMT 1559644707.4058
+msgid "First name"
+msgstr "Ваше Имя"
+
+# GMT 1559644707.4102
+#, mobile
+msgid "First name / Last name"
+msgstr "Имя / Фамилия / Отчество"
+
+# GMT 1559644707.4145
+#, mobile
+msgid "Firstname"
+msgstr "Имя"
+
+msgid "Firstname:"
+msgstr "Ваше Имя:"
+
+# GMT 1559644707.4188
+msgid "Folder"
+msgstr "Папка"
+
+# GMT 1559644707.423
+msgid "Folder title is required"
+msgstr "Требуется название папки"
+
+# GMT 1559644707.4273
+msgid "Folders"
+msgstr "Папки"
+
+# GMT 1559644707.4318
+msgid "Folders (v2)"
+msgstr "Папки (В2)"
+
+# GMT 1559644707.4361
+msgid "Forbidden image format"
+msgstr "Запретный формат изображения"
+
+# GMT 1559644707.4399
+msgid "Force request & Upload to panel"
+msgstr "Запрос и загрузки из панели"
+
+msgid "Forgot your password ?"
+msgstr "Забыли пароль?"
+
+# GMT 1559644707.4442
+#, mobile
+msgid "Forgot your password?"
+msgstr "Напомнить пароль?"
+
+# GMT 1559644707.4486
+msgid "Forgot your password? Don't worry! Simply enter your email address and we'll send you a new one right now."
+msgstr "Забыли пароль? Не волнуйтесь! Просто введите свой адрес электронной почты, и мы вышлем вам новый прямо сейчас."
+
+# GMT 1559644707.4529
+msgid "Form"
+msgstr "Форма"
+
+# GMT 1559644707.4573
+msgid "Form has the following errors"
+msgstr "Форма содержит следующие ошибки"
+
+# GMT 1559644707.4616
+msgid "Free until"
+msgstr "Бесплатно до"
+
+msgid "From"
+msgstr "от"
+
+# GMT 1559644707.466
+#, mobile
+msgid "From:"
+msgstr "От:"
+
+# GMT 1559644707.4703
+msgid "Front"
+msgstr "Фронт"
+
+# GMT 1559644707.4742
+msgid "GCM settings saved."
+msgstr "Настройки GCM сохранены."
+
+# GMT 1559644707.4785
+msgid "GRADLE extended options"
+msgstr "Расширенные опции GRADLE"
+
+# GMT 1559644707.4828
+#, mobile
+msgid "General"
+msgstr "Основная"
+
+# GMT 1559644707.4871
+msgid "Generate"
+msgstr "Создать"
+
+# GMT 1559644707.4907
+msgid "Generate an invoice for this offline plan by using the form below."
+msgstr "Создать счет-фактуру на данную автономного плана, используя форму ниже."
+
+# GMT 1559644707.495
+msgid "Generate build"
+msgstr "Сгенерировать"
+
+# GMT 1559644707.4993
+msgid "Generate sources"
+msgstr "Генерировать исходники"
+
+# GMT 1559644707.5037
+msgid "Global push"
+msgstr "Глобальная отправка"
+
+# GMT 1559644707.508
+msgid "Global push notifications"
+msgstr "Глобальные push-уведомления"
+
+# GMT 1559644707.5124
+msgid "Go back"
+msgstr "Вернуться"
+
+# GMT 1559644707.5167
+msgid "Google Maps settings"
+msgstr "Настройки Google Карты"
+
+# GMT 1559644707.5254
+msgid "Hello,"
+msgstr "Здравствуйте,"
+
+# GMT 1559644707.5298
+msgid "Here is your new password:"
+msgstr "Вот ваш новый пароль:"
+
+# GMT 1559644707.5334
+#, mobile
+msgid "Hi. I just found: $1 in the $2 app."
+msgstr "Смотри что я нашел: $1 в $2 ."
+
+# GMT 1559644707.5377
+msgid "Hide"
+msgstr "Скрыть"
+
+# GMT 1559644707.542
+msgid "Hide iOS status bar"
+msgstr "Скрыть строку состояния в iOS"
+
+# GMT 1559644707.5464
+msgid "Hint"
+msgstr "Подсказка"
+
+# GMT 1559644707.5507
+#, mobile
+msgid "Home"
+msgstr "Главная"
+
+# GMT 1559644707.5551
+msgid "Homepage"
+msgstr "Меню"
+
+# GMT 1559644707.5631
+msgid "Hostnames associated with this Certificate"
+msgstr "Имена, связанные с этим сертификатом"
+
+# GMT 1559644707.5666
+msgid "How do you want to access the backoffice if you remove the only user remaining?"
+msgstr "Как вы хотите получить доступ к бэк-офис, нужно чтобы остался хотя бы один пользователь?"
+
+# GMT 1559644707.5882
+#, mobile
+msgid "I'm listening to $1 from $2 on $3 app."
+msgstr "Я слушаю $1 из $2 в приложении $3 ."
+
+# GMT 1559644707.5917
+#, mobile
+msgid "I'm listening to $1 on $2 app."
+msgstr "Я слушаю $1 в $2"
+
+# GMT 1559644707.5701
+msgid "ID"
+msgstr "ID"
+
+# GMT 1559644707.5769
+msgid "IP, example: 127.0.0.1"
+msgstr "IP, например: 127.0.0.1"
+
+msgid "IP:Port"
+msgstr "IP:Порт"
+
+# GMT 1559644707.5811
+msgid "Icons size"
+msgstr "Размер иконки"
+
+# GMT 1559644707.5846
+msgid "If user doesn't use AdMob, split revenue will default to 100."
+msgstr "Если пользователь не используют admob, распределение дохода по умолчанию 100."
+
+# GMT 1559644707.5951
+msgid "Image"
+msgstr "Фото"
+
+# GMT 1559644707.5987
+msgid "Image not high enough, %spx minimum allowed."
+msgstr "Изображение не достаточно хорошего качества, %spx минимально допустимое."
+
+# GMT 1559644707.6061
+msgid "Image not large enough, %spx minimum allowed."
+msgstr "Изображение не достаточно большое %spx минимально допустимое."
+
+# GMT 1559644707.6026
+msgid "Image not large enough, '%s' allowed."
+msgstr "Изображение не достаточно большое, '%s' допускается."
+
+# GMT 1559644707.6103
+msgid "Image successfully saved"
+msgstr "Образ успешно сохранен"
+
+# GMT 1559644707.6138
+msgid "Image too high, %spx maximum allowed."
+msgstr "Изображение слишком большое, %spx максимально допустимое."
+
+# GMT 1559644707.6215
+msgid "Image too large, %spx maximum allowed."
+msgstr "Снимок слишком большой, %spx  максимально допустимое значение."
+
+# GMT 1559644707.6179
+msgid "Image too large, '%s' allowed."
+msgstr "Снимок слишком большой, '%s' допускается."
+
+# GMT 1559644707.6249
+msgid "Images"
+msgstr "Фото"
+
+# GMT 1559644707.6285
+msgid "Images opacity"
+msgstr "Прозрачность изображений"
+
+# GMT 1559644707.632
+msgid "Import"
+msgstr "Импорт"
+
+# GMT 1559644707.6357
+msgid "Import a background image"
+msgstr "Импорт фонового изображения"
+
+# GMT 1559644707.6394
+msgid "Import a cover image"
+msgstr "Импортировать изображение обложки"
+
+# GMT 1559644707.6428
+msgid "Import a single feature."
+msgstr "Импортируйте одну функцию."
+
+# GMT 1559644707.647
+msgid "Import a thumbnail"
+msgstr "Импорт миниатюры"
+
+# GMT 1559644707.6513
+msgid "Import a thumbnail image"
+msgstr "Импорт эскиз"
+
+# GMT 1559644707.6555
+msgid "Import yml"
+msgstr "Импорт yml"
+
+# GMT 1559644707.6597
+msgid "In order to fully enjoy our features, we encourage you to use at least:.<br />"
+msgstr "Для того, чтобы в полной мере насладиться нашими возможностями, мы рекомендуем вам использовать по крайней мере :. <br />"
+
+# GMT 1559644707.664
+msgid "In order to publish your application, we need:"
+msgstr "Для того, чтобы опубликовать свое приложение, нам понадобится:"
+
+msgid "In order to publish your application, we need:<br />-"
+msgstr "Для того, чтобы опубликовать свое приложение, нам понадобится: <br /> -"
+
+# GMT 1559644707.6682
+msgid "In order to use global push notifications your app must be published."
+msgstr "Для того, чтобы использовать глобальные push-уведомления приложение должно быть опубликовано."
+
+# GMT 1559644707.6724
+msgid "Incorrect filetype."
+msgstr "Неправильный тип файла."
+
+# GMT 1559644707.6766
+#, mobile
+msgid "Info"
+msgstr "Инфо"
+
+# GMT 1559644707.68
+msgid "Info successfully saved"
+msgstr "Информация успешно сохранена"
+
+# GMT 1559644707.6842
+#, mobile
+msgid "Information"
+msgstr "Информация"
+
+# GMT 1559644707.6885
+msgid "Infos successfully saved"
+msgstr "Информация успешно сохранена"
+
+# GMT 1559644707.6927
+msgid "Inherit global layout"
+msgstr "Наследование глобальный макет"
+
+# GMT 1559644707.6969
+msgid "Insert a <br /><span class'bold'>cover image</span>"
+msgstr "Вставить a <br /><span class'bold'>фото</span>"
+
+msgid "Insert a <br /><span class=\"bold\">cover image</span>"
+msgstr "Вставьте <br /><span class=\"bold\">картинку</span>"
+
+# GMT 1559644707.7011
+msgid "Insert a cover image"
+msgstr "Вставить изображение обложки"
+
+# GMT 1559644707.7053
+msgid "Insert a picture"
+msgstr "Вставить картинку"
+
+# GMT 1559644707.7095
+msgid "Installer"
+msgstr "Установщик"
+
+# GMT 1559644707.7135
+msgid "Installs"
+msgstr "Установки"
+
+# GMT 1559644707.7178
+msgid "Integration"
+msgstr "Интеграция"
+
+# GMT 1559644707.722
+msgid "Interstitial"
+msgstr "Интерстициальный"
+
+# GMT 1559644707.7262
+msgid "Invalid place"
+msgstr "Неверное место"
+
+# GMT 1559644707.7304
+msgid "Invoice creation date"
+msgstr "Дата создания счета-фактуры"
+
+# GMT 1559644707.7343
+msgid "Invoice payment date"
+msgstr "Дата оплаты счета-фактуры"
+
+# GMT 1559644707.7386
+msgid "Invoices"
+msgstr "Счета"
+
+# GMT 1559644707.747
+msgid "It seems that the renewal of the following SSL Certificate %s is failing, please check in <b>Settings > Advanced > Configuration</b> for the specified certificate."
+msgstr "Похоже, что продление SSL-сертификата следующие %s - ов не удается, пожалуйста, проверьте в <B>параметры > дополнительно > настройки</B> для указанного сертификата."
+
+# GMT 1559644707.7509
+msgid "JAVA Extended options"
+msgstr "Расширенные опции JAVA"
+
+# GMT 1559644707.7552
+msgid "Landscape"
+msgstr "Пейзаж"
+
+# GMT 1559644707.7594
+#, mobile
+msgid "Last Name"
+msgstr "Фамилия"
+
+# GMT 1559644707.7636
+msgid "Last action"
+msgstr "Последнее действие"
+
+# GMT 1559644707.7675
+msgid "Last error"
+msgstr "Последняя ошибка"
+
+# GMT 1559644707.7717
+msgid "Last login"
+msgstr "Послед"
+
+# GMT 1559644707.776
+msgid "Last name"
+msgstr "Фамилия"
+
+# GMT 1559644707.7804
+msgid "Last update date"
+msgstr "Дата последнего обновления"
+
+# GMT 1559644707.7847
+#, mobile
+msgid "Lastname"
+msgstr "Фамилия"
+
+msgid "Lastname:"
+msgstr "Ваша Фамилия:"
+
+# GMT 1559644707.789
+msgid "Layout #1"
+msgstr "Макет #1"
+
+# GMT 1559644707.7934
+msgid "Layout #2"
+msgstr "Макет #2"
+
+# GMT 1559644707.7978
+msgid "Layout #3"
+msgstr "Макет #3"
+
+# GMT 1559644707.8021
+msgid "Layout #4"
+msgstr "Макет #4"
+
+# GMT 1559644707.8065
+msgid "Layout #5"
+msgstr "Макет #5"
+
+# GMT 1559644707.8108
+msgid "Layout #6"
+msgstr "Макет #6"
+
+# GMT 1559644707.8152
+msgid "Leave blank if your web space is the current domain."
+msgstr "Оставьте пустым, если ваш веб-пространства для текущего домена."
+
+# GMT 1559644707.8195
+msgid "Left"
+msgstr "слево"
+
+# GMT 1559644707.8239
+msgid "Let your users know what is locked"
+msgstr "Пусть ваши пользователи знают, что заблокированы"
+
+# GMT 1559644707.8273
+#, mobile
+msgid "Like"
+msgstr "Нравится"
+
+# GMT 1559644707.8316
+#, mobile
+msgid "Likes"
+msgstr "Лайки"
+
+# GMT 1559644707.836
+msgid "Link"
+msgstr "Сайт"
+
+# GMT 1559644707.8404
+msgid "Links"
+msgstr "Ссылки"
+
+# GMT 1559644707.8442
+msgid "Links are now re-ordered!"
+msgstr "Ссылки теперь переупорядочены!"
+
+# GMT 1559644707.8486
+msgid "List"
+msgstr "Лист"
+
+# GMT 1559644707.8529
+msgid "List Item"
+msgstr "Пункты листа"
+
+# GMT 1559644707.8573
+msgid "List of your invoices"
+msgstr "Список ваших счетов"
+
+# GMT 1559644707.8616
+msgid "Load More"
+msgstr "Загрузить еще"
+
+# GMT 1559644707.866
+#, mobile
+msgid "Loading"
+msgstr "Загрузка"
+
+# GMT 1559644707.8702
+msgid "Loading picture"
+msgstr "Загрузка изображения"
+
+# GMT 1559644707.8745
+msgid "Local APK Generator"
+msgstr "Местный генератор АПК"
+
+# GMT 1559644707.8789
+msgid "Local APK build"
+msgstr "Локальная сборка APK"
+
+# GMT 1559644707.8832
+#, mobile
+msgid "Locate"
+msgstr "Расположение"
+
+# GMT 1559644707.8875
+#, mobile
+msgid "Location"
+msgstr "Локация"
+
+msgid "Location:"
+msgstr "Где? В каком месте?:"
+
+# GMT 1559644707.8919
+msgid "Location: %s"
+msgstr "Расположено: %s"
+
+# GMT 1559644707.8957
+msgid "Log in"
+msgstr "Войти"
+
+# GMT 1559644707.9044
+#, mobile
+msgid "Log-in"
+msgstr "Войти"
+
+# GMT 1559644707.9174
+#, mobile
+msgid "Log-out"
+msgstr "Выход"
+
+# GMT 1559644707.9001
+msgid "Logged in as"
+msgstr "Вы вошли как"
+
+# GMT 1559644707.9087
+msgid "Login to access your data"
+msgstr "Логин для доступа к вашим данным"
+
+# GMT 1559644707.9131
+msgid "Login to your admin interface"
+msgstr "Логин к вашей админке"
+
+# GMT 1559644707.9218
+msgid "Loyalty Card"
+msgstr "Дисконтная карта"
+
+# GMT 1559644707.9261
+msgid "LoyaltyCard"
+msgstr "Дисконтная карта"
+
+# GMT 1559644707.9646
+msgid "Main Platform"
+msgstr "Основная Платформа"
+
+# GMT 1559644707.9689
+msgid "Main category"
+msgstr "Главная категория"
+
+# GMT 1559644707.9732
+msgid "Main domain"
+msgstr "Основной домен"
+
+# GMT 1559644707.9776
+msgid "Main domain (without https?://) is required for services, and tools."
+msgstr "Основной домен (без https?: //) необходим для служб и инструментов."
+
+# GMT 1559644707.9819
+msgid "Main hostname"
+msgstr "Главное имя хоста"
+
+# GMT 1559644707.9863
+msgid "Make this image colorizable"
+msgstr "Сделать изображение колоризованным"
+
+# GMT 1559644707.9906
+msgid "Manage"
+msgstr "Управление"
+
+# GMT 1559644707.9949
+msgid "Manage Folders"
+msgstr "Управление папками"
+
+# GMT 1559644707.999
+msgid "Manage Places"
+msgstr "Управление Местами"
+
+# GMT 1559644708.0024
+msgid "Manage Tour"
+msgstr "Управление Тур"
+
+# GMT 1559644708.0067
+msgid "Manage content"
+msgstr "Управление контентом"
+
+# GMT 1559644708.0111
+#, mobile
+msgid "Map"
+msgstr "Карта"
+
+# GMT 1559644708.0154
+msgid "Maps"
+msgstr "Карты"
+
+# GMT 1559644708.0198
+msgid "Mcommerce"
+msgstr "Коммерция"
+
+# GMT 1559644708.0241
+msgid "Media"
+msgstr "Медиа"
+
+# GMT 1559644708.0284
+#, mobile
+msgid "Message"
+msgstr "Сообщение"
+
+# GMT 1559644708.0327
+msgid "Message from your app %s"
+msgstr "Сообщение из вашего приложения %s"
+
+# GMT 1559644708.0371
+msgid "Messages"
+msgstr "Сообщения"
+
+# GMT 1559644708.0414
+msgid "Metadata"
+msgstr "Метаданные"
+
+# GMT 1559644708.0458
+msgid "Method"
+msgstr "Способ"
+
+# GMT 1559644708.0501
+msgid "Middle"
+msgstr "Средний"
+
+# GMT 1559644708.0545
+msgid "Migrate sessions"
+msgstr "Перенос сессий"
+
+# GMT 1559644708.0588
+msgid "Migrate sessions to Redis"
+msgstr "Перенос сессий в Redis"
+
+# GMT 1559644708.0631
+msgid "Misc"
+msgstr "Разное"
+
+# GMT 1559644708.0675
+msgid "Missing appId"
+msgstr "Отсутствует appId"
+
+# GMT 1559644708.071
+msgid "Missing gallery_id"
+msgstr "Отсутствует gallery_id"
+
+# GMT 1559644708.0753
+msgid "Missing parameters."
+msgstr "Недостающие параметры."
+
+# GMT 1559644708.0795
+msgid "Missing params"
+msgstr "Недостающие параметры"
+
+# GMT 1559644708.0839
+msgid "Missing status"
+msgstr "Отсутствует статус"
+
+# GMT 1559644708.088
+msgid "Missing value"
+msgstr "Отсутствующее значение"
+
+# GMT 1559644708.0923
+msgid "Missing values"
+msgstr "Отсутствуют значения"
+
+# GMT 1559644708.0967
+msgid "Mobile display"
+msgstr "Мобильный дисплей"
+
+# GMT 1559644708.1001
+msgid "Modal"
+msgstr "Модальные"
+
+# GMT 1559644708.1037
+msgid "Modules"
+msgstr "Модули"
+
+# GMT 1559644708.1079
+msgid "Monetization"
+msgstr "Монетизация"
+
+# GMT 1559644708.1121
+msgid "Month"
+msgstr "Месяц"
+
+# GMT 1559644708.1164
+msgid "Monthly"
+msgstr "Ежемесячно"
+
+# GMT 1559644708.1207
+#, mobile
+msgid "More"
+msgstr "Ещё"
+
+# GMT 1559644708.1244
+msgid "My Users List"
+msgstr "Мой Список Пользователей"
+
+# GMT 1559644708.1283
+#, mobile
+msgid "My account"
+msgstr "Мой аккаунт"
+
+# GMT 1559644708.1326
+msgid "My custom template"
+msgstr "Мой пользовательский шаблон"
+
+# GMT 1559644708.137
+msgid "My invoices"
+msgstr "Мои счета"
+
+# GMT 1559644708.1414
+msgid "MyTemplate"
+msgstr "Шаблон mytemplate"
+
+# GMT 1559644708.1457
+msgid "NSCameraUsageDescription"
+msgstr "NSCameraUsageDescription"
+
+# GMT 1559644708.1544
+msgid "NSLocationAlwaysUsageDescription"
+msgstr "NSLocationAlwaysUsageDescription"
+
+# GMT 1559644708.1587
+msgid "NSLocationWhenInUseUsageDescription"
+msgstr "NSLocationWhenInUseUsageDescription"
+
+# GMT 1559644708.1631
+msgid "NSMotionUsageDescription"
+msgstr "NSMotionUsageDescription"
+
+# GMT 1559644708.1672
+msgid "NSPhotoLibraryUsageDescription"
+msgstr "NSPhotoLibraryUsageDescription"
+
+# GMT 1559644708.1715
+#, mobile
+msgid "Name"
+msgstr "Имя"
+
+# GMT 1559644708.1758
+msgid "Never"
+msgstr "Никогда"
+
+# GMT 1559644708.1803
+msgid "New"
+msgstr "Новый"
+
+# GMT 1559644708.1846
+msgid "New folder"
+msgstr "Новая папка"
+
+# GMT 1559644708.189
+msgid "New format"
+msgstr "Новый формат"
+
+# GMT 1559644708.1933
+msgid "New password"
+msgstr "Новый пароль"
+
+# GMT 1559644708.1977
+msgid "New positions are missing."
+msgstr "Новых позиций не хватает."
+
+# GMT 1559644708.202
+msgid "New subfolder"
+msgstr "Новую подпапку"
+
+# GMT 1559644708.2064
+msgid "Newswall"
+msgstr "Новости"
+
+# GMT 1559644708.2108
+#, mobile
+msgid "Next"
+msgstr "Далее"
+
+# GMT 1559644708.2151
+#, mobile
+msgid "No"
+msgstr "Нет"
+
+# GMT 1559644708.2195
+#, mobile
+msgid "No Results"
+msgstr "Нет Результатов"
+
+# GMT 1559644708.2238
+msgid "No address to display on map."
+msgstr "Нет адреса для отображения на карте."
+
+# GMT 1559644708.2281
+msgid "No data for this metrics for now."
+msgstr "Нет информации для этой метрики"
+
+# GMT 1559644708.2325
+msgid "No features"
+msgstr "Нет возможности"
+
+# GMT 1559644708.2369
+msgid "No invoice for now."
+msgstr "Нет счетов на данный момент"
+
+# GMT 1559644708.2412
+#, mobile
+msgid "No items found"
+msgstr "Ничего не найдено"
+
+# GMT 1559644708.2455
+msgid "No linkable element found on this page."
+msgstr "Ни могу найти  элемен на этой странице."
+
+# GMT 1559644708.2498
+msgid "No logs"
+msgstr "Без логов"
+
+# GMT 1559644708.2542
+msgid "No modules"
+msgstr "Нет модулей"
+
+# GMT 1559644708.2586
+msgid "No place to display on map."
+msgstr "Нет этого места для отображения на карте."
+
+# GMT 1559644708.2629
+msgid "No profile found. Please create one in Settings tab."
+msgstr "Профиль не найдено. Пожалуйста создайте вкладку настроек."
+
+# GMT 1559644708.2673
+msgid "No published applications available."
+msgstr "Нет опубликованных приложений."
+
+msgid "No results"
+msgstr "Нет результатов"
+
+# GMT 1559644708.2709
+#, mobile
+msgid "No results for your request."
+msgstr "Нет результатов для вашего запроса."
+
+# GMT 1559644708.2752
+msgid "No rules"
+msgstr "Без правил"
+
+# GMT 1559644708.2796
+msgid "No uploaded image"
+msgstr "Нет загруженного изображения"
+
+# GMT 1559644708.2839
+msgid "Not available offline."
+msgstr "Не доступна в offline."
+
+# GMT 1559644708.2882
+msgid "Note"
+msgstr "Примечание"
+
+# GMT 1559644708.2926
+msgid "Note: A disabled feature is not removed from published applications & can still be edited, but users can't add it anymore!"
+msgstr "Примечание: функция отключена не удаляется из опубликованных приложений и еще может быть отредактировано, но пользователи больше не могу добавить!"
+
+# GMT 1559644708.297
+msgid "Note: Let's encrypt X1 is a staging certificate."
+msgstr "Примечание: Let's encrypt  Х1 представляет собой сертификат, постановка."
+
+msgid "Nothing to display"
+msgstr "Пока тут пусто"
+
+# GMT 1559644708.3013
+#, mobile
+msgid "Nothing to display."
+msgstr "Нет данных"
+
+# GMT 1559644708.3052
+msgid "Number"
+msgstr "Количество"
+
+# GMT 1559644708.3095
+#, mobile
+msgid "Number of people"
+msgstr "Количество людей"
+
+# GMT 1559644708.3138
+msgid "Number of reward used"
+msgstr "Кол-во вознагражденных юзеров."
+
+# GMT 1559644709.1372
+msgid "Nwicode current installation path"
+msgstr "Nwicode текущий путь установки"
+
+# GMT 1559644709.1415
+msgid "Nwicode domain"
+msgstr "Домен Nwicode"
+
+# GMT 1559644709.1459
+msgid "Nwicode informations"
+msgstr "Информация Nwicode"
+
+# GMT 1559644709.1502
+msgid "Nwicode uses it to scan all uploaded files that have passed the soft Firewall."
+msgstr "CMS использует его для сканирования всех загруженных файлов, которые прошли брандмауэр."
+
+# GMT 1559644708.3182
+#, mobile
+msgid "OK"
+msgstr "ОК"
+
+# GMT 1559644708.3269
+msgid "Offline Payment"
+msgstr "Оффлайн оплата"
+
+# GMT 1559644708.3312
+#, mobile
+msgid "Offline content"
+msgstr "Оффлайн контент"
+
+# GMT 1559644708.3356
+#, mobile
+msgid "Old Password"
+msgstr "Ваш пароль"
+
+# GMT 1559644708.3399
+msgid "Only active"
+msgstr "Только активный"
+
+# GMT 1559644708.3442
+msgid "Only inactive"
+msgstr "Только неактивные"
+
+# GMT 1559644708.3486
+msgid "Only offline"
+msgstr "Только в автономном режиме"
+
+# GMT 1559644708.353
+msgid "Only published application are available for global push notifications."
+msgstr "Только опубликованные приложения доступны для отправки push-уведомления."
+
+# GMT 1559644708.3574
+msgid "Open custom URL"
+msgstr "Откройте пользовательский URL"
+
+# GMT 1559644708.3617
+msgid "Open settings"
+msgstr "Откройте настройки"
+
+# GMT 1559644708.3661
+#, mobile
+msgid "Options"
+msgstr "Опции"
+
+# GMT 1559644708.3704
+msgid "Or do you want to return to editor?"
+msgstr "Или вы хотите, чтобы вернуться в редактор?"
+
+# GMT 1559644708.3748
+msgid "Order"
+msgstr "Заказ"
+
+# GMT 1559644708.3792
+msgid "Order date"
+msgstr "Дата заказа"
+
+# GMT 1559644708.3835
+msgid "Origin"
+msgstr "Первоисточник"
+
+# GMT 1559644708.3878
+msgid "Ouch, this page doesn't exist"
+msgstr "Ой, этой страницы не существует"
+
+# GMT 1559644708.3922
+msgid "Override layout"
+msgstr "Переопределение макетов"
+
+# GMT 1559644708.3965
+msgid "PHP Version"
+msgstr "Версия PHP"
+
+# GMT 1559644708.4008
+msgid "Package name"
+msgstr "Имя Пакета"
+
+# GMT 1559644708.4051
+msgid "Padlock"
+msgstr "Замок"
+
+# GMT 1559644708.4095
+msgid "Page settings"
+msgstr "Параметры страницы"
+
+# GMT 1559644708.4139
+msgid "Paid At"
+msgstr "Заплатили"
+
+# GMT 1559644708.4182
+msgid "Paid amount"
+msgstr "Уплаченной суммы"
+
+# GMT 1559644708.4219
+msgid "Paid at"
+msgstr "Заплатили в"
+
+# GMT 1559644708.4262
+msgid "Parent"
+msgstr "Родитель"
+
+# GMT 1559644708.4305
+#, mobile
+msgid "Password"
+msgstr "Пароль"
+
+# GMT 1559644708.4349
+msgid "Password (clear)"
+msgstr "Пароль (очистить)"
+
+# GMT 1559644708.4392
+msgid "Password (hashed)"
+msgstr "Пароль (хешированный)"
+
+msgid "Password:"
+msgstr "Пароль:"
+
+# GMT 1559644708.4435
+msgid "Passwords don't match"
+msgstr "Пароли не совпадают"
+
+# GMT 1559644708.4479
+msgid "PayPal Express Checkout"
+msgstr "PayPal Экспресс"
+
+# GMT 1559644708.4522
+#, mobile
+msgid "Payment"
+msgstr "Оплата"
+
+# GMT 1559644708.4565
+msgid "Payment ID"
+msgstr "Идентификатор платежа"
+
+# GMT 1559644708.4609
+#, mobile
+msgid "Payment Method"
+msgstr "Способ оплаты"
+
+# GMT 1559644708.4653
+msgid "Payment method"
+msgstr "Способ оплаты"
+
+# GMT 1559644708.4696
+msgid "Payments"
+msgstr "Платежи"
+
+# GMT 1559644708.474
+msgid "Permissions"
+msgstr "Разрешения"
+
+# GMT 1559644708.4783
+msgid "Personal data"
+msgstr "Персональные данные"
+
+# GMT 1559644708.4827
+#, mobile
+msgid "Phone"
+msgstr "Телефон"
+
+# GMT 1559644708.4871
+msgid "Phone and/or E-mail"
+msgstr "Телефон или E-mail"
+
+msgid "Phone:"
+msgstr "Телефон:"
+
+# GMT 1559644708.4914
+#, mobile
+msgid "Photos"
+msgstr "Фото"
+
+# GMT 1559644708.4957
+msgid "Place disabled"
+msgstr "Место отключены"
+
+# GMT 1559644708.5001
+#, mobile
+msgid "Places"
+msgstr "Места"
+
+# GMT 1559644708.5044
+msgid "Plain"
+msgstr "Равнина"
+
+# GMT 1559644708.508
+msgid "Plans"
+msgstr "Тарифы"
+
+# GMT 1559644708.5122
+msgid "Platform"
+msgstr "Платформа"
+
+# GMT 1559644708.5165
+msgid "Platform Name"
+msgstr "Имя платформы"
+
+# GMT 1559644708.5209
+msgid "Platform hostname"
+msgstr "Имя платформы"
+
+# GMT 1559644708.5252
+msgid "Player"
+msgstr "Player"
+
+# GMT 1559644708.5295
+msgid "Please create the API keys to enable this feature."
+msgstr "Пожалуйста создайте API keys, чтобы использовать функцию"
+
+# GMT 1559644708.5383
+msgid "Please enter a password"
+msgstr "Пожалуйста, введите пароль"
+
+# GMT 1559644708.5426
+msgid "Please enter a valid URL."
+msgstr "Пожалуйста, введите URL-адрес."
+
+# GMT 1559644708.547
+msgid "Please enter a valid credit card number."
+msgstr "Пожалуйста, введите действительный номер кредитной карты."
+
+# GMT 1559644708.5557
+msgid "Please enter a valid date (ISO)."
+msgstr "Пожалуйста, введите дату (ISO)."
+
+msgid "Please enter a valid date."
+msgstr "Пожалуйста, введите дату."
+
+# GMT 1559644708.5601
+#, mobile
+msgid "Please enter a valid email address"
+msgstr "Пожалуйста, введите верный адрес"
+
+msgid "Please enter a valid email address."
+msgstr "Пожалуйста, введите действительный адрес электронной почты."
+
+# GMT 1559644708.5645
+msgid "Please enter a valid number."
+msgstr "Пожалуйста, введите правильный номер."
+
+# GMT 1559644708.5688
+msgid "Please enter a valid url"
+msgstr "Пожалуйста, введите правильный URL"
+
+# GMT 1559644708.5775
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr "Пожалуйста, введите значение между {0} и {1} символов."
+
+# GMT 1559644708.5731
+msgid "Please enter a value between {0} and {1}."
+msgstr "Пожалуйста, введите значение между {0} и {1}."
+
+# GMT 1559644708.5818
+msgid "Please enter a value greater than or equal to {0}."
+msgstr "Пожалуйста, введите значение, большее или равное {0}."
+
+# GMT 1559644708.5862
+msgid "Please enter a value less than or equal to {0}."
+msgstr "Пожалуйста, введите значение, которое меньше или равно {0}."
+
+# GMT 1559644708.5905
+msgid "Please enter at least {0} characters."
+msgstr "Пожалуйста, введите по крайней мере {0} символов."
+
+# GMT 1559644708.5944
+msgid "Please enter no more than {0} characters."
+msgstr "Пожалуйста, введите не более {0} символов."
+
+# GMT 1559644708.5987
+msgid "Please enter only digits."
+msgstr "Пожалуйста, введите только цифры."
+
+# GMT 1559644708.6031
+msgid "Please enter the same value again."
+msgstr "Пожалуйста, введите то же значение снова."
+
+# GMT 1559644708.6074
+msgid "Please enter your email address"
+msgstr "Пожалуйста, введите ваш адрес электронной почты"
+
+# GMT 1559644708.6117
+msgid "Please fill in the following fields:"
+msgstr "Пожалуйста, заполните следующие поля:"
+
+# GMT 1559644708.616
+msgid "Please fill out the following fields"
+msgstr "Пожалуйста, заполните следующие поля"
+
+# GMT 1559644708.6204
+msgid "Please fix this field."
+msgstr "Пожалуйста, исправьте это поле."
+
+# GMT 1559644708.6238
+msgid "Please log in."
+msgstr "Пожалуйста войдите."
+
+msgid "Please note that this page is currently displaying DEMO data. Real data will be displayed when reach the %s application limit."
+msgstr "Обратите внимание, что эта страница в настоящее время отображает DEMO-ДАННЫЕ. Реальные данные будут отображаться, когда привысит %s скачиваний."
+
+# GMT 1559644708.6281
+msgid "Please note that this page is currently displaying DEMO data. Real data will be displayed when the %s applications limit is reached."
+msgstr "Обратите внимание, что эта страница в данный момент отображает демо-данные. Реальные данные будут отображаться, когда будет более %s установок приложения."
+
+# GMT 1559644708.6325
+msgid "Please note that this page is currently displaying DEMO data. Real data will be displayed when your application is published."
+msgstr "Обратите внимание, что эта страница в настоящее время отображает DEMO-ДАННЫЕ. Реальные данные будут отображаться после публикации"
+
+# GMT 1559644708.6368
+msgid "Please provide a certificate."
+msgstr "Пожалуйста, предоставьте сертификат."
+
+# GMT 1559644708.6412
+msgid "Please select at least one application."
+msgstr "Пожалуйста, выберите хотя бы одно приложение."
+
+# GMT 1559644708.6451
+#, mobile
+msgid "Please wait..."
+msgstr "Ожидайте"
+
+# GMT 1559644708.5339
+msgid "Please, enter a correct email address."
+msgstr "Пожалуйста, введите правильный адрес электронной почты."
+
+msgid "Please, enter a password."
+msgstr "Пожалуйста, введите пароль."
+
+# GMT 1559644708.5514
+msgid "Please, enter a valid date"
+msgstr "Пожалуйста, введите правильную дату"
+
+# GMT 1559644708.6494
+#, mobile
+msgid "Podcast"
+msgstr "Podcast"
+
+# GMT 1559644708.6537
+msgid "Podcast URL"
+msgstr "Ссылка на подкаст"
+
+# GMT 1559644708.6581
+msgid "Podcast URL (iTunes format)"
+msgstr "Podcast URL (формат Itunes)"
+
+# GMT 1559644708.6624
+msgid "Podcast type is invalid or can't be found"
+msgstr "Этот тип подкаста является недействительным или не может быть найден"
+
+# GMT 1559644708.6668
+msgid "Port"
+msgstr "Порт"
+
+# GMT 1559644708.6712
+msgid "Port, example: 3310"
+msgstr "Порт, пример: 3310"
+
+# GMT 1559644708.6755
+msgid "Position Menu"
+msgstr "Меню Установки"
+
+# GMT 1559644708.6798
+#, mobile
+msgid "Postcode"
+msgstr "Почтовый индекс"
+
+msgid "Postcode:"
+msgstr "Почтовый индекс:"
+
+# GMT 1559644708.6841
+msgid "Previewer"
+msgstr "App Previewer"
+
+# GMT 1559644708.6885
+msgid "Previews"
+msgstr "Превью"
+
+# GMT 1559644708.6928
+#, mobile
+msgid "Privacy"
+msgstr "Конфиденциальности"
+
+# GMT 1559644708.6972
+#, mobile
+msgid "Privacy Policy"
+msgstr "Политика Конфиденциальности"
+
+# GMT 1559644708.7015
+msgid "Privacy policy"
+msgstr "Политика конфиденциальности"
+
+# GMT 1559644708.7059
+msgid "Privacy policy section for GDPR"
+msgstr "Политика конфиденциальности для GDPR"
+
+# GMT 1559644708.7102
+msgid "Privacy policy successfully saved"
+msgstr "Политика конфиденциальности успешно сохранен"
+
+# GMT 1559644708.7146
+msgid "Privacy settings"
+msgstr "Настройки конфиденциальности"
+
+# GMT 1559644708.719
+msgid "Products"
+msgstr "Продукты"
+
+# GMT 1559644708.7233
+#, mobile
+msgid "Profile"
+msgstr "Профиль"
+
+# GMT 1559644708.7276
+msgid "Promotion"
+msgstr "Продвижение"
+
+# GMT 1559644708.7319
+msgid "Publication settings"
+msgstr "Параметры публикации"
+
+# GMT 1559644708.7363
+msgid "Publish your app"
+msgstr "Опубликуйте свое приложение"
+
+# GMT 1559644708.7406
+msgid "Publishable Key"
+msgstr "Публикуемые Ключ"
+
+# GMT 1559644708.745
+msgid "Push"
+msgstr "Push"
+
+# GMT 1559644708.7493
+msgid "Push Notifications"
+msgstr "Уведомления"
+
+# GMT 1559644708.7536
+msgid "Push message"
+msgstr "Push-сообщения"
+
+# GMT 1559644708.758
+msgid "Push message is sent."
+msgstr "Пуш сообщения."
+
+# GMT 1559644708.7623
+msgid "Push notification"
+msgstr "Push-уведомления"
+
+# GMT 1559644708.7667
+msgid "Push notifications"
+msgstr "Push-уведомления"
+
+# GMT 1559644708.771
+msgid "Push notifications Your account doesn't exists on editor side. Please create it before using tour edition."
+msgstr "Push-уведомления Ваш аккаунт не существует на стороне редактора. Пожалуйста, создайте его, используя данное издание."
+
+msgid "Push notifications\"Your account doesn't exists on editor side. Please create it before using tour edition."
+msgstr "Push-уведомления\" ваша учетная запись не существует на стороне редактора. Пожалуйста, создайте его, используя данное издание."
+
+# GMT 1559644708.7754
+msgid "QR Code"
+msgstr "QR код"
+
+# GMT 1559644708.7797
+msgid "QRCode"
+msgstr "QR-Код"
+
+# GMT 1559644708.7841
+#, mobile
+msgid "Qty"
+msgstr "Шт."
+
+# GMT 1559644708.7884
+msgid "Query"
+msgstr "Запрос"
+
+# GMT 1559644708.7928
+msgid "RSS Feed"
+msgstr "RSS канал"
+
+# GMT 1559644708.7971
+msgid "Radio"
+msgstr "Радио"
+
+# GMT 1559644708.8009
+msgid "Redis AUTH KEY"
+msgstr "Redis AUTH KEY"
+
+# GMT 1559644708.8052
+msgid "Registration date"
+msgstr "Дата регистрации"
+
+# GMT 1559644708.8088
+msgid "Release"
+msgstr "Релиз"
+
+# GMT 1559644708.8131
+#, mobile
+msgid "Remove"
+msgstr "Удалить"
+
+# GMT 1559644708.8175
+msgid "Remove this page from this folder?"
+msgstr "Удалить эту страницу из этой папки?"
+
+# GMT 1559644708.8218
+msgid "Remove this step"
+msgstr "Удалить этот шаг"
+
+# GMT 1559644708.826
+msgid "Request & Upload to panel"
+msgstr "Запрос и загрузка в панель"
+
+# GMT 1559644708.8297
+msgid "Request APK generation"
+msgstr "Запрос на формирование АПК"
+
+# GMT 1559644708.8332
+msgid "Request or renew the certificate via Let's Encrypt."
+msgstr "Обновление или запрос нового сертификата"
+
+# GMT 1559644708.8368
+msgid "Requested by"
+msgstr "Запрошенный"
+
+# GMT 1559644708.8411
+msgid "Required fields"
+msgstr "Обязательные для заполнения поля"
+
+# GMT 1559644708.8455
+msgid "Reset to default Privacy Policy."
+msgstr "По умолчанию политика конфиденциальности."
+
+# GMT 1559644708.8498
+msgid "Resize your picture"
+msgstr "Изменение размера изображения"
+
+msgid "Resize your picture:"
+msgstr "Изменение размера изображения:"
+
+# GMT 1559644708.8542
+msgid "Restart"
+msgstr "Перезагрузка"
+
+# GMT 1559644708.8585
+msgid "Restore Apps"
+msgstr "Восстановить приложения"
+
+# GMT 1559644708.8623
+msgid "Restore Apps sources"
+msgstr "Восстановление исходников приложения"
+
+# GMT 1559644708.8666
+msgid "Right"
+msgstr "справо"
+
+# GMT 1559644708.871
+msgid "Roles"
+msgstr "Роли"
+
+# GMT 1559644708.8753
+msgid "Rss"
+msgstr "RSS-канал"
+
+# GMT 1559644708.8794
+msgid "Rule have been added."
+msgstr "Правило добавлено."
+
+# GMT 1559644708.8837
+msgid "Rule have been removed."
+msgstr "Правило было удалено."
+
+# GMT 1559644708.8881
+msgid "Run Android SDK update"
+msgstr "Запустить обновление SDK для Android"
+
+# GMT 1559644708.8924
+msgid "SCSS successfully saved"
+msgstr "SCSS успешно сохранен"
+
+# GMT 1559644708.8967
+msgid "SELF-ASSIGNABLE"
+msgstr "САМОСТОЯТЕЛЬНО ПЕРЕНАЗНАЧИТЬ"
+
+# GMT 1559644708.901
+msgid "SEND"
+msgstr "Отправить"
+
+# GMT 1559644708.9054
+msgid "SMTP"
+msgstr "Протокол SMTP"
+
+# GMT 1559644708.9098
+msgid "SMTP - Whitelist: An administrator sent a request for white-listing his domain."
+msgstr "Протокол SMTP - администратор отправил запрос в белый список СВОЙ домен."
+
+# GMT 1559644708.9141
+msgid "SMTP Credentials (Affiliated to the White-Label %s)"
+msgstr "Учетные данные SMTP"
+
+# GMT 1559644708.9185
+msgid "Sales by Categories (TOP 10)"
+msgstr "Продажи по категориям (TOP 10)"
+
+# GMT 1559644708.9228
+msgid "Sales by Payment method"
+msgstr "Продажи по способам оплаты"
+
+# GMT 1559644708.9271
+msgid "Sales by Store"
+msgstr "Продажи магазина"
+
+# GMT 1559644708.9314
+msgid "Sales by product (TOP 20)"
+msgstr "TOP 20 продаваемых продуктов"
+
+# GMT 1559644708.9357
+msgid "Sample"
+msgstr "Образец"
+
+# GMT 1559644708.9401
+#, mobile
+msgid "Save"
+msgstr "Сохранить"
+
+# GMT 1559644708.9444
+msgid "Save GCM settings"
+msgstr "Сохранить настройки GCM"
+
+# GMT 1559644708.9487
+msgid "Save iTunes credentials"
+msgstr "Сохранить учетные данные в iTunes"
+
+# GMT 1559644708.9531
+msgid "Save sender id & key"
+msgstr "Сохранить отправителя ID и ключ"
+
+msgid "Scan it"
+msgstr "Сканируй его"
+
+# GMT 1559644708.9574
+msgid "Scan it."
+msgstr "Сканируй."
+
+# GMT 1559644708.9617
+#, mobile
+msgid "Scan now to unlock"
+msgstr "Сканируй, чтобы разблокировать"
+
+# GMT 1559644708.966
+msgid "Scheduled for"
+msgstr "Запланированные для"
+
+# GMT 1559644708.9704
+msgid "Scheduled for <i>%s</i>"
+msgstr "Назначено на <i>%s</i>"
+
+# GMT 1559644708.9747
+msgid "Scratchcard Users"
+msgstr "Пользователи скретч-карты"
+
+# GMT 1559644708.9791
+#, mobile
+msgid "Search"
+msgstr "Поиск"
+
+# GMT 1559644708.9834
+msgid "Search ..."
+msgstr "Поиск ..."
+
+# GMT 1559644708.9872
+msgid "Search / Filter"
+msgstr "Поиск / Фильтр"
+
+# GMT 1559644708.9958
+msgid "Search results"
+msgstr "Результаты поиска"
+
+# GMT 1559644708.9915
+msgid "Search, filter ..."
+msgstr "Поиск, фильтр ..."
+
+msgid "Security logs (last 50 triggers)"
+msgstr "Журналы безопасности (последние 50 триггеров)"
+
+# GMT 1559644709.0002
+msgid "See"
+msgstr "Смотреть"
+
+# GMT 1559644709.0045
+msgid "Select a Development team"
+msgstr "Выберите команду разработчиков"
+
+msgid "Select a connection type:"
+msgstr "Выберите тип подключения:"
+
+# GMT 1559644709.0088
+#, mobile
+msgid "Select a country"
+msgstr "Выберите страну"
+
+# GMT 1559644709.0132
+msgid "Select a hostname"
+msgstr "Выберите имя"
+
+# GMT 1559644709.0175
+msgid "Select a panel type or self-managed"
+msgstr "Выберите Тип панели или самоуправляемые"
+
+# GMT 1559644709.0219
+msgid "Select all"
+msgstr "Выбрать все"
+
+# GMT 1559644709.0262
+msgid "Select an album"
+msgstr "Выберите альбом"
+
+# GMT 1559644709.0305
+msgid "Select an iTunes Connect provider"
+msgstr "Выберите в iTunes подключите провайдера"
+
+# GMT 1559644709.0346
+msgid "Select target applications"
+msgstr "Выбор целевого приложения"
+
+# GMT 1559644709.0389
+msgid "Select your back button appearance"
+msgstr "Выберите  внешний вид кнопки \"назад\""
+
+# GMT 1559644709.0432
+msgid "Selected hostname"
+msgstr "Выбранное имя хоста"
+
+# GMT 1559644709.0476
+msgid "Selected main hostname"
+msgstr "Выбранное главное имя хоста"
+
+# GMT 1559644709.0519
+#, mobile
+msgid "Send"
+msgstr "Отправить"
+
+# GMT 1559644709.0562
+msgid "Send a cover image"
+msgstr "Отправить обложки"
+
+# GMT 1559644709.0605
+msgid "Send push"
+msgstr "Отправить push"
+
+# GMT 1559644709.0649
+msgid "Send report"
+msgstr "Отправить отчет"
+
+msgid "Send to all applications"
+msgstr "Послать во все приложения"
+
+# GMT 1559644709.0692
+msgid "Send to all applications."
+msgstr "Послать ко всем приложениям."
+
+# GMT 1559644709.0735
+msgid "Send your pictures"
+msgstr "Вставьте свои фотографии"
+
+# GMT 1559644709.0778
+msgid "Sender ID"
+msgstr "Идентификатор отправителя"
+
+# GMT 1559644709.0822
+msgid "Sender email"
+msgstr "Отправитель электронной почты"
+
+# GMT 1559644709.0865
+msgid "Sender name"
+msgstr "Имя отправителя"
+
+# GMT 1559644709.0908
+msgid "Server key"
+msgstr "Ключ сервера"
+
+# GMT 1559644709.0951
+msgid "Service APK Generator"
+msgstr "Генератор АПК сервис"
+
+# GMT 1559644709.0995
+msgid "Service APK generator"
+msgstr "Генератор АПК сервис"
+
+# GMT 1559644709.1038
+msgid "Service notes"
+msgstr "Сервис Примечания"
+
+# GMT 1559644709.1081
+msgid "Session settings"
+msgstr "Параметры сеанса"
+
+# GMT 1559644709.1119
+msgid "Set Meal"
+msgstr "Прайс"
+
+# GMT 1559644709.1162
+msgid "Settings"
+msgstr "Настройки"
+
+# GMT 1559644709.1206
+msgid "Show"
+msgstr "Показать"
+
+# GMT 1559644709.125
+msgid "Show cover"
+msgstr "Показать обложку"
+
+# GMT 1559644709.1294
+msgid "Show search field"
+msgstr "Показать поле поиска"
+
+# GMT 1559644709.1337
+msgid "Show title"
+msgstr "Показать заголовок"
+
+# GMT 1559644709.1589
+msgid "Size on disk"
+msgstr "Размер на диске"
+
+# GMT 1559644709.1545
+msgid "Size:"
+msgstr "Размер:"
+
+# GMT 1559644709.1632
+msgid "Slack notification settings"
+msgstr "Настройки уведомлений"
+
+# GMT 1559644709.1676
+msgid "Slider"
+msgstr "Слайдер"
+
+# GMT 1559644709.1712
+msgid "Social"
+msgstr "Социалки"
+
+# GMT 1559644709.1755
+msgid "Socialgaming"
+msgstr "Конкурсы"
+
+# GMT 1559644709.1841
+msgid "Soundcloud"
+msgstr "С SoundCloud"
+
+# GMT 1559644709.1885
+msgid "Source code"
+msgstr "Свой код"
+
+# GMT 1559644709.1928
+msgid "Source code generation is not configured, ask your administrator for more informations."
+msgstr "Генерация исходного кода не настроена, обратитесь к администратору за дополнительной информацией."
+
+# GMT 1559644709.1971
+msgid "Sourcecode"
+msgstr "Исходники"
+
+# GMT 1559644709.2015
+msgid "Sources"
+msgstr "Исходник"
+
+# GMT 1559644709.2053
+msgid "Spinner"
+msgstr "Загрузчик"
+
+# GMT 1559644709.2097
+msgid "Split Ad revenue (percent for you)"
+msgstr "Совместный доход от рекламы (в процентах для вас)"
+
+# GMT 1559644709.214
+msgid "Start date must be lower than end date."
+msgstr "Дата начала должна быть ниже даты окончания."
+
+# GMT 1559644709.2184
+msgid "State / Province"
+msgstr "Регион/Населённый пункт"
+
+# GMT 1559644709.2227
+msgid "Step placement (optional)"
+msgstr "Шаг размещения (необязательно)"
+
+# GMT 1559644709.2271
+msgid "Step saved successfully."
+msgstr "Шаг успешно сохранен."
+
+# GMT 1559644709.2308
+msgid "Step text"
+msgstr "Шаг текст"
+
+# GMT 1559644709.2352
+msgid "Step title"
+msgstr "Шаг название"
+
+# GMT 1559644709.2395
+#, mobile
+msgid "Street"
+msgstr "Улица, дом, квартира или офис"
+
+msgid "Street:"
+msgstr "Адрес доставки:"
+
+# GMT 1559644709.2438
+msgid "Subscriptions"
+msgstr "Подписки"
+
+# GMT 1559644709.2482
+msgid "Subtitle"
+msgstr "Подзаголовок"
+
+# GMT 1559644709.2525
+msgid "Success"
+msgstr "Успешно"
+
+# GMT 1559644709.2569
+msgid "Support"
+msgstr "Поддержка"
+
+# GMT 1559644709.2612
+msgid "Support Link"
+msgstr "Ссылка поддержки"
+
+# GMT 1559644709.2656
+msgid "Support link"
+msgstr "Ссылка поддержки"
+
+# GMT 1559644709.2699
+msgid "Switch to Ionic design"
+msgstr "Переключатель для ионной конструкции"
+
+# GMT 1559644709.2742
+msgid "System"
+msgstr "Система"
+
+# GMT 1559644709.2786
+msgid "TLS"
+msgstr "TLS"
+
+# GMT 1559644709.2829
+msgid "Target applications"
+msgstr "Целевые приложения"
+
+# GMT 1559644709.2873
+msgid "Target devices"
+msgstr "Целевые устройства"
+
+# GMT 1559644709.2916
+msgid "Target specific devices"
+msgstr "Для конкретных устройств"
+
+# GMT 1559644709.296
+#, mobile
+msgid "Tax"
+msgstr "Налог"
+
+# GMT 1559644709.3003
+msgid "Taxes"
+msgstr "Налоги"
+
+# GMT 1559644709.3046
+msgid "Template"
+msgstr "Шаблон"
+
+# GMT 1559644709.309
+msgid "Test SMTP"
+msgstr "Проверить SMTP"
+
+# GMT 1559644709.3133
+msgid "Text"
+msgstr "Текст"
+
+# GMT 1559644709.3177
+#, mobile
+msgid "Thank you"
+msgstr "Спасибо"
+
+# GMT 1559644709.322
+msgid "Thank you for your request.<br />We'll answer you as soon as possible."
+msgstr "Спасибо за ваш запрос.<br />мы будем стараться ответить вам как можно скорее."
+
+# GMT 1559644709.3264
+msgid "The account has been successfully saved"
+msgstr "Учетная запись была успешно сохранена"
+
+# GMT 1559644709.33
+#, mobile
+msgid "The address you're looking for does not exists."
+msgstr "Адрес, который вы ищете не существует."
+
+# GMT 1559644709.3336
+msgid "The admin_id is required"
+msgstr "Требуется admin_id"
+
+# GMT 1559644709.3379
+msgid "The admin_id parameter is required"
+msgstr "Требуемый параметр admin_id-это"
+
+# GMT 1559644709.3422
+msgid "The app_id is required"
+msgstr "Требуется app_id"
+
+# GMT 1559644709.3466
+msgid "The app_id parameter is required"
+msgstr "Требуемый параметр app_id является"
+
+# GMT 1559644709.3507
+msgid "The certificate request failed 3 times, please check the certificate information, your panel credentials, and everything else.<br />If your certificate is valid, you can try to upload to panel only."
+msgstr "Запрос на сертификат не 3 раза, пожалуйста, проверьте информацию о сертификате, панель учетные данные, и все остальное<.br />если ваш сертификат действителен, можно попробовать загрузить только на панель."
+
+# GMT 1559644709.355
+msgid "The email is required"
+msgstr "Требуется Email"
+
+# GMT 1559644709.3594
+msgid "The entered text mismatch"
+msgstr "Введено несоответствие текста"
+
+# GMT 1559644709.3637
+msgid "The file '%s' does not exist"
+msgstr "Файл '%s' не существует"
+
+# GMT 1559644709.3681
+msgid "The image '%s' does not exist"
+msgstr "Изображение %s не существует"
+
+# GMT 1559644709.3724
+msgid "The image size '%s' could not be detected."
+msgstr "Размер изображения '%s' не соответствует"
+
+# GMT 1559644709.3768
+msgid "The name is required"
+msgstr "Имя обязательно"
+
+# GMT 1559644709.3811
+msgid "The old password does not match the entered password."
+msgstr "Старый пароль не соответствует введенному паролю."
+
+# GMT 1559644709.3855
+msgid "The password is required"
+msgstr "Требуется пароль"
+
+# GMT 1559644709.3889
+msgid "The password must be at least 6 characters"
+msgstr "Пароль должен быть не менее 6 символов"
+
+# GMT 1559644709.3924
+#, mobile
+msgid "The payment has been cancelled, something wrong happened? Feel free to contact us."
+msgstr "Оплата была отменена, что то не так произошло? Не стесняйтесь обращаться к нам."
+
+# GMT 1559644709.3967
+msgid "The sent request is empty."
+msgstr "На запрос, отправленный пуст."
+
+# GMT 1559644709.4011
+msgid "The user_id is required"
+msgstr "Значение user_id обязательно"
+
+# GMT 1559644709.4054
+msgid "The value_id is required."
+msgstr "В value_id требуется."
+
+# GMT 1559644709.4098
+msgid "This URL is already used"
+msgstr "Этот URL-адрес уже используется"
+
+# GMT 1559644709.4141
+msgid "This admin can generate APK"
+msgstr "Этот администратор может генерировать АПК"
+
+# GMT 1559644709.4185
+msgid "This admin does not exist"
+msgstr "Этого администратора не существует"
+
+# GMT 1559644709.4228
+msgid "This admin gives you the required information to publish applications"
+msgstr "Этот администратор дает вам необходимую информацию для публикации приложений"
+
+# GMT 1559644709.4271
+msgid "This administrator does not exist"
+msgstr "Этот администратор не существует"
+
+# GMT 1559644709.4312
+msgid "This application does not exist"
+msgstr "Это приложение не существует"
+
+# GMT 1559644709.4355
+msgid "This block type doesn't exist"
+msgstr "Этот тип блока не существует"
+
+# GMT 1559644709.4398
+msgid "This code is unrecognized"
+msgstr "Этот код не верный"
+
+# GMT 1559644709.4442
+msgid "This email address does not exist"
+msgstr "Этот адрес электронной почты не существует"
+
+# GMT 1559644709.4475
+msgid "This email address is already used"
+msgstr "Этот адрес электронной почты уже используется"
+
+# GMT 1559644709.4519
+#, mobile
+msgid "This feature is available from the application only"
+msgstr "Эта функция работает только в приложении"
+
+# GMT 1559644709.4562
+msgid "This feature is disabled by default since update 4.12.24 and is deprecated in favor of Folders v2."
+msgstr "Эта функция отключена по умолчанию, поскольку обновление 4.12.24 и является устаревшим в пользу папок В2."
+
+# GMT 1559644709.4605
+msgid "This feature opens the Code Scan camera"
+msgstr "Эта функция открывает камеру для сканирования QR"
+
+# GMT 1559644709.4648
+#, mobile
+msgid "This field is required"
+msgstr "Заполнение данного поля обязательно"
+
+msgid "This field is required."
+msgstr "Это поле обязательно к заполнению."
+
+# GMT 1559644709.4692
+msgid "This layout has no option."
+msgstr "Этот макет не имеет опций."
+
+# GMT 1559644709.4735
+msgid "This option doesn't exists."
+msgstr "Этот параметр не существует."
+
+# GMT 1559644709.4779
+msgid "This option is not compatible with applications using Forms and/or features with Keyboard."
+msgstr "Эта опция не совместима с приложениями, используя формы и/или функции с клавиатуры."
+
+# GMT 1559644709.4822
+msgid "This plan is an offline plan."
+msgstr "Этот план автономного плана."
+
+# GMT 1559644709.486
+msgid "This section is unlocked for mobile users only"
+msgstr "Этот раздел разблокирован для пользователей"
+
+# GMT 1559644709.4904
+#, mobile
+msgid "This will open the code scan camera on your device."
+msgstr "Откроется сканер кода на телефоне"
+
+# GMT 1559644709.4947
+msgid "Thumbnail"
+msgstr "Эскиз"
+
+# GMT 1559644709.4991
+msgid "Time spent in application"
+msgstr "Время, проведенное в приложении"
+
+# GMT 1559644709.5034
+msgid "Timezone"
+msgstr "Временная зона"
+
+# GMT 1559644709.5077
+#, mobile
+msgid "Tip"
+msgstr "Тип"
+
+# GMT 1559644709.5121
+#, mobile
+msgid "Title"
+msgstr "Название"
+
+# GMT 1559644709.5164
+msgid "Title & Message are both required."
+msgstr "Заголовок и сообщение являются обязательными."
+
+# GMT 1559644709.5203
+msgid "Title's Card"
+msgstr "Титул корзины"
+
+# GMT 1559644709.5246
+msgid "Title's List"
+msgstr "Титул листа"
+
+# GMT 1559644709.529
+msgid "To be able to use ClamAV you must have it installed on your server and configured accordingly to our documentation."
+msgstr "Чтобы иметь возможность использовать ClamAV, вы должны установить его на свой сервер и настроить в соответствии с нашей документацией."
+
+# GMT 1559644709.5333
+#, mobile
+msgid "Toggle"
+msgstr "Переключатель"
+
+# GMT 1559644709.5377
+msgid "Toggle off"
+msgstr "Режим off"
+
+# GMT 1559644709.5421
+msgid "Toggle on"
+msgstr "Включалка"
+
+# GMT 1559644709.5464
+msgid "Toggle's Handle off"
+msgstr "Режим ВЫКЛ"
+
+# GMT 1559644709.5508
+msgid "Toggle's Handle on"
+msgstr "Режим ВКЛ"
+
+# GMT 1559644709.5595
+msgid "Tooltip"
+msgstr "Список, далее."
+
+# GMT 1559644709.5639
+msgid "Top"
+msgstr "Топ"
+
+# GMT 1559644709.5682
+msgid "Top installs"
+msgstr "Топ установок"
+
+# GMT 1559644709.572
+msgid "Top position"
+msgstr "Верхнее положение"
+
+# GMT 1559644709.5764
+msgid "Top visits"
+msgstr "Топ визитов"
+
+# GMT 1559644709.5798
+msgid "Topic"
+msgstr "Тема"
+
+# GMT 1559644709.5841
+msgid "Topics"
+msgstr "Темы"
+
+# GMT 1559644709.5884
+#, mobile
+msgid "Total"
+msgstr "Всего"
+
+# GMT 1559644709.5927
+#, mobile
+msgid "Total Excl. Tax"
+msgstr "Общая Искл. Налог"
+
+# GMT 1559644709.5971
+msgid "Total installs"
+msgstr "Всего установок"
+
+# GMT 1559644709.6006
+msgid "Total sales"
+msgstr "Всего продаж"
+
+# GMT 1559644709.6049
+msgid "Total visits"
+msgstr "Всего визитов"
+
+# GMT 1559644709.6092
+msgid "Tour"
+msgstr "Тур"
+
+# GMT 1559644709.6136
+msgid "Tour Edition"
+msgstr "Тур редактор"
+
+# GMT 1559644709.6179
+msgid "Translation"
+msgstr "Перевод"
+
+# GMT 1559644709.6222
+msgid "Translations"
+msgstr "Переводы"
+
+# GMT 1559644709.6266
+msgid "URL"
+msgstr "URL-адрес"
+
+# GMT 1559644709.6309
+msgid "Unable to add the contact to your address book"
+msgstr "Невозможно добавить контакт в адресную книгу"
+
+# GMT 1559644709.6353
+msgid "Unable to calculate the route."
+msgstr "Невозможно рассчитать маршрут."
+
+# GMT 1559644709.6396
+msgid "Unable to connect in HTTPS or to validate the SSL Certificate.<br />Check if your are not in `Staging`"
+msgstr "Не удается подключиться по https или для проверки SSL-сертификата.<бр />проверьте, если вы находитесь не в \"промежуточном\""
+
+# GMT 1559644709.644
+msgid "Unable to find TC with id %s."
+msgstr "Не удалось найти ТС с идентификатор %s."
+
+# GMT 1559644709.6483
+msgid "Unable to save image"
+msgstr "Невозможно сохранить изображение"
+
+# GMT 1559644709.6526
+msgid "Unrecognized image format"
+msgstr "Неизвестный формат изображения"
+
+# GMT 1559644709.657
+#, mobile
+msgid "Until:"
+msgstr "Действует до:"
+
+# GMT 1559644709.6613
+msgid "Updated at"
+msgstr "Обновлено в"
+
+# GMT 1559644709.6657
+msgid "Upload to panel"
+msgstr "Загрузите в панель"
+
+# GMT 1559644709.6701
+msgid "Upload your json here"
+msgstr "Загрузить JSON здесь"
+
+# GMT 1559644709.6744
+msgid "Use card design"
+msgstr "Использовать дизайн карты"
+
+# GMT 1559644709.6788
+msgid "Use the homepage image as background in all features"
+msgstr "Использование изображения в качестве фона страниц во всех вкладках"
+
+# GMT 1559644709.6831
+#, mobile
+msgid "Use this coupon"
+msgstr "Активировать купон"
+
+# GMT 1559644709.6875
+msgid "User"
+msgstr "Пользователь"
+
+# GMT 1559644709.6918
+msgid "User successfully saved"
+msgstr "Пользователь успешно сохранен"
+
+# GMT 1559644709.6962
+msgid "Username"
+msgstr "Имя пользователя"
+
+# GMT 1559644709.7005
+msgid "Users"
+msgstr "Пользователи"
+
+# GMT 1559644709.7049
+msgid "Users activity"
+msgstr "Активность пользователей"
+
+# GMT 1559644709.7092
+msgid "Users localization"
+msgstr "Локация пользователя"
+
+# GMT 1559644709.7136
+msgid "VAT Number"
+msgstr "ИНН"
+
+# GMT 1559644709.718
+msgid "Valid until"
+msgstr "Действителен до"
+
+# GMT 1559644709.7223
+#, mobile
+msgid "Validate"
+msgstr "Утвердить"
+
+# GMT 1559644709.7267
+msgid "Validated points"
+msgstr "Активированные фишки"
+
+# GMT 1559644709.731
+msgid "Validated points by Loyalty card Analytics"
+msgstr "Аналитика по активированным фишкам в Дисконт. сист."
+
+# GMT 1559644709.7345
+msgid "Validations by Discount Analytics"
+msgstr "Дисконт аналитика"
+
+# GMT 1559644709.7388
+msgid "Version %s"
+msgstr "Версия %s"
+
+# GMT 1559644709.7431
+msgid "Video"
+msgstr "Видео"
+
+# GMT 1559644709.7475
+msgid "Video URL"
+msgstr "Ссылка на видео"
+
+# GMT 1559644709.7518
+msgid "Videos"
+msgstr "Видео"
+
+# GMT 1559644709.7562
+#, mobile
+msgid "View"
+msgstr "Обзор"
+
+# GMT 1559644709.7605
+#, mobile
+msgid "View full article"
+msgstr "Смотреть весь текст"
+
+# GMT 1559644709.7649
+msgid "View my actual data"
+msgstr "Посмотреть мои реальные данные"
+
+# GMT 1559644709.7693
+msgid "Visits"
+msgstr "Визиты"
+
+# GMT 1559644709.7732
+msgid "Visits by feature (All)"
+msgstr "Все посещения"
+
+# GMT 1559644709.7776
+msgid "Visits by feature (Top 5)"
+msgstr "ТОП 5 визитов"
+
+# GMT 1559644709.7819
+msgid "Visits by product (TOP 20)"
+msgstr "TOP 20 посещаемых продуктов"
+
+# GMT 1559644709.7863
+msgid "We are sorry but this address is already used."
+msgstr "Мы сожалеем, но этот адрес уже используется."
+
+# GMT 1559644709.7906
+msgid "We are sorry but this email address already exists."
+msgstr "Мы сожалеем, но этот адрес уже существует."
+
+msgid "We are sorry but this feature is not available yet"
+msgstr "Мы сожалеем, но эта функция пока не доступна"
+
+# GMT 1559644709.795
+msgid "We are sorry but this username already exists."
+msgstr "Извините, но это имя пользователя уже существует."
+
+# GMT 1559644709.8212
+msgid "We've sent you an e-mail with your access token."
+msgstr "Мы отправили вам e-mail."
+
+# GMT 1559644709.7993
+msgid "Web folder Owner"
+msgstr "Владелец веб-папки"
+
+# GMT 1559644709.8037
+msgid "Web space"
+msgstr "Веб-пространство"
+
+# GMT 1559644709.8081
+msgid "Webhook"
+msgstr "Веб-перехватчик"
+
+# GMT 1559644709.8124
+msgid "Weblink"
+msgstr "Ссылка"
+
+# GMT 1559644709.8168
+#, mobile
+msgid "Website"
+msgstr "Вебсайт"
+
+msgid "When selecting \\'Enable test API\\' in a payment method, be sure to create test credentials, check the documentation of your payment method."
+msgstr "При выборе \\'включить тест API\\ в способ оплаты, будьте уверены, чтобы создать тестовые учетные данные, проверьте документацию вашего способа оплаты."
+
+# GMT 1559644709.8299
+msgid "White Label Editor"
+msgstr "Редактор Белая Этикетка"
+
+# GMT 1559644709.8337
+msgid "Who is online"
+msgstr "Кто онлайн"
+
+# GMT 1559644709.838
+msgid "Winners list"
+msgstr "Список победителей"
+
+# GMT 1559644709.8424
+msgid "WordPress"
+msgstr "Вордпресс"
+
+# GMT 1559644709.8467
+msgid "Wordpress"
+msgstr "Вордпресс"
+
+# GMT 1559644709.851
+msgid "Year"
+msgstr "Год"
+
+# GMT 1559644709.8553
+msgid "Yearly"
+msgstr "Ежегодно"
+
+# GMT 1559644709.8596
+#, mobile
+msgid "Yes"
+msgstr "Да"
+
+# GMT 1559644709.864
+msgid "You already have this user in your contact"
+msgstr "У вас уже есть этот пользователь с таким контактом"
+
+# GMT 1559644709.8683
+msgid "You are about to delete this certificate, Are you sure ?"
+msgstr "Вы собираетесь удалить этот сертификат, вы уверены ?"
+
+# GMT 1559644709.8723
+msgid "You are gone offline"
+msgstr "Вы вышли из интернета"
+
+# GMT 1559644709.8766
+msgid "You are not allowed to delete a feature!"
+msgstr "Вам не разрешается удалять функция!"
+
+# GMT 1559644709.8809
+msgid "You are using a custom SMTP configuration, and the following white-label administrator <b>%s</b> is requesting his domain <b>%s</b> to be white-listed.<br /><br />You can add his domain in your SMTP provider panel and send him the instructions to configure it for his domain."
+msgstr "Вы используете пользовательские настройки SMTP, а следующий белый ярлык администратора <б>%х</B> является просьбой домена <B>%х</B>, чтобы быть в белый список<.бр /><br />Вы можете добавить СВОЙ домен в панели провайдера SMTP и отправить его инструкциям, чтобы настроить его для своего домена."
+
+# GMT 1559644709.8853
+msgid "You can add allowed extensions, please note that .php, .js & .ico are strictly forbidden and can't be added"
+msgstr "Вы можете добавить разрешенные расширения, обратите внимание, что .php, .js и .ico строго запрещены и не могут быть добавлены"
+
+# GMT 1559644709.8898
+msgid "You can extend JAVA & GRADLE options to better fit your server hardware."
+msgstr "Вы можете расширить параметры JAVA & GRADLE, чтобы лучше соответствовать вашему серверному оборудованию."
+
+# GMT 1559644709.894
+msgid "You can follow the URL below to access your data report"
+msgstr "Вы можете следовать ниже URL для доступа к вашим данным отчета"
+
+# GMT 1559644709.8983
+msgid "You can globally disable a feature!"
+msgstr "Можно глобально отключить функцию!"
+
+# GMT 1559644709.9027
+msgid "You can upload a pem certificate only."
+msgstr "Вы можете загрузить только сертификат pem"
+
+# GMT 1559644709.907
+msgid "You can upload a png only (.png)."
+msgstr "Вы можете загрузить только (.png) файлы"
+
+# GMT 1559644709.9114
+msgid "You can upload a zip archive only."
+msgstr "Вы можете загрузить только ZIP архив."
+
+# GMT 1559644709.9149
+msgid "You can upload an icon only (.ico and .png)."
+msgstr "Вы можете загрузить иконку только в формате (.ico и .png)."
+
+# GMT 1559644709.9192
+msgid "You can upload an image only (.jpg, .jpeg, .gif and .png)."
+msgstr "Вы можете загрузить изображение только в формате (.jpg, .jpeg, .gif и .png)."
+
+# GMT 1559644709.9278
+msgid "You can't upload more than one file at a time."
+msgstr "Вы не можете загрузить более одного файла одновременно."
+
+# GMT 1559644709.9235
+msgid "You cannot add this feature"
+msgstr "Вы не можете добавить эту функцию"
+
+# GMT 1559644709.9317
+msgid "You current working environment is"
+msgstr "Текущая рабочая среда"
+
+# GMT 1559644709.936
+msgid "You don't have any applications yet"
+msgstr "У вас нет никаких приложений"
+
+# GMT 1559644709.9404
+msgid "You don't have any invoices yet"
+msgstr "У вас еще нет никаких счетов"
+
+# GMT 1559644709.9442
+#, mobile
+msgid "You have gone offline"
+msgstr "Вы в оффлайне"
+
+# GMT 1559644709.9485
+msgid "You have to chose a start and an end date."
+msgstr "Вы должны выбрать начальную и конечную даты."
+
+# GMT 1559644709.9521
+msgid "You must be logged in to like something!"
+msgstr "Вы должны войти в систему !"
+
+# GMT 1559644709.9564
+msgid "You must be logged in to post a comment"
+msgstr "Вы должны быть зарегистрированы, чтобы оставить комментарий."
+
+# GMT 1559644709.9607
+msgid "You must fill ip & port."
+msgstr "Вы должны заполнить ip & port."
+
+# GMT 1559644709.9651
+msgid "You must first complete the current category creation process"
+msgstr "Вы должны сначала завершить текущий процесс создания категории"
+
+# GMT 1559644709.9695
+msgid "You must give the permission to the app to add a contact to your address book"
+msgstr "Вы должны дать разрешение приложению, чтобы добавить контакт в адресную книгу"
+
+# GMT 1559644709.9738
+msgid "You must share your location to access this page."
+msgstr "Вы должны сообщить свое местоположение для доступа к этой странице."
+
+# GMT 1559644709.9782
+msgid "You will lose all unsaved changes, continue?"
+msgstr "Вы потеряете все несохраненные изменения, продолжать?"
+
+# GMT 1559644709.9825
+msgid "Your PHP version is too old, please upgrade to PHP 5.4+."
+msgstr "Ваша PHP версия устарела, пожалуйста обновите до PHP 5.6+"
+
+# GMT 1559644709.9869
+msgid "Your access token is"
+msgstr "Ваш маркер доступа"
+
+# GMT 1559644709.9912
+msgid "Your analytics will be computed and available soon"
+msgstr "Ваша аналитика будет вычислена и доступна в ближайшее время"
+
+# GMT 1559644709.9956
+msgid "Your are not allowed to assign this role."
+msgstr "Вам не разрешается назначать эту роль."
+
+# GMT 1559644709.9999
+msgid "Your browser is too old to view the content of our website.<br />"
+msgstr "Ваш браузер слишком стар, чтобы просмотреть содержимое нашего сайта. <br />"
+
+# GMT 1559644710.0038
+msgid "Your build should be ready"
+msgstr "Сборка должна быть готова"
+
+# GMT 1559644710.0081
+#, mobile
+msgid "Your comment"
+msgstr "Ваш комментарий"
+
+# GMT 1559644710.0125
+#, mobile
+msgid "Your email address"
+msgstr "Ваш адрес электронной почты"
+
+# GMT 1559644710.0169
+msgid "Your email address does not exist"
+msgstr "Ваш адрес электронной почты не существует"
+
+# GMT 1559644710.0206
+msgid "Your invoice has been edited successfully."
+msgstr "Ваш счет был успешно отредактирован."
+
+# GMT 1559644710.025
+#, mobile
+msgid "Your name"
+msgstr "Ваше имя"
+
+# GMT 1559644710.0293
+msgid "Your new password has been sent to the entered email address"
+msgstr "Ваш новый пароль был отправлен к введенному адресу электронной почты"
+
+# GMT 1559644710.0337
+msgid "Your password does not match the entered password."
+msgstr "Ваш пароль не соответствует введенному паролю."
+
+# GMT 1559644710.0372
+msgid "Your request has been successfully sent, please wait for your administrator to answer."
+msgstr "Ваш запрос был успешно отправлен, пожалуйста, дождитесь ответа администратора"
+
+# GMT 1559644710.0415
+msgid "Your subscription has been deleted successfully."
+msgstr "Ваша Подписка была успешно удалена."
+
+# GMT 1559644710.0457
+msgid "Your subscription status has been changed successfully."
+msgstr "Ваш статус подписки успешно изменен."
+
+# GMT 1559644710.05
+msgid "Youtube"
+msgstr "Youtube"
+
+# GMT 1559644710.0544
+msgid "Zip code"
+msgstr "Почтовый индекс"
+
+# GMT 1559644710.0587
+msgid "average"
+msgstr "средняя"
+
+# GMT 1559644710.0631
+msgid "be careful or set it back to"
+msgstr "будьте осторожны или установить его обратно в"
+
+# GMT 1559644710.0674
+msgid "close"
+msgstr "закрыть"
+
+# GMT 1559644710.0708
+msgid "confirm action, deletion, etc ..."
+msgstr "подтвердите действие, удаление, и т. д ..."
+
+# GMT 1559644710.0751
+msgid "contextual, depends on module/layout"
+msgstr "контекстная, зависит от модуля/макета"
+
+# GMT 1559644710.0794
+msgid "day"
+msgstr "день"
+
+# GMT 1559644710.0838
+msgid "days"
+msgstr "дней"
+
+# GMT 1559644710.0881
+msgid "disabled"
+msgstr "отключен"
+
+# GMT 1559644710.0968
+msgid "enabled"
+msgstr "включен"
+
+# GMT 1559644710.1007
+msgid "form submit, search, validation, confirmation"
+msgstr "форма представления, поиска, проверки, подтверждения"
+
+# GMT 1559644710.1079
+msgid "high"
+msgstr "высокая"
+
+# GMT 1559644710.1122
+msgid "hour"
+msgstr "час"
+
+# GMT 1559644710.1158
+msgid "hours"
+msgstr "часов"
+
+# GMT 1559644710.1202
+msgid "iOS & Android"
+msgstr "iOS и Android"
+
+# GMT 1559644710.1245
+msgid "iOS Source"
+msgstr "иос источника"
+
+# GMT 1559644710.1288
+msgid "iOS Spinner"
+msgstr "iOS загрузчик"
+
+# GMT 1559644710.1375
+msgid "iOS base Bundle ID  must contain only letters, dots & minus with at least two dots.<br />Example: com.mydomain.admin"
+msgstr "iOS основной пакет ID должно содержать только буквы, точки и минуса как минимум с двух точек.<br />пример: com.mydomain.admin"
+
+# GMT 1559644710.1331
+msgid "iOS base Bundle ID  must contain only letters, dots & minus."
+msgstr "IOS основной пакет ID должно содержать только буквы, точки и знаки."
+
+# GMT 1559644710.141
+msgid "iOS base Bundle ID can't be empty."
+msgstr "базового идентификатора пакета не может быть пустым."
+
+# GMT 1559644710.1453
+msgid "iOS only"
+msgstr "только для iOS"
+
+# GMT 1559644710.1497
+msgid "iPhone"
+msgstr "для iPhone"
+
+# GMT 1559644710.1541
+msgid "iTunes"
+msgstr "в iTunes"
+
+# GMT 1559644710.1584
+msgid "iTunes Connect providers"
+msgstr "в iTunes подключите поставщиков"
+
+# GMT 1559644710.1628
+msgid "idle"
+msgstr "праздный"
+
+# GMT 1559644710.1671
+msgid "informative, modal"
+msgstr "Информативный, модальный"
+
+# GMT 1559644710.1715
+msgid "is updated once a day"
+msgstr "обновляется раз в день"
+
+# GMT 1559644710.1758
+msgid "loading"
+msgstr "загрузка"
+
+# GMT 1559644710.1797
+msgid "low"
+msgstr "низкая"
+
+# GMT 1559644710.184
+msgid "maintenance"
+msgstr "ремонт"
+
+# GMT 1559644710.1883
+msgid "minute"
+msgstr "минут"
+
+# GMT 1559644710.1927
+msgid "minutes"
+msgstr "минут"
+
+# GMT 1559644710.2014
+msgid "never"
+msgstr "никогда"
+
+# GMT 1559644710.2058
+msgid "online"
+msgstr "в интернете"
+
+# GMT 1559644710.2101
+msgid "phone, locate, facebook, email, etc.."
+msgstr "телефона, найдите, facebook, E-mail и т. д.."
+
+# GMT 1559644710.2145
+msgid "picture"
+msgstr "картинка"
+
+# GMT 1559644710.2188
+msgid "posts"
+msgstr "посты"
+
+# GMT 1559644710.2232
+msgid "remaining characters"
+msgstr "оставшиеся символы"
+
+# GMT 1559644710.2569
+msgid "second"
+msgstr "секунда"
+
+# GMT 1559644710.2612
+msgid "seconds"
+msgstr "секунд"
+
+# GMT 1559644710.2655
+msgid "this feature is globally disabled!"
+msgstr "эта функция отключена глобально!"
+
+# GMT 1559644710.2699
+msgid "title"
+msgstr "название"
+
+# GMT 1559644710.2742
+msgid "titles"
+msgstr "названия"
+
+# GMT 1559644710.2784
+msgid "to add a folder."
+msgstr "чтобы добавить папку."
+
+# GMT 1559644710.2827
+msgid "to add a subfolder."
+msgstr "добавить в подпапку."
+
+# GMT 1559644710.2871
+msgid "twitter"
+msgstr "Твиттер"
+
+# GMT 1559644710.2909
+msgid "unreachable"
+msgstr "недоступен"
+
+msgid "Итого"
+msgstr "Итого"

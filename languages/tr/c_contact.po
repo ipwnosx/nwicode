@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-04-18T04:12:35+03:00\n"
+"PO-Revision-Date: 2019-04-18T04:12:35+03:00\n"
+"Language: \n"
+
+msgctxt "contact"
+msgid "Address"
+msgstr "Adres"
+
+msgctxt "contact"
+msgid "Card"
+msgstr "Kartı"
+
+msgctxt "contact"
+msgid "Contact"
+msgstr "İletişim"
+
+msgctxt "contact"
+msgid "Contact information"
+msgstr "İletişim bilgileri"
+
+msgctxt "contact"
+msgid "Contact saved"
+msgstr "Kişi kurtardı"
+
+msgctxt "contact"
+msgid "Cover image"
+msgstr "Kapak resim"
+
+msgctxt "contact"
+msgid "Description"
+msgstr "Açıklama"
+
+msgctxt "contact"
+msgid "Design"
+msgstr "Tasarım"
+
+msgctxt "contact"
+msgid "E-mail"
+msgstr "E-posta"
+
+#, mobile
+msgctxt "contact"
+msgid "Email"
+msgstr "E-posta"
+
+#, mobile
+msgctxt "contact"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "contact"
+msgid "Form"
+msgstr "Form"
+
+msgctxt "contact"
+msgid "List"
+msgstr "Liste"
+
+#, mobile
+msgctxt "contact"
+msgid "Locate"
+msgstr "Bulun"
+
+msgctxt "contact"
+msgid "Map"
+msgstr "Harita"
+
+msgctxt "contact"
+msgid "Name"
+msgstr "Adı"
+
+#, mobile
+msgctxt "contact"
+msgid "Nothing to display."
+msgstr "Görünen bir şey yok."
+
+#, mobile
+msgctxt "contact"
+msgid "Phone"
+msgstr "Telefon"
+
+msgctxt "contact"
+msgid "Save"
+msgstr "Kaydet"
+
+#, mobile
+msgctxt "contact"
+msgid "Send"
+msgstr "Gönder"
+
+msgctxt "contact"
+msgid "Settings"
+msgstr "Ayarları"
+
+msgctxt "contact"
+msgid "Settings saved"
+msgstr "Ayarlar kaydedilir"
+
+#, mobile
+msgctxt "contact"
+msgid "Twitter"
+msgstr "heyecan"
+
+msgctxt "contact"
+msgid "We are unable to validate your address!"
+msgstr "Adresinizi doğrulamak edemiyoruz!"
+
+#, mobile
+msgctxt "contact"
+msgid "Website"
+msgstr "Web sitesi"
+
+#, mobile
+msgctxt "contact"
+msgid "Your email address"
+msgstr "E-posta adresinizi"
+
+#, mobile
+msgctxt "contact"
+msgid "Your name"
+msgstr "Adınızı"
+
+#, mobile
+msgctxt "contact"
+msgid "Your request"
+msgstr "İsteğiniz"

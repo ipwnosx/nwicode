@@ -1,0 +1,33 @@
+<ion-modal-view sb-page-background >
+
+    <ion-header-bar class="bar-custom">
+        <div class="buttons">
+            <button class="button button-clear" ng-click="transfer_modal.hide();"><i class="icon ion-ios-arrow-back"></i></button>
+        </div>
+        <h1 class="title">{{ 'Send funds' | translate }} {{data.id}}</h1>
+    </ion-header-bar>
+
+    <ion-content id="category-submenu">
+		<!-- ionic 4-->
+		<div ng-if="!old_style && !is_loading  && is_logged_in">
+		dd
+        </div>
+
+		
+		<!-- ionic 1-->
+		<div class="ionic1" ng-if="old_style && !is_loading">
+			<div class="card wallet-card-transfer">
+				<div class="item item-text-wrap">
+					<div class="list">
+						<label class="item item-input item-stacked-label"><span class="input-label">{{'Amount'|translate}}</span><input type="number" ng-model="tr.request_amount" placeholder="{{'Amount'|translate}}"></label>
+						<label class="item item-input item-stacked-label"><span class="input-label">{{'Recepient email'|translate}}</span><input type="email" ng-model="tr.to_account" placeholder="{{'Recepient email'|translate}}"></label>
+						<label class="item item-input item-stacked-label"><span class="input-label">{{'Comment'|translate}}</span><textarea ng-model="tr.request_comment" placeholder="{{'Comment'|translate}}"></textarea></label>
+						<div class="item item-text-wrap assertive" ng-if="tr.error_message!=''">{{tr.error_message}}</div>
+						<div class="item"><button class="button button-full button-positive" ng-click="makeTransfer()"><i class="icon  ion-paper-airplane"></i> {{'Send funds'|translate}}</button></div>
+					</div>
+				</div>				
+			</div>				
+        </div>
+
+    </ion-content>
+</ion-modal-view>

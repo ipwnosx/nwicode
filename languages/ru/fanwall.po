@@ -1,0 +1,575 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-15T19:03:15+03:00\n"
+"PO-Revision-Date: 2019-07-15T19:03:15+03:00\n"
+"Language: \n"
+
+# GMT 1560962078.5605
+msgctxt "fanwall"
+msgid "this window will be closed automatically!"
+msgstr "это окно закроется автоматически!"
+
+# GMT 1560961851.9694
+msgctxt "fanwall"
+msgid "<b>%s</b> reported the following message"
+msgstr "<b>%s</b> и сообщил следующее сообщение"
+
+# GMT 1560786218.712
+#, mobile
+msgctxt "fanwall"
+msgid "Add a picture"
+msgstr "Добавить фото"
+
+# GMT 1560785796.7782
+msgctxt "fanwall"
+msgid "Add a post"
+msgstr "Добавить пост"
+
+# GMT 1560960443.0649
+msgctxt "fanwall"
+msgid "Admin e-mails (reports & moderation)"
+msgstr "Администратор e-mails (отчеты и модерации)"
+
+# GMT 1562060783.8951
+msgctxt "fanwall"
+msgid "App"
+msgstr "Приложение"
+
+# GMT 1562060755.1524
+msgctxt "fanwall"
+msgid "App admin"
+msgstr "Приложение администратора"
+
+# GMT 1561989746.9844
+#, mobile
+msgctxt "fanwall"
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+# GMT 1562060588.7013
+msgctxt "fanwall"
+msgid "Author"
+msgstr "Автор"
+
+# GMT 1561989746.9529
+#, mobile
+msgctxt "fanwall"
+msgid "Be the first to comment."
+msgstr "Будьте первым, чтобы прокомментировать."
+
+# GMT 1560952130.6469
+msgctxt "fanwall"
+msgid "Card"
+msgstr "Карта"
+
+# GMT 1560787111.4407
+msgctxt "fanwall"
+msgid "Close"
+msgstr "Закрыть"
+
+# GMT 1560871109.4619
+#, mobile
+msgctxt "fanwall"
+msgid "Comment"
+msgstr "Комментарий"
+
+# GMT 1560962445.8316
+msgctxt "fanwall"
+msgid "Comment is now deleted!"
+msgstr "Комментарий будет удален!"
+
+# GMT 1561989746.9564
+#, mobile
+msgctxt "fanwall"
+msgid "Comments"
+msgstr "комментарии"
+
+# GMT 1560785796.7783
+msgctxt "fanwall"
+msgid "Create a post"
+msgstr "Создать пост"
+
+# GMT 1560944594.9256
+msgctxt "fanwall"
+msgid "Custom icons"
+msgstr "Пользовательские иконки"
+
+# GMT 1561989746.9821
+#, mobile
+msgctxt "fanwall"
+msgid "Delete this comment!"
+msgstr "Удалить этот комментарий!"
+
+# GMT 1560785545.3602
+msgctxt "fanwall"
+msgid "Design"
+msgstr "Дизайн"
+
+# GMT 1560961851.985
+msgctxt "fanwall"
+msgid "Discard message!"
+msgstr "Отменить сообщение!"
+
+# GMT 1561552902.5839
+msgctxt "fanwall"
+msgid "Enable gallery"
+msgstr "Включить галерею"
+
+# GMT 1561552902.5835
+msgctxt "fanwall"
+msgid "Enable map"
+msgstr "Активировать карту"
+
+# GMT 1561552902.5829
+msgctxt "fanwall"
+msgid "Enable nearby"
+msgstr "Включить поблизости"
+
+# GMT 1561552902.5848
+msgctxt "fanwall"
+msgid "Enable user comments"
+msgstr "Включить комментарии пользователей"
+
+# GMT 1561710011.599
+msgctxt "fanwall"
+msgid "Enable user likes"
+msgstr "Включить лайки пользователей"
+
+# GMT 1561552902.5844
+msgctxt "fanwall"
+msgid "Enable user posts"
+msgstr "Включить сообщения пользователя"
+
+# GMT 1560871109.4601
+#, mobile
+msgctxt "fanwall"
+msgid "Fan Wall"
+msgstr "Стена"
+
+# GMT 1561989746.9609
+#, mobile
+msgctxt "fanwall"
+msgid "Fetching your location..."
+msgstr "Получение вашего местоположения..."
+
+# GMT 1560944541.7873
+msgctxt "fanwall"
+msgid "Gallery"
+msgstr "Галерея"
+
+# GMT 1560961851.9611
+msgctxt "fanwall"
+msgid "Hello,"
+msgstr "Здравствуйте,"
+
+# GMT 1560961851.9801
+msgctxt "fanwall"
+msgid "Keep message & clear reports!"
+msgstr "Сохранить сообщение и очистить отчеты!"
+
+# GMT 1560952130.6467
+msgctxt "fanwall"
+msgid "List"
+msgstr "Список"
+
+# GMT 1560787111.4399
+msgctxt "fanwall"
+msgid "Manage posts"
+msgstr "Управлять постами"
+
+# GMT 1560871109.4609
+#, mobile
+msgctxt "fanwall"
+msgid "Map"
+msgstr "Карта"
+
+# GMT 1560871109.4598
+#, mobile
+msgctxt "fanwall"
+msgid "Near me"
+msgstr "Рядом со мной"
+
+# GMT 1560785545.3598
+msgctxt "fanwall"
+msgid "Near me radius (in km)"
+msgstr "Радиус (в км)"
+
+# GMT 1560944541.7826
+msgctxt "fanwall"
+msgid "Nearby"
+msgstr "Рядом"
+
+# GMT 1561989746.9728
+#, mobile
+msgctxt "fanwall"
+msgid "Nearby feature requires your location."
+msgstr "функция требует вашего местоположения."
+
+# GMT 1561107433.0235
+msgctxt "fanwall"
+msgid "New post"
+msgstr "Новый пост"
+
+# GMT 1560871109.4611
+#, mobile
+msgctxt "fanwall"
+msgid "Photos"
+msgstr "Фото"
+
+# GMT 1560951385.6177
+msgctxt "fanwall"
+msgid "Pin post"
+msgstr "Закрепить пост"
+
+# GMT 1561989746.9761
+#, mobile
+msgctxt "fanwall"
+msgid "Please check that the application is allowed to use the GPS and that your device GPS is on."
+msgstr "Пожалуйста, проверьте, что приложение может использовать GPS ."
+
+# GMT 1561989746.9904
+#, mobile
+msgctxt "fanwall"
+msgid "Please let us know why you think this message is inappropriate."
+msgstr "Пожалуйста, дайте нам знать, почему вы думаете, что это сообщение нужно удалить."
+
+# GMT 1562060783.8952
+#, mobile
+msgctxt "fanwall"
+msgid "Please wait while we are fetching your location."
+msgstr "Пожалуйста, подождите, мы определим ваше местоположение."
+
+# GMT 1560785504.6975
+#, mobile
+msgctxt "fanwall"
+msgid "Post"
+msgstr "Пост"
+
+# GMT 1561989746.9708
+#, mobile
+msgctxt "fanwall"
+msgid "Post details"
+msgstr "детально"
+
+# GMT 1560962290.7666
+msgctxt "fanwall"
+msgid "Post is now deleted!"
+msgstr "Пост будет удален!"
+
+# GMT 1560951437.8933
+msgctxt "fanwall"
+msgid "Post is pinned"
+msgstr "Пост закреплен"
+
+# GMT 1560850091.6309
+msgctxt "fanwall"
+msgid "Post is published"
+msgstr "Опубликованный пост"
+
+# GMT 1560951626.7802
+msgctxt "fanwall"
+msgid "Post is unpinned"
+msgstr "Пост откреплен"
+
+# GMT 1560850043.088
+msgctxt "fanwall"
+msgid "Post is unpublished"
+msgstr "Пост неопубликован"
+
+# GMT 1560962078.554
+msgctxt "fanwall"
+msgid "Post reports are cleared!"
+msgstr "Почтовые сообщения будут удалены!"
+
+# GMT 1560850125.5754
+msgctxt "fanwall"
+msgid "Post successfully deleted."
+msgstr "Пост успешно удален."
+
+# GMT 1560785796.7774
+#, mobile
+msgctxt "fanwall"
+msgid "Posts"
+msgstr "Посты"
+
+# GMT 1560849240.0659
+msgctxt "fanwall"
+msgid "Pub. date"
+msgstr "Дата"
+
+# GMT 1560785504.6892
+msgctxt "fanwall"
+msgid "Publication date"
+msgstr "Дата публикации"
+
+# GMT 1560850006.1955
+msgctxt "fanwall"
+msgid "Publish post"
+msgstr "Опубликовать пост"
+
+# GMT 1560871109.4594
+#, mobile
+msgctxt "fanwall"
+msgid "Recent"
+msgstr "Последние"
+
+# GMT 1561989746.9865
+#, mobile
+msgctxt "fanwall"
+msgid "Report this message!"
+msgstr "Отчет и сообщение!"
+
+# GMT 1560785504.6724
+msgctxt "fanwall"
+msgid "Save"
+msgstr "Сохранить"
+
+# GMT 1560785545.3605
+msgctxt "fanwall"
+msgid "Settings"
+msgstr "Параметры"
+
+# GMT 1560950908.0844
+msgctxt "fanwall"
+msgid "Sticky post"
+msgstr "закрепить пост"
+
+# GMT 1560785504.6812
+msgctxt "fanwall"
+msgid "Subtitle"
+msgstr "Подзаголовок"
+
+# GMT 1560961857.2148
+#, mobile
+msgctxt "fanwall"
+msgid "Thanks for your report, and Admin will check it!"
+msgstr "Спасибо за ваше сообщение,  администратор проверит его!"
+
+# GMT 1561989746.8835
+#, mobile
+msgctxt "fanwall"
+msgid "The comment you are trying to delete is not available."
+msgstr "Комментарий, который вы пытаетесь удалить, не существует."
+
+# GMT 1561989746.9089
+#, mobile
+msgctxt "fanwall"
+msgid "The post you are trying to comment is not available."
+msgstr "Пост, который вы пытаетесь комментировать, не существует."
+
+# GMT 1561989746.9721
+#, mobile
+msgctxt "fanwall"
+msgid "There is actually no image."
+msgstr "Нет изображения."
+
+# GMT 1562060783.8952
+#, mobile
+msgctxt "fanwall"
+msgid "There is actually no post around you."
+msgstr "Вокруг Вас нет никого."
+
+# GMT 1561989746.9714
+#, mobile
+msgctxt "fanwall"
+msgid "There is actually no post."
+msgstr "Пока нет постов."
+
+# GMT 1561989746.9495
+#, mobile
+msgctxt "fanwall"
+msgid "This comment doesn't exists!"
+msgstr "Этот комментарий не существует!"
+
+# GMT 1560962203.8
+msgctxt "fanwall"
+msgid "This post doesn't exists, or is already moderated!"
+msgstr "Этот пост не существует, или уже модерируется!"
+
+# GMT 1560937002.7976
+#, mobile
+msgctxt "fanwall"
+msgid "This post doesn't exists."
+msgstr "Этот пост не существует."
+
+# GMT 1560785504.6806
+msgctxt "fanwall"
+msgid "Title"
+msgstr "Название"
+
+# GMT 1562060783.8954
+msgctxt "fanwall"
+msgid "To use nearby & map tabs you must set a Google Maps API key in %s."
+msgstr "Использовать близлежащий места и карту - необходимо установить карты Google ключ API в %s."
+
+# GMT 1562142914.7972
+msgctxt "fanwall"
+msgid "To use nearby & maps tab you must set a Google Maps API key in %s."
+msgstr "Чтобы использовать вкладку рядом  и карты вы должны установить карты Google ключ API в %s."
+
+# GMT 1560944541.7739
+msgctxt "fanwall"
+msgid "Topics"
+msgstr "Темы"
+
+# GMT 1560951385.6179
+msgctxt "fanwall"
+msgid "Unpin post"
+msgstr "Открепить пост"
+
+# GMT 1560850006.1958
+msgctxt "fanwall"
+msgid "Unpublish post"
+msgstr "Удалите пост"
+
+# GMT 1560950908.0922
+msgctxt "fanwall"
+msgid "Unstick post"
+msgstr "открепить пост"
+
+# GMT 1561989746.9945
+#, mobile
+msgctxt "fanwall"
+msgid "We finally got you location"
+msgstr "Мы определили место"
+
+# GMT 1561989746.9754
+#, mobile
+msgctxt "fanwall"
+msgid "We were unable to request your location."
+msgstr "Мы не могли определить ваше местоположение."
+
+# GMT 1560961851.9732
+msgctxt "fanwall"
+msgid "With the reason"
+msgstr "причина"
+
+# GMT 1561989746.9499
+#, mobile
+msgctxt "fanwall"
+msgid "Write a comment..."
+msgstr "Написать комментарий..."
+
+# GMT 1561989746.9644
+#, mobile
+msgctxt "fanwall"
+msgid "Write your message..."
+msgstr "Напишите ваше сообщение..."
+
+# GMT 1560850006.1971
+msgctxt "fanwall"
+msgid "You are about to remove this Post ! Are you sure ?"
+msgstr "Вы собираетесь удалить этот пост ! Вы уверены ?"
+
+# GMT 1561989746.8913
+#, mobile
+msgctxt "fanwall"
+msgid "You are not allowed to delete this comment."
+msgstr "Вам не разрешается удалять этот комментарий."
+
+# GMT 1560961851.9614
+msgctxt "fanwall"
+msgid "You are receiving this e-mail because you are one of the registered <b>moderators</b> for the Fanwall %s on the Application %s"
+msgstr "Вы получили это письмо, потому что вы являетесь одним из зарегистрированных и <b>модератором</b> в стене %s в приложении %s"
+
+# GMT 1560937247.2556
+#, mobile
+msgctxt "fanwall"
+msgid "You like this post."
+msgstr "нравится этот пост."
+
+# GMT 1561043467.9113
+#, mobile
+msgctxt "fanwall"
+msgid "You must be logged-in to comment a post."
+msgstr "Вы должны войти чтобы комментировать пост."
+
+# GMT 1561989746.9242
+#, mobile
+msgctxt "fanwall"
+msgid "You must be logged-in to create a post."
+msgstr "Вы должны войти, чтобы создать пост."
+
+# GMT 1561989746.8827
+#, mobile
+msgctxt "fanwall"
+msgid "You must be logged-in to delete a comment."
+msgstr "Вы должны войти, чтобы удалить комментарий."
+
+# GMT 1561989746.9451
+#, mobile
+msgctxt "fanwall"
+msgid "You must be logged-in to like a post."
+msgstr "Вы должны войти, чтобы лайкнуть пост."
+
+# GMT 1561989746.9383
+#, mobile
+msgctxt "fanwall"
+msgid "You must be logged-in to unlike a post."
+msgstr "Вы должны войти в систему ."
+
+# GMT 1562060783.8953
+#, mobile
+msgctxt "fanwall"
+msgid "You must send at least a message or a picture."
+msgstr "Вы должны отправить хотя бы сообщение или картинку."
+
+# GMT 1560937254.6178
+#, mobile
+msgctxt "fanwall"
+msgid "You unlike this post."
+msgstr "не нравится пост."
+
+# GMT 1561989746.8959
+#, mobile
+msgctxt "fanwall"
+msgid "Your comment is deleted!"
+msgstr "Ваш комментарий будет удален!"
+
+# GMT 1561020446.7353
+#, mobile
+msgctxt "fanwall"
+msgid "Your comment is saved!"
+msgstr "Ваш комментарий сохранен!"
+
+# GMT 1561989746.9944
+#, mobile
+msgctxt "fanwall"
+msgid "Your message."
+msgstr "Ваше сообщение."
+
+# GMT 1561989746.9772
+#, mobile
+msgctxt "fanwall"
+msgid "Your position doesn't resolve to a known address."
+msgstr "Ваша позиция не определяется по данному адресу."
+
+# GMT 1561989746.9186
+#, mobile
+msgctxt "fanwall"
+msgid "Your post is saved!"
+msgstr "Твой пост сохранён!"
+
+# GMT 1560961851.9656
+msgctxt "fanwall"
+msgid "below you can take immediate actions on the reported message!"
+msgstr "ниже вы можете предпринять немедленные действия по Сообщению!"
+
+# GMT 1560871109.4617
+#, mobile
+msgctxt "fanwall"
+msgid "comment"
+msgstr "Комментарий"
+
+# GMT 1560871109.461!
+#, mobile
+msgctxt "fanwall"
+msgid "comments"
+msgstr "комментарии"

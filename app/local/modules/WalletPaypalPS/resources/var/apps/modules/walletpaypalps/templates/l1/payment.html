@@ -1,0 +1,20 @@
+<ion-view sb-page-background class="sourcecode-view">
+    <ion-nav-title>{{ "Operation result" | translate }}</ion-nav-title>
+    <ion-content sb-background-image>
+
+		<!-- ionic 1-->
+		<div class="ionic1" ng-if="old_style && !is_loading">
+			<div class="card wallet-card-payment-result">
+			  <div class="item item-text-wrap" ng-if="data.status == 1">
+				<p>{{ 'Thank. Funds will be credited automatically.' | translate }}</p>
+			  </div>
+			  <div class="item item-text-wrap" ng-if="data.status == -1">
+				<p>{{ 'Sorry, something went wrong. Try later.' | translate }}</p>
+			  </div>
+			<div class="item"><button class="button button-full button-positive" ng-click="closeWindow()"><i class="icon ion-ios-arrow-back"></i> {{'Close'|translate}}</button></div>
+			  
+			</div>			
+        </div>
+    </ion-content>
+
+</ion-view>

@@ -1,0 +1,389 @@
+<?php 
+
+	//Получим данные кошелька
+	//$application = $this->getApplication();
+	if ($this->getSession()->getAppId()) $app_id = $this->getSession()->getAppId(); else $app_id=$this->getApplication()->getId();
+	$db =Zend_Db_Table_Abstract::getDefaultAdapter();
+
+	$recommend_version = "2.7.8";
+	$stmt = $db->query(
+		'SELECT version FROM module WHERE name = ?',
+		array('Wallet')
+	);
+	$current_version =$stmt->fetch()['version'];
+	
+
+	if (empty($current_version)) {
+		echo "Wallet module not found! Exit...";
+		?><br><a href="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";?>" rel="" class="navigation"><i class="fa fa-sign-out fa-lg"></i> <?php echo __('Exit to Editor'); ?></a><br><?php
+		die(__("Wallet module not found! Exit..."));
+	}	
+	
+	$stmt = $db->query(
+		'SELECT * FROM application_option WHERE code = ?',
+		array('wallet')
+	);
+	$option_id = $stmt->fetch()['option_id'];
+	$stmt = $db->query(
+		'SELECT * FROM application_option_value WHERE option_id = ? and app_id = ?',
+		array($option_id, $app_id)
+	);
+	$value_id = $stmt->fetch()['value_id'];
+
+	$wallet = new Wallet_Model_Wallet();
+	$wallet->find(array("value_id" => $value_id));
+	
+
+	$bills = $wallet->getBills();
+	
+	//Подготовим графики 
+	$date_counter2 = [];    //Массив с датами
+	//предзаполнинм нулевыми данными месяц
+	$date_period = new DatePeriod((new DateTime('NOW'))->modify('-1 month'), new DateInterval('P1D'), (new DateTime('NOW'))->modify('+1 day'));				
+	foreach ($date_period as $key => $value) { $date_counter2[$value->format('Y-m-d')]['bills']=0; $date_counter2[$value->format('Y-m-d')]['bills_complete']=0;}
+	
+	foreach ($bills as $tr) {
+		$dt = (new DateTime($tr->getCreatedAt()))->format('Y-m-d');
+		if (isset($date_counter2[$dt])) 
+		{
+			$date_counter2[$dt]['bills']=$date_counter2[$dt]['bills']+(float)abs($tr->getSumm());
+			if ($tr->getStatus()=='complete') $date_counter2[$dt]['bills_complete']=$date_counter2[$dt]['bills_complete']+(float)abs($tr->getSumm());
+			
+		}
+	}
+?>
+
+<div id="list-panel">
+<div class="row">
+	<div class="col-sm-12">
+		<h1><?php echo __('Bill'); ?></h1>
+	</div>
+</div>
+
+<!-- charts-->
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+	<h3 class="panel-title"><?php echo __("Last 30 days bills");?></h3>
+  </div>
+  <div class="panel-body" id="chartdiv3">
+  </div>
+</div>	
+
+
+			<table id="bills" class="table table-striped table-bordered  table-condensed" width="100%">
+				<thead>
+						<tr>
+							<th><?php echo __("Date");?></th>
+							<th><?php echo __("Customer");?></th>
+							<th><?php echo __("Amount");?></th>
+							<th><?php echo __("Bill source");?></th>
+							<th><?php echo __("Title");?></th>
+							<th><?php echo __("Description");?></th>
+							<th><?php echo __("Status");?></th>
+							<th>-</th>
+						</tr>
+					</thead>
+		<tbody>
+			<?php foreach($bills as $tr) {?>
+			<?php
+			
+				$account1 = "-";
+				$account1 = (new Wallet_Model_Customer())->find($tr->getWalletCustomerId())->getEmail();
+				$customer = (new Wallet_Model_Customer())->find($tr->getWalletCustomerId());
+			?>
+            <tr id="bill-id-<?php echo $tr->getId();?>">
+			<td><?php echo $tr->getCreatedAt();?></td>
+			<td><?php echo $account1;?></td>
+			<td><?php echo abs($tr->getSumm());?></td>
+			<td><?php echo $tr->getBillSource();?></td>
+			<td><?php echo $tr->getTitle();?> </td>
+			<td><?php echo $tr->getDescription();?> </td>
+			<td class="status"><?php echo $tr->getStatus();?> </td>
+			<td class="actions"><?php if ($tr->getStatus()=='pending') {?><div class='btn-group' role='group'><button type='button' class='btn btn-danger' onclick='cancel_bill_b(<?php echo $tr->getId();?>,<?php echo $customer->getCustomerId()?>);'><i class='fa fa-ban' aria-hidden='true'></i></button> <button type='button' class='btn btn-primary' onclick='accept_bill_b(<?php echo $tr->getId();?>,<?php echo $customer->getCustomerId()?>);'><i class='fa ion-checkmark-round' aria-hidden='true'></i></button></div><?php } ?></td>
+            </tr>
+			<?php } ?>
+		</tbody>					
+					<tfoot>
+						<tr>
+							<th><?php echo __("Date");?></th>
+							<th><?php echo __("Customer");?></th>
+							<th><?php echo __("Amount");?></th>
+							<th><?php echo __("Bill source");?></th>
+							<th><?php echo __("Title");?></th>
+							<th><?php echo __("Description");?></th>
+							<th><?php echo __("Status");?></th>
+							<th>-</th>
+						</tr>
+					</tfoot>		
+			
+			</table>
+</div>
+<div id="item-panel">
+
+</div>
+
+<div id="item-subpanel">
+
+</div>
+
+<script type="text/javascript">
+
+	//подтверждение счета
+	function accept_bill_b(id,customer_id) {
+		if (confirm("<?php echo $this->_('Are you sure?'); ?>")) {
+			loader_show();
+			$.ajax({
+				   type: "POST",
+				   url:'<?php echo $this->getUrl('wallet/admin/acceptbill'); ?>',
+				   data: "bill_id="+id+"&customer_id="+customer_id, // serializes the form's elements.
+				   dataType: "json",
+				   cache: false,
+				   success: function(data)
+				   {
+					   console.log(data); // show response from the php script.
+					   if (data.success) {
+							
+							$("#error-message").hide();
+							$("#success-message").html(data.success_message);
+							$("#success-message").show();
+							$("#bill-id-"+id+" .status").html(data.status);
+							$("#bill-id-"+id+" .actions").html("-");
+							setTimeout('$("#success-message").hide()', 5000);
+					   }
+					   $("html, body").animate({ scrollTop: 0 }, "fast");
+					   loader_hide();
+				   },
+				   error: function (jqXHR) {
+					loader_hide();
+					var rdata = JSON.parse(jqXHR.responseText);
+					console.log(jqXHR.responseText);
+				   //console.log(exception);
+					$('#modalChangeFunds').modal('hide');
+					$("#error-message").html(rdata.message);
+					$("#error-message").show();
+					setTimeout('$("#error-message").hide()', 5000);
+					$("#success-message").html();
+					$("#success-message").hide();
+					$("html, body").animate({ scrollTop: 0 }, "fast");
+				   }
+				 });		
+		
+		} else {
+			//
+		}		
+	}
+	
+	//отмена счета
+	function cancel_bill_b(id,customer_id) {
+		if (confirm("<?php echo $this->_('Are you sure?'); ?>")) {
+			loader_show();
+			$.ajax({
+				   type: "POST",
+				   url:'<?php echo $this->getUrl('wallet/admin/cancelbill'); ?>',
+				   data: "bill_id="+id+"&customer_id="+customer_id, // serializes the form's elements.
+				   dataType: "json",
+				   cache: false,
+				   success: function(data)
+				   {
+					   console.log(data); // show response from the php script.
+					   if (data.success) {
+							
+							$("#error-message").hide();
+							$("#success-message").html(data.success_message);
+							$("#success-message").show();
+							$("#bill-id-"+id+" .status").html(data.status);
+							$("#bill-id-"+id+" .actions").html("-");
+							setTimeout('$("#success-message").hide()', 5000);
+					   }
+					   $("html, body").animate({ scrollTop: 0 }, "fast");
+					   loader_hide();
+				   },
+				   error: function (jqXHR) {
+					loader_hide();
+					var rdata = JSON.parse(jqXHR.responseText);
+					console.log(jqXHR.responseText);
+				   //console.log(exception);
+					$('#modalChangeFunds').modal('hide');
+					$("#error-message").html(rdata.message);
+					$("#error-message").show();
+					setTimeout('$("#error-message").hide()', 5000);
+					$("#success-message").html();
+					$("#success-message").hide();
+					$("html, body").animate({ scrollTop: 0 }, "fast");
+				   }
+				 });		
+		
+		} else {
+			//
+		}		
+	}
+	
+
+$(document).ready(function() {
+
+    var bills = $('#bills').DataTable(
+		{
+			"pagingType": "full_numbers",
+			language: {
+				paginate: {
+					first:    '«',
+					previous: '‹',
+					next:     '›',
+					last:     '»'
+				},
+				aria: {
+					paginate: {
+						first:    '<?php echo __('First'); ?>',
+						previous: '<?php echo __('Previous'); ?>',
+						next:     '<?php echo __('Next'); ?>',
+						last:     '<?php echo __('Last'); ?>'
+					}
+				},
+				"emptyTable": "<?php echo __('No data available in table'); ?>",
+				"info": "<?php echo __('Showing page _PAGE_ of _PAGES_'); ?>",
+				"infoEmpty": "<?php echo __('No entries to show'); ?>",
+				"search": "<?php echo __('Search'); ?>"
+				
+			}
+		}	
+	
+	);
+	bills.column( '0:visible' ).order( 'desc' ).draw(); 
+	bills.columns().flatten().each( function ( colIdx ) {
+		
+		if (colIdx==2 || colIdx==3 ) {
+			console.log(colIdx);
+			// Create the select list and search operation
+			var select = $('<select><option value=""></option></select>')
+				.appendTo(
+					bills.column(colIdx).footer()
+				)
+				.on( 'change', function () {
+					bills
+						.column( colIdx )
+						.search( $(this).val() )
+						.draw();
+				} );
+		 
+			// Get the search data for the first column and add to the select list
+			bills
+				.column( colIdx )
+				.cache( 'search' )
+				.sort()
+				.unique()
+				.each( function ( d ) {
+					select.append( $('<option value="'+d+'">'+d+'</option>') );
+				} );
+			
+		}	
+	} );	
+	
+} );
+</script>
+<!-- Styles -->
+<style>
+#chartdiv3 {
+  width: 100%;
+  height: 300px;
+}
+</style>
+
+
+<!-- Charts code -->
+<script>
+/*
+am4core.ready(function() {
+
+	// Themes begin
+	am4core.useTheme(am4themes_material);
+	am4core.useTheme(am4themes_animated);
+	// Themes end
+	
+	// Create chart instance
+	var chart2 = am4core.create("chartdiv3", am4charts.XYChart);
+
+	// Add data
+	<?php $tmp_array = array(); foreach ($date_counter2 as $date=>$value) $tmp_array[]='{"date":"'.$date.'","amount1":'.$value['bills'].',"amount2":'.$value['bills_complete'].'}'; ?>
+	chart2.data = [<?php echo implode(",",$tmp_array);?>];
+
+	var dateAxes2 = chart2.xAxes.push(new am4charts.CategoryAxis());
+	dateAxes2.dataFields.category = "date";
+	dateAxes2.title.text = "<?php echo __("Date"); ?>";
+	dateAxes2.renderer.grid.template.location = 0;
+	dateAxes2.renderer.minGridDistance = 30;
+	dateAxes2.renderer.labels.template.rotation = 270;
+	
+	var valueAxis2 = chart2.yAxes.push(new am4charts.ValueAxis());
+	valueAxis2.title.text = "<?php echo __("Amount"); ?>";
+	valueAxis2.renderer.minGridDistance = 30;
+	
+	// Create series
+	var series2 = chart2.series.push(new am4charts.ColumnSeries());
+	series2.dataFields.valueY = "amount1";
+	series2.dataFields.categoryX = "date";
+	series2.clustered = false;
+	series2.name = "<?php echo __("All bills summ"); ?>";
+	series2.columns.template.width = am4core.percent(50);
+	series2.tooltipText = "<?php echo __("All bills summ"); ?>: [bold]{valueY}[/]";
+
+	
+	var series3 = chart2.series.push(new am4charts.ColumnSeries());
+	series3.dataFields.valueY = "amount2";
+	series3.dataFields.categoryX = "date";
+	series3.clustered = false;
+	series3.name = "<?php echo __("Complete bills summ"); ?>";
+	series3.tooltipText = "<?php echo __("Complete bills summ"); ?>: [bold]{valueY}[/]";
+
+
+
+}); // end am4core.ready()
+*/
+</script>
+
+<script>
+am4core.ready(function() {
+
+// Themes begin
+am4core.useTheme(am4themes_material);
+am4core.useTheme(am4themes_animated);
+// Themes end
+
+// Create chart instance
+var chart = am4core.create("chartdiv3", am4charts.XYChart);
+
+// Add data
+<?php $tmp_array = array(); foreach ($date_counter2 as $date=>$value) $tmp_array[]='{"date":"'.$date.'","amount1":'.$value['bills'].',"amount2":'.$value['bills_complete'].'}'; ?>
+chart.data = [<?php echo implode(",",$tmp_array);?>];
+
+// Create axes
+var dateAxes2 = chart.xAxes.push(new am4charts.CategoryAxis());
+dateAxes2.dataFields.category = "date";
+dateAxes2.renderer.grid.template.location = 0;
+dateAxes2.renderer.minGridDistance = 30;
+dateAxes2.renderer.labels.template.rotation = 270;
+
+var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+valueAxis.title.text = "<?php echo __("Amount"); ?>";
+valueAxis.title.fontWeight = 800;
+
+// Create series
+var series = chart.series.push(new am4charts.ColumnSeries());
+series.dataFields.valueY = "amount1";
+series.dataFields.categoryX = "date";
+series.clustered = false;
+series.tooltipText = "<?php echo __("All bills summ"); ?>: [bold]{valueY}[/]";
+
+var series2 = chart.series.push(new am4charts.ColumnSeries());
+series2.dataFields.valueY = "amount2";
+series2.dataFields.categoryX = "date";
+series2.clustered = false;
+series2.columns.template.width = am4core.percent(50);
+series2.tooltipText = "<?php echo __("Complete bills summ"); ?>: [bold]{valueY}[/]";
+
+chart.cursor = new am4charts.XYCursor();
+chart.cursor.lineX.disabled = true;
+chart.cursor.lineY.disabled = true;
+
+}); // end am4core.ready()
+</script>

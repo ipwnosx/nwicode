@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-01-21T06:46:00+03:00\n"
+"PO-Revision-Date: 2019-01-21T06:46:00+03:00\n"
+"Language: \n"
+
+msgid "2checkout"
+msgstr "2checkout"
+
+msgid "2checkout Account Number (SID)"
+msgstr "2checkout Hesap Numarası (SID)"
+
+msgid "2checkout Client ID"
+msgstr "2chekout Müşteri Kimliği"
+
+msgid "2checkout Secret"
+msgstr "2checkout Gizli"
+
+msgid "Address Mail"
+msgstr "Adres Posta"
+
+msgid "Amount"
+msgstr "Miktar"
+
+msgid "Amount of the donation"
+msgstr "Bağış tutarı"
+
+msgid "An error occurred during process. Please try again later."
+msgstr "İşlem sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyiniz."
+
+msgid "An error occurred during process. Please try again later. (missing POST param)"
+msgstr "İşlem sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyiniz. (POST param eksik)"
+
+msgid "App Name"
+msgstr "Uygulama adı"
+
+msgid "CVC number :"
+msgstr "CVC numarası:"
+
+msgid "Card Number :"
+msgstr "Kart numarası :"
+
+msgid "Conditions"
+msgstr "Koşullar"
+
+msgid "Congratulation message"
+msgstr "Tebrik mesajı"
+
+msgid "Date of donation"
+msgstr "Bağış tarihi"
+
+msgid "Donate"
+msgstr "Bağışla"
+
+msgid "Enable user to left a message when donating ?"
+msgstr "Bağış yaparken kullanıcının mesaj bıraksın mı?"
+
+msgid "Expiration Date :"
+msgstr "Son kullanma tarihi:"
+
+msgid "Free amount ?"
+msgstr "Serbest miktar*"
+
+msgid "General"
+msgstr "Genel"
+
+msgid "Greetings message"
+msgstr "Selam mesajı"
+
+msgid "Incomplete form or incorrect data entered. Please check your correctly type each field required"
+msgstr "Tamamlanmamış form veya yanlış veri girildi. Lütfen her alanın doğru bir şekilde yazıldığını kontrol edin"
+
+msgid "Incomplete form or incorrect data. Please check you correctly typed each field required."
+msgstr "Tamamlanmamış form veya yanlış veriler. Lütfen gerekli her alanı doğru yazarak kontrol edin."
+
+msgid "Interval between two amount :"
+msgstr "İki tutar arasındaki aralık:"
+
+msgid "Lastname Firstname"
+msgstr "Soyad ad"
+
+msgid "Mail address to send notification :"
+msgstr "Bildirim göndermek için posta adresi:"
+
+msgid "Make a donation"
+msgstr "Bağış yap"
+
+msgid "Message"
+msgstr "Mesaj"
+
+msgid "Message from donator:"
+msgstr "Bağışçıdan mesaj:"
+
+msgid "Minimum amount required ?"
+msgstr "Minimum miktar gerekli mi?"
+
+msgid "Minimum donation amount :"
+msgstr "Minimum bağış miktarı:"
+
+msgid "New donation received from %s"
+msgstr "Yeni bağış %s’ten alındı"
+
+msgid "No"
+msgstr "Hayır"
+
+msgid "Payment Gateway :"
+msgstr "Ödeme geçidi:"
+
+msgid "Paypal adress mail"
+msgstr "Paypal adres postası"
+
+msgid "Please wait application is loading..."
+msgstr "Lütfen uygulamanın yüklenmesini bekleyin ..."
+
+msgid "Received Donations"
+msgstr "Alınan Bağışlar"
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Send an email notification when receiving a new donation ?"
+msgstr "Yeni bir bağış alırken e-posta bildirimi gönderilsin mi?"
+
+msgid "Stripe"
+msgstr "Şerit"
+
+msgid "Stripe Private Key"
+msgstr "Stripe özel anahtarı"
+
+msgid "Stripe Publishable Key"
+msgstr "Stripe yayınlanabilir anahtarı"
+
+msgid "Tracking of received donations is not available with Paypal as payment gateway"
+msgstr "Alınan bağışların takibi Paypal ile mümkün değil."
+
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+msgid "User Email"
+msgstr "Kullanıcı e-postası"
+
+msgid "Yes"
+msgstr "Evet"
+
+msgid "You haven't received any donations yet"
+msgstr "Henüz hiç bağış almadınız."
+
+msgid "You received a new donation"
+msgstr "Yeni bağış aldınız"
+
+msgid "You've donated :"
+msgstr "Bağış yaptınız"
+
+msgid "Your message"
+msgstr "Mesajınız"
+
+msgid "Your name :"
+msgstr "Adınız:"
+
+msgid "iOS: donation in browser (safari) ?"
+msgstr "iOS: tarayıcıda bağış (safari)?"

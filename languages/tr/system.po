@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T20:39:59+03:00\n"
+"PO-Revision-Date: 2019-06-05T20:39:59+03:00\n"
+"Language: \n"
+
+msgid "60000 maximum allowed."
+msgstr "Maksimum 6000 karaktere izin verilir."
+
+msgid "<b>File types:</b> %s<br /><b>Recommended size:</b> %s"
+msgstr "</b> %s <b>Dosya türleri:</b> %s<br /><b>Önerilen boyutu:"
+
+msgid "Admob ID"
+msgstr "Admob KİMLİĞİ"
+
+msgid "Admob type"
+msgstr "Admob Türü"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "App limit for displaying real data"
+msgstr "Gerçek veri göstermek için uygulama limiti"
+
+msgid "Banner"
+msgstr "Banner"
+
+msgid "Below are variables you can use to be replaced in the extent."
+msgstr "Ölçüde değiştirilmesi için kullanabileceğiniz değişkenler aşağıdaki gibidir."
+
+msgid "Click here to force analytics computing"
+msgstr "Burada zorlamak için tıklayın analitik hesaplama"
+
+msgid "Click here to send your favicon"
+msgstr "Burada favicon göndermek için tıklayın"
+
+msgid "Click here to send your logo"
+msgstr "Burada logo göndermek için tıklayın"
+
+msgid "Communications"
+msgstr "İletişim"
+
+msgid "Current favicon"
+msgstr "Mevcut favicon"
+
+msgid "Current logo"
+msgstr "Mevcut logo"
+
+msgid "Default privacy policy"
+msgstr "Varsayılan Gizlilik Politikası"
+
+msgid "Default privacy policy section for GDPR"
+msgstr "GDPR için varsayılan Gizlilik Politikası bölüm"
+
+msgid "Display a link to your clients to your support platform"
+msgstr "Destek platformunuz için müşterileriniz için bir bağlantı görüntüler"
+
+msgid "Drop your favicon here"
+msgstr "Burada favicon bırakın"
+
+msgid "Drop your logo here"
+msgstr "Burada logo bırak"
+
+msgid "Duration of the free trial period of your platform (in days, 0 for no free trial)."
+msgstr "Platformunuzun ücretsiz deneme süresi (gün içinde, ücretsiz deneme için 0)."
+
+msgid "Editor's Design"
+msgstr "Editörün tasarımı"
+
+msgid "Enter here your terms & conditions"
+msgstr "Buraya Hükümler&Koşullar'ı girin"
+
+msgid "Enter the javascript code provided by your Chat provider in order to display a Chat from the editor."
+msgstr "Editörden Sohbet görüntülemek için Sohbe"
+
+msgid "European <b>General Data Protection Regulation (GDPR)</b>."
+msgstr "(GDPR) Avrupa <b>Genel Veri Koruma Yönetmeliği</b>."
+
+msgid "Favicon"
+msgstr "Site ikonu"
+
+msgid "Flat"
+msgstr "Düz"
+
+msgid "Force all app to use Owner AdMob"
+msgstr "Tüm uygulamaları Admob kullanmaya zorla"
+
+msgid "Free trial period"
+msgstr "Ücretsiz deneme süresi"
+
+msgid "Full platform owner contact"
+msgstr "Tam platform yöneticisi ile irtibata geçin"
+
+msgid "Interstitial"
+msgstr "İnterstisyel"
+
+msgid "Invalid license key"
+msgstr "Geçersiz lisans anahtarı"
+
+msgid "Ios"
+msgstr "iOS"
+
+msgid "License has no more activation left"
+msgstr "Lisansın aktivasyonu kalmadı"
+
+msgid "License is valid"
+msgstr "Lisans geçerli"
+
+msgid "Logo"
+msgstr "logo"
+
+msgid "None = no sign-up form, validation = admin must validate created account, full = free sign-up"
+msgstr "Hiçbiri = kayıt formu yok, doğrulama = yönetici oluşturulan hesabı doğrulamalıdır, tam = ücretsiz kayıt"
+
+msgid "Number of typed characters:"
+msgstr "Girilen karakterlerin sayısı"
+
+msgid "Nwicode"
+msgstr "Nwicode"
+
+msgid "Online Chat"
+msgstr "Çevrimiçi sohbet"
+
+msgid "Platform or Whitelabel Company name"
+msgstr "Platform veya Whitelabel Şirket adı"
+
+msgid "Platform or Whitelabel name"
+msgstr "Platform veya Whitelabel adı"
+
+msgid "Privacy Settings"
+msgstr "Gizlilik Ayarları"
+
+msgid "Publication access type"
+msgstr "Yayınlama erişim türü"
+
+msgid "Sales"
+msgstr "Satış"
+
+msgid "Sales Email Address"
+msgstr "Satış E-Posta Adresi"
+
+msgid "Sender's email address of the emails sent by the site to your clients"
+msgstr "E-posta gönderenin e-posta adresi site tarafından müşterilerine gönderilen"
+
+msgid "Sender's name of the emails sent by the site to your clients"
+msgstr "E-postaları gönderenin adı sitesi tarafından müşterilerine gönderilen"
+
+msgid "Sign-up mode"
+msgstr "Kayıt modu"
+
+msgid "Sign-up mode for your platform."
+msgstr "Platformunuz için kayıt modu"
+
+msgid "Support Email Address"
+msgstr "Destek E-Posta Adresi"
+
+msgid "The Application name"
+msgstr "Uygulama adı"
+
+msgid "The european <b>General Data Protection Regulation (GDPR)</b> is applicable to your country, you must enable it in the privacy settings below."
+msgstr "(GDPR) Avrupa <b>Genel Veri Koruma Tüzüğü</b> ülkeniz için uygun, aşağıdaki gizlilik ayarlarını etkinleştirmeniz gerekir."
+
+msgid "The folder /images/default is not writable."
+msgstr "Resimler/varsayılan klasörü yazılabilir değil."
+
+msgid "This number will be used to switch between demo mode and real time mode for your analytics on your dashboard"
+msgstr "Bu sayı, kontrol panelinizdeki analizleriniz için demo modu ve gerçek zamanlı mod arasında geçiş yapmak için kullanılacaktır."
+
+msgid "This privacy policy will be used for every new Application created as a template."
+msgstr "Bu gizlilik politikası, şablon olarak oluşturulan her yeni uygulama için kullanılacaktır."
+
+msgid "This section of the privacy policy is added when the GDPR settings are active."
+msgstr "Gizlilik Politikası Bu bölümde GDPR ayarları aktif olduğunda eklenir."
+
+msgid "This text will appear in the checkout page. 65,000 characters max."
+msgstr "Bu metin ödeme sayfasında görünecektir. Maksimum 65.000 karakter."
+
+msgid "Users can download application sources code."
+msgstr "Kullanıcılar uygulama kaynak kodu indirebilir."
+
+msgid "Users can generate APK"
+msgstr "Kullanıcılar APK üretebilir."
+
+msgid "Users can not generate APK."
+msgstr "Kullanıcılar APK üretemiyor."
+
+msgid "Users give you the required information to publish applications."
+msgstr "Kullanıcılar uygulamaları yayınlamak için gereken bilgileri verir."
+
+msgid "We cannot get your license information"
+msgstr "Lisans bilgilerinizi alamıyoruz."
+
+msgid "You can use <b>%s</b> as a dynamic variable for your application name."
+msgstr "<b>%s</b> i uygulama adınız için dinamik değişken olarak kullanabilirsiniz."
+
+msgid "Your Applications"
+msgstr "Uygulamalarınız"
+
+msgid "Your CMS License Key"
+msgstr "CMS Lisans Anahtarınız"
+
+msgid "Your Location"
+msgstr "Konumunuzu"
+
+msgid "Your Platform"
+msgstr "Platformunuz"
+
+msgid "Your company"
+msgstr "Şirket"

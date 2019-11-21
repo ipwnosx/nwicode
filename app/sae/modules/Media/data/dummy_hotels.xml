@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designs>
+    <b_b>
+        <images>
+            <image type="custom">
+                <content>
+                    <type_id>custom</type_id>
+                    <name>Gallery 1</name>
+                </content>
+                <custom>
+                    <url>/../../app/local/modules/TemplateBb/resources/images/templates/b_b/content/b_b4.jpeg</url>
+                    <description></description>
+                </custom>
+                <custom>
+                    <url>/../../app/local/modules/TemplateBb/resources/images/templates/b_b/content/b_b5.jpeg</url>
+                    <description></description>
+                </custom>
+                <custom>
+                    <url>/../../app/local/modules/TemplateBb/resources/images/templates/b_b/content/b_b6.jpeg</url>
+                    <description></description>
+                </custom>
+            </image>
+            <image type="custom">
+                <content>
+                    <type_id>custom</type_id>
+                    <name>Gallery 2</name>
+                </content>
+                <custom>
+                    <url>/../../app/local/modules/TemplateBb/resources/images/templates/b_b/content/b_b6.jpeg</url>
+                    <description></description>
+                </custom>
+                <custom>
+                    <url>/../../app/local/modules/TemplateBb/resources/images/templates/b_b/content/b_b4.jpeg</url>
+                    <description></description>
+                </custom>
+                <custom>
+                    <url>/../../app/local/modules/TemplateBb/resources/images/templates/b_b/content/b_b5.jpeg</url>
+                    <description></description>
+                </custom>
+            </image>
+        </images>
+    </b_b>
+</designs>

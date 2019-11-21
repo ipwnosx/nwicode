@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designs>
+    <university>
+        <blocks>
+            <block>
+                <type>image</type>
+                <position>1</position>
+                <description></description>
+                <library_id></library_id>
+                <image_url>/../../app/local/modules/TemplateUniversity/resources/images/templates/university/content/study.png</image_url>
+                <image_url>/../../app/local/modules/TemplateUniversity/resources/images/templates/university/content/study2.png</image_url>
+                <image_url>/../../app/local/modules/TemplateUniversity/resources/images/templates/university/content/study3.png</image_url>
+                <image_fullsize_url>/../../app/local/modules/TemplateUniversity/resources/images/templates/university/content/study.png</image_fullsize_url>
+                <image_fullsize_url>/../../app/local/modules/TemplateUniversity/resources/images/templates/university/content/study2.png</image_fullsize_url>
+                <image_fullsize_url>/../../app/local/modules/TemplateUniversity/resources/images/templates/university/content/study3.png</image_fullsize_url>
+            </block>
+            <block>
+                <type>text</type>
+                <position>2</position>
+                <content>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat.
+                </content>
+            </block>
+            <block>
+                <type>text</type>
+                <position>3</position>
+                <content>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat.
+                </content>
+                <image>/../../app/local/modules/TemplateUniversity/resources/images/templates/university/content/study2.png</image>
+                <size>45</size>
+                <alignment>left</alignment>
+            </block>
+            <block>
+                <type>text</type>
+                <position>4</position>
+                <content>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat.
+                </content>
+                <image>/../../app/local/modules/TemplateUniversity/resources/images/templates/university/content/study3.png</image>
+                <size>45</size>
+                <alignment>right</alignment>
+            </block>
+            <block>
+                <type>button</type>
+                <position>5</position>
+                <type_id>phone</type_id>
+                <content>099999999</content>
+            </block>
+        </blocks>
+    </university>
+</designs>

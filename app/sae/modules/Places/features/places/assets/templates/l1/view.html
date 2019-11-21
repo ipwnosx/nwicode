@@ -1,0 +1,194 @@
+<ion-view class="module-places places places-view l1" can-swipe-back="false"
+          sb-page-background>
+    <ion-nav-title>{{ page_title }}</ion-nav-title>
+    <ion-nav-buttons side="secondary">
+        <button ng-show="social_sharing_active"
+                class="button button-clear"
+                ng-click="share()">
+            <i class="icon ion-android-share-alt button-share"></i>
+        </button>
+    </ion-nav-buttons>
+
+    <ion-content>
+    <ion-toast-controller class="hydrated"></ion-toast-controller>
+        <div class="loader"
+             ng-show="is_loading">
+            <ion-spinner class="spinner-custom"></ion-spinner>
+        </div>
+
+        <ion-card class="place-header"
+             ng-if="place.show_image && !is_loading">
+            <div class="item item-image cover-place"
+                 ng-if="place.picture && place.show_image"
+                 ng-style="{'background-image':'url(' + place.picture + ')'}">
+                <img class="image-placeholder"
+                     ng-src="{{ blankImage }}" />
+                <div class="place-title"
+                     ng-if="place.show_titles || place.show_subtitle">
+                    <span ng-if="place.show_titles"
+                          class="span-title">{{ place.title }}</span>
+                    <br />
+                    <span ng-if="place.show_subtitle"
+                          class="span-subtitle">{{ place.subtitle }}</span>
+                    <br />
+                    <span class="span-subtitle" ng-if="settings.enable_vote == 1">
+						<span style="color:green;">
+						    <ion-icon name="ios-thumbs-up"></ion-icon>
+						    {{ place.rating }}
+						</span>
+						<span style="padding-left:20px; color:red; ">
+						    <ion-icon name="ios-thumbs-down"></ion-icon>
+						    {{ place.rating_minus }}
+						</span>
+					</span>
+                </div>
+            </div>
+			<!--
+            <ion-segment color="primary" size="small">
+              <ion-segment-button  size="small" value="-1" style="background: #d94a4a;" ng-click="minusRating()" type="icon-bottom">
+                <ion-icon name="ios-thumbs-down"></ion-icon>
+				<ion-label>{{"Vote down"|translate}}</ion-label>
+              </ion-segment-button>
+              <ion-segment-button  size="small" disabled style="background-color: #ffffff !important;">
+                <ion-label>{{"Voted"|translate}}: {{place.voted}}</ion-label>
+                <ion-label><span style="padding-left:20px; color:green; font-size:20px;"><ion-icon name="ios-thumbs-up"></ion-icon>{{ place.rating }}</span><span style="padding-left:20px; color:red; font-size:20px;"><ion-icon name="ios-thumbs-down"></ion-icon>{{ place.rating_minus }}</span></ion-label>
+              </ion-segment-button>
+              <ion-segment-button  size="small" value="+1" style="background: #81df50;" ng-click="plusRating()"  type="icon-bottom">
+                <ion-icon name="ios-thumbs-up"></ion-icon>
+				<ion-label>{{"Vote up"|translate}}</ion-label>
+              </ion-segment-button>
+            </ion-segment>
+			-->
+        </ion-card>
+        <style>
+            .sc-ion-segment-ios-h.ion-color.sc-ion-segment-ios-s > .segment-button-checked, .sc-ion-segment-ios-h.ion-color.sc-ion-segment-ios-s > .segment-button-checked.activated {
+            background: #2a7ccf !important;
+        }
+		.place-card {background-color:#fff;} 
+          .place-blocks-portrait {
+               padding-bottom: 35px;
+          }
+        </style>
+        
+        <div class="place-blocks place-blocks-portrait">
+            <div class="place-block"
+                 ng-repeat="block in blocks"
+                 ng-if="!is_loading">
+
+                <div ng-switch
+                     on="block.type">
+                    <ion-card ng-switch-when="text"
+                         class="card">
+                        <div sb-cms-text
+                             block="block"></div>
+                    </ion-card>
+                    <ion-card ng-switch-when="image"
+                         class="card">
+                        <div sb-place-image
+                             origin="places"
+                             block="block"
+                             gallery="gallery"></div>
+                    </ion-card>
+                    <ion-card ng-switch-when="slider"
+                         class="card">
+                        <div sb-cms-slider
+                             block="block"
+                             gallery="gallery"></div>
+                    </ion-card>
+                    <div ng-switch-when="video">
+                        <div sb-cms-video
+                             block="block"></div>
+                    </div>
+                    <ion-card ng-switch-when="address"
+                         class="card">
+                        <div sb-cms-address
+                             block="block"></div>
+                    </ion-card>
+                    <ion-card ng-switch-when="button"
+                         class="card">
+                        <div sb-cms-button
+                             block="block"></div>
+                    </ion-card>
+                    <ion-card ng-switch-when="file"
+                         class="card">
+                        <div sb-cms-file
+                             block="block"></div>
+                    </ion-card>
+                    <ion-card ng-switch-when="cover"
+                         class="card no-shadow">
+                        <div sb-cms-cover
+                             block="block"></div>
+                    </ion-card>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="place-blocks place-blocks-landscape"
+             ng-repeat="blocks in blockChunks">
+            <div class="place-block"
+                 ng-repeat="block in blocks"
+                 ng-if="!is_loading">
+
+                <div ng-switch
+                     on="block.type">
+                    <ion-card ng-switch-when="text"
+                         class="card">
+                        <div sb-cms-text
+                             block="block"></div>
+                    </ion-card>
+                    <ion-card ng-switch-when="image"
+                         class="card">
+                        <div sb-place-image
+                             origin="places"
+                             block="block"
+                             gallery="gallery"></div>
+                    </ion-card>
+                    <ion-card ng-switch-when="slider"
+                         class="card">
+                        <div sb-cms-slider
+                             block="block"
+                             gallery="gallery"></div>
+                    </ion-card>
+                    <div ng-switch-when="video">
+                        <div sb-cms-video
+                             block="block"></div>
+                    </div>
+                    <ion-card ng-switch-when="address"
+                         class="card">
+                        <div sb-cms-address
+                             block="block"
+                             on-show-map="onShowMap(address)"></div>
+                    </ion-card>
+                    <ion-card ng-switch-when="button"
+                         class="card">
+                        <div sb-cms-button
+                             block="block"></div>
+                    </ion-card>
+                    <ion-card ng-switch-when="file"
+                         class="card">
+                        <div sb-cms-file
+                             block="block"></div>
+                    </ion-card>
+                    <ion-card ng-switch-when="cover"
+                         class="card no-shadow">
+                        <div sb-cms-cover
+                             block="block"></div>
+                    </ion-card>
+                </div>
+
+            </div>
+        </div>
+    </ion-content>
+    <div ng-if="settings.enable_vote == 1" class="tabs bar-custom bar" style="border:none!important;background-image:none!important;">
+    	<a class="tab-item" ng-click="minusRating()" value="-1">
+    		<ion-icon name="thumbs-down" style="font-size: 40px;padding-top: 5px;"></ion-icon>
+    	</a>
+    	<a class="tab-item">
+    	    {{ "Vote"  | translate}}
+    	</a>
+    	<a class="tab-item" ng-click="plusRating()" value="+1">
+    		<ion-icon name="thumbs-up" style="font-size: 40px;padding-top: 5px;"></ion-icon>
+    	</a>
+    </div>
+</ion-view>

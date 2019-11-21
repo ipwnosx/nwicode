@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T19:47:25+03:00\n"
+"PO-Revision-Date: 2019-06-05T19:47:25+03:00\n"
+"Language: \n"
+
+msgid "%s Member"
+msgstr "%Üye s"
+
+msgid "%s points to become a %s"
+msgstr "yüzde %olmaya noktaları s s"
+
+msgid "(portrait)"
+msgstr "(dikey)"
+
+msgid "- Select your loyalty program"
+msgstr "- Sadakat programı seçin"
+
+msgid "Background (landscape)"
+msgstr "Arka plan (yatay)"
+
+msgid "Background (portrait)"
+msgstr "Arka plan (portre)"
+
+msgid "Cancel"
+msgstr "İptal"
+
+msgid "Close"
+msgstr "Yakın"
+
+msgid "Club Card"
+msgstr "Kulüp Kartı"
+
+msgid "Club Card Levels"
+msgstr "Kulüp Kartı Düzeyleri"
+
+msgid "Color"
+msgstr "Renk"
+
+msgid "Connect to which loyalty card ?"
+msgstr "Hangi sadakat kartı bağlanmak ?"
+
+msgid "Cover Image"
+msgstr "Kapak Resim"
+
+msgid "Gold"
+msgstr "Altın"
+
+msgid "Icon"
+msgstr "Simge"
+
+msgid "LEVEL COLOR"
+msgstr "SEVİYE RENK"
+
+msgid "Loyalty Card"
+msgstr "Sadakat Kartı"
+
+msgid "Manage"
+msgstr "Yönetmek"
+
+msgid "Member"
+msgstr "Üye"
+
+msgid "Name"
+msgstr "Adı"
+
+msgid "Note"
+msgstr "Not"
+
+msgid "Options"
+msgstr "Seçenekleri"
+
+msgid "Points"
+msgstr "Puan"
+
+msgid "Premium"
+msgstr "Premium"
+
+msgid "Privilege"
+msgstr "Ayrıcalık"
+
+msgid "Progressive Loyalty Card"
+msgstr "İlerici Sadakat Kartı"
+
+msgid "Regular"
+msgstr "Normal"
+
+msgid "Silver"
+msgstr "Gümüş"
+
+msgid "Terms & Conditions"
+msgstr "Şartlar Ve Koşullar"
+
+msgid "Upload"
+msgstr "Yükleme"
+
+msgid "You must add at least one Loyalty program to your Application!"
+msgstr "Uygulamanız için en az bir Sadakat programı eklemelisiniz."
+
+msgid "points to become a"
+msgstr "puan olmak"

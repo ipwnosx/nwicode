@@ -1,0 +1,226 @@
+<?php
+$optionValue = $this->getOptionValue();
+$application = $this->getApplication();
+$followus_model = $optionValue->getObject();
+$followus_model->find($optionValue->getId(), "value_id");
+$config = $followus_model->getData();
+/*$followus_chat_form = new Followus_Form_Form();
+$followus_chat_form->setValueId($optionValue->getId());
+$followus_chat_form->populate($config);*/
+?>
+<div class="followus">
+    <div>
+        <h3 class="title-editor no-border-radius title-feature-indent"><?php echo __("Follow Us page");?></h3>
+    </div>
+	<div class="container-fluid margin-top">
+
+		<form id="followus_chat_form" enctype="application/x-www-form-urlencoded" action="/followus/application/editpost" method="post" class="form sb-form feature-form form-horizontal">
+
+			<fieldset id="fieldset-submitrepeat" class="sb-nav"><dl>
+				<div class="sb-save-info-button"><button type="submit" name="Save" id="Save" is_form_horizontal="1" color="color-blue" class="btn pull-right default_button color-blue" data-loading-text="Patientez ..."><?php echo __("Save");?></button></div></dl>
+			</fieldset>
+
+				
+			<div class="form-group sb-form-line">
+				<label for="title" class="sb-form-line-title col-sm-3 optional"><?php echo __('Title');?></label>
+				<div class="col-sm-7">
+					<input type="text" name="title" id="title" value="<?php echo $followus_model->getTitle();?>" is_form_horizontal="1" color="color-blue" class="input-flat">
+				</div>
+				<div class="sb-cb"></div>
+			</div>		
+
+
+			<div class="form-group sb-form-line">
+				<label for="description" class="sb-form-line-title col-sm-12 optional"><?php echo __('Description');?></label>
+				<div class="col-sm-12">
+					<textarea name="description" id="description" is_form_horizontal="1" color="color-blue" cols="" rows="5" class="input-flat richtext" ><?php echo $followus_model->getDescription();?></textarea>
+				</div>
+				<div class="sb-cb"></div>
+			</div>
+
+			
+			<div class="form-group sb-form-line " id="control-group_designt_type">
+				<label for="designt_type" class="sb-form-line-title col-md-3 optional"><?php echo __('Design type');?></label>
+				<div class=" col-md-7">
+					<select name="designt_type" id="designt_type" is_form_horizontal="1" color="color-blue" label_cols="col-md-3" input_cols="col-md-7" offset_cols="col-md-offset-3" error_cols="col-md-7" class="sb-select styled-select color-blue form-control no-dk">
+						<option value="0" <?php if ($followus_model->getDesigntType()=="0") echo 'selected="selected"'?>><?php echo __('Text up');?></option>
+						<option value="1" <?php if ($followus_model->getDesigntType()=="1") echo 'selected="selected"'?>><?php echo __('Text down');?></option>
+					</select>
+				</div>
+				<div class="sb-cb"></div>
+			</div>
+
+			<div class="form-group sb-form-line " id="control-group_designt_type">
+				<label for="columns" class="sb-form-line-title col-md-3 optional"><?php echo __('Columns');?></label>
+				<div class=" col-md-7">
+					<select name="columns" id="columns" is_form_horizontal="1" color="color-blue" label_cols="col-md-3" input_cols="col-md-7" offset_cols="col-md-offset-3" error_cols="col-md-7" class="sb-select styled-select color-blue form-control no-dk">
+						<option value="2" <?php if ($followus_model->getColumns()=="2") echo 'selected="selected"'?>>2</option>
+						<option value="3" <?php if ($followus_model->getColumns()=="3") echo 'selected="selected"'?>>3</option>
+						<option value="4" <?php if ($followus_model->getColumns()=="4") echo 'selected="selected"'?>>4</option>
+						<option value="4" <?php if ($followus_model->getColumns()=="5") echo 'selected="selected"'?>>5</option>
+						<option value="4" <?php if ($followus_model->getColumns()=="6") echo 'selected="selected"'?>>6</option>
+					</select>
+				</div>
+				<div class="sb-cb"></div>
+			</div>
+
+			<div class="form-group sb-form-line " id="control-group_designt_type">
+				<label for="icon_size" class="sb-form-line-title col-md-3 optional"><?php echo __('Icon size');?></label>
+				<div class=" col-md-7">
+					<select name="icon_size" id="icon_size" is_form_horizontal="1" color="color-blue" label_cols="col-md-3" input_cols="col-md-7" offset_cols="col-md-offset-3" error_cols="col-md-7" class="sb-select styled-select color-blue form-control no-dk">
+						<option value="xs" <?php if ($followus_model->getIconSize()=="xs") echo 'selected="selected"'?>>XS</option>
+						<option value="sm" <?php if ($followus_model->getIconSize()=="sm") echo 'selected="selected"'?>>SM</option>
+						<option value="lg" <?php if ($followus_model->getIconSize()=="lg") echo 'selected="selected"'?>>LG</option>
+						<option value="2x" <?php if ($followus_model->getIconSize()=="2x") echo 'selected="selected"'?>>2X</option>
+						<option value="3x" <?php if ($followus_model->getIconSize()=="3x") echo 'selected="selected"'?>>3X</option>
+						<option value="4x" <?php if ($followus_model->getIconSize()=="4x") echo 'selected="selected"'?>>4X</option>
+						<option value="5x" <?php if ($followus_model->getIconSize()=="5x") echo 'selected="selected"'?>>5X</option>
+						<option value="7x" <?php if ($followus_model->getIconSize()=="7x") echo 'selected="selected"'?>>7X</option>
+						<option value="10x" <?php if ($followus_model->getIconSize()=="10x") echo 'selected="selected"'?>>10X</option>
+					</select>
+				</div>
+				<div class="sb-cb"></div>
+			</div>			
+			
+			<div class="form-group sb-form-line " id="control-group_designt_type">
+				<label for="use_item_custom" class="sb-form-line-title col-md-3 optional"><?php echo __('Transparent background');?></label>
+				<div class=" col-md-7">
+					<select name="use_item_custom" id="use_item_custom" is_form_horizontal="1" color="color-blue" label_cols="col-md-3" input_cols="col-md-7" offset_cols="col-md-offset-3" error_cols="col-md-7" class="sb-select styled-select color-blue form-control no-dk">
+						<option value="0" <?php if ($followus_model->getUseItemCustom()=="0") echo 'selected="selected"'?>><?php echo __('Yes');?></option>
+						<option value="1" <?php if ($followus_model->getUseItemCustom()=="1") echo 'selected="selected"'?>><?php echo __('No');?></option>
+					</select>
+				</div>
+				<div class="sb-cb"></div>
+			</div>			
+			
+			<!--
+			<div class="form-group sb-form-line">
+				<label for="color" class="sb-form-line-color col-sm-3 optional"><?php echo __('Color');?></label>
+				<div class="col-sm-7">
+					<input type="text" name="color" id="color" value="<?php echo $followus_model->getColor();?>" is_form_horizontal="1" color="color-blue" class="input-flat jscolor">
+				</div>
+				<div class="sb-cb"></div>
+			</div>
+			-->
+			<div class="form-group sb-form-line " id="control-group_designt_type">
+				<label for="color" class="sb-form-line-title col-md-3 optional"><?php echo __('Color');?></label>
+				<div class=" col-md-7">
+					<select name="color" id="color" is_form_horizontal="1" color="color-blue" label_cols="col-md-3" input_cols="col-md-7" offset_cols="col-md-offset-3" error_cols="col-md-7" class="sb-select styled-select color-blue form-control no-dk">
+						<option value="primary" <?php if ($followus_model->getColor()=="primary") echo 'selected="selected"'?>>Primary</option>
+						<option value="secondary" <?php if ($followus_model->getColor()=="secondary") echo 'selected="selected"'?>>Secondary</option>
+						<option value="tertiary" <?php if ($followus_model->getColor()=="tertiary") echo 'selected="selected"'?>>Tertiary</option>
+						<option value="success" <?php if ($followus_model->getColor()=="success") echo 'selected="selected"'?>>Success</option>
+						<option value="warning" <?php if ($followus_model->getColor()=="warning") echo 'selected="selected"'?>>Warning</option>
+						<option value="danger" <?php if ($followus_model->getColor()=="danger") echo 'selected="selected"'?>>Danger</option>
+						<option value="light" <?php if ($followus_model->getColor()=="light") echo 'selected="selected"'?>>Light</option>
+						<option value="medium" <?php if ($followus_model->getColor()=="medium") echo 'selected="selected"'?>>Medium</option>
+						<option value="dark" <?php if ($followus_model->getColor()=="dark") echo 'selected="selected"'?>>Dark</option>
+					</select>
+				</div>
+				<div class="sb-cb"></div>
+			</div>				
+			
+			
+			<!--<div class="form-group sb-form-line">
+				<label for="text_color" class="sb-form-line-color col-sm-3 optional"><?php echo __('Text color');?></label>
+				<div class="col-sm-7">
+					<input type="text" name="text_color" id="text_color" value="<?php echo $followus_model->getTextColor();?>" is_form_horizontal="1" color="color-blue" class="input-flat jscolor">
+				</div>
+				<div class="sb-cb"></div>
+			</div>
+			-->
+			<input type="text" name="text_color" id="text_color" value="transparent">
+			<!--
+			<div class="form-group sb-form-line">
+				<label for="shape_color" class="sb-form-line-color col-sm-3 optional"><?php echo __('Shape color');?></label>
+				<div class="col-sm-7">
+					<input type="text" name="shape_color" id="shape_color" value="<?php echo $followus_model->getShapeColor();?>" is_form_horizontal="1" color="color-blue" class="input-flat jscolor">
+				</div>
+				<div class="sb-cb"></div>
+			</div>			
+			-->
+			<br>
+			<br>
+			<h3><b><?php echo __("Links");?></b></h3>
+			<hr>
+			<div id="links_list">
+				<?php if ($followus_model->getLines()) {?>
+					<?php foreach($followus_model->getLines() as $line) {?>
+					<div class="row" id="edit_item_pos_<?php echo $line->getFollowusLineId();?>"  style="padding-top:3px; padding-bottom:3px;">
+					<div class="col-sm-1"><a href="https://fontawesome.com/icons?d=gallery&m=free" target=_blank><?php echo __('Icon');?> <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+					<div class="col-sm-3"><input type="text" name="link_edit[<?php echo $line->getFollowusLineId();?>][icon]" id="link_edit_item_pos_icon" value="<?php echo $line->getIcon();?>" is_form_horizontal="1" color="color-blue" class="sb-input-country input-flat"></div>
+					<div class="col-sm-1"><?php echo __('URL');?></div>
+					<div class="col-sm-3"><input type="text" name="link_edit[<?php echo $line->getFollowusLineId();?>][url]" id="link_edit_item_pos_url" value="<?php echo $line->getData('url');?>" is_form_horizontal="1" color="color-blue" class="sb-input-country input-flat"></div>
+					<div class="col-sm-1"><?php echo __('Title');?></div>
+					<div class="col-sm-2"><input type="text" name="link_edit[<?php echo $line->getFollowusLineId();?>][title]" id="link_edit_item_pos_title" value="<?php echo $line->getTitle();?>" is_form_horizontal="1" color="color-blue" class="sb-input-country input-flat"></div>
+					<div class="col-sm-1"><button type="button" name="Del" is_form_horizontal="1" color="color-red" onclick="removeEditLink(<?php echo $line->getFollowusLineId();?>);"class="btn default_button color-red" data-loading-text="Patientez ..."><?php echo __('Remove');?></button></div>
+					<input type=hidden id="link_edit_is_deleted_<?php echo $line->getFollowusLineId();?>" name="link_edit[<?php echo $line->getFollowusLineId();?>][is_deleted]" value=0>
+					<input type=hidden name="link_edit[<?php echo $line->getFollowusLineId();?>][followus_line_id]" value="<?php echo $line->getFollowusLineId();?>">
+					</div>					
+					<?php }?>
+				<?php }?>
+			</div>
+			<div>
+				<button type="button" name="Add" id="add_link" is_form_horizontal="1" color="color-red" class="btn default_button color-red" data-loading-text="Patientez ..."><?php echo __('Add link');?></button>
+			</div>
+			<!-- template for new line-->
+			<div style="display:none;" id="new_link_template">
+				<div class="row" id="r_item_pos"  style="padding-top:3px; padding-bottom:3px;">
+				<div class="col-sm-1"><?php echo __('Icon');?></div>
+				<div class="col-sm-3"><input type="text" name="link_new[new_item_pos][icon]" id="link_new_item_pos_icon" value="fab fa-facebook-f" is_form_horizontal="1" color="color-blue" class="sb-input-country input-flat"></div>
+				<div class="col-sm-1"><a href="https://fontawesome.com/icons?d=gallery&m=free" target=_blank><?php echo __('Icon');?> <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+				<div class="col-sm-3"><input type="text" name="link_new[new_item_pos][url]" id="link_new_item_pos_url" value="https://fb.com" is_form_horizontal="1" color="color-blue" class="sb-input-country input-flat"></div>
+				<div class="col-sm-1"><?php echo __('Title');?></div>
+				<div class="col-sm-2"><input type="text" name="link_new[new_item_pos][title]" id="link_new_item_pos_title" value="Facebook" is_form_horizontal="1" color="color-blue" class="sb-input-country input-flat"></div>
+				<div class="col-sm-1"><button type="button" name="Del" id="add_link" is_form_horizontal="1" color="color-red" onclick="removeLine('new_item_pos');"class="btn default_button color-red" data-loading-text="Patientez ..."><?php echo __('Remove');?></button></div>
+				</div>
+			</div>
+			
+			
+			<input type="hidden" name="value_id" value="<?php echo $optionValue->getId();?>" is_form_horizontal="1" color="color-blue" id="value_id">
+		</form>
+	</div>
+<div class="background-images-import">
+    <?php echo $this->importBackground($optionValue); ?>
+</div>
+</div>
+<script src="<?php echo $this->getUrl(''); ?>app/local/modules/Followus/resources/design/desktop/flat/template/followus/js/jscolor.js"></script>
+<script>
+$(document).ready(function() {
+  jscolor.installByClassName("jscolor");
+});
+	function removeEditLink(id) {
+		$("#link_edit_is_deleted_"+id).val(1);
+		$("#edit_item_pos_"+id).hide();
+	}
+	function removeLine(id) {
+		$("#link_"+id).remove();
+	}
+
+	var link_line = 0;
+	$('#description').ckeditor(ckeditor_config.default);
+
+	$('#followus_chat_form').submit(function() {
+		reload(this, this.action, true, function(data) {
+			if(data.success) {
+				page.reload();
+			}
+		});
+		return false;
+	});
+	
+	$("#add_link").on("click",function() {
+		var template = $("#new_link_template > .row").clone();
+		var html = template.html().replace(/item_pos/gi, link_line);
+		template.html(html);
+		template.attr("id","link_new_"+link_line);
+		template.appendTo("#links_list");
+		link_line = link_line+1;
+		console.log("add new link event");
+	});
+	
+	$(document).ready(function () {
+		// Bind form, only if the current form is not binded from a parent (this could bind it twice)
+		bindForms('.background-images-import');
+	});	
+</script>

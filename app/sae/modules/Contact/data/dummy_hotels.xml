@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designs>
+    <b_b>
+        <content>
+            <name>B&amp;B</name>
+            <phone>0999999999</phone>
+            <street>235 Market Street</street>
+            <postcode>CA 94111</postcode>
+            <city>San Francisco</city>
+            <country>USA</country>
+            <description>Lorem ipsum dolor sit amet</description>
+            <email>bandb@bandb.com</email>
+            <website>http://www.google.com</website>
+        </content>
+    </b_b>
+</designs>
+

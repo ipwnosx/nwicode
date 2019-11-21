@@ -1,0 +1,315 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-31T12:12:26+03:00\n"
+"PO-Revision-Date: 2019-07-31T12:12:26+03:00\n"
+"Language: \n"
+
+msgid "Add To Cart"
+msgstr "Добавить В Корзину"
+
+msgid "Address (1):"
+msgstr "Адреса (1):"
+
+msgid "Address (2):"
+msgstr "Адрес (2):"
+
+msgid "All products"
+msgstr "Все товары"
+
+msgid "An error occurred while making your payment. Please try again later."
+msgstr "Произошла ошибка при внесении платежа. Пожалуйста, попробуйте снова позже."
+
+msgid "An error occurred while trying to set up Paypal transaction. Please contact an administrator."
+msgstr "Произошла ошибка при попытке создать транзакцию в PayPal. Пожалуйста, свяжитесь с администратором."
+
+msgid "Are you sure to remove this line from cart?"
+msgstr "Вы уверены, что хотите удалить эту строку из корзины?"
+
+msgid "Billing Address"
+msgstr "Платежный Адрес"
+
+msgid "CVC"
+msgstr "Вах"
+
+msgid "Cart"
+msgstr "Корзину"
+
+msgid "Cart total"
+msgstr "Корзина общая"
+
+msgid "Categories"
+msgstr "Категории"
+
+msgid "City:"
+msgstr "Город:"
+
+msgid "Code"
+msgstr "Код"
+
+msgid "Company:"
+msgstr "Компания:"
+
+msgid "Configuration error. Please contact an administrator."
+msgstr "Ошибка конфигурации. Пожалуйста, свяжитесь с администратором."
+
+msgid "Consumer key"
+msgstr "Основным потребителем"
+
+msgid "Country:"
+msgstr "Страна:"
+
+msgid "Create Customer"
+msgstr "Создать Клиента"
+
+msgid "Credit Card payment"
+msgstr "Оплата кредитной картой"
+
+msgid "Customer error"
+msgstr "Ошибка клиента"
+
+msgid "Email*:"
+msgstr "Электронная почта*:"
+
+msgid "Email:"
+msgstr "Электронная почта:"
+
+msgid "Error during order creation"
+msgstr "Ошибка при создании заказа"
+
+msgid "Error during registration"
+msgstr "Ошибка при регистрации"
+
+msgid "Error while getting products"
+msgstr "Ошибка при получении продукции"
+
+msgid "Error while loading shop configuration."
+msgstr "Ошибка при загрузке конфигурации магазин."
+
+msgid "Exp Month"
+msgstr "Ехр Месяц"
+
+msgid "Exp Year"
+msgstr "Выр Год"
+
+msgid "First Name*:"
+msgstr "Имя*:"
+
+msgid "First Name:"
+msgstr "Первое Имя:"
+
+msgid "Grouped product details"
+msgstr "Сгруппированные детали продукта"
+
+msgid "Header"
+msgstr "Заголовок"
+
+msgid "Hey"
+msgstr "Привет"
+
+msgid "Import a header"
+msgstr "Импорт заголовка"
+
+msgid "In order to proceed, please fill your Woocommerce customer email below:"
+msgstr "Для того чтобы продолжить, пожалуйста, заполните вашего WooCommerce электронной почты клиента ниже:"
+
+msgid "Invalid Quantity"
+msgstr "Недопустимое Количество"
+
+msgid "Last Name*:"
+msgstr "Фамилия*:"
+
+msgid "Last Name:"
+msgstr "Фамилия:"
+
+msgid "Loading"
+msgstr "Загрузка"
+
+msgid "New Customer"
+msgstr "Новый Клиент"
+
+msgid "New user"
+msgstr "Новый пользователь"
+
+msgid "No categories for now"
+msgstr "Нет категории сейчас"
+
+msgid "No products for now."
+msgstr "Нет товаров."
+
+msgid "OK"
+msgstr "ОК"
+
+msgid "On Sale"
+msgstr "На Продажу"
+
+msgid "Oops!"
+msgstr "Упс!"
+
+msgid "Order cancelled"
+msgstr "Заказ отменен"
+
+msgid "Our online shop"
+msgstr "НАШ ИНТЕРНЕТ-МАГАЗИН"
+
+msgid "Out of stock"
+msgstr "Нет в наличии"
+
+msgid "Password*:"
+msgstr "Пароль*:"
+
+msgid "Pay by Credit Card"
+msgstr "Оплатить кредитной картой"
+
+msgid "Pay by Paypal"
+msgstr "Оплатить PayPal"
+
+msgid "Pay on our online store"
+msgstr "Оплатить в нашем интернет-магазине"
+
+msgid "Payment result"
+msgstr "Результат оплаты"
+
+msgid "Paypal Settings"
+msgstr "Настройки Системы PayPal"
+
+msgid "Paypal password"
+msgstr "Пароль PayPal"
+
+msgid "Paypal signature"
+msgstr "Подпись в PayPal"
+
+msgid "Paypal username"
+msgstr "Имя пользователя в системе PayPal"
+
+msgid "Personal Information*"
+msgstr "Личную Информацию*"
+
+msgid "Phone:"
+msgstr "Телефон:"
+
+msgid "Please enter a Password."
+msgstr "Пожалуйста, введите пароль."
+
+msgid "Please enter a Username."
+msgstr "Пожалуйста, введите имя пользователя."
+
+msgid "Please enter a credit card number"
+msgstr "Пожалуйста, введите номер кредитной карты"
+
+msgid "Please enter an Email."
+msgstr "Пожалуйста, введите адрес электронной почты."
+
+msgid "Please enter the credit card expiration month"
+msgstr "Пожалуйста, введите действия кредитной карты месяц"
+
+msgid "Please enter the credit card expiration year"
+msgstr "Пожалуйста, введите действия кредитной карты год"
+
+msgid "Please enter your First Name."
+msgstr "Пожалуйста, введите ваше имя."
+
+msgid "Please enter your Last Name."
+msgstr "Пожалуйста, введите вашу фамилию."
+
+msgid "Please fill in your information in order to pay by credit card"
+msgstr "Пожалуйста, заполните вашу информацию для того, чтобы оплатить с помощью кредитной карты"
+
+msgid "Postcode:"
+msgstr "Почтовый индекс:"
+
+msgid "Proceed"
+msgstr "Продолжить"
+
+msgid "Product successfully added to your Cart."
+msgstr "Продукт успешно добавлен в вашу корзину."
+
+msgid "Products"
+msgstr "Продукты"
+
+msgid "Quantity:"
+msgstr "Количество:"
+
+msgid "Registration successful"
+msgstr "Регистрация прошла успешно"
+
+msgid "Remove product"
+msgstr "Удалить продукт"
+
+msgid "Same as billing address"
+msgstr "Так же, как платежный адрес"
+
+msgid "See you soon on our store!"
+msgstr "Скоро увидимся в нашем магазине!"
+
+msgid "Shipping Address"
+msgstr "Адрес Доставки"
+
+msgid "Social Profiles"
+msgstr "Социальные Профили"
+
+msgid "Sorry, product not found."
+msgstr "К сожалению, товар не найден."
+
+msgid "State:"
+msgstr "Состояние:"
+
+msgid "Stock Quantity:"
+msgstr "Количество Акций:"
+
+msgid "Stripe Secret Key"
+msgstr "Полоса Секретный Ключ"
+
+msgid "Success"
+msgstr "Успешно"
+
+msgid "Success."
+msgstr "Успешно."
+
+msgid "Thank you!"
+msgstr "Спасибо!"
+
+msgid "The payment has been cancelled, something wrong happened? Feel free to contact us."
+msgstr "Платеж был отменен, что-то случилось? Не стесняйтесь обращаться к нам."
+
+msgid "This customer doesn't exists in our database or is an administrator account. Please register."
+msgstr "Этот клиент не существует в нашей базе данных или учетной записи администратора. Пожалуйста, зарегистрируйтесь."
+
+msgid "This email is invalid. Please enter a valid Email."
+msgstr "Это письмо является недействительным. Пожалуйста, введите действительный адрес электронной почты."
+
+msgid "Username*:"
+msgstr "Имя пользователя*:"
+
+msgid "Variation:"
+msgstr "Вариации:"
+
+msgid "Woocommerce Settings"
+msgstr "Настройки Плагина WooCommerce"
+
+msgid "Woocommerce url"
+msgstr "Настраиваемые URL-адреса"
+
+msgid "Your account has been created successfully"
+msgstr "Ваш аккаунт был успешно создан"
+
+msgid "Your card has been declined."
+msgstr "Ваша карта была отклонена."
+
+msgid "Your cart"
+msgstr "Ваша корзина"
+
+msgid "Your cart is empty."
+msgstr "Ваша корзина пуста."
+
+msgid "Your order has been created successfully, please choose a payment method below:"
+msgstr "Ваш заказ был успешно создан. Пожалуйста, выберите способ оплаты ниже:"
+
+msgid "Your payment has been done successfully."
+msgstr "Ваша оплата успешно прошла."

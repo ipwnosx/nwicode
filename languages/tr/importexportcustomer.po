@@ -1,0 +1,84 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-01-21T06:53:19+03:00\n"
+"PO-Revision-Date: 2019-01-21T06:53:19+03:00\n"
+"Language: \n"
+
+msgid "Choose File"
+msgstr "Dosya seç"
+
+msgid "Description"
+msgstr "Açıklama"
+
+msgid "Export"
+msgstr "Dışa aktar"
+
+msgid "File to import :"
+msgstr "İçe aktarılacak dosya:"
+
+msgid "IMPORT EXPORT APP USER"
+msgstr "Uygulama kullanıcısını içe/dışa aktar"
+
+msgid "Import"
+msgstr "İçe aktar"
+
+msgid "Info successfully saved"
+msgstr "Bilgi başarıyla kaydedildi"
+
+msgid "Is password send to users by email?"
+msgstr "Şifre kullanıcılara e-posta ile mi gönderiliyor?"
+
+msgid "No file chosen"
+msgstr "Dosya seçilmedi"
+
+msgid "Please select valid file!"
+msgstr "Lütfen geçerli bir dosya seç!"
+
+msgid "Please type below the welcome email to be sent to the users upon account creation or when the users DB is imported.You can use the tag [firstname],[last-name],[email],[password] and [app-name] to personalize the email body and subject."
+msgstr "Hesap oluştururken veya kullanıcılar DB içe aktarıldığında kullanıcılara gönderilecek hoşgeldin e-postasının altına yazabilirsiniz. [Firstname], [last name], [email], [password] ve [app-name] etiketlerini kullanabilirsiniz.]"
+
+msgid "Subject"
+msgstr "Konu"
+
+msgid "The user database needs to be submitted in csv format. Please download a sample file here:"
+msgstr "Kullanıcı veritabanının csv formatında sunulması gerekiyor. Lütfen buradan bir örnek dosya indirin:"
+
+msgid "There was an error reading the file, because file dose not contain any records."
+msgstr "Dosya okunurken bir hata oluştu, çünkü dosya herhangi bir kayıt içermiyor."
+
+msgid "There was an error reading the file-"
+msgstr "Dosya okunurken bir hata oluştu."
+
+msgid "This message was sent to"
+msgstr "Bu mesaj gönderildi"
+
+msgid "Using this functionality you'll be able to import an external database of existing users. Upon importing of the file, a welcome email will be sent to the users with the new App account details."
+msgstr "Bu işlevselliği kullanarak mevcut kullanıcıların harici bir veritabanını içe aktarabileceksiniz. Dosyayı içe aktardıktan sonra, yeni Uygulama hesabı ayrıntıları ile kullanıcılara hoş bir e-posta gönderilecektir."
+
+msgid "example.csv"
+msgstr "örnek.csv"
+
+msgid "record was imported successfully and the following records were skipped"
+msgstr "Kayıt başarıyla alındı ​​ve aşağıdaki kayıtlar atlandı"
+
+msgid "record was imported successfully."
+msgstr "Kayıt başarıyla alındı."
+
+msgid "record were imported successfully"
+msgstr "kayıt başarıyla alındı"
+
+msgid "records were imported successfully"
+msgstr "Kayıtlar başarıyla alındı."
+
+msgid "records were imported successfully and the following records were skipped"
+msgstr "Kayıtlar başarıyla alındı ​​ve aşağıdaki kayıtlar atlandı"
+
+msgid "register successfully and send mail to :"
+msgstr "başarıyla kaydolun ve aşağıdaki adrese posta gönderin:"

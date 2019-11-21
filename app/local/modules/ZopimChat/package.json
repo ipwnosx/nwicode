@@ -1,0 +1,10 @@
+{
+  "name": "ZopimChat",
+  "description": "ZopimChat for application",
+  "version": "1.1.3",
+  "type": "module",
+  "dependencies": {
+    "system": {
+      }
+  }
+}

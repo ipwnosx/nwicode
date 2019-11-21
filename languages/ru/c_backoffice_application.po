@@ -1,0 +1,1853 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-02T08:37:59+03:00\n"
+"PO-Revision-Date: 2019-07-02T08:37:59+03:00\n"
+"Language: \n"
+
+# GMT 1559644697.2994
+msgid "(DEMO)"
+msgstr "(Демо)"
+
+# GMT 1559644698.9953
+msgctxt "backoffice_application"
+msgid "* If Apple doesn't detect any configured ads, your application will be refused."
+msgstr "* Если Apple не обнаруживает каких-либо настроен объявления, ваше приложение будет отказано."
+
+# GMT 1559644699.0036
+msgctxt "backoffice_application"
+msgid "* You must tell Apple why you need the background audio playing."
+msgstr "* Вы должны сообщить Apple, зачем нужен фоновый звук игры."
+
+# GMT 1559644697.2665
+msgid "A step requires at least a title and a text."
+msgstr "Шаг требует, как минимум, заголовок и текст."
+
+# GMT 1559644697.6558
+msgid "API"
+msgstr "API-интерфейс"
+
+# GMT 1559644698.2902
+msgid "About us"
+msgstr "О нас"
+
+# GMT 1559644697.6515
+msgid "Accounts"
+msgstr "Пользователи"
+
+# GMT 1559644698.8249
+msgid "Actions"
+msgstr "Действия"
+
+# GMT 1559644697.9599
+msgid "AdMob Banner ID"
+msgstr "В Admob ID баннера"
+
+# GMT 1559644697.9643
+msgid "AdMob Interstitial ID"
+msgstr "AdMob интерстициальный ИД"
+
+# GMT 1559644697.9686
+msgid "AdMob Type"
+msgstr "Тип Сети AdMob"
+
+# GMT 1559644697.7338
+msgid "Advanced"
+msgstr "Дополнительно"
+
+# GMT 1559644697.9425
+msgid "Advertising"
+msgstr "Реклама"
+
+# GMT 1559644697.0836
+msgid "All data"
+msgstr "Все данные"
+
+# GMT 1559644697.8868
+msgid "Allow user to request app publication"
+msgstr "Позволяют пользователю запрашивать публикации приложения"
+
+# GMT 1559644697.7899
+msgid "An error occurred while loading. Please, try again later."
+msgstr "Произошла ошибка при загрузке. Пожалуйста, повторите попытку позже."
+
+# GMT 1559644697.2707
+msgid "An error occurred while saving. Please try again later."
+msgstr "Произошла ошибка при сохранении. Пожалуйста, попробуйте снова позже."
+
+# GMT 1559644697.8238
+msgid "An error occurred while uploading your file. Please, try again later."
+msgstr "Произошла ошибка при загрузке файла. Пожалуйста, повторите попытку позже."
+
+# GMT 1559644698.4131
+msgid "Analytics"
+msgstr "Аналитика"
+
+# GMT 1559644698.1199
+msgid "Android"
+msgstr "Андроид"
+
+# GMT 1559644698.1281
+msgid "Android 4.4+"
+msgstr "Андроид 4.4+"
+
+# GMT 1559644698.1367
+msgid "Android APK"
+msgstr "Андроид apk"
+
+# GMT 1559644698.141
+msgid "Android SDK is not installed"
+msgstr "SDK для Android не устанавливается"
+
+# GMT 1559644698.6476
+msgid "Android SDK:"
+msgstr "Андроид СДК:"
+
+# GMT 1559644698.1242
+msgid "Android Studio 3+"
+msgstr "Android-Студия 3+"
+
+# GMT 1559644698.2227
+msgctxt "backoffice_application"
+msgid "App Store Connect login"
+msgstr "Магазин приложений Connect войти"
+
+# GMT 1559644698.2472
+msgctxt "backoffice_application"
+msgid "App Store Connect provider"
+msgstr "Поставщик магазин приложений подключения"
+
+# GMT 1559644698.05
+msgid "App Store Icon"
+msgstr "Иконка"
+
+# GMT 1559644698.4174
+msgid "App analytics"
+msgstr "Приложение аналитика"
+
+# GMT 1559644698.2314
+msgctxt "backoffice_application"
+msgid "App store connect e-mail"
+msgstr "Магазин приложений подключение электронной почты"
+
+# GMT 1559644697.6818
+msgid "Appearance"
+msgstr "Внешний вид"
+
+# GMT 1559644698.2387
+msgctxt "backoffice_application"
+msgid "Apple Development team id"
+msgstr "Команда разработчиков идентификатора Apple"
+
+# GMT 1559644698.1115
+msgid "Apple rejects apps that includes Ad Support but doesn't use it.<br />Generate your iOS app out of this source code if you don't include Ads."
+msgstr "Компания Apple отклоняет приложения, которые поддерживает объявление, но не использовать его.<br />как создать свой iOS приложение из исходного кода, если вы не включают в себя Объявления."
+
+# GMT 1559644698.4001
+msgid "Application"
+msgstr "Приложение"
+
+# GMT 1559644697.3119
+msgid "Application Name"
+msgstr "Имя Приложения"
+
+# GMT 1559644697.6688
+msgid "Applications"
+msgstr "Приложения"
+
+# GMT 1559644698.7361
+msgid "Applications/Previewer manifest for automatic updates."
+msgstr "Приложения/просмотрщик манифест для автоматического обновления."
+
+# GMT 1559644697.1009
+msgid "Appointment Activation Key"
+msgstr "Ключ Активации"
+
+# GMT 1559644698.7318
+msgid "Are you sure ?"
+msgstr "Вы уверены ?"
+
+# GMT 1559644697.8318
+msgid "Are you sure you want to delete this admin?"
+msgstr "Вы уверены, что хотите удалить этот админ?"
+
+# GMT 1559644697.3741
+msgid "Are you sure you want to delete this application?"
+msgstr "Вы уверены, что хотите удалить это приложение?"
+
+# GMT 1559644697.3784
+msgid "Are you sure you want to duplicate this application?"
+msgstr "Вы уверены, что хотите дублировать это приложение?"
+
+# GMT 1559644698.3706
+msgctxt "cabride"
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+# GMT 1559644698.5718
+msgid "Average build time in seconds:"
+msgstr "время в секундах:"
+
+# GMT 1559644697.1949
+#, mobile
+msgid "Back"
+msgstr "Назад"
+
+# GMT 1559644697.507
+msgid "Background Color"
+msgstr "Цвет Фона"
+
+# GMT 1559644697.6093
+msgid "Background Color - Active"
+msgstr "Цвет Фона - Активный"
+
+# GMT 1559644697.5761
+msgid "Background Color - Hover"
+msgstr "Цвет Фона При Наведении Курсора"
+
+# GMT 1559644697.6471
+msgid "Backoffice access"
+msgstr "Бекофис настройки"
+
+# GMT 1559644697.973
+msgid "Banner"
+msgstr "Баннер"
+
+# GMT 1559644698.011
+msgid "Banner %s price"
+msgstr "Цена баннера %s"
+
+# GMT 1559644697.9816
+msgid "Banner & Interstitial"
+msgstr "Баннер И Интерстициальные"
+
+# GMT 1559644697.9939
+msgid "Banner author"
+msgstr "Автор баннера"
+
+# GMT 1559644697.9983
+msgid "Banner button label"
+msgstr "Надпись на кнопке баннер"
+
+# GMT 1559644697.9859
+msgid "Banner settings"
+msgstr "Настройки баннера"
+
+# GMT 1559644697.9903
+msgid "Banner title"
+msgstr "Заголовок баннер"
+
+# GMT 1559644698.2687
+msgctxt "cabride"
+msgid "Base address"
+msgstr "Базовый адрес"
+
+# GMT 1559644698.7875
+msgid "Bearer Token Auth (API)"
+msgstr "Token Auth (API)"
+
+# GMT 1559644698.7918
+msgid "Bearer Token Auth is valid."
+msgstr "Токен на предъявителя авт действителен."
+
+# GMT 1559644698.6563
+msgid "Bin SQLite3:"
+msgstr "Sqlite3:"
+
+# GMT 1559644697.5457
+msgid "Border Blue"
+msgstr "Границы Синий"
+
+# GMT 1559644697.5418
+msgid "Border Color"
+msgstr "Цвет Границы"
+
+# GMT 1559644697.5587
+msgid "Border Green"
+msgstr "Границы Зеленой"
+
+# GMT 1559644697.5631
+msgid "Border Grey"
+msgstr "Граница Серый"
+
+# GMT 1559644697.5544
+msgid "Border Purple"
+msgstr "Границы Фиолетовый"
+
+# GMT 1559644697.5374
+msgid "Border Red"
+msgstr "Границы Красный"
+
+# GMT 1559644697.55
+msgid "Border Yellow"
+msgstr "Границы Желтый"
+
+# GMT 1559644697.2385
+msgid "Bottom"
+msgstr "Дно"
+
+# GMT 1559644698.8674
+msgid "Brazilian Portuguese"
+msgstr "Бразильский Португальский"
+
+# GMT 1559644698.1626
+# GMT 1559644699.0079
+msgid "Build information"
+msgstr "Информация о сборке"
+
+# GMT 1559644697.8447
+msgid "Bundle Id"
+msgstr "Bundle Id"
+
+# GMT 1559644697.2255
+msgid "By default, popups steps try to use a smart placement. You can force this placement if needed."
+msgstr "По умолчанию всплывающие окна, шаги старайтесь использовать смарт-размещения. Вы можете пропустить это размещение, если необходимо."
+
+# GMT 1559644698.4305
+msgctxt "cabride"
+msgid "Cab-Ride"
+msgstr "Такси"
+
+# GMT 1559644697.1045
+msgid "CabRide"
+msgstr "CabRide"
+
+# GMT 1559644698.461
+msgid "CabRide Drivers"
+msgstr "Драйверы CabRide"
+
+# GMT 1559644698.2817
+msgid "Cabride"
+msgstr "CabRide"
+
+# GMT 1559644698.311
+msgid "Cabride, uws Server."
+msgstr "Cabride, УВВС сервер."
+
+# GMT 1559644698.3153
+msgid "Cabride, watcher."
+msgstr "Cabride, сторож."
+
+# GMT 1559644698.7149
+msgid "Cache (var/cache, system cache)"
+msgstr "Кэш (var/cache, system cache)"
+
+# GMT 1559644698.1037
+#, mobile
+msgid "Cancel"
+msgstr "Отменить"
+
+# GMT 1559644697.1218
+#, mobile
+msgid "Chatrooms"
+msgstr "Чаты"
+
+# GMT 1559644698.7526
+msgid "Check if this cron command is installed under the web user & if you have set a timezone in Settings > General"
+msgstr "Проверьте, если эта команда хрон устанавливается на веб-пользователей и, если вы установили часовой пояс в меню Настройки > Общие"
+
+# GMT 1559644698.6775
+msgid "ClamAV:"
+msgstr "Антивирус ClamAV:"
+
+# GMT 1559644698.3067
+msgid "Classifieds"
+msgstr "Объявления"
+
+# GMT 1559644697.0879
+msgid "Clean-up sensible data"
+msgstr "Очистка данных"
+
+# GMT 1559644698.6092
+#, mobile
+msgid "Clear"
+msgstr "Очистить"
+
+# GMT 1559644697.2037
+#, mobile
+msgid "Close"
+msgstr "Закрыть"
+
+# GMT 1559644697.5157
+msgid "Color blue"
+msgstr "Цвет синий"
+
+# GMT 1559644697.5287
+msgid "Color green"
+msgstr "Цвет зеленый"
+
+# GMT 1559644697.5979
+msgid "Color purple"
+msgstr "Цвет фиолетовый"
+
+# GMT 1559644697.52
+msgid "Color red"
+msgstr "Цвет красный"
+
+# GMT 1559644697.5244
+msgid "Color yellow"
+msgstr "Цвет желтый"
+
+# GMT 1559644698.3923
+msgid "Colors"
+msgstr "Стили"
+
+# GMT 1559644697.7599
+msgid "Communication"
+msgstr "Общение"
+
+# GMT 1559644698.0198
+#, mobile
+msgid "Company"
+msgstr "Компания"
+
+# GMT 1559644697.7077
+msgid "Configuration"
+msgstr "Конфигурации"
+
+# GMT 1559644697.1732
+msgid "Confirm your password"
+msgstr "Подтвердите ваш пароль"
+
+# GMT 1559644698.85
+msgid "Confirmation required"
+msgstr "Подтверждение требуется"
+
+# GMT 1559644697.1478
+msgid "Contact e-mail"
+msgstr "Контактный e-mail"
+
+# GMT 1559644697.5674
+msgid "Content background"
+msgstr "Содержание фон"
+
+# GMT 1559644697.5891
+msgid "Content color"
+msgstr "Цвет содержимого"
+
+# GMT 1559644697.3155
+msgid "Create"
+msgstr "Создать"
+
+# GMT 1559644697.3076
+msgid "Create a new application"
+msgstr "Создайте новое приложение"
+
+# GMT 1559644697.3242
+msgid "Created at %s"
+msgstr "Создан  %s"
+
+# GMT 1559644697.7425
+msgid "Cron"
+msgstr "Хрон"
+
+# GMT 1559644698.5587
+msgid "Cron scheduler"
+msgstr "Cron-планировщик"
+
+# GMT 1559644698.7491
+msgid "Cron scheduler help"
+msgstr "Cron-планировщик помочь"
+
+# GMT 1559644699.0252
+msgid "Current load is"
+msgstr "Ток нагрузки"
+
+# GMT 1559644699.0338
+msgid "Current status is"
+msgstr "Текущее состояние"
+
+# GMT 1559644698.3023
+msgid "Custom Page"
+msgstr "Своя страница"
+
+# GMT 1559644698.3283
+msgctxt "cabride"
+msgid "Customer ID"
+msgstr "Идентификатор клиента"
+
+# GMT 1559644697.4514
+msgid "Customization mode activated"
+msgstr "Режим настройки активирован"
+
+# GMT 1559644697.4557
+msgid "Customize My Editor"
+msgstr "Настроить мой редактор"
+
+# GMT 1559644698.3538
+# GMT 1559644698.8327
+msgctxt "cabride"
+msgid "DELETE"
+msgstr "Удалить"
+
+# GMT 1559644698.8718
+msgid "Danish"
+msgstr "Датский"
+
+# GMT 1559644697.3997
+# GMT 1559644698.4348
+msgid "Dashboard"
+msgstr "Панель управления"
+
+# GMT 1559644698.3663
+msgctxt "cabride"
+msgid "Delete driver"
+msgstr "Драйвер удалить"
+
+# GMT 1559644697.9259
+#, mobile
+msgid "Description"
+msgstr "Описание"
+
+# GMT 1559644698.3879
+msgid "Design"
+msgstr "Дизайн"
+
+# GMT 1559644698.0284
+msgid "Developer Accounts"
+msgstr "Учетные записи разработчиков"
+
+# GMT 1559644697.8912
+msgid "Device Information"
+msgstr "Информация об устройстве"
+
+# GMT 1559644697.1347
+msgid "Device preview"
+msgstr "Предварительный просмотр устройства"
+
+# GMT 1559644697.7251
+msgid "Discounts"
+msgstr "Скидки"
+
+# GMT 1559644698.6937
+msgid "Disk usage & Cache:"
+msgstr "Использование диска и Кэш:"
+
+# GMT 1559644697.8528
+msgid "Domain"
+msgstr "Домен"
+
+# GMT 1559644698.1713
+msgid "Download APK"
+msgstr "Скачать APK"
+
+# GMT 1559644698.1453
+msgid "Download latest APK"
+msgstr "Скачать последний apk"
+
+# GMT 1559644698.0838
+msgid "Download latest sources"
+msgstr "Скачать последнюю версию"
+
+# GMT 1559644698.2557
+msgctxt "cabride"
+msgid "Driver informations"
+msgstr "Информация водитель"
+
+# GMT 1559644698.3197
+msgctxt "cabride"
+msgid "Drivers"
+msgstr "Водители"
+
+# GMT 1559644698.26
+msgctxt "cabride"
+msgid "Driving license"
+msgstr "Водительские права"
+
+# GMT 1559644698.8757
+msgid "Dutch"
+msgstr "Голландский"
+
+# GMT 1559644698.3501
+# GMT 1559644698.8292
+msgctxt "cabride"
+msgid "EDIT"
+msgstr "Редактировать"
+
+# GMT 1559644697.2081
+msgid "Edit step for this element"
+msgstr "Редактировать шаг для этого элемента"
+
+# GMT 1559644698.3836
+msgid "Editor"
+msgstr "Редактор"
+
+# GMT 1559644697.6384
+msgid "Editor access"
+msgstr "Открыть редактор"
+
+# GMT 1559644697.258
+msgid "Element n°"
+msgstr "Элемент N°"
+
+# GMT 1559644697.2909
+msgid "End tour"
+msgstr "Конец тура"
+
+# GMT 1559644698.88
+msgid "English"
+msgstr "Английский"
+
+# GMT 1559644698.8843
+msgid "English_Australian"
+msgstr "English_Australian"
+
+# GMT 1559644698.8887
+msgid "English_CA"
+msgstr "English_CA"
+
+# GMT 1559644698.893
+msgid "English_UK"
+msgstr "English_UK"
+
+# GMT 1559644697.4819
+msgid "Environment is"
+msgstr "Среда"
+
+# GMT 1559644698.6862
+msgid "External extensions"
+msgstr "Внешние расширения"
+
+# GMT 1559644698.5674
+msgid "Failed"
+msgstr "Не удалось"
+
+# GMT 1559644697.0922
+msgid "Fanwall"
+msgstr "Fanwall"
+
+# GMT 1559644697.494
+msgid "Favicon"
+msgstr "Фавикон"
+
+# GMT 1559644698.4218
+msgid "Feature Analytics"
+msgstr "Функция Аналитика"
+
+# GMT 1559644698.3966
+msgid "Features"
+msgstr "Функции"
+
+# GMT 1559644697.3443
+msgid "Filter metrics"
+msgstr "Метрика фильтр"
+
+# GMT 1559644697.3198
+msgid "Filter your apps..."
+msgstr "Фильтр приложений..."
+
+# GMT 1559644698.9061
+msgid "Finnish"
+msgstr "Финский"
+
+# GMT 1559644697.7468
+msgid "Firewall"
+msgstr "Брандмауэр"
+
+# GMT 1559644697.5848
+msgid "Font Color blue"
+msgstr "Цвет шрифта синий"
+
+# GMT 1559644697.1696
+msgid "Forgot your password ?"
+msgstr "Забыли пароль ?"
+
+# GMT 1559644697.7725
+#, mobile
+msgid "Forgot your password?"
+msgstr "Забыли пароль?"
+
+# GMT 1559644697.1906
+msgid "Forgot your password? Don't worry! Simply enter your email address and we'll send you a new one right now."
+msgstr "Забыли пароль? Не волнуйся! Просто введите Ваш e-mail и мы вышлем вам новый прямо сейчас."
+
+# GMT 1559644697.8694
+msgid "Free until"
+msgstr "Бесплатно"
+
+# GMT 1559644697.3276
+msgid "Free until %s"
+msgstr "Бесплатно до %s"
+
+# GMT 1559644698.9105
+msgid "French"
+msgstr "Французский"
+
+# GMT 1559644698.9148
+msgid "French_CA"
+msgstr "French_CA"
+
+# GMT 1559644697.3356
+msgid "From"
+msgstr "От"
+
+# GMT 1559644697.5027
+#, mobile
+msgid "General"
+msgstr "Общие"
+
+# GMT 1559644697.8361
+msgid "General Information"
+msgstr "Общая информация"
+
+# GMT 1559644698.1844
+msgid "Generate and publish iOS Application"
+msgstr "Создать и опубликовать приложение для iOS"
+
+# GMT 1559644698.154
+msgid "Generate build"
+msgstr "Сгенерировать"
+
+# GMT 1559644698.0922
+msgid "Generate sources"
+msgstr "Генерировать исходник"
+
+# GMT 1559644698.0964
+msgid "Generating"
+msgstr "Генерация"
+
+# GMT 1559644698.8974
+msgid "German"
+msgstr "Немецкий"
+
+# GMT 1559644697.1261
+msgid "Get user"
+msgstr "Получить пользователь"
+
+# GMT 1559644697.7121
+msgid "Global push"
+msgstr "Глобальное пуш"
+
+# GMT 1559644698.0543
+msgid "Google Play Icon"
+msgstr "Иконка Google"
+
+# GMT 1559644698.9018
+msgid "Greek"
+msgstr "Греческий"
+
+# GMT 1559644697.5717
+msgid "Grey buttons"
+msgstr "Серые кнопки"
+
+# GMT 1559644698.7788
+msgid "HTTP Basic Auth (API)"
+msgstr "HTTP-аутентификации (API)"
+
+# GMT 1559644698.7831
+msgid "HTTP Basic Auth is valid."
+msgstr "Протокол HTTP basic авторизации действителен."
+
+# GMT 1559644698.5386
+msgid "HTTPS is not available on your server."
+msgstr "HTTPS не доступен на сервере."
+
+# GMT 1559644698.6049
+msgid "Hide"
+msgstr "Скрыть"
+
+# GMT 1559644698.6179
+msgid "How to install the cron scheduler ?"
+msgstr "Как установить cron-планировщик ?"
+
+# GMT 1559644697.1776
+msgid "I agree to receive information & commercial offers about the WhiteLabel program."
+msgstr "Я согласен получать информационные и коммерческие предложения"
+
+# GMT 1559644698.2053
+msgctxt "backoffice_application"
+msgid "I am publishing for/with ..."
+msgstr "Я публикую для/с ..."
+
+# GMT 1559644697.1819
+msgid "I have read & agree the Terms of Service"
+msgstr "Я прочитал и принимаю условия обслуживания"
+
+# GMT 1559644698.324
+msgctxt "cabride"
+msgid "ID"
+msgstr "Идентификатор"
+
+# GMT 1559644697.9512
+msgid "If user doesn't use AdMob, split revenue will default to 100."
+msgstr "Если пользователь не используют AdMob, распределение дохода по умолчанию 100."
+
+# GMT 1559644698.9192
+msgid "Indonesian"
+msgstr "Индонезийский"
+
+# GMT 1559644697.7934
+msgid "Info successfully saved"
+msgstr "Информация успешно сохранена"
+
+# GMT 1559644697.5935
+msgid "Input flat"
+msgstr "Ввод"
+
+# GMT 1559644698.6352
+msgid "Installed, version"
+msgstr "Установлено, версия"
+
+# GMT 1559644697.3867
+msgid "Installs"
+msgstr "Установок"
+
+# GMT 1559644697.9773
+msgid "Interstitial"
+msgstr "Интерстициальный"
+
+# GMT 1559644697.4296
+msgid "Invoices"
+msgstr "Счета-фактуры"
+
+# GMT 1559644698.9235
+msgid "Italian"
+msgstr "Итальянский"
+
+# GMT 1559644698.9279
+msgid "Japanese"
+msgstr "Японский"
+
+# GMT 1559644698.298
+#, mobile
+msgid "Job"
+msgstr "Работа"
+
+# GMT 1559644697.1131
+msgid "Join lobby"
+msgstr "Присоединиться к лобби"
+
+# GMT 1559644698.6688
+msgid "JpegOptim:"
+msgstr "JpegOptim:"
+
+# GMT 1559644697.9129
+msgid "Key Password"
+msgstr "Ключ пароль"
+
+# GMT 1559644697.9303
+#, mobile
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+# GMT 1559644698.9322
+msgid "Korean"
+msgstr "Корейский"
+
+# GMT 1559644698.8631
+msgctxt "backoffice_application"
+msgid "Language"
+msgstr "Язык"
+
+# GMT 1559644698.598
+msgid "Last cron error"
+msgstr "Последняя ошибка хрона"
+
+# GMT 1559644699.0166
+msgid "Last error"
+msgstr "Последняя ошибка"
+
+# GMT 1559644697.2421
+msgid "Left"
+msgstr "Слева"
+
+# GMT 1559644698.3414
+msgctxt "cabride"
+msgid "License plate"
+msgstr "Номерного знака"
+
+# GMT 1559644698.1887
+msgctxt "backoffice_application"
+msgid "Licensing"
+msgstr "Лицензирование"
+
+# GMT 1559644698.2945
+msgid "Links"
+msgstr "Ссылки"
+
+# GMT 1559644698.7962
+msgid "List of your applications"
+msgstr "Список ваших приложений"
+
+# GMT 1559644697.6173
+msgid "Loading your white label editor."
+msgstr "Загрузка редактора белой этикеткой."
+
+# GMT 1559644697.3573
+msgid "Loading..."
+msgstr "Загрузка..."
+
+# GMT 1559644698.1324
+msgid "Local APK build"
+msgstr "АПК генерировать"
+
+# GMT 1559644697.8824
+msgid "Lock the entire application"
+msgstr "Блокировка всего приложения"
+
+# GMT 1559644698.7062
+msgid "Log (var/log, log files)"
+msgstr "Журнал (var/log, log files)"
+
+# GMT 1559644697.1522
+msgid "Log in"
+msgstr "Войти"
+
+# GMT 1559644697.7681
+#, mobile
+msgid "Log-in"
+msgstr "Войти в"
+
+# GMT 1559644697.4426
+#, mobile
+msgid "Log-out"
+msgstr "Выход"
+
+# GMT 1559644697.275
+msgid "Login to your admin interface"
+msgstr "Вход в панель управления"
+
+# GMT 1559644697.4862
+#, mobile
+msgid "Logo"
+msgstr "Логотип"
+
+# GMT 1559644697.0966
+msgid "M-Commerce"
+msgstr "Коммерция"
+
+# GMT 1559644697.7512
+msgid "Mail logs"
+msgstr "Почта логи"
+
+# GMT 1559644697.9339
+msgid "Main category"
+msgstr "Основная категория"
+
+# GMT 1559644698.9366
+msgid "Malay"
+msgstr "Малай"
+
+# GMT 1559644697.6341
+msgid "Manage"
+msgstr "Управление"
+
+# GMT 1559644697.434
+msgid "Manage tour"
+msgstr "Управление тур"
+
+# GMT 1559644698.0457
+msgid "Media"
+msgstr "Медиа"
+
+# GMT 1559644698.1669
+#, mobile
+msgid "Message"
+msgstr "Сообщение"
+
+# GMT 1559644697.6298
+msgid "Messages"
+msgstr "Сообщения"
+
+# GMT 1559644698.0414
+msgid "Missing Information"
+msgstr "Недостающая информация"
+
+# GMT 1559644698.0587
+msgid "Mobile Source Codes"
+msgstr "Исходные коды"
+
+# GMT 1559644698.2643
+msgctxt "cabride"
+msgid "Mobile number"
+msgstr "Номер мобильного телефона"
+
+# GMT 1559644697.6644
+msgid "Modal"
+msgstr "Модал"
+
+# GMT 1559644697.6948
+msgid "Modules"
+msgstr "Модули"
+
+# GMT 1559644698.2861
+msgid "My Account"
+msgstr "Мой аккаунт"
+
+# GMT 1559644697.3033
+msgid "My Applications"
+msgstr "Мои Приложения"
+
+# GMT 1559644697.417
+#, mobile
+msgid "My account"
+msgstr "Мой аккаунт"
+
+# GMT 1559644697.8404
+#, mobile
+msgid "Name"
+msgstr "Название"
+
+# GMT 1559644698.543
+msgid "New messages"
+msgstr "Новые сообщения"
+
+# GMT 1559644697.2876
+#, mobile
+msgid "Next"
+msgstr "Далее"
+
+# GMT 1559644698.1496
+msgid "No build."
+msgstr "Не сгенерирован."
+
+# GMT 1559644697.3697
+msgid "No data for this metrics for now."
+msgstr "Нет данных"
+
+# GMT 1559644697.2623
+msgid "No linkable element found on this page."
+msgstr "Ни один элемент не связываемых найти на этой странице."
+
+# GMT 1559644698.3581
+msgctxt "cabride"
+msgid "No results for your search."
+msgstr "Нет результатов для вашего поиска."
+
+# GMT 1559644698.3793
+# GMT 1559644698.8457
+msgctxt "cabride"
+msgid "No, go back!"
+msgstr "Нет, вернитесь!"
+
+# GMT 1559644698.9622
+msgid "Norwegian"
+msgstr "Норвежский"
+
+# GMT 1559644698.6439
+msgid "Not found"
+msgstr "Не найдено"
+
+# GMT 1559644698.6135
+msgid "Not running"
+msgstr "Не работает"
+
+# GMT 1559644698.088
+msgid "Not yet generated."
+msgstr "Пока не сгенерировано."
+
+# GMT 1559644698.1158
+msgid "Note that if you want to add ads later, you will have to publish the app again."
+msgstr "Обратите внимание, что если вы хотите добавить объявление позже, вам придется опубликовать приложение."
+
+# GMT 1559644698.7656
+msgid "Note: we recommand to install under the web user to maintain file & folders permissions, but if this is not possible at all you can install it under the root user."
+msgstr "Примечание: мы рекомендуем установить под веб-пользователей, чтобы сохранить разрешения для файлов и папок, но если это не возможно, вы можете установить его под пользователя root."
+
+# GMT 1559644697.7855
+msgid "Nwicode - Backoffice"
+msgstr "Nwicode - Офис"
+
+# GMT 1559644698.77
+msgid "Offline"
+msgstr "Offline"
+
+# GMT 1559644698.6645
+msgid "OptiPNG:"
+msgstr "OptiPNG:"
+
+# GMT 1559644698.6607
+msgid "Optional binaries"
+msgstr "Опционные бинары"
+
+# GMT 1559644698.9875
+#, mobile
+msgctxt "backoffice_application"
+msgid "Options"
+msgstr "Варианты"
+
+# GMT 1559644698.7569
+msgid "Otherwise install it manually, from your panel, or directly from your ssh access."
+msgstr "В противном случае установите его вручную, с панели, или непосредственно с SSH доступ."
+
+# GMT 1559644698.7279
+msgid "Overview - WebApp (var/apps/browser, overview & webapp cache)"
+msgstr "Обзор - веб-приложение (var/apps/browser, overview & webapp cache)"
+
+# GMT 1559644698.652
+msgid "PHP SQLite3:"
+msgstr "PHP и sqlite3:"
+
+# GMT 1559644698.6265
+msgid "PHP version %s:"
+msgstr "PHP версия %s:"
+
+# GMT 1559644698.6731
+msgid "PNGQuant:"
+msgstr "PNGQuant:"
+
+# GMT 1559644697.8486
+msgid "Package Name"
+msgstr "Имя пакета"
+
+# GMT 1559644697.1652
+# GMT 1559644698.2271
+#, mobile
+msgid "Password"
+msgstr "Пароль"
+
+# GMT 1559644698.4436
+msgctxt "cabride"
+msgid "Payments"
+msgstr "Платежи"
+
+# GMT 1559644698.0241
+#, mobile
+msgid "Phone"
+msgstr "Телефон"
+
+# GMT 1559644698.3458
+msgctxt "cabride"
+msgid "Photo"
+msgstr "Фото"
+
+# GMT 1559644698.273
+msgctxt "cabride"
+msgid "Pickup radius"
+msgstr "Радиус самовывоз"
+
+# GMT 1559644697.7207
+msgid "Plans"
+msgstr "Планы"
+
+# GMT 1559644697.2953
+msgid "Please create the API keys to enable this feature."
+msgstr "Пожалуйста, создайте ключи API, чтобы включить эту функцию."
+
+# GMT 1559644698.4819
+msgid "Please enter a valid URL."
+msgstr "Пожалуйста, введите действительный URL-адрес."
+
+# GMT 1559644698.5037
+msgid "Please enter a valid credit card number."
+msgstr "Пожалуйста, введите действительный номер кредитной карты."
+
+# GMT 1559644698.4906
+msgid "Please enter a valid date (ISO)."
+msgstr "Введите действительную дату (ИСО)."
+
+# GMT 1559644698.4863
+msgid "Please enter a valid date."
+msgstr "Введите действительную дату."
+
+# GMT 1559644698.4775
+msgid "Please enter a valid email address."
+msgstr "Пожалуйста, введите действительный адрес электронной почты."
+
+# GMT 1559644698.495
+msgid "Please enter a valid number."
+msgstr "Пожалуйста, введите действительный номер."
+
+# GMT 1559644698.5211
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr "Пожалуйста, введите значение от {0} и {1} символов."
+
+# GMT 1559644698.5255
+msgid "Please enter a value between {0} and {1}."
+msgstr "Пожалуйста, введите значение от {0} и {1}."
+
+# GMT 1559644698.5342
+msgid "Please enter a value greater than or equal to {0}."
+msgstr "Пожалуйста, введите значение, большее или равное {0}."
+
+# GMT 1559644698.5298
+msgid "Please enter a value less than or equal to {0}."
+msgstr "Пожалуйста, введите значение, меньшее или равное {0}."
+
+# GMT 1559644698.5168
+msgid "Please enter at least {0} characters."
+msgstr "Пожалуйста, введите не менее {0} символов."
+
+# GMT 1559644698.5124
+msgid "Please enter no more than {0} characters."
+msgstr "Пожалуйста, введите не больше {0} символов."
+
+# GMT 1559644698.4993
+msgid "Please enter only digits."
+msgstr "Пожалуйста, вводите только цифры."
+
+# GMT 1559644698.5081
+msgid "Please enter the same value again."
+msgstr "Пожалуйста, введите такое же значение."
+
+# GMT 1559644698.4732
+msgid "Please fix this field."
+msgstr "Пожалуйста, исправить это поле."
+
+# GMT 1559644698.9492
+msgid "Portuguese"
+msgstr "Португальский"
+
+# GMT 1559644697.6601
+msgid "Previewer"
+msgstr "Предпросмотрщик"
+
+# GMT 1559644697.6862
+msgid "Previews"
+msgstr "Превью"
+
+# GMT 1559644697.8651
+msgid "Privacy policy URL"
+msgstr "Политика конфиденциальности URL-адрес"
+
+# GMT 1559644697.4731
+msgid "Production"
+msgstr "Производство"
+
+# GMT 1559644697.4383
+#, mobile
+msgid "Profile"
+msgstr "Профиль"
+
+# GMT 1559644698.4088
+msgid "Promote"
+msgstr "Промо"
+
+# GMT 1559644698.2352
+msgctxt "backoffice_application"
+msgid "Protected App store connect e-mail"
+msgstr "Защищенный магазин приложений подключите по электронной почте"
+
+# GMT 1559644698.4044
+msgid "Publication"
+msgstr "Публикации"
+
+# GMT 1559644698.2009
+msgctxt "backoffice_application"
+msgid "Publication settings"
+msgstr "Параметры публикации"
+
+# GMT 1559644698.037
+msgid "Publish under our account"
+msgstr "Публикации в аккаунте"
+
+# GMT 1559644697.7034
+msgid "Push"
+msgstr "Пуш"
+
+# GMT 1559644698.563
+msgid "Push messages:"
+msgstr "Push-сообщения:"
+
+# GMT 1559644697.404
+msgid "Push notifications"
+msgstr "Push-уведомления"
+
+# GMT 1559644698.1
+msgid "Queued"
+msgstr "В очереди"
+
+# GMT 1559644697.4775
+msgid "REDUCE"
+msgstr "Уменьшить"
+
+# GMT 1559644698.5466
+msgid "Read"
+msgstr "Читать"
+
+# GMT 1559644697.1304
+msgid "Realtime Chat"
+msgstr "Чат"
+
+# GMT 1559644698.7404
+msgid "Rebuild"
+msgstr "Восстановить"
+
+# GMT 1559644698.1931
+msgctxt "backoffice_application"
+msgid "Remaining builds"
+msgstr "генерация"
+
+# GMT 1559644698.5936
+msgid "Remove locks"
+msgstr "Снятие блокировок"
+
+# GMT 1559644697.2463
+msgid "Remove this step"
+msgstr "Удалить этот шаг"
+
+# GMT 1559644698.1756
+msgid "Request APK generation"
+msgstr "Запрос на генерацию АПК"
+
+# GMT 1559644699.0424
+msgid "Request a publication"
+msgstr "Запросить публикацию"
+
+# GMT 1559644698.6222
+msgid "Required extensions"
+msgstr "Требуемые расширения"
+
+# GMT 1559644698.4392
+msgctxt "cabride"
+msgid "Rides"
+msgstr "Едет"
+
+# GMT 1559644697.2343
+msgid "Right"
+msgstr "Право"
+
+# GMT 1559644697.6428
+msgid "Roles"
+msgstr "Роли"
+
+# GMT 1559644698.7744
+msgid "Running"
+msgstr "Работает"
+
+# GMT 1559644698.9535
+msgid "Russian"
+msgstr "Русский"
+
+# GMT 1559644697.6774
+msgid "Sales"
+msgstr "Продажи"
+
+# GMT 1559644697.2504
+#, mobile
+msgid "Save"
+msgstr "Сохранить"
+
+# GMT 1559644699.0381
+msgid "Save credentials & settings"
+msgstr "Сохранить учетные данные и настройки"
+
+# GMT 1559644698.8092
+#, mobile
+msgid "Search"
+msgstr "Поиск"
+
+# GMT 1559644698.362
+msgctxt "cabride"
+msgid "Search ..."
+msgstr "Поиск ..."
+
+# GMT 1559644697.9382
+msgid "Secondary category"
+msgstr "Вторичная категория"
+
+# GMT 1559644697.1993
+#, mobile
+msgid "Send"
+msgstr "Отправить"
+
+# GMT 1559644697.1174
+msgid "Send request"
+msgstr "Отправить запрос"
+
+# GMT 1559644697.4984
+msgid "Send your favicon"
+msgstr "Загрузить ваш favicon"
+
+# GMT 1559644697.4905
+msgid "Send your logo"
+msgstr "Загрузить ваш логотип"
+
+# GMT 1559644698.1583
+msgid "Service APK generator"
+msgstr "Генератор АПК сервис"
+
+# GMT 1559644698.18
+# GMT 1559644699.0468
+msgid "Service notes"
+msgstr "Сервис примечания"
+
+# GMT 1559644699.0208
+msgid "Service status / load"
+msgstr "Статус услуги / нагрузки"
+
+# GMT 1559644698.5544
+msgid "Services"
+msgstr "Услуги"
+
+# GMT 1559644697.1088
+# GMT 1559644698.4566
+msgid "Settings"
+msgstr "Параметры"
+
+# GMT 1559644698.8169
+msgid "Show applications removed from the editor."
+msgstr "Показать приложений удалены из редактора."
+
+# GMT 1559644698.6015
+msgid "Show more"
+msgstr "Показать больше"
+
+# GMT 1559644698.8126
+msgid "Show the applications waiting for publication only."
+msgstr "Показать приложения в ожидании только для публикации."
+
+# GMT 1559644697.605
+msgid "Sidebar background"
+msgstr "Боковой фон"
+
+# GMT 1559644697.1565
+msgid "Sign up"
+msgstr "Зарегистрируйтесь"
+
+# GMT 1559644698.9788
+msgid "Simplified Chinese"
+msgstr "Упрощенный Китайский"
+
+# GMT 1559644698.8006
+msgid "Size on disk"
+msgstr "Размер на диске"
+
+# GMT 1559644698.0631
+msgid "Source type:"
+msgstr "Тип исходника:"
+
+# GMT 1559644698.0674
+msgid "Sources"
+msgstr "Исходники"
+
+# GMT 1559644698.941
+msgid "Spanish"
+msgstr "Испанский"
+
+# GMT 1559644698.9449
+msgid "Spanish_MX"
+msgstr "Spanish_MX"
+
+# GMT 1559644697.9556
+msgid "Split Ad revenue (percent for you)"
+msgstr "Компания совместная /объявление (процент для вас)"
+
+# GMT 1559644697.391
+msgid "Start date must be lower than end date."
+msgstr "Дата начала должна быть меньше даты окончания."
+
+# GMT 1559644698.7447
+msgid "Statistics"
+msgstr "Статистика"
+
+# GMT 1559644697.8956
+#, mobile
+msgid "Status"
+msgstr "Статус"
+
+# GMT 1559644697.6014
+msgid "Step menu background"
+msgstr "Шаг фон меню"
+
+# GMT 1559644697.2212
+msgid "Step placement (optional)"
+msgstr "Шаг размещения (необязательно)"
+
+# GMT 1559644697.2168
+msgid "Step text"
+msgstr "Шаг текст"
+
+# GMT 1559644697.2124
+msgid "Step title"
+msgstr "Шаг название"
+
+# GMT 1559644697.9173
+msgid "Store App ID"
+msgstr "Магазин ID приложения"
+
+# GMT 1559644697.9086
+msgid "Store Password"
+msgstr "Магазин пароль"
+
+# GMT 1559644697.9042
+msgid "Store URL"
+msgstr "Адрес магазина"
+
+# GMT 1559644697.9216
+msgid "Stores Info"
+msgstr "Магазины информация"
+
+# GMT 1559644697.4253
+msgid "Subscriptions"
+msgstr "Подписка"
+
+# GMT 1559644697.6254
+msgid "Success"
+msgstr "Успешно"
+
+# GMT 1559644697.447
+msgid "Support"
+msgstr "Поддержка"
+
+# GMT 1559644698.9578
+msgid "Swedish"
+msgstr "Шведский"
+
+# GMT 1559644698.6819
+msgid "System Diagnostic"
+msgstr "Система диагностики"
+
+# GMT 1559644697.7164
+msgid "Taxes"
+msgstr "Налоги"
+
+# GMT 1559644698.243
+msgctxt "backoffice_application"
+msgid "Team name"
+msgstr "Название команды"
+
+# GMT 1559644698.7193
+msgid "Temp (var/tmp, application sources & apk)"
+msgstr "Темп (var/tmp, application sources & apk)"
+
+# GMT 1559644697.6731
+msgid "Templates"
+msgstr "Шаблоны"
+
+# GMT 1559644698.4261
+#, mobile
+msgid "Terms & Conditions"
+msgstr "Условия"
+
+# GMT 1559644697.5113
+msgid "Text Color"
+msgstr "Цвет Текста"
+
+# GMT 1559644697.613
+msgid "Text Color - Active"
+msgstr "Цвет Текста - Активный"
+
+# GMT 1559644697.5804
+msgid "Text Color - Hover"
+msgstr "Цвет Текста При Наведении Курсора"
+
+# GMT 1559644698.9665
+msgid "Thai"
+msgstr "Тайский"
+
+# GMT 1559644698.7613
+msgid "The PHP executable guessed path <b>'%s'</b> may be incorrect, please double check for it."
+msgstr "Исполняемый файл php угадал путь <b>'%s'</b>  может быть неправильным, пожалуйста, проверьте его."
+
+# GMT 1559644697.8781
+msgid "This application is visible on the front"
+msgstr "Это приложение, видно"
+
+# GMT 1559644698.4697
+msgid "This field is required."
+msgstr "Это поле является обязательным."
+
+# GMT 1559644697.5331
+msgid "Titles"
+msgstr "Названия"
+
+# GMT 1559644697.7381
+msgid "Tools"
+msgstr "Инструменты"
+
+# GMT 1559644697.2299
+msgid "Top"
+msgstr "Топ"
+
+# GMT 1559644697.361
+msgid "Top installs"
+msgstr "Топ установок"
+
+# GMT 1559644697.3653
+msgid "Top visits"
+msgstr "Топ визитов"
+
+# GMT 1559644697.353
+msgid "Total installs"
+msgstr "Всего установок"
+
+# GMT 1559644698.7019
+msgid "Total usage:"
+msgstr "Общее использование:"
+
+# GMT 1559644697.3486
+msgid "Total visits"
+msgstr "Общее число посещений"
+
+# GMT 1559644697.6905
+msgid "Tour"
+msgstr "Тур"
+
+# GMT 1559644697.2546
+msgid "Tour Edition"
+msgstr "Тур Издание"
+
+# GMT 1559644698.9832
+msgid "Traditional Chinese"
+msgstr "Традиционный Китайский"
+
+# GMT 1559644697.7638
+msgid "Translations"
+msgstr "Перевод"
+
+# GMT 1559644698.9709
+msgid "Turkish"
+msgstr "Турецкий"
+
+# GMT 1559644697.8608
+msgid "URL"
+msgstr "URL-адрес"
+
+# GMT 1559644697.8564
+msgid "URL Key"
+msgstr "Ключ url"
+
+# GMT 1559644697.9469
+msgid "Use Owner AdMob"
+msgstr "Использование  Admob"
+
+# GMT 1559644698.0153
+msgid "User Information"
+msgstr "Информация пользователя"
+
+# GMT 1559644697.1435
+msgid "User Styler"
+msgstr "Пользователь Стайлер"
+
+# GMT 1559644698.0327
+msgid "Username"
+msgstr "Имя пользователя"
+
+# GMT 1559644697.4209
+# GMT 1559644698.4479
+msgid "Users"
+msgstr "Пользователи"
+
+# GMT 1559644698.337
+msgctxt "cabride"
+msgid "Vehicle model"
+msgstr "Модель автомобиля"
+
+# GMT 1559644698.3327
+msgctxt "cabride"
+msgid "Vehicle type"
+msgstr "Тип транспортного средства"
+
+# GMT 1559644698.4523
+msgctxt "cabride"
+msgid "Vehicle types"
+msgstr "Типы транспортных средств"
+
+# GMT 1559644697.8999
+msgid "Version"
+msgstr "Версия"
+
+# GMT 1559644698.9745
+msgid "Vietnamese"
+msgstr "Вьетнамский"
+
+# GMT 1559644697.3828
+msgid "Visits"
+msgstr "Визитов"
+
+# GMT 1559644698.6903
+msgid "Web space"
+msgstr "Веб-пространство"
+
+# GMT 1559644697.7555
+msgid "Whitelabels"
+msgstr "Whitelabels"
+
+# GMT 1559644698.9918
+msgctxt "backoffice_application"
+msgid "With ads functionality"
+msgstr "С функциональностью объявления"
+
+# GMT 1559644698.9996
+msgctxt "backoffice_application"
+msgid "With background audio playing"
+msgstr "С фоновым звуком"
+
+# GMT 1559644698.0753
+msgid "Xcode 9.2"
+msgstr "В Xcode 10.1"
+
+# GMT 1559644698.3749
+msgctxt "cabride"
+msgid "Yes, Delete"
+msgstr "Да, Удалить"
+
+# GMT 1559644698.8414
+msgid "Yes, Delete!"
+msgstr "Да, удалить!"
+
+# GMT 1559644698.5892
+msgid ""
+"You are about to clean all the cron lock files !\n"
+"Are you sure ?"
+msgstr "Вы собираетесь очистить все хрон блокировки файлов !Вы уверены ?"
+
+# GMT 1559644698.7105
+msgid ""
+"You are about to clean all your log files !\n"
+"Are you sure ?"
+msgstr ""
+"Вы собираетесь очистить все ваши журналы !\n"
+"Вы уверены ?"
+
+# GMT 1559644698.7236
+msgid ""
+"You are about to wipe all your temporary files, this includes the generated sources & apk builds !\n"
+"Are you sure ?"
+msgstr "Вы собираетесь удалить все временные файлы, это включает в себя сгенерированный исходник и АП ! Вы уверены ?"
+
+# GMT 1559644698.1966
+msgctxt "backoffice_application"
+msgid "You can change your license in <b>%s > %s</b>"
+msgstr "Вы можете изменить вашу подписку в <b>%s > %s</b>"
+
+# GMT 1559644697.8021
+msgid "You can upload a pem certificate only."
+msgstr "Вы можете загрузить только сертификат PEM."
+
+# GMT 1559644697.8152
+msgid "You can upload a png only (.png)."
+msgstr "Вы можете загружать только в формате (.ico and .png)."
+
+# GMT 1559644697.7978
+msgid "You can upload a zip archive only."
+msgstr "Вы можете загружать лишь zip-архив."
+
+# GMT 1559644697.8108
+msgid "You can upload an icon only (.ico and .png)."
+msgstr "Вы можете загрузить только значок (.ico and .png)."
+
+# GMT 1559644697.8064
+msgid "You can upload an image only (.jpg, .jpeg, .gif and .png)."
+msgstr "Вы можете загрузить только изображение (.формат JPG, .формате JPEG .GIF и .ПНГ)."
+
+# GMT 1559644697.8195
+msgid "You can't upload more than one file at a time."
+msgstr "Вы не можете загружать более одного файла за раз."
+
+# GMT 1559644698.4654
+msgid "You cannot have multiple sessions to manage apps, so the session for this app is closed. This page is about to be reloaded."
+msgstr "Вы не можете иметь несколько сессий, чтобы управлять приложениями, поэтому сессии для этого приложение закрывается. Эта страница будет перезагружена."
+
+# GMT 1559644698.837
+msgid "You don't have any applications yet"
+msgstr "У вас нет приложений еще"
+
+# GMT 1559644698.55
+msgid "You have no new messages."
+msgstr "У вас нет новых сообщений."
+
+# GMT 1559644697.3953
+msgid "You have to chose a start and an end date."
+msgstr "Вы должны выбрать начальную и конечную дату."
+
+# GMT 1559644697.1862
+msgid "You must agree our Terms of Service"
+msgstr "Вы должны согласиться с нашими условиями обслуживания"
+
+# GMT 1559644698.6396
+msgid "You must upgrade Java to 1.8"
+msgstr "Вы должны обновить Java до 1,8"
+
+# GMT 1559644697.8282
+msgid "Your APK is being generated. Please come back in a few minutes."
+msgstr "APK не создается. Пожалуйста, повторите через несколько минут."
+
+# GMT 1559644699.0295
+msgid "Your build should be ready"
+msgstr "Сборка должна быть готова"
+
+# GMT 1559644697.6211
+msgid "Your customization has been applied to your white label panel."
+msgstr "Настройки в панели белые метки."
+
+# GMT 1559644698.5805
+msgid "[APK]"
+msgstr "[АПК]"
+
+# GMT 1559644698.5848
+msgid "[Global]"
+msgstr "[Глобально]"
+
+# GMT 1559644697.3313
+msgid "[Nwicode_Media] optimizing media %s"
+msgstr "[Nwicode_Media] оптимизация медиа - %s"
+
+# GMT 1559644698.5761
+msgid "[Sources]"
+msgstr "[Источники]"
+
+# GMT 1559644698.214
+msgctxt "backoffice_application"
+msgid "a 2FA/2SV protected account, I will enter the granted account below"
+msgstr "в 2-факторную авторизацию/2СV защищенный аккаунт, я войду в предоставленных ниже"
+
+# GMT 1559644698.2183
+msgctxt "backoffice_application"
+msgid "a 2FA/2SV protected account, which is granted to %s"
+msgstr "в 2-факторную авторизацию/2СV защищенной учетной записи, которое предоставляется на %S"
+
+# GMT 1559644698.2097
+msgctxt "backoffice_application"
+msgid "an account without 2FA/2SV"
+msgstr "счет без проверки 2FA/2СV"
+
+# GMT 1559644697.4688
+msgid "be careful or set it back to"
+msgstr "будьте осторожны или установить его обратно в"
+
+# GMT 1559644697.7812
+msgid "development"
+msgstr "Развитие"
+
+# GMT 1559644698.0066
+msgid "e.g: On %s"
+msgstr "е.г: на %s"
+
+# GMT 1559644698.0795
+msgid "iOS 9+"
+msgstr "с iOS 9+"
+
+# GMT 1559644698.0711
+msgid "iPhone"
+msgstr "для iPhone"
+
+# GMT 1559644698.1075
+msgid "iPhone (No Ads)"
+msgstr "iPhone (без рекламы)"
+
+# GMT 1559644699.0123
+msgctxt "backoffice_application"
+msgid "idle"
+msgstr "ожидания"
+
+# GMT 1559644698.8049
+msgid "is updated once a day"
+msgstr "обновляется раз в день"
+
+# GMT 1559644697.2791
+msgid "text/html; charset=utf-8"
+msgstr "текст/HTML; кодировка=кодировка UTF-8"
+
+# GMT 1559644697.3399
+msgid "to"
+msgstr "для"
+
+# GMT 1559644698.698
+msgid "values are refreshed once a day only!"
+msgstr "значения обновляются один раз в день!"
+
+# GMT 1559644697.2833
+msgid "width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"
+msgstr "ширина=устройство-ширина, высота=устройство-высота, начально-масштаб=1.0, максимальная-масштаб=1.0, минимальные-масштаб=1.0, пользователь-масштабируемое=0"
+
+# GMT 1559644698.2774
+msgid "Привет"
+msgstr "Привет"

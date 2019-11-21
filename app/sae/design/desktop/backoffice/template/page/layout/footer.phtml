@@ -1,0 +1,25 @@
+<div class="wrapper footer_content">
+    <div class="content copyright a-right wl_panel">
+        <p><?php echo Nwicode_Version::NAME ?> - <?php echo Nwicode_Version::VERSION ?></p>
+        <!--<p>
+
+            <?php echo $this->_("%s - v%s", Nwicode_Version::TYPE, Nwicode_Version::VERSION); ?>
+            <?php if(APPLICATION_ENV != "production"): ?>
+                - <?php echo ucfirst($this->_(APPLICATION_ENV)); ?>
+            <?php endif; ?>
+        </p>-->
+
+    </div>
+</div>
+<link rel="stylesheet" type="text/css" media="screen" href="/app/sae/design/desktop/backoffice/css/all-examples.css">
+<div class="stack">
+		<img src="/images/stacks/stack.png" alt="stack" style="padding-top: 35px;">
+		<ul id="stack" class="" style="top: -50px; left: 10px;">
+			<li style="top: 55px; left: -10px;"><a target="_blank" href="https://www.facebook.com/groups/246984605924103"><span style="margin-right: 0px;border-radius: 7px !important;">In facebook</span><img src="/images/stacks/facebook.png" style="width: 79px; display: inline; margin-left: 0px;"></a></li>
+			<li style="top: 55px; left: -10px;"><a target="_blank" href="https://nwicode.com/support/"><span style="margin-right: 0px;border-radius: 7px !important;">Support</span><img src="/images/stacks/support.png" style="width: 79px; display: inline; margin-left: 0px;"></a></li>
+			<li style="top: 55px; left: -10px;"><a target="_blank" href="https://nwihost.com"><span style="margin-right: 0px;border-radius: 7px !important;">Hosting</span><img src="/images/stacks/hosting.png" style="width: 79px; display: inline; margin-left: 0px;"></a></li>
+			<li style="top: 55px; left: -10px;"><a target="_blank" href="https://nwicode.com/catalog/"><span style="margin-right: 0px;border-radius: 7px !important;">Marketplace</span><img src="/images/stacks/marketplace.png" style="width: 79px; display: inline; margin-left: 0px;"></a></li>
+			<li style="top: 55px; left: -10px;"><a target="_blank" href="https://nwicode.com"><span style="margin-right: 0px;border-radius: 7px !important;">Nwicode</span><img src="/images/stacks/nwicode.png" style="width: 79px; display: inline; margin-left: 0px;"></a></li>			
+		</ul>
+	</div>
+<?php echo Nwicode_Debug::render(); ?>

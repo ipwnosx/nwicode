@@ -1,0 +1,20 @@
+<?php
+    $application = $this->getApplication();
+
+?>
+<div id="feature_exporter_modal" class="previewer container-fluid">
+    <div class="row">
+        <div class="col-md-12 first-row-feature">
+            <h4 style="text-align:center;"><?php echo __("To unlock the function, you must change the tariff.") ?></h4>
+            <br /><br />
+        </div>
+        <div class="col-md-12">
+            <div id="sb-tour-ready-publish"
+                 class="container-fluid subcontent sb-tour text-center">
+                <a class="btn color-red"
+                   href="<?php echo $this->getUrl('application/customization/check'); ?>"
+                   onclick="reload(this, this.href, true); return false;"><?php echo __('Ready ? Publish my app!'); ?></a>
+            </div>
+        </div>
+    </div>
+</div>

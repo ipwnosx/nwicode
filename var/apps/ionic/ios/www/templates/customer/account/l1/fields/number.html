@@ -1,0 +1,8 @@
+	<label class="item item-input item-floating-label">
+		<span class="input-label"> {{ field.label | translate }}</span>
+		<input type="number" placeholder=' {{ field.label | translate }}' min="{{ field.min }}"
+           max="{{ field.max }}"
+           step="{{ field.step }}"
+           value="{{ field.value }}"
+           ng-model="field.value">
+	</label>

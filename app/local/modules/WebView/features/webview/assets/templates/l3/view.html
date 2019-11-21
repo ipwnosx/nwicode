@@ -1,0 +1,47 @@
+<ion-view class="webview-view"
+          hide-back-button="true"
+          sb-page-background>
+    <ion-nav-title>{{ page_title }}</ion-nav-title>
+
+    <ion-nav-buttons side="left">
+        <button class="button back-button buttons button-clear header-item"
+                ng-click="goToHomePage();">
+            <i class="icon ion-ios-arrow-back"></i>
+        </button>
+    </ion-nav-buttons>
+
+    <ion-nav-buttons side="right">
+        <button class="button back-button buttons button-clear header-item"
+                ng-click="goToFrameMainPage();">
+            <i class="icon ion-home"></i>
+        </button>
+    </ion-nav-buttons>
+
+    <ion-content scroll="false"
+                 overflow-scroll="true">
+        <div class="loader"
+             ng-show="is_loading">
+            <ion-spinner class="spinner-custom"></ion-spinner>
+        </div>
+        <div ng-style="ios_styles">
+            <iframe id="web_view"
+                    src="{{ webview.url }}"
+                    ng-if="webview.url"
+                    width="100%"
+                    height="100%" onload="iframeLoaded()"></iframe>
+        </div>
+        <style> 
+         .backdrop { background-color: rgba(255,255,255,0) !important; } 
+         .loader {
+                margin-bottom: 0px !important;
+                height: 0 !important;
+                position: relative !important;
+                top: 0px !important;
+                display: none !important;
+            }
+           .loading-container .loading {
+               display: none !important;
+           }
+        </style>
+    </ion-content>
+</ion-view>

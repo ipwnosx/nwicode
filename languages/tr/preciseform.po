@@ -1,0 +1,294 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-01-21T07:24:14+03:00\n"
+"PO-Revision-Date: 2019-01-21T07:24:14+03:00\n"
+"Language: \n"
+
+msgid "mbprecise_AM / PM format"
+msgstr "mbprecise_saat formatı"
+
+msgid "mbprecise_Add a field"
+msgstr "mbprecise_Alan ekle"
+
+msgid "mbprecise_Are you sure you want to remove this field ?"
+msgstr "mbprecise_Bu alanı silmek istediğinize emin misiniz?"
+
+msgid "mbprecise_Button to pick today"
+msgstr "mbprecise_Bugünü seçmek için buton"
+
+msgid "mbprecise_Close time button text"
+msgstr "mbprecise_Kapatma saati butonu metni"
+
+msgid "mbprecise_Color List"
+msgstr "mbprecise_Renk listesi"
+
+msgid "mbprecise_Config"
+msgstr "mbprecise_Yapılandırma"
+
+msgid "mbprecise_Config & model saved successfully"
+msgstr "mbprecise_yapılandırma ve model başarıyla kaydedildi"
+
+msgid "mbprecise_Config error while trying to save"
+msgstr "mbprecise_Kaydedilirken konfigürasyon hatası oluştu"
+
+msgid "mbprecise_Confirmation - request sent to %s"
+msgstr "mbprecise_Confirmation - istek %s gönderildi"
+
+msgid "mbprecise_Content Html"
+msgstr "mbprecise_İçerik Html"
+
+msgid "mbprecise_Content to display after form submission"
+msgstr "mbprecise_Form gönderiminden sonra görüntülenecek içerik"
+
+msgid "mbprecise_Data"
+msgstr "mbprecise_Veri"
+
+msgid "mbprecise_Data received from users"
+msgstr "mbprecise_Kullanıcılardan alınan veri"
+
+msgid "mbprecise_Data recieved time"
+msgstr "mbprecise_veri alınma tarihi"
+
+msgid "mbprecise_Date"
+msgstr "mbprecise_Tarih"
+
+msgid "mbprecise_Date Format"
+msgstr "mbprecise_tarih formatı"
+
+msgid "mbprecise_Days list"
+msgstr "mbprecise_liste"
+
+msgid "mbprecise_Default value"
+msgstr "mbprecise_default değer"
+
+msgid "mbprecise_Default value On/Off"
+msgstr "mbprecise_default değer açık/kapalı"
+
+msgid "mbprecise_Description"
+msgstr "mbprecise_Açıklama"
+
+msgid "mbprecise_Divider"
+msgstr "mbprecise_Bölücü"
+
+msgid "mbprecise_Email"
+msgstr "mbprecise_e-posta"
+
+msgid "mbprecise_Email, text, number, date... Start by adding a field to your form model to define what user will be able to send you throught it."
+msgstr "mbprecise_E-posta, metin, sayı, tarih... Hangi kullanıcının size ne zaman gönderebileceğini tanımlamak için form modelinize bir alan ekleyerek başlayın."
+
+msgid "mbprecise_Feature id to open after form submission"
+msgstr "mbprecise_Form gönderiminden sonra açılacak özellik kimliği"
+
+msgid "mbprecise_Footer"
+msgstr "mbprecise_Alt bilgi"
+
+msgid "mbprecise_Form Configuration"
+msgstr "mbprecise_Form Yapılandırma"
+
+msgid "mbprecise_Form submitted from %s"
+msgstr "mbprecise_Form %s teslim"
+
+msgid "mbprecise_Header"
+msgstr "mbprecise_Üst Bilgi"
+
+msgid "mbprecise_Here is where you can configure what kind of data your form will receive."
+msgstr "mbprecise_Formunuzun alacağı veri türlerini burada yapılandırabilirsiniz."
+
+msgid "mbprecise_Hour format"
+msgstr "mbprecise_Saat formatı"
+
+msgid "mbprecise_Html separator"
+msgstr "mbprecise_Html ayırıcı"
+
+msgid "mbprecise_Id"
+msgstr "mbprecise_Kimlik"
+
+msgid "mbprecise_Image"
+msgstr "mbprecise_Görsel"
+
+msgid "mbprecise_Incomplete form message"
+msgstr "mbprecise_Tamamlanmamış form mesajı"
+
+msgid "mbprecise_Incomplete form title"
+msgstr "mbprecise_Tamamlanmamış form başlığı"
+
+msgid "mbprecise_Invalid email message"
+msgstr "mbprecise_Geçersiz e-posta mesajı"
+
+msgid "mbprecise_Long Text"
+msgstr "mbprecise_Uzun metin"
+
+msgid "mbprecise_Mail Confirmation message"
+msgstr "mbprecise_Mail Onay mesajı"
+
+msgid "mbprecise_Max"
+msgstr "mbprecise_Max"
+
+msgid "mbprecise_Min"
+msgstr "mbprecise_Min"
+
+msgid "mbprecise_Model"
+msgstr "mbprecise_Model"
+
+msgid "mbprecise_Model Configuration"
+msgstr "mbprecise_Model yapılandırma"
+
+msgid "mbprecise_Monday as first day"
+msgstr "mbprecise_İlk gün olarak pazartesi"
+
+msgid "mbprecise_Months list"
+msgstr "mbprecise_Ay listesi"
+
+msgid "mbprecise_Multi List"
+msgstr "mbprecise_Çoklu liste"
+
+msgid "mbprecise_New field"
+msgstr "mbprecise_Yeni alan"
+
+msgid "mbprecise_No field in this form model yet"
+msgstr "mbprecise_Bu form modelinde henüz alan yok"
+
+msgid "mbprecise_Number of decimal"
+msgstr "mbprecise_ondalık rakam"
+
+msgid "mbprecise_PlaceHolder"
+msgstr "mbprecise_YerTutucu"
+
+msgid "mbprecise_Please enter new item id"
+msgstr "mbprecise_Lütfen yeni bir öğe kimliği girin"
+
+msgid "mbprecise_Range"
+msgstr "mbprecise_Sıralama"
+
+msgid "mbprecise_Receiver mail address"
+msgstr "mbprecise_alıcı mail adresi"
+
+msgid "mbprecise_Request number"
+msgstr "mbprecise_Request numarası"
+
+msgid "mbprecise_Required"
+msgstr "mbprecise_Gerekli"
+
+msgid "mbprecise_Required field message"
+msgstr "mbprecise_Gerekli alan mesajı"
+
+msgid "mbprecise_Select list"
+msgstr "mbprecise_Liste seç"
+
+msgid "mbprecise_Send confirmation email to user"
+msgstr "mbprecise_Send onay e-posta için Kullanıcı"
+
+msgid "mbprecise_Set time button text"
+msgstr "mbprecise_Zaman butonu metni"
+
+msgid "mbprecise_Step"
+msgstr "mbprecise_adım"
+
+msgid "mbprecise_Submit button text"
+msgstr "mbprecise_Gönder butonu metni"
+
+msgid "mbprecise_Text"
+msgstr "mbprecise_metin"
+
+msgid "mbprecise_Time"
+msgstr "mbprecise_zamanı"
+
+msgid "mbprecise_Today button text"
+msgstr "mbprecise_Bugün butonu metni"
+
+msgid "mbprecise_Toggle"
+msgstr "mbprecise_açma-kapama butonu"
+
+msgid "mbprecise_Type"
+msgstr "mbprecise_Türü"
+
+msgid "mbprecise_Value list"
+msgstr "mbprecise_değer listesi"
+
+msgid "mbprecise_add"
+msgstr "mbprecise_ekle"
+
+msgid "mbprecise_add new entrie"
+msgstr "mbprecise_Yeni girdi ekle"
+
+msgid "mbprecise_apply"
+msgstr "mbprecise_uygula"
+
+msgid "mbprecise_cancel"
+msgstr "mbprecise_iptal et"
+
+msgid "mbprecise_color"
+msgstr "mbprecise_Renk"
+
+msgid "mbprecise_date"
+msgstr "mbprecise_tarih"
+
+msgid "mbprecise_divider"
+msgstr "mbprecise_bölücü"
+
+msgid "mbprecise_edit"
+msgstr "mbprecise_düzenle"
+
+msgid "mbprecise_email"
+msgstr "mbprecise_e-posta"
+
+msgid "mbprecise_export csv"
+msgstr "mbprecise_csv dışa aktar"
+
+msgid "mbprecise_export json"
+msgstr "mbprecise_json dışa aktar"
+
+msgid "mbprecise_features to open after submission"
+msgstr "mbprecise_teslim edildikten sonra açılacak özellikler"
+
+msgid "mbprecise_field id"
+msgstr "mbprecise_alan kimliği"
+
+msgid "mbprecise_image"
+msgstr "mbprecise_görsel"
+
+msgid "mbprecise_longtext"
+msgstr "mbprecise_uzunmetin"
+
+msgid "mbprecise_max_length"
+msgstr "mbprecise_Maksimum uzunluk"
+
+msgid "mbprecise_multilist"
+msgstr "mbprecise_çokluliste"
+
+msgid "mbprecise_number"
+msgstr "mbprecise_rakam"
+
+msgid "mbprecise_range"
+msgstr "mbprecise_sıralama"
+
+msgid "mbprecise_remove"
+msgstr "mbprecise_Kaldır"
+
+msgid "mbprecise_selectlist"
+msgstr "mbprecise_listeseç"
+
+msgid "mbprecise_separatorhtml"
+msgstr "mbprecise_ayırıcıhtml"
+
+msgid "mbprecise_show"
+msgstr "mbprecise_göster"
+
+msgid "mbprecise_text"
+msgstr "mbprecise_metin"
+
+msgid "mbprecise_this id is al-ready used by some other field"
+msgstr "mbprecise_bu kimlik başka alanlar için kullanılıyor"
+
+msgid "mbprecise_time"
+msgstr "mbprecise_zaman"
+
+msgid "mbprecise_toggle"
+msgstr "mbprecise_açma-kapama butonu"

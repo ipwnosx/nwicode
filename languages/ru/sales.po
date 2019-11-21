@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-30T08:33:46+03:00\n"
+"PO-Revision-Date: 2019-06-30T08:33:46+03:00\n"
+"Language: \n"
+
+msgid "Action"
+msgstr "Действие"
+
+# GMT 1559644714.5459
+msgid "Activate VAT number check with VIES"
+msgstr "Активируйте проверку номера НДС с помощью VIES"
+
+# GMT 1559644714.5503
+msgid "Add a custom text to the footer of your invoices"
+msgstr "Добавьте пользовательский текст в нижний колонтитул ваших счетов"
+
+msgid "App Name"
+msgstr "Имя приложения"
+
+msgid "Client"
+msgstr "Клиент"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Invoice"
+msgstr "Счет"
+
+msgid "Invoice %s"
+msgstr "Счет %s"
+
+msgid "Invoice N°"
+msgstr "N° счета"
+
+# GMT 1559644714.5546
+msgid "Invoice options"
+msgstr "Варианты счета"
+
+msgid "List of your invoices"
+msgstr "Список ваших счетов"
+
+msgid "My Invoices"
+msgstr "Мои счета"
+
+# GMT 1559644714.559
+msgid "Offline plans"
+msgstr "Автономные планы"
+
+msgid "Order"
+msgstr "Заказ"
+
+msgid "Orders"
+msgstr "Заказы"
+
+msgid "Paid At"
+msgstr "Оплачено"
+
+# GMT 1559644714.5633
+msgid "Paid at:"
+msgstr "Оплачен:"
+
+# GMT 1559644714.5676
+#, mobile
+msgid "Payment Method"
+msgstr "Способ оплаты"
+
+# GMT 1559644714.572
+msgid "Price Excl. Tax"
+msgstr "Цена без учета налога"
+
+msgid "Qty"
+msgstr "Кол-во"
+
+# GMT 1559644714.5763
+msgid "Sales configuration"
+msgstr "Конфигурация продаж"
+
+msgid "This feature is not ready yet. Please try again later."
+msgstr "Эта функция еще не готова. Пожалуйста, попробуйте позже."
+
+# GMT 1559644714.5807
+msgid "This message will be displayed as a waiting message when your users chose an offline payment method"
+msgstr "Это сообщение будет отображаться как ожидающее сообщение, когда ваши пользователи выбрали способ оплаты банковским переводом."
+
+# GMT 1559644714.585
+msgid "This message will be displayed as an information message to describe which offline payment method you offer"
+msgstr "Это сообщение будет отображаться в виде информационного сообщения, чтобы указать, какой способ оплаты в автономном режиме вы предлагаете"
+
+# GMT 1559644714.5894
+#, mobile
+msgid "Total Excl. Tax"
+msgstr "Итого без налога"
+
+# GMT 1559644714.5937
+msgid "VAT check options"
+msgstr "Параметры проверки НДС"
+
+msgid "You don't have any invoices yet"
+msgstr "У вас еще нет счетов"

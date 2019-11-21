@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-01-21T07:38:57+03:00\n"
+"PO-Revision-Date: 2019-01-21T07:38:57+03:00\n"
+"Language: \n"
+
+msgid "Backoffice User-Style CSS Editor"
+msgstr "Back Office Kullanıcı Tarzı CSS Editörü"
+
+msgid "Click here for Sample Documentation"
+msgstr "Burada Örnek Belgeler için tıklayın"
+
+msgid "Documentation"
+msgstr "Belgeler"
+
+msgid "Front-end User-Style CSS Editor"
+msgstr "Ön-son Kullanıcı Tarzı CSS Editörü"
+
+msgid "This is your user-style.css Editor CSS File!"
+msgstr "Bu kullanım tarzı.css Düzenleyicisi CSS Dosyası!"
+
+msgid "You can add custom CSS to your platform, note this will affect all the Editor, including your Whitelabels"
+msgstr "Platform için özel CSS ekleyebilirsiniz, bu tüm Düzenleyici etkiler not Whitelabels dahil"

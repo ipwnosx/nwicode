@@ -1,0 +1,121 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-04-18T04:12:09+03:00\n"
+"PO-Revision-Date: 2019-04-18T04:12:09+03:00\n"
+"Language: \n"
+
+msgctxt "booking"
+msgid "Add content"
+msgstr "İçerik Ekle"
+
+#, mobile
+msgctxt "booking"
+msgid "Booking details"
+msgstr "Rezervasyon detayları"
+
+msgctxt "booking"
+msgid "Card"
+msgstr "Kartı"
+
+#, mobile
+msgctxt "booking"
+msgid "Clear"
+msgstr "Temiz"
+
+#, mobile
+msgctxt "booking"
+msgid "Comment"
+msgstr "Yorum"
+
+#, mobile
+msgctxt "booking"
+msgid "Date & time"
+msgstr "Tarih Ve Saat"
+
+msgctxt "booking"
+msgid "Date format"
+msgstr "Tarih Biçimi"
+
+msgctxt "booking"
+msgid "Design"
+msgstr "Tasarım"
+
+msgctxt "booking"
+msgid "E-mail"
+msgstr "E-posta"
+
+#, mobile
+msgctxt "booking"
+msgid "Email"
+msgstr "E-posta"
+
+msgctxt "booking"
+msgid "Enter the location name and contact email"
+msgstr "Konum adı ve iletişim e-posta girin"
+
+#, mobile
+msgctxt "booking"
+msgid "First name / Last name"
+msgstr "İlk Adı / Soyadı"
+
+#, mobile
+msgctxt "booking"
+msgid "Information"
+msgstr "Danışma"
+
+msgctxt "booking"
+msgid "List"
+msgstr "Liste"
+
+#, mobile
+msgctxt "booking"
+msgid "Location"
+msgstr "Konum"
+
+msgctxt "booking"
+msgid "Manage locations"
+msgstr "Yönetmek yerleri"
+
+#, mobile
+msgctxt "booking"
+msgid "Number of people"
+msgstr "Kişi sayısı"
+
+#, mobile
+msgctxt "booking"
+msgid "Phone"
+msgstr "Telefon"
+
+#, mobile
+msgctxt "booking"
+msgid "Please enter a valid email address"
+msgstr "Lütfen geçerli bir e-posta adresini girin"
+
+msgctxt "booking"
+msgid "Save"
+msgstr "Kaydet"
+
+#, mobile
+msgctxt "booking"
+msgid "Send"
+msgstr "Gönder"
+
+msgctxt "booking"
+msgid "Settings"
+msgstr "Ayarları"
+
+msgctxt "booking"
+msgid "Settings saved"
+msgstr "Ayarlar kaydedilir"
+
+#, mobile
+msgctxt "booking"
+msgid "This field is required"
+msgstr "Bu alan gereklidir"

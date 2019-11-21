@@ -1,0 +1,135 @@
+<ion-view sb-page-background can-swipe-back="false"
+          cache-view="false"
+          class="mcommerce-view mcommerce-product">
+    <ion-nav-title>{{ page_title }}</ion-nav-title>
+    <ion-nav-buttons side="secondary">
+        <button ng-click="right_button.action()"
+                class="button button-clear header-item"
+                ng-if="right_button">
+            <span class="back-text">
+                <span class="default-title">{{ right_button.label }}</span>
+            </span>
+            <i class="icon"
+               ng-class="right_button.icon"></i>
+        </button>
+    </ion-nav-buttons>
+
+    <ion-content>
+    <ion-alert-controller class="hydrated"></ion-alert-controller>
+    <ion-picker-controller class="hydrated"></ion-picker-controller>
+        <ion-card class="card">
+            <div class="item item-text-wrap text-center item-custom">
+                <h2>
+                    <strong>
+                        {{ product.name | uppercase }}
+                    </strong>
+                </h2>
+            </div>
+            <div ng-if="product.picture.length"
+                 class="item item-custom">
+                <ion-slide-box id="homepage_slider"
+                               auto-play="false"
+                               does-continue="true"
+                               show-pager="true">
+
+                    <ion-slide ng-repeat="picture in product.picture">
+                        <img ng-src="{{picture.url}}"
+                             style="width:100%;" />
+                    </ion-slide>
+                </ion-slide-box>
+            </div>
+        </ion-card>
+        <ion-card class="card">
+            <div class="item item-body item-custom">
+                <i class="ion-pricetag"></i>
+                <span ng-if="product.optionsGroups.length > 0">
+                    {{ "From:" | translate }}
+                </span>
+                <span>
+                    {{ product.formattedPriceInclTax }}
+                </span>
+                <div ng-show="social_sharing_active"
+                     ng-click="share()"
+                     class="mcommerce_share">
+                    <i class="icon ion-ios-upload-outline "></i>
+                </div>
+            </div>
+            <label ng-click="goCheckFormat()" class="item item-input item-select item-custom"
+                   ng-if="product.formatGroups.length">
+                <div class="input-label">
+                    {{ "Prices" | translate }}
+                </div>
+                <input disabled type="text" class="native-input sc-ion-input-ios"  ng-model="selected_format.id" style="background:none;">
+            </label>
+        </ion-card>
+        <ion-card class="card"
+             ng-if="product.optionsGroups.length">
+            <div class="item item-divider item-divider-custom">
+                <h2><i class="ion-gear-b"></i> {{ "Options" | translate }}</h2>
+            </div>
+            <div ng-repeat="optionsGroup in product.optionsGroups">
+                <div class="list list-inset">
+                    <label ng-click="goCheckGroup()" class="item item-input item-select" >
+                        <div class="input-label">
+                            {{ optionsGroup.title }}
+                        </div>
+                        <input type="text" disabled class="native-input sc-ion-input-ios"  ng-model="optionsGroup.selectedOptionId" style="background:none;">
+                    </label>
+                    <label ng-click="goCheckQuantity()" class="item item-input item-select" >
+                        <div class="input-label">
+                            {{ "Qty" | translate }}
+                        </div>
+                        <input type="text" disabled class="native-input sc-ion-input-ios"  ng-model="optionsGroup.selectedQuantity" style="background:none;">
+                    </label>
+                </div>
+            </div>
+        </ion-card>
+
+        <div ng-if="product.choicesGroups.length">
+            <ion-card class="card"
+                 ng-repeat="(i, choicesGroup) in product.choicesGroups">
+                <div class="item item-divider item-divider-custom">
+                    <h2><i class="ion-gear-b"></i> {{ choicesGroup.title }}</h2>
+                </div>
+                <div>
+                    <div class="list list-inset">
+                        <ul>
+                            <li ng-repeat="(j, option) in choicesGroup.options">
+                                <label class="item item-input item-custom no-left-pad">
+                                    <ion-checkbox ng-model="product.choicesGroups[i].options[j].selected"
+                                                  class="no-bottom-border"></ion-checkbox>
+                                    <div class="input-label">
+                                        {{option.name}}
+                                    </div>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </ion-card>
+        </div>
+
+        <ion-card class="card">
+            <sb-input-number ng-if="product"
+                             value="1"
+                             min="1"
+                             step="1"
+                             label="{{ 'Qty' | translate }}"
+                             change-qty="changeQuantity(qty)"></sb-input-number>
+            <div class="item item-text-wrap item-icon-left item-custom"
+                 ng-click="addProduct()">
+                <i class="icon ion-ios-cart-outline"></i>
+                {{ "Add to cart" | translate }}
+            </div>
+        </ion-card>
+        <ion-card class="card">
+            <div class="item item-divider item-divider-custom">
+                <h2><i class="ion-information-circled"></i> {{ "Description" | translate }}</h2>
+            </div>
+            <div class="item item-body item-custom"
+                 ng-bind-html="product.description | trusted_html"
+                 sb-a-click></div>
+        </ion-card>
+    </ion-content>
+</ion-view>
+

@@ -1,0 +1,1157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-06T23:02:22+03:00\n"
+"PO-Revision-Date: 2019-06-06T23:02:22+03:00\n"
+"Language: \n"
+
+msgid "\"Remove this page from this folder?\""
+msgstr "\"Bu klasör, Bu sayfayı kaldırmak mı?\""
+
+msgid "#100: Unable to fetch the update. Please, try again later."
+msgstr "#100: %1 güncelleme almak için. Lütfen daha sonra tekrar deneyin."
+
+msgid "#101: An error occurred while saving"
+msgstr "101#: kaydedilirken hata oluştu"
+
+msgid "#101: Unable to fetch the update. Please, try again later."
+msgstr "Güncelleme getirilemedi #101:. Lütfen daha sonra tekrar deneyin."
+
+msgid "#102: An error occurred while saving"
+msgstr "102#: kaydedilirken hata oluştu"
+
+msgid "#102: Unable to fetch the update. Please, try again later."
+msgstr "Güncelleme getirilemedi #102:. Lütfen daha sonra tekrar deneyin."
+
+msgid "#103: An error occurred while saving. Please try again later."
+msgstr "Kaydedilirken Bir hata oluştu #103:. Lütfen daha sonra tekrar deneyin."
+
+msgid "#104: An error occurred while saving. Please try again later."
+msgstr "Kaydederken 104#: Bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "#105: An error occurred while saving"
+msgstr "105#: kaydedilirken hata oluştu"
+
+msgid "#106: An error occurred while saving"
+msgstr "106#: kaydedilirken hata oluştu"
+
+msgid "#107: An error occurred while saving"
+msgstr "107#: kaydederken Bir hata oluştu"
+
+msgid "#108: An error occurred while saving"
+msgstr "108#: kaydedilirken hata oluştu"
+
+msgid "#109: An error occurred while saving"
+msgstr "109#: kaydedilirken hata oluştu"
+
+msgid "#110: An error occurred while saving"
+msgstr "110#: kaydedilirken hata oluştu"
+
+msgid "#111: An error occurred while saving"
+msgstr "111#: kaydedilirken hata oluştu"
+
+msgid "#112: An error occurred while saving"
+msgstr "112#: kaydedilirken hata oluştu"
+
+msgid "#114: An error occurred while saving"
+msgstr "114#: kaydedilirken hata oluştu"
+
+msgid "#115: An error occurred while saving"
+msgstr "115#: kaydedilirken hata oluştu"
+
+msgid "#116: An error occurred while saving"
+msgstr "116#: kaydedilirken hata oluştu"
+
+msgid "#117: An error occurred while saving"
+msgstr "117#: kaydedilirken hata oluştu"
+
+msgid "#118: An error occurred while saving"
+msgstr "118#: kaydedilirken hata oluştu"
+
+msgid "#119: An error occurred while saving"
+msgstr "119#: kaydedilirken hata oluştu"
+
+msgid "#120: An error occurred while saving"
+msgstr "120#: kaydederken Bir hata oluştu"
+
+msgid "#121: An error occurred while saving"
+msgstr "121#: kaydedilirken hata oluştu"
+
+msgid "#122: An error occurred while saving"
+msgstr "122#: kaydedilirken hata oluştu"
+
+msgid "#123: An error occurred while saving"
+msgstr "123#: kaydedilirken hata oluştu"
+
+msgid "#156: Missing params!"
+msgstr "Parametreler Eksik #156:!"
+
+msgid "#19-001 The folder %s is not writable. Please fix this issue and try again."
+msgstr "S #19-001 klasör %yazılabilir değil. Lütfen bu sorunu düzeltin ve tekrar deneyin."
+
+msgid "#19-002 Unable to extract the archive. Please make sure that the 'zip' extension is installed."
+msgstr "Arşiv çıkartılamıyor #19-002. Emin zip uzantısı yüklü olduğundan emin olun."
+
+msgid "#19-003: This update is designed for the %s, you can't install it in your %s."
+msgstr "#19-003: Bu güncelleme %s için tasarlanmıştır, %s yükleyebilirsiniz."
+
+msgid "#19-004: You already have installed this update."
+msgstr "19-004#: bu güncelleştirme zaten yüklü."
+
+msgid "#19-005: Please update your system to the %s version before installing this update."
+msgstr "19-005 #Lütfen %sisteminizi update bu güncelleştirmeyi yüklemeden önce versiyonu."
+
+msgid "#19-007: Please update your system to the %s version before installing this update."
+msgstr "19-007 #Lütfen %sisteminizi update bu güncelleştirmeyi yüklemeden önce versiyonu."
+
+msgid "#19-008: You already have installed this template."
+msgstr "19-008#: zaten bu şablon yüklediniz."
+
+msgid "#19-009: Please update your system to the %s version before installing this update."
+msgstr "19-009 #Lütfen %sisteminizi update bu güncelleştirmeyi yüklemeden önce versiyonu."
+
+msgid "#19-010: The package you have uploaded is invalid."
+msgstr "#19-010: yüklediğiniz paket geçersiz."
+
+msgid "#19-011: The package you have uploaded is invalid."
+msgstr "#19-011: yüklediğiniz paket geçersiz."
+
+msgid "#19-013: The folder %s is not writable."
+msgstr "#19-013: yazılabilir değil klasör %s."
+
+msgid "#19-014: Your system doesn't meet the requirements for this module, version >=%s is required."
+msgstr "#19-014: sistem Bu modül için gereksinimlerini karşılamak, =%>sürüm değil gereklidir."
+
+msgid "#19-016: You already have installed this %s or a newer version."
+msgstr "19-016#: zaten bu %s veya daha yeni bir sürümü yüklü."
+
+msgid "#354-01: An error occurred while saving your colors."
+msgstr "Renkleri kaydedilirken 354-01#: Bir hata oluştu."
+
+msgid "#354-02: An error occurred while saving your colors."
+msgstr "Renkleri kaydedilirken 354-02#: Bir hata oluştu."
+
+msgid "#354-03: SCSS Compilation error, you must input valid SCSS."
+msgstr "354-03: SCSS Derleme hatası #geçerli SCSS giriş gerekir."
+
+msgid "#498-01: An error occured while exporting your application."
+msgstr "Uygulamanız verilirken #498-01: Bir hata oluştu."
+
+msgid "#500-01: This application does not exist"
+msgstr "Bu uygulama yok #500-01:"
+
+msgid "#500-02: This application does not exist"
+msgstr "Bu uygulama yok #500-02:"
+
+msgid "#567-03: Missing value_id or place_id."
+msgstr "Value_id veya place_id Eksik #567-03."
+
+msgid "#567-04: An error occured."
+msgstr "#567-04: Bir hata oluştu."
+
+msgid "#567-07: Missing value_id or place_id."
+msgstr "Value_id veya place_id Eksik #567-07."
+
+msgid "#567-09: Missing value_id or company_id."
+msgstr "Value_id veya company_id Eksik #567-09."
+
+msgid "#734-01: Missing yandex API key"
+msgstr "Eksik #734-01 üye API anahtarı"
+
+msgid "#734-03: Invalid yandex API key OR Free limit request exceeded."
+msgstr "#734-03: Geçersiz üye API anahtarı VEYA Ücretsiz istek sınırı aştı."
+
+msgid "%s - Access to your personal data."
+msgstr "%s - Erişim kişisel verilerinizi."
+
+msgid "%s - v%s"
+msgstr "%s - v%s"
+
+msgid "(Offline)"
+msgstr "(Çevrimdışı)"
+
+msgid "-"
+msgstr "-"
+
+msgid "<a href=\"%s\" target=\"_blank\">Click here for more information about AdMob</a>"
+msgstr "<a href=\"%burada Toplayıcısı</hakkında daha fazla bilgi için target=\" _blank\">s\">"
+
+msgid "<a href=\"%s\">Click here</a> to go back to your applications list"
+msgstr "<a href=\"%>buraya Tıklayın</uygulamaları geri gitmek için bir> liste s\""
+
+msgid "<b>File type:</b> %s<br /><b>Recommended size:</b> %s"
+msgstr "</b> %s <b>Dosya türü:</b> %s<br /><b>Önerilen boyutu:"
+
+msgid "<b>Geolocation</b> option for the Overview & HTML5 will be displayed & work only when using HTTPS, however it works in Android & iOS apps without HTTPS."
+msgstr "Genel Bakış & HTML 5 için <b>coğrafi konum</b> seçeneği görüntülenir ve sadece HTTPS kullanırken çalışır, ancak Android ve iOS uygulamalar HTTPS olmadan çalışır."
+
+msgid "<button class=\"add btn color-blue\" type=\"button\"><i class=\"fa fa-plus-circle\"></i><span> Click to add an item</span></button>"
+msgstr "<button class=\"item</span></button>eklemek-mavi\" type=\"button\"><i class=\"fa fa-btn renk plus-circle\"></i><span> Ekle"
+
+msgid "<img src=\"%s\" width=\"160\" title=\"%s\" />"
+msgstr "<ımg src=\"%s\" genişlik=\"160\" title=\"\" s >/"
+
+msgid "A e-mail has been sent to %s, please check your inbox."
+msgstr "Posta %s gönderilen bir e-gelen kutunuzu kontrol edin."
+
+msgid "A place can belong to multiple categories."
+msgstr "Bir yerde birden fazla kategoriye ait olabilir."
+
+msgid "ACTIVATE"
+msgstr "ETKİNLEŞTİRMEK"
+
+msgid "Above 50 active whitelabels, Nwicode's automated Let's Encrypt SSL certificate generation is not supported."
+msgstr "50 aktif whitelabels yukarıda, Sibirya otomatik Gidelim şifreli SSL sertifika oluşturma desteklenmiyor."
+
+msgid "Accepted Terms of Service"
+msgstr "Hizmet Şartlarını kabul"
+
+msgid "Account Settings"
+msgstr "Hesap Ayarları"
+
+msgid "Action '{$action}' executed for module '{$module}'."
+msgstr "{$Action} eylem '{$module} modül 'idam edildi."
+
+msgid "Add an <br /><span class=\"bold\">image</span>"
+msgstr "<Br /><span class=\"bold\">resim</span>Ekle"
+
+msgid "Add<br /><span class=\"bold\">Attachment</span>"
+msgstr "<Br /><span class=\"bold\">Ek</span>Ekle"
+
+msgid "Add<br /><span class=\"bold\">Pictures</span>"
+msgstr "<Br /><span class=\"bold\">Resimleri</span>Ekle"
+
+msgid "Addresses blocks can now have a website & a phone number."
+msgstr "Bloklar şimdi web sitesi ve telefon numarası alabilir adresleri."
+
+msgid "Ads type"
+msgstr "Reklam türü"
+
+msgid "After the upgrade you will be required to upload new homepage & splashscreen, actual homepages & splashscreens can still be downloaded."
+msgstr "Yükseltmeden sonra yeni ana ve karşılama resmi yüklemek için gerekli olacaktır, gerçek ana ve splashscreens hala indirilebilir."
+
+msgid "All places"
+msgstr "Her yerde"
+
+msgid "Allow line return?"
+msgstr "Hattı geri dönmelerine izin?"
+
+msgid "Alphabetically"
+msgstr "Alfabetik olarak"
+
+msgid "An error occurred while processing the payment."
+msgstr "Ödeme işleme sırasında bir hata oluştu."
+
+msgid "Android 4.4+"
+msgstr "Android 4.4+"
+
+msgid "Android Studio 3+"
+msgstr "Android Studio 3+"
+
+msgid "Android being more restrictive with screen orientation some combination are not possible."
+msgstr "Android oryantasyon ekran ile daha kısıtlayıcı olma arada bazı olası değildir."
+
+msgid "Android only (You must set a Firebase Key)"
+msgstr "Android (sadece Firebase Anahtarını ayarlamanız gerekir)"
+
+msgid "Android orientation is invalid!"
+msgstr "Android yönünü geçersiz!"
+
+msgid "Android orientation settings"
+msgstr "Android yönlendirme ayarları"
+
+msgid "Api User"
+msgstr "Apı Kullanıcı"
+
+msgid "Apple"
+msgstr "Elma"
+
+msgid "Application %s"
+msgstr "Uygulama %s"
+
+msgid "Application_Mobile_DataController::findall, class: {$model} doesn't exists."
+msgstr "Application_Mobile_DataController: {$model} findall, sınıf: öyle bir şey yok."
+
+msgid "Apps efficaces + Prix minime = Des clients heureux"
+msgstr "Uygulamalar efficaces + Prix minime = Des müşterilerine heureux"
+
+msgid "Are you sure you want to delete this discount?"
+msgstr "Bu indirim silmek istediğinizden emin misiniz?"
+
+msgid "Background Color - Active"
+msgstr "Arka Plan Rengi - Aktif"
+
+msgid "Background Color - Hover"
+msgstr "Arka Plan Rengi - Hover"
+
+msgid "Backoffice access"
+msgstr "İdari büro erişim"
+
+msgid "Backoffice page Title"
+msgstr "İdari büro sayfa Başlığı"
+
+msgid "Backoffice theme (BETA)"
+msgstr "(BETA)idari büro tema"
+
+msgid "Banner ID"
+msgstr "Banner KİMLİĞİ"
+
+msgid "Before you can generate your application, you must upload new homepage & splashscreen."
+msgstr "Uygulama oluşturmadan önce, yeni ana ve karşılama resmi yüklemeniz gerekir."
+
+msgid "Before you can re-publish your application, you must upgrade it to the new <b>unified</b> homepage & splashscreen."
+msgstr "Yeniden başlamadan önce uygulama yayımlamak, yeni <b>Birleşik</b> homepage & karşılama resmi yükseltmek gerekir."
+
+msgid "Build failed!"
+msgstr "Oluşturma başarısız oldu!"
+
+msgid "Build succeed!"
+msgstr "Başarılı olmak kurmak!"
+
+msgid "By checking this box, you agree <a href=\"%s\" target=\"_blank\" class=\"underline\">to our terms and conditions</a>"
+msgstr "Bu kutucuğu işaretleyerek, a href=\"%Koşullarımızı\" target=\"_blank\" class=\"alt\">s ve koşulları</a><etmektesiniz"
+
+msgid "CANCEL"
+msgstr "İptal"
+
+msgid "CSS Editor is saved!"
+msgstr "CSS Editörü kaydedilir."
+
+msgid "Cancel Subscription"
+msgstr "Aboneliği iptal"
+
+msgid "Cancel current Offline subscription"
+msgstr "Mevcut Çevrimdışı aboneliği iptal"
+
+msgid "Cancel subscription!"
+msgstr "Aboneliği iptal!"
+
+msgid "Cancelled and expired"
+msgstr "İptal süresi"
+
+msgid "Cancelled to be expired"
+msgstr "Süresi doldu iptal"
+
+msgid "Catalog is up-to-date."
+msgstr "Katalog güncel."
+
+msgid "Category is up-to-date."
+msgstr "Kategori güncel."
+
+msgid "Channel: #security, #notifications, etc..."
+msgstr "Kanal: #güvenlik, #bildirimleri, vb..."
+
+msgid "Check payments"
+msgstr "Ödeme onay"
+
+msgid "Choose your font family"
+msgstr "Yazı tipi ailesi seçin"
+
+msgid "Clean-up sensible data"
+msgstr "Temizlik hassas veri"
+
+msgid "Click here for more information about AdMob"
+msgstr "Burada Toplayıcısı hakkında daha fazla bilgi için tıklayın"
+
+msgid "Click here to send your fullchain"
+msgstr "Burada fullchain göndermek için tıklayın"
+
+msgid "Click on a page to add it to the folder <span id=\"folder_name\" class=\"folder_name\">\"%s\"</span>"
+msgstr "Bir sayfada klasör <span id=\"folder_name\" class=\"folder_name\">\"%s\"</span>eklemek için tıklayın"
+
+msgid "Cram-MD5"
+msgstr "Cram-MD5"
+
+msgid "Create a new category"
+msgstr "Yeni bir kategori oluştur"
+
+msgid "Custom font"
+msgstr "Özel yazı tipi"
+
+msgid "DEACTIVATE"
+msgstr "Devre dışı bırak"
+
+msgid "Default layout"
+msgstr "Varsayılan düzeni"
+
+msgid "Default page"
+msgstr "Varsayılan sayfa"
+
+msgid "Delete category!"
+msgstr "Sil kategori."
+
+msgid "Delete product!"
+msgstr "Sil ürün!"
+
+msgid "Display"
+msgstr "Ekran"
+
+msgid "Display phone"
+msgstr "Ekran telefon"
+
+msgid "Display website"
+msgstr "Görüntülemek web sitesi"
+
+msgid "Download CA"
+msgstr "Download CA"
+
+msgid "Download Certificate"
+msgstr "İndirme Sertifika"
+
+msgid "Download Private"
+msgstr "İndir Özel"
+
+msgid "Download icon pack example"
+msgstr "Download simge paketi örnek"
+
+msgid "Download non-unified previous images!"
+msgstr "İndirin olmayan birleştirilmiş önceki görüntüleri!"
+
+msgid "During the <b>beta</b> stage, themes are likely to evolve slightly."
+msgstr "<B>beta</b> aşamasında, temalar biraz gelişmeye muhtemeldir."
+
+msgid "E-Mail render preview"
+msgstr "E-Posta oluştur önizleme"
+
+msgid "E-mail is required in order to test SMTP"
+msgstr "E-posta sipariş SMTP test etmek için gereklidir"
+
+msgid "E-mail is required!"
+msgstr "E-posta gereklidir."
+
+msgid "E-mail test"
+msgstr "E-posta testi"
+
+msgid "Editing subscription:"
+msgstr "Düzenleme aboneliği:"
+
+msgid "Editor access"
+msgstr "Editör erişim"
+
+msgid "Elegance"
+msgstr "Zerafet"
+
+msgid "Enable search"
+msgstr "Arama etkinleştir"
+
+msgid "Enabled?"
+msgstr "Etkin?"
+
+msgid "Enter the token you received by e-mail to access your personal data."
+msgstr "E aldığınız token girin-posta kişisel veri erişim için."
+
+msgid "Environment is"
+msgstr "Ortam"
+
+msgid "Everything seems ok."
+msgstr "Her şey Tamam görünüyor."
+
+msgid "Example: https://hooks.slack.com/services/XDEFFE/DE45GFV/RxwdF4bnhtRDsqsqzd234,"
+msgstr "Örnek: https://hooks.slack.com/services/XDEFFE/DE45GFV/RxwdF4bnhtRDsqsqzd234,"
+
+msgid "FIX"
+msgstr "DÜZELTME"
+
+msgid "Feature this place?"
+msgstr "Buranın özelliği?"
+
+msgid "Featured label"
+msgstr "Özellikli etiket"
+
+msgid "Features to export & Options"
+msgstr "Özellikler ve Seçenekler vermek"
+
+msgid "Feed URL <span class=\"required-entry\">*</span> :"
+msgstr "Besleme URL <span class=\"gerekli giriş\">*</span> :"
+
+msgid "Field name:"
+msgstr "Alan adı:"
+
+msgid "Firebase Cloud Messaging"
+msgstr "Firebase Bulut Mesajlaşma"
+
+msgid "Firebase is not yet configured, please contact your Administrator."
+msgstr "Firebase henüz yapılandırılmamış, lütfen Yöneticinize başvurun."
+
+msgid "Folder is up-to-date."
+msgstr "Klasörü güncel."
+
+msgid "Font saved!"
+msgstr "Yazı tipi kurtardı!"
+
+msgid "For instance <b>Account A</b> creates an app, all other accounts tied to this app, will have the <b>publication type settings of the Account A</b>."
+msgstr "Örneğin <b>Hesabınız</b> bir uygulama oluşturur, bu uygulama bağlı diğer hesaplar, Hesabı</b><b>yayın türü ayarları olacaktır."
+
+msgid "For more information, please feel free to contact us."
+msgstr "Daha fazla bilgi için, bizimle temas kurmaktan çekinmeyin."
+
+msgid "Forgot your password ?"
+msgstr "Şifrenizi mi unuttunuz ?"
+
+msgid "Full chain"
+msgstr "Tam zincir"
+
+msgid "Fulltext"
+msgstr "Full-text"
+
+msgid "Gallery Name <span class=\"required-entry\">*</span> :"
+msgstr "Gerekli Galeri Adı <span class=\"giriş\">*</span> :"
+
+msgid "Global notifications"
+msgstr "Küresel bildirimleri"
+
+msgid "Go back to homepage"
+msgstr "Geri ana sayfasına git"
+
+msgid "Google"
+msgstr "Google"
+
+msgid "Google Cloud Messaging (GCM, Deprecated)"
+msgstr "Google Cloud Mesajlaşma (HGK, Kaldırılmış)"
+
+msgid "Grid view"
+msgstr "Izgara görünümü"
+
+msgid "Handwriting"
+msgstr "El yazısı"
+
+msgid "How to install the cron scheduler ?"
+msgstr "Cron zamanlayıcı yüklemek için nasıl ?"
+
+msgid "I agree to receive information & commercial offers about the WhiteLabel program."
+msgstr "Bilgi ve ticari WhiteLabel programı hakkında teklifler almak için kabul ediyorum."
+
+msgid "I have a Google developer account"
+msgstr "Google geliştirici hesabı var"
+
+msgid "I have read & agree the Terms of Service"
+msgstr "Okudum ve Hizmet Şartlarını kabul"
+
+msgid "IMPERSONATE"
+msgstr "TAKLİT"
+
+msgid "If you need it to work you will need to manually generate your corresponding SSL certificate."
+msgstr "Eğer işe ihtiyacın varsa el ile ilgili bir SSL sertifikası oluşturmak gerekir."
+
+msgid "In case your Stripe subscription is not linked (ie: missing or wrong sub_xxxx id), you can search the right reference here and apply it to the subscription."
+msgstr "Durumda Şerit aboneliği (örn: eksik ya da yanlış sub_xxxx ıd) bağlı değil, burada referans arama ve abonelik uygulayabilirsiniz."
+
+msgid "In-App links"
+msgstr "-App bağlantılar"
+
+msgid "Inactive, Cancelled or Expired"
+msgstr "Etkin olmayan, İptal edilmiş veya süresi Dolmuş"
+
+msgid "Insert a <br /><span class=\"bold\">cover image</span>"
+msgstr "Ekle <br /><span class=\"bold\">kapak resim</span>"
+
+msgid "Insert a <span class=\"bold\">cover image</span>"
+msgstr "Ekle <span class=\"bold\">kapak resim</span>"
+
+msgid "Installing module <em><span id=\"label_module\"></span></em>"
+msgstr "Yükleme modülü <em><span id=\"label_module\"></span></em>"
+
+msgid "Interstitial ID"
+msgstr "İnterstisyel KİMLİĞİ"
+
+msgid "Invoice N°"
+msgstr "Fatura N°"
+
+msgid "Is self assignable (a user with a self-assignable role can create users with the same role)"
+msgstr "Kendini atanabilir (kendi kendine bir kullanıcı atanabilir rol aynı rol ile kullanıcılar oluşturabilir)"
+
+msgid "Kilometers"
+msgstr "Kilometre"
+
+msgid "Licenses"
+msgstr "Lisansları"
+
+msgid "List view"
+msgstr "Liste görünümü"
+
+msgid "Loading ..."
+msgstr "Yükleniyor ..."
+
+msgid "Location settings"
+msgstr "Konum ayarları"
+
+msgid "M-Commerce"
+msgstr "M-Ticaret"
+
+msgid "Mail logger"
+msgstr "Posta logger"
+
+msgid "Mail logs"
+msgstr "Posta günlükleri"
+
+msgid "Main nwicode domain"
+msgstr "Ana Sibirya etki alanı"
+
+msgid "Mais encore ?"
+msgstr "Mais encore ?"
+
+msgid "Manage tour"
+msgstr "Tur Yönet"
+
+msgid "Miles"
+msgstr "Mil"
+
+msgid "Missing font family!"
+msgstr "Kayıp aile tipi!"
+
+msgid "Missing name parameter."
+msgstr "Eksik parametre adı."
+
+msgid "Missing params."
+msgstr "Kayıp parametreler."
+
+msgid "Missing value_id."
+msgstr "Eksik value_id."
+
+msgid "Modern"
+msgstr "Modern"
+
+msgid "Module installed/updated"
+msgstr "Modülü yüklenmiş/güncellenmiş"
+
+msgid "Monetize my app using AdMob"
+msgstr "Uygulamayı kullanarak Almasıyla benim para kazandırmak"
+
+msgid "Monospace"
+msgstr "Tek aralıklı"
+
+msgid "My users"
+msgstr "Benim kullanıcılar"
+
+msgid "MySQL (Default)"
+msgstr "(Varsayılan)MySQL"
+
+msgid "NO"
+msgstr "HAYIR"
+
+msgid "Nearest"
+msgstr "En yakın"
+
+msgid "New backoffice themes are available, check them out <a href=\"/system/backoffice_config_design\">here</a>."
+msgstr "Yeni idari büro temalar kullanılabilir, a href=\"buraya/sistem/backoffice_config_design\"></a><onları kontrol edin."
+
+msgid "New publication request on your platform %s, for the Application %s."
+msgstr "Platform %yeni yayın istek s Uygulaması %s için."
+
+msgid "No result found."
+msgstr "Hayır sonuç bulundu."
+
+msgid "No results."
+msgstr "Sonuç yok."
+
+msgid "Non-featured label"
+msgstr "Olmayan özellikli etiket"
+
+msgid "Note: the migration will only work if redis is configured & running!"
+msgstr "Not: geçiş yalnızca redis yapılandırılmış ve çalışıyorsa çalışır."
+
+msgid "Note: we recommand to install under the web user to maintain file & folders permissions, but if this is not possible at all you can install it under the root user."
+msgstr "Not: web kullanıcı altında dosya ve klasörleri izinleri korumak için yüklemek için recommand, ama eğer bu mümkün değilse root kullanıcısı altında yükleyebilirsiniz."
+
+msgid "Nothing to do!"
+msgstr "Yapacak hiçbir şey yok!"
+
+msgid "Nwicode main domain (without https?://) is required for services, and tools."
+msgstr "(Https olmadan?) Sibirya ana etki alanı:// hizmetleri ve araçlar için gereklidir."
+
+msgid "Offline awaiting validation"
+msgstr "Çevrimdışı bekleyen doğrulama"
+
+msgid "Ok, proceed to minimal upgrade!"
+msgstr "Tamam, az yükseltmeye devam edin!"
+
+msgid "Ok, skip automated upgrade!"
+msgstr "Tamam, otomatik yükseltme!"
+
+msgid "Only active subscriptions not linked are shown below!"
+msgstr "Bağlı değil, sadece aktif abonelikleri aşağıda gösterilmiştir."
+
+msgid "Only showing latest 100 e-mail logs."
+msgstr "En son 100 gösteriyor sadece e-posta günlükleri."
+
+msgid "Opt-in e-mails"
+msgstr "Opt-e-posta -"
+
+msgid "Order places by"
+msgstr "Sipariş yerleri"
+
+msgid "Outstanding balance of %s %s."
+msgstr "%Bakiye s %s."
+
+msgid "Owner / Application"
+msgstr "Sahibi / Uygulama"
+
+msgid "PNG icons are recommended for a better display result."
+msgstr "PNG simgeleri daha iyi görünen bir sonuç için tavsiye edilir."
+
+msgid "Page design"
+msgstr "Sayfa tasarımı"
+
+msgid "Path to your Fullchain"
+msgstr "Fullchain için yol"
+
+msgid "PayPal subscription is Active"
+msgstr "PayPal abonelik Aktif"
+
+msgid "PayPal subscription is now correctly synced and will correctly expire by %s!"
+msgstr "PayPal abonelik şimdi doğru nedenle ve doğru s %sona erecek."
+
+msgid "Places upgrade! New version with a better search engine, categories & display options."
+msgstr "Yerler yükseltme! Daha iyi bir arama motoru, kategorileri ve görüntüleme seçenekleri ile yeni sürümü."
+
+msgid "Plan"
+msgstr "Plan"
+
+msgid "Platform contact informations"
+msgstr "Platform iletişim bilgileri"
+
+msgid "Position"
+msgstr "Pozisyon"
+
+msgid "Proceed to full ugrade!"
+msgstr "Tam ugrade geçin!"
+
+msgid "Proceed to ugrade!"
+msgstr "Ugrade geçin!"
+
+msgid "Product is up-to-date."
+msgstr "Ürün-güncel."
+
+msgid "Publication request"
+msgstr "Yayın isteği"
+
+msgid "Publication type"
+msgstr "Yayın türü"
+
+msgid "REDUCE"
+msgstr "AZALTMAK"
+
+msgid "RESTORE"
+msgstr "GERİ yükleme"
+
+msgid "Re-check payments"
+msgstr "Yeniden Çek ödemeleri"
+
+msgid "Recipients"
+msgstr "Alıcılar"
+
+msgid "Redis (requires to install php-redis & Redis server)"
+msgstr "Redis (php yüklemek için gerektirir redis & Redis sunucusu)"
+
+msgid "Redis AUTH KEY, only required if configured on your Redis server."
+msgstr "Eğer Redis sunucusu üzerinde yapılandırılan, Redis kimlik DOĞRULAMA ANAHTARI, yalnızca gerekli."
+
+msgid "Redis enpoint (example: tcp://127.0.0.1:6379)"
+msgstr "Redis enpoint (örnek: tcp: 127.0.0.1//: 6379)"
+
+msgid "Refresh available Teams & Providers"
+msgstr "Kullanılabilir Takım & Sağlayıcıları yenileme"
+
+msgid "SELECT"
+msgstr "SEÇİN"
+
+msgid "SYNC"
+msgstr "EŞİTLEME"
+
+msgid "Safe in portrait & landscape"
+msgstr "Güvenli Portre & Manzara"
+
+msgid "Safe in portrait (locked)"
+msgstr "(Kilitli)portre güvenli"
+
+msgid "Sans Serif"
+msgstr "Sans Serif"
+
+msgid "Save settings & Publish"
+msgstr "Ayarları kaydet & Yayınla"
+
+msgid "Search, filter ..."
+msgstr "Arama, filtre ..."
+
+msgid "Secondary category (optional)"
+msgstr "(İsteğe bağlı)ikincil kategori"
+
+msgid "Security logs (last 50 triggers)"
+msgstr "(Son 50 tetikler)güvenlik günlükleri"
+
+msgid "Sender"
+msgstr "Gönderici"
+
+msgid "Serif"
+msgstr "Serif"
+
+msgid "Settings & Options"
+msgstr "Ayarlar & Seçenekler"
+
+msgid "Show featured labels"
+msgstr "Özellikli etiketlerini göster"
+
+msgid "Show non-featured labels"
+msgstr "Haritayı olmayan özellikli etiketler"
+
+msgid "Showing"
+msgstr "Gösterilen"
+
+msgid "Slots"
+msgstr "Yuvaları"
+
+msgid "Socket, example: /var/run/clamav/clamd.ctl"
+msgstr "Soket, örnek: /var/run/clamav/clamd.ctl"
+
+msgid "Something went wrong, the category do not exists!"
+msgstr "Bir şeyler ters gitti, değil kategori var."
+
+msgid "Start search"
+msgstr "Arama başlatın"
+
+msgid "Status color chart"
+msgstr "Durum renk şeması"
+
+msgid "Stores Informations"
+msgstr "Mağaza Bilgileri"
+
+msgid "Stripe subscription ID"
+msgstr "Şerit abonelik KİMLİĞİ"
+
+msgid "Stripe subscription saved!"
+msgstr "Şerit abonelik kurtardı!"
+
+msgid "Stripe utility tools!"
+msgstr "Şerit yardımcı araçlar!"
+
+msgid "Subject"
+msgstr "Konu"
+
+msgid "Subscription date & time"
+msgstr "Abonelik tarih ve saat"
+
+msgid "Sur quelles plateformes ?"
+msgstr "Sur quelles plateformes ?"
+
+msgid "T&C's"
+msgstr "T&C"
+
+msgid "Tags are used to improve full-text search."
+msgstr "Etiketleri tam metin arama artırmak için kullanılır."
+
+msgid "Tags will be de-duplicated, migrated to categories & associated to existing places."
+msgstr "Etiketleri de-çoğaltılamaz, kategoriler göç ve mevcut yerler için ilişkili olacaktır."
+
+msgid "Text Color - Active"
+msgstr "Metin Rengi - Aktif"
+
+msgid "Text Color - Hover"
+msgstr "Metin Rengi - Hover"
+
+msgid "The Platform name"
+msgstr "Platform adı"
+
+msgid "The category you are trying to edit doesn't exists.."
+msgstr "Düzenlemek istediğiniz Kategori yok.."
+
+msgid "The folder & it's sub-folders have been removed!"
+msgstr "Klasör ve alt-klasörleri kaldırılmıştır."
+
+msgid "The following folders are not writable: <br /> - %s"
+msgstr "Aşağıdaki klasörleri yazılabilir: <br /> - %s"
+
+msgid "The installation of the module <span id=\"installation_failed_module_name\"></span> has failed: <span id=\"installation_failed_because\"></span>"
+msgstr "Modül <span id=yüklemesi\"installation_failed_module_name\"></span> başarısız oldu: <span id=\"installation_failed_because\"></span>"
+
+msgid "The publication access type of an Application is determined by the publication type settings that are set for its Creator."
+msgstr "Bir Uygulamanın yayın erişim tipi Yaratıcısı için ayarlanan yayın türü ayarları tarafından belirlenir."
+
+msgid "The setup fee is not a valid price (e.g. 12.34"
+msgstr "Kurulum ücreti 12.34 (örneğin geçerli bir fiyat değil"
+
+msgid "The splashscreen image"
+msgstr "Karşılama resmi resim"
+
+msgid "The store & mcommerce instances mismatch!"
+msgstr "Mağaza & mcommerce örnekleri uyumsuzluğu!"
+
+msgid "The strip customer '%s' is missing!"
+msgstr "Şerit müşteri '%eksik."
+
+msgid "The stripe subscription '%s' is missing!"
+msgstr "Şerit abonelik '%eksik."
+
+msgid "The subscription '%s' doesn't exists!"
+msgstr "'Değil s abonelik '%var!"
+
+msgid "The subscription was already inactive or cancelled"
+msgstr "Abonelik zaten etkin olmayan ya da iptal edildi"
+
+msgid "The version number format is invalid, please use x.y.z where x, y & z are only digits."
+msgstr "Sürüm numarası biçimi geçersiz, x kullanın lütfen.y.x, y ve z tek haneli olduğu z."
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "There is no user with this ID."
+msgstr "Bu KİMLİK ile bir kullanıcı yok."
+
+msgid "This Application has some M-Commerce invoices associated, you can not delete it!"
+msgstr "Bu Uygulama ile ilgili bazı e-Ticaret faturalar var, silemezsiniz!"
+
+msgid "This Google Font do not exists!"
+msgstr "Bu Google Yazı tipi var!"
+
+msgid "This action is not allowed in demo."
+msgstr "Bu eylem demo izin verilmez."
+
+msgid "This application does not exists."
+msgstr "Bu uygulama mevcut değil."
+
+msgid "This application was not upgraded to the unified splashscreens & can't be published right now."
+msgstr "Bu uygulama, Birleşik splashscreens yükseltildi ve şu an yayınlanabilir."
+
+msgid "This build do not exists."
+msgstr "Bu yapı var."
+
+msgid "This combination is not valid, if you want both portrait & landscape please check all orientations."
+msgstr "Bu kombinasyon geçerli değil, her iki portre ve manzara tüm yönleri kontrol edin isterseniz."
+
+msgid "This is not a valid e-mail address."
+msgstr "Bu geçerli bir e-posta adresi değil."
+
+msgid "This is only a generic preview, header & footer are adjusted depending on the context!"
+msgstr "Bu sadece genel bir izleme, üstbilgi ve altbilgi içeriğe bağlı olarak ayarlanır."
+
+msgid "This place do not exists!"
+msgstr "Bu yer var!"
+
+msgid "Three columns"
+msgstr "Üç sütun"
+
+msgid "Title for featured places"
+msgstr "Öne çıkan başlık yerlerde"
+
+msgid "Title for non-featured places"
+msgstr "Olmayan başlık özellikli yerler"
+
+msgid "Two columns"
+msgstr "İki sütun"
+
+msgid "URL (.mp3)"
+msgstr "URL (.mp3)"
+
+msgid "Upgrade done!"
+msgstr "Yapılan yükseltme!"
+
+msgid "Upgrade required for Sources APK / IPA"
+msgstr "Yükseltme Kaynakları için kuru temizleme / IPA gerekli"
+
+msgid "User %s just signed-up on the platform."
+msgstr "Kullanıcı %sadece platformunda imzaladı."
+
+msgid "User-Styler Module"
+msgstr "Kullanıcı-Styler Modülü"
+
+msgid "Username: nwicode-notifier, etc..."
+msgstr "Kullanıcı adı: Sibirya-Bildiricisi, vb..."
+
+msgid "VIEW"
+msgstr "Görünüm"
+
+msgid "We were unable to automatically cancel the subscription, please check manually on your %s dashboard."
+msgstr "Otomatik olarak aboneliği iptal edemedik, el %s panosundaki kontrol edin."
+
+msgid "We were unable to verify you payment, please try again later!"
+msgstr "Ödeme doğrulayamadık, lütfen daha sonra tekrar deneyin!"
+
+msgid "Website must start with http:// or https://, invalid value have been removed!"
+msgstr "Web sitesi http ile başlamalıdır:// veya https://, geçersiz değer alındı."
+
+msgid "What if I choose the minimal upgrade?"
+msgstr "Ne en az yükseltme seçersem?"
+
+msgid "What if I skip the upgrade?"
+msgstr "Eğer yükseltme asarsam ne?"
+
+msgid "What will the full upgrade do?"
+msgstr "Tam yükseltme ne yapacak?"
+
+msgid "What will the upgrade do?"
+msgstr "Yükseltme ne yapacak?"
+
+msgid "What's new?"
+msgstr "Yeni olan ne?"
+
+msgid "Whitelabel Settings"
+msgstr "Whitelabel Ayarları"
+
+msgid "YES"
+msgstr "Evet"
+
+msgid "Yes, Cancel my subscription"
+msgstr "Evet, aboneliğimi İptal edin"
+
+msgid "Yes, activate"
+msgstr "Evet, etkinleştirmek"
+
+msgid "Yes, cancel!"
+msgstr "Evet, iptal et!"
+
+msgid "Yes, deactivate"
+msgstr "Evet, devre dışı bırak"
+
+msgid "Yes, delete!"
+msgstr "Evet, Sil!"
+
+msgid "You already have a google-services.json file"
+msgstr "Zaten google hizmetleri var.json dosyası"
+
+msgid "You are about to cancel your Subscription, if this is a paid plan the subscription will be cancelled at the end of the recurring period, otherwise the subscription will be immediately cancelled and the application locked.<br /><br />Below you can leave a message for the Administrator.<br />"
+msgstr "Aboneliğinizi iptal etmek üzeresiniz, eğer bu ödeme planı ise abonelik yinelenen dönemi sonunda iptal edilecektir, aksi takdirde aboneliği hemen iptal edilir ve uygulama<kilitlendi.Aşağıda br /><br />Yönetici için bir mesaj bırakabilir.<br />"
+
+msgid "You are about to delete the category #CATEGORY_NAME# with all it's subcategories<br />Please note that any products inside the category and it's subcategories will be deleted!"
+msgstr "Kategori içinde herhangi bir ürün ve alt kategoriler silinecektir.<br />Lütfen tüm alt kategorileri not ile kategori #CATEGORY_NAME silmek için#!"
+
+msgid "You are about to delete the folder #FOLDER_NAME# with all it's subfolders, please note that any features inside the folder and it's subfolders will be re-assigned to the Homepage!"
+msgstr "Klasörü silmek üzeresiniz #FOLDER_NAME# tüm alt klasörler, klasör içinde herhangi bir özellikleri ve klasörleri yeniden olacaktır. not-Anasayfa atanan lütfen!"
+
+msgid "You are about to delete the product #PRODUCT_NAME#"
+msgstr "Ürün silmek için ÜRÜN_ADI hakkında ##sen"
+
+msgid "You are not allowed to delete this account in demo!"
+msgstr "Demo bu hesabı silmek için izniniz yok!"
+
+msgid "You are not allowed to edit this account in demo!"
+msgstr "Demo bu hesabı düzenlemek için izin verilmez."
+
+msgid "You can also use another Google Font not listed up there"
+msgstr "Ayrıca almayan başka bir Google Yazı tipi kullanın"
+
+msgid "You can change the browser tab title with the translations: Edit the backoffice.csv and translate Nwicode - Backoffice."
+msgstr "Çevirileri ile idari büro Düzen tarayıcı sekme Başlığı değiştirin.csv ve tercüme Sibirya - idari büro."
+
+msgid "You have no mail logs."
+msgstr "Hiçbir posta günlükleri var."
+
+msgid "You have to create a Google account before publishing your application. <a href=\"https://play.google.com/apps/publish/signup\" target=\"_blank\">Click here to create one.</a>"
+msgstr "Uygulamanızı yayınlamadan önce bir Google Hesabı oluşturmalısınız. <a href=\"https://play.google.com/apps/publish/signup\" hedef=\"_blank\">bir</oluşturmak için.>"
+
+msgid "You have to create a Google account before publishing your application.<br /><a href=\"https://play.google.com/apps/publish/signup\" target=\"_blank\">Click here to create one.</a>"
+msgstr "Uygulamanızı yayınlamadan önce bir Google hesabı oluşturmak için<.br /><a href=\"https://play.google.com/apps/publish/signup\" hedef=\"_blank\">bir</oluşturmak için.>"
+
+msgid "You have to create an Apple account before publishing your application. <a href=\"https://appleid.apple.com/account#!&page=create\" target=\"_blank\">Click here to create one.</a>"
+msgstr "Uygulamanızı yayınlamadan önce bir Apple hesabı oluşturmanız gerekir. <a href=\"https://appleid.apple.com/account#!&sayfa=burada bir tane oluşturmak için\" target=\"_blank\">Tıklayın</oluşturun.>"
+
+msgid "You have to create an Apple account before publishing your application.<br /><a href=\"https://appleid.apple.com/account#!&page=create\" target=\"_blank\">Click here to create one.</a>"
+msgstr "Uygulamanızı yayınlamadan önce bir Apple hesabı oluşturmak için<.br /><a href=\"https://appleid.apple.com/account#!&sayfa=burada bir tane oluşturmak için\" target=\"_blank\">Tıklayın</oluşturun.>"
+
+msgid "You just received a publication request:"
+msgstr "Sadece bir yayın isteği alındı:"
+
+msgid "You must agree our Terms of Service"
+msgstr "Hizmet şartlarımızı kabul etmelisiniz"
+
+msgid "You must agree to Terms of Service."
+msgstr "Hizmet Şartları kabul etmelisiniz."
+
+msgid "You must agree to our Terms of Service."
+msgstr "Hizmet şartlarımızı kabul etmeniz gerekir."
+
+msgid "You must be logged-in to request a new token."
+msgstr "-Yeni bir belirteç isteği için giriş yapmalısınız."
+
+msgid "You must select at least one orientation for Android!"
+msgstr "Android için en az bir yönünü seçmeniz gerekir."
+
+msgid "You must select both a Development Team & an iTunes Connect provider!"
+msgstr "Hem bir Geliştirme Ekibi ve iTunes Connect sağlayıcı seçmeniz gerekir."
+
+msgid "You offline subscription is awaiting approval from an Administrator!"
+msgstr "Abonelik bir yöneticiden Onay Bekliyor çevrimdışı!"
+
+msgid "Your application is set to use the homepage background for all the features!<br />You can't upload individual backgrounds for the features."
+msgstr "Uygulama tüm özellikleri için ana arka plan kullanmak için ayarlanır.<o özellikler için tek tek arka plan yükleyebilir br/>."
+
+msgid ""
+"Your are about to replace the current application template, colors & features.\n"
+"Are you sure ?"
+msgstr "Mevcut uygulama şablonunu, renkleri ve özellikleri değiştirmek üzeresiniz. Emin misiniz?"
+
+msgid "Your are about to replace the current application template, colors & features.\\nAre you sure ?"
+msgstr "\\Geçerli uygulama şablonu değiştirmek üzere, renk ve özellikleri vardır.nAre emin misin ?"
+
+msgid "Your licenses"
+msgstr "Lisansları"
+
+msgid "[Let's Encrypt] cron renewal is disabled until %s due to rate limit hit, skipping."
+msgstr "Şifrelemek [hadi] cron yenileme %sınırı isabet oranı, atlama nedeniyle s kadar devre dışı bırakılır."
+
+msgid "[Let's Encrypt] will expire in %s days."
+msgstr "[Hadi Şifreleyelim] %s gün içinde sona erecek."
+
+msgid "[Plesk] %s"
+msgstr "[Plesk] %s"
+
+msgid "category_id"
+msgstr "category_id"
+
+msgid "fa-toggle-on"
+msgstr "fa-geçiş-"
+
+msgid "filtered from #TOTAL# total records"
+msgstr "TOPLAM ## süzülmüş toplam kayıt"
+
+msgid "iOS & Android (You must set both a Firebase Key & upload a Push Certificate for the Application)"
+msgstr "iOS & Android (Uygulama için hem Firebase Anahtar & upload İtme Belgesi ayarlamanız gerekir)"
+
+msgid "iOS 9+"
+msgstr "9 iOS+"
+
+msgid "iOS NS*Descriptions"
+msgstr "*iOS NS Açıklamaları"
+
+msgid "iOS only (You must upload a Push Certificate for the Application)"
+msgstr "yalnızca iOS (Uygulama için Push bir Sertifika yüklemeniz gerekir)"
+
+msgid "iOS-Autopublish service is unreachable."
+msgstr "iOS-Otomatik Yayınlama hizmetine  erişilemiyor."
+
+msgid "iPhone & iPad & Android orientation"
+msgstr "iPhone & iPad & Android yönünü"
+
+msgid "iPhone (No Ads)"
+msgstr "iPhone (Reklamlar)"
+
+msgid "of"
+msgstr "biri"
+
+msgid "or"
+msgstr "yada"
+
+msgid "or unlimited?"
+msgstr "ya da sınırsız mı?"
+
+msgid "php-redis module is required!"
+msgstr "php-redis modülü gereklidir!"
+
+msgid "please respect the font name case!"
+msgstr "yazı tipi adı dava saygı lütfen!"
+
+msgid "record"
+msgstr "kayıt"
+
+msgid "records"
+msgstr "kayıtları"
+
+msgid "to"
+msgstr "için"
+
+msgid "value_id"
+msgstr "value_id"

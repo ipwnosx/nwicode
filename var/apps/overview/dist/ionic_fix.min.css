@@ -1,0 +1,16 @@
+/*ionic1 migrate to 4*/
+ion-button.button-outline, ion-button.button-outline:hover {color: var(--ion-color-step-900) !important;}
+ion-button.button, ion-button.button:hover {color: var(--ion-background-color);}
+ion-item.item {border:0px; margin: 0px; padding: 0px;}
+ion-item .input-label {padding-left:16px; width:100%;max-width: 100%;}
+ion-item ion-text {color: var(--ion-color-step-600);}
+.item ion-text p {color: var(--ion-color-step-600);}
+ion-item ion-text h1 {color: var(--ion-text-color);}
+ion-item ion-text h2 {color: var(--ion-text-color);}
+ion-item ion-text h3 {color: var(--ion-text-color);}
+ion-item ion-text h4 {color: var(--ion-text-color);}
+ion-item ion-text h5 {color: var(--ion-text-color);}
+ion-item ion-text h6 {color: var(--ion-text-color);}
+ion-item ion-thumbnail {margin-left:16px;}
+
+

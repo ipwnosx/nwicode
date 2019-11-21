@@ -1,0 +1,1389 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-30T08:42:34+03:00\n"
+"PO-Revision-Date: 2019-06-30T08:42:34+03:00\n"
+"Language: \n"
+
+msgid "Total:"
+msgstr "Итого:"
+
+# GMT 1559644712.9628
+msgid "%s - Customer Service"
+msgstr "%s - Центр обслуживания клиентов"
+
+# GMT 1559644712.9585
+msgid "(filtered from _MAX_ total entries)"
+msgstr "(отфильтрованный от _MAX_ общая запись)"
+
+# GMT 1559644711.738
+#, mobile
+msgid "1 points ="
+msgstr "1 очко ="
+
+# GMT 1559644711.7423
+msgid "20.00%"
+msgstr "18.00%"
+
+# GMT 1559644711.7292
+msgid ": activate to sort column ascending"
+msgstr ": активировать столбец для сортировки по возростанию"
+
+# GMT 1559644711.7335
+msgid ": activate to sort column descending"
+msgstr ": активировать столбец для сортировки по убыванию"
+
+# GMT 1559644711.7466
+msgid "Add Discount"
+msgstr "Добавить Скидку"
+
+# GMT 1559644711.7504
+msgid "Add a format"
+msgstr "Добавить формат"
+
+msgid "Add a picture"
+msgstr "Добавить фото"
+
+# GMT 1559644711.7547
+#, mobile
+msgid "Add card"
+msgstr "Добавить карту"
+
+# GMT 1559644711.7588
+#, mobile
+msgid "Add gratuity (Optional)"
+msgstr "Оставить чаевые"
+
+# GMT 1559644711.7631
+msgid "Add options"
+msgstr "Добавить опцию"
+
+# GMT 1559644711.7675
+msgid "Add pictures"
+msgstr "Добавить фотки"
+
+# GMT 1559644711.7718
+#, mobile
+msgid "Add to cart"
+msgstr "В корзину"
+
+# GMT 1559644711.7761
+#, mobile
+msgid "All fields with a * are required."
+msgstr "Поля с пометкой * обязательны."
+
+# GMT 1559644711.7805
+msgid "Amount remaining:"
+msgstr "Сумма оставшаяся:"
+
+# GMT 1559644711.7848
+#, mobile
+msgid "Amount you will pay"
+msgstr "Сумма, которую вы оплатите"
+
+# GMT 1559644711.7891
+#, mobile
+msgid "An error occurred during the payment process."
+msgstr "Произошла ошибка в процессе оплаты."
+
+# GMT 1559644711.7934
+msgid "An error occurred while cancelling. Please try again later."
+msgstr "Произошла ошибка во время отмены. Пожалуйста, повторите попытку позже."
+
+# GMT 1559644711.7978
+msgid "An error occurred while proceeding the payment. Please, try again later."
+msgstr "Произошла ошибка во время оплаты. Пожалуйста, повторите попытку позже."
+
+# GMT 1559644711.8065
+msgid "An error occurred while proceeding your order. Please, check the following information:"
+msgstr "Произошла ошибка при исполнении вашего заказа. Пожалуйста, проверьте следующую информацию:"
+
+# GMT 1559644711.8021
+msgid "An error occurred while proceeding your order:"
+msgstr "Произошла ошибка при оформлении Вашего заказа:"
+
+# GMT 1559644711.8108
+msgid "Are you sure you want to close without saving"
+msgstr "Вы уверены, что хотите закрыть без сохранения"
+
+# GMT 1559644711.8152
+msgid "Are you sure you want to delete this category and all its subcategories?"
+msgstr "Вы уверены, что хотите удалить эту категорию и все его подкатегории?"
+
+# GMT 1559644711.8195
+msgid "Are you sure you want to delete this store?"
+msgstr "Вы уверены, что хотите удалить этот магазин?"
+
+# GMT 1559644711.8239
+msgid "Are you sure you want to delete this tax?"
+msgstr "Вы уверены, что хотите удалить этот налог?"
+
+# GMT 1559644711.8282
+msgid "Are you sure you want to remove this product?"
+msgstr "Вы уверены, что хотите удалить этот продукт?"
+
+# GMT 1559644711.8325
+msgid "At least one option is required:"
+msgstr "Хотя бы один параметр является - обязательным:"
+
+# GMT 1559644711.8361
+msgid "Birthday"
+msgstr "Дата рождения"
+
+# GMT 1559644711.8439
+msgid "Calculate the change for the client"
+msgstr "Рассчитать изменения у клиента"
+
+# GMT 1559644711.8474
+msgid "Cancel order"
+msgstr "Отменить заказ"
+
+# GMT 1559644711.8517
+msgid "Cancelled"
+msgstr "Отменен"
+
+# GMT 1559644711.8561
+#, mobile
+msgid "Card Number"
+msgstr "Номер Карты"
+
+# GMT 1559644711.8604
+msgid "Carry Out"
+msgstr "Самовывоз"
+
+# GMT 1559644711.8644
+#, mobile
+msgid "Cart"
+msgstr "Корзина"
+
+# GMT 1559644711.8687
+msgid "Cash"
+msgstr "Наличными"
+
+# GMT 1559644711.873
+#, mobile
+msgid "Category"
+msgstr "Категория"
+
+# GMT 1559644711.8774
+msgid "Category successfully saved."
+msgstr "Категория успешно сохранена."
+
+# GMT 1559644711.8818
+msgid "Check"
+msgstr "Безнал (для юр.лиц)"
+
+# GMT 1559644711.8861
+#, mobile
+msgid "Choose a delivery method:"
+msgstr "Выберите способ доставки:"
+
+# GMT 1559644711.8904
+#, mobile
+msgid "Choose a payment method:"
+msgstr "Выберите способ оплаты:"
+
+# GMT 1559644711.8947
+#, mobile
+msgid "Choose a store"
+msgstr "Выберите магазин"
+
+msgid "Choose a store:"
+msgstr "Выбрать магазин:"
+
+# GMT 1559644711.8991
+#, mobile
+msgid "City"
+msgstr "Город"
+
+# GMT 1559644711.9034
+msgid "Client"
+msgstr "Клиент"
+
+# GMT 1559644711.9078
+msgid "Client will pay"
+msgstr "Клиент оплатил"
+
+# GMT 1559644711.9114
+msgid "Code"
+msgstr "Код"
+
+# GMT 1559644711.9157
+msgid "Code used"
+msgstr "Код, используемый"
+
+# GMT 1559644711.9201
+msgid "Completed"
+msgstr "Завершен"
+
+# GMT 1559644711.9244
+#, mobile
+msgid "Confirmation"
+msgstr "Подтверждение"
+
+# GMT 1559644711.9288
+msgid "Connected Printers"
+msgstr "Подключенные принтеры <br> Подробнее <a href=\"https://www.google.com/cloudprint/learn/?hl=ru\" >о виртуальных принтерах</a>"
+
+# GMT 1559644711.9326
+#, mobile
+msgid "Continue shopping"
+msgstr "Продолжить покупки"
+
+# GMT 1559644711.9365
+msgid "Create a new choice list group"
+msgstr "Создать новый список для выбора группы"
+
+# GMT 1559644711.9408
+#, mobile
+msgid "Create a new discount"
+msgstr "Создать новую скидку"
+
+# GMT 1559644711.9451
+msgid "Create a new options group"
+msgstr "Создайте новую группу опций"
+
+# GMT 1559644711.9495
+msgid "Create a new product"
+msgstr "Создать новый товар"
+
+# GMT 1559644711.9539
+msgid "Create a new tax"
+msgstr "Создать новый налог"
+
+# GMT 1559644711.9582
+msgid "Create a store"
+msgstr "Создать магазин"
+
+# GMT 1559644711.9626
+msgid "Credit Card by phone"
+msgstr "Мобильный терминал"
+
+# GMT 1559644711.967
+msgid "Credit card (online payment)"
+msgstr "Кредитной картой (онлайн оплата)"
+
+# GMT 1559644711.9713
+msgid "Credit card (pay upon pickup or delivery)"
+msgstr "Кредитной картой (оплата при доставке или самовывозе)"
+
+# GMT 1559644711.9756
+msgid "Credit card payment"
+msgstr "Оплата картой"
+
+# GMT 1559644711.98
+msgid "Customer"
+msgstr "Заказчик"
+
+# GMT 1559644711.9843
+msgid "Customer Service"
+msgstr "Отдел продаж"
+
+# GMT 1559644711.9886
+msgid "Customer can add tip to a command?"
+msgstr "Клиент может оставить чаевые"
+
+# GMT 1559644711.993
+#, mobile
+msgid "Date of birth"
+msgstr "Дата рождения"
+
+# GMT 1559644711.9973
+msgid "Deductable"
+msgstr "Вычитаемые"
+
+# GMT 1559644712.0012
+msgid "Deduction"
+msgstr "Скидка"
+
+# GMT 1559644712.0055
+#, mobile
+msgid "Delete"
+msgstr "Удалить"
+
+# GMT 1559644712.0098
+#, mobile
+msgid "Delivery"
+msgstr "Доставка"
+
+# GMT 1559644712.0141
+msgid "Delivery Fees"
+msgstr "Стоимость доставки"
+
+# GMT 1559644712.0184
+#, mobile
+msgid "Delivery Method"
+msgstr "Способ доставки"
+
+# GMT 1559644712.0228
+#, mobile
+msgid "Delivery address"
+msgstr "Адрес доставки"
+
+# GMT 1559644712.0271
+msgid "Delivery area"
+msgstr "Адрес доставки"
+
+# GMT 1559644712.0307
+#, mobile
+msgid "Delivery fees"
+msgstr "Стоимость доставки"
+
+msgid "Delivery fees:"
+msgstr "Стоимость доставки:"
+
+# GMT 1559644712.035
+msgid "Delivery methods"
+msgstr "Способы доставки"
+
+msgid "Delivery methods:"
+msgstr "Способы доставки:"
+
+# GMT 1559644712.0393
+msgid "Delivery radius"
+msgstr "Радиус доставки"
+
+msgid "Delivery radius:"
+msgstr "Радиус доставки:"
+
+# GMT 1559644712.0436
+msgid "Delivery time"
+msgstr "Срок доставки в минутах"
+
+msgid "Delivery time:"
+msgstr "Срок доставки:"
+
+# GMT 1559644712.048
+msgid "Details"
+msgstr "Детали"
+
+# GMT 1559644712.0523
+#, mobile
+msgid "Discound code"
+msgstr "Код скидки"
+
+# GMT 1559644712.0566
+#, mobile
+msgid "Discount"
+msgstr "Скидка"
+
+# GMT 1559644712.0609
+msgid "Discount Settings"
+msgstr "Параметры Скидки"
+
+# GMT 1559644712.0652
+#, mobile
+msgid "Discount amount"
+msgstr "Сумма скидки"
+
+# GMT 1559644712.0695
+msgid "Discount amount si very high"
+msgstr "Скидка суммы очень высокая"
+
+# GMT 1559644712.0738
+#, mobile
+msgid "Discount code"
+msgstr "Код купона"
+
+# GMT 1559644712.0781
+msgid "Discount code already exists"
+msgstr "Код скидки уже существует"
+
+# GMT 1559644712.0825
+msgid "Discount code is missing"
+msgstr "Скидка код отсутствует"
+
+msgid "Discount code is missing,"
+msgstr "Скидка код отсутствует"
+
+# GMT 1559644712.0868
+msgid "Discount label is missing"
+msgstr "Скидка название отсутствует"
+
+msgid "Discount label is missing,"
+msgstr "Скидка этикетка отсутствует,"
+
+# GMT 1559644712.091
+msgid "Discount minimum amount is missing"
+msgstr "Скидка минимальная сумма отсутствует"
+
+msgid "Discount minimum amount is missing,"
+msgstr "Скидка минимальная сумма отсутствует"
+
+# GMT 1559644712.0953
+msgid "Discount no longer available"
+msgstr "Скидка больше не предоставляется"
+
+# GMT 1559644712.0997
+msgid "Discount only for carts with total more than:"
+msgstr "Скидка только для суммы больше:"
+
+# GMT 1559644712.1035
+msgid "Discount settings"
+msgstr "Параметры скидки"
+
+# GMT 1559644712.1078
+#, mobile
+msgid "Discount total"
+msgstr "Общая скидка"
+
+# GMT 1559644712.1121
+msgid "Discount type"
+msgstr "Тип скидки"
+
+# GMT 1559644712.1164
+msgid "Discount type is missing"
+msgstr "Типа скидки отсутствует"
+
+msgid "Discount type is missing,"
+msgstr "Тип скидки отсутствует"
+
+# GMT 1559644712.1208
+#, mobile
+msgid "Discount used"
+msgstr "Скидка используется"
+
+# GMT 1559644712.1251
+msgid "Discount validation date"
+msgstr "Дата проверки скидки"
+
+# GMT 1559644712.1285
+msgid "Discounted amount is missing"
+msgstr "Дисконтированная сумма отсутствует"
+
+msgid "Discounted amount is missing,"
+msgstr "Дисконтированная сумма отсутствует"
+
+# GMT 1559644712.1319
+msgid "Discounted amount should be a positive number"
+msgstr "Дисконтированная сумма должна быть положительным числом"
+
+# GMT 1559644712.1352
+#, mobile
+msgid "Do you confirm you want to remove your card?"
+msgstr "Вы подтверждаете, что вы хотите удалить карту?"
+
+# GMT 1559644712.1394
+#, mobile
+msgid "Done"
+msgstr "Сохранить"
+
+# GMT 1559644712.1427
+msgid "Duplicate this product"
+msgstr "Дублировать продукт"
+
+# GMT 1559644712.1461
+msgid "Edit a store"
+msgstr "Редактирование магазина"
+
+# GMT 1559644712.1495
+msgid "Edit the choice list group"
+msgstr "Редактирование группы список выбора"
+
+# GMT 1559644712.1528
+msgid "Edit the discount %s"
+msgstr "Редактирование скидки %s"
+
+# GMT 1559644712.1562
+msgid "Edit the options group %s"
+msgstr "Редактировать группу опций %s"
+
+# GMT 1559644712.1595
+msgid "Edit the product %s"
+msgstr "Редактировать продукт %s"
+
+# GMT 1559644712.1637
+msgid "Edit the tax %s"
+msgstr "Редактировать налог %s"
+
+# GMT 1559644712.167
+#, mobile
+msgid "Email"
+msgstr "Email"
+
+# GMT 1559644712.1712
+msgid "Enabled"
+msgstr "Включен"
+
+# GMT 1559644712.1756
+msgid "Error while using your points"
+msgstr "Ошибки при использовании очков"
+
+# GMT 1559644712.1799
+#, mobile
+msgid "Estimated discount:"
+msgstr "Оцененная скидка:"
+
+# GMT 1559644712.1834
+msgid "First"
+msgstr "Первый"
+
+# GMT 1559644712.1878
+#, mobile
+msgid "First Name"
+msgstr "Имя"
+
+# GMT 1559644712.1921
+#, mobile
+msgid "Firstname"
+msgstr "Имя"
+
+msgid "Format"
+msgstr "Формат"
+
+# GMT 1559644712.1964
+#, mobile
+msgid "Format:"
+msgstr "Формат:"
+
+# GMT 1559644712.2008
+msgid "Free delivery starting from"
+msgstr "Бесплатная доставка от"
+
+msgid "Free delivery starting from:"
+msgstr "Бесплатная доставка от:"
+
+# GMT 1559644712.2051
+#, mobile
+msgid "Free purchase"
+msgstr "Бесплатные покупки"
+
+# GMT 1559644712.2094
+msgid "From"
+msgstr "От"
+
+# GMT 1559644712.2138
+#, mobile
+msgid "Gratuity"
+msgstr "Чаевые"
+
+# GMT 1559644712.2182
+#, mobile
+msgid "Guest Order"
+msgstr "Быстрый заказ"
+
+# GMT 1559644712.2223
+msgid "Here is the detail of the order"
+msgstr "Вот детали заказа"
+
+# GMT 1559644712.2267
+msgid "Here is the detail of your order"
+msgstr "Вот детали Вашего заказа"
+
+# GMT 1559644712.2311
+#, mobile
+msgid "Hidden"
+msgstr "Скрыть"
+
+# GMT 1559644712.2355
+msgid "Hours of operation"
+msgstr "с 9:00 до 19:00"
+
+msgid "Hours of operation:"
+msgstr "Часы работы:"
+
+# GMT 1559644712.2398
+#, mobile
+msgid "I will pay"
+msgstr "к оплате"
+
+# GMT 1559644712.2441
+msgid "In store"
+msgstr "На почте"
+
+# GMT 1559644712.2485
+#, mobile
+msgid "Incl."
+msgstr "Вкл."
+
+# GMT 1559644712.2528
+msgid "Invalid code"
+msgstr "Неверный код"
+
+# GMT 1559644712.2571
+#, mobile
+msgid "Invoicing address"
+msgstr "Адрес для выставления счета"
+
+# GMT 1559644712.2615
+#, mobile
+msgid "Keep card information"
+msgstr "Сохранить информацию о карте"
+
+# GMT 1559644712.2658
+msgid "Label"
+msgstr "Название"
+
+# GMT 1559644712.2701
+msgid "Last"
+msgstr "Последнее"
+
+# GMT 1559644712.2745
+#, mobile
+msgid "Last Name"
+msgstr "Фамилия"
+
+# GMT 1559644712.2786
+#, mobile
+msgid "Lastname"
+msgstr "Фамилия"
+
+# GMT 1559644712.283
+msgid "Loading..."
+msgstr "Загрузка..."
+
+# GMT 1559644712.287
+msgid "Login"
+msgstr "Логин"
+
+# GMT 1559644712.2914
+msgid "MM"
+msgstr "ММ"
+
+# GMT 1559644712.2957
+msgid "Manage discounts"
+msgstr "Управлять скидками"
+
+# GMT 1559644712.3
+msgid "Manage user fields"
+msgstr "Управление пользовательскими полями"
+
+# GMT 1559644712.3044
+msgid "Mandatory"
+msgstr "Обязательное"
+
+# GMT 1559644712.3088
+msgid "Meal Voucher"
+msgstr "Купоны"
+
+msgid "Merchant ID"
+msgstr "ID мерчанта"
+
+# GMT 1559644712.3131
+msgid "Merchant ID:"
+msgstr "ID мерчанта:"
+
+# GMT 1559644712.3173
+msgid "Minimum amount"
+msgstr "Минимальная сумма"
+
+# GMT 1559644712.3214
+msgid "Minimum amount should be a positive number"
+msgstr "Минимальная сумма должна быть положительным числом"
+
+# GMT 1559644712.3257
+msgid "Minimum order"
+msgstr "Минимальный заказ"
+
+msgid "Minimum order:"
+msgstr "Минимальный заказ:"
+
+# GMT 1559644712.3301
+#, mobile
+msgid "My Cart"
+msgstr "Корзина"
+
+# GMT 1559644712.3344
+#, mobile
+msgid "My cart is empty"
+msgstr "Моя корзина пуста"
+
+# GMT 1559644712.3387
+msgid "My categories"
+msgstr "Мои категории"
+
+# GMT 1559644712.343
+#, mobile
+msgid "My information"
+msgstr "Моя информация"
+
+# GMT 1559644712.3473
+msgid "My orders"
+msgstr "Мои заказы"
+
+# GMT 1559644712.356
+msgid "My product's categories"
+msgstr "Мои категории"
+
+# GMT 1559644712.3604
+#, mobile
+msgid "My product's list choice options"
+msgstr "Список вариантов продукта выбор"
+
+# GMT 1559644712.3647
+msgid "My product's options"
+msgstr "Опции для продукта"
+
+# GMT 1559644712.3517
+msgid "My products"
+msgstr "Мои товары"
+
+# GMT 1559644712.3691
+msgid "My stores"
+msgstr "Мои магазины"
+
+# GMT 1559644712.3725
+msgid "My taxes"
+msgstr "Мои налоги"
+
+# GMT 1559644712.3768
+msgid "Name of the options group:"
+msgstr "Название группы опций:"
+
+# GMT 1559644712.3807
+msgid "New order from the application"
+msgstr "Новый заказ через мобильное приложение."
+
+# GMT 1559644712.385
+#, mobile
+msgid "Next"
+msgstr "Далее"
+
+# GMT 1559644712.3894
+msgid "No data available in table"
+msgstr "Нет данных в таблице"
+
+# GMT 1559644712.3937
+msgid "No matching records found"
+msgstr "Нет подходящих товаров"
+
+# GMT 1559644712.398
+#, mobile
+msgid "Notes"
+msgstr "Примечания"
+
+# GMT 1559644712.4024
+msgid "Number"
+msgstr "номер"
+
+# GMT 1559644712.4067
+#, mobile
+msgid "Option $1 is required."
+msgstr "Опция $1 обязательна"
+
+# GMT 1559644712.411
+msgid "Option name"
+msgstr "Опция"
+
+msgid "Option name:"
+msgstr "Товар:"
+
+# GMT 1559644712.4148
+msgid "Optional"
+msgstr "Необязательный"
+
+# GMT 1559644712.4191
+#, mobile
+msgid "Options"
+msgstr "Опции"
+
+# GMT 1559644712.4234
+msgid "Options group successfully deleted"
+msgstr "Группа для Опций успешно удалена"
+
+# GMT 1559644712.4278
+msgid "Options group successfully saved"
+msgstr "Группа для Опций успешно сохранены"
+
+# GMT 1559644712.4574
+msgid "Order %s cancelled"
+msgstr "Заказ %s отменен"
+
+# GMT 1559644712.4314
+msgid "Order Number"
+msgstr "Номер Заказа"
+
+# GMT 1559644712.4357
+#, mobile
+msgid "Order N°"
+msgstr "Заказ N°"
+
+# GMT 1559644712.4401
+#, mobile
+msgid "Order Total"
+msgstr "Итого"
+
+# GMT 1559644712.4444
+msgid "Order confirmation"
+msgstr "Подтверждение заказа"
+
+# GMT 1559644712.4488
+#, mobile
+msgid "Order details"
+msgstr "Детали заказа"
+
+# GMT 1559644712.4531
+#, mobile
+msgid "Order history"
+msgstr "История заказов"
+
+# GMT 1559644712.4618
+msgid "Order successfully cancelled"
+msgstr "Заказ успешно отменен"
+
+# GMT 1559644712.4662
+msgid "Order successfully saved"
+msgstr "Заказ успешно сохранен"
+
+# GMT 1559644712.4705
+msgid "Orders"
+msgstr "Заказы"
+
+# GMT 1559644712.4744
+msgid "Paid"
+msgstr "Оплачен"
+
+# GMT 1559644712.4788
+msgid "Paid by the client:"
+msgstr "Оплата от клиента:"
+
+# GMT 1559644712.4831
+#, mobile
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Password:"
+msgstr "Пароль:"
+
+# GMT 1559644712.4874
+#, mobile
+msgid "Pay"
+msgstr "Оплатить"
+
+# GMT 1559644712.4918
+#, mobile
+msgid "Payment"
+msgstr "Оплата"
+
+# GMT 1559644712.4955
+#, mobile
+msgid "Payment Method"
+msgstr "Способ Оплаты"
+
+# GMT 1559644712.4998
+msgid "Payment methods:"
+msgstr "Способы оплаты:"
+
+# GMT 1559644712.5042
+msgid "Paypal"
+msgstr "PayPal"
+
+# GMT 1559644712.5086
+msgid "Paypal settings"
+msgstr "Paypal настр.:"
+
+# GMT 1559644712.5129
+msgid "Pending payment"
+msgstr "Ожидает оплаты"
+
+# GMT 1559644712.5172
+msgid "Percentage is a least 1%, at max 99%"
+msgstr "Процент не менее 1%, максимум  99%"
+
+# GMT 1559644712.5216
+msgid "Percentage must be at least 1 percent, at most 99 percent"
+msgstr "Процент должен быть не менее 1%, не больше 99 процентов"
+
+# GMT 1559644712.5259
+msgid "Permit unregistered user to make order?"
+msgstr "Разрешить незарегистрированному пользователю сделать заказ?"
+
+# GMT 1559644712.5302
+#, mobile
+msgid "Phone"
+msgstr "Телефон"
+
+# GMT 1559644712.5345
+msgid "Phone number"
+msgstr "Номер телефона"
+
+# GMT 1559644712.5389
+msgid "Picture"
+msgstr "Фото"
+
+# GMT 1559644712.5433
+msgid "Please choose a delivery method"
+msgstr "Пожалуйста, выберите способ доставки"
+
+# GMT 1559644712.5476
+msgid "Please choose a payment method"
+msgstr "Пожалуйста, выберите способ оплаты"
+
+# GMT 1559644712.5555
+#, mobile
+msgid "Please fill in your card information to process Credit card payment:"
+msgstr "Заполните, пожалуйста, данные вашей карты, чтобы обработать платеж:"
+
+# GMT 1559644712.552
+msgid "Please, enter an email address for the store %s"
+msgstr "Пожалуйста, введите адрес электронной почты для магазина %s"
+
+# GMT 1559644712.5598
+msgid "Points"
+msgstr "Очки"
+
+# GMT 1559644712.5641
+#, mobile
+msgid "Points available:"
+msgstr "Доступные баллы:"
+
+# GMT 1559644712.5684
+#, mobile
+msgid "Postcode"
+msgstr "Почтовый индекс"
+
+# GMT 1559644712.5727
+#, mobile
+msgid "Previous"
+msgstr "Предыдущие"
+
+# GMT 1559644712.5771
+msgid "Price"
+msgstr "Цена"
+
+msgid "Price:"
+msgstr "Цена:"
+
+# GMT 1559644712.5814
+msgid "Price: %s"
+msgstr "Цена: %s"
+
+# GMT 1559644712.5857
+#, mobile
+msgid "Prices"
+msgstr "Цены"
+
+# GMT 1559644712.5901
+msgid "Printer successfully saved"
+msgstr "Принтер успешно сохранен"
+
+# GMT 1559644712.5945
+#, mobile
+msgid "Proceed"
+msgstr "Далее"
+
+# GMT 1559644712.5982
+msgid "Processing..."
+msgstr "Processing..."
+
+# GMT 1559644712.6021
+msgid "Product"
+msgstr "Товар"
+
+# GMT 1559644712.6057
+msgid "Product formats"
+msgstr "Форматы продукта"
+
+# GMT 1559644712.6092
+msgid "Product name"
+msgstr "Название товара"
+
+msgid "Product name:"
+msgstr "Название товара:"
+
+# GMT 1559644712.6135
+msgid "Product successfully duplicated"
+msgstr "Товар успешно дублирован"
+
+# GMT 1559644712.6179
+msgid "Product successfully saved"
+msgstr "Товар успешно сохранен"
+
+msgid "Publishable Key"
+msgstr "Публичный Ключ"
+
+# GMT 1559644712.6223
+msgid "Publishable Key:"
+msgstr "Публичный Ключ:"
+
+# GMT 1559644712.6266
+#, mobile
+msgid "Qty"
+msgstr "кол-во"
+
+# GMT 1559644712.6309
+msgid "Qty: %s"
+msgstr "Кол-во: %s"
+
+# GMT 1559644712.6353
+msgid "Radius in Km"
+msgstr "Радиус в км"
+
+# GMT 1559644712.6396
+msgid "Remaining amount due"
+msgstr "Остаться должно количество"
+
+# GMT 1559644712.6437
+#, mobile
+msgid "Remaining due"
+msgstr "Скидка"
+
+# GMT 1559644712.648
+#, mobile
+msgid "Remove card"
+msgstr "Удалить карту"
+
+# GMT 1559644712.6523
+msgid "Return URL:"
+msgstr "Return URL:"
+
+# GMT 1559644712.6566
+#, mobile
+msgid "Review"
+msgstr "Просмотр"
+
+# GMT 1559644712.661
+msgid "Search:"
+msgstr "Поиск::"
+
+# GMT 1559644712.6653
+msgid "Secret Key"
+msgstr "Секретный Ключ"
+
+msgid "Secret Key:"
+msgstr "Секретный Ключ:"
+
+# GMT 1559644712.6697
+msgid "Settings"
+msgstr "Настройки"
+
+# GMT 1559644712.674
+msgid "Settings successfully saved"
+msgstr "Настройки сохранены"
+
+# GMT 1559644712.6784
+msgid "Show _MENU_ entries"
+msgstr "Показать _MENU_ товары"
+
+# GMT 1559644712.6827
+msgid "Show search fields on product list ?"
+msgstr "Показать поля поиска в списке продукции?"
+
+# GMT 1559644712.6864
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "Показать 0 до 0 из 0 товаров"
+
+# GMT 1559644712.6905
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "Показать _START_ до _END_ из_TOTAL_ товаров"
+
+# GMT 1559644712.6942
+msgid "Signature"
+msgstr "Signature PayPal"
+
+msgid "Signature:"
+msgstr "Подпись Signature:"
+
+# GMT 1559644712.6976
+#, mobile
+msgid "Signup"
+msgstr "Регистрация"
+
+# GMT 1559644712.7018
+#, mobile
+msgid "Some mandatory fields are empty."
+msgstr "Некоторые обязательные поля пусты."
+
+# GMT 1559644712.706
+msgid "Sorry we can't proceed to deliver your order. It has been canceled."
+msgstr "К сожалению, мы не сможем доставить ваш заказ. Он был отменен."
+
+# GMT 1559644714.7765
+#, mobile
+msgid "Sorry, you are outside the delivery radius"
+msgstr "Извините, вы находитесь за пределами радиуса доставки"
+
+# GMT 1559644712.7098
+#, mobile
+msgid "Status"
+msgstr "Статус"
+
+# GMT 1559644712.7141
+msgid "Store choice"
+msgstr "Выбор магазина"
+
+# GMT 1559644712.7184
+msgid "Store information"
+msgstr "Информация о магазине"
+
+# GMT 1559644712.7228
+msgid "Store name"
+msgstr "Название магазина"
+
+msgid "Store name:"
+msgstr "Название магазина:"
+
+# GMT 1559644712.7271
+msgid "Store successfully deleted"
+msgstr "Магазин успешно удален"
+
+# GMT 1559644712.7314
+msgid "Store successfully saved"
+msgstr "Магазин успешно сохранен"
+
+# GMT 1559644712.7358
+#, mobile
+msgid "Stored card information."
+msgstr "Сохраненные данные карты."
+
+# GMT 1559644712.7401
+msgid "Stores"
+msgstr "Магазины"
+
+# GMT 1559644712.7445
+#, mobile
+msgid "Street"
+msgstr "Улица"
+
+# GMT 1559644712.7488
+msgid "Stripe settings"
+msgstr "Stripe настройки"
+
+# GMT 1559644712.7531
+#, mobile
+msgid "Subtotal"
+msgstr "Подитог"
+
+# GMT 1559644712.7575
+#, mobile
+msgid "Subtotal Excl. Tax"
+msgstr "Итого искл. налог"
+
+# GMT 1559644712.7612
+msgid "Subtotal before deduction"
+msgstr "Итого до вычета"
+
+# GMT 1559644712.7651
+#, mobile
+msgid "Tax"
+msgstr "Налог"
+
+# GMT 1559644712.7694
+msgid "Tax name"
+msgstr "Название налога"
+
+msgid "Tax name:"
+msgstr "Название налога:"
+
+# GMT 1559644712.7734
+msgid "Tax rate"
+msgstr "Ставка налога"
+
+msgid "Tax rate:"
+msgstr "Ставка налога:"
+
+# GMT 1559644712.7776
+msgid "Tax successfully deleted"
+msgstr "Налог успешно удален"
+
+# GMT 1559644712.7819
+msgid "Tax successfully saved"
+msgstr "Налог успешно сохранен"
+
+msgid "Tax:"
+msgstr "Налог:"
+
+# GMT 1559644712.7859
+msgid "Thank you!"
+msgstr "Спасибо!"
+
+# GMT 1559644712.7893
+msgid "The clients calculate the change:"
+msgstr "Перерасчет изменений у клиентов:"
+
+# GMT 1559644712.7935
+msgid "The delivery method"
+msgstr "Способ доставки"
+
+# GMT 1559644712.7978
+msgid "The following options are required:<br />%s"
+msgstr "Требуются следующие опции:<br />%s"
+
+# GMT 1559644712.802
+msgid "The option %s is required"
+msgstr "Требуется вариант опции %s"
+
+# GMT 1559644712.8056
+msgid "The payment has been cancelled, something wrong happened? Feel free to contact us"
+msgstr "Оплата была отменена, наверное что то случилось? Не стесняйтесь обращаться к нам."
+
+# GMT 1559644712.8098
+msgid "The payment method"
+msgstr "Способ оплаты"
+
+# GMT 1559644712.814
+msgid "Time in minutes"
+msgstr "Время в минутах"
+
+# GMT 1559644712.8183
+#, mobile
+msgid "Tip"
+msgstr "Тип"
+
+# GMT 1559644712.8222
+#, mobile
+msgid "Total"
+msgstr "Итого"
+
+# GMT 1559644712.8264
+#, mobile
+msgid "Total Excl. Tax"
+msgstr "Итог без налога"
+
+# GMT 1559644712.8306
+msgid "Total Tax"
+msgstr "Общий налог"
+
+# GMT 1559644712.8348
+msgid "Total: %s"
+msgstr "Итого: %s"
+
+# GMT 1559644712.839
+msgid "Unable to proceed to checkout the minimum order amount is %s"
+msgstr "Невозможно приступить к оформлению заказа, так как минимальная сумма заказа от %s"
+
+# GMT 1559644712.8432
+msgid "Unit Price"
+msgstr "Цена за ед."
+
+# GMT 1559644712.8474
+msgid "Unit price"
+msgstr "Цена за ед."
+
+# GMT 1559644712.851
+#, mobile
+msgid "Updating price"
+msgstr "Обновление цен"
+
+# GMT 1559644712.8552
+msgid "Usable once"
+msgstr "Можно использовать один раз"
+
+# GMT 1559644712.8633
+#, mobile
+msgid "Use my points?"
+msgstr "Использовать мои очки?"
+
+# GMT 1559644712.8595
+#, mobile
+msgid "Use:"
+msgstr "Использование:"
+
+# GMT 1559644712.8676
+msgid "Username"
+msgstr "Пользователь"
+
+msgid "Username:"
+msgstr "Username PayPal:"
+
+# GMT 1559644712.8718
+msgid "Validity date"
+msgstr "Срок действия"
+
+# GMT 1559644712.876
+msgid "Validity date should be a valid date"
+msgstr "Срок действия должен быть действителен"
+
+msgid "Verify Key"
+msgstr "Ключ верификации"
+
+# GMT 1559644712.8798
+msgid "Verify Key:"
+msgstr "Verify Key:"
+
+# GMT 1559644712.884
+msgid "Waiting for payment"
+msgstr "Ожидает оплаты"
+
+# GMT 1559644712.8882
+msgid "We apologize but the payment method %s is currently not available"
+msgstr "Мы приносим свои извинения, но способ оплаты %s в настоящее время не доступен"
+
+# GMT 1559644712.892
+#, mobile
+msgid "We thank you for your order. A confirmation email has been sent"
+msgstr "Мы благодарим Вас за Ваш заказ. Мы отправили подтверждение по электронной почте."
+
+# GMT 1559644712.8962
+msgid "YYYY"
+msgstr "ГГГГ"
+
+# GMT 1559644712.8996
+msgid "You did not login."
+msgstr "Вы не вошли"
+
+# GMT 1559644712.9037
+msgid "You don't have any categories yet"
+msgstr "У Вас пока нет категорий"
+
+# GMT 1559644712.9079
+#, mobile
+msgid "You don't have enough points"
+msgstr "Вам не хватает очков"
+
+# GMT 1559644712.9122
+msgid "You have a connected printer? Enter the email address"
+msgstr "У вас есть подключенный принтер? Введите адрес электронной почты<br>Если принтер не настроен, то счет придет на указанную почту"
+
+# GMT 1559644712.9165
+msgid "You have a connected printer? Enter the email address for each store"
+msgstr "У вас есть подключенный принтер? Введите адрес электронной почты для каждого магазина<br>Если принтер не настроен, то счет придет на указанную почту"
+
+# GMT 1559644712.92
+#, mobile
+msgid "You have to choose a delivery method."
+msgstr "Вы должны выбрать способ доставки."
+
+# GMT 1559644712.9238
+#, mobile
+msgid "You must be logged in to continue"
+msgstr "Зарегистрируйтесь пожалуйста"
+
+# GMT 1559644712.9281
+msgid "You used the code before"
+msgstr "Вы использовали код, прежде чем"
+
+# GMT 1559644712.9324
+msgid "Your address"
+msgstr "Ваш адрес"
+
+# GMT 1559644712.9367
+#, mobile
+msgid "Your email address"
+msgstr "Ваш email"
+
+# GMT 1559644712.9411
+msgid "Your firstname"
+msgstr "Ваше имя"
+
+# GMT 1559644712.9454
+msgid "Your lastname"
+msgstr "Ваша фамилия"
+
+# GMT 1559644712.9497
+msgid "Your phone number"
+msgstr "Ваш номер телефона"
+
+# GMT 1559644712.9541
+msgid "e.g., Sauces"
+msgstr "например: Цвета, или с соусом. и тд."
+
+# GMT 1559644712.9672
+msgid "without taxes"
+msgstr "без налога"
+
+# GMT 1559644712.9715
+msgid "your choice"
+msgstr "ваш заказ"
+
+msgid "Итого"
+msgstr "Итого"
+
+msgid "Итого: %s"
+msgstr "Итого: %s"

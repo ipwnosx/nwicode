@@ -1,0 +1,42 @@
+<ion-view sb-page-background class="contact-view" can-swipe-back="false">
+    <ion-nav-title>{{ page_title }}</ion-nav-title>
+    <ion-content>
+		<ion-fab vertical="top" horizontal="end" slot="fixed" ng-if="!contact.handle_geo_protocol && (contact.coordinates || contact.street && contact.postcode && contact.city)" ng-click="showMap();">
+			<ion-fab-button color="secondary">
+				<ion-icon name="locate"></ion-icon>
+			</ion-fab-button>
+		</ion-fab>
+        <div class="loader" ng-show="is_loading">
+			<ion-spinner class="spinner-custom"></ion-spinner>
+        </div>
+		<ion-card ng-show="!is_loading">
+			<ion-card-header>
+				<ion-card-title><i class="icon ion-person"></i> {{ contact.name }}</ion-card-title>
+			</ion-card-header>
+			<div class="item item-image item-custom" ng-if="contact.cover_url">
+				<img ng-src="{{ contact.cover_url }}" />
+			</div>
+			<ion-item ng-show="contact.street" lines="none">
+				<ion-icon name="pin" slot="start"></ion-icon>
+				<ion-label>
+					<p style="white-space:normal;">{{ contact.address }}</p>
+				</ion-label>
+			</ion-item>
+			<ion-card-content ng-bind-html="contact.description | trusted_html"></ion-card-content>
+		</ion-card>
+    </ion-content>
+	<ion-fab vertical="bottom" horizontal="start" edge slot="fixed" style="bottom: 15px;">
+		<ion-fab-button>
+			<ion-icon name="share"></ion-icon>
+		</ion-fab-button>
+		<ion-fab-list side="end">
+			<ion-fab-button ng-if="contact.phone" ng-click="call()"><ion-icon name="call"></ion-icon></ion-fab-button>
+			<ion-fab-button ng-if="contact.form_url" ng-click="openForm(contact.form_url);"><ion-icon name="mail"></ion-icon></ion-fab-button>
+			<ion-fab-button ng-if="contact.website_url" ng-click="openLink(contact.website_url);"><ion-icon name="globe"></ion-icon></ion-fab-button>
+			<ion-fab-button ng-if="contact.facebook_url" ng-click="openLink(contact.facebook_url);"><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
+			<ion-fab-button ng-if="contact.vkontakte_url" ng-click="openLink(contact.vkontakte_url);"><ion-icon name="logo-vk"></ion-icon></ion-fab-button>
+			<ion-fab-button ng-if="contact.whatsapp_url" ng-click="openLink('whatsapp://send?phone='+contact.whatsapp_url);"><ion-icon name="logo-whatsapp"></ion-icon></ion-fab-button>
+			<ion-fab-button ng-if="contact.twitter_url" ng-click="openLink(contact.twitter_url);"><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+		</ion-fab-list>
+	</ion-fab>
+</ion-view>

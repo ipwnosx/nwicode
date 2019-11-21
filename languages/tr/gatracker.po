@@ -1,0 +1,96 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T20:26:34+03:00\n"
+"PO-Revision-Date: 2019-06-05T20:26:34+03:00\n"
+"Language: \n"
+
+msgid "Active Users"
+msgstr "Aktif Kullanıcı"
+
+msgid "App Traffic"
+msgstr "App Trafik"
+
+msgid "By sessions"
+msgstr "Oturumlar tarafından"
+
+msgid "By users"
+msgstr "Kullanıcılar tarafından"
+
+msgid "Click Create Credentials -> OAuth Client ID -> Web Application Type"
+msgstr "Tıklayın Kimlik -> OAuth İstemci KİMLİĞİ -> Web Uygulama Tipi Oluşturma"
+
+msgid "Client ID"
+msgstr "İstemci KİMLİĞİ"
+
+msgid "Copy Client ID and Paste in above form"
+msgstr "Yukarıdaki formda kopyasını İstemci KİMLİĞİ ve Yapıştır"
+
+msgid "Enter your URl or Whitle Lable URL and Click Create"
+msgstr "URl girin veya Alternatifler URL ve Tıklayın Whitle Oluşturun"
+
+msgid "Feature Visits"
+msgstr "Özellikleri Gör"
+
+msgid "Go to https://console.cloud.google.com/apis/credentials"
+msgstr "Https://console.cloud.google.com/apis/credentials git"
+
+msgid "Last Month"
+msgstr "Geçen Ay"
+
+msgid "Last Week"
+msgstr "Geçen Hafta"
+
+msgid "Last Year"
+msgstr "Geçen Yıl"
+
+msgid "OAuth Client ID"
+msgstr "OAuth İstemci KİMLİĞİ"
+
+msgid "OAuth Client ID not set for your site. Please contact site admin to get it done."
+msgstr "OAuth İstemci site için belirlenen KİMLİĞİ değil. Lütfen site yapılması için admin."
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Setup Google Analytics Account"
+msgstr "Google Analytics Hesabı ayarla"
+
+msgid "Steps to Generate New Client ID"
+msgstr "Adımları Yeni İstemci KİMLİK Oluşturmak için"
+
+msgid "This Month"
+msgstr "Bu Ay"
+
+msgid "This Week"
+msgstr "Bu Hafta"
+
+msgid "This Week vs Last Week"
+msgstr "Bu Hafta, Geçen Hafta vs"
+
+msgid "This Year"
+msgstr "Bu Yıl"
+
+msgid "This Year vs Last Year"
+msgstr "Bu Yıl Geçen yıl vs"
+
+msgid "To create new account visit Google Analytics"
+msgstr "Yeni hesap oluştur Google Analytics için"
+
+msgid "Top Countries"
+msgstr "Lider Ülkeler"
+
+msgid "User Locations"
+msgstr "Kullanım Yerleri"
+
+msgid "Visit Google Analytics"
+msgstr "Google Analytics Ziyaret"
+
+msgid "You need to create above steps for all the domains where this module is installed i.e only main url for SAE/MAE and whitelabel url for PE"
+msgstr "Bu modül yüklü olduğu tüm alanlar için yukarıdaki oluşturmanız gerekir.PE için SAE/MAE ve whitelabel url için e sadece ana url"

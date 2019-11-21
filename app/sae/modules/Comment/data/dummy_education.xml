@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designs>
+    <university>
+        <newswall>
+            <content>
+                <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</text>
+                <image>/../../app/local/modules/TemplateUniversity/resources/images/templates/university/content/study4.png</image>
+            </content>
+            <content>
+                <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</text>
+                <image>/../../app/local/modules/TemplateUniversity/resources/images/templates/university/content/study5.png</image>
+            </content>
+        </newswall>
+        <fanwall>
+            <content>
+                <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</text>
+                <image>/../../app/local/modules/TemplateUniversity/resources/images/templates/university/content/study4.png</image>
+            </content>
+        </fanwall>
+    </university>
+</designs>
+

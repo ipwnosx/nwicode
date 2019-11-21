@@ -1,0 +1,390 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-10T08:43:13+03:00\n"
+"PO-Revision-Date: 2019-07-10T08:43:13+03:00\n"
+"Language: \n"
+
+msgid "Activate wallet"
+msgstr "Активировать кошелек"
+
+msgid "Add funds"
+msgstr "Добавить средства"
+
+msgid "Add funds history"
+msgstr "Добавить историю средств"
+
+msgid "Add funds to wallet"
+msgstr "Пополнить баланс"
+
+msgid "Add new method"
+msgstr "Добавить новый метод"
+
+msgid "Add payment methods, specify a minimum for each payment, write a brief instruction."
+msgstr "Добавить способы оплаты, задать минимальное значение для каждого платежа, напишите краткую инструкцию."
+
+msgid "Amount"
+msgstr "Сумма"
+
+msgid "Amount changed manually."
+msgstr "Сумма изменена вручную."
+
+msgid "Application Administrator Account"
+msgstr "Учетная запись Администратора"
+
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+msgid "Balance"
+msgstr "Баланс"
+
+msgid "Bill customer. Balance can not be negative."
+msgstr "Счёт пользователя. Баланс не может быть отрицательным."
+
+msgid "Bill source"
+msgstr "Счета от"
+
+msgid "Bill title"
+msgstr "Счёт название"
+
+msgid "Bill title is required!"
+msgstr "Счёт название!"
+
+msgid "Bills"
+msgstr "Счета на оплату"
+
+msgid "Bills today (qty/summ)"
+msgstr "Счета сегодня (колво/сумма)"
+
+msgid "Block wallet"
+msgstr "Заблокировать кошелек"
+
+msgid "Blocked"
+msgstr "Заблокирован"
+
+msgid "Blocked Users"
+msgstr "Заблокированные пользователи"
+
+msgid "Cancel payout"
+msgstr "Отмена выплат"
+
+msgid "Cancel request"
+msgstr "Отменить запрос"
+
+msgid "Canceled"
+msgstr "Отменили"
+
+msgid "Change funds"
+msgstr "Изменение средств"
+
+msgid "Change funds in current wallet"
+msgstr "Изменение средств на текущих кошельках"
+
+msgid "Change the balance of the wallet manually. Balance can not be negative."
+msgstr "Изменить баланс кошелька вручную. Баланс не может быть отрицательным."
+
+msgid "Comment"
+msgstr "Коммент.."
+
+msgid "Create Bill"
+msgstr "Создать счет"
+
+msgid "Create bill"
+msgstr "Создать счет"
+
+msgid "Customer"
+msgstr "Пользователь"
+
+msgid "Customers"
+msgstr "Пользователи"
+
+msgid "Dashboard"
+msgstr "Панель управления"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Exit to Editor"
+msgstr "Выход в редактор"
+
+msgid "First"
+msgstr "Первый"
+
+msgid "Firstname"
+msgstr "Имя"
+
+msgid "From"
+msgstr "От"
+
+msgid "From account"
+msgstr "Со счета"
+
+msgid "From or To account"
+msgstr "Или на счет"
+
+msgid "History of add funds"
+msgstr "Истории пополнения средств"
+
+msgid "In wallets"
+msgstr "В кошельках"
+
+msgid "Information from customer"
+msgstr "Информация от клиента"
+
+msgid "Invalid amount"
+msgstr "Неверно"
+
+msgid "Is active"
+msgstr "Активна"
+
+msgid "Last"
+msgstr "Последние"
+
+msgid "Lastname"
+msgstr "Фамилия"
+
+msgid "Main settings"
+msgstr "Основные параметры"
+
+msgid "Make request"
+msgstr "Сделать запрос"
+
+msgid "Method disabled"
+msgstr "Отключено"
+
+msgid "Method enabled"
+msgstr "Включено"
+
+msgid "Method instruction"
+msgstr "Метод - инструкция"
+
+msgid "Method minimum"
+msgstr "Минимальный способ"
+
+msgid "Method name"
+msgstr "Название метода"
+
+msgid "Method title"
+msgstr "Название метода"
+
+msgid "More Info"
+msgstr "Подробнее"
+
+msgid "Next"
+msgstr "Далее"
+
+msgid "No data available in table"
+msgstr "Нет данных в таблице"
+
+msgid "No entries to show"
+msgstr "Нет записи для отображения"
+
+msgid "OK"
+msgstr "ОК"
+
+msgid "Online"
+msgstr "Онлайн"
+
+msgid "Pay"
+msgstr "Оплатить"
+
+msgid "Payment Systems"
+msgstr "Платежные системы"
+
+msgid "Payment invoice No"
+msgstr "Оплаты счетов нет"
+
+msgid "Payment method"
+msgstr "Способ оплаты"
+
+msgid "Payout"
+msgstr "Выплаты"
+
+msgid "Payout Today (qty/summ)"
+msgstr "Выплата сегодня (колво/сумма)"
+
+msgid "Payout Total (qty/summ)"
+msgstr "Выплаты итого (кол-во/сумма)"
+
+msgid "Payout method"
+msgstr "Способ выплаты"
+
+msgid "Payout methods"
+msgstr "Методы выплат"
+
+msgid "Payout minimum"
+msgstr "Минимальная выплата"
+
+msgid "Payout requests"
+msgstr "Запросы на выплаты"
+
+msgid "Payouts"
+msgstr "Выплаты"
+
+msgid "Payouts history"
+msgstr "Выплаты истории"
+
+msgid "Pending"
+msgstr "В ожидании"
+
+msgid "Previous"
+msgstr "Предыдущие"
+
+msgid "Recepient"
+msgstr "Получатель"
+
+msgid "Recepient email"
+msgstr "Получатель email"
+
+msgid "Recepient not found"
+msgstr "Получатель не найден"
+
+msgid "Registration bonus."
+msgstr "Регистрационный бонус."
+
+msgid "Reply"
+msgstr "Ответ"
+
+msgid "Reply message"
+msgstr "Сообщение"
+
+msgid "Request information"
+msgstr "Запрос информации"
+
+msgid "Request payout"
+msgstr "Выплата по запросу"
+
+msgid "Request payout №"
+msgstr "Запрос № выплаты"
+
+msgid "Requests"
+msgstr "Запросы"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Send"
+msgstr "Отправить"
+
+msgid "Send funds"
+msgstr "Отправить средства"
+
+msgid "Send funds to other customer. Balance can not be negative."
+msgstr "Отправить средства на другой счёт. Баланс не может быть отрицательным."
+
+msgid "Settings successfully saved"
+msgstr "Настройки успешно сохранены"
+
+msgid "Showing page _PAGE_ of _PAGES_"
+msgstr "Показывая _PAGE_ странице _PAGES_"
+
+msgid "Sign Up Bonus"
+msgstr "Бонус за регистрацию"
+
+msgid "Some fields with error!"
+msgstr "Некоторые поля с ошибкой!"
+
+msgid "Specify the amount and specify the payment options. Balance can not be negative."
+msgstr "Укажите сумму и указать способ оплаты. Баланс не может быть отрицательным."
+
+msgid "The list is empty"
+msgstr "Список пуст"
+
+msgid "The recipient will see your comment."
+msgstr "Получатель будет видеть ваш комментарий."
+
+msgid "There are no settings here."
+msgstr "Здесь нет настроек."
+
+msgid "This feature is available only to registered users."
+msgstr "Эта функция доступна только для зарегистрированных пользователей."
+
+msgid "Time"
+msgstr "Время"
+
+msgid "Title"
+msgstr "Название"
+
+msgid "To account"
+msgstr "На счет"
+
+msgid "To view, you must log in."
+msgstr "Чтобы смотреть, вы должны войти в систему."
+
+msgid "Total Users"
+msgstr "Всего пользователей"
+
+msgid "Transactions"
+msgstr "Транзакции"
+
+msgid "Transactions Today (qty/summ)"
+msgstr "Сделок сегодня (колво/сумма)"
+
+msgid "Transactions Total (qty/summ)"
+msgstr "Транзакции итого (кол-во/сумма)"
+
+msgid "Transactions history"
+msgstr "История транзакций"
+
+msgid "Transfer funds"
+msgstr "Перевод денежных средств"
+
+msgid "Transfer to other"
+msgstr "Перевод на другую"
+
+msgid "Unblock wallet"
+msgstr "Разблокировать кошелек"
+
+msgid "Update payout request?"
+msgstr "Обновление запроса на выплату?"
+
+msgid "Users can recharge"
+msgstr "Пользователи могут пополнить"
+
+msgid "Users can request payouts"
+msgstr "Пользователи могут запрашивать выплаты"
+
+msgid "Users can transfer funds to each other"
+msgstr "Пользователи могут переводить средства друг другу"
+
+msgid "View history"
+msgstr "Посмотреть историю"
+
+msgid "Wallet"
+msgstr "Кошелек"
+
+msgid "Wallet blocked"
+msgstr "Кошелек заблокирован"
+
+msgid "Wallet blocked!"
+msgstr "Кошелек заблокирован!"
+
+msgid "Wallet is not active. Activate?"
+msgstr "Кошелек не активен. Активировать?"
+
+msgid "Wallet module not activated! Exit..."
+msgstr "Модуль кошелек не активирован! Выход..."
+
+msgid "Wallet module not found! Exit..."
+msgstr "Модуль кошелька, не нашел! Выход..."
+
+msgid "Wallet transaction list"
+msgstr "Список операций кошелька"
+
+msgid "Wallet unblocked"
+msgstr "Кошелек разблокирован"
+
+msgid "You do not have enough funds to pay. Please replenish your account at the beginning with the required amount."
+msgstr "Вам не хватает средств для оплаты. Пожалуйста, пополните ваш счет с необходимой суммой."

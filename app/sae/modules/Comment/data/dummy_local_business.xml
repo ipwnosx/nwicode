@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designs>
+    <black_white_dress>
+        <newswall>
+            <content>
+                <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</text>
+                <image>/../../app/local/modules/TemplateBlackWhiteDress/resources/images/templates/black_white_dress/content/coffee.png</image>
+            </content>
+            <content>
+                <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</text>
+                <image>/../../app/local/modules/TemplateBlackWhiteDress/resources/images/templates/black_white_dress/content/coffee2.png</image>
+            </content>
+        </newswall>
+        <fanwall>
+            <content>
+                <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</text>
+                <image>/../../app/local/modules/TemplateBlackWhiteDress/resources/images/templates/black_white_dress/content/coffee10.png</image>
+            </content>
+        </fanwall>
+    </black_white_dress>
+</designs>
+

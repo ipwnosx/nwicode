@@ -1,0 +1,994 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T20:42:45+03:00\n"
+"PO-Revision-Date: 2019-06-05T20:42:45+03:00\n"
+"Language: \n"
+
+msgid "%MONTH%/%YEAR%"
+msgstr "%AY%YIL%"
+
+msgid "%s change your driver status"
+msgstr "%sürücü durumunu değiştir"
+
+msgid "%s, you finished your ride with %s."
+msgstr "%s, %s ile yolculuk bitti."
+
+msgid "%s, you finished your ride with <em>%s</em>."
+msgstr "%s, <em>%s</em>ile yolculuk bitti."
+
+msgid "2Checkout Settings"
+msgstr "2Checkout Ayarları"
+
+msgid "Accept"
+msgstr "Kabul"
+
+msgid "Accept this driver"
+msgstr "Bu sürücü kabul"
+
+msgid "Accepted"
+msgstr "Kabul"
+
+msgid "Add a"
+msgstr "Ekleyin"
+
+msgid "Add a picture"
+msgstr "Bir Resim Ekle"
+
+msgid "Add vehicle type"
+msgstr "Araç türü ekleyin"
+
+msgid "Address"
+msgstr "Adres"
+
+msgid "Address is required"
+msgstr "Adresi gereklidir"
+
+msgid "All"
+msgstr "Tüm"
+
+msgid "Allow drivers to set final price"
+msgstr "Sürücüler son fiyat ayarlamak için izin ver"
+
+msgid "Allowed payment methods"
+msgstr "İzin ödeme yöntemleri"
+
+msgid "Already paid"
+msgstr "Zaten ödedi"
+
+msgid "An error occured while lauching your request. Please try again later."
+msgstr "İsteğiniz lauching sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occured while saving!"
+msgstr "Kaydedilirken bir hata oluştu!"
+
+msgid "An error occured. Restart app or manage request from history panel."
+msgstr "Bir hata oluştu. Yeniden tarih panelinden istek yönetmek app ya."
+
+msgid "An error occurred while deleting the vehicle type. Please try again later."
+msgstr "Araç türü silinirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while managing your driver. Please try again later."
+msgstr "Sürücünüzü yönetme sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while processing your payment"
+msgstr "Ödeme işleme sırasında bir hata oluştu"
+
+msgid "An error occurred while saving"
+msgstr "Kaydederken bir hata oluştu"
+
+msgid "An error occurred while saving, please try again later"
+msgstr "Kaydedilirken bir hata oluştu, lütfen daha sonra tekrar deneyin"
+
+msgid "Are you a driver or a passenger ?"
+msgstr "Bir sürücü veya Yolcu musun ?"
+
+msgid "Are you sure to cancel ride?"
+msgstr "Yolculuğu iptal etmek istiyor musunuz?"
+
+msgid "Are you sure to delete this driver?"
+msgstr "Bu sürücüyü silmek istiyor musunuz?"
+
+msgid "Are you sure to finish ride?"
+msgstr "Yolculuğu tamamlamak için emin misin?"
+
+msgid "Are you sure to start this ride?"
+msgstr "Bu yolculuk başlatmak istiyor musunuz?"
+
+msgid "Are you sure you want to delete this vehicle type?"
+msgstr "Bu araç türü silmek istediğinizden emin misiniz?"
+
+msgid "Are you sure?"
+msgstr "Emin misin?"
+
+msgid "Authorization Failed"
+msgstr "Yetkilendirme Başarısız Oldu"
+
+msgid "Bad request - missing data"
+msgstr "Hatalı istek - eksik veri"
+
+msgid "Bad request - parameter error"
+msgstr "Kötü istek parametre hatası"
+
+msgid "Base Fare"
+msgstr "Taban ücret"
+
+msgid "Base fare"
+msgstr "Taban ücret"
+
+msgid "Base fare is required"
+msgstr "Taban ücret gereklidir"
+
+msgid "Base fare:"
+msgstr "Taban ücret:"
+
+msgid "Billing method"
+msgstr "Fatura yöntemi"
+
+msgid "CVC"
+msgstr "CVC"
+
+msgid "Cancel"
+msgstr "İptal"
+
+msgid "Cancel ride"
+msgstr "Yolculuk iptal"
+
+msgid "Cancelled"
+msgstr "İptal"
+
+msgid "Card"
+msgstr "Kartı"
+
+msgid "Cash"
+msgstr "Nakit"
+
+msgid "Cash or Credit Card (via Iyzico)"
+msgstr "(İyzico)nakit ya da Kredi Kartı"
+
+msgid "Change"
+msgstr "Değiştirin"
+
+msgid "Checking information"
+msgstr "Bilgiyi kontrol"
+
+msgid "Choose a driver"
+msgstr "Bir sürücü seçin"
+
+msgid "Choose me!"
+msgstr "Beni seç!"
+
+msgid "Choose your payment method"
+msgstr "Ödeme yönteminizi seçin"
+
+msgid "Choose your vehicle type"
+msgstr "Araç türünü seçin"
+
+msgid "City"
+msgstr "Şehir"
+
+msgid "City is required"
+msgstr "Şehir gereklidir"
+
+msgid "Close"
+msgstr "Yakın"
+
+msgid "Code"
+msgstr "Kod"
+
+msgid "Confirm"
+msgstr "onaylamak"
+
+msgid "Confirmation"
+msgstr "Onay"
+
+msgid "Country"
+msgstr "Ülke"
+
+msgid "Country is required"
+msgstr "Ülkenin gereklidir"
+
+msgid "Created"
+msgstr "oluşturulan"
+
+msgid "Credit Card (via 2Checkout)"
+msgstr "(2Checkout)kredi Kartı"
+
+msgid "Credit Card (via Stripe)"
+msgstr "(Stripe)kredi Kartı"
+
+msgid "Credit card"
+msgstr "kredi kartı"
+
+msgid "Credit card (2Checkout)"
+msgstr "Kredi kartı (2Checkout)"
+
+msgid "Credit card (Stripe)"
+msgstr "(Stripe)kredi kartı"
+
+msgid ""
+"Currently looking for drivers...\"\n"
+"Customer cannot be find\""
+msgstr ""
+"Şu anda sürücüler aranıyor...\"\n"
+"Müşteri bul edilemez\""
+
+msgid "Customer Name"
+msgstr "Müşteri Adı"
+
+msgid "Customers"
+msgstr "Müşteriler"
+
+msgid "Date"
+msgstr "Tarih"
+
+msgid "Date:"
+msgstr "Tarih:"
+
+msgid "Distance"
+msgstr "Mesafe"
+
+msgid "Distance fare"
+msgstr "Mesafe ücreti"
+
+msgid "Distance fare:"
+msgstr "Mesafe ücreti:"
+
+msgid "Distance or duration fare is required"
+msgstr "Mesafe veya süre ücret gereklidir"
+
+msgid "Distance units"
+msgstr "Mesafe birimleri"
+
+msgid "Do you confirm that ride is paid?"
+msgstr "Binmek ücretli olduğunu onaylıyor musunuz?"
+
+msgid "Do you confirm you want to pay by card?"
+msgstr "Kartı ile ödeme yapmak istediğinizi onaylıyor musunuz?"
+
+msgid "Do you really want to remove this credit card?"
+msgstr "Gerçekten bu kredi kartı kaldırmak istiyor musunuz?"
+
+msgid "Download CSV"
+msgstr "İndirme CSV"
+
+msgid "Driver"
+msgstr "Sürücü"
+
+msgid "Driver ID"
+msgstr "Sürücü KİMLİĞİ"
+
+msgid "Driver ID is not the ride one"
+msgstr "Sürücüsünün KİMLİĞİ bir yolculuk değil"
+
+msgid "Driver Name"
+msgstr "Sürücü adı"
+
+msgid "Driver base fare"
+msgstr "Sürücü taban ücret"
+
+msgid "Driver distance fare"
+msgstr "Sürücü mesafe ücreti"
+
+msgid "Driver email"
+msgstr "Sürücü e-posta"
+
+msgid "Driver name"
+msgstr "Sürücü adı"
+
+msgid "Driver name:"
+msgstr "Sürücü adı:"
+
+msgid "Driver start latitude"
+msgstr "Sürücü enlem Başlat"
+
+msgid "Driver start longitude"
+msgstr "Sürücü boylam başlangıç"
+
+msgid "Driver successfully deleted."
+msgstr "Sürücü başarıyla silindi."
+
+msgid "Driver successfully rejected."
+msgstr "Sürücünün başarılı bir şekilde reddetti."
+
+msgid "Driver successfully validated."
+msgstr "Sürücü başarıyla doğrulandı."
+
+msgid "Driver time fare"
+msgstr "Sürücü sefer ücreti"
+
+msgid "Drivers"
+msgstr "Sürücüler"
+
+msgid "Driving license"
+msgstr "Ehliyet"
+
+msgid "Drop off"
+msgstr "Düşüyorlar"
+
+msgid "Drop off address"
+msgstr "Adres bırakmak"
+
+msgid "Drop off address:"
+msgstr "Adres bırakmak:"
+
+msgid "Dropoff address"
+msgstr "Dropoff Adres"
+
+msgid "Dropoff latitude"
+msgstr "Dropoff enlem"
+
+msgid "Dropoff longitude"
+msgstr "Dropoff boylam"
+
+msgid "Duration"
+msgstr "Süresi"
+
+msgid "Duration fare"
+msgstr "Süre ücret"
+
+msgid "ETA:"
+msgstr "ETA:"
+
+msgid "Edit vehicle type"
+msgstr "Düzen araç tipi"
+
+msgid "Email"
+msgstr "E-posta"
+
+msgid "Ended at"
+msgstr "Bitiş"
+
+msgid "Error"
+msgstr "Hata"
+
+msgid "Error : your currency isn't supported by 2Checkout."
+msgstr "Hata : para senin 2Checkout tarafından desteklenmiyor."
+
+msgid "Error while retrieving 2Checkout configuration from server."
+msgstr "Sunucudan 2Checkout yapılandırma alınırken hata oluştu."
+
+msgid "Exp Month"
+msgstr "Ay Exp"
+
+msgid "Exp Year"
+msgstr "Exp Yıl"
+
+msgid "Final distance"
+msgstr "Son mesafe"
+
+msgid "Final price"
+msgstr "Son fiyat"
+
+msgid "Final price can't be negative and format should use only dot and numbers. e.g. : 1234.56"
+msgstr "Son fiyat negatif olabilir ve nokta sadece ve numaraları kullanın biçimi. örneğin : 1234,56"
+
+msgid "Finish ride"
+msgstr "Yolculuğu tamamlamak"
+
+msgid "Finished"
+msgstr "bitmiş"
+
+msgid "From email"
+msgstr "E-posta"
+
+msgid "From name"
+msgstr "Adı"
+
+msgid "Full ride"
+msgstr "Tam binmek"
+
+msgid "GO!"
+msgstr "GİT!"
+
+msgid "General Settings"
+msgstr "Genel Ayarlar"
+
+msgid "Go offline !"
+msgstr "Çevrimdışı !"
+
+msgid "Go online !"
+msgstr "Online gidin !"
+
+msgid "Go to pinpoint"
+msgstr "Belirlemekte git"
+
+msgid "Going"
+msgstr "gidiyor"
+
+msgid "Have a nice day."
+msgstr "İyi günler."
+
+msgid "Hello"
+msgstr "Merhaba"
+
+msgid "History"
+msgstr "Tarih"
+
+msgid "ID"
+msgstr "KİMLİĞİ"
+
+msgid "Incorrect price"
+msgstr "Yanlış fiyat"
+
+msgid "Is testing"
+msgstr "Olduğunu test"
+
+msgid "Iyzico API Key"
+msgstr "İyzico API Anahtarı"
+
+msgid "Iyzico secret key"
+msgstr "İyzico gizli anahtar"
+
+msgid "Kilometers"
+msgstr "Kilometre"
+
+msgid "Last step: we need some informations about payments."
+msgstr "Son adım: ödeme hakkında bazı bilgiler lazım."
+
+msgid "Let's go!"
+msgstr "Gidelim!"
+
+msgid "License Number"
+msgstr "Lisans Numarası"
+
+msgid "License number is required"
+msgstr "Lisans numarası gerekli"
+
+msgid "Loading"
+msgstr "Yükleme"
+
+msgid "Manage vehicle types"
+msgstr "Araç türleri Yönet"
+
+msgid "Mark as paid"
+msgstr "Mark olarak ödenen"
+
+msgid "Miles"
+msgstr "Mil"
+
+msgid "My account"
+msgstr "Hesabım"
+
+msgid "Name"
+msgstr "Adı"
+
+msgid "New ride request incoming"
+msgstr "Yeni yolculuk talep gelen"
+
+msgid "No card set"
+msgstr "Hayır kart seti"
+
+msgid "No card setd"
+msgstr "Hayır kart setd"
+
+msgid "No driver available"
+msgstr "Hiçbir sürücü kullanılabilir"
+
+msgid "No driver has accepted your request for now. Please wait."
+msgstr "Hiçbir sürücü artık talebinizi kabul etti. Lütfen bekleyiniz."
+
+msgid "No driver yet!"
+msgstr "Henüz sürücü yok!"
+
+msgid "No passenger yet!"
+msgstr "Henüz hiçbir yolcu!"
+
+msgid "No request for now."
+msgstr "Şu an için hiç istek."
+
+msgid "No requests yet!"
+msgstr "Henüz bir isteği yok!"
+
+msgid "No vehicle type found."
+msgstr "Hiçbir araç türü bulundu."
+
+msgid "None"
+msgstr "YOK"
+
+msgid "OK"
+msgstr "Tamam"
+
+msgid "Ok"
+msgstr "Tamam"
+
+msgid "Online (via 2Checkout)"
+msgstr "(2Checkout)Online"
+
+msgid "Paid"
+msgstr "Ücretli"
+
+msgid "Passenger"
+msgstr "Yolcu"
+
+msgid "Passenger ID is not the ride one"
+msgstr "Yolcu KİMLİĞİ bir yolculuk değil"
+
+msgid "Passenger Name"
+msgstr "Yolcu Adı"
+
+msgid "Passenger accepted you as a driver."
+msgstr "Yolcu bir sürücü olarak kabul edilir."
+
+msgid "Passenger email"
+msgstr "Yolcu e-posta"
+
+msgid "Passenger is on board"
+msgstr "Yolcu gemide"
+
+msgid "Passenger name"
+msgstr "Yolcu Adı"
+
+msgid "Passenger refused you as a driver."
+msgstr "Yolcu sürücü olarak reddetti."
+
+msgid "Passenger's request has been cancelled"
+msgstr "Yolcu istek iptal edildi"
+
+msgid "Passengers"
+msgstr "Yolcu"
+
+msgid "Password"
+msgstr "Şifre"
+
+msgid "Pay"
+msgstr "Ödeme"
+
+msgid "Pay by card"
+msgstr "Kredi kartı ile ödeme yapabilirsiniz"
+
+msgid "Pay by card (via Iyzico)"
+msgstr "Kartı (İyzico)ödeme"
+
+msgid "Payment Authorization Failed: Credit is not enabled on this type of card, please contact your bank for more information or try another payment method."
+msgstr "Ödeme Yetkilendirme Başarısız oldu: Kredi kartı bu tür, lütfen daha fazla bilgi için bankanıza başvurun veya başka bir ödeme yöntemi deneyin üzerinde etkin değil."
+
+msgid "Payment Authorization Failed: Invalid transaction type for this credit card, please use a different card and try submitting the payment again, or contact your bank for more information."
+msgstr "Ödeme Yetkilendirme Başarısız oldu: bu kredi kartı için Geçersiz işlem türü, farklı bir kart kullanın lütfen tekrar ödeme göndermeyi deneyin veya daha fazla bilgi için bankanıza başvurun."
+
+msgid "Payment Authorization Failed: Please update your cards expiration date and try again, or try another payment method."
+msgstr "Ödeme Yetkilendirme kartları son kullanma tarihini güncelleyin ve tekrar deneyin veya başka bir ödeme yöntemi deneyin Başarısız oldu."
+
+msgid "Payment Authorization Failed: Please use a different credit card or payment method and try again, or contact your bank for more information."
+msgstr "Ödeme Yetkisi, başka bir kredi kartı veya ödeme yöntemi kullanın ve yeniden deneyin veya daha fazla bilgi için bankanıza başvurun Başarısız oldu."
+
+msgid "Payment Authorization Failed: Please verify your Credit Card details are entered correctly and try again, or try another payment method."
+msgstr "Ödeme Yetkisi, Lütfen Kredi Kartı bilgilerinizi doğru bir biçimde girdiğinizden emin olun ve tekrar deneyin veya başka bir ödeme yöntemi deneyin."
+
+msgid "Payment Authorization Failed: Please verify your information and try again, or try another payment method."
+msgstr "Ödeme Yetkilendirme Lütfen bilgilerinizi doğrulayıp tekrar deneyin veya başka bir ödeme yöntemi deneyin."
+
+msgid "Payment Settings"
+msgstr "Ödeme Ayarları"
+
+msgid "Payment Status"
+msgstr "Ödeme durumu"
+
+msgid "Payment in progress"
+msgstr "İlerleme ödeme"
+
+msgid "Payment method"
+msgstr "Ödeme yöntemi"
+
+msgid "Payment settings"
+msgstr "Ödeme Ayarları"
+
+msgid "Payment status"
+msgstr "Ödeme durumu"
+
+msgid "Payment success"
+msgstr "Ödeme başarı"
+
+msgid "Payments Settings"
+msgstr "Ödeme Ayarları"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Phone is required"
+msgstr "Telefon gereklidir"
+
+msgid "Phone number"
+msgstr "Telefon numarası"
+
+msgid "Pick up"
+msgstr "Al"
+
+msgid "Pickup address"
+msgstr "Teslimat adresi"
+
+msgid "Pickup address:"
+msgstr "Teslimat adresi:"
+
+msgid "Pickup latitude"
+msgstr "Pikap enlem"
+
+msgid "Pickup longitude"
+msgstr "Pikap boylam"
+
+msgid "Picture"
+msgstr "Resim"
+
+msgid "Please choose a payment method"
+msgstr "Lütfen bir ödeme yöntemi seçin"
+
+msgid "Please choose a vehicle type"
+msgstr "Lütfen araç türünü seçin"
+
+msgid "Please enter a credit card number"
+msgstr "Lütfen kredi kartı numaranızı girin"
+
+msgid "Please enter final price :"
+msgstr "Son fiyat giriniz :"
+
+msgid "Please enter final price to finish ride :"
+msgstr "Yolculuğu tamamlamak için son fiyat giriniz :"
+
+msgid "Please enter the credit card expiration month"
+msgstr "Lütfen kredi kartı son kullanma ay girin"
+
+msgid "Please enter the credit card expiration year"
+msgstr "Lütfen kredi kartı son kullanma tarihi girin"
+
+msgid "Please try again later."
+msgstr "Lütfen daha sonra tekrar deneyin."
+
+msgid "Please, wait....."
+msgstr "Lütfen, bekle....."
+
+msgid "Price"
+msgstr "Fiyat"
+
+msgid "Prices disclamer"
+msgstr "Fiyatlar disclamer"
+
+msgid "Private key"
+msgstr "Özel anahtar"
+
+msgid "Proceed"
+msgstr "Devam edin"
+
+msgid "Processing"
+msgstr "İşleme"
+
+msgid "Publishable key"
+msgstr "Anahtar Yayınlanabilir"
+
+msgid "Refuse"
+msgstr "Reddediyorum"
+
+msgid "Refused"
+msgstr "Reddetti"
+
+msgid "Reject this driver"
+msgstr "Bu sürücü reddetmek"
+
+msgid "Rejected"
+msgstr "Reddetti"
+
+msgid "Remove card"
+msgstr "Kartı çıkarın"
+
+msgid "Removing card"
+msgstr "Kart çıkarma"
+
+msgid "Request"
+msgstr "İstek"
+
+msgid "Request History"
+msgstr "Talep Tarihi"
+
+msgid "Request ID"
+msgstr "İstek KİMLİĞİ"
+
+msgid "Request a Ride"
+msgstr "Bir Yolculuk isteği"
+
+msgid "Request failed."
+msgstr "İstek başarısız oldu."
+
+msgid "Request has been cancelled."
+msgstr "İstek iptal edildi."
+
+msgid "Requesting"
+msgstr "talep"
+
+msgid "Requests"
+msgstr "İstekleri"
+
+msgid "Ride details"
+msgstr "Yolculuk detayları"
+
+msgid "Ride details:"
+msgstr "Yolculuk detayları:"
+
+msgid "Ride estimation"
+msgstr "Tahmini yolculuk"
+
+msgid "Ride finished"
+msgstr "Yolculuk bitmiş"
+
+msgid "Ride has been paid by client"
+msgstr "Yolculuk istemci tarafından ödenmiştir"
+
+msgid "Ride has been paid by client."
+msgstr "Binmek istemci tarafından ödenmiştir."
+
+msgid "Ride is finished"
+msgstr "Yolculuk bitti"
+
+msgid "Ride is marked as paid"
+msgstr "Yolculuk işaretli olarak ödendi ..."
+
+msgid "Ride is not finished"
+msgstr "Yolculuk bitmedi"
+
+msgid "Ride price:"
+msgstr "Ride fiyatı:"
+
+msgid "Ride to passenger"
+msgstr "Binmek için yolcu"
+
+msgid "Ride was cancelled"
+msgstr "Yolculuk iptal edildi"
+
+msgid "Ride was refused"
+msgstr "Yolculuk reddedildi"
+
+msgid "SID"
+msgstr "SİD"
+
+msgid "Saving"
+msgstr "Tasarruf"
+
+msgid "Search Radius"
+msgstr "Arama Yarıçapı"
+
+msgid "Search timeout"
+msgstr "Arama zaman aşımı"
+
+msgid "Search:"
+msgstr "Arama:"
+
+msgid "Searching"
+msgstr "arama"
+
+msgid "Selected vehicle type is unknown"
+msgstr "Seçilen araç tipi bilinmiyor"
+
+msgid "Send"
+msgstr "Gönder"
+
+msgid "Sending request"
+msgstr "Gönderme isteği"
+
+msgid "Set price"
+msgstr "Fiyat belirlemek"
+
+msgid "Set price and finish ride"
+msgstr "Set fiyatı ve son yolculuğu"
+
+msgid "Settings"
+msgstr "Ayarları"
+
+msgid "Sorry, but no driver can pick you up. Please try again in a few moment."
+msgstr "Üzgünüm, ama hiçbir sürücü toplayabilsinler. Lütfen tekrar birkaç dakika içinde deneyin."
+
+msgid "Sorry, you haven't selected a driver before timeout. Your request has been cancelled."
+msgstr "Üzgünüm, zaman aşımı önce bir sürücü seçmediniz. Talebiniz iptal edildi."
+
+msgid "Start ride"
+msgstr "Başlangıç yolculuğu"
+
+msgid "Started at"
+msgstr "Başladı"
+
+msgid "State"
+msgstr "Devlet"
+
+msgid "State is required"
+msgstr "Devlet gereklidir"
+
+msgid "Status"
+msgstr "Durumu"
+
+msgid "Stripe Publishable Key"
+msgstr "Şerit Yayınlanabilir Anahtar"
+
+msgid "Stripe Secret Key"
+msgstr "Şerit Gizli Anahtar"
+
+msgid "Stripe Settings"
+msgstr "Şerit ayarları"
+
+msgid "Success"
+msgstr "Başarı"
+
+msgid "Success."
+msgstr "Başarı."
+
+msgid "Switch info view"
+msgstr "Bilgi anahtarı"
+
+msgid "Thank you for using our application."
+msgstr "Bizim uygulama kullandığınız için teşekkür ederiz."
+
+msgid "This action cannot be reverted!"
+msgstr "Bu işlem geri alınamaz!"
+
+msgid "Time fare:"
+msgstr "Saat Ücreti:"
+
+msgid "Total charge"
+msgstr "Toplam ücret"
+
+msgid "Total price"
+msgstr "Toplam fiyat"
+
+msgid "Total price:"
+msgstr "Toplam fiyat:"
+
+msgid "Unable to process the request"
+msgstr "İsteği işleyemiyor"
+
+msgid "Unauthorized"
+msgstr "İzinsiz"
+
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+msgid "Unpaid"
+msgstr "ödenmemiş"
+
+msgid "Use Cash"
+msgstr "Nakit Kullan"
+
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+msgid "Vehicle Model"
+msgstr "Araç modeli"
+
+msgid "Vehicle Model is required"
+msgstr "Aracın Modeli gereklidir"
+
+msgid "Vehicle Type"
+msgstr "Araç tipi"
+
+msgid "Vehicle Type is required"
+msgstr "Araç Türü gereklidir"
+
+msgid "Vehicle Types"
+msgstr "Araç Tipleri"
+
+msgid "Vehicle model"
+msgstr "Araç modeli"
+
+msgid "Vehicle type"
+msgstr "Araç tipi"
+
+msgid "Vehicle type successfully deleted."
+msgstr "Araç türü başarıyla silindi."
+
+msgid "Waiting"
+msgstr "Bekliyor"
+
+msgid "Waiting for client confirmation..."
+msgstr "İstemci Onay Bekliyor..."
+
+msgid "We are sorry, but no driver was found for your request."
+msgstr "Üzgünüz, ama hiçbir sürücü isteğinizi bulunamadı."
+
+msgid "We couldn't find a matching route for your destination..."
+msgstr "Hedef için uygun bir yol bulamadık."
+
+msgid "We couldn't verify your credit card. Please try again later."
+msgstr "Kredi kartı doğrulayamadı. Lütfen daha sonra tekrar deneyin."
+
+msgid "We need some informations before going any further..."
+msgstr "Daha ileriye gitmeden önce bazı bilgiler lazım..."
+
+msgid "We need you to re-enter your credit card informations."
+msgstr "Yeniden kredi kartı bilgilerinizi girmeniz gerekiyor."
+
+msgid "You do not have any card configurated. Go to settings?"
+msgstr "Herhangi bir kart configurated gerekmez. Ayarlarına gidin."
+
+msgid "You do not have any card configured. Go to settings?"
+msgstr "Herhangi bir kart yapılandırılmış gerekmez. Ayarlarına gidin."
+
+msgid "You finish your ride with %s"
+msgstr "%S yolculuğu tamamlamak"
+
+msgid "You have been accepted as a driver for application %s."
+msgstr "Uygulama %s için bir sürücü olarak kabul edilmiştir."
+
+msgid "You have been deleted as a driver for application %s."
+msgstr "Uygulama %s için bir sürücü olarak silinmiş."
+
+msgid "You have been refused as a driver for application %s."
+msgstr "Uygulama %s için bir sürücü olarak reddetti."
+
+msgid "You haven't been accepted as a driver by your app administrator yet, please check back later."
+msgstr "Ben app yöneticiniz tarafından bir sürücü olarak henüz kabul, lütfen daha sonra tekrar gitmedim."
+
+msgid "You haven't been accepted as a driver by your app administrator."
+msgstr "Uygulama yöneticiniz tarafından bir sürücü olarak kabul edilmedin."
+
+msgid "You must register or login to continue..."
+msgstr "Kayıt veya devam etmek için giriş yapmalısınız."
+
+msgid "You need to specify at least one method of payment!"
+msgstr "Ödeme en az bir yöntem belirlemek gerekir."
+
+msgid "Your card has expired. Please update your informations"
+msgstr "Kartınızın süresi doldu. Lütfen bilgileri güncelleyin"
+
+msgid "Your credit card has been declined because of the currency you are attempting to pay in.  Please change the currency of the transaction or use a different card and try again."
+msgstr "Kredi kartı para ödemek için girişimi nedeniyle reddedildi. İşlem para birimini değiştirmek veya farklı bir kart kullanın ve tekrar deneyin."
+
+msgid "Zip Code"
+msgstr "Posta kodu"
+
+msgid "Zip Code is required"
+msgstr "Posta Kodu gerekli"
+
+msgid "aboard"
+msgstr "gemiye"
+
+msgid "accepted"
+msgstr "Kabul"
+
+msgid "cancelled"
+msgstr "İptal"
+
+msgid "created"
+msgstr "oluşturulan"
+
+msgid "credit card"
+msgstr "kredi kartı"
+
+msgid "driven"
+msgstr "tahrik"
+
+msgid "finished"
+msgstr "bitmiş"
+
+msgid "finishing"
+msgstr "bitirme"
+
+msgid "for every"
+msgstr "her için"
+
+msgid "going"
+msgstr "gidiyor"
+
+msgid "kilometer"
+msgstr "kilometre"
+
+msgid "mile"
+msgstr "mil"
+
+msgid "minute"
+msgstr "dakika"
+
+msgid "n/a"
+msgstr "n/a"
+
+msgid "paid"
+msgstr "Ücretli"
+
+msgid "requesting"
+msgstr "talep"
+
+msgid "searching"
+msgstr "arama"
+
+msgid "unpaid"
+msgstr "ödenmemiş"

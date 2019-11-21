@@ -1,0 +1,660 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-30T08:40:33+03:00\n"
+"PO-Revision-Date: 2019-06-30T08:40:33+03:00\n"
+"Language: \n"
+
+# GMT 1559644713.4108
+#, mobile
+msgid "Access my personal data"
+msgstr "Доступ к моим персональным данным"
+
+# GMT 1559644713.4151
+#, mobile
+msgid "Add a comment"
+msgstr "Комментарий"
+
+# GMT 1559644713.4194
+msgid "Add image"
+msgstr "Доб.изображение"
+
+# GMT 1559644713.4234
+#, mobile
+msgid "Add to address book"
+msgstr "Добавить в адресную книгу"
+
+# GMT 1559644713.4277
+#, mobile
+msgid "Address"
+msgstr "Адрес"
+
+# GMT 1559644713.432
+#, mobile
+msgid "Albums"
+msgstr "Альбомы"
+
+# GMT 1559644713.4363
+#, mobile
+msgid "An error occurred while loading the media."
+msgstr "Произошла ошибка при загрузке медиа."
+
+# GMT 1559644713.4406
+#, mobile
+msgid "An error occurred while loading the radio."
+msgstr "Произошла ошибка при загрузке радио."
+
+# GMT 1559644713.4449
+#, mobile
+msgid "An error occurred while reading the code."
+msgstr "Произошла ошибка при чтении кода."
+
+# GMT 1559644713.4492
+#, mobile
+msgid "An unexpected error occurred while calculating the route."
+msgstr "Произошла непредвиденная ошибка при расчете маршрута."
+
+# GMT 1559644713.4536
+#, mobile
+msgid "Application is Locked"
+msgstr "Приложение заблокировано"
+
+# GMT 1559644713.4579
+#, mobile
+msgid "Buffering"
+msgstr "Буферизации"
+
+# GMT 1559644713.4623
+#, mobile
+msgid "Buy Tickets"
+msgstr "Купить Билеты"
+
+# GMT 1559644713.4666
+#, mobile
+msgid "Buy tickets"
+msgstr "Купить билеты"
+
+# GMT 1559644713.4709
+#, mobile
+msgid "CVC ***"
+msgstr "CVC ***"
+
+# GMT 1559644713.4753
+#, mobile
+msgid "Cancel"
+msgstr "Отменить"
+
+# GMT 1559644713.4796
+#, mobile
+msgid "Cancel delete"
+msgstr "Отмена удаления"
+
+# GMT 1559644713.484
+#, mobile
+msgid "Cancel edit"
+msgstr "Отменить редактирование"
+
+# GMT 1559644713.4883
+#, mobile
+msgid "Civility"
+msgstr "Пол"
+
+# GMT 1559644713.4926
+#, mobile
+msgid "Clear"
+msgstr "Очистить"
+
+# GMT 1559644713.497
+#, mobile
+msgid "Click here to log-in"
+msgstr "Нажмите здесь, чтобы войти"
+
+# GMT 1559644713.5013
+#, mobile
+msgid "Close"
+msgstr "Закрыть"
+
+# GMT 1559644713.5057
+#, mobile
+msgid "Comment"
+msgstr "Комментарий"
+
+# GMT 1559644713.51
+#, mobile
+msgid "Copy"
+msgstr "Копировать"
+
+# GMT 1559644713.5144
+#, mobile
+msgid "Create an account"
+msgstr "Создать аккаунт"
+
+# GMT 1559644713.5187
+#, mobile
+msgid "Date and time"
+msgstr "Дата и время"
+
+# GMT 1559644713.5226
+#, mobile
+msgid "Delete"
+msgstr "Удалить"
+
+# GMT 1559644713.5269
+#, mobile
+msgid "Delivery address"
+msgstr "Адрес доставки"
+
+# GMT 1559644713.5313
+#, mobile
+msgid "Description"
+msgstr "Описание"
+
+# GMT 1559644713.5356
+#, mobile
+msgid "Discount code"
+msgstr "Код скидки"
+
+# GMT 1559644713.54
+#, mobile
+msgid "Dismiss"
+msgstr "Отменить"
+
+# GMT 1559644713.5443
+#, mobile
+msgid "Done"
+msgstr "Готово"
+
+# GMT 1559644713.5486
+#, mobile
+msgid "Downloading..."
+msgstr "Загрузка..."
+
+# GMT 1559644713.5529
+#, mobile
+msgid "EXP"
+msgstr "EXP"
+
+# GMT 1559644713.5573
+#, mobile
+msgid "Email"
+msgstr "Email"
+
+# GMT 1559644713.5616
+#, mobile
+msgid "Error"
+msgstr "Ошибка"
+
+# GMT 1559644713.5652
+#, mobile
+msgid "First name / Last name"
+msgstr "Имя / Фамилия"
+
+# GMT 1559644713.5695
+#, mobile
+msgid "Firstname"
+msgstr "Имя"
+
+# GMT 1559644713.5739
+#, mobile
+msgid "Flag"
+msgstr "Отметка"
+
+# GMT 1559644713.5777
+#, mobile
+msgid "Forgot your password?"
+msgstr "Забыли пароль?"
+
+# GMT 1559644713.9596
+#, mobile
+msgid "Hi. I just found: $1 for $2 in the $3 app."
+msgstr "Привет. Я только что нашел: $1 за $2 в приложении $3."
+
+# GMT 1559644713.582
+#, mobile
+msgid "Hi. I just found: $1 in the $2 app."
+msgstr "Привет. Я только что нашел: $ 1 в приложении за $ 2."
+
+# GMT 1559644713.5897
+#, mobile
+msgid "I accept the privacy policy"
+msgstr "Я принимаю политику конфиденциальности"
+
+# GMT 1559644713.594
+#, mobile
+msgid "I just found this discount $1 in $2 app."
+msgstr "Я только что нашел эту скидку $ 1 в приложении $ 2."
+
+# GMT 1559644713.6022
+#, mobile
+msgid "I'm listening to $1 from $2 on $3 app."
+msgstr "Я слушаю $1 из $2 в приложении $3."
+
+# GMT 1559644713.6056
+#, mobile
+msgid "I'm listening to $1 on $2 app."
+msgstr "Я слушаю $1 в приложении $2 ."
+
+# GMT 1559644713.5983
+#, mobile
+msgid "Identity"
+msgstr "Личность"
+
+# GMT 1559644713.6099
+#, mobile
+msgid "Info"
+msgstr "Инфо"
+
+# GMT 1559644713.6143
+#, mobile
+msgid "Informations"
+msgstr "Информация"
+
+# GMT 1559644713.6186
+#, mobile
+msgid "Invoicing address"
+msgstr "Адрес для выставления счета"
+
+# GMT 1559644713.623
+#, mobile
+msgid "Lastname"
+msgstr "Фамилия"
+
+# GMT 1559644713.6273
+#, mobile
+msgid "Like"
+msgstr "Лайк"
+
+# GMT 1559644713.6316
+#, mobile
+msgid "Loading"
+msgstr "Загрузка"
+
+# GMT 1559644713.6355
+#, mobile
+msgid "Locate"
+msgstr "Определить"
+
+# GMT 1559644713.6398
+#, mobile
+msgid "Location"
+msgstr "Местоположение"
+
+# GMT 1559644713.6442
+#, mobile
+msgid "Log-in"
+msgstr "Войти"
+
+# GMT 1559644713.6529
+#, mobile
+msgid "Log-in with Facebook"
+msgstr "Войти с Facebook"
+
+# GMT 1559644713.6486
+#, mobile
+msgid "Login error"
+msgstr "Ошибка входа"
+
+# GMT 1559644713.6572
+#, mobile
+msgid "Map"
+msgstr "Карта"
+
+# GMT 1559644713.6615
+#, mobile
+msgid "Miss"
+msgstr "Жен."
+
+# GMT 1559644713.6659
+#, mobile
+msgid "Mr"
+msgstr "Мистер"
+
+# GMT 1559644713.6702
+#, mobile
+msgid "Mrs"
+msgstr "Г-жа"
+
+# GMT 1559644713.6746
+#, mobile
+msgid "My account"
+msgstr "Мой аккаунт"
+
+# GMT 1559644713.6789
+msgid "New Post"
+msgstr "Новый пост"
+
+# GMT 1559644713.6832
+#, mobile
+msgid "Nickname"
+msgstr "Ник"
+
+# GMT 1559644713.6875
+#, mobile
+msgid "No comments for now."
+msgstr "Пока нет комментариев."
+
+# GMT 1559644713.6914
+#, mobile
+msgid "No form available"
+msgstr "Форма недоступна"
+
+# GMT 1559644713.6957
+#, mobile
+msgid "No images found"
+msgstr "Изображения не найдены"
+
+# GMT 1559644713.7001
+#, mobile
+msgid "No items found"
+msgstr "Ничего не найдено"
+
+# GMT 1559644713.7044
+#, mobile
+msgid "No results for your request."
+msgstr "Нет результатов по вашему запросу."
+
+# GMT 1559644713.7087
+#, mobile
+msgid "Notes"
+msgstr "Заметки"
+
+# GMT 1559644713.7124
+#, mobile
+msgid "Notification"
+msgstr "Уведомление"
+
+# GMT 1559644713.7167
+#, mobile
+msgid "Number of people"
+msgstr "Кол-во людей"
+
+# GMT 1559644713.7211
+#, mobile
+msgid "OK"
+msgstr "ОК"
+
+# GMT 1559644713.725
+#, mobile
+msgid "Offline mode"
+msgstr "Автономный режим"
+
+# GMT 1559644713.7293
+#, mobile
+msgid "Ok"
+msgstr "Ок"
+
+# GMT 1559644713.7327
+#, mobile
+msgid "Open link"
+msgstr "Открыть ссылку"
+
+# GMT 1559644713.737
+#, mobile
+msgid "Or with your account"
+msgstr "Или с вашим аккаунтом"
+
+# GMT 1559644713.7414
+#, mobile
+msgid "Order Details"
+msgstr "Детали Заказа"
+
+# GMT 1559644713.7458
+#, mobile
+msgid "Overview"
+msgstr "Обзор"
+
+# GMT 1559644713.7502
+#, mobile
+msgid "Password"
+msgstr "Пароль"
+
+msgid "People number:"
+msgstr "Кол-во людей:"
+
+# GMT 1559644713.7545
+#, mobile
+msgid "Phone"
+msgstr "Телефон"
+
+# GMT 1559644713.7588
+#, mobile
+msgid "Photos"
+msgstr "Фото"
+
+# GMT 1559644713.7631
+#, mobile
+msgid "Playlists"
+msgstr "Плейлисты"
+
+# GMT 1559644713.7674
+#, mobile
+msgid "Please enter a valid email address"
+msgstr "Пожалуйста, введите действительный адрес электронной почты"
+
+# GMT 1559644713.7718
+#, mobile
+msgid "Please enter your email address."
+msgstr "Пожалуйста, введите свой адрес электронной почты."
+
+# GMT 1559644713.7761
+#, mobile
+msgid "Please enter your email address. We'll send you your password right now."
+msgstr "Пожалуйста, введите свой адрес электронной почты. Мы вышлем вам ваш пароль прямо сейчас."
+
+# GMT 1559644713.7805
+#, mobile
+msgid "Please wait..."
+msgstr "Ожидайте..."
+
+# GMT 1559644713.7848
+#, mobile
+msgid "Podcast"
+msgstr "Подкаст"
+
+# GMT 1559644713.7892
+#, mobile
+msgid "Prices"
+msgstr "Цены"
+
+# GMT 1559644713.7935
+#, mobile
+msgid "Privacy"
+msgstr "Конфиденциальность"
+
+# GMT 1559644713.7979
+#, mobile
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
+
+# GMT 1559644713.8022
+#, mobile
+msgid "Pull to refresh..."
+msgstr "Потяните, чтобы обновить ..."
+
+# GMT 1559644713.8065
+#, mobile
+msgid "RSVP"
+msgstr "Просьба ответить"
+
+# GMT 1559644713.8108
+#, mobile
+msgid "Read all"
+msgstr "Читать все"
+
+# GMT 1559644713.8152
+#, mobile
+msgid "Scan result"
+msgstr "Результат скана"
+
+# GMT 1559644713.8195
+#, mobile
+msgid "See details"
+msgstr "Смотрите подробности"
+
+# GMT 1559644713.8239
+#, mobile
+msgid "Send"
+msgstr "Отправить"
+
+# GMT 1559644713.8282
+#, mobile
+msgid "Send contact request"
+msgstr "Отправить запрос на контакт"
+
+# GMT 1559644713.8325
+#, mobile
+msgid "Show me in ranking"
+msgstr "Покажите м меня в рейтинге"
+
+# GMT 1559644713.8368
+msgid "Success"
+msgstr "Успешно"
+
+# GMT 1559644713.8412
+#, mobile
+msgid "Tap to download in background"
+msgstr "Нажмите для загрузки в фоновом режиме"
+
+# GMT 1559644713.8455
+#, mobile
+msgid "Terms & Conditions"
+msgstr "Условия использования"
+
+# GMT 1559644713.8499
+#, mobile
+msgid "The address you're looking for does not exists."
+msgstr "Адрес, который вы ищете не существует."
+
+# GMT 1559644713.8533
+#, mobile
+msgid "The sign in flow was canceled"
+msgstr "Вход в поток был отменен"
+
+# GMT 1559644713.8575
+#, mobile
+msgid "There is no route available with these informations."
+msgstr "С этой информацией нет доступных маршрутов."
+
+# GMT 1559644713.8618
+#, mobile
+msgid "This application is no longer available"
+msgstr "Это приложение больше не доступно"
+
+msgid "This feature is disabled in the overview"
+msgstr "Эта функция отключена в обзоре"
+
+# GMT 1559644713.8662
+#, mobile
+msgid "This feature is disabled in this preview"
+msgstr "Эта функция отключена в этом предварительном просмотре"
+
+# GMT 1559644713.8698
+#, mobile
+msgid "This feature is not available in offline mode!"
+msgstr "Эта функция недоступна в автономном режиме!"
+
+# GMT 1559644713.8741
+#, mobile
+msgid "This field is required"
+msgstr "Это поле обязательно к заполнению"
+
+# GMT 1559644713.8784
+#, mobile
+msgid "This will open the code scan camera on your device."
+msgstr "Откроется QR-сканер на вашем мобильном"
+
+# GMT 1559644713.8827
+#, mobile
+msgid "Title"
+msgstr "Название"
+
+# GMT 1559644713.887
+#, mobile
+msgid "Tracks"
+msgstr "Треки"
+
+# GMT 1559644713.8905
+#, mobile
+msgid "Triple tap to close the preview"
+msgstr "Тройной тап, чтобы закрыть предварительный просмотр"
+
+# GMT 1559644713.8948
+#, mobile
+msgid "Use this coupon"
+msgstr "Использовать этот купон"
+
+# GMT 1559644713.8992
+#, mobile
+msgid "Valid Until"
+msgstr "Действительна до"
+
+# GMT 1559644713.9035
+#, mobile
+msgid "View"
+msgstr "Посмотреть"
+
+# GMT 1559644713.9079
+#, mobile
+msgid "We are sorry but this application has been deactivated and may not be re-activated."
+msgstr "К сожалению, это приложение было деактивировано и не может быть повторно активировано."
+
+# GMT 1559644713.9166
+#, mobile
+msgid "We'll send you your password right now."
+msgstr "Мы пришлем вам ваш пароль прямо сейчас."
+
+# GMT 1559644713.9123
+#, mobile
+msgid "Website"
+msgstr "Вебсайт"
+
+# GMT 1559644713.921
+#, mobile
+msgid "Wrong password.<br />Be careful !<br />%d remaining attempt%s before locking your card.<br />Ask the store person for validating your point"
+msgstr "Неверный пароль.<br />будьте осторожны !<br />%d оставшиеся попытки%s до блокировки вашей карты.<br />вы спросите в магазине человека для проверки вашей точки"
+
+# GMT 1559644713.9253
+#, mobile
+msgid "XXXX XXXX XXXX"
+msgstr "ХХХХ ХХХХ ХХХХ"
+
+# GMT 1559644713.9291
+#, mobile
+msgid "You must fill at least one field!"
+msgstr "Вы должны заполнить хотя бы одно поле!"
+
+# GMT 1559644713.9334
+#, mobile
+msgid "Your comment"
+msgstr "Ваш комментарий"
+
+# GMT 1559644713.9378
+#, mobile
+msgid "Your location could not be found because your application doesn't use SSL."
+msgstr "Ваше местоположение не может быть найдено, потому что ваше приложение не использует SSL."
+
+# GMT 1559644713.9421
+#, mobile
+msgid "followers"
+msgstr "подписчики"
+
+# GMT 1559644713.9465
+#, mobile
+msgid "following"
+msgstr "следующий"
+
+# GMT 1559644713.9509
+#, mobile
+msgid "track"
+msgstr "трек"
+
+# GMT 1559644713.9552
+#, mobile
+msgid "tracks"
+msgstr "треки"

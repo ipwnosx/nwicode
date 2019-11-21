@@ -1,0 +1,2132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-29T19:19:09+03:00\n"
+"PO-Revision-Date: 2019-06-29T19:19:09+03:00\n"
+"Language: \n"
+
+# GMT 1559644699.8006
+msgctxt "timezone"
+msgid "Africa/Abidjan"
+msgstr "Африка/Абиджане"
+
+# GMT 1559644699.805
+msgctxt "timezone"
+msgid "Africa/Accra"
+msgstr "Африка/Аккре"
+
+# GMT 1559644699.809
+msgctxt "timezone"
+msgid "Africa/Addis_Ababa"
+msgstr "Африка/Addis_Ababa"
+
+# GMT 1559644699.8133
+msgctxt "timezone"
+msgid "Africa/Algiers"
+msgstr "Африка/Алжир"
+
+# GMT 1559644699.8176
+msgctxt "timezone"
+msgid "Africa/Asmara"
+msgstr "Африка/Асмэре"
+
+# GMT 1559644699.8219
+msgctxt "timezone"
+msgid "Africa/Bamako"
+msgstr "Африка/Бамако"
+
+# GMT 1559644699.8263
+msgctxt "timezone"
+msgid "Africa/Bangui"
+msgstr "Африка/Банги"
+
+# GMT 1559644699.8306
+msgctxt "timezone"
+msgid "Africa/Banjul"
+msgstr "Африка/Банги"
+
+# GMT 1559644699.8349
+msgctxt "timezone"
+msgid "Africa/Bissau"
+msgstr "Африка/Биссау"
+
+# GMT 1559644699.8393
+msgctxt "timezone"
+msgid "Africa/Blantyre"
+msgstr "Африка/Блантайр"
+
+# GMT 1559644699.8436
+msgctxt "timezone"
+msgid "Africa/Brazzaville"
+msgstr "Африка/Браззавиль"
+
+# GMT 1559644699.8479
+msgctxt "timezone"
+msgid "Africa/Bujumbura"
+msgstr "Африка/Бужумбура"
+
+# GMT 1559644699.8523
+msgctxt "timezone"
+msgid "Africa/Cairo"
+msgstr "Африка/Каир"
+
+# GMT 1559644699.8567
+msgctxt "timezone"
+msgid "Africa/Casablanca"
+msgstr "Африка/Касабланка"
+
+# GMT 1559644699.861
+msgctxt "timezone"
+msgid "Africa/Ceuta"
+msgstr "Африка/Сеута"
+
+# GMT 1559644699.8654
+msgctxt "timezone"
+msgid "Africa/Conakry"
+msgstr "Африка-Конакри"
+
+# GMT 1559644699.8697
+msgctxt "timezone"
+msgid "Africa/Dakar"
+msgstr "Африка/Дакар"
+
+# GMT 1559644699.874
+msgctxt "timezone"
+msgid "Africa/Dar_es_Salaam"
+msgstr "Африка/Dar_es_Salaam"
+
+# GMT 1559644699.8783
+msgctxt "timezone"
+msgid "Africa/Djibouti"
+msgstr "Африка/Джибути"
+
+# GMT 1559644699.8826
+msgctxt "timezone"
+msgid "Africa/Douala"
+msgstr "Африка/Дуала"
+
+# GMT 1559644699.887
+msgctxt "timezone"
+msgid "Africa/El_Aaiun"
+msgstr "Африка/El_Aaiun"
+
+# GMT 1559644699.8913
+msgctxt "timezone"
+msgid "Africa/Freetown"
+msgstr "Африка/Фритаун"
+
+# GMT 1559644699.8957
+msgctxt "timezone"
+msgid "Africa/Gaborone"
+msgstr "Африка/Габороне"
+
+# GMT 1559644699.9001
+msgctxt "timezone"
+msgid "Africa/Harare"
+msgstr "Африка/Хараре"
+
+# GMT 1559644699.9044
+msgctxt "timezone"
+msgid "Africa/Johannesburg"
+msgstr "Африка/Иоганнесбург"
+
+# GMT 1559644699.9088
+msgctxt "timezone"
+msgid "Africa/Juba"
+msgstr "Африка/Джуба"
+
+# GMT 1559644699.9131
+msgctxt "timezone"
+msgid "Africa/Kampala"
+msgstr "Африка/Кампала"
+
+# GMT 1559644699.9175
+msgctxt "timezone"
+msgid "Africa/Khartoum"
+msgstr "Африка/Хартум"
+
+# GMT 1559644699.9218
+msgctxt "timezone"
+msgid "Africa/Kigali"
+msgstr "Африка/Кигали"
+
+# GMT 1559644699.9262
+msgctxt "timezone"
+msgid "Africa/Kinshasa"
+msgstr "Африка/Киншаса"
+
+# GMT 1559644699.9298
+msgctxt "timezone"
+msgid "Africa/Lagos"
+msgstr "Африка/Лагос"
+
+# GMT 1559644699.9341
+msgctxt "timezone"
+msgid "Africa/Libreville"
+msgstr "Африка/Либревиль"
+
+# GMT 1559644699.9385
+msgctxt "timezone"
+msgid "Africa/Lome"
+msgstr "Африка/Ломе"
+
+# GMT 1559644699.9428
+msgctxt "timezone"
+msgid "Africa/Luanda"
+msgstr "Африка/Луанда"
+
+# GMT 1559644699.9472
+msgctxt "timezone"
+msgid "Africa/Lubumbashi"
+msgstr "Африка/Лубумбаши"
+
+# GMT 1559644699.9509
+msgctxt "timezone"
+msgid "Africa/Lusaka"
+msgstr "Африка/Лусака"
+
+# GMT 1559644699.9552
+msgctxt "timezone"
+msgid "Africa/Malabo"
+msgstr "Африка/Малабо"
+
+# GMT 1559644699.9596
+msgctxt "timezone"
+msgid "Africa/Maputo"
+msgstr "Африка/Мапуту"
+
+# GMT 1559644699.9639
+msgctxt "timezone"
+msgid "Africa/Maseru"
+msgstr "Африка/Масеру"
+
+# GMT 1559644699.9675
+msgctxt "timezone"
+msgid "Africa/Mbabane"
+msgstr "Африка/Мбабане"
+
+# GMT 1559644699.9718
+msgctxt "timezone"
+msgid "Africa/Mogadishu"
+msgstr "Африка/Могадишо"
+
+# GMT 1559644699.9753
+msgctxt "timezone"
+msgid "Africa/Monrovia"
+msgstr "Африка/Монровии"
+
+# GMT 1559644699.9796
+msgctxt "timezone"
+msgid "Africa/Nairobi"
+msgstr "Африка/Найроби"
+
+# GMT 1559644699.984
+msgctxt "timezone"
+msgid "Africa/Ndjamena"
+msgstr "Африка/Нджамена"
+
+# GMT 1559644699.9883
+msgctxt "timezone"
+msgid "Africa/Niamey"
+msgstr "Африка/Ниамей"
+
+# GMT 1559644699.992
+msgctxt "timezone"
+msgid "Africa/Nouakchott"
+msgstr "Африка/Нуакшот"
+
+# GMT 1559644699.9962
+msgctxt "timezone"
+msgid "Africa/Ouagadougou"
+msgstr "Африка/Уагадугу"
+
+# GMT 1559644699.9998
+msgctxt "timezone"
+msgid "Africa/Porto-Novo"
+msgstr "Африка/Порто-Ново"
+
+# GMT 1559644700.0034
+msgctxt "timezone"
+msgid "Africa/Sao_Tome"
+msgstr "Африка/Sao_Tome"
+
+# GMT 1559644700.0077
+msgctxt "timezone"
+msgid "Africa/Tripoli"
+msgstr "Африка/Триполи"
+
+# GMT 1559644700.012
+msgctxt "timezone"
+msgid "Africa/Tunis"
+msgstr "Африка/Тунис"
+
+# GMT 1559644700.0163
+msgctxt "timezone"
+msgid "Africa/Windhoek"
+msgstr "Африка/Виндхук"
+
+# GMT 1559644700.0206
+msgctxt "timezone"
+msgid "America/Adak"
+msgstr "Америка/Адак"
+
+# GMT 1559644700.0249
+msgctxt "timezone"
+msgid "America/Anchorage"
+msgstr "Америка/Анкоридж"
+
+# GMT 1559644700.0291
+msgctxt "timezone"
+msgid "America/Anguilla"
+msgstr "Америка/Ангилья"
+
+# GMT 1559644700.0334
+msgctxt "timezone"
+msgid "America/Antigua"
+msgstr "Америка/Антигуа"
+
+# GMT 1559644700.0377
+msgctxt "timezone"
+msgid "America/Araguaina"
+msgstr "Америка/Арагуаина"
+
+# GMT 1559644700.0421
+msgctxt "timezone"
+msgid "America/Argentina/Buenos_Aires"
+msgstr "Америка/Аргентина/Buenos_Aires"
+
+# GMT 1559644700.0464
+msgctxt "timezone"
+msgid "America/Argentina/Catamarca"
+msgstr "Америка/Аргентина/Катамарка"
+
+# GMT 1559644700.0508
+msgctxt "timezone"
+msgid "America/Argentina/Cordoba"
+msgstr "Америка/Аргентина/Кордова"
+
+# GMT 1559644700.0544
+msgctxt "timezone"
+msgid "America/Argentina/Jujuy"
+msgstr "Америка/Аргентина/Неукен"
+
+# GMT 1559644700.0587
+msgctxt "timezone"
+msgid "America/Argentina/La_Rioja"
+msgstr "Америка/Аргентина/La_Rioja"
+
+# GMT 1559644700.0631
+msgctxt "timezone"
+msgid "America/Argentina/Mendoza"
+msgstr "Америка/Аргентина/Мендоса"
+
+# GMT 1559644700.0674
+msgctxt "timezone"
+msgid "America/Argentina/Rio_Gallegos"
+msgstr "Америка/Аргентина/Rio_Gallegos"
+
+# GMT 1559644700.071
+msgctxt "timezone"
+msgid "America/Argentina/Salta"
+msgstr "Америка/Аргентина/Сальта"
+
+# GMT 1559644700.0744
+msgctxt "timezone"
+msgid "America/Argentina/San_Juan"
+msgstr "Америка/Аргентина/San_Juan"
+
+# GMT 1559644700.0788
+msgctxt "timezone"
+msgid "America/Argentina/San_Luis"
+msgstr "Америка/Аргентина/San_Luis"
+
+# GMT 1559644700.0831
+msgctxt "timezone"
+msgid "America/Argentina/Tucuman"
+msgstr "Америка/Аргентина/Тукуман"
+
+# GMT 1559644700.0874
+msgctxt "timezone"
+msgid "America/Argentina/Ushuaia"
+msgstr "Америка/Аргентина/Ушуайя"
+
+# GMT 1559644700.091
+msgctxt "timezone"
+msgid "America/Aruba"
+msgstr "Америка/Аруба"
+
+# GMT 1559644700.0953
+msgctxt "timezone"
+msgid "America/Asuncion"
+msgstr "Америка/Асунсьон"
+
+# GMT 1559644700.0999
+msgctxt "timezone"
+msgid "America/Atikokan"
+msgstr "Америка/Atikokan"
+
+# GMT 1559644700.1042
+msgctxt "timezone"
+msgid "America/Bahia"
+msgstr "Америка/Баия"
+
+# GMT 1559644700.1084
+msgctxt "timezone"
+msgid "America/Bahia_Banderas"
+msgstr "Америка/Bahia_Banderas"
+
+# GMT 1559644700.1127
+msgctxt "timezone"
+msgid "America/Barbados"
+msgstr "Америка/Барбадос"
+
+# GMT 1559644700.1166
+msgctxt "timezone"
+msgid "America/Belem"
+msgstr "Америка/Белен"
+
+# GMT 1559644700.1209
+msgctxt "timezone"
+msgid "America/Belize"
+msgstr "Америка/Белиз"
+
+# GMT 1559644700.1254
+msgctxt "timezone"
+msgid "America/Blanc-Sablon"
+msgstr "Америка/Блан-Саблон"
+
+# GMT 1559644700.1298
+msgctxt "timezone"
+msgid "America/Boa_Vista"
+msgstr "Америка/Boa_Vista"
+
+# GMT 1559644700.1341
+msgctxt "timezone"
+msgid "America/Bogota"
+msgstr "Америка/Богота"
+
+# GMT 1559644700.1385
+msgctxt "timezone"
+msgid "America/Boise"
+msgstr "Америка/Бойсе"
+
+# GMT 1559644700.1428
+msgctxt "timezone"
+msgid "America/Cambridge_Bay"
+msgstr "Америка/Cambridge_Bay"
+
+# GMT 1559644700.1472
+msgctxt "timezone"
+msgid "America/Campo_Grande"
+msgstr "Америка/Campo_Grande"
+
+# GMT 1559644700.1515
+msgctxt "timezone"
+msgid "America/Cancun"
+msgstr "Америка/Канкун"
+
+# GMT 1559644700.1558
+msgctxt "timezone"
+msgid "America/Caracas"
+msgstr "Америка/Каракас"
+
+# GMT 1559644700.1602
+msgctxt "timezone"
+msgid "America/Cayenne"
+msgstr "Америка/Кайенна"
+
+# GMT 1559644700.1646
+msgctxt "timezone"
+msgid "America/Cayman"
+msgstr "Америка/Кайман"
+
+# GMT 1559644700.1689
+msgctxt "timezone"
+msgid "America/Chicago"
+msgstr "Америка/Чикаго"
+
+# GMT 1559644700.1732
+msgctxt "timezone"
+msgid "America/Chihuahua"
+msgstr "Америка/Чиуауа"
+
+# GMT 1559644700.1776
+msgctxt "timezone"
+msgid "America/Costa_Rica"
+msgstr "Америка/Costa_Rica"
+
+# GMT 1559644700.182
+msgctxt "timezone"
+msgid "America/Creston"
+msgstr "Америка/Крестон"
+
+# GMT 1559644700.1863
+msgctxt "timezone"
+msgid "America/Cuiaba"
+msgstr "Америка/Куяба"
+
+# GMT 1559644700.1907
+msgctxt "timezone"
+msgid "America/Curacao"
+msgstr "Америка/Кюрасао"
+
+# GMT 1559644700.195
+msgctxt "timezone"
+msgid "America/Danmarkshavn"
+msgstr "Америка/Danmarkshavn"
+
+# GMT 1559644700.1994
+msgctxt "timezone"
+msgid "America/Dawson"
+msgstr "Америка/Доусон"
+
+# GMT 1559644700.2037
+msgctxt "timezone"
+msgid "America/Dawson_Creek"
+msgstr "Америка/Dawson_Creek"
+
+# GMT 1559644700.2081
+msgctxt "timezone"
+msgid "America/Denver"
+msgstr "Америка/Денвер"
+
+# GMT 1559644700.2124
+msgctxt "timezone"
+msgid "America/Detroit"
+msgstr "Америка/Детройт"
+
+# GMT 1559644700.2167
+msgctxt "timezone"
+msgid "America/Dominica"
+msgstr "Америка/Доминика"
+
+# GMT 1559644700.221
+msgctxt "timezone"
+msgid "America/Edmonton"
+msgstr "Америка/Эдмонтон"
+
+# GMT 1559644700.2254
+msgctxt "timezone"
+msgid "America/Eirunepe"
+msgstr "Америка/Еирунепе"
+
+# GMT 1559644700.2297
+msgctxt "timezone"
+msgid "America/El_Salvador"
+msgstr "Америка/El_Salvador"
+
+# GMT 1559644700.2341
+msgctxt "timezone"
+msgid "America/Fort_Nelson"
+msgstr "Америка/Fort_Nelson"
+
+# GMT 1559644700.2384
+msgctxt "timezone"
+msgid "America/Fortaleza"
+msgstr "Америка/Форталеза"
+
+# GMT 1559644700.2427
+msgctxt "timezone"
+msgid "America/Glace_Bay"
+msgstr "Америка/Glace_Bay"
+
+# GMT 1559644700.247
+msgctxt "timezone"
+msgid "America/Godthab"
+msgstr "Америка/Godthab"
+
+# GMT 1559644700.2514
+msgctxt "timezone"
+msgid "America/Goose_Bay"
+msgstr "Америка/Goose_Bay"
+
+# GMT 1559644700.2558
+msgctxt "timezone"
+msgid "America/Grand_Turk"
+msgstr "Америка/Grand_Turk"
+
+# GMT 1559644700.2602
+msgctxt "timezone"
+msgid "America/Grenada"
+msgstr "Америка/Гренада"
+
+# GMT 1559644700.2645
+msgctxt "timezone"
+msgid "America/Guadeloupe"
+msgstr "Америка/Гваделупа"
+
+# GMT 1559644700.2689
+msgctxt "timezone"
+msgid "America/Guatemala"
+msgstr "Америка/Гватемала"
+
+# GMT 1559644700.2726
+msgctxt "timezone"
+msgid "America/Guayaquil"
+msgstr "Америка/Гуаякиль"
+
+# GMT 1559644700.2769
+msgctxt "timezone"
+msgid "America/Guyana"
+msgstr "Америка/Гайана"
+
+# GMT 1559644700.2812
+msgctxt "timezone"
+msgid "America/Halifax"
+msgstr "Америка/Галифакс"
+
+# GMT 1559644700.2855
+msgctxt "timezone"
+msgid "America/Havana"
+msgstr "Америка/Гавана"
+
+# GMT 1559644700.2899
+msgctxt "timezone"
+msgid "America/Hermosillo"
+msgstr "Америка/Эрмосильо"
+
+# GMT 1559644700.2942
+msgctxt "timezone"
+msgid "America/Indiana/Indianapolis"
+msgstr "Америка/Индиана/Индианаполис"
+
+# GMT 1559644700.2986
+msgctxt "timezone"
+msgid "America/Indiana/Knox"
+msgstr "Америка/Индиана/Нокс"
+
+# GMT 1559644700.3029
+msgctxt "timezone"
+msgid "America/Indiana/Marengo"
+msgstr "Америка/Индиана/Маренго"
+
+# GMT 1559644700.3073
+msgctxt "timezone"
+msgid "America/Indiana/Petersburg"
+msgstr "Америка/Индиана/Петербург"
+
+# GMT 1559644700.3116
+msgctxt "timezone"
+msgid "America/Indiana/Tell_City"
+msgstr "Америка/Индиана/Tell_City"
+
+# GMT 1559644700.3153
+msgctxt "timezone"
+msgid "America/Indiana/Vevay"
+msgstr "Америка/Индиана/Vevay"
+
+# GMT 1559644700.3195
+msgctxt "timezone"
+msgid "America/Indiana/Vincennes"
+msgstr "Америка/Индиана/Венсен"
+
+# GMT 1559644700.3239
+msgctxt "timezone"
+msgid "America/Indiana/Winamac"
+msgstr "Америка/Индиана/Уинамак"
+
+# GMT 1559644700.3282
+msgctxt "timezone"
+msgid "America/Inuvik"
+msgstr "Америка/Инувик"
+
+# GMT 1559644700.3325
+msgctxt "timezone"
+msgid "America/Iqaluit"
+msgstr "Америка/Икалуит"
+
+# GMT 1559644700.3369
+msgctxt "timezone"
+msgid "America/Jamaica"
+msgstr "Америка/Ямайка"
+
+# GMT 1559644700.3412
+msgctxt "timezone"
+msgid "America/Juneau"
+msgstr "Америка/Джуно"
+
+# GMT 1559644700.3456
+msgctxt "timezone"
+msgid "America/Kentucky/Louisville"
+msgstr "Америка/Кентукки/Луисвилл"
+
+# GMT 1559644700.3499
+msgctxt "timezone"
+msgid "America/Kentucky/Monticello"
+msgstr "Америка/Кентуки/Монтиселло"
+
+# GMT 1559644700.3543
+msgctxt "timezone"
+msgid "America/Kralendijk"
+msgstr "Америка/Кралендейк"
+
+# GMT 1559644700.3586
+msgctxt "timezone"
+msgid "America/La_Paz"
+msgstr "Америка/La_Paz"
+
+# GMT 1559644700.363
+msgctxt "timezone"
+msgid "America/Lima"
+msgstr "Америка/Лима"
+
+# GMT 1559644700.3674
+msgctxt "timezone"
+msgid "America/Los_Angeles"
+msgstr "Америка/Лос"
+
+# GMT 1559644700.3717
+msgctxt "timezone"
+msgid "America/Lower_Princes"
+msgstr "Америка/Lower_Princes"
+
+# GMT 1559644700.3761
+msgctxt "timezone"
+msgid "America/Maceio"
+msgstr "Америка/Масейо"
+
+# GMT 1559644700.3804
+msgctxt "timezone"
+msgid "America/Managua"
+msgstr "Америка/Манагуа"
+
+# GMT 1559644700.3847
+msgctxt "timezone"
+msgid "America/Manaus"
+msgstr "Америка/Манаус"
+
+# GMT 1559644700.389
+msgctxt "timezone"
+msgid "America/Marigot"
+msgstr "Америка/Мариго"
+
+# GMT 1559644700.3933
+msgctxt "timezone"
+msgid "America/Martinique"
+msgstr "Америка/Мартиника"
+
+# GMT 1559644700.3977
+msgctxt "timezone"
+msgid "America/Matamoros"
+msgstr "Америка/Матаморос"
+
+# GMT 1559644700.402
+msgctxt "timezone"
+msgid "America/Mazatlan"
+msgstr "Америка/Масатлан"
+
+# GMT 1559644700.4063
+msgctxt "timezone"
+msgid "America/Menominee"
+msgstr "Америка/Меномини"
+
+# GMT 1559644700.4107
+msgctxt "timezone"
+msgid "America/Merida"
+msgstr "Америка/Мерида"
+
+# GMT 1559644700.415
+msgctxt "timezone"
+msgid "America/Metlakatla"
+msgstr "Америка/В Metlakatla"
+
+# GMT 1559644700.4194
+msgctxt "timezone"
+msgid "America/Mexico_City"
+msgstr "Америка/Mexico_City"
+
+# GMT 1559644700.4237
+msgctxt "timezone"
+msgid "America/Miquelon"
+msgstr "Америка/Микелон"
+
+# GMT 1559644700.4276
+msgctxt "timezone"
+msgid "America/Moncton"
+msgstr "Америка/Монктон"
+
+# GMT 1559644700.432
+msgctxt "timezone"
+msgid "America/Monterrey"
+msgstr "Америка/Монтеррей"
+
+# GMT 1559644700.4363
+msgctxt "timezone"
+msgid "America/Montevideo"
+msgstr "Америка/Монтевидео"
+
+# GMT 1559644700.4407
+msgctxt "timezone"
+msgid "America/Montserrat"
+msgstr "Америка/Монтсеррат"
+
+# GMT 1559644700.445
+msgctxt "timezone"
+msgid "America/Nassau"
+msgstr "Америка/Нассау"
+
+# GMT 1559644700.4494
+msgctxt "timezone"
+msgid "America/New_York"
+msgstr "Америка/Нью-Йорк"
+
+# GMT 1559644700.4529
+msgctxt "timezone"
+msgid "America/Nipigon"
+msgstr "Америка/Нипигон"
+
+# GMT 1559644700.4572
+msgctxt "timezone"
+msgid "America/Nome"
+msgstr "Америка/Ном"
+
+# GMT 1559644700.4616
+msgctxt "timezone"
+msgid "America/Noronha"
+msgstr "Америка/Норонха"
+
+# GMT 1559644700.4659
+msgctxt "timezone"
+msgid "America/North_Dakota/Beulah"
+msgstr "Америка/North_Dakota/Бьюла"
+
+# GMT 1559644700.4703
+msgctxt "timezone"
+msgid "America/North_Dakota/Center"
+msgstr "Америка/North_Dakota/Центр"
+
+# GMT 1559644700.4746
+msgctxt "timezone"
+msgid "America/North_Dakota/New_Salem"
+msgstr "Америка/North_Dakota/New_Salem"
+
+# GMT 1559644700.479
+msgctxt "timezone"
+msgid "America/Ojinaga"
+msgstr "Америка/Охинага"
+
+# GMT 1559644700.4825
+msgctxt "timezone"
+msgid "America/Panama"
+msgstr "Америка/Панама"
+
+# GMT 1559644700.4868
+msgctxt "timezone"
+msgid "America/Pangnirtung"
+msgstr "Америка/Панглао"
+
+# GMT 1559644700.4911
+msgctxt "timezone"
+msgid "America/Paramaribo"
+msgstr "Америка/Парамарибо"
+
+# GMT 1559644700.4955
+msgctxt "timezone"
+msgid "America/Phoenix"
+msgstr "Америка/Финикс"
+
+# GMT 1559644700.4998
+msgctxt "timezone"
+msgid "America/Port-au-Prince"
+msgstr "Америка/Порт-о-Пренс"
+
+# GMT 1559644700.5042
+msgctxt "timezone"
+msgid "America/Port_of_Spain"
+msgstr "Америка/Port_of_Spain"
+
+# GMT 1559644700.5085
+msgctxt "timezone"
+msgid "America/Porto_Velho"
+msgstr "Америка/Porto_Velho"
+
+# GMT 1559644700.5122
+msgctxt "timezone"
+msgid "America/Puerto_Rico"
+msgstr "Америка/Puerto_Rico"
+
+# GMT 1559644700.5165
+msgctxt "timezone"
+msgid "America/Punta_Arenas"
+msgstr "Америка/Punta_Arenas"
+
+# GMT 1559644700.5209
+msgctxt "timezone"
+msgid "America/Rainy_River"
+msgstr "Америка/Rainy_River"
+
+# GMT 1559644700.5252
+msgctxt "timezone"
+msgid "America/Rankin_Inlet"
+msgstr "Америка/Rankin_Inlet"
+
+# GMT 1559644700.5295
+msgctxt "timezone"
+msgid "America/Recife"
+msgstr "Америка/Ресифи"
+
+# GMT 1559644700.5339
+msgctxt "timezone"
+msgid "America/Regina"
+msgstr "Америка/Реджина"
+
+# GMT 1559644700.5382
+msgctxt "timezone"
+msgid "America/Resolute"
+msgstr "Америка/Решительные"
+
+# GMT 1559644700.5426
+msgctxt "timezone"
+msgid "America/Rio_Branco"
+msgstr "Америка/Rio_Branco"
+
+# GMT 1559644700.5469
+msgctxt "timezone"
+msgid "America/Santarem"
+msgstr "Америка/Сантарем"
+
+# GMT 1559644700.5513
+msgctxt "timezone"
+msgid "America/Santiago"
+msgstr "Америка/Сантьяго"
+
+# GMT 1559644700.5556
+msgctxt "timezone"
+msgid "America/Santo_Domingo"
+msgstr "Америка/Santo_Domingo"
+
+# GMT 1559644700.56
+msgctxt "timezone"
+msgid "America/Sao_Paulo"
+msgstr "Америка/Sao_Paulo"
+
+# GMT 1559644700.5643
+msgctxt "timezone"
+msgid "America/Scoresbysund"
+msgstr "Америка/Выражения"
+
+# GMT 1559644700.5687
+msgctxt "timezone"
+msgid "America/Sitka"
+msgstr "Америка/Ситка"
+
+# GMT 1559644700.573
+msgctxt "timezone"
+msgid "America/St_Barthelemy"
+msgstr "Америка/St_Barthelemy"
+
+# GMT 1559644700.5774
+msgctxt "timezone"
+msgid "America/St_Johns"
+msgstr "Америка/St_Johns"
+
+# GMT 1559644700.5817
+msgctxt "timezone"
+msgid "America/St_Kitts"
+msgstr "Америка/St_Kitts"
+
+# GMT 1559644700.586
+msgctxt "timezone"
+msgid "America/St_Lucia"
+msgstr "Америка/St_Lucia"
+
+# GMT 1559644700.5904
+msgctxt "timezone"
+msgid "America/St_Thomas"
+msgstr "Америка/St_Thomas"
+
+# GMT 1559644700.5947
+msgctxt "timezone"
+msgid "America/St_Vincent"
+msgstr "Америка/St_Vincent"
+
+# GMT 1559644700.5991
+msgctxt "timezone"
+msgid "America/Swift_Current"
+msgstr "Америка/Swift_Current"
+
+# GMT 1559644700.6029
+msgctxt "timezone"
+msgid "America/Tegucigalpa"
+msgstr "Америка/Тегусигальпа"
+
+# GMT 1559644700.6072
+msgctxt "timezone"
+msgid "America/Thule"
+msgstr "Америка/Туле"
+
+# GMT 1559644700.6115
+msgctxt "timezone"
+msgid "America/Thunder_Bay"
+msgstr "Америка/Thunder_Bay"
+
+# GMT 1559644700.615
+msgctxt "timezone"
+msgid "America/Tijuana"
+msgstr "Америка/Тихуана"
+
+# GMT 1559644700.619
+msgctxt "timezone"
+msgid "America/Toronto"
+msgstr "Америка/Торонто"
+
+# GMT 1559644700.6233
+msgctxt "timezone"
+msgid "America/Tortola"
+msgstr "Америка/Тортола"
+
+# GMT 1559644700.6277
+msgctxt "timezone"
+msgid "America/Vancouver"
+msgstr "Америка/Ванкувер"
+
+# GMT 1559644700.6321
+msgctxt "timezone"
+msgid "America/Whitehorse"
+msgstr "Америка/Уайтхорс"
+
+# GMT 1559644700.6364
+msgctxt "timezone"
+msgid "America/Winnipeg"
+msgstr "Америка/Виннипег"
+
+# GMT 1559644700.6408
+msgctxt "timezone"
+msgid "America/Yakutat"
+msgstr "Америка/Якутат"
+
+# GMT 1559644700.6452
+msgctxt "timezone"
+msgid "America/Yellowknife"
+msgstr "Америка/Йеллоунайф"
+
+# GMT 1559644700.6495
+msgctxt "timezone"
+msgid "Antarctica/Casey"
+msgstr "Антарктида/Кейси"
+
+# GMT 1559644700.6539
+msgctxt "timezone"
+msgid "Antarctica/Davis"
+msgstr "Антарктида/Дэвис"
+
+# GMT 1559644700.6582
+msgctxt "timezone"
+msgid "Antarctica/DumontDUrville"
+msgstr "Антарктида/DumontDUrville"
+
+# GMT 1559644700.6625
+msgctxt "timezone"
+msgid "Antarctica/Macquarie"
+msgstr "Антарктида/Маккуори"
+
+# GMT 1559644700.6668
+msgctxt "timezone"
+msgid "Antarctica/Mawson"
+msgstr "Антарктида/Моусон"
+
+# GMT 1559644700.6712
+msgctxt "timezone"
+msgid "Antarctica/McMurdo"
+msgstr "Антарктика/МакМердо"
+
+# GMT 1559644700.6756
+msgctxt "timezone"
+msgid "Antarctica/Palmer"
+msgstr "Антарктида/Паломник"
+
+# GMT 1559644700.6799
+msgctxt "timezone"
+msgid "Antarctica/Rothera"
+msgstr "Антарктида/Ротера"
+
+# GMT 1559644700.6843
+msgctxt "timezone"
+msgid "Antarctica/Syowa"
+msgstr "Антарктида/Сева"
+
+# GMT 1559644700.6887
+msgctxt "timezone"
+msgid "Antarctica/Troll"
+msgstr "Антарктида/Троль"
+
+# GMT 1559644700.693
+msgctxt "timezone"
+msgid "Antarctica/Vostok"
+msgstr "Антарктика/Восток"
+
+# GMT 1559644700.6973
+msgctxt "timezone"
+msgid "Arctic/Longyearbyen"
+msgstr "Арктика/Лонгйир"
+
+# GMT 1559644700.7016
+msgctxt "timezone"
+msgid "Asia/Aden"
+msgstr "Азия/Аден"
+
+# GMT 1559644700.706
+msgctxt "timezone"
+msgid "Asia/Almaty"
+msgstr "Азия/Алматы"
+
+# GMT 1559644700.7103
+msgctxt "timezone"
+msgid "Asia/Amman"
+msgstr "Азии/Амман"
+
+# GMT 1559644700.7147
+msgctxt "timezone"
+msgid "Asia/Anadyr"
+msgstr "Азия/Анадырь"
+
+# GMT 1559644700.719
+msgctxt "timezone"
+msgid "Asia/Aqtau"
+msgstr "Азия/Актау"
+
+# GMT 1559644700.7234
+msgctxt "timezone"
+msgid "Asia/Aqtobe"
+msgstr "Азия/Актюбинск"
+
+# GMT 1559644700.7277
+msgctxt "timezone"
+msgid "Asia/Ashgabat"
+msgstr "Азия/Ашгабат"
+
+# GMT 1559644700.732
+msgctxt "timezone"
+msgid "Asia/Atyrau"
+msgstr "Азии/Атырау"
+
+# GMT 1559644700.7364
+msgctxt "timezone"
+msgid "Asia/Baghdad"
+msgstr "Азия/Багдад"
+
+# GMT 1559644700.7408
+msgctxt "timezone"
+msgid "Asia/Bahrain"
+msgstr "Азия/Бахрейн"
+
+# GMT 1559644700.7451
+msgctxt "timezone"
+msgid "Asia/Baku"
+msgstr "Азия/Баку"
+
+# GMT 1559644700.7495
+msgctxt "timezone"
+msgid "Asia/Bangkok"
+msgstr "Азия/Бангкок"
+
+# GMT 1559644700.7538
+msgctxt "timezone"
+msgid "Asia/Barnaul"
+msgstr "Азии/Барнаул"
+
+# GMT 1559644700.7582
+msgctxt "timezone"
+msgid "Asia/Beirut"
+msgstr "Азия/Бейрут"
+
+# GMT 1559644700.7626
+msgctxt "timezone"
+msgid "Asia/Bishkek"
+msgstr "Азия/Бишкек"
+
+# GMT 1559644700.7669
+msgctxt "timezone"
+msgid "Asia/Brunei"
+msgstr "Азия/Бруней"
+
+# GMT 1559644700.7713
+msgctxt "timezone"
+msgid "Asia/Chita"
+msgstr "Азии/Чита"
+
+# GMT 1559644700.7756
+msgctxt "timezone"
+msgid "Asia/Choibalsan"
+msgstr "Азии/Чойбалсан"
+
+# GMT 1559644700.7799
+msgctxt "timezone"
+msgid "Asia/Colombo"
+msgstr "Азия/Коломбо"
+
+# GMT 1559644700.7843
+msgctxt "timezone"
+msgid "Asia/Damascus"
+msgstr "Азия/Дамаск"
+
+# GMT 1559644700.7886
+msgctxt "timezone"
+msgid "Asia/Dhaka"
+msgstr "Азия/Дакка"
+
+# GMT 1559644700.793
+msgctxt "timezone"
+msgid "Asia/Dili"
+msgstr "Азия/Дили"
+
+# GMT 1559644700.7973
+msgctxt "timezone"
+msgid "Asia/Dubai"
+msgstr "Азия/Дубаи"
+
+# GMT 1559644700.8017
+msgctxt "timezone"
+msgid "Asia/Dushanbe"
+msgstr "Азия/Душанбе"
+
+# GMT 1559644700.806
+msgctxt "timezone"
+msgid "Asia/Famagusta"
+msgstr "Азии/Фамагусты"
+
+# GMT 1559644700.8103
+msgctxt "timezone"
+msgid "Asia/Gaza"
+msgstr "Азия/Газа"
+
+# GMT 1559644700.8147
+msgctxt "timezone"
+msgid "Asia/Hebron"
+msgstr "Азии/Хеброн"
+
+# GMT 1559644700.8191
+msgctxt "timezone"
+msgid "Asia/Ho_Chi_Minh"
+msgstr "Азии/Ho_Chi_Minh"
+
+# GMT 1559644700.8234
+msgctxt "timezone"
+msgid "Asia/Hong_Kong"
+msgstr "Азии/Hong_Kong"
+
+# GMT 1559644700.8277
+msgctxt "timezone"
+msgid "Asia/Hovd"
+msgstr "Азия/Ховд"
+
+# GMT 1559644700.8312
+msgctxt "timezone"
+msgid "Asia/Irkutsk"
+msgstr "Азия/Иркутск"
+
+# GMT 1559644700.8356
+msgctxt "timezone"
+msgid "Asia/Jakarta"
+msgstr "Азия/Джакарта"
+
+# GMT 1559644700.8399
+msgctxt "timezone"
+msgid "Asia/Jayapura"
+msgstr "Азия/Джаяпура"
+
+# GMT 1559644700.8442
+msgctxt "timezone"
+msgid "Asia/Jerusalem"
+msgstr "Азия/Иерусалим"
+
+# GMT 1559644700.8485
+msgctxt "timezone"
+msgid "Asia/Kabul"
+msgstr "Азия/Кабул"
+
+# GMT 1559644700.8528
+msgctxt "timezone"
+msgid "Asia/Kamchatka"
+msgstr "Азия/Камчатка"
+
+# GMT 1559644700.8571
+msgctxt "timezone"
+msgid "Asia/Karachi"
+msgstr "Азия/Карачи"
+
+# GMT 1559644700.8615
+msgctxt "timezone"
+msgid "Asia/Kathmandu"
+msgstr "Азия/Катманду"
+
+# GMT 1559644700.8658
+msgctxt "timezone"
+msgid "Asia/Khandyga"
+msgstr "Азии/Хандыга"
+
+# GMT 1559644700.8702
+msgctxt "timezone"
+msgid "Asia/Kolkata"
+msgstr "Азия/Калькутта"
+
+# GMT 1559644700.8746
+msgctxt "timezone"
+msgid "Asia/Krasnoyarsk"
+msgstr "Азия/Красноярск"
+
+# GMT 1559644700.8789
+msgctxt "timezone"
+msgid "Asia/Kuala_Lumpur"
+msgstr "Азии/Kuala_Lumpur"
+
+# GMT 1559644700.8833
+msgctxt "timezone"
+msgid "Asia/Kuching"
+msgstr "Азия/Кучинг"
+
+# GMT 1559644700.8876
+msgctxt "timezone"
+msgid "Asia/Kuwait"
+msgstr "Азия/Кувейт"
+
+# GMT 1559644700.8916
+msgctxt "timezone"
+msgid "Asia/Macau"
+msgstr "Азия/Макао"
+
+# GMT 1559644700.8959
+msgctxt "timezone"
+msgid "Asia/Magadan"
+msgstr "Азия/Магадан"
+
+# GMT 1559644700.8995
+msgctxt "timezone"
+msgid "Asia/Makassar"
+msgstr "Азии/Макассар"
+
+# GMT 1559644700.9038
+msgctxt "timezone"
+msgid "Asia/Manila"
+msgstr "Азия/Манила"
+
+# GMT 1559644700.9081
+msgctxt "timezone"
+msgid "Asia/Muscat"
+msgstr "Азия/Мускат"
+
+# GMT 1559644700.9125
+msgctxt "timezone"
+msgid "Asia/Nicosia"
+msgstr "Азия/Никосия"
+
+# GMT 1559644700.9168
+msgctxt "timezone"
+msgid "Asia/Novokuznetsk"
+msgstr "Азия/Новокузнецк"
+
+# GMT 1559644700.9212
+msgctxt "timezone"
+msgid "Asia/Novosibirsk"
+msgstr "Азия/Новосибирск"
+
+# GMT 1559644700.9255
+msgctxt "timezone"
+msgid "Asia/Omsk"
+msgstr "Азия/Омск"
+
+# GMT 1559644700.9299
+msgctxt "timezone"
+msgid "Asia/Oral"
+msgstr "Азии/Устный"
+
+# GMT 1559644700.9343
+msgctxt "timezone"
+msgid "Asia/Phnom_Penh"
+msgstr "Азии/Phnom_Penh"
+
+# GMT 1559644700.9386
+msgctxt "timezone"
+msgid "Asia/Pontianak"
+msgstr "Азиатско-Понтианак"
+
+# GMT 1559644700.943
+msgctxt "timezone"
+msgid "Asia/Pyongyang"
+msgstr "Азия/Пхеньян"
+
+# GMT 1559644700.9473
+msgctxt "timezone"
+msgid "Asia/Qatar"
+msgstr "Азия/Катар"
+
+# GMT 1559644700.9517
+msgctxt "timezone"
+msgid "Asia/Qyzylorda"
+msgstr "Азии/Кызылорда"
+
+# GMT 1559644700.9557
+msgctxt "timezone"
+msgid "Asia/Riyadh"
+msgstr "Азия/Эр-Рияд"
+
+# GMT 1559644700.96
+msgctxt "timezone"
+msgid "Asia/Sakhalin"
+msgstr "Азия/Сахалин"
+
+# GMT 1559644700.9643
+msgctxt "timezone"
+msgid "Asia/Samarkand"
+msgstr "Азия/Самарканд"
+
+# GMT 1559644700.9687
+msgctxt "timezone"
+msgid "Asia/Seoul"
+msgstr "Азия/Сеул"
+
+# GMT 1559644700.973
+msgctxt "timezone"
+msgid "Asia/Shanghai"
+msgstr "Азия/Шанхай"
+
+# GMT 1559644700.9774
+msgctxt "timezone"
+msgid "Asia/Singapore"
+msgstr "Азия/Сингапур"
+
+# GMT 1559644700.9818
+msgctxt "timezone"
+msgid "Asia/Srednekolymsk"
+msgstr "Азии/Среднеколымск"
+
+# GMT 1559644700.9861
+msgctxt "timezone"
+msgid "Asia/Taipei"
+msgstr "Азия/Тайбэй"
+
+# GMT 1559644700.9904
+msgctxt "timezone"
+msgid "Asia/Tashkent"
+msgstr "Азия/Ташкент"
+
+# GMT 1559644700.9948
+msgctxt "timezone"
+msgid "Asia/Tbilisi"
+msgstr "Азия/Тбилиси"
+
+# GMT 1559644700.9992
+msgctxt "timezone"
+msgid "Asia/Tehran"
+msgstr "Азия/Тегеран"
+
+# GMT 1559644701.0034
+msgctxt "timezone"
+msgid "Asia/Thimphu"
+msgstr "Азия/Тхимпху"
+
+# GMT 1559644701.007
+msgctxt "timezone"
+msgid "Asia/Tokyo"
+msgstr "Азия/Токио"
+
+# GMT 1559644701.0106
+msgctxt "timezone"
+msgid "Asia/Tomsk"
+msgstr "Азии/Томск"
+
+# GMT 1559644701.0141
+msgctxt "timezone"
+msgid "Asia/Ulaanbaatar"
+msgstr "Азиатско-Улан-Батор"
+
+# GMT 1559644701.0183
+msgctxt "timezone"
+msgid "Asia/Urumqi"
+msgstr "Азия/Урумчи"
+
+# GMT 1559644701.0226
+msgctxt "timezone"
+msgid "Asia/Ust-Nera"
+msgstr "Азии/Усть-Нере"
+
+# GMT 1559644701.0269
+msgctxt "timezone"
+msgid "Asia/Vientiane"
+msgstr "Азия/Вьентьян"
+
+# GMT 1559644701.0312
+msgctxt "timezone"
+msgid "Asia/Vladivostok"
+msgstr "Азия/Владивосток"
+
+# GMT 1559644701.0356
+msgctxt "timezone"
+msgid "Asia/Yakutsk"
+msgstr "Азия/Якутск"
+
+# GMT 1559644701.0398
+msgctxt "timezone"
+msgid "Asia/Yangon"
+msgstr "Азиатско-Янгон"
+
+# GMT 1559644701.0442
+msgctxt "timezone"
+msgid "Asia/Yekaterinburg"
+msgstr "Азия/Екатеринбург"
+
+# GMT 1559644701.0485
+msgctxt "timezone"
+msgid "Asia/Yerevan"
+msgstr "Азия/Ереван"
+
+# GMT 1559644701.0524
+msgctxt "timezone"
+msgid "Atlantic/Azores"
+msgstr "Атлантик/Азорские Острова"
+
+# GMT 1559644701.0567
+msgctxt "timezone"
+msgid "Atlantic/Bermuda"
+msgstr "Атлантик/Бермуды"
+
+# GMT 1559644701.0611
+msgctxt "timezone"
+msgid "Atlantic/Canary"
+msgstr "Атлантика/Канары"
+
+# GMT 1559644701.0654
+msgctxt "timezone"
+msgid "Atlantic/Cape_Verde"
+msgstr "Атлантик/Cape_Verde"
+
+# GMT 1559644701.0693
+msgctxt "timezone"
+msgid "Atlantic/Faroe"
+msgstr "Атлантик/Фарерские"
+
+# GMT 1559644701.0731
+msgctxt "timezone"
+msgid "Atlantic/Madeira"
+msgstr "Атлантика/Мадейра"
+
+# GMT 1559644701.0774
+msgctxt "timezone"
+msgid "Atlantic/Reykjavik"
+msgstr "Атлантик/Рейкьявик"
+
+# GMT 1559644701.0817
+msgctxt "timezone"
+msgid "Atlantic/South_Georgia"
+msgstr "Атлантик/South_Georgia"
+
+# GMT 1559644701.0861
+msgctxt "timezone"
+msgid "Atlantic/St_Helena"
+msgstr "Атлантик/St_Helena"
+
+# GMT 1559644701.0904
+msgctxt "timezone"
+msgid "Atlantic/Stanley"
+msgstr "Атлантика/Стэнли"
+
+# GMT 1559644701.0947
+msgctxt "timezone"
+msgid "Australia/Adelaide"
+msgstr "Австралия/Аделаида"
+
+# GMT 1559644701.0991
+msgctxt "timezone"
+msgid "Australia/Brisbane"
+msgstr "Австралия/Брисбен"
+
+# GMT 1559644701.1024
+msgctxt "timezone"
+msgid "Australia/Broken_Hill"
+msgstr "Австралия/Broken_Hill"
+
+# GMT 1559644701.1068
+msgctxt "timezone"
+msgid "Australia/Currie"
+msgstr "Австралия/Карри"
+
+# GMT 1559644701.1111
+msgctxt "timezone"
+msgid "Australia/Darwin"
+msgstr "Австралия/Дарвин"
+
+# GMT 1559644701.1154
+msgctxt "timezone"
+msgid "Australia/Eucla"
+msgstr "Австралия/В Eufaula"
+
+# GMT 1559644701.1197
+msgctxt "timezone"
+msgid "Australia/Hobart"
+msgstr "Австралия/Хобарт"
+
+# GMT 1559644701.1241
+msgctxt "timezone"
+msgid "Australia/Lindeman"
+msgstr "Австралия/Линдеман"
+
+# GMT 1559644701.1284
+msgctxt "timezone"
+msgid "Australia/Lord_Howe"
+msgstr "Австралия/Lord_Howe"
+
+# GMT 1559644701.1327
+msgctxt "timezone"
+msgid "Australia/Melbourne"
+msgstr "Австралия/Мельбурн"
+
+# GMT 1559644701.137
+msgctxt "timezone"
+msgid "Australia/Perth"
+msgstr "Австралия/Перт"
+
+# GMT 1559644701.1413
+msgctxt "timezone"
+msgid "Australia/Sydney"
+msgstr "Австралия/Сидней"
+
+# GMT 1559644701.1449
+msgctxt "timezone"
+msgid "Europe/Amsterdam"
+msgstr "Европа/Амстердам"
+
+# GMT 1559644701.1492
+msgctxt "timezone"
+msgid "Europe/Andorra"
+msgstr "Европа/Андорра"
+
+# GMT 1559644701.1536
+msgctxt "timezone"
+msgid "Europe/Astrakhan"
+msgstr "Европа/Астрахань"
+
+# GMT 1559644701.1579
+msgctxt "timezone"
+msgid "Europe/Athens"
+msgstr "Европа/Афины"
+
+# GMT 1559644701.1623
+msgctxt "timezone"
+msgid "Europe/Belgrade"
+msgstr "Европа/Белград"
+
+# GMT 1559644701.1667
+msgctxt "timezone"
+msgid "Europe/Berlin"
+msgstr "Европа/Берлин"
+
+# GMT 1559644701.171
+msgctxt "timezone"
+msgid "Europe/Bratislava"
+msgstr "Европа/Братислава"
+
+# GMT 1559644701.1753
+msgctxt "timezone"
+msgid "Europe/Brussels"
+msgstr "Европа/Брюссель"
+
+# GMT 1559644701.1788
+msgctxt "timezone"
+msgid "Europe/Bucharest"
+msgstr "Европа/Бухарест"
+
+# GMT 1559644701.1831
+msgctxt "timezone"
+msgid "Europe/Budapest"
+msgstr "Европа/Будапешт"
+
+# GMT 1559644701.1875
+msgctxt "timezone"
+msgid "Europe/Busingen"
+msgstr "Европа/Бюзинген"
+
+# GMT 1559644701.1918
+msgctxt "timezone"
+msgid "Europe/Chisinau"
+msgstr "Европа/Кишинев"
+
+# GMT 1559644701.1962
+msgctxt "timezone"
+msgid "Europe/Copenhagen"
+msgstr "Европа/Копенгаген"
+
+# GMT 1559644701.2005
+msgctxt "timezone"
+msgid "Europe/Dublin"
+msgstr "Европа/Дублин"
+
+# GMT 1559644701.2049
+msgctxt "timezone"
+msgid "Europe/Gibraltar"
+msgstr "Европа/Гибралтар"
+
+# GMT 1559644701.2092
+msgctxt "timezone"
+msgid "Europe/Guernsey"
+msgstr "Европа/Гернси"
+
+# GMT 1559644701.2135
+msgctxt "timezone"
+msgid "Europe/Helsinki"
+msgstr "Европа/Хельсинки"
+
+# GMT 1559644701.2179
+msgctxt "timezone"
+msgid "Europe/Isle_of_Man"
+msgstr "Европа/Isle_of_Man"
+
+# GMT 1559644701.2222
+msgctxt "timezone"
+msgid "Europe/Istanbul"
+msgstr "Европа/Стамбул"
+
+# GMT 1559644701.2266
+msgctxt "timezone"
+msgid "Europe/Jersey"
+msgstr "Европа/Джерси"
+
+# GMT 1559644701.231
+msgctxt "timezone"
+msgid "Europe/Kaliningrad"
+msgstr "Европа/Калининград"
+
+# GMT 1559644701.2353
+msgctxt "timezone"
+msgid "Europe/Kiev"
+msgstr "Европа/Киев"
+
+# GMT 1559644701.2397
+msgctxt "timezone"
+msgid "Europe/Kirov"
+msgstr "Европа/Киров"
+
+# GMT 1559644701.244
+msgctxt "timezone"
+msgid "Europe/Lisbon"
+msgstr "Европа/Лиссабон"
+
+# GMT 1559644701.2484
+msgctxt "timezone"
+msgid "Europe/Ljubljana"
+msgstr "Европа/Любляна"
+
+# GMT 1559644701.2528
+msgctxt "timezone"
+msgid "Europe/London"
+msgstr "Европа/Лондон"
+
+# GMT 1559644701.2571
+msgctxt "timezone"
+msgid "Europe/Luxembourg"
+msgstr "Европа/Люксембург"
+
+# GMT 1559644701.2615
+msgctxt "timezone"
+msgid "Europe/Madrid"
+msgstr "Европа/Мадрид"
+
+# GMT 1559644701.2658
+msgctxt "timezone"
+msgid "Europe/Malta"
+msgstr "Европа/Мальта"
+
+# GMT 1559644701.2702
+msgctxt "timezone"
+msgid "Europe/Mariehamn"
+msgstr "Европа/Мариехамн"
+
+# GMT 1559644701.2746
+msgctxt "timezone"
+msgid "Europe/Minsk"
+msgstr "Европы/Минск"
+
+# GMT 1559644701.2789
+msgctxt "timezone"
+msgid "Europe/Monaco"
+msgstr "Европа/Монако"
+
+# GMT 1559644701.2832
+msgctxt "timezone"
+msgid "Europe/Moscow"
+msgstr "Европы/Москва"
+
+# GMT 1559644701.2876
+msgctxt "timezone"
+msgid "Europe/Oslo"
+msgstr "Европа/Осло"
+
+# GMT 1559644701.2919
+msgctxt "timezone"
+msgid "Europe/Paris"
+msgstr "Европа/Париж"
+
+# GMT 1559644701.2959
+msgctxt "timezone"
+msgid "Europe/Podgorica"
+msgstr "Европа/Подгорица"
+
+# GMT 1559644701.3002
+msgctxt "timezone"
+msgid "Europe/Prague"
+msgstr "Европа/Прага"
+
+# GMT 1559644701.3036
+msgctxt "timezone"
+msgid "Europe/Riga"
+msgstr "Европа/Рига"
+
+# GMT 1559644701.308
+msgctxt "timezone"
+msgid "Europe/Rome"
+msgstr "Европа/Рим"
+
+# GMT 1559644701.3123
+msgctxt "timezone"
+msgid "Europe/Samara"
+msgstr "Европа/Самара"
+
+# GMT 1559644701.3165
+msgctxt "timezone"
+msgid "Europe/San_Marino"
+msgstr "Европа/San_Marino"
+
+# GMT 1559644701.3208
+msgctxt "timezone"
+msgid "Europe/Sarajevo"
+msgstr "Европа/Сараево"
+
+# GMT 1559644701.3251
+msgctxt "timezone"
+msgid "Europe/Saratov"
+msgstr "Европа/Саратов"
+
+# GMT 1559644701.3295
+msgctxt "timezone"
+msgid "Europe/Simferopol"
+msgstr "Европа/Симферополь"
+
+# GMT 1559644701.3338
+msgctxt "timezone"
+msgid "Europe/Skopje"
+msgstr "Европа/Скопье"
+
+# GMT 1559644701.3381
+msgctxt "timezone"
+msgid "Europe/Sofia"
+msgstr "Европа/София"
+
+# GMT 1559644701.3425
+msgctxt "timezone"
+msgid "Europe/Stockholm"
+msgstr "Европа/Стокгольм"
+
+# GMT 1559644701.3459
+msgctxt "timezone"
+msgid "Europe/Tallinn"
+msgstr "Европа/Таллин"
+
+# GMT 1559644701.3503
+msgctxt "timezone"
+msgid "Europe/Tirane"
+msgstr "Европа/Тирана"
+
+# GMT 1559644701.3537
+msgctxt "timezone"
+msgid "Europe/Ulyanovsk"
+msgstr "Европы/Ульяновск"
+
+# GMT 1559644701.358
+msgctxt "timezone"
+msgid "Europe/Uzhgorod"
+msgstr "Европа/Ужгород"
+
+# GMT 1559644701.3624
+msgctxt "timezone"
+msgid "Europe/Vaduz"
+msgstr "Европа/Вадуц"
+
+# GMT 1559644701.3667
+msgctxt "timezone"
+msgid "Europe/Vatican"
+msgstr "Европа/Ватикан"
+
+# GMT 1559644701.3711
+msgctxt "timezone"
+msgid "Europe/Vienna"
+msgstr "Европа/Вена"
+
+# GMT 1559644701.3752
+msgctxt "timezone"
+msgid "Europe/Vilnius"
+msgstr "Европа/Вильнюс"
+
+# GMT 1559644701.3795
+msgctxt "timezone"
+msgid "Europe/Volgograd"
+msgstr "Европа/Волгоград"
+
+# GMT 1559644701.3839
+msgctxt "timezone"
+msgid "Europe/Warsaw"
+msgstr "Европа/Варшава"
+
+# GMT 1559644701.3882
+msgctxt "timezone"
+msgid "Europe/Zagreb"
+msgstr "Европа/Загреб"
+
+# GMT 1559644701.3925
+msgctxt "timezone"
+msgid "Europe/Zaporozhye"
+msgstr "Европа/Запорожье"
+
+# GMT 1559644701.3969
+msgctxt "timezone"
+msgid "Europe/Zurich"
+msgstr "Европа/Цюрих"
+
+# GMT 1559644701.4012
+msgctxt "timezone"
+msgid "Indian/Antananarivo"
+msgstr "Индийский/Антананариву"
+
+# GMT 1559644701.4055
+msgctxt "timezone"
+msgid "Indian/Chagos"
+msgstr "Индийский/Чагос"
+
+# GMT 1559644701.4098
+msgctxt "timezone"
+msgid "Indian/Christmas"
+msgstr "Индийский/Рождество"
+
+# GMT 1559644701.4141
+msgctxt "timezone"
+msgid "Indian/Cocos"
+msgstr "Индийский/Кокосовые"
+
+# GMT 1559644701.4185
+msgctxt "timezone"
+msgid "Indian/Comoro"
+msgstr "Индийский/Коморо"
+
+# GMT 1559644701.4229
+msgctxt "timezone"
+msgid "Indian/Kerguelen"
+msgstr "Индийский/Кергелен"
+
+# GMT 1559644701.4273
+msgctxt "timezone"
+msgid "Indian/Mahe"
+msgstr "Индийский/Маэ"
+
+# GMT 1559644701.4316
+msgctxt "timezone"
+msgid "Indian/Maldives"
+msgstr "Индийский/Мальдивы"
+
+# GMT 1559644701.436
+msgctxt "timezone"
+msgid "Indian/Mauritius"
+msgstr "Индус/Маврикий"
+
+# GMT 1559644701.4404
+msgctxt "timezone"
+msgid "Indian/Mayotte"
+msgstr "Индийский/Майотта"
+
+# GMT 1559644701.4448
+msgctxt "timezone"
+msgid "Indian/Reunion"
+msgstr "Индийский/Реюньон"
+
+# GMT 1559644701.4491
+msgctxt "timezone"
+msgid "Pacific/Apia"
+msgstr "Тихий Океан/Апиа"
+
+# GMT 1559644701.4535
+msgctxt "timezone"
+msgid "Pacific/Auckland"
+msgstr "Тихоокеанская/Окленд"
+
+# GMT 1559644701.4579
+msgctxt "timezone"
+msgid "Pacific/Bougainville"
+msgstr "Тихоокеанская/Бугенвиля"
+
+# GMT 1559644701.4623
+msgctxt "timezone"
+msgid "Pacific/Chatham"
+msgstr "Тихоокеанский/Чатем"
+
+# GMT 1559644701.4666
+msgctxt "timezone"
+msgid "Pacific/Chuuk"
+msgstr "Тихоокеанская/Чуук"
+
+# GMT 1559644701.4709
+msgctxt "timezone"
+msgid "Pacific/Easter"
+msgstr "Тихоокеанский/Пасха"
+
+# GMT 1559644701.4753
+msgctxt "timezone"
+msgid "Pacific/Efate"
+msgstr "Тихоокеанский/Эфате"
+
+# GMT 1559644701.4796
+msgctxt "timezone"
+msgid "Pacific/Enderbury"
+msgstr "Тихоокеанская/Эндербери"
+
+# GMT 1559644701.484
+msgctxt "timezone"
+msgid "Pacific/Fakaofo"
+msgstr "Тихий Океан/Факаофо"
+
+# GMT 1559644701.4883
+msgctxt "timezone"
+msgid "Pacific/Fiji"
+msgstr "Тихоокеанский/Фиджи"
+
+# GMT 1559644701.4927
+msgctxt "timezone"
+msgid "Pacific/Funafuti"
+msgstr "Тихоокеанский/Фунафути"
+
+# GMT 1559644701.497
+msgctxt "timezone"
+msgid "Pacific/Galapagos"
+msgstr "Тихоокеанский/Галапагос"
+
+# GMT 1559644701.5014
+msgctxt "timezone"
+msgid "Pacific/Gambier"
+msgstr "Тихий Океан/Гамбьер"
+
+# GMT 1559644701.5057
+msgctxt "timezone"
+msgid "Pacific/Guadalcanal"
+msgstr "Тихоокеанский/Гуадалканал"
+
+# GMT 1559644701.5101
+msgctxt "timezone"
+msgid "Pacific/Guam"
+msgstr "Тихоокеанский/Гуам"
+
+# GMT 1559644701.5145
+msgctxt "timezone"
+msgid "Pacific/Honolulu"
+msgstr "Тихоокеанский/Гонолулу"
+
+# GMT 1559644701.5189
+msgctxt "timezone"
+msgid "Pacific/Kiritimati"
+msgstr "Тихоокеанская/Киритимати"
+
+# GMT 1559644701.5226
+msgctxt "timezone"
+msgid "Pacific/Kosrae"
+msgstr "Тихий Океан/Косраэ"
+
+# GMT 1559644701.5269
+msgctxt "timezone"
+msgid "Pacific/Kwajalein"
+msgstr "Тихоокеанский/Кваджалейн"
+
+# GMT 1559644701.5311
+msgctxt "timezone"
+msgid "Pacific/Majuro"
+msgstr "Тихий Океан/Маджуро"
+
+# GMT 1559644701.5354
+msgctxt "timezone"
+msgid "Pacific/Marquesas"
+msgstr "Тихоокеанская/Маркизские"
+
+# GMT 1559644701.5398
+msgctxt "timezone"
+msgid "Pacific/Midway"
+msgstr "Тихий Океан/Мидуэй"
+
+# GMT 1559644701.5434
+msgctxt "timezone"
+msgid "Pacific/Nauru"
+msgstr "Тихоокеанский/Науру"
+
+# GMT 1559644701.5477
+msgctxt "timezone"
+msgid "Pacific/Niue"
+msgstr "Тихоокеанский/Ниуэ"
+
+# GMT 1559644701.5521
+msgctxt "timezone"
+msgid "Pacific/Norfolk"
+msgstr "Тихоокеанский/Норфолк"
+
+# GMT 1559644701.5564
+msgctxt "timezone"
+msgid "Pacific/Noumea"
+msgstr "Тихоокеанский/Нумеа"
+
+# GMT 1559644701.5608
+msgctxt "timezone"
+msgid "Pacific/Pago_Pago"
+msgstr "Тихоокеанская/Pago_Pago"
+
+# GMT 1559644701.5651
+msgctxt "timezone"
+msgid "Pacific/Palau"
+msgstr "Тихоокеанский/Палау"
+
+# GMT 1559644701.5695
+msgctxt "timezone"
+msgid "Pacific/Pitcairn"
+msgstr "Тихий Океан/Питкэрн"
+
+# GMT 1559644701.573
+msgctxt "timezone"
+msgid "Pacific/Pohnpei"
+msgstr "Тихоокеанская/Понпеи"
+
+# GMT 1559644701.5772
+msgctxt "timezone"
+msgid "Pacific/Port_Moresby"
+msgstr "Тихоокеанская/Port_Moresby"
+
+# GMT 1559644701.5816
+msgctxt "timezone"
+msgid "Pacific/Rarotonga"
+msgstr "Тихоокеанский/Раротонга"
+
+# GMT 1559644701.5859
+msgctxt "timezone"
+msgid "Pacific/Saipan"
+msgstr "Тихоокеанский/Сайпан"
+
+# GMT 1559644701.5902
+msgctxt "timezone"
+msgid "Pacific/Tahiti"
+msgstr "Тихоокеанский/Таити"
+
+# GMT 1559644701.5946
+msgctxt "timezone"
+msgid "Pacific/Tarawa"
+msgstr "Тихоокеанский/Тарава"
+
+# GMT 1559644701.599
+msgctxt "timezone"
+msgid "Pacific/Tongatapu"
+msgstr "Тихоокеанский/Тонгатапу"
+
+# GMT 1559644701.6034
+msgctxt "timezone"
+msgid "Pacific/Wake"
+msgstr "Тихий Океан/Уэйк"
+
+# GMT 1559644701.6076
+msgctxt "timezone"
+msgid "Pacific/Wallis"
+msgstr "Тихоокеанская Уоллис"

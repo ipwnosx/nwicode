@@ -1,0 +1,320 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-30T10:06:10+03:00\n"
+"PO-Revision-Date: 2019-06-30T10:06:10+03:00\n"
+"Language: \n"
+
+# GMT 1558532102.4402
+#, mobile
+msgid "A new comment to your message %s"
+msgstr "Новый комментарий к вашему сообщению %s"
+
+# GMT 1558532102.4658
+msgid "Add sections"
+msgstr "Добавить разделы"
+
+# GMT 1558532102.4721
+msgid "Address"
+msgstr "Адрес"
+
+# GMT 1558532102.4408
+#, mobile
+msgid "Admin"
+msgstr "Админ"
+
+# GMT 1558532102.4791
+msgid "Admin who answered"
+msgstr "Админ, кто ответил"
+
+# GMT 1558532102.4784
+msgid "Application name"
+msgstr "Имя приложения"
+
+# GMT 1558532102.4415
+#, mobile
+msgid "Are you sure to delete this comment?"
+msgstr "Вы уверены, что хотите удалить этот комментарий?"
+
+# GMT 1558532102.442
+#, mobile
+msgid "Are you sure to delete this message?"
+msgstr "Вы уверены, что хотите удалить это сообщение?"
+
+# GMT 1558532102.4733
+msgid "Attachment"
+msgstr "Вложение"
+
+# GMT 1558532102.4727
+msgid "Button"
+msgstr "Кнопка"
+
+# GMT 1558532102.4846
+#, mobile
+msgid "By"
+msgstr "По"
+
+# GMT 1558532102.4808
+msgid "Card"
+msgstr "Карта"
+
+# GMT 1558532102.4426
+#, mobile
+msgid "Closed by Admin"
+msgstr "Закрыто Админом"
+
+# GMT 1558532102.4814
+msgid "Compact, card"
+msgstr "Компактный, карта"
+
+# GMT 1558532102.4803
+msgid "Compact, list"
+msgstr "Компактный, список"
+
+# GMT 1558532102.4433
+#, mobile
+msgid "Connect me!"
+msgstr "Подключиться"
+
+# GMT 1558532102.4745
+msgid "Cover"
+msgstr "Обложка"
+
+# GMT 1558532102.4671
+msgid "Customer"
+msgstr "клиент"
+
+# GMT 1558532102.4635
+msgid "Date"
+msgstr "Дата"
+
+# GMT 1558532102.4445
+#, mobile
+msgid "Delete message"
+msgstr "Удалить сообщение."
+
+# GMT 1558532102.4438
+#, mobile
+msgid "Deleted by user."
+msgstr "Удалено пользователем."
+
+# GMT 1558532102.4597
+msgid "Disable answer e-mails"
+msgstr "Отключить \"ответить\" по электронной почте"
+
+# GMT 1558532102.4778
+msgid "Display answers from"
+msgstr "Отображать ответы"
+
+# GMT 1558532102.4771
+msgid "Display type"
+msgstr "Тип дисплея"
+
+# GMT 1558532102.4676
+msgid "E-mail"
+msgstr "Email"
+
+# GMT 1558532102.4622
+msgid "From"
+msgstr "От"
+
+# GMT 1558532102.4578
+msgid "Global recipient & Admin who created the message"
+msgstr "Пользователи и администраторы, создавшего сообщение"
+
+# GMT 1558532102.4565
+msgid "Global recipient e-mail"
+msgstr "Пользователи email"
+
+# GMT 1558532102.4664
+msgid "ID"
+msgstr "Идентификатор"
+
+# GMT 1558532102.4708
+msgid "Image"
+msgstr "Изображения"
+
+# GMT 1558532102.4452
+#, mobile
+msgid "Inbox"
+msgstr "Почта"
+
+# GMT 1558532102.4458
+#, mobile
+msgid "Inbox - Replies"
+msgstr "Входящие - ответы"
+
+# GMT 1558532102.4464
+#, mobile
+msgid "Inbox replies"
+msgstr "Ответы в почте"
+
+# GMT 1558532102.4535
+#, mobile
+msgid "Leave a reply"
+msgstr "Оставить ответ"
+
+# GMT 1558532102.4796
+msgid "List"
+msgstr "Список"
+
+# GMT 1558532102.4603
+msgid "Manage messages"
+msgstr "Управление сообщениями"
+
+# GMT 1558532102.4629
+msgid "Message"
+msgstr "Сообщение"
+
+# GMT 1558532102.4641
+msgid "Most recent response"
+msgstr "Самый последний ответ"
+
+# GMT 1558532102.4471
+#, mobile
+msgid "New Inbox Message"
+msgstr "Новое сообщение"
+
+# GMT 1558532102.4833
+#, mobile
+msgid "New Inbox reply"
+msgstr "Новый  ответ"
+
+# GMT 1558532102.4609
+msgid "New message limit"
+msgstr "Новый лимит Сообщений"
+
+# GMT 1558532102.4477
+#, mobile
+msgid "No messages for now."
+msgstr "Нет пока сообщений"
+
+# GMT 1558532102.4652
+msgid "No replies."
+msgstr "Нет ответов."
+
+# GMT 1558532102.459
+msgid "Only to Admin"
+msgstr "Только Админ"
+
+# GMT 1558532102.4584
+msgid "Only to global recipient"
+msgstr "Только пользователи"
+
+# GMT 1558532102.4557
+# GMT 1558532102.4647
+msgid "Options"
+msgstr "Варианты"
+
+# GMT 1558532102.4484
+#, mobile
+msgid "Please fill at least a title."
+msgstr "Пожалуйста заполните название"
+
+# GMT 1558532102.449
+#, mobile
+msgid "Please select at least one user."
+msgstr "Пожалуйста, выберите хотя бы одного пользователя."
+
+# GMT 1558532102.4683
+msgid "Registration date"
+msgstr "Дата регистрации"
+
+# GMT 1558532102.455
+#, mobile
+msgid "Remove"
+msgstr "Удалить"
+
+# GMT 1558532102.4542
+#, mobile
+msgid "Reply"
+msgstr "Ответ"
+
+# GMT 1558532102.4752
+msgid "Scheduled for %s"
+msgstr "Запланированные на %s"
+
+# GMT 1558532102.4689
+msgid "Search ..."
+msgstr "Поиск ..."
+
+# GMT 1558532102.4616
+msgid "Send a push notification"
+msgstr "Отправка push-уведомлений"
+
+# GMT 1558532102.4827
+msgid "Send a push notification to inform users"
+msgstr "Отправка push-уведомления для информирования пользователей"
+
+# GMT 1558532102.4498
+#, mobile
+msgid "Send a push notification to warn user"
+msgstr "Предупредить о сообщении через Push"
+
+# GMT 1558532102.4571
+msgid "Send answer e-mail to"
+msgstr "Отправить ответ по электронной почте"
+
+# GMT 1558532102.4695
+msgid "Send message"
+msgstr "Отправить сообщение"
+
+# GMT 1558532102.4505
+#, mobile
+msgid "Send my message at this date (leave empty for instant sending):"
+msgstr "Отправить мое сообщение на такую-то дату (оставьте пустым для мгновенной отправки):"
+
+# GMT 1558532102.4821
+msgid "Send to all"
+msgstr "Отправить всем"
+
+# GMT 1558532102.474
+msgid "Slider"
+msgstr "Слайдер"
+
+# GMT 1558532102.4702
+msgid "Text"
+msgstr "Текст"
+
+# GMT 1558532102.4714
+msgid "Video"
+msgstr "Видео"
+
+# GMT 1558532102.4513
+#, mobile
+msgid "You have a new Inbox message."
+msgstr "У Вас новое входящее сообщение."
+
+# GMT 1558532102.484
+#, mobile
+msgid "You have a new Inbox reply."
+msgstr "У вас есть новое сообщение"
+
+# GMT 1558532102.452
+#, mobile
+msgid "You have to be connected to use the Inbox. Please connect to your account by clicking on the button below."
+msgstr "Вы должны быть авторизованы, чтобы посмотреть почту. Пожалуйста, войдите в свою учетную запись, нажав на кнопку ниже."
+
+# GMT 1558532102.4528
+#, mobile
+msgid "Your message has been successfully saved"
+msgstr "Ваше сообщение было успешно сохранено"
+
+# GMT 1558532102.4852
+#, mobile
+msgid "me"
+msgstr "мне"
+
+# GMT 1558532102.4758
+msgid "new"
+msgstr "новый"
+
+# GMT 1558532102.4765
+msgid "new reply"
+msgstr "новый ответ"

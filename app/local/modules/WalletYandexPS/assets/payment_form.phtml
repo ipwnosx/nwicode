@@ -1,0 +1,172 @@
+<?php
+	//error_reporting(E_ALL);
+	//ini_set('display_errors', 1);
+	//Получим данные кошелька
+	//$application = $this->getApplication();
+	if ($this->getSession()->getAppId()) $app_id = $this->getSession()->getAppId(); else $app_id=$this->getApplication()->getId();
+	$db =Zend_Db_Table_Abstract::getDefaultAdapter();
+
+	$stmt = $db->query(
+		'SELECT version FROM module WHERE name = ?',
+		array('Wallet')
+	);
+	$current_version =$stmt->fetch()['version'];
+	
+
+	if (empty($current_version)) {
+		echo "Wallet module not found! Exit...";
+		?><br><a href="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";?>" rel="" class="navigation"><i class="fa fa-sign-out fa-lg"></i> <?php echo __('Exit to Editor'); ?></a><br><?php
+		die(__("Wallet module not found! Exit..."));
+	}	
+	
+	$stmt = $db->query(
+		'SELECT * FROM application_option WHERE code = ?',
+		array('wallet')
+	);
+	$option_id = $stmt->fetch()['option_id'];
+	$stmt = $db->query(
+		'SELECT * FROM application_option_value WHERE option_id = ? and app_id = ?',
+		array($option_id, $app_id)
+	);
+	$value_id = $stmt->fetch()['value_id'];
+
+	$wallet = new Wallet_Model_Wallet();
+	$wallet->find(array("value_id" => $value_id));
+
+	$yandex = new WalletYandexPS_Model_PaymentMethodsYandex();
+	$yandex->find(array('wallet_id'=>$wallet->getId()));
+?>
+
+<div id="list-panel" class="settings-panel">  
+	<div class="row">
+		<div class="col-sm-12">
+			<h1>Yandex. <?php echo __('Settings'); ?></h1>
+		</div>
+	  </div>
+	  <br>
+	  <br>
+	  <form class="form-horizontal" id="yandexsettingsForm" method="post" action="<?php echo $this->getUrl('walletyandexps/admin/save'); ?>">
+	  <input type="hidden" name="wallet_id" value="<?php echo $wallet->getId();?>">
+	  <input type="hidden" name="yandex_id" value="<?php echo $yandex->getId();?>">
+	  <div class="row">
+		<div class="col-sm-12">
+		
+		  <div class="form-group">
+			<label for="inputTitle" class="col-sm-2 control-label">Enabled?</label>
+			<div class="col-sm-10">
+				<select class="form-control" name="enabled">
+					<option value=1 <?php if ($yandex->getData('enabled')=="1") echo "selected='selected'";?>><?php echo __('Method enabled'); ?></option>
+					<option value=0 <?php if ($yandex->getData('enabled')=="0") echo "selected='selected'";?>><?php echo __('Method disabled'); ?></option>
+				</select>
+			</div>
+		  </div>	
+		  
+		  <div class="form-group">
+			<label for="inputTitle" class="col-sm-2 control-label"><?php echo __('Method title'); ?></label>
+			<div class="col-sm-10">
+			  <input type="text" class="form-control" id="inputTitle" name="title" placeholder="via Yandex, Yandex online , etc..." value="<?php echo $yandex->getData('title');?>">
+			</div>
+		  </div>
+		  
+		  <div class="form-group">
+			<label for="inputUsername" class="col-sm-2 control-label">Shop ID</label>
+			<div class="col-sm-10">
+			  <input type="text" class="form-control" id="inputUsername" name="shop_id" placeholder="Shop ID" value="<?php echo $yandex->getData('shop_id');?>">
+			</div>
+		  </div>
+		  <div class="form-group">
+			<label for="inputPassword" class="col-sm-2 control-label">Secret Key</label>
+			<div class="col-sm-10">
+			  <input type="text" class="form-control" name="secret_key" id="inputPassword" placeholder="Secret Key" value="<?php echo $yandex->getData('secret_key');?>">
+			</div>
+		  </div>
+
+		</div>
+	  </div>
+	<div class="row" style="padding:10px;">
+		<div class="col-sm-6 text-right"><button type="button" class="btn btn-success btn-lg yandex_save_settings" id="yandex_save_settings"><i class="fa fa-floppy-o" aria-hidden="true"></i> <?php echo $this->_('Save'); ?></button></div>
+		<div class="col-sm-6 text-left"><button type="button" class="btn btn-default btn-lg yandex_back_button" id="yandex_back_button"><i class="fa fa-undo" aria-hidden="true"></i> <?php echo $this->_('Undo'); ?></button></div>
+	</div></form>	  
+</div>
+<script type="text/javascript">
+var form_valid = false;
+$(document).ready(function(){
+	$("#yandex_back_button").on("click",function() {
+		loader_show();
+		$.ajax({
+		   url: '<?php echo $this->getUrl('wallet/admin/payment'); ?>',
+		   type:'GET',
+		   data:"parameter=WalletYandexPS",
+		   dataType: "json",
+		   success: function(data){
+				$("#error-message").hide();
+				$("#success-message").hide();
+			   $('#main').html(data.html);
+			   loader_hide();
+		   }
+		});
+	});
+	
+	
+	$("#yandex_save_settings").on("click",function() {
+
+		//swal("Here's a message!");
+		loader_show();
+		
+		$.ajax({
+			   type: "POST",
+			   url:$("#yandexsettingsForm").attr("action"),
+			   data: $("#yandexsettingsForm").serialize(), // serializes the form's elements.
+			   dataType: "json",
+			   success: function(data)
+			   {
+				   console.log(data); // show response from the php script.
+				   if (data.success) {
+						$("#error-message").hide();
+						$("#success-message").html(data.success_message);
+						$("#success-message").show();
+						if ($('#item-subpanel').length) {
+							$('#item-subpanel').hide();
+							$('#item-panel').show();
+							$('#list-panel').hide();
+						} else {
+							$('#item-panel').hide();
+							$('#list-panel').show();		
+						}
+						
+						/*simple reload page*/
+						loader_show();							
+						$.ajax({
+						   url:'<?php echo $this->getUrl('wallet/admin/payment'); ?>',
+						   type:'GET',
+						   data: "parameter=WalletYandexPS",
+						   dataType: "json",
+						   success: function(data1){
+								$("#error-message").hide();
+								$("#success-message").hide();
+							   $('#main').html(data1.html);
+							   $("#success-message").html(data.success_message).show();
+							   loader_hide();
+						   }
+						});							
+
+						
+				   }
+				   $("html, body").animate({ scrollTop: 0 }, "fast");
+			   },
+			   error: function (jqXHR) {
+				var rdata = JSON.parse(jqXHR.responseText);
+				console.log(jqXHR.responseText);
+			   //console.log(exception);
+				$("#error-message").html(rdata.message);
+				$("#error-message").show();
+				$("#success-message").html();
+				$("#success-message").hide();
+				loader_hide();
+				$("html, body").animate({ scrollTop: 0 }, "fast");
+			   }
+			 });		
+	});		
+	
+});
+</script>

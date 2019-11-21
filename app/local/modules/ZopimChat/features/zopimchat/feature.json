@@ -1,0 +1,35 @@
+{
+    "name": "ZopimChat",
+    "code": "zopimchat",
+    "version": "1.0.1",
+    "category": "integration",
+    "model": "ZopimChat_Model_ZopimChat",
+    "desktop_uri": "zopimchat/application/",
+    "routes": [
+        {
+            "root": true,
+            "state": "zopimchat-view",
+            "controller": "ZopimChatViewController",
+            "url": "zopimchat/mobile_view/index/value_id/:value_id",
+            "template": "view.html",
+            "layouts": {
+                "1": "l1"
+            },
+            "cache": false
+        }
+    ],
+    "layouts": [
+        1
+    ],
+    "icons": [
+        "icons/zopim-chat-1.png",
+        "icons/zopim-chat-2.png"
+    ],
+    "files": [
+        "js/controllers/zopimchat.js",
+        "js/factory/zopimchat.js"
+    ],
+    "compile": true,
+    "use_account": false,
+    "only_once": false
+}

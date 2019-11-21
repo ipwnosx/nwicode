@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-06T22:44:09+03:00\n"
+"PO-Revision-Date: 2019-06-06T22:44:09+03:00\n"
+"Language: \n"
+
+msgid "App Name"
+msgstr "Uygulama Adı"
+
+msgid "Area"
+msgstr "Alan"
+
+msgid "Border Blue"
+msgstr "Mavi Kenar"
+
+msgid "Border Green"
+msgstr "Yeşil Kenar"
+
+msgid "Border Grey"
+msgstr "Gri Kenar"
+
+msgid "Border Purple"
+msgstr "Mor Kenarlık"
+
+msgid "Border Red"
+msgstr "Kırmızı Kenarlık"
+
+msgid "Border Yellow"
+msgstr "Sarı Kenarlık"
+
+msgid "Buttons"
+msgstr "Butonlar"
+
+msgid "Color blue"
+msgstr "Renk mavi"
+
+msgid "Color green"
+msgstr "Renk yeşil"
+
+msgid "Color purple"
+msgstr "Mor renk"
+
+msgid "Color red"
+msgstr "Renk kırmızı"
+
+msgid "Color yellow"
+msgstr "Renk sarı"
+
+msgid "Company or Fullname"
+msgstr "Şirket veya Tam Adı"
+
+msgid "Contact e-mail"
+msgstr "İletişim e-posta"
+
+msgid "Content background"
+msgstr "İçerik arka plan"
+
+msgid "Content color"
+msgstr "İçerik renk"
+
+msgid "Country"
+msgstr "Ülke"
+
+msgid "Customize My Editor"
+msgstr "Editörümü kişiselleştir"
+
+msgid "Delete/Cancel buttons"
+msgstr "Sil/İptal et butonları"
+
+msgid "Drop Down"
+msgstr "Açılır"
+
+msgid "E-mail"
+msgstr "E-posta"
+
+msgid "Enable GDPR features & rules"
+msgstr "GDPR özellikleri ve kuralları etkinleştir"
+
+msgid "Enable White-Label"
+msgstr "Beyaz-Etiket Etkinleştir"
+
+msgid "Favicon"
+msgstr "Site ikonu"
+
+msgid "Font Color blue"
+msgstr "Yazı tipi Rengi mavi"
+
+msgid "Full address"
+msgstr "Tam adresi"
+
+msgid "General"
+msgstr "Genel"
+
+msgid "Grey buttons"
+msgstr "Gri butonlar"
+
+msgid "Header"
+msgstr "Başlık"
+
+msgid "In application of the GDPR regulation text, you must fullfill legal contact informations, whether you are a Company or an Individual."
+msgstr "GDPR Yönetmelik metnin uygulamada, bir Şirket ya da Bireysel olsun yasal iletişim bilgilerine yerine getirmek gerekir."
+
+msgid "Input flat"
+msgstr "Bilgi alanı"
+
+msgid "Logo"
+msgstr "Logo"
+
+msgid "Menu"
+msgstr "Menü"
+
+msgid "Page"
+msgstr "Sayfa"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Sidebar background"
+msgstr "Kenar Çubuğu arka plan"
+
+msgid "Step menu background"
+msgstr "Menü arka plan adım"
+
+msgid "Titles"
+msgstr "Başlıklar"
+
+msgid "White-Label name"
+msgstr "Beyaz Etiket adı"

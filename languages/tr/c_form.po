@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-06T19:23:03+03:00\n"
+"PO-Revision-Date: 2019-06-06T19:23:03+03:00\n"
+"Language: \n"
+
+msgctxt "form"
+msgid "Add a section"
+msgstr "Bölüm Ekle"
+
+msgctxt "form"
+msgid "Are you sure you want to remove this field?"
+msgstr "Bu alanı kaldırmak istediğinizden emin misiniz?"
+
+msgctxt "form"
+msgid "Are you sure you want to remove this section?"
+msgstr "Bu bölümü silmek istediğinizden emin misiniz?"
+
+msgctxt "form"
+msgid "Card"
+msgstr "Kart"
+
+msgctxt "form"
+msgid "Customer"
+msgstr "Müşteri"
+
+msgctxt "form"
+msgid "Customer ID"
+msgstr "Müşteri KİMLİĞİ"
+
+msgctxt "form"
+msgid "Date"
+msgstr "Tarih"
+
+msgctxt "form"
+msgid "Date format"
+msgstr "Tarih Biçimi"
+
+msgctxt "form"
+msgid "Design"
+msgstr "Tasarım"
+
+msgctxt "form"
+msgid "E-mail"
+msgstr "E-posta"
+
+msgctxt "form"
+msgid "Exclude anonymous results"
+msgstr "Anonim sonuçlarını dışlamak"
+
+msgctxt "form"
+msgid "Export"
+msgstr "Export"
+
+msgctxt "form"
+msgid "Export CSV"
+msgstr "Export  CSV"
+
+msgctxt "form"
+msgid "Firstname"
+msgstr "Ad"
+
+msgctxt "form"
+msgid "ID"
+msgstr "ID KİMLİĞİ"
+
+msgctxt "form"
+msgid "Keep only last entry for identified customer"
+msgstr "Tanımlanan müşteri için sadece son girişi devam et"
+
+msgctxt "form"
+msgid "LESS"
+msgstr "Daha AZ"
+
+msgctxt "form"
+msgid "Lastname"
+msgstr "Soyadı"
+
+msgctxt "form"
+msgid "List"
+msgstr "Liste"
+
+msgctxt "form"
+msgid "MORE"
+msgstr "DAHA"
+
+msgctxt "form"
+msgid "Manage fields"
+msgstr "Yönet Alanlar"
+
+msgctxt "form"
+msgid "Manage sections & fields"
+msgstr "Yönetmek bölümler ve alanlar"
+
+msgctxt "form"
+msgid "No results."
+msgstr "Sonuç yok."
+
+msgctxt "form"
+msgid "Recipient emails"
+msgstr "Alıcı e-posta"
+
+msgctxt "form"
+msgid "Result"
+msgstr "Sonuç"
+
+msgctxt "form"
+msgid "Results"
+msgstr "Sonuçlar"
+
+msgctxt "form"
+msgid "Save"
+msgstr "Kaydet"
+
+msgctxt "form"
+msgid "Search ..."
+msgstr "Arama ..."
+
+msgctxt "form"
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgctxt "form"
+msgid "Settings saved"
+msgstr "Ayarlar kaydedildi"
+
+msgctxt "form"
+msgid "You can add multiple e-mails, separated by a coma."
+msgstr "Birden çok e-postalar, komaya ayrılmış ekleyebilirsiniz."
+
+msgctxt "form"
+msgid "anonymous"
+msgstr "anonim"

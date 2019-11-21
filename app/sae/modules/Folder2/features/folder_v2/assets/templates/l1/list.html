@@ -1,0 +1,75 @@
+<ion-view sb-page-background can-swipe-back="false"
+          class="module-folder2 folder2-layout1">
+    <ion-nav-title>{{ page_title }}</ion-nav-title>
+    <ion-nav-buttons side="secondary">
+        <button ng-show="showSearch" ng-click="showSearchinf()"
+                class="button button-clear header-item places-secondary-button">
+            <i class="icon ion-search"></i>
+        </button>
+    </ion-nav-buttons>
+    <ion-content>
+        <div class="loader"
+             ng-show="is_loading">
+            <ion-spinner class="spinner-custom">
+            </ion-spinner>
+        </div>
+        <ng-include ng-show="isVisibleSearch" src="'features/folder_v2/assets/templates/search.html'"></ng-include>
+        <ng-include src="'features/folder_v2/assets/templates/cover.html'"></ng-include>
+        <!-- Дизайн карта -->
+        <div ng-if="cardDesign">
+            <ion-card class="list" style="--background:{{current.cardcustomcolor}} !important;"
+                ng-show="collection.length && !search.searchValue">
+                <a tabbar-items style="background-color:{{current.cardcustomcolor}} !important;"
+                class="item item-custom item-avatar-square"
+                option="item"
+                ng-repeat="item in collection"
+                ng-class="{
+                    'item-avatar': item.thumbnail,
+                    'item-center': (!item.subtitle && !item.message)}">
+                    <img ng-src="{{ imagePath(item.thumbnail) }}"
+                        ng-if="item.thumbnail" />
+                    <h2>{{ item.title }}</h2>
+                    <p ng-if="item.subtitle">{{ item.subtitle }}</p>
+                </a>
+            </ion-card>
+            <ion-card class="list folder-layout folder-l1" style="--background:{{current.cardcustomcolor}} !important;"
+                    ng-if="!is_loading && !collection.length && !cover && !search.searchValue">
+                <div class="item text-center item-custom" style="background-color:{{current.cardcustomcolor}} !important;">
+                    {{ "No items found" | translate }}
+                </div>
+            </ion-card>
+        </div>
+        <!-- Дизайн карта -->
+        <!-- Дизайн не карта -->
+        <div ng-if="!cardDesign">
+            <div class="list"
+                ng-show="collection.length && !search.searchValue">
+                <ion-card ng-repeat="item in collection" style="--background:{{current.cardcustomcolor}} !important;">
+                    <a tabbar-items style="background-color:{{current.cardcustomcolor}} !important;"
+                    class="item item-custom item-avatar-square"
+                    option="item"
+                    ng-class="{
+                        'item-avatar': item.thumbnail,
+                        'item-center': (!item.subtitle && !item.message)}">
+                        <img ng-src="{{ imagePath(item.thumbnail) }}"
+                            ng-if="item.thumbnail" />
+                        <h2>{{ item.title }}</h2>
+                        <p ng-if="item.subtitle">{{ item.subtitle }}</p>
+                    </a>
+                </ion-card>
+            </div>
+            <ion-card class="list folder-layout folder-l1" style="--background:{{current.cardcustomcolor}} !important;"
+                ng-if="!is_loading && !collection.length && !cover && !search.searchValue">
+                <div class="item text-center item-custom" style="background-color:{{current.cardcustomcolor}} !important;">
+                    {{ "No items found" | translate }}
+                </div>
+            </ion-card>
+        </div>
+        <!-- Дизайн не карта -->
+    </ion-content>
+    <style type="text/css">
+        .folder-layout.folder-l1 {
+            margin-top: 15px;
+        }
+    </style>
+</ion-view>

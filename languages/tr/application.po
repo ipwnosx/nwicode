@@ -1,0 +1,1926 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-06T21:03:14+03:00\n"
+"PO-Revision-Date: 2019-06-06T21:03:14+03:00\n"
+"Language: \n"
+
+msgid "%s Text"
+msgstr "%s metin"
+
+msgid "* If apple doesn't detect any ads configurate, your application will be refused"
+msgstr "Eğer Apple herhangi bir reklam yapılandırma tespit etmezse uygulamanız reddedilir."
+
+msgid "* You have to justify why you need this background audio playing to Apple."
+msgstr "Arka planda ses çalmanın neden gerektiğini Apple'a açıklamalısınız."
+
+msgid "* You have to justify why you need this background geolocation to Apple."
+msgstr "Arka planda konum belirlemenin neden gerektiğini Apple'a açıklamalısınız."
+
+msgid "1. Download the app previewer:"
+msgstr "1. App önizleme indir:"
+
+msgid "1. Insert the following code between the %s tag of your page:"
+msgstr "1. Aşağıdaki kodu %s  sayfanızın etiketi arasına yerleştirin:"
+
+msgid "2. Insert the following code at the end of the %s tag of your page:"
+msgstr "2. Aşağıdaki kodu sayfanızın %s etiketinin sonuna ekleyin:"
+
+msgid "2. Open the app and login"
+msgstr "2. Uygulama ve oturum açın"
+
+msgid "<b>Around you</b> option for the Overview & HTML5 will be displayed & work only when using HTTPS, however it works in Android & iOS apps without HTTPS."
+msgstr "Genel Bakış ve HTML5 için <b>Çevreniz</b> seçeneği görüntülenir ve yalnızca HTTPS kullanırken çalışır, ancak Android ve iOS uygulamalarında HTTPS olmadan  çalışır."
+
+msgid "<b>File type:</b> %s"
+msgstr "</b> %s <b>Dosya türü:"
+
+msgid "<b>Note: </b>Icon must be white with transparency, the crop window will colorize it otherwise"
+msgstr "<b>Not: </b> Simge transparan beyaz olmalıdır aksi takdirde kırpma penceresi renklendirecektir."
+
+msgid "<b>Note</b>: the cron scheduler minimum interval is 10 seconds, reducing the cron interval can increase your server load, be careful."
+msgstr "<b>Not</b>: cron zamanlayıcısı minimum aralığı 10 saniyedir, bu da cron aralığını azaltarak sunucu yükünüzü artırabilir, dikkatli olun."
+
+msgid "<b>Push image & Color</b> are dynamic and doesn't require the app to be re-published."
+msgstr "<b>Resim ve Renk</b> dinamiktir ve uygulamanın yeniden yayınlanmasını gerektirmez."
+
+msgid "<span>Click on</span><button class=\"add\" type=\"button\"><i class=\"icon-plus\"></i></button> <span>to add an item.</span>"
+msgstr "<span>Öge eklemek için</span><button class=\"add\" type=\"button\"><i class=\"icon-plus\"></i></button> <span>tıklayın.</span>"
+
+msgid "API Keys"
+msgstr "API anahtarı"
+
+msgid "APIs"
+msgstr "API'lar"
+
+msgid "Access Token"
+msgstr "Token'e erişim"
+
+msgid "Acl"
+msgstr "Acl"
+
+msgid "Activated"
+msgstr "Aktif"
+
+msgid "AdMob ID"
+msgstr "AbMob kimliği"
+
+msgid "AdMob Type"
+msgstr "AdMob türü"
+
+msgid "Add a new icon"
+msgstr "Yeni bir simge Ekle"
+
+msgid "Add a thumbnail"
+msgstr "Küçük resim ekle"
+
+msgid "Add an image"
+msgstr "Bir görsel ekleyin"
+
+msgid "Add pages"
+msgstr "Sayfa Ekle"
+
+msgid "Add pictures"
+msgstr "Resim ekle"
+
+msgid "Add place"
+msgstr "Yer Ekle"
+
+msgid "Add sections:"
+msgstr "Bölüm ekle:"
+
+msgid "Additional options"
+msgstr "Ek seçenekler"
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Admin Account"
+msgstr "Yönetici hesabı"
+
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+msgid "Advanced Application Options"
+msgstr "Gelişmiş uygulama ayarları"
+
+msgid "Advanced Customization CSS / SCSS"
+msgstr "Gelişmiş Özelleştirme CSS / SCSS"
+
+msgid "Advertising"
+msgstr "Reklam"
+
+msgid "All"
+msgstr "Tüm"
+
+msgid "All done!"
+msgstr "Tümü tamamlandı!"
+
+msgid "Allow user to request app publication"
+msgstr "Kullanıcının uygulama yayınlama talebini kabul et"
+
+msgid "Allowed"
+msgstr "Kabul edilen"
+
+msgid "An error occured while copying your app icon. Please check the icon, try to send it again and try again."
+msgstr "Uygulama simgesi kopyalama sırasında bir hata oluştu. Simgesini kontrol edin, tekrar göndermek ve tekrar deneyin lütfen."
+
+msgid "An error occurred during the generation of your QRCode. Please try again later."
+msgstr "Bir hata Oluşturmak sizin nesil oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while adding the option"
+msgstr "Gönderilirken bir hata oluştu seçeneği ekleme"
+
+msgid "An error occurred while changing your layout."
+msgstr "Düzeninizi değiştirirken bir hata oluştu."
+
+msgid "An error occurred while deleting the option"
+msgstr "Gönderilirken bir hata oluştu seçeneği silme"
+
+msgid "An error occurred while deleting your picture"
+msgstr "Resim silinirken bir hata oluştu"
+
+msgid "An error occurred while editing file (%s)."
+msgstr "Dosya (% s) düzenleme sırasında bir hata oluştu."
+
+msgid "An error occurred while generating. Please try again later."
+msgstr "Üretilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while hidding the iOS Status Bar"
+msgstr "IOS Durum Çubuğunu gizlerken bir hata oluştu"
+
+msgid "An error occurred while loading"
+msgstr "Yüklenirken bir hata oluştu"
+
+msgid "An error occurred while saving the application. Please try again later."
+msgstr "Uygulama kaydedilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while saving your colors."
+msgstr "Renkleri kaydedilirken bir hata oluştu."
+
+msgid "An error occurred while saving your page name."
+msgstr "Sayfa adını kaydederken bir hata oluştu."
+
+msgid "An error occurred while saving. Please try again later."
+msgstr "Kaydederken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while saving. The selected icon is not valid."
+msgstr "Kaydedilirken bir hata oluştu. Seçilen simge geçerli değil."
+
+msgid "An error occurred while sorting your pages. Please try again later."
+msgstr "Sayfaları sıralama sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while sorting your slider images. Please try again later."
+msgstr "Kaydırma alanına görsel yüklerken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred. Sorry for the inconvenience."
+msgstr "Bir hata oluştu. Özür dileriz."
+
+msgid "Analytics"
+msgstr "Analytics"
+
+msgid "Analyzing fetched data..."
+msgstr "Veri analiz ediliyor."
+
+msgid "Android"
+msgstr "Android"
+
+msgid "Android APK Generation"
+msgstr "Android MUAYENE Nesil"
+
+msgid "Android APK version"
+msgstr "Android APK sürüm"
+
+msgid "Android Version"
+msgstr "Android Sürümü"
+
+msgid "Android push"
+msgstr "Android push"
+
+msgid "Angle"
+msgstr "Açı"
+
+msgid "App ID"
+msgstr "Uygulama kimliği"
+
+msgid "App Store Icon"
+msgstr "App Store Simgesi"
+
+msgid "App design"
+msgstr "Uygulama tasarımı"
+
+msgid "Apple rejects apps that includes Ad Support but doesn't use it.<br />Generate your iOS app out of this source code if you don't include Ads."
+msgstr "Apple, Reklam desteği içeren uygulamaları reddeder, kullanmaz. <br />Reklam eklemediyseniz, iOS uygulamanızı bu kaynak koddan oluşturun."
+
+msgid "Apple's Information"
+msgstr "Apple'ın Bilgileri"
+
+msgid "Application icon"
+msgstr "Uygulama ikonu"
+
+msgid "Application name"
+msgstr "Uygulama adı"
+
+msgid "Application:"
+msgstr "Uygulama:"
+
+msgid "Are you sure you want to remove this application?"
+msgstr "Bu uygulamayı kaldırmak istediğinizden emin misiniz?"
+
+msgid "Around you"
+msgstr "Etrafınızda"
+
+msgid "At least 200 characters in the description"
+msgstr "Açıklama en az 200 karakter"
+
+msgid "At least, 4 pages in the application"
+msgstr "En az 4 sayfa uygulama"
+
+msgid "Attachment"
+msgstr "Ek"
+
+msgid "Audio"
+msgstr "Ses"
+
+msgid "Auth"
+msgstr "Yetkili"
+
+msgid "Available SCSS Variables corresponding to previously set colors"
+msgstr "Mevcut SCSS Değişkenleri önceden renkleri ayarlamak için karşılık gelen"
+
+msgid "Average by customer"
+msgstr "Müşteri tarafından ortalama"
+
+msgid "Background"
+msgstr "Arka plan"
+
+msgid "Backoffice"
+msgstr "İdari büro"
+
+msgid "Banner"
+msgstr "Banner"
+
+msgid "Banner Android price"
+msgstr "Banner Android fiyatı"
+
+msgid "Banner Android store label"
+msgstr "Banner Android mağaza etiketi"
+
+msgid "Banner author"
+msgstr "Başlık yazar"
+
+msgid "Banner button label"
+msgstr "Banner düğmesi etiket"
+
+msgid "Banner iOS store label"
+msgstr "Banner iOS etiket mağazası"
+
+msgid "Banner settings"
+msgstr "Banner ayarları"
+
+msgid "Banner title"
+msgstr "Banner başlığı"
+
+msgid "Book"
+msgstr "Ayır"
+
+msgid "Border"
+msgstr "Sınır"
+
+msgid "Border shadow"
+msgstr "Kenar gölgesi"
+
+msgid "Bottom"
+msgstr "Alt"
+
+msgid "Build a mobile app easily"
+msgstr "Kolayca bir mobil uygulaması oluşturma"
+
+msgid "Build date"
+msgstr "Tarihi yapı"
+
+msgid "Build information"
+msgstr "Yapı bilgi"
+
+msgid "Bundle Id"
+msgstr "Paket Kimliği"
+
+msgid "Business"
+msgstr "İş"
+
+msgid "Button"
+msgstr "Düğme"
+
+msgid "Buy one, get one!"
+msgstr "Bir alana bir bedava!"
+
+msgid "Cache"
+msgstr "Önbellek"
+
+msgid "Calendar"
+msgstr "Takvim"
+
+msgid "Catalogs"
+msgstr "Kataloglar"
+
+msgid "Certificate"
+msgstr "Sertifika"
+
+msgid "Change your"
+msgstr "Değiştirmek"
+
+msgid "Change your icon"
+msgstr "İkonunuzu değiştirin."
+
+msgid "Change your layout"
+msgstr "Düzeni değiştirmek için Tıklayınız..."
+
+msgid "Change your picture"
+msgstr "Resmini değiştir"
+
+msgid "Change your template"
+msgstr "Şablon değiştirmek için Tıklayınız..."
+
+msgid "Change your<br /><span class='bold'>picture</span>"
+msgstr "<br /> <span class='bold'>resminizi değiştirin</span>"
+
+msgid "Change your<br /><span>picture</span>"
+msgstr "Resminizi<br /><span>değiştirin</span>"
+
+msgid "Checking CNAME configuration:"
+msgstr "Kontrol CNAME yapılandırma:"
+
+msgid "Choose a <br /><span class=\"bold\">picture</span>"
+msgstr "<br /><span class=\"bold\">bir resim</span> seç"
+
+msgid "Choose a <br /><span class='bold'>picture</span>"
+msgstr "<br /><span class='bold'>resim</span> seçin"
+
+msgid "Choose a country"
+msgstr "Bir ülke seçin"
+
+msgid "Choose a font family"
+msgstr "Bir font ailesi seçin"
+
+msgid "Choose a picture"
+msgstr "Bir resim seç"
+
+msgid "Choose a template to customize"
+msgstr "Bir şablonu özelleştirmek için seçin"
+
+msgid "Choose an icon"
+msgstr "İkon seçin"
+
+msgid "Choose your colors"
+msgstr "Renk seçin"
+
+msgid "Choose your country"
+msgstr "Ülkenizi seçin"
+
+msgid "Choose your design"
+msgstr "Tasarım seçin"
+
+msgid "Choose your font style"
+msgstr "Yazı tipi stili seçin"
+
+msgid "Choose your homepage image"
+msgstr "Anasayfa resim seçin"
+
+msgid "Choose your icons color"
+msgstr "Simgeler renk seçin"
+
+msgid "Choose your layout"
+msgstr "Düzeni seçin"
+
+msgid "Choose your template"
+msgstr "Şablonunuzu seçin"
+
+msgid "Click here to download the source code:"
+msgstr "Burada kaynak kodunu indirmek için tıklayın:"
+
+msgid "Click here to send your certificate"
+msgstr "Burada sertifika göndermek için tıklayın"
+
+msgid "Client ID"
+msgstr "Müşteri kimliği"
+
+msgid "Cms"
+msgstr "CMS"
+
+msgid "Code Scan"
+msgstr "Kod Tarama"
+
+msgid "Codescan"
+msgstr "Kod tarama"
+
+msgid "Color"
+msgstr "Renk"
+
+msgid "Colorize pager"
+msgstr "Renklendirme çağrı"
+
+msgid "Colors"
+msgstr "Renk"
+
+msgid "Comments"
+msgstr "Yorumlar"
+
+msgid "Configuration"
+msgstr "Konfigürasyon"
+
+msgid "Connect Button"
+msgstr "Bağlantı butonu"
+
+msgid "Contact"
+msgstr "İletişim"
+
+msgid "Core"
+msgstr "Çekirdek"
+
+msgid "Cover background images"
+msgstr "Kapak arka plan resimleri"
+
+msgid "Create a place"
+msgstr "Bir yer oluşturun"
+
+msgid "Currently only one language can be selected."
+msgstr "Şu anda yalnızca bir dil seçilebilir."
+
+msgid "Custom"
+msgstr "Özel"
+
+msgid "Custom SMTP"
+msgstr "Özel STMP"
+
+msgid "Custom domain name:"
+msgstr "Kişisel domain adı:"
+
+msgid "Customization"
+msgstr "Kişiselleştirme"
+
+msgid "Customize your app's style"
+msgstr "Uygulamanızın tarzını kişiselleştirin"
+
+msgid "Dashboard icon"
+msgstr "Pano simgesi"
+
+msgid "Deactivated"
+msgstr "Etkinliği"
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Default (none)"
+msgstr "(Yok)varsayılan"
+
+msgid "Delete this page?"
+msgstr "Bu sayfa silinsin mi?"
+
+msgid "Depth"
+msgstr "Derinlik"
+
+msgid "Design"
+msgstr "Tasarım"
+
+msgid "Developer Accounts"
+msgstr "Geliştirici Hesapları"
+
+msgid "Device Information"
+msgstr "Aygıt Bilgileri"
+
+msgid "Discount Zone"
+msgstr "İndirim alanı"
+
+msgid "Discount zone description. Here your clients will be able to see the details of each discount"
+msgstr "İndirim tanımı. Müşterileriniz burda indirim detaylarını görebilir."
+
+msgid "Display Border Circle"
+msgstr "Border Circle'ı göster"
+
+msgid "Display Borders"
+msgstr "Sınırları göster"
+
+msgid "Display Image"
+msgstr "Görseli göster"
+
+msgid "Display Shadow"
+msgstr "Gölge göster"
+
+msgid "Display address"
+msgstr "Adresi göster"
+
+msgid "Display borders"
+msgstr "Sınırları göster"
+
+msgid "Display image in page"
+msgstr "Sayfa içinde resim görüntülemek"
+
+msgid "Display location button"
+msgstr "Konum butonunu göster."
+
+msgid "Display the homepage slider"
+msgstr "Ana sayfa kaydırma çubuğunu göster."
+
+msgid "Display title and subtitle in page"
+msgstr "Alt yazı ve başlığı sayfada göster"
+
+msgid "Display titles"
+msgstr "Görüntü başlıklar"
+
+msgid "Domain"
+msgstr "Etki alanı"
+
+msgid "Domain name"
+msgstr "Domain Adı"
+
+msgid "Don't order:"
+msgstr "Sipariş etme:"
+
+msgid "Download"
+msgstr "İndir"
+
+msgid "Download last build"
+msgstr "İndir son inşa"
+
+msgid "Download latest"
+msgstr "İndir son"
+
+msgid "Download our app previewer"
+msgstr "App önizleme Download"
+
+msgid "Download your QRCode"
+msgstr "QR kodunu indir"
+
+msgid "Drop your certificate here"
+msgstr "Burada sertifika bırakın"
+
+msgid "Dynamic: percentage"
+msgstr "Dinamik: yüzde"
+
+msgid "E-mail"
+msgstr "E-posta"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Edit my"
+msgstr "Düzen benim"
+
+msgid "Edit place"
+msgstr "Düzenleme yeri"
+
+msgid "Edit the application \"%s\""
+msgstr "\"%s\" uygulamasını Düzenle"
+
+msgid "Edit the application %s"
+msgstr "%s uygulamasını düzenle"
+
+msgid "Editor"
+msgstr "Editör"
+
+msgid "Education"
+msgstr "Eğitim"
+
+msgid "Enable Offline content ?"
+msgstr "Çevrimdışı içeriğe izin ver"
+
+msgid "Enable custom SMTP"
+msgstr "Özel SMTP'ye izin ver"
+
+msgid "Enable search filters:"
+msgstr "Arama filtrelerine izin ver:"
+
+msgid "Enter your AdMob ID for each platform."
+msgstr "Her bir platform için AdMob kimliği girin."
+
+msgid "Enter your Facebook page"
+msgstr "Facebook sayfanızı girin"
+
+msgid "Entertainment"
+msgstr "Eğlence"
+
+msgid "Event"
+msgstr "Olay"
+
+msgid "Events"
+msgstr "Etkinlikler"
+
+msgid "Export"
+msgstr "İhracat"
+
+msgid "Export App & Selected features."
+msgstr "Uygulamayı ve seçili özellikleri dışa aktar"
+
+msgid "Export as global Template"
+msgstr "Global Template olarak dışa aktar"
+
+msgid "Export your application to a re-usable template & share it across Apps & Platforms."
+msgstr "Uygulamanızı yeniden kullanılabilir bir şablona aktarın ve Uygulamalar & Platformlar üzerinden paylaşın."
+
+msgid "Extension not allowed, '%s' only"
+msgstr "İzin Verilmiyor uzantısı, '%s'"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Facebook API Keys"
+msgstr "Facebook API anahtarı"
+
+msgid "Facebook API settings"
+msgstr "Facebook API ayarları"
+
+msgid "Feature icons"
+msgstr "Özellik ikonları"
+
+msgid "Features"
+msgstr "Uygulama Özellikleri"
+
+msgid "Features Access Settings"
+msgstr "Özellikler erişim ayarları"
+
+msgid "Fetching data from Facebook and creating your features. It can take a while, be patient!"
+msgstr "Facebook'tan veri alınıyor ve özellikleriniz oluşturuluyor. Zaman alabilir. Lütfen bekleyin."
+
+msgid "Fidelity points"
+msgstr "Sadakat puan"
+
+msgid "Fidelity points rate"
+msgstr "Uygunluk puan oranı."
+
+msgid "Filter"
+msgstr "Filtre"
+
+msgid "Finance"
+msgstr "Finans"
+
+msgid "Fixed: pixels"
+msgstr "Düzeltildi: pikseller"
+
+msgid "Flickr API key"
+msgstr "Flickr API anahtarı"
+
+msgid "Flickr API secret"
+msgstr "Flickr API Secret"
+
+msgid "Flickr API settings"
+msgstr "Flickr API ayarları"
+
+msgid "Font-size"
+msgstr "Yazı tipi boyutu"
+
+msgid "Food & Drink"
+msgstr "Yiyecek Ve İçecek"
+
+msgid "Form has the following errors"
+msgstr "Formda aşağıdaki hatalar var."
+
+msgid "Fred W."
+msgstr "Fred W."
+
+msgid "Free until %s"
+msgstr "%s e kadar serbest"
+
+msgid "Front"
+msgstr "Ön"
+
+msgid "Games"
+msgstr "Oyunlar"
+
+msgid "General Information"
+msgstr "Genel Bilgiler"
+
+msgid "General Settings"
+msgstr "Genel ayarlar."
+
+msgid "General information"
+msgstr "Genel Bilgiler"
+
+msgid "Generate"
+msgstr "Üret"
+
+msgid "Generate APK"
+msgstr "APK üret."
+
+msgid "Generate Android APK"
+msgstr "Android APK üret."
+
+msgid "Generate analytics for given period"
+msgstr "Verilen süreden önce analytics üret."
+
+msgid "Generate analytics for the current day"
+msgstr "Bu güne analiz üret"
+
+msgid "Generate and Publish"
+msgstr "Üret ve yayınla."
+
+msgid "Generate and publish iOS Application"
+msgstr "iOS uygulaması üret ve yayınla"
+
+msgid "Generate builds"
+msgstr "Kurgu üret"
+
+msgid "Generate source"
+msgstr "Kaynak üret."
+
+msgid "Generate the source code"
+msgstr "Kaynak kodu üret"
+
+msgid "Generation cancelled."
+msgstr "Üretim iptal edildi."
+
+msgid "Generation successfully queued."
+msgstr "Üretim başarıyla tamamlandı."
+
+msgid "Global visits"
+msgstr "Küresel ziyaretleri"
+
+msgid "Go to first images on loop"
+msgstr "Loop'taki ilk görsele git."
+
+msgid "Google Maps JavaScript API Key"
+msgstr "Google Haritalar JavaScript API Key"
+
+msgid "Google Play Icon"
+msgstr "Google Play Simgesi"
+
+msgid "Google's Information"
+msgstr "Google Bilgi"
+
+msgid "Header"
+msgstr "Header"
+
+msgid "Health & Fitness"
+msgstr "Sağlık & Fitness"
+
+msgid "Here is our latest creation. What do you think?"
+msgstr "En son yaratma burada. Ne düşünüyorsun?"
+
+msgid "Hidden"
+msgstr "Gizli"
+
+msgid "Hide Android status bar"
+msgstr "Android durum çubuğunu gizle"
+
+msgid "Hide iOS status bar"
+msgstr "iOS durum çubuğunu gizle."
+
+msgid "Homepage preview"
+msgstr "Anasayfa önizleme"
+
+msgid "Homepage slider options"
+msgstr "Ana sayfa kaydırma butonu ayarları"
+
+msgid "I don't have a Google developer account and I want to create one"
+msgstr "Google geliştirici hesabı yok ve bir tane oluşturmak istiyorum"
+
+msgid "I don't have an Apple developer account and I want to create one"
+msgstr "Apple geliştirici hesabı yok ve bir tane oluşturmak istiyorum"
+
+msgid "I have an Apple developer account"
+msgstr "Hesap Apple bir geliştirici var"
+
+msgid "I have an Google developer account"
+msgstr "Google geliştirici hesabı var"
+
+msgid "I let you publish my application under your Apple developer account"
+msgstr "Apple geliştirici altında başvurum yayımlamak hesap izin verdim"
+
+msgid "I let you publish my application under your Google developer account"
+msgstr "Google geliştirici hesabınız altında başvurum yayımlamak izin verdim"
+
+msgid "Icon"
+msgstr "Simge"
+
+msgid "Icons"
+msgstr "Simgeler"
+
+msgid "Icons & Images"
+msgstr "İkonlar ve görseller"
+
+msgid "Id"
+msgstr "id"
+
+msgid "If a feature is not listed, it yet can't be exported."
+msgstr "Özellik listelenmemişse dışarı aktarılamaz."
+
+msgid "If you decide to change the slider size, all images will be dropped. Are you sure ?"
+msgstr "Slider boyutunu değiştirirseniz tüm görseller kaybolacak. Emin misiniz?"
+
+msgid "If you validate, your app's colors and background image will be replaced"
+msgstr "Eğer doğrulamak, uygulamanızın renk ve arka plan görüntüsü değiştirilecek"
+
+msgid "If you want to change the push icon, you <b>must re-publish</b> the application"
+msgstr "Push ikonunu değiştirmek istiyorsanız,  uygulamanızı <b>yeniden yayınlamanız gerekir</b>"
+
+msgid "If your app is already published on the stores, be sure you have sent an update with the Ionic version, and that this update has already been accepted, otherwise your app may be broken."
+msgstr "Uygulamanız mağazada yayınlandıysa Ionic versiyonuyla güncelleme gönderdiğinizden ve bu güncellemenin kabul edildiğinden emin olun. Aksi takdirde uygulamanız bozulabilir."
+
+msgid "If your app is already published, changing the URL key or domain will break it. You will have to republish it. Change it anyway?"
+msgstr "Eğer uygulamanızı yayınladıysanız URL anahtarı veya domain değiştirdiğinizde yeniden yayınlamak zorunda kalacaksınız. Değiştirilsin mi?"
+
+msgid "If your app is already published, changing the domain will break it. You will have to republish it. Change it anyway?"
+msgstr "Eğer uygulamanızı yayınladıysanız domain değiştirdiğinizde yeniden yayınlamak zorunda kalacaksınız. Değiştirilsin mi?"
+
+msgid "If your messages do not comply with App Store Review Guidelines, %s, your app might be possibly refused after Apple's review."
+msgstr "İletileriniz App Store Review Guidelines ile uyumlu değilse, %s, Apple'ın incelemesi sonrasında uygulamanız reddedilebilir."
+
+msgid "Image size"
+msgstr "Görsel boyutu"
+
+msgid "Images"
+msgstr "Görseller"
+
+msgid "Images height"
+msgstr "Görsek yüksekliği"
+
+msgid "Import / Export"
+msgstr "Ekle / Çıkar"
+
+msgid "Import an application template or a single feature."
+msgstr "Bir uygulama şablonunu veya tek bir özelliği içe aktarın."
+
+msgid "Import features from Facebook"
+msgstr "Özellikleri Facebook'tan aktar"
+
+msgid "Import zip or yml"
+msgstr "Zip ya da yml içe aktar"
+
+msgid "Imported features"
+msgstr "Alınan özellikler"
+
+msgid "In case you have a main domain containing numbers you can change here the base for your App identifiers."
+msgstr "Numaralar içeren ana alanınız vıcılarınızarsa, burada Uygulama tanımlayın base'ini değiştirebilirsiniz."
+
+msgid "In order to help you start your application, we can retrieve some data from Facebook."
+msgstr "Uygulamanıza başlamanıza yardımcı olmak için Facebook'tan bazı verileri alabiliriz."
+
+msgid "In order to insert a promote banner for your application on your site, please follow those steps:"
+msgstr "Sitenizde uygulamanızı tanıtmak üzere ekleyeceğiniz banner için lütfen aşağıdaki adımları takip edin:"
+
+msgid "In-App Messages"
+msgstr "Uygulama içi mesajlar"
+
+msgid "In-app links"
+msgstr "Uygulama için linkler"
+
+msgid "Info successfully saved"
+msgstr "Info başarıyla kaydedildi"
+
+msgid "Input your SCSS here, save to validate & preview"
+msgstr "SCSS'inizi buraya koyun, doğrulama & önizlemeye kaydedin"
+
+msgid "Insert"
+msgstr "Ekle"
+
+msgid "Insert & close"
+msgstr "Ekle & kapat"
+
+msgid "Instagram API Keys"
+msgstr "Instagram API anahtarları"
+
+msgid "Instagram API settings"
+msgstr "Instagram API ayarları"
+
+msgid "Installed application"
+msgstr "Yüklü uygulama"
+
+msgid "Installer"
+msgstr "Installer"
+
+msgid "Integration"
+msgstr "İntegrasyon"
+
+msgid "Invalid period, end date is before start date."
+msgstr "Geçersiz süre, bitiş tarihi başlangıç tarihinden önce."
+
+msgid "Invalid version"
+msgstr "Geçersiz versiyon"
+
+msgid "Job"
+msgstr "İş"
+
+msgid "Key Password"
+msgstr "Anahtar Parolası"
+
+msgid "Keywords"
+msgstr "Anahtar kelimeler"
+
+msgid "Label"
+msgstr "Etiket"
+
+msgid "Landscape Left"
+msgstr "Yatay sol"
+
+msgid "Landscape Right"
+msgstr "Peyzaj"
+
+msgid "Language"
+msgstr "Dil"
+
+msgid "Languages"
+msgstr "Diller"
+
+msgid "Last name:"
+msgstr "Soyadı:"
+
+msgid "Latitude"
+msgstr "Genişlik"
+
+msgid "Layout options"
+msgstr "Layout ayarları"
+
+msgid "Left"
+msgstr "Sol"
+
+msgid "Left position"
+msgstr "Sol konum"
+
+msgid "Library icons"
+msgstr "Kütüphane simgeleri"
+
+msgid "License key"
+msgstr "Lisans anahtarı"
+
+msgid "Lifestyle"
+msgstr "Yaşam tarzı"
+
+msgid "Line-height"
+msgstr "Satır yüksekliği"
+
+msgid "List of my applications"
+msgstr "Uygulamalarım listesi"
+
+msgid "List of your applications"
+msgstr "Uygulamalar listesi"
+
+msgid "Loading"
+msgstr "Yükleme"
+
+msgid "Lock the entire application"
+msgstr "Tüm uygulama kilidi"
+
+msgid "Longitude"
+msgstr "Boylam"
+
+msgid "Loop features"
+msgstr "Loop özellikleri"
+
+msgid "Loop over images"
+msgstr "Görselleri loop yap"
+
+msgid "Love it <3"
+msgstr "Beğen <3"
+
+msgid "Lower case"
+msgstr "Küçük harf"
+
+msgid "LoyaltyCard"
+msgstr "Sadakat kartı"
+
+msgid "Main"
+msgstr "Ana"
+
+msgid "Manage Access"
+msgstr "Erişimi düzenle"
+
+msgid "Manage Admins access feature by feature."
+msgstr "Admin erişimini her bir özelliğe göre düzenleyin."
+
+msgid "Manage Companies"
+msgstr "Şirketleri Yönet"
+
+msgid "Manage icons"
+msgstr "Yönetmek simgeleri"
+
+msgid "Manage your app's features"
+msgstr "Uygulamanın özelliklerini yönet"
+
+msgid "Mcommerce"
+msgstr "M-ticaret"
+
+msgid "Media"
+msgstr "Medya"
+
+msgid "Medical"
+msgstr "Tıp"
+
+msgid "Menu-position"
+msgstr "Menü pozisyonlu"
+
+msgid "Message"
+msgstr "Mesaj"
+
+msgid "Message for both the two previous usages."
+msgstr "Önceki her iki kullanım için mesaj."
+
+msgid "Misc"
+msgstr "Mısc"
+
+msgid "Missing Information"
+msgstr "Eksik Bilgi"
+
+msgid "Missing parameters for cancellation."
+msgstr "İptal etme için eksik parametre."
+
+msgid "Mobile Source Codes"
+msgstr "Mobil Kaynak Kodları"
+
+msgid "Mobile source codes"
+msgstr "Mobil Kaynak Kodları"
+
+msgid "Mobile website information"
+msgstr "Mobil web sitesi bilgileri"
+
+msgid "Monetization"
+msgstr "Kazanç kaynağı haline getirme"
+
+msgid "Monetize my app using AdMob?"
+msgstr "AdMob kullanarak uygulamadan para kazan"
+
+msgid "Monetize your app"
+msgstr "Uygulamanızdan para kazanın"
+
+msgid "My Invoices"
+msgstr "Faturalarım"
+
+msgid "My QRCode"
+msgstr "Aztek Benim"
+
+msgid "My application in figures"
+msgstr "Başvuru rakamlar"
+
+msgid "Name"
+msgstr "Adı"
+
+msgid "Navigation"
+msgstr "Navigasyon"
+
+msgid "News"
+msgstr "Haber"
+
+msgid "Next"
+msgstr "Gelecek"
+
+msgid "No"
+msgstr "Hayır"
+
+msgid "No Facebook page? You can"
+msgstr "Facebook sayfası yok mu? Oluşturabilirsiniz"
+
+msgid "No account for now."
+msgstr "Şu an için hesap yok."
+
+msgid "No data found"
+msgstr "Veri bulunamadı"
+
+msgid "No features available for this application."
+msgstr "Bu uygulama için uygun bir özellik yok."
+
+msgid "No message sent, there is no available applications."
+msgstr "Gönderilen mesaj yok, mevcut uygulama yok."
+
+msgid "No options available."
+msgstr "Mevcut ayar yok."
+
+msgid "Not available offline."
+msgstr "Çevrimışı erişilebilir değil."
+
+msgid "Note that if you want to add ads later, you will have to publish the app again."
+msgstr "Daha sonra reklam ekleyecekseniz belirtin. Uygulamayı tekrar yayınlamanız gerekecek."
+
+msgid "Nothing to show for now."
+msgstr "Şu an gösterilecek bir şey yok."
+
+msgid "Notification center"
+msgstr "Bildirim merkezi"
+
+msgid "Off"
+msgstr "Kapalı"
+
+msgid "Offset"
+msgstr "Düz"
+
+msgid "On!"
+msgstr "on"
+
+msgid "One free coffee"
+msgstr "Bir ücretsiz kahve"
+
+msgid "Option successfully saved"
+msgstr "Ayar başarıyla kaydedildi."
+
+msgid "Options"
+msgstr "Seçenekleri"
+
+msgid "Options saved"
+msgstr "Ayarlar kaydedildi"
+
+msgid "Or go on your store<br />and look for \"Apps Company Previewer\""
+msgstr "Ya da mağzanızda gidin <br />\"Uygulamalar şirket önizleyicisi\" de arayın"
+
+msgid "Or go on your store<br />and look for 'Apps Company Previewer'"
+msgstr "Ya da mağazanıza gidin  ve <br /> 'Uygulamalar Şirket Önizleyicisi'ni arayın"
+
+msgid "Order places"
+msgstr "Yerleri düzenle"
+
+msgid "Order places by distance:"
+msgstr "Yerleri mesafelere göre sırala:"
+
+msgid "Order results alphebetically:"
+msgstr "Sonuçları alfabetik olarak sırala:"
+
+msgid "Orientations saved!"
+msgstr "Oryantasyon kaydedildi."
+
+msgid "Other"
+msgstr "Diğer"
+
+msgid "Package Name"
+msgstr "Paket adı"
+
+msgid "Page name:"
+msgstr "Sayfa adı:"
+
+msgid "Partially available offline."
+msgstr "Kısmen çevrimdışı kullanılabilir."
+
+msgid "Percentage of returning customers"
+msgstr "Geri dönen müşteriler yüzdesi"
+
+msgid "Period to long, please select less than one month."
+msgstr "Süre çok uzun, lütfen bir aydan daha kısa bir süre seçin."
+
+msgid "Permissions Modal Alerts messages describe why your apps requires some permissions,"
+msgstr "İzinler Modal Uyarı mesajları, uygulamalarınızın neden bazı izinler gerektirdiğini açıklar."
+
+msgid "Photo & Video"
+msgstr "Fotoğraf Ve Video"
+
+msgid "Places"
+msgstr "Yerler"
+
+msgid "Please check your messages before sending your app to be published, specifically if you are using iOS Auto publish service: if your app is refused after review, one build will be consumed."
+msgstr "Uygulamanızı yayınlanmadan önce, özellikle iOS Otomatik yayınlama hizmetini kullanıyorsanız iletilerinizi kontrol edin: Uygulamanız incelenmeden sonra reddedilirse, bir build* tüketilecektir."
+
+msgid "Please enter a correct URL for the %s store"
+msgstr "Deposu %için doğru bir URL girin lütfen"
+
+msgid "Please enter a number for the duration."
+msgstr "Süresi için bir sayı giriniz."
+
+msgid "Please enter a subdomain."
+msgstr "Bir alt alan adını girin lütfen."
+
+msgid "Please enter a valid URL"
+msgstr "Lütfen geçerli bir URL girin"
+
+msgid "Please enter a valid address"
+msgstr "Lütfen geçerli bir adres girin"
+
+msgid "Please enter a valid mobile website address."
+msgstr "Geçerli mobil web sitesi adresi girin lütfen."
+
+msgid "Please fill iTunes Connect Identifier."
+msgstr "Lütfen iTunes Connect tanımlayıcıyı doldurun."
+
+msgid "Please note that AAC+ streams aren't managed yet on Firefox browser, but it will work well in the app."
+msgstr "Lütfen AAC+ streamlerinin Firefox'ta henüz düzenlenmediğini not edin. Ancak uygulamada doğru çalışacaktır."
+
+msgid "Please select at least one language."
+msgstr "Lütfen en az bir dil seçin."
+
+msgid "Please wait while we generate application source."
+msgstr "Lütfen uygulama kaynağı üretilirken bekleyin"
+
+msgid "Port"
+msgstr "Bağlantı noktası"
+
+msgid "Portrait"
+msgstr "Dikey"
+
+msgid "Preset"
+msgstr "Ön ayar"
+
+msgid "Preview"
+msgstr "Önizleme"
+
+msgid "Preview and test your native apps directly on your mobile."
+msgstr "Mobil cihazınızda uygulamanıza önizleme yapın ve test edin."
+
+msgid "Preview on your phone"
+msgstr "Telefonunuzda önizleme yapın."
+
+msgid "Privacy policy URL"
+msgstr "Gizlilik politikası"
+
+msgid "Proceed to checkout before downloading the source code."
+msgstr "Kaynak kodunu indirmeden önce ödeme işlemine devam edin."
+
+msgid "Productivity"
+msgstr "Verimlilik"
+
+msgid "Promote"
+msgstr "Teşvik"
+
+msgid "Promote your app!"
+msgstr "Uygulamanı tanıt!"
+
+msgid "Promotion"
+msgstr "Tanıtım"
+
+msgid "Publication"
+msgstr "Yayın"
+
+msgid "Publish automatically to iTunes Connect"
+msgstr "iTunes Connect'te otomatik olarak yayınla"
+
+msgid "Publish the application"
+msgstr "Uygulama yayınlama"
+
+msgid "Publish under our account"
+msgstr "Hesabımıza altında yayınlamak"
+
+msgid "QR Coupons"
+msgstr "QR Kuponları"
+
+msgid "Ready ? Publish my app!"
+msgstr "Hazır mısın ? Benim app yayınlayın!"
+
+msgid "Recommanded size:"
+msgstr "Gerekli boyut:"
+
+msgid "Recommended size:"
+msgstr "Önerilen boyut"
+
+msgid "Reference"
+msgstr "Başvuru"
+
+msgid "Remaining build"
+msgstr "Kalan kurgu"
+
+msgid "Remaining builds"
+msgstr "Kalan kurgular"
+
+msgid "Remove this page from this folder?"
+msgstr "Bu klasör, Bu sayfayı kaldırmak?"
+
+msgid "Reset"
+msgstr "Yenile"
+
+msgid "Return to current feature"
+msgstr "Mevcut özelliğe geri dön."
+
+msgid "Right"
+msgstr "Doğru"
+
+msgid "Right position"
+msgstr "Doğru konum"
+
+msgid "Rss"
+msgstr "Rss"
+
+msgid "SMTP Configuration"
+msgstr "STMP Konfigürasyonu"
+
+msgid "SSL"
+msgstr "SSL"
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Save publication settings"
+msgstr "Yayınlama ayarlarını kaydet"
+
+msgid "Scan this QR Code"
+msgstr "Bu tarama QR Kodunu"
+
+msgid "Scan this QR Code:"
+msgstr "QR Kodu tara:"
+
+msgid "Search by keywords ..."
+msgstr "Anahtar kelimelerle ara"
+
+msgid "Search filters & Options"
+msgstr "Arama filtreleri ve seçenekler"
+
+msgid "Search radius"
+msgstr "Arama yarıçapı"
+
+msgid "Search settings"
+msgstr "Arama ayarları"
+
+msgid "Secondary category"
+msgstr "İkincil kategori"
+
+msgid "Secondary category<br />(Optional)"
+msgstr "İkincil kategori<br />(İsteğe bağlı)"
+
+msgid "Secret Key"
+msgstr "Secret Key"
+
+msgid "Send here your iOS certificate to enable the push notifications for this application."
+msgstr "Burada iOS sertifika bu uygulama için push bildirimleri etkinleştirmek için Gönder."
+
+msgid "Send request"
+msgstr "Talep gönder"
+
+msgid "Send you .pem certificate"
+msgstr "Sen gönder .pem sertifika"
+
+msgid "Sender name/e-mail"
+msgstr "Gönderici adı/e-postası"
+
+msgid "Sender name/e-mail & Custom SMTP"
+msgstr "Gönderici adı/e-postası & Özel STMP"
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Show"
+msgstr "Göster"
+
+msgid "Show the applications waiting for publication only."
+msgstr "Yayın için sadece bekleme uygulamaları göster."
+
+msgid "Sidebar width"
+msgstr "Kenar çubuğu genişliği"
+
+msgid "Slider"
+msgstr "Kaydırma butonu"
+
+msgid "Slider height"
+msgstr "Kaydırma alanı yüksekliği"
+
+msgid "Slider images duration, in seconds:"
+msgstr "Saniye olarak kaydırma alanı görsel süreleri:"
+
+msgid "Slideshow duration"
+msgstr "Slayt gösterisi süresi"
+
+msgid "Social"
+msgstr "Sosyal"
+
+msgid "Social Networking"
+msgstr "Sosyal Ağ"
+
+msgid "Social Sharing"
+msgstr "Sosyal paylaşım"
+
+msgid "Socialgaming"
+msgstr "Sosyal oyun"
+
+msgid "Sorry, an error occurred while fetching data from Facebook. Please contact an admin."
+msgstr "Facebook'tan veri aktarılırken sorun oluştu. Lütfen bir yönetici ile iletişime geçin."
+
+msgid "Sorry, it seems that Facebook credentials are invalid. Please contact an administrator."
+msgstr "Üzgünüz, Facebook kimliği geçersiz görünüyor. Lütfen bir yöneticiyle iletişime geçin."
+
+msgid "Sorry, no data was found for this page. Maybe you used the wrong page id?"
+msgstr "Üzgünüz, bu sayfa için veri bulunamadı. Yanlış sayfa kimliği kullanmış olabilir misiniz?"
+
+msgid "Sorry, we need a page id."
+msgstr "Üzgünüz, bir sayfa ID'sine ihtiyacımız var."
+
+msgid "Source type"
+msgstr "Kaynak türü"
+
+msgid "Sourcecode"
+msgstr "Kaynak kodu"
+
+msgid "Specifies the reason for your app to access the device's accelerometer."
+msgstr "Uygulamanın neden cihazın ivme ölçer'İne erişim istediğini belirtir"
+
+msgid "Specifies the reason for your app to access the device's camera."
+msgstr "Uygulamanızın neden cihazın kamerasına erişimi olduğunu belirtir."
+
+msgid "Specifies the reason for your app to access the user's location information at all times."
+msgstr "Uygulamanızın kullanıcının konum bilgilerine her zaman erişebilmesi için nedenini belirtir."
+
+msgid "Specifies the reason for your app to access the user's photo library."
+msgstr "Uygulamanızın kullanıcının fotoğraf kitaplığına erişme nedenini belirtir"
+
+msgid "Specifies the reason for your app to access the user’s location information while your app is in use."
+msgstr "Uygulamanız kullanılırken neden kullanıcının konumuna erişim olduğunu belirtir."
+
+msgid "Sports"
+msgstr "Spor"
+
+msgid "Square icons"
+msgstr "Kare ikonlar"
+
+msgid "Startup image"
+msgstr "Başlangıç resmi"
+
+msgid "Status"
+msgstr "Durumu"
+
+msgid "Status bar"
+msgstr "Durum çubuğu"
+
+msgid "Store App ID"
+msgstr "Mağaza uygulama kimliği"
+
+msgid "Store Password"
+msgstr "Mağaza Parola"
+
+msgid "Store URL"
+msgstr "Mağaza URL"
+
+msgid "Stores Info"
+msgstr "Mağaza Bilgileri"
+
+msgid "Stores URL"
+msgstr "Mağaza URL'i"
+
+msgid "Stretch"
+msgstr "Esnet"
+
+msgid "Subheader"
+msgstr "Alt başlık"
+
+msgid "Subtitle:"
+msgstr "Altyazı:"
+
+msgid "Success."
+msgstr "Başarılı."
+
+msgid "System"
+msgstr "Sistem"
+
+msgid "Tabbar"
+msgstr "Sekme çubuğu"
+
+msgid "Tags"
+msgstr "Etiketler"
+
+msgid "Tags separated by commas"
+msgstr "Virgülle ayrılmış etiketler"
+
+msgid "Template"
+msgstr "Şablon"
+
+msgid "Template description"
+msgstr "Şablon açıklaması"
+
+msgid "Template name"
+msgstr "Şablon adı"
+
+msgid "Template preview"
+msgstr "Şablon önizleme"
+
+msgid "Template version"
+msgstr "Şablon versiyonu"
+
+msgid "Terms & Conditions"
+msgstr "Hüküm ve Koşullar"
+
+msgid "The Bundle Id is required"
+msgstr "Paket Kimliği gereklidir"
+
+msgid "The QR Code is not available at this moment"
+msgstr "QR Kodunu şu anda kullanılabilir değil"
+
+msgid "The White-label you are trying to edit doesn't exists."
+msgstr "Düzenlemeye çalıştığınız white label mevcut değil"
+
+msgid "The application has been successfully saved"
+msgstr "Uygulama başarıyla kaydedildi"
+
+msgid "The application name"
+msgstr "Uygulama adı"
+
+msgid "The application's name cannot start with a number"
+msgstr "Uygulamanın adı bir sayı ile başlayamaz"
+
+msgid "The bundle id"
+msgstr "Paket kimliği"
+
+msgid "The description"
+msgstr "Açıklama"
+
+msgid "The description must be at least 200 characters"
+msgstr "Açıklama en az 200 karakter olmalıdır"
+
+msgid "The desktop icon"
+msgstr "Masaüstü simgesi"
+
+msgid "The entered bundle id is incorrect, it should be like: com.nwicodecms.app"
+msgstr "Girilen paket kimliği yanlış, com.turkapp.appo gibi olmalı"
+
+msgid "The field is required"
+msgstr "Alanı gereklidir"
+
+msgid "The file has been successfully uploaded"
+msgstr "Dosya başarıyla yüklendi"
+
+msgid "The following information are needed to download the source codes:<br />"
+msgstr "Aşağıdaki bilgiler, kaynak kodları indirmek için gereklidir:<br />"
+
+msgid "The homepage image"
+msgstr "Ana Sayfa resim"
+
+msgid "The key cannot be empty."
+msgstr "Anahtar boş bırakılamaz."
+
+msgid "The key is already used by another application."
+msgstr "Anahtar zaten başka bir uygulama tarafından kullanılıyor."
+
+msgid "The keywords"
+msgstr "Anahtar"
+
+msgid "The main category"
+msgstr "Ana kategori"
+
+msgid "The startup image"
+msgstr "Başlangıç görüntü"
+
+msgid "This application does not exist"
+msgstr "Bu uygulama yok"
+
+msgid "This application is no longer available"
+msgstr "Bu uygulama artık mevcut değil."
+
+msgid "This application is visible on the front"
+msgstr "Bu uygulama ön görülebilir"
+
+msgid "This key is already used by system features."
+msgstr "Bu anahtar zaten Sistem Özellikleri tarafından kullanılır."
+
+msgid "This option enables you to set the currency used in your app"
+msgstr "Bu seçenek, para uygulamanızda kullanılan ayarlamanızı sağlar"
+
+msgid "This page will be displayed to mobile users to enable them to login and manage their account. It is automatically added when you use features which need user login."
+msgstr "Bu sayfa mobil kullanıcılar için oturum açma ve hesap yönetmek sağlamak için görüntülenir. Otomatik olarak kullanıcı girişi gerektiren özellikleri kullanırken eklenir."
+
+msgid "This user can add pages to this application."
+msgstr "Bu kullanıcı uygulamaya sayfalar ekleyebilir."
+
+msgid "Tip"
+msgstr "Ucu"
+
+msgid "Tips calculator"
+msgstr "Bahşiş hesaplayıcı"
+
+msgid "Title"
+msgstr "Başlık"
+
+msgid "Title case"
+msgstr "Başlık durum"
+
+msgid "Title position"
+msgstr "Başlık pozisyonu"
+
+msgid "Titles"
+msgstr "Başlıklar"
+
+msgid "To be able to download source codes, please provide the following information:<br />"
+msgstr "Kaynak kodları indirmek için, lütfen aşağıdaki bilgileri sağlayın:<br />"
+
+msgid "Top"
+msgstr "Üst"
+
+msgid "Topic"
+msgstr "Başlık"
+
+msgid "Translation"
+msgstr "Çeviri"
+
+msgid "Transparent"
+msgstr "Transparan"
+
+msgid "Travel"
+msgstr "Seyahat"
+
+msgid "Twitter API Keys"
+msgstr "Twitter API Anahtarları"
+
+msgid "Twitter API secret"
+msgstr "Twitter API gizli"
+
+msgid "Twitter API settings"
+msgstr "Twitter API ayarları"
+
+msgid "Twitter API token"
+msgstr "Twitter API token"
+
+msgid "Twitter consumer key"
+msgstr "Twitter"
+
+msgid "Twitter consumer secret"
+msgstr "Twitter tüketici sırrı"
+
+msgid "Type"
+msgstr "Yazın"
+
+msgid "UP"
+msgstr "YUKARI"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "URL Key"
+msgstr "URL Anahtar"
+
+msgid "Upload icon"
+msgstr "Yükleme simgesi"
+
+msgid "Upload image"
+msgstr "Görsel yükle"
+
+msgid "Upper case"
+msgstr "Büyük harf"
+
+msgid "Upside Down"
+msgstr "Alt üst"
+
+msgid "Use Owner AdMob"
+msgstr "Sahip AdMob'u kullan"
+
+msgid "Use ads for platform owner"
+msgstr "Platform sahibi için reklam kullan"
+
+msgid "Use background into all of your application's pages"
+msgstr "Tüm uygulama sayfalarına arka plan kullan"
+
+msgid "Use into all of your application's pages"
+msgstr "Uygulamanızın bütün sayfaları içine kullanımı"
+
+msgid "Used points"
+msgstr "Kullanılan puan"
+
+msgid "User Information"
+msgstr "Kullanıcı Bilgileri"
+
+msgid "User:"
+msgstr "Kullanıcı:"
+
+msgid "Utilities"
+msgstr "Yardımcı Programlar"
+
+msgid "Version"
+msgstr "Sürüm"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Visible"
+msgstr "Görünür"
+
+msgid "Visible from all pages"
+msgstr "Tüm sayfalarda görünür"
+
+msgid "Visible from all the application's pages (removes the homepage)"
+msgstr "Tüm uygulama sayfalarında görünür (Ana Sayfayı kaldırır)"
+
+msgid "We are sorry but this application has been deactivated and may not be re-activated."
+msgstr "Üzgünüz ancak bu uygulama deaktif edildi ve tekrar aktive edilemeyebilir."
+
+msgid "Weather"
+msgstr "Hava durumu"
+
+msgid "Weblink"
+msgstr "Adresinden"
+
+msgid "White Label Editor Settings"
+msgstr "White Label editör ayarları"
+
+msgid "Width"
+msgstr "Genişliği"
+
+msgid "With ads functionality"
+msgstr "Reklamlar işlevselliği ile"
+
+msgid "With background audio playing"
+msgstr "Arka plan ses çalma ile"
+
+msgid "With background geolocation"
+msgstr "Coğrafi konum arka planı ile"
+
+msgid "With options"
+msgstr "Opsiyonlarla"
+
+msgid "Yes"
+msgstr "Evet"
+
+msgid "You already have sent a certificate."
+msgstr "Zaten bir sertifika gönderdi."
+
+msgid "You already sent a request, please wait 3 days from your previous request to retry."
+msgstr "Zaten bir istek gönderdiniz, lütfen tekrar denemek için önceki isteğinizden sonra 3 gün bekleyin."
+
+msgid "You can add or change license in (<strong>Settings / General</strong>).<br/><em>note: builds are only consumed if they're successful.</em>"
+msgstr "Lisansı (<strong> Ayarlar / Genel</strong>) ekleyebilir veya değiştirebilirsiniz. <br/> <em> not: yapıların başarılı olması durumunda yalnızca tüketilir. </em>"
+
+msgid "You can download your QRCode by <a class=\"f-bold\" href=\"%s\">clicking here</a>"
+msgstr "QR kodunuzu <a class=\"f-bold\" href=\"%s\">yükleyebilirsiniz.</a>"
+
+msgid "You can use <b>%s</b> as variable for your application name."
+msgstr "Uygulama adınız için <b>%s </b> 'i değişken olarak kullanabilirsiniz."
+
+msgid "You can't go back to Angular design."
+msgstr "Açısal tasarıma geri dönemezsiniz."
+
+msgid "You can't use this domain."
+msgstr "Bu domain'i kullanamazsınız."
+
+msgid "You cannot have multiple sessions to manage apps, so the session for this app is closed. This page is about to be reloaded."
+msgstr "Uygulamaları yönetmek için birden fazla oturumu açık olamaz, bu nedenle bu uygulamanın oturumu kapatılıyor.  Yeniden yüklenmek üzere."
+
+msgid "You don't have any applications yet"
+msgstr "Henüz herhangi bir uygulama yok"
+
+msgid "You have already sent a certificate"
+msgstr "Zaten bir sertifika gönderdiler"
+
+msgid "You have sent a certificate."
+msgstr "Bir sertifika gönderdiniz"
+
+msgid "You have to create a Google account before publishing your application. <a href=\"https://play.google.com/apps/publish/signup\" target=\"_blank\">Click here to create one.</a>"
+msgstr "Başvurunuzu yayınlamadan önce bir Google hesabı oluşturmanız gerekir. <a href=\"https://play.google.com/apps/publish/signup\" target=\"_blank\"> oluşturmak için burayı tıklayın. </a>"
+
+msgid "You have to create an Apple account before publishing your application. <a href=\"https://developer.apple.com/register/index.action\" target=\"_blank\">Click here to create one.</a>"
+msgstr "Başvurunuzu yayınlamadan önce bir Apple hesabı oluşturmanız gerekir. <a href=\"https://developer.apple.com/register/index.action\" target=\"_blank\"> oluşturmak için burayı tıklayın. </a>"
+
+msgid "You have to purchase the application before downloading the mobile source code."
+msgstr "Mobil kaynak kodunu indirmeden önce uygulamayı satın almalısınız."
+
+msgid "You haven't chosen any template yet"
+msgstr "Henüz herhangi bir şablon seçmedin"
+
+msgid "You may not delete a library icon"
+msgstr "Kütüphane simgesini silmek olmayabilir"
+
+msgid "You must choose an ads type"
+msgstr "Bir reklam türü seçmelisiniz."
+
+msgid "You must have published your application to access this feature"
+msgstr "Bu özelliğe erişmek için uygulamanız yayınlanmış olması gerekir"
+
+msgid "You must select at least one orientation for iPad!"
+msgstr "IPad için en az bir uyum seçmelisiniz!"
+
+msgid "You must select at least one orientation for iPhone!"
+msgstr "iPhone için en az bir yön seçmelisiniz!"
+
+msgid "Your CNAME is not properly set"
+msgstr "CNAME doğru ayarlanmadı."
+
+msgid "Your CNAME is properly set"
+msgstr "CNAME düzgün ayarlanır"
+
+msgid "Your administrator is using a custom smtp provider, if you don't want to use your own SMTP provider, you are invited to send a whitelist request via the button below"
+msgstr "Yöneticiniz özel SMTP sağlayıcısı kullanıyorsa, kendi SMTP sağlayıcınızı kullanmak istemiyorsanız, aşağıdaki düğmeyle beyaz liste isteği göndermeye davetlisiniz."
+
+msgid "Your analytics has been computed."
+msgstr "Analizleriniz hesaplandı."
+
+msgid "Your app will be published"
+msgstr "Uygulamanız yayınlanacak"
+
+msgid "Your application in few numbers"
+msgstr "Uygulamanız az sayıda"
+
+msgid "Your application is now switched to Ionic"
+msgstr "Uygulamanız şimdi Ionic'e geçti"
+
+msgid "Your application is ready to be published."
+msgstr "Uygulamanız yayınlanmaya hazır."
+
+msgid "Your best customers"
+msgstr "En iyi müşterileri"
+
+msgid "Your bundle id is invalid, format should looks like com.mydomain.iosid"
+msgstr "Format geçersiz. com.mydomain.iosid şeklinde olmalı"
+
+msgid "Your customers in figures"
+msgstr "Rakamlarla müşterileri"
+
+msgid "Your customization has been applied to %s."
+msgstr "Özelleştirmeniz %s e uygulandı."
+
+msgid "Your customization has been applied to your white label panel."
+msgstr "Kişiselleştirmeniz white label panelinize uygulandı."
+
+msgid "Your design"
+msgstr "Tasarım"
+
+msgid "Your domain key \"%s\" is not valid."
+msgstr "Domain anahtarınız  \"%s\" geçerli değil."
+
+msgid "Your iOS autobuild License Key"
+msgstr "iOS autobuild Lisans Anahtarınız"
+
+msgid "Your mobile address should not contain special characters"
+msgstr "Mobil adresinizi Özel Karakter içermemelidir"
+
+msgid "Your package name is invalid, format should looks like com.mydomain.androidid"
+msgstr "Paket adınız geçersiz, biçim com.mydomain.androidid gibi görünmelidir"
+
+msgid "Your pages"
+msgstr "Sayfaları"
+
+msgid "address"
+msgstr "Adres"
+
+msgid "alphabetically"
+msgstr "aflabetik olarak"
+
+msgid "building"
+msgstr "kurgu"
+
+msgid "by distance"
+msgstr "Mesafeye göre"
+
+msgid "default, by creation date"
+msgstr "oluşturulma tarihine göre varsayılan"
+
+msgid "e.g: On %s"
+msgstr "Örneğin; %s de"
+
+msgid "eBanner iOS price"
+msgstr "eBanner iOS fiyatı"
+
+msgid "failed"
+msgstr "başarısız"
+
+msgid "from"
+msgstr "-den"
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "iOS Certificate"
+msgstr "iOS Sertifika"
+
+msgid "iPad Retina:"
+msgstr "iPad Retina:"
+
+msgid "iPad orientation settings"
+msgstr "iPad uyum ayarları"
+
+msgid "iPhone & iPad orientation"
+msgstr "iPhone & iPad uyumu"
+
+msgid "iPhone 5 / 5S:"
+msgstr "iPhone 5 / 5S:"
+
+msgid "iPhone 6 Plus:"
+msgstr "6 iPhone Plus:"
+
+msgid "iPhone 6:"
+msgstr "6 iPhone:"
+
+msgid "iPhone Version"
+msgstr "iPhone Sürüm"
+
+msgid "iPhone Version (No Ads)"
+msgstr "iPhone versiyonu (Reklamsız)"
+
+msgid "iPhone orientation settings"
+msgstr "iPhone uyum ayarları"
+
+msgid "iTunes Connect Login"
+msgstr "iTunes Connect Giriş"
+
+msgid "iTunes Connect Password"
+msgstr "iTunes Connect parolası"
+
+msgid "icon"
+msgstr "Simge"
+
+msgid "like using the GPS or the camera. After the first installation of your app, those messages will be shown to the app user."
+msgstr "GPS veya kamera kullanmak gibi. Uygulamanızın ilk yüklemesinden sonra, bu iletiler uygulama kullanıcısına gösterilecek."
+
+msgid "logo"
+msgstr "Logo"
+
+msgid "pending"
+msgstr "bekliyor"
+
+msgid "seconds"
+msgstr "saniyeler"
+
+msgid "skip this step"
+msgstr "Bu adımı atla"
+
+msgid "success"
+msgstr "Başarılı"
+
+msgid "times"
+msgstr "times"
+
+msgid "to"
+msgstr "için"
+
+msgid "with image"
+msgstr "görsel ile"
+
+msgid "without image"
+msgstr "Görselsiz"

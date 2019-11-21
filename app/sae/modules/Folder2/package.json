@@ -1,0 +1,11 @@
+{
+  "name": "Folder2",
+  "description": "",
+  "version": "4.16.6",
+  "dependencies": {
+    "system": {
+      "type": "SAE",
+      "version": "4.15.10"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+<style>
+	.list .item-divider.item-divider-custom {
+		max-width: none; 
+		width: 100%;
+	}
+</style>
+<form method="post" name="loginForm" ng-submit="_pcustomer_login(customer)" class="slide-down">
+	<ion-card inset="true" lines="none" class="login-form">
+		<ion-card-header class="ion-text-center" style="width: 100%; text-align: center; max-width:1000px;">
+			<ion-card-title class="ion-text-center">{{ "Login" | translate }}</ion-card-title>
+		</ion-card-header>
+		<label class="item item-input item-floating-label">
+			<span class="input-label">{{ 'Email' | translate }}</span>
+			<input type="email" placeholder="{{ 'Email' | translate }}" ng-model="customer.email">
+		</label>
+		<label class="item item-input item-floating-label">
+			<span class="input-label">{{ 'Password' | translate }}</span>
+			<input type="password" placeholder="{{ 'Password' | translate }}" ng-model="customer.password">
+		</label>
+		<ion-button expand="block" type="submit" color="primary"><ion-icon slot="start" name="key"></ion-icon> {{ "Log-in" | translate }}</ion-button>
+		<ion-button expand="block" ng-if="myAccount.settings.enable_registration" ng-click="displayAccountForm()" color="secondary"><ion-icon slot="start" name="person-add"></ion-icon> {{ "Create an account" | translate }}</ion-button>
+		<div ng-if="!is_logged_in && myAccount.settings.enable_facebook_login" style="width:100%; text-align:center;">- {{'OR'|translate}} -</div>
+		<ion-button expand="block" ng-if="!is_logged_in && myAccount.settings.enable_facebook_login" ng-show="_facebook_enabled" ng-click="_pcustomer_login_fb()" color="secondary"><ion-icon slot="start" name="logo-facebook"></ion-icon> {{ "Log-in with Facebook" | translate }}</ion-button>
+		<div style="width:100%; text-align:center;">-</div>
+		<ion-button expand="block" fill="outline" ng-click="displayForgotPasswordForm()" color="primary"><ion-icon slot="start" name="refresh"></ion-icon> {{ "Forgot your password?" | translate }}</ion-button>
+		<ion-button expand="block" fill="clear" size="small" ng-click="displayPrivacyPolicy('login')" color="medium"><ion-icon slot="start" name="open"></ion-icon> {{ "Privacy Policy" | translate }}</ion-button>	
+	</ion-card>
+</form>

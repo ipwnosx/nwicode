@@ -1,0 +1,14 @@
+{
+  "name": "Catalog",
+  "description": "",
+  "version": "4.16.6",
+  "dependencies": {
+    "system": {
+      "type": "SAE",
+      "version": "1.0"
+    },
+    "modules": {
+      "Folder": "4.15.10"
+    }
+  }
+}

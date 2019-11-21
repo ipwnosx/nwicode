@@ -1,0 +1,347 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-10-20T17:07:50+11:00\n"
+"PO-Revision-Date: 2019-10-20T17:07:50+11:00\n"
+"Language: \n"
+
+# GMT 1559644692.6798
+msgid "%s - Your new password"
+msgstr "%s - Ваш новый пароль"
+
+# GMT 1559644692.3814
+msgid "A request to reset your password has been made to log in to your administration panel."
+msgstr "Запрос для сброса пароля был сформирован, чтобы войти в вашу Панель администратора"
+
+# GMT 1559644692.3864
+msgid "Access"
+msgstr "Доступ"
+
+# GMT 1559644692.3913
+msgid "Account Role"
+msgstr "Роль пользователя"
+
+# GMT 1559644692.3955
+msgid "Account role"
+msgstr "Роль аккаунта"
+
+# GMT 1559644692.404
+msgid "Address 2:"
+msgstr "Адрес 2:"
+
+# GMT 1559644692.3997
+msgid "Address:"
+msgstr "Адрес:"
+
+# GMT 1559644692.4074
+msgid "Administrator : full access"
+msgstr "Администратор : полный доступ"
+
+# GMT 1559644692.4115
+msgid "Administrator: full access"
+msgstr "Администратор - Полный доступ"
+
+# GMT 1559644692.4155
+msgid "An error occurred while saving. The country is not valid."
+msgstr "Произошла ошибка при сохранении. Да, не бывает такой страны)))."
+
+# GMT 1559644692.4192
+msgid "Application"
+msgstr "Приложение"
+
+# GMT 1559644692.4235
+msgid "Application have been duplicated successfully."
+msgstr "Приложение успешно дублировано."
+
+# GMT 1559644692.4276
+msgid "Are you sure you want to delete this application?"
+msgstr "Вы уверены, что хотите удалить это приложение?"
+
+# GMT 1559644692.431
+msgid "Are you sure you want to duplicate this application?"
+msgstr "Вы уверены, что хотите дублировать это приложение?"
+
+# GMT 1559644692.4352
+msgid "Can add pages"
+msgstr "Может добавлять страницы"
+
+# GMT 1559644692.4411
+msgid "Can generate APK"
+msgstr "Может генерировать APK"
+
+# GMT 1559644692.4453
+msgid "Can manage guided tour"
+msgstr "Можете управлять экскурсией"
+
+# GMT 1559644692.4504
+msgid "Change my password"
+msgstr "Изменить мой пароль"
+
+# GMT 1559644692.4546
+msgid "Company:"
+msgstr "Компания:"
+
+# GMT 1559644692.459
+msgid "Confirm your password"
+msgstr "Подтвердите ваш пароль"
+
+# GMT 1559644692.4642
+msgid "Connect to your backoffice to validate this account."
+msgstr "Подключиться к личному кабинету, чтобы проверить эту учетную запись."
+
+# GMT 1559644692.4691
+msgid "Create a new application"
+msgstr "Создать новое приложение"
+
+# GMT 1559644692.4743
+msgid "Create a new user"
+msgstr "Создать нового пользователя"
+
+# GMT 1559644692.4777
+msgid "Created At"
+msgstr "Создан с"
+
+# GMT 1559644692.4816
+msgid "Created at %s"
+msgstr "Создано с %s"
+
+# GMT 1559644692.486
+msgid "Do not hesitate to give us your feedback by sharing your needs:"
+msgstr "Не стесняйтесь оставлять свои отзывы и следите за новостями: https://vk.com/nwicod"
+
+msgid "Edit the account \"%s\""
+msgstr "Редактировать аккаунт \"%s\""
+
+# GMT 1559644692.4897
+msgid "Edit the account %s"
+msgstr "Редактирование учетной записи %s"
+
+# GMT 1559644692.4939
+msgid "Edit the user %s"
+msgstr "Редактировать пользователя %s"
+
+# GMT 1559644692.4977
+msgid "Enjoy!"
+msgstr "До свидания и всего хорошего!!!"
+
+# GMT 1559644692.5019
+msgid "Filter your apps..."
+msgstr "Фильтр приложений..."
+
+# GMT 1559644692.506
+msgid "Find some advices here:"
+msgstr "Найти несколько советов здесь: https://nwicode.com/"
+
+# GMT 1559644692.51
+msgid "From"
+msgstr "от"
+
+# GMT 1559644692.5138
+msgid "Hello, a new user has registered on your platform : %s."
+msgstr "Зарегистрировался новый пользователь : %s."
+
+# GMT 1559644692.5178
+msgid "Here are your credentials, keep them preciously:"
+msgstr "Вот ваши учетные данные, храните их бережно:"
+
+msgid "It is necessary to increase the maximum size of the application."
+msgstr "Необходимо увеличить максимальный размер приложения."
+
+msgid "Left: %d years, %d months, %d days"
+msgstr "Осталось: %d лет, %d месяцев, %d дней"
+
+# GMT 1559644692.522
+msgid "List of admin accounts"
+msgstr "Список админ-аккаунтов"
+
+# GMT 1559644692.5257
+msgid "List of my accounts"
+msgstr "Список моих аккаунтов"
+
+# GMT 1559644692.5296
+msgid "List of your users"
+msgstr "Список пользователей"
+
+msgid "Locked"
+msgstr "Заблокированно"
+
+# GMT 1559644692.5338
+msgid "Log-in As"
+msgstr "Вошел как"
+
+msgid "Login to your admin interface"
+msgstr "Вход в личный кабинет"
+
+# GMT 1559644692.684
+msgid "Make for me"
+msgstr "Сделать за меня"
+
+# GMT 1559644692.538
+msgid "Manage access"
+msgstr "Дать доступ"
+
+# GMT 1559644692.5417
+msgid "My Applications"
+msgstr "Мои приложения"
+
+# GMT 1559644692.5455
+#, mobile
+msgid "My information"
+msgstr "Моя информация"
+
+# GMT 1559644692.5497
+msgid "Need some help?"
+msgstr "Нужна помощь?"
+
+# GMT 1559644692.5539
+msgid "New user registration on your platform"
+msgstr "Новый пользователь"
+
+# GMT 1559644692.5576
+msgid "No account for now."
+msgstr "Нет аккаунта"
+
+# GMT 1559644692.5618
+msgid "Please enter a valid email address."
+msgstr "Пожалуйста, введите действительный адрес электронной почты."
+
+# GMT 1559644692.5654
+msgid "Please, enter an application name"
+msgstr "Пожалуйста, введите название приложения."
+
+# GMT 1559644692.5692
+msgid "Publication access type"
+msgstr "Тип издания доступ"
+
+# GMT 1559644692.5734
+msgid "Ready to create your own apps?"
+msgstr "Готовы для создания собственных приложений?"
+
+# GMT 1559644692.5772
+msgid "Role"
+msgstr "Роль"
+
+# GMT 1559644692.5814
+msgid "Show All Applications"
+msgstr "Показать Все Приложения"
+
+# GMT 1559644692.5856
+msgid "Sign up"
+msgstr "Зарегистрироваться"
+
+msgid "Soon"
+msgstr "Скоро"
+
+# GMT 1559644692.5898
+msgid "Sorry but an error occured while duplicating your application."
+msgstr "Извините, но произошла ошибка при дублировании приложения."
+
+# GMT 1559644692.5931
+msgid "State/Province"
+msgstr "Штат/Республика"
+
+# GMT 1559644692.5974
+msgid "Thanks for choosing us!"
+msgstr "Спасибо, что Вы выбрали нас!"
+
+# GMT 1559644692.6008
+msgid "The Support Team"
+msgstr "Служба поддержки"
+
+# GMT 1559644692.6042
+msgid "The account role is required"
+msgstr "Установить роль аккаунта"
+
+# GMT 1559644692.6085
+msgid "The password and the confirmation does not match."
+msgstr "Пароли не совпадают."
+
+# GMT 1559644692.6129
+msgid "The password must be at least 6 characters."
+msgstr "Пароль должен быть не менее 6 символов"
+
+# GMT 1559644692.6172
+msgid "This account is not activated yet. Please contact an administrator."
+msgstr "Эта учетная запись еще не активирована. Пожалуйста, свяжитесь с администратором."
+
+# GMT 1559644692.6215
+msgid "This admin can manage guided tour from editor"
+msgstr "Этот администратор может управлять экскурсией"
+
+# GMT 1559644692.6259
+msgid "This user has no applications yet."
+msgstr "Этот пользователь не имеет приложений."
+
+msgid "To unlock the function, you must change the tariff."
+msgstr "Чтобы разблокировать функцию, необходимо изменить тариф."
+
+msgid "Unlock features"
+msgstr "Разблокировать функции"
+
+# GMT 1559644692.6302
+msgid "User successfully deleted"
+msgstr "Пользователь успешно удален"
+
+# GMT 1559644692.6345
+msgid "View my current data"
+msgstr "Смотреть мои текущие данные"
+
+# GMT 1559644692.6389
+msgid "We are sorry but this email address is already used."
+msgstr "Извините, но этот адрес уже используется."
+
+# GMT 1559644692.6432
+msgid "Welcome!"
+msgstr "Поздравляем!"
+
+# GMT 1559644692.684
+msgid "White Label"
+msgstr "Свой бренд"
+
+# GMT 1559644692.647
+msgid "You are going to love it! Thanks to our effective features, you will be able to create great mobile apps in your name, within minutes."
+msgstr "Мы уверены, что Вам понравится! Теперь вы с легкостью создадите свое первое и великолепное приложение, всего за несколько минут. Вас удивит большое количество инструментов для реализации огромных возможностей будущего приложения."
+
+# GMT 1559644692.6513
+msgid "You can't delete the main account"
+msgstr "Вы не можете удалить основной аккаунт"
+
+# GMT 1559644692.6548
+msgid "You don't have any users yet"
+msgstr "У вас пока нет пользователей"
+
+# GMT 1559644692.6585
+msgid "Your account have been created successfully. It will be activated soon."
+msgstr "Ваш аккаунт успешно создан. Он будет активирован в ближайшее время."
+
+# GMT 1559644692.6628
+msgid "Your credentials"
+msgstr "Ваши учетные данные"
+
+# GMT 1559644692.667
+msgid "Your login:"
+msgstr "Ваш логин"
+
+# GMT 1559644692.6713
+msgid "Your password:"
+msgstr "Ваш пароль"
+
+msgid "Your request has been successfully sent"
+msgstr "Ваш запрос был успешно отправлен"
+
+# GMT 1559644692.6755
+msgid "Zip Code"
+msgstr "Индекс"
+
+msgid "Zip Code:"
+msgstr "Индекс:"
+
+# GMT 1559644692.684
+msgid "to"
+msgstr "для"

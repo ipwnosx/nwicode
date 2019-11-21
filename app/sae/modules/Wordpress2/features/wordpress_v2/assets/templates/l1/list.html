@@ -1,0 +1,87 @@
+<ion-view sb-page-background
+          class="module-wordpress2 wordpress2-layout1 wordpress2-list">
+    <ion-nav-title>{{ page_title }}</ion-nav-title>
+    <ion-content>
+
+        <div class="loader"
+             ng-show="is_loading && !isPullingToRefresh && !isLoadingMore">
+            <ion-spinner class="spinner-custom"></ion-spinner>
+        </div>
+
+        <ion-refresher ng-if="canPullToRefresh()"
+                       class="spinner-custom"
+                       pulling-text="{{ 'Pull to refresh...' | translate }}"
+                       on-refresh="pullToRefresh()">
+        </ion-refresher>
+
+        <!-- Grouped queries, instantly show posts -->
+        <div ng-if="wordpress.groupQueries">
+
+            <ion-card ng-if="(query.showCover || query.showTitle)" ng-show="query">
+                <img ng-if="query.showCover && query.picture" ng-src="{{ imagePath(query.picture) }}" />
+                <ion-card-header ng-if="query.showTitle && (query.title)">
+                        <ion-card-title>{{ query.title }}</ion-card-title>
+                        <ion-card-subtitle ng-if="query.subtitle">{{ query.subtitle }}</ion-card-subtitle>
+                </ion-card-header>
+                <ion-item ng-repeat="item in collection" ng-click="viewPost(item.id)">
+                        <ion-thumbnail slot="start" ng-if="item.thumbnail">
+                                <img ng-src="{{ item.thumbnail }}">
+                              </ion-thumbnail>
+                    <ion-label text-wrap>
+                        <ion-text><h2 ng-bind-html="item.title | trusted_html"></h2></ion-text>
+                        <ion-text ng-if="item.subtitle" ng-bind-html="item.subtitle | trusted_html"></ion-text> 
+                    </ion-label>
+                </ion-item> 
+            </ion-card>            
+
+
+            <ion-card ng-if="!is_loading && !collection.length && !cover && !search.searchValue">
+                    <ion-item >
+                        <ion-label text-wrap>
+                            <ion-text>{{ "No items found" | translate }}</ion-text> 
+                        </ion-label>
+                    </ion-item> 
+            </ion-card>              
+        </div>
+
+        <!-- Grouped queries, instantly show posts -->
+        <div ng-if="!wordpress.groupQueries">
+
+
+            <ion-card ng-if="wordpress.showCover" ng-show="wordpress">
+                <img ng-if="wordpress.picture" ng-src="{{ imagePath(wordpress.picture) }}" />
+                <ion-card-header ng-if="wordpress.showTitle && (wordpress.title)">
+                        <ion-card-title>{{ wordpress.title }}</ion-card-title>
+                        <ion-card-subtitle ng-if="wordpress.subtitle">{{ wordpress.subtitle }}</ion-card-subtitle>
+                </ion-card-header>
+                <ion-item ng-repeat="item in queries" ng-click="loadPosts(item.id)">
+                        <ion-thumbnail slot="start" ng-if="item.thumbnail">
+                                <img ng-src="{{ imagePath(item.thumbnail) }}">
+                                </ion-thumbnail>
+                    <ion-label text-wrap>
+                        <ion-text><h2 ng-bind-html="item.title | trusted_html"></h2></ion-text>
+                        <ion-text ng-if="item.subtitle" ng-bind-html="item.subtitle | trusted_html"></ion-text> 
+                    </ion-label>
+                </ion-item> 
+            </ion-card> 
+
+ 
+            <ion-card ng-if="!is_loading && !queries.length">
+                    <ion-item >
+                        <ion-label text-wrap>
+                            <ion-text>{{ "No items found" | translate }}</ion-text> 
+                        </ion-label>
+                    </ion-item> 
+            </ion-card>  
+
+
+        </div>
+
+        <ion-infinite-scroll ng-if="canLoadMore()"
+                             on-infinite="loadMore()"
+                             immediate-check="false"
+                             distance="10%">
+        </ion-infinite-scroll>
+
+    </ion-content>
+</ion-view>

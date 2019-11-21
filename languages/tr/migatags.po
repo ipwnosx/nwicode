@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T20:32:47+03:00\n"
+"PO-Revision-Date: 2019-06-05T20:32:47+03:00\n"
+"Language: \n"
+
+msgid "API Key"
+msgstr "API Anahtarı"
+
+msgid "An error occurred during process. Please try again later."
+msgstr "Bir hata işlemi sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while saving. Please try again later."
+msgstr "Kaydedilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "Application Tags URL"
+msgstr "Uygulama Etiketleri URL"
+
+msgid "Application Tags URL Short"
+msgstr "Uygulama Etiketleri Kısa URL"
+
+msgid "Application URL"
+msgstr "Uygulama URL"
+
+msgid "Application URL Short"
+msgstr "Uygulama URL Kısa"
+
+msgid "Applications URLs"
+msgstr "Uygulamalar URLs"
+
+msgid "Bitly API Credentials"
+msgstr "Bitly API Kimlik bilgileri"
+
+msgid "Bitly API Credentials saved successfully."
+msgstr "Bitly API Kimlik bilgileri başarıyla kaydedildi."
+
+msgid "Bitly API Key is required to shorten URLs."
+msgstr "Bitly API Anahtarı URLs kısaltmak için gereklidir."
+
+msgid "Bitly Login is required to shorten URLs."
+msgstr "Bitly Giriş URLs kısaltmak için gereklidir."
+
+msgid "Check this page for robots.txt"
+msgstr "Robots.txt Bu sayfa Check"
+
+msgid "Copy"
+msgstr "Kopya"
+
+msgid "Custom icon"
+msgstr "Özel simge"
+
+msgid "Description"
+msgstr "Açıklama"
+
+msgid "Error shortening url."
+msgstr "Url kısaltma hata."
+
+msgid "Extra"
+msgstr "Ekstra"
+
+msgid "Google API Key is required to shorten URLs."
+msgstr "Google API Anahtarı URLs kısaltmak için gereklidir."
+
+msgid "Google URL Shortener API Key"
+msgstr "Google URL Törpüsü API Anahtarı"
+
+msgid "Help URL cannot be empty."
+msgstr "Yardım URL boş olamaz."
+
+msgid "Help URL is not valid."
+msgstr "Yardım URL geçerli değil."
+
+msgid "Help URL updated successfully."
+msgstr "URL başarıyla güncelleştirilmiş yardım."
+
+msgid "If you are using MigaStone beacons, you can manage them on the following URL."
+msgstr "Eğer MigaStone işaretleri kullanıyorsanız, aşağıdaki URL yönetebilirsiniz."
+
+msgid "Info successfully saved."
+msgstr "Bilgi başarılı bir şekilde kaydedildi."
+
+msgid "Invalid Access."
+msgstr "Geçersiz Erişim."
+
+msgid "Keywords"
+msgstr "Anahtar kelimeler"
+
+msgid "License key cannot be empty."
+msgstr "Lisans anahtarı boş olamaz."
+
+msgid "License key is invalid."
+msgstr "Lisans anahtarı geçersiz."
+
+msgid "Long URL is required to shorten URLs."
+msgstr "Uzun URL URLs kısaltmak için gereklidir."
+
+msgid "Manage my Beacons"
+msgstr "İşaretlerimi yönet"
+
+msgid "Miga Tags"
+msgstr "Mıga Etiketler"
+
+msgid "MigaStone Beacons (optional)"
+msgstr "(İsteğe bağlı)MigaStone İşaretleri"
+
+msgid "Module is active."
+msgstr "Modül aktif."
+
+msgid "Module is expired and license is deleted."
+msgstr "Modül süresi ve lisans silinir."
+
+msgid "No app."
+msgstr "Hayır app."
+
+msgid "No license found for this module."
+msgstr "Hiçbir lisans bu modül bulunamadı."
+
+msgid "No token sent."
+msgstr "Hiç bir hediye gönderdi."
+
+msgid "Only png images are allowed."
+msgstr "Sadece png resimler izin verilir."
+
+msgid "PNG Only"
+msgstr "PNG Sadece"
+
+msgid "PS: Shortner is working only from nwicode version 4.13.14 or above."
+msgstr "PS: Shortner sadece 4.13.14 veya yukarıdaki Sibirya sürümünden çalışıyor."
+
+msgid "Remember to change the \\'robots.txt\\' file in your nwicode root folder and \\'allow\\' the crawlers of google."
+msgstr "Sibirya kök klasörünüzde \\'robots.txt\\' dosya değiştirmeyi unutmayın ve \\'google\\' tarayıcılarının izin verir."
+
+msgid "Settings successfully saved."
+msgstr "Ayarlar başarıyla kaydedildi."
+
+msgid "Success."
+msgstr "Başarılı."
+
+msgid "Tags Preview"
+msgstr "Etiketler Önizleme"
+
+msgid "Tags Settings"
+msgstr "Etiket Ayarları"
+
+msgid "Title"
+msgstr "Başlık"
+
+msgid "Unable to connect to the license server."
+msgstr "Lisans sunucusuna bağlanamıyor."
+
+msgid "Validate URL"
+msgstr "Doğrulamak URL"
+
+msgid "Validate your Tags URL for physical web and beacons check your URL is ok."
+msgstr "Fiziksel web ve işaretleri URL kontrol etmek için Etiketleri URL doğrulamak Tamam."
+
+msgid "You are using default Bitly API credentials. We suggest you to use your own."
+msgstr "Varsayılan Bitly API kimlik bilgilerini kullanarak. Kendi kullanmanızı öneririz."
+
+msgid "You are using default help URL (https://www.migastone.eu/migatags)."
+msgstr "(Https://www.migastone.eu/migatags varsayılan yardım URL kullanıyorsunuz."
+
+msgid "You are using your custom Bitly API credentials."
+msgstr "Bitly kimlik bilgileri API özel kullanıyorsunuz."
+
+msgid "You are using your custom help URL."
+msgstr "Özel yardım URL kullanıyorsunuz."
+
+msgid "Your Module Help URL"
+msgstr "Modülü Yardım URL"
+
+msgid "Your Module License Key"
+msgstr "Modül Lisans Anahtarınızı"
+
+msgid "Your license has been expired on %s (READ ONLY ACTIVATED)."
+msgstr "Lisansınızı %(SADECE AKTİF OKUMA s) doldu."
+
+msgid "Your license is active on the domain %s for %s days from %s to %s."
+msgstr "%S lisansını alan %aktif %s gün, %s s."
+
+msgid "migatags"
+msgstr "migatags"

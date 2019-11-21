@@ -1,0 +1,9 @@
+{
+    "name": "Walletmcommerce",
+    "description": "Wallet integration with Mcommerce",
+    "type": "module",
+    "version": "1.0.1",
+    "dependencies": {
+
+    }
+}

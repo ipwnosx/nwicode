@@ -1,0 +1,8 @@
+{
+    "name": "WalletPaypalPS",
+    "description": "Paypal payment module for Wallet",
+    "type": "module",
+    "version": "1.1.0",
+    "dependencies": {
+    }
+}

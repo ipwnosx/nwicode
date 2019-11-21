@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designs>
+    <b_b>
+        <content>
+            <title>Lorem Ipsum</title>
+            <description>Rent three rooms and get the fourth one for free</description>
+            <conditions>3 rooms = 4 rooms</conditions>
+            <is_unique>1</is_unique>
+        </content>
+        <content>
+            <title>Lorem Ipsum 2</title>
+            <description>Breakfast is offered</description>
+            <conditions>Stay for more than 2 days</conditions>
+            <is_unique>0</is_unique>
+        </content>
+    </b_b>
+</designs>
+

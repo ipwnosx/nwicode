@@ -1,0 +1,381 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T20:36:11+03:00\n"
+"PO-Revision-Date: 2019-06-05T20:36:11+03:00\n"
+"Language: \n"
+
+msgid "1 Point"
+msgstr "1 puan"
+
+msgid "4-digit pincode"
+msgstr "4 haneli pin kodu"
+
+msgid "AVERAGE NUMBER OF VISITS"
+msgstr "ZİYARETLERİN ORTALAMA SAYISI"
+
+msgid "AVERAGE VALIDATED POINTS PER CUSTOMER"
+msgstr "MÜŞTERİ BAŞINA ORTALAMA DOĞRULANMIŞ PUAN"
+
+msgid "AVERAGE VALIDATED POINTS PER EMPLOYEE"
+msgstr "ÇALIŞAN BAŞINA ORTALAMA DOĞRULANMIŞ PUAN"
+
+msgid "Action"
+msgstr "Eylem"
+
+msgid "Active Card"
+msgstr "Aktif Kartı"
+
+msgid "Active Reward"
+msgstr "Aktif Ödül"
+
+msgid "An error occurred while redeem the reward. Please try again later."
+msgstr "Ödül kurtarmak sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while retrieving QRCode. Please try again later"
+msgstr "Aztek alınırken bir hata oluştu. Lütfen daha sonra tekrar deneyin"
+
+msgid "An error occurred while saving the pincode. Please try again later"
+msgstr "Bu pin kaydedilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin"
+
+msgid "An error occurred while validating point. Please try again later."
+msgstr "Nokta doğrulanırken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred with your QRCode."
+msgstr "Bir hata Aztek ile oluştu."
+
+msgid "Card name"
+msgstr "Kart adı"
+
+msgid "Close"
+msgstr "Yakın"
+
+msgid "Coupons"
+msgstr "Kupon"
+
+msgid "Cover Image"
+msgstr "Kapak Resim"
+
+msgid "Current card"
+msgstr "Geçerli kart"
+
+msgid "Customer Name"
+msgstr "Müşteri Adı"
+
+msgid "Customer data"
+msgstr "Müşteri veri"
+
+msgid "DESIGN"
+msgstr "Tasarım"
+
+msgid "Date"
+msgstr "Tarih"
+
+msgid "Default Active Reward Image"
+msgstr "Aktif Ödül Görüntü Varsayılan"
+
+msgid "Default Inactive Reward Image"
+msgstr "Etkin Olmayan Ödül Görüntü Varsayılan"
+
+msgid "Delete this pincode?"
+msgstr "Bu pin silmek mi?"
+
+msgid "E-Mail"
+msgstr "E-posta"
+
+msgid "ESTIMATE TOTAL REVENUE"
+msgstr "TAHMİNİ TOPLAM GELİR"
+
+msgid "Edit Reward"
+msgstr "Edit Ödül"
+
+msgid "Employee"
+msgstr "Çalışan"
+
+msgid "Employee's name"
+msgstr "Çalışanın adı"
+
+msgid "Employee's pincode"
+msgstr "Çalışanın pin"
+
+msgid "Employee\\'s name"
+msgstr "Çalışan's name"
+
+msgid "Expires in"
+msgstr "Sona erecek"
+
+msgid "Expiry in days"
+msgstr "Gün olmalıdır"
+
+msgid "Filter metrics"
+msgstr "Filtre ölçütleri"
+
+msgid "For each"
+msgstr "Her biri için"
+
+msgid "From"
+msgstr "Gelen"
+
+msgid "Import sales from Commerce Module"
+msgstr "Ticaret Modülü ithalat satış"
+
+msgid "Inactive Reward"
+msgstr "Etkin Olmayan Ödül"
+
+msgid "Loading ..."
+msgstr "Yükleniyor ..."
+
+msgid "Loyalty Cards"
+msgstr "sadakat kartları"
+
+msgid "Loyalty Control"
+msgstr "Sadakat Kontrol"
+
+msgid "Most loyal customers"
+msgstr "En sadık müşterilerin"
+
+msgid "Name"
+msgstr "Adı"
+
+msgid "No"
+msgstr "Hayır"
+
+msgid "No data for this metrics for now."
+msgstr "Bu veri şu an için ölçümleri."
+
+msgid "Number of points"
+msgstr "Puan sayısı"
+
+msgid "Number of points to redeem reward"
+msgstr "Puan sayısı ödül kurtarmak için"
+
+msgid "Number of points to validate"
+msgstr "Noktalarının sayısını doğrulamak için"
+
+msgid "Number of visits"
+msgstr "Ziyaret sayısı"
+
+msgid "OK"
+msgstr "TAMAM"
+
+msgid "Options"
+msgstr "Seçenekleri"
+
+msgid "POINTS"
+msgstr "Puan"
+
+msgid "Pincode"
+msgstr "Pin"
+
+msgid "Please enter a name"
+msgstr "Lütfen bir isim girin"
+
+msgid "Please give this to the store attendant to redeem this coupon"
+msgstr "Lütfen mağaza görevlisi ver bu kuponu kullanmak"
+
+msgid "Please insert estimate worth of 1 point. This amount will be used in the reporting to estimate sales. For $10.50, please type 10.50"
+msgstr "1 puan değerinde Ekle tahmin lütfen. Bu miktar raporlama satış tahmin etmek için kullanılır. $10.50 için, 10.50 yazın lütfen"
+
+msgid "Please set another pincode, the one you select is already used by another employee"
+msgstr "Başka bir pin ayarlayın lütfen, seçtiğiniz kişi zaten başka bir çalışan tarafından kullanılır"
+
+msgid "Please setup your pincode first to validate."
+msgstr "Lütfen önce doğrulamak için pin Kur."
+
+msgid "Point%s successfully validated"
+msgstr "Point%s başarıyla doğrulandı"
+
+msgid "Points"
+msgstr "Puan"
+
+msgid "Points Remaining"
+msgstr "Puan Kalan"
+
+msgid "Previous cards"
+msgstr "Önceki kartları"
+
+msgid "REDEEM"
+msgstr "KURTARMAK"
+
+msgid "REDEEMED"
+msgstr "İTFA"
+
+msgid "Reward Description"
+msgstr "Ödül Açıklaması"
+
+msgid "Reward Name"
+msgstr "Ödül Adı"
+
+msgid "Reward disabled"
+msgstr "Devre dışı ödül"
+
+msgid "Reward enabled"
+msgstr "Ödül etkin"
+
+msgid "Rewards"
+msgstr "Ödülleri"
+
+msgid "Rewards Redeemed"
+msgstr "Ödül İtfa"
+
+msgid "Rewards used"
+msgstr "Ödüller kullanılır"
+
+msgid "STAMP"
+msgstr "DAMGA"
+
+msgid "Search:"
+msgstr "Arama:"
+
+msgid "Start date must be lower than end date."
+msgstr "Başlangıç tarihi bitiş tarihi daha düşük olmalıdır."
+
+msgid "Success."
+msgstr "Başarı."
+
+msgid "TOTAL ESTIMATED REVENUE"
+msgstr "TOPLAM TAHMİNİ GELİR"
+
+msgid "TOTAL NUMBER OF VISITS"
+msgstr "ZİYARETLERİN TOPLAM SAYISI"
+
+msgid "TOTAL POINTS VALIDATED"
+msgstr "TOPLAM PUAN DOĞRULANMIŞ"
+
+msgid "TOTAL REWARDS REDEEMED"
+msgstr "TOPLAM ÖDÜL İTFA"
+
+msgid "TOTAL VALIDATED POINTS"
+msgstr "TOPLAM DOĞRULANMIŞ PUAN"
+
+msgid "TOTAL VALIDATED REWARDS"
+msgstr "TOPLAM DOĞRULANMIŞ ÖDÜLLERİ"
+
+msgid "Term & Conditions"
+msgstr "Terim Ve Koşulları"
+
+msgid "The card you are trying to update isn't exists."
+msgstr "Güncelleştirmeye çalıştığınız kartı mevcut değil."
+
+msgid "The reward you are trying to edit isn't exists."
+msgstr "Düzen çalıştığınız ödül varlığından değil."
+
+msgid "This card is uniq:"
+msgstr "Bu kart uniq:"
+
+msgid "Unauthorised user."
+msgstr "Yetkisiz kullanıcı."
+
+msgid "Use coupon"
+msgstr "Kullanım kupon"
+
+msgid "Use only once?"
+msgstr "Sadece bir kez kullanın."
+
+msgid "Validate 1 point only"
+msgstr "Doğrulamak 1 puan sadece"
+
+msgid "Validated Points"
+msgstr "Valide Puan"
+
+msgid "Validated points by Employee"
+msgstr "Çalışan tarafından onaylanmış puan"
+
+msgid "Validated points by Loyalty card Analytics"
+msgstr "Sadakat kartı Analytics tarafından onaylanmış puan"
+
+msgid "Wrong pincode."
+msgstr "Yanlış pin kodu."
+
+msgid "Wrong pincode. Be carefull! %d remaining attempt%s before locking your card. Ask the store person for validating your point"
+msgstr "Yanlış pin kodu. Dikkatli ol! %d girişimde%s kartınızı kilitleme önce kalan. Noktasını doğrulamak için mağaza sor"
+
+msgid "Wrong pincode.<br />Be carefull! %d remaining attempt%s before locking your card.<br /> Ask the store person for validating your point"
+msgstr "Yanlış pin.<br /dikkatli Ol! %d girişimde%kartınızı kilitleme önce kalan s.<br /> noktasını doğrulamak için mağaza Sor"
+
+msgid "Yes"
+msgstr "Evet"
+
+msgid "You have exceeded the number of attempts to validate points. Your card is locked for 24h"
+msgstr "Puan doğrulamak için deneme sayısını aştınız. Kartınız kilitli için 24 saat"
+
+msgid "You have to chose a start and an end date."
+msgstr "Başlangıç ve bitiş tarihini seçti."
+
+msgid "You haven\\'t reached the reward\\'s points. Please try after achive the required points."
+msgstr "'T ödül'In puan ulaşamamış. Gerekli puan elde sonra deneyin lütfen."
+
+msgid "You just finished your card"
+msgstr "Sadece kartınızı bitirdin"
+
+msgid "You just redeem your reward"
+msgstr "Sadece ödül kurtarmak"
+
+msgid "You must be logged in to validate points"
+msgstr "Üye olmalısınız noktaları doğrulamak için"
+
+msgid "Your loyalty card has been saved successfully"
+msgstr "Sadakat kartı başarıyla kaydedildi"
+
+msgid "Your pincode must be 4 digits"
+msgstr "Pin kodu 4 haneli olmalı"
+
+msgid "Your reward has been saved successfully"
+msgstr "Ödülün var başarıyla kaydedildi"
+
+msgid "add cards"
+msgstr "kartları ekleyin"
+
+msgid "add new card"
+msgstr "yeni kart ekleyin"
+
+msgid "add new rewards"
+msgstr "yeni ödül Ekle"
+
+msgid "convert"
+msgstr "dönüştürme"
+
+msgid "days"
+msgstr "gün"
+
+msgid "days validity"
+msgstr "gün geçerlilik"
+
+msgid "employees"
+msgstr "çalışanlar"
+
+msgid "log visit successfully"
+msgstr "günlük başarıyla ziyaret edin"
+
+msgid "log visit unsuccessfull"
+msgstr "günlük ziyaret başarısız"
+
+msgid "loyalty cards"
+msgstr "sadakat kartları"
+
+msgid "manage"
+msgstr "Yönetmek"
+
+msgid "manual validation"
+msgstr "manuel doğrulama"
+
+msgid "point"
+msgstr "nokta"
+
+msgid "points"
+msgstr "Puan"
+
+msgid "rewards"
+msgstr "Ödülleri"
+
+msgid "to"
+msgstr "için"
+
+msgid "validation"
+msgstr "doğrulama"

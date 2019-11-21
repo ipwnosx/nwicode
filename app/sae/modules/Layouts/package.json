@@ -1,0 +1,12 @@
+{
+  "name": "Layouts",
+  "description": "Core nwicode Layouts",
+  "type": "module",
+  "version": "4.16.5",
+  "dependencies": {
+    "system": {
+      "type": "SAE",
+      "version": "4.15.10"
+    }
+  }
+}

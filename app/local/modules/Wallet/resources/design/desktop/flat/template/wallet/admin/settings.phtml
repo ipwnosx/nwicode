@@ -1,0 +1,366 @@
+<?php 
+	//error_reporting(E_ALL);
+	//ini_set('display_errors', 1);
+	//Получим данные кошелька
+	//$application = $this->getApplication();
+	if ($this->getSession()->getAppId()) $app_id = $this->getSession()->getAppId(); else $app_id=$this->getApplication()->getId();
+	$db =Zend_Db_Table_Abstract::getDefaultAdapter();
+
+	$recommend_version = "2.7.8";
+	$stmt = $db->query(
+		'SELECT version FROM module WHERE name = ?',
+		array('Wallet')
+	);
+	$current_version =$stmt->fetch()['version'];
+	
+
+	if (empty($current_version)) {
+		echo "Wallet module not found! Exit...";
+		?><br><a href="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";?>" rel="" class="navigation"><i class="fa fa-sign-out fa-lg"></i> <?php echo __('Exit to Editor'); ?></a><br><?php
+		die(__("Wallet module not found! Exit..."));
+	}	
+	
+	$stmt = $db->query(
+		'SELECT * FROM application_option WHERE code = ?',
+		array('wallet')
+	);
+	$option_id = $stmt->fetch()['option_id'];
+	$stmt = $db->query(
+		'SELECT * FROM application_option_value WHERE option_id = ? and app_id = ?',
+		array($option_id, $app_id)
+	);
+	$value_id = $stmt->fetch()['value_id'];
+
+	$wallet = new Wallet_Model_Wallet();
+	$wallet->find(array("value_id" => $value_id));
+	
+
+?>
+
+
+<div id="list-panel" class="settings-panel">  
+	<div class="row">
+		<div class="col-sm-12">
+			<h1><?php echo __('Settings'); ?></h1>
+		</div>
+	  </div>
+
+	<form id="settingsForm" method="post" action="<?php echo $this->getUrl('wallet/admin/settingseditpost'); ?>">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h2 class="panel-title"><strong><?php echo __('Main settings'); ?></strong></h2>
+		</div>
+		<div class="panel-body">
+
+			  <div class="checkbox">
+				<label>
+				  <input type="checkbox" name="can_transfer" <?php if ($wallet->getCanTransfer()=="1") echo "checked='checked'";?>> <?php echo __('Users can transfer funds to each other'); ?>
+				</label>
+			  </div>		
+
+
+			  <div class="checkbox">
+				<label>
+				  <input type="checkbox" name="can_request" <?php if ($wallet->getCanRequest()=="1") echo "checked='checked'";?>> <?php echo __('Users can request payouts'); ?>
+				</label>
+			  </div>		
+
+
+			  <div class="checkbox">
+				<label>
+				  <input type="checkbox" name="can_upload" <?php if ($wallet->getCanUpload()=="1") echo "checked='checked'";?>> <?php echo __('Users can recharge'); ?>
+				</label>
+			  </div>		
+
+			<div class="form-group form-inline">
+				<input type="text" name="sign_up_bonus" class="form-control" id="walletInputAmount" value="<?php echo $wallet->getSignUpBonus();?>" placeholder="<?php echo __("Amount");?>">
+				<label for="walletInputAmount"><?php echo __("Sign Up Bonus");?></label>		
+			</div>		  
+			
+		</div>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h2 class="panel-title"><strong><?php echo __('Comission settings'); ?></strong></h2>
+		</div>
+		<div class="panel-body">
+
+			<div class="form-group form-inline">
+				<input type="text" name="c2c_commission" class="form-control" id="wallet_c2c_commission" value="<?php echo $wallet->getData('c2c_commission');?>" placeholder="<?php echo __("Amount");?>">
+				<label for="wallet_c2c_commission"><?php echo __("Commission when transferring funds from user to user");?>, %</label>		
+			</div>
+			
+			<div class="form-group form-inline">
+				<input type="text" name="upload_commission" class="form-control" id="wallet_upload_commission" value="<?php echo $wallet->getData('upload_commission');?>" placeholder="<?php echo __("Amount");?>">
+				<label for="wallet_upload_commission"><?php echo __("Commission for replenishing wallet");?>, %</label>		
+			</div>				
+		</div>
+	</div>	
+	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h2 class="panel-title"><strong><?php echo __('Payout methods'); ?></strong></h2>
+		</div>
+		<div class="panel-body">	
+
+			<div class="row">
+				<div class="col-sm-2">
+					<button type="button" class="btn btn-info add-new-payout-method-btn"><i class="fa fa-plus"></i> <?php echo __('Add new method'); ?></button>
+				</div>
+				<div class="col-sm-10"><p><?php echo __('Add payment methods, specify a minimum for each payment, write a brief instruction.'); ?></p></div>
+			</div>
+			<br>
+            <table class="table table-bordered payout-methods-table">
+                <thead>
+                    <tr>
+                        <th><?php echo __('Method name'); ?></th>
+                        <th><?php echo __('Is active'); ?></th>
+                        <th><?php echo __('Method minimum'); ?></th>
+                        <th><?php echo __('Method instruction'); ?></th>
+                        <th> - </th>
+                    </tr>
+                </thead>
+                <tbody>
+					<?php if ($wallet->getPayoutMethods()) foreach ($wallet->getPayoutMethods() as $pm) {?>
+                    <tr>
+                        <td>
+							<input type="hidden" class="deleted" name="payout_methods[<?php echo $pm->getId();?>][deleted]" value="0">
+							<input type="text" data-validation="length" data-validation-length="min3" class="form-control input-sm" name="payout_methods[<?php echo $pm->getId();?>][title]" value="<?php echo $pm->getData('title');?>" >
+						</td>
+                        <td><select name="payout_methods[<?php echo $pm->getId();?>][active]" class="form-control input-sm"><option value="1" <?php if ($pm->getActive()=="1") echo 'selected';?>><?php echo __('Yes');?></option><option value="0" <?php if ($pm->getActive()=="0") echo 'selected';?>><?php echo __('No');?></option></select></td>
+                        <td><input data-validation="number" data-validation-allowing="float" type="text" class="form-control input-sm" name="payout_methods[<?php echo $pm->getId();?>][minimum]" value="<?php echo $pm->getMinimum();?>"></td>
+                        <td><textarea class="form-control" rows="3" style="min-height:120px;"name="payout_methods[<?php echo $pm->getId();?>][description]"><?php echo $pm->getDescription();?></textarea></td>
+                        <td>
+                            <a class="delete-payout-method-btn" title="<?php echo __('Delete'); ?>" data-toggle="tooltip"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                        </td>
+                    </tr>
+					<?php }?>
+   
+                </tbody>
+            </table>
+		</div>   
+    </div>
+	<div class="row" style="padding:10px;">
+		<div class="col-sm-6 text-right"><button type="button" class="btn btn-success btn-lg save_button_settings" id="save_button_settings"><i class="fa fa-floppy-o" aria-hidden="true"></i> <?php echo $this->_('Save'); ?></button></div>
+		<div class="col-sm-6 text-left"><button type="button" class="btn btn-default btn-lg settings_back_button" id="settings_back_button"><i class="fa fa-undo" aria-hidden="true"></i> <?php echo $this->_('Undo'); ?></button></div>
+	</div>
+	</form>
+	 
+<div id="item-panel">
+
+</div>
+
+<div id="item-subpanel">
+
+</div>
+
+<div id="item-dashboard" style="display:none;">
+
+</div>
+ 
+ 
+ 
+<style type="text/css">
+	.table-wrapper {
+		width: 700px;
+		margin: 30px auto;
+        background: #fff;
+        padding: 20px;	
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    }
+    .table-title {
+        padding-bottom: 10px;
+        margin: 0 0 10px;
+    }
+    .table-title h2 {
+        margin: 6px 0 0;
+        font-size: 22px;
+    }
+    .table-title .add-new {
+        float: right;
+		height: 30px;
+		font-weight: bold;
+		font-size: 12px;
+		text-shadow: none;
+		min-width: 100px;
+		border-radius: 50px;
+		line-height: 13px;
+    }
+	.table-title .add-new i {
+		margin-right: 4px;
+	}
+    table.table {
+        table-layout: fixed;
+    }
+    table.table tr th, table.table tr td {
+        border-color: #e9e9e9;
+    }
+    table.table th i {
+        font-size: 13px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    table.table th:last-child {
+        width: 100px;
+    }
+    table.table td a {
+		cursor: pointer;
+        display: inline-block;
+        margin: 0 5px;
+		min-width: 24px;
+    }    
+	table.table td a.add {
+        color: #27C46B;
+    }
+    table.table td a.edit {
+        color: #FFC107;
+    }
+    table.table td a.delete {
+        color: #E34724;
+    }
+    table.table td i {
+        font-size: 19px;
+    }
+	table.table td a.add i {
+        font-size: 24px;
+    	margin-right: -1px;
+        position: relative;
+        top: 3px;
+    }    
+    table.table .form-control {
+        height: 32px;
+
+        box-shadow: none;
+        border-radius: 2px;
+    }
+	table.table .form-control.error {
+		border-color: #f50000;
+	}
+	table.table td .add {
+		display: none;
+	}
+</style>
+ 
+<script>
+
+
+</script> 
+<script type="text/javascript">
+var form_valid = false;
+$(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip();
+	
+	$(document).on("click", ".add-new-payout-method-btn", function(event){
+		var index = $(".payout-methods-table tbody tr:last-child").index();
+        var row = '<tr>' +
+            '<td><input type="hidden" class="deleted" name="payout_methods[new_'+index+'][deleted]" value="0"><input data-validation="length" data-validation-length="min3" type="text" class="form-control input-sm" name="payout_methods[new_'+index+'][title]" value="" ></td>' +
+            '<td><select name="payout_methods[new_'+index+'][active]" class="form-control input-sm"><option value="1" selected><?php echo __('Yes');?></option><option value="0" ><?php echo __('No');?></option></select></td>' +
+            '<td><input type="text" data-validation="number" data-validation-allowing="float"  class="form-control input-sm" name="payout_methods[new_'+index+'][minimum]" value="0"></td>' +
+			'<td><textarea class="form-control" rows="3" style="min-height:120px;"name="payout_methods[new_'+index+'][description]"></textarea></td>' +
+			'<td><a class="delete-payout-method-btn" title="<?php echo __('Delete'); ?>" data-toggle="tooltip"><i class="fa fa-trash-o" aria-hidden="true"></i></a></td>' +
+        '</tr>';
+    	$(".payout-methods-table").append(row);
+		event.stopImmediatePropagation();		
+    });
+	
+	$(document).on("click", ".delete-payout-method-btn", function(){
+		$(this).parents("tr").find("input.deleted").val(1);
+		$(this).parents("tr").hide();
+    });	
+	
+	$("#settings_back_button").on("click",function() {
+		loader_show();
+		$.ajax({
+		   url: '<?php echo $this->getUrl('wallet/admin/settings'); ?>',
+		   type:'GET',
+		   dataType: "json",
+		   success: function(data){
+				$("#error-message").hide();
+				$("#success-message").hide();
+			   $('#main').html(data.html);
+			   loader_hide();
+		   }
+		});
+	});
+	
+	
+	$("#save_button_settings").on("click",function() {
+
+		form_valid = true;
+		$("#settingsForm :input").each(function(){
+			var input = $(this); // This is the jquery object of the input, do what you will
+			input.validate(function(valid, elem) {
+				console.log('Element '+elem.name+' is '+( valid ? 'valid' : 'invalid'));
+				if (!valid) form_valid = false;
+			});
+		});	
+	
+		if (!form_valid) {
+			alert('<?php echo __('Some fields with error!'); ?>');
+			return;
+		}
+
+  
+		//swal("Here's a message!");
+		loader_show();
+		
+		$.ajax({
+			   type: "POST",
+			   url:$("#settingsForm").attr("action"),
+			   data: $("#settingsForm").serialize(), // serializes the form's elements.
+			   dataType: "json",
+			   success: function(data)
+			   {
+				   console.log(data); // show response from the php script.
+				   if (data.success) {
+						$("#error-message").hide();
+						$("#success-message").html(data.success_message);
+						$("#success-message").show();
+						if ($('#item-subpanel').length) {
+							$('#item-subpanel').hide();
+							$('#item-panel').show();
+							$('#list-panel').hide();
+						} else {
+							$('#item-panel').hide();
+							$('#list-panel').show();		
+						}
+						
+						/*simple reload page*/
+						loader_show();							
+						$.ajax({
+						   url:'<?php echo $this->getUrl('wallet/admin/settings'); ?>',
+						   type:'GET',
+						   dataType: "json",
+						   success: function(data1){
+								$("#error-message").hide();
+								$("#success-message").hide();
+							   $('#main').html(data1.html);
+							   $("#success-message").html(data.success_message).show();
+							   loader_hide();
+						   }
+						});							
+
+						
+				   }
+				   $("html, body").animate({ scrollTop: 0 }, "fast");
+			   },
+			   error: function (jqXHR) {
+				var rdata = JSON.parse(jqXHR.responseText);
+				console.log(jqXHR.responseText);
+			   //console.log(exception);
+				$("#error-message").html(rdata.message);
+				$("#error-message").show();
+				$("#success-message").html();
+				$("#success-message").hide();
+				loader_hide();
+				$("html, body").animate({ scrollTop: 0 }, "fast");
+			   }
+			 });		
+	});	
+	
+  $.validate();	
+
+});
+
+</script>

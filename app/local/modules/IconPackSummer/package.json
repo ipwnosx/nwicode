@@ -1,0 +1,13 @@
+{
+  "name": "IconPackSummer",
+  "decription": "Icon pack Nwicode developers.",
+  "version": "1.0",
+  "type": "icons",
+  "dependencies": {
+    "system": {
+      "type": "SAE",
+      "version": "1.2.0"
+    }
+  }
+}
+

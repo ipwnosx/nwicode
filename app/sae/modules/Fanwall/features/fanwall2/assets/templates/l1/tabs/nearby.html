@@ -1,0 +1,21 @@
+<div>
+    <div ng-if="!locationIsDisabled()">
+        <fanwall-post-list ng-controller="FanwallNearbyController"></fanwall-post-list>
+    </div>
+
+    <div ng-if="locationIsDisabled()">
+        <ion-content delegate-handle="mainScroll"
+                     ng-class="{'has-subheader': displaySubHeader()}">
+            <div>
+                <ion-card class="item-custom text-center no-post"
+                          style="padding:15px;">
+                    <b>{{ ::"Nearby feature requires your location." | translate:"fanwall" }}</b>
+                    <br />
+                    {{ ::"We were unable to request your location." | translate:"fanwall" }}
+                    <br />
+                    {{ ::"Please check that the application is allowed to use the GPS and that your device GPS is on." | translate:"fanwall" }}
+                </ion-card>
+            </div>
+        </ion-content>
+    </div>
+</div>

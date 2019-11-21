@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-20T01:48:03+03:00\n"
+"PO-Revision-Date: 2019-06-20T01:48:03+03:00\n"
+"Language: \n"
+
+msgid "An bill has been created for payment, but you do not have enough funds in your wallet to pay for it."
+msgstr "Bir fatura ödeme için oluşturuldu, ama ödemek için cüzdanınızda yeterli para yok."
+
+msgid "Cancel text"
+msgstr "Metin iptal"
+
+msgid "Complete"
+msgstr "Tam"
+
+msgid "Complete text"
+msgstr "Tam metin"
+
+msgid "Intro text"
+msgstr "Giriş metni"
+
+msgid "Paid"
+msgstr "Ücretli"
+
+msgid "Pay later"
+msgstr "Sonra ödersin"
+
+msgid "Pay now"
+msgstr "Şimdi ödeme"
+
+msgid "Payment"
+msgstr "Ödeme"
+
+msgid "Payment order N"
+msgstr "Ödeme emri N"
+
+msgid "Refill your balance, after which you can pay this bill from your wallet in the bills section."
+msgstr "Hangi faturaları bölümünde cüzdanından bu faturayı ödeyemezsin sonra bakiyeniz dolum."
+
+msgid "Status after payment"
+msgstr "Durum ödeme sonra"
+
+msgid "Title"
+msgstr "Başlık"
+
+msgid "Wait..."
+msgstr "Bekle..."
+
+msgid "You can go to the payment now, pay later or go back and choose another payment method."
+msgstr "Ödeme şimdi git, daha sonra ödeme ya da geri dönüp başka bir ödeme yöntemi seçebilirsiniz."
+
+msgid "You must be registerd customer!"
+msgstr "Müşteri kayıtlı olması gerekir."
+
+msgid "Your order has been saved and is awaiting payment."
+msgstr "Siparişiniz kaydedildi ve ödeme bekliyor."

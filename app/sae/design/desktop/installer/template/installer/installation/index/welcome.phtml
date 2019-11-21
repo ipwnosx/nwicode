@@ -1,0 +1,27 @@
+<?php $errors = $this->getErrors(); ?>
+<div>
+    <div class="animated part part1">
+        <h3 class="title blue10 title-margin">CMS, которая делает ваши мечты реальностью!</h3>
+        <p>Установка Nwicode CMS быстрая и простая. Вы находитесь на пути к созданию собственного уникального мобильного приложения, которым вы сможете легко управлять каждый день.</p>
+    </div>
+    <div class="animated part part1">
+        <?php if (empty($errors)) : ?>
+        <p>Для создания приложения не требуются технические знания, но если вам нужна помощь, не стесняйтесь проверять нашу документацию или обращаться в нашу службу поддержки</p>
+        <?php else : ?>
+        <div class="red">
+            <?php if(!empty($errors)) : ?>
+                <h4 class="bold">Прежде чем продолжить установку, исправьте следующие проблемы:</h4>
+                <ul>
+                    <?php foreach($errors as $error) : ?>
+                        <li>- <?php echo $error; ?></li>
+                    <?php endforeach ?>
+                </ul>
+            <?php endif; ?>
+        </div>
+        <?php endif; ?>
+    </div>
+
+    <script type="text/javascript">
+        installer.addStep(new Step(1));
+    </script>
+</div>

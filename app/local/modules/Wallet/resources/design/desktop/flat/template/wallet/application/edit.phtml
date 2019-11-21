@@ -1,0 +1,58 @@
+<?php 
+$optionValue = $this->getOptionValue();
+$application = $this->getApplication();
+$wallet_model = new Wallet_Model_Wallet();
+if ($optionValue->getId()) $wallet_model->find($optionValue->getId(), "value_id");
+?>
+<div id="wallet" class="form_content wallet">
+	<div class="container-fluid first-row-feature content-feature">
+        <div>
+                <div id="wallet_tabs_content" class="tabs_content">
+					<?php if (!$wallet_model->getId()) { ?>
+						<form id="walletForm" action="<?php echo $this->getUrl('wallet/application/editpost') ?>" method="post" class="form-horizontal">
+							<input type="hidden" name="value_id" value="<?php echo $optionValue->getId(); ?>" />
+
+							<p><?php echo __('Wallet is not active. Activate?'); ?></p>
+							<div class="form-group">
+								<div class="col-md-12">
+									<button type="submit" class="btn color-blue"><?php echo __('Activate wallet'); ?></button>
+								</div>
+							</div>
+						</form>
+					<?php } else { ?>
+						<?php echo __('There are no settings here.'); ?>
+					<?php }  ?>
+				</div>
+            <?php echo $this->importBackground($optionValue); ?>
+        </div>
+
+	
+
+    </div>
+     <style type="text/css">
+        #wallet_tabs_header {
+            padding: 0 10px 10px 10px;
+        }
+        .btn:active, .btn.active {
+            background-image: none;
+            outline: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+        .dropdown-menu > li > a:nth-last-child(1) {
+            width: 100%;
+        }
+    </style>
+<script>
+            $('#walletForm').submit(function() {
+                reload(this, this.action, true, function(data) {
+                    if(data.success) {
+                        page.reload();
+                    }
+                });
+                return false;
+            });
+</script>
+</div>
+
+

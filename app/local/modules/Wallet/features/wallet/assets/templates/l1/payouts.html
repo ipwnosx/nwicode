@@ -1,0 +1,37 @@
+<ion-view sb-page-background class="sourcecode-view">
+    <ion-nav-title>{{ 'Payouts' | translate }}</ion-nav-title>
+    <ion-content sb-background-image>
+
+	
+		<!-- ionic 4-->
+		<div ng-if="!old_style && !is_loading  && is_logged_in">
+		dd
+        </div>
+
+		
+		<!-- ionic 1-->
+		<div class="ionic1" ng-if="old_style && !is_loading">
+			<div class="card wallet-card-payouts wallet-card-payouts-{{t.status}}" ng-repeat="t in data.requests">
+			  <div class="item item-icon-left item-text-wrap" ng-click="openPayout(t)">
+				<i class="icon ion-android-time" ng-if="t.status=='pending'"></i>
+				<i class="icon ion-android-cancel" ng-if="t.status=='cancel'"></i>
+				<i class="icon ion-android-hand" ng-if="t.status=='decline'"></i>
+				<i class="icon ion-android-done-all" ng-if="t.status=='complete'"></i>
+				<span class="item-note">{{t.status}}</span>
+				<p>{{ 'Date' | translate }} <b>{{t.date}}</b></p>
+				<p>{{ 'Amount' | translate }}: <b>{{t.amount}}</b>, <b>{{t.method}}</b></p>
+				<p>{{t.info}}</p>
+				
+			  </div>
+			</div>			
+			<div class="card wallet-card-payouts"  ng-if="data.requests.length==0">
+			  <div class="item item-text-wrap">
+				<p>{{'The list is empty'|translate}}</p>
+				
+			  </div>
+			</div>				
+        </div>
+    </ion-content>
+
+</ion-view>
+

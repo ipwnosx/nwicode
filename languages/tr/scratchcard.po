@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T20:38:14+03:00\n"
+"PO-Revision-Date: 2019-06-05T20:38:14+03:00\n"
+"Language: \n"
+
+msgid "A player can play again?"
+msgstr "Bir oyuncu tekrar oynayabilir mi?"
+
+msgid "Add"
+msgstr "Ekle"
+
+msgid "All winners on your scratch card have been found"
+msgstr "Kazı Kazan kartı üzerindeki tüm kazananlar bulundu"
+
+msgid "An error occurred while saving your scratch card. Please try again later."
+msgstr "Kazı Kazan kartı kaydedilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "Application: %s, scratchcard: %s"
+msgstr "S uygulama: %Kazı Kazan: %s"
+
+msgid "Card name"
+msgstr "Kart adı"
+
+msgid "Create a new Scratch-Card"
+msgstr "Kart yeni bir Çizik oluşturun"
+
+msgid "Current card"
+msgstr "Geçerli kart"
+
+msgid "Description"
+msgstr "Açıklama"
+
+msgid "Editing"
+msgstr "Düzenleme"
+
+msgid "Email for notification"
+msgstr "Bildirim için e-posta"
+
+msgid "Employee's name"
+msgstr "Çalışanın adı"
+
+msgid "Employee's password"
+msgstr "Çalışanın şifre"
+
+msgid "End date:"
+msgstr "Bitiş tarihi:"
+
+msgid "Error while creating your reward. Sorry for the inconvenience."
+msgstr "Ödül oluşturulurken hata oluştu. Rahatsızlık için özür dilerim."
+
+msgid "Error while validating reward."
+msgstr "Ödül doğrulanırken hata oluştu."
+
+msgid "Game configuration"
+msgstr "Oyun yapılandırma"
+
+msgid "Hello, %s has won on your scratchcard!"
+msgstr "Merhaba, %Kazı Kazan üzerinde kazandı lar."
+
+msgid "Hello, maximum winner limit has been reached on your scratch card."
+msgstr "Merhaba, en fazla kazanan sınırı sıfırdan kartına ulaşıldı."
+
+msgid "Log in to scratch your card!"
+msgstr "Kart sıfırdan günlük!"
+
+msgid "Loser pop-up"
+msgstr "Kaybeden pop-up"
+
+msgid "Manage"
+msgstr "Yönetmek"
+
+msgid "Maximum points"
+msgstr "Maksimum puan"
+
+msgid "Maximum winner count"
+msgstr "En fazla kazanan sayısı"
+
+msgid "Minimum points"
+msgstr "Minimum puan"
+
+msgid "My new scratch card"
+msgstr "Yeni çizik kartımı"
+
+msgid "My passwords"
+msgstr "Benim şifreleri"
+
+msgid "My scratchcard is in portrait mode"
+msgstr "Kazı Kazan benim portre modunda"
+
+msgid "New winner on your scratch card"
+msgstr "Kazı Kazan kartı üzerinde yeni kazanan"
+
+msgid "No cards for now."
+msgstr "Şimdilik kart."
+
+msgid "Or unlimited"
+msgstr "Veya sınırsız"
+
+msgid "Passwords"
+msgstr "Şifreleri"
+
+msgid "Picture"
+msgstr "Resim"
+
+msgid "Picture foreground"
+msgstr "Resim ön"
+
+msgid "Picture loser"
+msgstr "Resim kaybeden"
+
+msgid "Picture winner"
+msgstr "Resim kazanan"
+
+msgid "Previous cards"
+msgstr "Önceki kartları"
+
+msgid "Reward"
+msgstr "Ödül"
+
+msgid "Reward description"
+msgstr "Ödül Açıklaması"
+
+msgid "Reward name"
+msgstr "Ödül Adı"
+
+msgid "Reward successfully validated."
+msgstr "Başarıyla doğrulandı ödül."
+
+msgid "Scratch Card"
+msgstr "Kazı Kazan Kartı"
+
+msgid "Scratch Cards"
+msgstr "Kartlarım"
+
+msgid "Scratchcard"
+msgstr "Kazı-Kazan"
+
+msgid "Scratchcard points?"
+msgstr "Kazı Kazan puan?"
+
+msgid "Set up your rate in Settings > Advanced section"
+msgstr "Ayarlar > Gelişmiş bölümünde hızınızı ayarlayın"
+
+msgid "Sorry!"
+msgstr "Özür dilerim!"
+
+msgid "Sorry, but all winners for this card have been found."
+msgstr "Üzgünüm, ama bu kart için tüm kazananlar bulunmuştur."
+
+msgid "Sorry, but the maximum number of winners for this card has been reached. Come back for the next game!"
+msgstr "Üzgünüm, ama bu kart için kazanan sayısı ulaşıldı. Bir sonraki oyun için gel!"
+
+msgid "Sorry, wrong password. Please try again."
+msgstr "Özür dilerim, yanlış şifre. Lütfen tekrar deneyin."
+
+msgid "This card is uniq:"
+msgstr "Bu kart uniq:"
+
+msgid "Title"
+msgstr "Başlık"
+
+msgid "Win percentage must be greater than zero."
+msgstr "Kazanma yüzdesi sıfırdan büyük olmalıdır."
+
+msgid "Win percentage:"
+msgstr "Yüzde kazanma:"
+
+msgid "Winner count so far"
+msgstr "Kazanan sayısı şimdiye kadar"
+
+msgid "Winner pop-up"
+msgstr "Kazanan pop-up"
+
+msgid "Winning chance percentage (by card)"
+msgstr "(Kart)kazanma şansı yüzde"
+
+msgid "You have already used your daily limit for this card. Come back tomorrow!"
+msgstr "Zaten bu kart için günlük limit kullandım. Yarın tekrar gel!"
+
+msgid "You must be logged in to validate rewards"
+msgstr "Üye olmalısınız ödülleri doğrulamak için"
+
+msgid "Your scratch card has been deleted successfully."
+msgstr "Kazı Kazan kartı başarıyla silindi."
+
+msgid "Your scratch card has been saved successfully."
+msgstr "Kazı Kazan kartınızı başarıyla kaydedildi."
+
+msgid "you'll be able to remove this card later"
+msgstr "daha sonra bu kartı kaldırmanız mümkün olacak"

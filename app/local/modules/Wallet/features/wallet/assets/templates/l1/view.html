@@ -1,0 +1,47 @@
+<ion-view sb-page-background class="sourcecode-view">
+    <ion-nav-title>{{ 'Wallet' | translate }}</ion-nav-title>
+    <ion-content sb-background-image>
+	
+		<div class="card wallet-card" ng-if="!is_loading  && !is_logged_in">
+			<div class="item item-icon-left">
+				<i class="icon ion-information-circled"></i>
+				<p>{{'This feature is available only to registered users.'|translate}}</p>
+			</div>
+			<button ng-click="loginAction()" class="button button-full button-positive"><i class="icon ion-unlocked"></i> {{"Login / Registration" | translate}}</button>
+			<button ng-if="use_exit==1" ng-click="exitWallet()" class="button button-full button-positive"><i class="icon ion-arrow-return-right"></i> {{"Exit" | translate}}</button>
+		</div>		
+	
+		<!-- ionic 4-->
+		<div ng-if="!old_style && !is_loading  && is_logged_in">
+		dd
+        </div>
+
+		
+		<!-- ionic 1-->
+		<div class="ionic1" ng-if="old_style && !is_loading  && is_logged_in && data.customer.is_blocked==0">
+			<div class="card wallet-card">
+				<div class="item item-text-wrap score-text text-center">
+					<p>{{ 'Score' | translate }}</p>
+					<h1>{{data.customer.score}}</h1>
+				</div>
+				<a class="item item-icon-left" ng-click="billsWallet()"><i class="icon ion-compose"></i>{{ 'Bills' | translate }} <span ng-if="data.bills_pending>0" class="badge badge-assertive">{{data.bills_pending}}</span></a>
+				<a ng-if="data.wallet.can_upload=='1' && data.payments_systems.length>0" ng-click="openAddFunds()" class="item item-icon-left" ><i class="icon ion-plus-round"></i>{{ 'Add funds' | translate }}</a>
+				<a ng-if="data.wallet.can_transfer=='1'" class="item item-icon-left" ng-click="createTransfer()"><i class="icon ion-share"></i>{{ 'Send funds' | translate }}</a>
+				<a ng-if="data.wallet.can_request=='1'" class="item item-icon-left"  ng-click="createRequest()"><i class="icon ion-cash"></i>{{ 'Request payout' | translate }}</a>
+				<div class="item item-divider">{{'View history'|translate}}</div>
+				<a ng-if="data.wallet.can_request=='1'" class="item item-icon-left"  ng-click="payoutsWallet()"><i class="icon ion-arrow-swap"></i>{{ 'Payouts history' | translate }}</a>
+				<a class="item item-icon-left" ng-click="transactionsWallet()"><i class="icon ion-calendar"></i>{{ 'Transactions history' | translate }}</a>
+			</div>
+        </div>
+		<div class="ionic1" ng-if="old_style && !is_loading  && is_logged_in && data.customer.is_blocked==1">
+			<div class="card wallet-card wallet-blocked">
+				<div class="item item-text-wrap score-text text-center">
+					<p>{{ 'Wallet blocked!' | translate }}</p>
+					<h1><i class="icon ion-android-hand"></i></h1>
+				</div>
+			</div>
+		</div>
+    </ion-content>
+
+</ion-view>
+

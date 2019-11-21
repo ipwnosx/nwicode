@@ -1,0 +1,35 @@
+{
+    "name": "Followus",
+    "code": "followus",
+    "version": "1.0.1",
+    "category": "contact",
+    "model": "Followus_Model_Followus",
+    "desktop_uri": "followus/application/",
+    "routes": [
+        {
+            "root": true,
+            "state": "followus-view",
+            "controller": "FollowusViewController",
+            "url": "followus/mobile_view/index/value_id/:value_id",
+            "template": "view.html",
+            "layouts": {
+                "1": "l1"
+            },
+            "cache": false
+        }
+    ],
+    "layouts": [
+        1
+    ],
+    "icons": [
+        "icons/followus.png"
+    ],
+    "files": [
+        "js/controllers/followus.js",
+        "js/factory/followus.js",
+        "scss/fontawesome.scss"
+    ],
+    "compile": true,
+    "use_account": false,
+    "only_once": false
+}

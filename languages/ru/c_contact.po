@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-16T07:45:01+03:00\n"
+"PO-Revision-Date: 2019-07-16T07:45:01+03:00\n"
+"Language: \n"
+
+# GMT 1559644699.1842
+#, mobile
+msgctxt "contact"
+msgid "Address"
+msgstr "Адрес"
+
+# GMT 1559644699.2263
+msgctxt "contact"
+msgid "Card"
+msgstr "Карта"
+
+# GMT 1559644699.1929
+msgctxt "contact"
+msgid "Contact"
+msgstr "Контакты"
+
+# GMT 1559644699.2008
+msgctxt "contact"
+msgid "Contact information"
+msgstr "Контактная информация"
+
+# GMT 1559644699.2181
+msgctxt "contact"
+msgid "Contact saved"
+msgstr "Контакты сохранены"
+
+# GMT 1559644699.1539
+msgctxt "contact"
+msgid "Cover image"
+msgstr "Обложка"
+
+# GMT 1559644699.1885
+#, mobile
+msgctxt "contact"
+msgid "Description"
+msgstr "Описание"
+
+# GMT 1559644699.1965
+msgctxt "contact"
+msgid "Design"
+msgstr "Дизайн"
+
+# GMT 1559644699.1625
+#, mobile
+msgctxt "contact"
+msgid "Facebook"
+msgstr "Facebook"
+
+# GMT 1559644699.2051
+msgctxt "contact"
+msgid "Form"
+msgstr "Форма"
+
+# GMT 1559644699.2306
+msgctxt "contact"
+msgid "List"
+msgstr "Список"
+
+# GMT 1559644699.248
+#, mobile
+msgctxt "contact"
+msgid "Locate"
+msgstr "Найти"
+
+# GMT 1559644699.2095
+#, mobile
+msgctxt "contact"
+msgid "Map"
+msgstr "Карта"
+
+# GMT 1559644699.1582
+#, mobile
+msgctxt "contact"
+msgid "Name"
+msgstr "Название"
+
+# GMT 1559644699.2437
+#, mobile
+msgctxt "contact"
+msgid "Nothing to display."
+msgstr "Нечего отображать."
+
+# GMT 1559644699.1798
+#, mobile
+msgctxt "contact"
+msgid "Phone"
+msgstr "Телефон"
+
+# GMT 1559644699.2138
+#, mobile
+msgctxt "contact"
+msgid "Save"
+msgstr "Сохранить"
+
+# GMT 1559644699.2697
+#, mobile
+msgctxt "contact"
+msgid "Send"
+msgstr "Отправить"
+
+# GMT 1559644699.2349
+msgctxt "contact"
+msgid "Settings"
+msgstr "Параметры"
+
+# GMT 1559644699.2393
+msgctxt "contact"
+msgid "Settings saved"
+msgstr "Настройки сохранены"
+
+# GMT 1559644699.1668
+#, mobile
+msgctxt "contact"
+msgid "Twitter"
+msgstr "Твиттер"
+
+# GMT 1559644699.222
+msgctxt "contact"
+msgid "We are unable to validate your address!"
+msgstr "Мы не можем проверить ваш адрес!"
+
+# GMT 1559644699.1711
+#, mobile
+msgctxt "contact"
+msgid "Website"
+msgstr "Сайт"
+
+# GMT 1559644699.261
+#, mobile
+msgctxt "contact"
+msgid "Your email address"
+msgstr "Ваш email"
+
+# GMT 1559644699.2567
+#, mobile
+msgctxt "contact"
+msgid "Your name"
+msgstr "Ваше имя"
+
+# GMT 1559644699.2654
+#, mobile
+msgctxt "contact"
+msgid "Your request"
+msgstr "Ваш запрос"

@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-01-21T07:06:01+03:00\n"
+"PO-Revision-Date: 2019-01-21T07:06:01+03:00\n"
+"Language: \n"
+
+msgid "Add <strong>@@email@@</strong> tag in query string for placing customer email and <strong>@@app_id@@</strong> for application unique id"
+msgstr "<Strong>@@e-posta@@uygulama için müşteri e-posta ve <strong>@@app_id@@</strong> yerleştirmek için sorgu dize</strong> etiketinin benzersiz kimlik Ekle"
+
+msgid "Add <strong>@@qr_ean@@</strong> tag in query string for placing Qr/Ean when scanned, other tags includes <strong>@@email@@</strong> for customer email, <strong>@@app_id@@</strong> for application unique id"
+msgstr "Ekleyin <strong>@@qr_ean@@</strong> etiketinde sorgu dizesi için yerleştirme Qr/5 zaman taranmış, diğer etiketleri içerir <strong>@@e-posta@@</strong> için müşteri e-posta, <strong>@@app_id@@</strong> için uygulama benzersiz kimliği"
+
+msgid "An error occurred during process. Please try again later."
+msgstr "Bir hata işlemi sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "Custom icon"
+msgstr "Özel simge"
+
+msgid "Design"
+msgstr "Tasarım"
+
+msgid "Do you want the Qr/Ean Scanner?"
+msgstr "Qr/5 Tarayıcı ister misin?"
+
+msgid "Enter the Banner Text"
+msgstr "Başlık Metni girin"
+
+msgid "Enter the Iframe URL"
+msgstr "İframe URL girin"
+
+msgid "Enter the Query String"
+msgstr "Sorgu Dizesi girin"
+
+msgid "Loading Spinner Delay (seconds)"
+msgstr "(Saniye)yükleme Spinner Gecikme"
+
+msgid "Migaiframe"
+msgstr "Migaiframe"
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Set the Banner color"
+msgstr "Banner rengini ayarlayın"
+
+msgid "Set the Text color"
+msgstr "Metin rengini ayarlayın"
+
+msgid "Success."
+msgstr "Başarılı."
+
+msgid "The requested migaiframe doesnt exists."
+msgstr "İstenen migaiframe bu pekte var."

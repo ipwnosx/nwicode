@@ -1,0 +1,279 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-10T07:35:55+03:00\n"
+"PO-Revision-Date: 2019-07-10T07:35:55+03:00\n"
+"Language: \n"
+
+msgid "Account Settings"
+msgstr "Настройка профиля"
+
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+msgid "Auto slide"
+msgstr "Автоматическое слайд"
+
+msgid "Background color"
+msgstr "Цвет фона"
+
+msgid "Bullet color"
+msgstr "Цвет пули"
+
+msgid "Color settings"
+msgstr "Настройки цвета"
+
+msgid "Confirmation"
+msgstr "Подтверждение"
+
+msgid "Effect"
+msgstr "Эффект"
+
+msgid "Features text case"
+msgstr "Текст характеристики случае"
+
+msgid "Features text color"
+msgstr "Характеристики цвет текста"
+
+msgid "Free mode"
+msgstr "Свободный режим"
+
+msgid "Guest"
+msgstr "Гость"
+
+msgid "Import an image"
+msgstr "Импорт изображения"
+
+msgid "Login / registration"
+msgstr "Вход / регистрация"
+
+msgid "Logout"
+msgstr "Выход"
+
+msgid "Menu"
+msgstr "Меню"
+
+msgid "Menu button color"
+msgstr "Кнопка меню Цвет"
+
+msgid "Menu button icon"
+msgstr "Значок кнопки меню"
+
+msgid "Normal case"
+msgstr "Нормальный случай"
+
+msgid "Show bullets"
+msgstr "Показать пуль"
+
+msgid "Show text on slide 1"
+msgstr "Показать текст на слайде 1"
+
+msgid "Show text on slide 10"
+msgstr "Показать текст на слайде 10"
+
+msgid "Show text on slide 2"
+msgstr "Показать текст на слайде 2"
+
+msgid "Show text on slide 3"
+msgstr "Показать текст на слайде 3"
+
+msgid "Show text on slide 4"
+msgstr "Показать текст на слайде 4"
+
+msgid "Show text on slide 5"
+msgstr "Показать текст на слайде 5"
+
+msgid "Show text on slide 6"
+msgstr "Показать текст на слайде 6"
+
+msgid "Show text on slide 7"
+msgstr "Показать текст на слайде 7"
+
+msgid "Show text on slide 8"
+msgstr "Показать текст на слайде 8"
+
+msgid "Show text on slide 9"
+msgstr "Показать текст на слайде 9"
+
+msgid "Sidenav background gradient end"
+msgstr "Sidenav фоне градиент конца"
+
+msgid "Sidenav background gradient start"
+msgstr "Sidenav фоне начала градиента"
+
+msgid "Sidenav divider color"
+msgstr "Sidenav делитель цвета"
+
+msgid "Sidenav text case"
+msgstr "Текст случае Sidenav"
+
+msgid "Sidenav text color"
+msgstr "Sidenav цвет текста"
+
+msgid "Slide 1 image"
+msgstr "Слайд 1 фото"
+
+msgid "Slide 1 link (feature position)"
+msgstr "Слайд ссылке 1 (функции)"
+
+msgid "Slide 1 settings"
+msgstr "Слайд 1 параметры"
+
+msgid "Slide 10 image"
+msgstr "Слайд 10 фото"
+
+msgid "Slide 10 link (feature position)"
+msgstr "Слайд 10 ссылка (функции)"
+
+msgid "Slide 10 settings"
+msgstr "Слайд 10 параметры"
+
+msgid "Slide 2 image"
+msgstr "Слайд 2 фото"
+
+msgid "Slide 2 link (feature position)"
+msgstr "Ссылка слайд 2 (функции)"
+
+msgid "Slide 2 settings"
+msgstr "Настройки слайд 2"
+
+msgid "Slide 3 image"
+msgstr "Слайд 3 фото"
+
+msgid "Slide 3 link (feature position)"
+msgstr "Ссылка слайд 3 (функции)"
+
+msgid "Slide 3 settings"
+msgstr "Настройки слайд 3"
+
+msgid "Slide 4 image"
+msgstr "Слайд 4 фото"
+
+msgid "Slide 4 link (feature position)"
+msgstr "Слайд 4 ссылка (функции)"
+
+msgid "Slide 4 settings"
+msgstr "Слайд 4 параметры"
+
+msgid "Slide 5 image"
+msgstr "Слайд 5 фото"
+
+msgid "Slide 5 link (feature position)"
+msgstr "Слайд ссылке 5 (функции)"
+
+msgid "Slide 5 settings"
+msgstr "Слайд 5 настройки"
+
+msgid "Slide 6 image"
+msgstr "Слайд 6 фото"
+
+msgid "Slide 6 link (feature position)"
+msgstr "Слайд 6 ссылке (функции)"
+
+msgid "Slide 6 settings"
+msgstr "Слайд 6 параметры"
+
+msgid "Slide 7 image"
+msgstr "Слайд-изображение 7"
+
+msgid "Slide 7 link (feature position)"
+msgstr "Слайд ссылке 7 (функции)"
+
+msgid "Slide 7 settings"
+msgstr "Слайд 7 параметры"
+
+msgid "Slide 8 image"
+msgstr "Слайд 8 фото"
+
+msgid "Slide 8 link (feature position)"
+msgstr "Слайд ссылке 8 (функции)"
+
+msgid "Slide 8 settings"
+msgstr "Слайд 8 параметры"
+
+msgid "Slide 9 image"
+msgstr "Слайд 9 фото"
+
+msgid "Slide 9 link (feature position)"
+msgstr "Слайд 9 связь (функции)"
+
+msgid "Slider 1 text"
+msgstr "Слайдер 1 текст"
+
+msgid "Slider 10 text"
+msgstr "Слайдер 10 текст"
+
+msgid "Slider 2 text"
+msgstr "Слайдер 2 Текст"
+
+msgid "Slider 3 text"
+msgstr "Слайдера 3 текст"
+
+msgid "Slider 4 text"
+msgstr "Слайдер 4 текст"
+
+msgid "Slider 5 text"
+msgstr "Слайдер 5 текст"
+
+msgid "Slider 6 text"
+msgstr "Ползунок 6 текст"
+
+msgid "Slider 7 text"
+msgstr "Слайдер 7 текст"
+
+msgid "Slider 8 text"
+msgstr "Ползунок 8 текст"
+
+msgid "Slider 9 text"
+msgstr "Ползунок 9 текст"
+
+msgid "Slider settings"
+msgstr "Настройки слайдера"
+
+msgid "Slider touch by swipe"
+msgstr "Слайдер с сенсорным салфетки"
+
+msgid "Text settings"
+msgstr "Параметры текста"
+
+msgid "Title header color"
+msgstr "Заголовок цвет"
+
+msgid "Title part 1"
+msgstr "Название Часть 1"
+
+msgid "Title part 1 color"
+msgstr "Название Часть 1 Цвет"
+
+msgid "Title part 1 font weight"
+msgstr "Название части 1 вес шрифта"
+
+msgid "Title part 2"
+msgstr "Название Часть 2"
+
+msgid "Title part 2 color"
+msgstr "Название части 2 цвет"
+
+msgid "Title part 2 font weight"
+msgstr "Заголовок часть 2 Вес шрифта"
+
+msgid "UPPERCASE"
+msgstr "Прописные"
+
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+msgid "Welcome text color"
+msgstr "Приветственный текст цвет"
+
+msgid "Welcome user name color"
+msgstr "Добро пожаловать имя пользователя цвет"
+
+msgid "lowercase"
+msgstr "строчные"

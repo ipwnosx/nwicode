@@ -1,0 +1,11 @@
+{
+  "name": "Admin",
+  "description": "",
+  "version": "4.16.7",
+  "dependencies": {
+    "system": {
+      "type": "SAE",
+      "version": "1.0"
+    }
+  }
+}

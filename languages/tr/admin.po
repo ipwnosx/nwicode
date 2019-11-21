@@ -1,0 +1,315 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-17T05:18:56+03:00\n"
+"PO-Revision-Date: 2019-07-17T05:18:56+03:00\n"
+"Language: \n"
+
+# GMT 1559644692.6798
+msgid "%s - Your new password"
+msgstr "%yeni şifrenizi s -"
+
+# GMT 1559644692.3814
+msgid "A request to reset your password has been made to log in to your administration panel."
+msgstr "Yönetim paneli şifrenizi sıfırlamak için bir talep oluşturuldu."
+
+# GMT 1559644692.3864
+msgid "Access"
+msgstr "Erişim"
+
+# GMT 1559644692.3913
+msgid "Account Role"
+msgstr "Hesap Rol"
+
+# GMT 1559644692.3955
+msgid "Account role"
+msgstr "Hesap Rol"
+
+# GMT 1559644692.404
+msgid "Address 2:"
+msgstr "Adres 2:"
+
+# GMT 1559644692.3997
+msgid "Address:"
+msgstr "Adres:"
+
+msgid "Admin successfully deleted"
+msgstr "Yönetici başarıyla silindi"
+
+# GMT 1559644692.4074
+msgid "Administrator : full access"
+msgstr "Yönetici : tam erişim"
+
+# GMT 1559644692.4115
+msgid "Administrator: full access"
+msgstr "Yönetici: tam erişim"
+
+# GMT 1559644692.4155
+msgid "An error occurred while saving. The country is not valid."
+msgstr "Kaydedilirken bir hata oluştu. Ülkenin geçerli değil."
+
+# GMT 1559644692.4192
+msgid "Application"
+msgstr "Uygulama"
+
+# GMT 1559644692.4235
+msgid "Application have been duplicated successfully."
+msgstr "Uygulama başarılı bir şekilde yeniden yaşandı."
+
+# GMT 1559644692.4276
+msgid "Are you sure you want to delete this application?"
+msgstr "Bu uygulamayı silmek istediğinizden emin misiniz?"
+
+# GMT 1559644692.431
+msgid "Are you sure you want to duplicate this application?"
+msgstr "Uygulamayı kopyalamak istediğinizden emin misiniz?"
+
+# GMT 1559644692.4352
+msgid "Can add pages"
+msgstr "Sayfaların Ekle"
+
+# GMT 1559644692.4411
+msgid "Can generate APK"
+msgstr "APK üretebilir mi"
+
+# GMT 1559644692.4453
+msgid "Can manage guided tour"
+msgstr "Rehberli tur düzenleyebilir mi"
+
+# GMT 1559644692.4504
+msgid "Change my password"
+msgstr "Şifremi değiştirmek"
+
+# GMT 1559644692.4546
+msgid "Company:"
+msgstr "Şirket:"
+
+# GMT 1559644692.459
+msgid "Confirm your password"
+msgstr "Parolanızı onaylayın"
+
+# GMT 1559644692.4642
+msgid "Connect to your backoffice to validate this account."
+msgstr "Bu hesabı doğrulamak için idari büro bağlanmak."
+
+# GMT 1559644692.4691
+msgid "Create a new application"
+msgstr "Yeni bir uygulama oluşturun"
+
+# GMT 1559644692.4743
+msgid "Create a new user"
+msgstr "Yeni bir kullanıcı oluşturun"
+
+# GMT 1559644692.4777
+msgid "Created At"
+msgstr "Oluşturulan"
+
+# GMT 1559644692.4816
+msgid "Created at %s"
+msgstr "%Oluşturulan s"
+
+# GMT 1559644692.486
+msgid "Do not hesitate to give us your feedback by sharing your needs:"
+msgstr "Bize geri bildirim vermek gerekiyor paylaşarak çekinmeyin:"
+
+msgid "Edit the account \"%s\""
+msgstr "\"%s\" hesabı güncelle"
+
+# GMT 1559644692.4897
+msgid "Edit the account %s"
+msgstr "%s hesabını düzelt"
+
+# GMT 1559644692.4939
+msgid "Edit the user %s"
+msgstr "Kullanıcı %s Düzenle"
+
+# GMT 1559644692.4977
+msgid "Enjoy!"
+msgstr "Tadını çıkarın!"
+
+# GMT 1559644692.5019
+msgid "Filter your apps..."
+msgstr "Uygulamalarınız filtreleyin..."
+
+# GMT 1559644692.506
+msgid "Find some advices here:"
+msgstr "Burada bazı öneriler bulabilirsiniz:"
+
+# GMT 1559644692.51
+msgid "From"
+msgstr "Gelen"
+
+# GMT 1559644692.5138
+msgid "Hello, a new user has registered on your platform : %s."
+msgstr "Merhaba, yeni bir kullanıcı platformu üzerinde kayıtlı : %s."
+
+# GMT 1559644692.5178
+msgid "Here are your credentials, keep them preciously:"
+msgstr "Kimlik bilgilerinizi burada, nadide tutmak:"
+
+# GMT 1559644692.522
+msgid "List of admin accounts"
+msgstr "Admin hesapların listesi"
+
+# GMT 1559644692.5257
+msgid "List of my accounts"
+msgstr "Benim hesap listesi"
+
+# GMT 1559644692.5296
+msgid "List of your users"
+msgstr "Kullanıcılar listesi"
+
+# GMT 1559644692.5338
+msgid "Log-in As"
+msgstr "Günlük Olarak"
+
+# GMT 1559644692.538
+msgid "Manage access"
+msgstr "Erişim Yönet"
+
+# GMT 1559644692.5417
+msgid "My Applications"
+msgstr "Uygulamalarım"
+
+# GMT 1559644692.5455
+#, mobile
+msgid "My information"
+msgstr "Bilgilerim"
+
+# GMT 1559644692.5497
+msgid "Need some help?"
+msgstr "Yardıma ihtiyacın var mı?"
+
+# GMT 1559644692.5539
+msgid "New user registration on your platform"
+msgstr "Platformunuzda yeni kullanıcı kaydı"
+
+# GMT 1559644692.5576
+msgid "No account for now."
+msgstr "Şu an için hesap yok."
+
+# GMT 1559644692.5618
+msgid "Please enter a valid email address."
+msgstr "Geçerli bir e-posta adresi giriniz."
+
+# GMT 1559644692.5654
+msgid "Please, enter an application name"
+msgstr "Lütfen bir uygulama ismi girin"
+
+# GMT 1559644692.5692
+msgid "Publication access type"
+msgstr "Yayınlama erişim türü"
+
+# GMT 1559644692.5734
+msgid "Ready to create your own apps?"
+msgstr "Kendi uygulamanızı oluşturmaya hazır mısınız?"
+
+# GMT 1559644692.5772
+msgid "Role"
+msgstr "Rol"
+
+# GMT 1559644692.5814
+msgid "Show All Applications"
+msgstr "Tüm Uygulamaları Göster"
+
+# GMT 1559644692.5856
+msgid "Sign up"
+msgstr "Kaydol"
+
+# GMT 1559644692.5898
+msgid "Sorry but an error occured while duplicating your application."
+msgstr "Üzgünüz ancak uygulamanız kopyalanırken hata oluştu."
+
+# GMT 1559644692.5931
+msgid "State/Province"
+msgstr "Eyalet/İl"
+
+# GMT 1559644692.5974
+msgid "Thanks for choosing us!"
+msgstr "Bizi tercih ettiğiniz için teşekkür ederiz!"
+
+# GMT 1559644692.6008
+msgid "The Support Team"
+msgstr "Destek Ekibi"
+
+# GMT 1559644692.6042
+msgid "The account role is required"
+msgstr "Hesap rolü gereklidir"
+
+# GMT 1559644692.6085
+msgid "The password and the confirmation does not match."
+msgstr "Doğrulama şifreniz uyuşmuyor."
+
+# GMT 1559644692.6129
+msgid "The password must be at least 6 characters."
+msgstr "Şifre en az 6 karakter olmalıdır."
+
+# GMT 1559644692.6172
+msgid "This account is not activated yet. Please contact an administrator."
+msgstr "Uygulama henüz aktif hale getirilmedi. Bir yönetici ile iletişime geçin."
+
+# GMT 1559644692.6215
+msgid "This admin can manage guided tour from editor"
+msgstr "Bu yönetici editörden  rehberli tur düzenleyebilir."
+
+# GMT 1559644692.6259
+msgid "This user has no applications yet."
+msgstr "Bu kullanıcının henüz uygulaması yok."
+
+# GMT 1559644692.6302
+msgid "User successfully deleted"
+msgstr "Kullanıcı başarıyla silindi."
+
+# GMT 1559644692.6345
+msgid "View my current data"
+msgstr "Mevcut verileri görüntüle"
+
+# GMT 1559644692.6389
+msgid "We are sorry but this email address is already used."
+msgstr "Üzgünüz ama bu e-posta adresi zaten kullanılıyor."
+
+# GMT 1559644692.6432
+msgid "Welcome!"
+msgstr "Hoş geldiniz!"
+
+# GMT 1559644692.647
+msgid "You are going to love it! Thanks to our effective features, you will be able to create great mobile apps in your name, within minutes."
+msgstr "Bunu seveceksin! Etkili özellikleri sayesinde, sizin adınıza büyük mobil uygulamalar oluşturmak için, birkaç dakika içinde mümkün olacaktır."
+
+# GMT 1559644692.6513
+msgid "You can't delete the main account"
+msgstr "Ana hesabı silebilirsiniz"
+
+# GMT 1559644692.6548
+msgid "You don't have any users yet"
+msgstr "Henüz bir kullanıcı yok"
+
+# GMT 1559644692.6585
+msgid "Your account have been created successfully. It will be activated soon."
+msgstr "Hesabınız başarıyla oluşturuldu. Yakında aktif olacaktır."
+
+# GMT 1559644692.6628
+msgid "Your credentials"
+msgstr "Kimlik bilgilerinizi"
+
+# GMT 1559644692.667
+msgid "Your login:"
+msgstr "Giriş:"
+
+# GMT 1559644692.6713
+msgid "Your password:"
+msgstr "Şifre:"
+
+# GMT 1559644692.6755
+msgid "Zip Code"
+msgstr "Posta kodu"
+
+# GMT 1559644692.684
+msgid "to"
+msgstr "için"

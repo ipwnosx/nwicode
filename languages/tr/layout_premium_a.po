@@ -1,0 +1,513 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-05T20:28:39+03:00\n"
+"PO-Revision-Date: 2019-06-05T20:28:39+03:00\n"
+"Language: \n"
+
+msgid "Account Settings"
+msgstr "Hesap Ayarları"
+
+msgid "Are you sure?"
+msgstr "Emin misin?"
+
+msgid "Auto slide"
+msgstr "Otomatik slayt"
+
+msgid "Background color"
+msgstr "Arka plan rengi"
+
+msgid "Bullet color"
+msgstr "Kurşun rengi"
+
+msgid "Bullet type"
+msgstr "Mermi türü"
+
+msgid "Color settings"
+msgstr "Renk Ayarları"
+
+msgid "Confirmation"
+msgstr "Onay"
+
+msgid "Dynamic"
+msgstr "Dinamik"
+
+msgid "Effect"
+msgstr "Etkisi"
+
+msgid "Features text case"
+msgstr "Özellikleri metin durumda"
+
+msgid "Features text color"
+msgstr "Özellikleri metin rengi"
+
+msgid "Free mode"
+msgstr "Ücretsiz modu"
+
+msgid "Guest"
+msgstr "Konuk"
+
+msgid "Import an image"
+msgstr "Al bir görüntü"
+
+msgid "Login / registration"
+msgstr "Giriş / kayıt"
+
+msgid "Logout"
+msgstr "Oturumu kapat"
+
+msgid "Menu"
+msgstr "Menü"
+
+msgid "Menu button color"
+msgstr "Menü düğmesi renk"
+
+msgid "Menu button icon"
+msgstr "Menü düğmesi simgesi"
+
+msgid "NWICODE"
+msgstr "Appmosfer"
+
+msgid "Normal case"
+msgstr "Normal durumda"
+
+msgid "Show bullets"
+msgstr "Mermi göster"
+
+msgid "Show text on slide 1"
+msgstr "1 slayt gösterisi"
+
+msgid "Show text on slide 10"
+msgstr "10 slayt gösterisi"
+
+msgid "Show text on slide 2"
+msgstr "2 slayt gösterisi"
+
+msgid "Show text on slide 3"
+msgstr "3. slayttaki metni göster"
+
+msgid "Show text on slide 4"
+msgstr "4 slayt gösterisi"
+
+msgid "Show text on slide 5"
+msgstr "5 slayt gösterisi"
+
+msgid "Show text on slide 6"
+msgstr "6 slayt gösterisi"
+
+msgid "Show text on slide 7"
+msgstr "7 slayt gösterisi"
+
+msgid "Show text on slide 8"
+msgstr "8 slayt gösterisi"
+
+msgid "Show text on slide 9"
+msgstr "9 slayt gösterisi"
+
+msgid "Sidenav background gradient end"
+msgstr "Sidenav arka plan degrade son"
+
+msgid "Sidenav background gradient start"
+msgstr "Sidenav arkaplan gradyan başlangıç"
+
+msgid "Sidenav divider color"
+msgstr "Sidenav bölücü renk"
+
+msgid "Sidenav text case"
+msgstr "Sidenav metin durumda"
+
+msgid "Sidenav text color"
+msgstr "Sidenav metin rengi"
+
+msgid "Slide 1 image"
+msgstr "Slayt 1 Resim"
+
+msgid "Slide 1 link (feature position)"
+msgstr "(Özellik pozisyon)1 bağlantı slayt"
+
+msgid "Slide 1 settings"
+msgstr "1 ayarları slayt"
+
+msgid "Slide 1 text"
+msgstr "1 metin kaydır"
+
+msgid "Slide 1 text color"
+msgstr "1 metin rengi slayt"
+
+msgid "Slide 1 text header"
+msgstr "1 metin başlığını kaydır"
+
+msgid "Slide 1 text header color"
+msgstr "1 metin başlığı rengini kaydır"
+
+msgid "Slide 1 text subtitle"
+msgstr "Slayt 1 metin altyazı"
+
+msgid "Slide 1 text subtitle color"
+msgstr "1 metin altyazı rengini kaydır"
+
+msgid "Slide 10 enable"
+msgstr "10 slayt etkinleştirin"
+
+msgid "Slide 10 image"
+msgstr "Slayt 10 resim"
+
+msgid "Slide 10 link (feature position)"
+msgstr "(Özellik konum)10 bağlantı slayt"
+
+msgid "Slide 10 settings"
+msgstr "10 ayarları slayt"
+
+msgid "Slide 10 text"
+msgstr "Slayt 10 metin"
+
+msgid "Slide 10 text color"
+msgstr "Slayt 10 metin rengi"
+
+msgid "Slide 10 text header"
+msgstr "Slayt 10 başlık metni"
+
+msgid "Slide 10 text header color"
+msgstr "Slayt 10 başlık metin rengi"
+
+msgid "Slide 10 text subtitle"
+msgstr "Slayt 10 metin altyazı"
+
+msgid "Slide 10 text subtitle color"
+msgstr "Slayt 10 metin altyazı renk"
+
+msgid "Slide 2 enable"
+msgstr "Slayt 2 etkinleştir"
+
+msgid "Slide 2 image"
+msgstr "Slayt 2 resim"
+
+msgid "Slide 2 link (feature position)"
+msgstr "(Özellik pozisyonu)slayt 2 bağlantı"
+
+msgid "Slide 2 settings"
+msgstr "Slide 2 ayarlar"
+
+msgid "Slide 2 text"
+msgstr "Slayt 2 metin"
+
+msgid "Slide 2 text color"
+msgstr "Slayt 2 metin rengi"
+
+msgid "Slide 2 text header"
+msgstr "Slayt 2 başlık metni"
+
+msgid "Slide 2 text header color"
+msgstr "2 metin başlığı rengini kaydır"
+
+msgid "Slide 2 text subtitle"
+msgstr "Slayt 2 metin altyazı"
+
+msgid "Slide 2 text subtitle color"
+msgstr "Slayt 2 metin altyazı renk"
+
+msgid "Slide 3 enable"
+msgstr "Slayt 3 etkinleştir"
+
+msgid "Slide 3 image"
+msgstr "3 görüntüyü kaydır"
+
+msgid "Slide 3 link (feature position)"
+msgstr "(Özellik pozisyonu)slayt 3 link"
+
+msgid "Slide 3 settings"
+msgstr "Slide 3 ayarlar"
+
+msgid "Slide 3 text"
+msgstr "Slayt 3 metin"
+
+msgid "Slide 3 text color"
+msgstr "Slayt 3 metin rengi"
+
+msgid "Slide 3 text header"
+msgstr "Slayt 3 başlık metni"
+
+msgid "Slide 3 text header color"
+msgstr "3 metin başlığı rengini kaydır"
+
+msgid "Slide 3 text subtitle"
+msgstr "Slayt 3 metin altyazı"
+
+msgid "Slide 3 text subtitle color"
+msgstr "3 metin altyazı rengini kaydır"
+
+msgid "Slide 4 enable"
+msgstr "4 slayt etkinleştirin"
+
+msgid "Slide 4 image"
+msgstr "Slayt 4 resim"
+
+msgid "Slide 4 link (feature position)"
+msgstr "(Özellik pozisyonu)slayt 4 link"
+
+msgid "Slide 4 settings"
+msgstr "4 ayarları slayt"
+
+msgid "Slide 4 text"
+msgstr "4 metin slayt"
+
+msgid "Slide 4 text color"
+msgstr "4 metin rengi slayt"
+
+msgid "Slide 4 text header"
+msgstr "4 metin slayt Başlığı"
+
+msgid "Slide 4 text header color"
+msgstr "4 metin üstbilgi renkli slayt"
+
+msgid "Slide 4 text subtitle"
+msgstr "Slayt 4 metin altyazı"
+
+msgid "Slide 4 text subtitle color"
+msgstr "4 metin altyazı renk slayt"
+
+msgid "Slide 5 enable"
+msgstr "5 slayt etkinleştirin"
+
+msgid "Slide 5 image"
+msgstr "Slayt 5 resim"
+
+msgid "Slide 5 link (feature position)"
+msgstr "(Özellik pozisyonu)slayt 5 link"
+
+msgid "Slide 5 settings"
+msgstr "5 slayt ayarları"
+
+msgid "Slide 5 text"
+msgstr "5 metin slayt"
+
+msgid "Slide 5 text color"
+msgstr "5 metin rengi slayt"
+
+msgid "Slide 5 text header"
+msgstr "5 metin slayt Başlığı"
+
+msgid "Slide 5 text header color"
+msgstr "5 metin üstbilgi renkli slayt"
+
+msgid "Slide 5 text subtitle"
+msgstr "5 metin altyazı slayt"
+
+msgid "Slide 5 text subtitle color"
+msgstr "5 metin altyazı renk slayt"
+
+msgid "Slide 6 enable"
+msgstr "6 slayt etkinleştirin"
+
+msgid "Slide 6 image"
+msgstr "Slayt 6 resim"
+
+msgid "Slide 6 link (feature position)"
+msgstr "(Özellik konum)6 bağlantı slayt"
+
+msgid "Slide 6 settings"
+msgstr "6 ayarları slayt"
+
+msgid "Slide 6 text"
+msgstr "Slayt 6 metin"
+
+msgid "Slide 6 text color"
+msgstr "Slayt 6 metin rengi"
+
+msgid "Slide 6 text header"
+msgstr "Slayt 6 başlık metni"
+
+msgid "Slide 6 text header color"
+msgstr "Slayt 6 başlık metin rengi"
+
+msgid "Slide 6 text subtitle"
+msgstr "Slayt 6 metin altyazı"
+
+msgid "Slide 6 text subtitle color"
+msgstr "Slayt 6 metin altyazı renk"
+
+msgid "Slide 7 enable"
+msgstr "7 slayt etkinleştirin"
+
+msgid "Slide 7 image"
+msgstr "Slayt 7 resim"
+
+msgid "Slide 7 link (feature position)"
+msgstr "(Özellik pozisyon)7 bağlantı slayt"
+
+msgid "Slide 7 settings"
+msgstr "7 ayarları slayt"
+
+msgid "Slide 7 text"
+msgstr "Slayt 7 metin"
+
+msgid "Slide 7 text color"
+msgstr "Slayt 7 metin rengi"
+
+msgid "Slide 7 text header"
+msgstr "Slayt 7 başlık metni"
+
+msgid "Slide 7 text header color"
+msgstr "Slayt 7 başlık metin rengi"
+
+msgid "Slide 7 text subtitle"
+msgstr "Slayt 7 metin altyazı"
+
+msgid "Slide 7 text subtitle color"
+msgstr "Slayt 7 metin altyazı renk"
+
+msgid "Slide 8 enable"
+msgstr "8 slayt etkinleştirin"
+
+msgid "Slide 8 image"
+msgstr "Slayt 8 resim"
+
+msgid "Slide 8 link (feature position)"
+msgstr "(Özellik pozisyon)8 bağlantı slayt"
+
+msgid "Slide 8 settings"
+msgstr "8 ayarları slayt"
+
+msgid "Slide 8 text"
+msgstr "8 metin slayt"
+
+msgid "Slide 8 text color"
+msgstr "8 metin rengi slayt"
+
+msgid "Slide 8 text header"
+msgstr "8 metin slayt Başlığı"
+
+msgid "Slide 8 text header color"
+msgstr "8 metin üstbilgi renkli slayt"
+
+msgid "Slide 8 text subtitle"
+msgstr "8 metin altyazı slayt"
+
+msgid "Slide 8 text subtitle color"
+msgstr "8 metin altyazı renk slayt"
+
+msgid "Slide 9 enable"
+msgstr "9 slayt etkinleştirin"
+
+msgid "Slide 9 image"
+msgstr "Slayt 9 resim"
+
+msgid "Slide 9 link (feature position)"
+msgstr "(Özellik pozisyonu)slayt 9 link"
+
+msgid "Slide 9 settings"
+msgstr "9 ayarları slayt"
+
+msgid "Slide 9 text"
+msgstr "Slayt 9 metin"
+
+msgid "Slide 9 text color"
+msgstr "Slayt 9 metin rengi"
+
+msgid "Slide 9 text header"
+msgstr "Slayt 9 başlık metni"
+
+msgid "Slide 9 text header color"
+msgstr "Slayt 9 başlık metin rengi"
+
+msgid "Slide 9 text subtitle"
+msgstr "Slayt 9 metin altyazı"
+
+msgid "Slide 9 text subtitle color"
+msgstr "Slayt 9 metin altyazı renk"
+
+msgid "Slider 1 text"
+msgstr "Kaydırıcı 1 metin"
+
+msgid "Slider 10 text"
+msgstr "Kaydırıcı 10 metin"
+
+msgid "Slider 2 text"
+msgstr "Kaydırıcı 2 metin"
+
+msgid "Slider 3 text"
+msgstr "Slider 3 metni"
+
+msgid "Slider 4 text"
+msgstr "Kaydırıcı 4 metin"
+
+msgid "Slider 5 text"
+msgstr "Kaydırıcı 5 metin"
+
+msgid "Slider 6 text"
+msgstr "Kaymak 6 metin"
+
+msgid "Slider 7 text"
+msgstr "Kaydırıcı 7 metin"
+
+msgid "Slider 8 text"
+msgstr "Kaydırıcı 8 metin"
+
+msgid "Slider 9 text"
+msgstr "Kaydırıcı 9 metin"
+
+msgid "Slider settings"
+msgstr "Slider ayarları"
+
+msgid "Slider touch by swipe"
+msgstr "Kaydırmayla kaydırıcı dokunma"
+
+msgid "Standart"
+msgstr "Standart"
+
+msgid "Team"
+msgstr "Team"
+
+msgid "Text data"
+msgstr "Metin verisi"
+
+msgid "Text settings"
+msgstr "Metin ayarları"
+
+msgid "Title header color"
+msgstr "Üst Başlık Rengi"
+
+msgid "Title part 1"
+msgstr "1 başlık kısmı"
+
+msgid "Title part 1 color"
+msgstr "Başlık bölüm 1 renk"
+
+msgid "Title part 1 font weight"
+msgstr "Başlık bölüm 1 yazı tipi ağırlığı"
+
+msgid "Title part 1 text color"
+msgstr "Başlık bölüm 1 metin rengi"
+
+msgid "Title part 2"
+msgstr "Başlık bölüm 2"
+
+msgid "Title part 2 color"
+msgstr "Başlık bölüm 2 rengi"
+
+msgid "Title part 2 font weight"
+msgstr "Başlık bölüm 2 yazı tipi ağırlık"
+
+msgid "Title part 2 text color"
+msgstr "Başlık bölüm 2 metin rengi"
+
+msgid "UPPERCASE"
+msgstr "Büyük HARFLİ"
+
+msgid "Welcome"
+msgstr "Hoşgeldiniz"
+
+msgid "Welcome text color"
+msgstr "Hoş geldiniz metin rengi"
+
+msgid "Welcome user name color"
+msgstr "Hoş geldiniz kullanıcı adı renk"
+
+msgid "lowercase"
+msgstr "küçük harf"

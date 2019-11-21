@@ -1,0 +1,1482 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-06T21:10:58+03:00\n"
+"PO-Revision-Date: 2019-06-06T21:10:58+03:00\n"
+"Language: \n"
+
+msgid "%s - v%s"
+msgstr "%s - v%s"
+
+msgid "(DEMO)"
+msgstr "(DEMO)"
+
+# GMT 1558094536.009
+msgctxt "backoffice_application"
+msgid "* If Apple doesn't detect any configured ads, your application will be refused."
+msgstr "* Eğer Apple herhangi bir yapılandırılmış reklamlar algılamazsa, başvurunuz reddedilecektir."
+
+msgctxt "backoffice_application"
+msgid "* If apple doesn't detect any ads configurate, your application will be refused"
+msgstr "* Apple-configurate herhangi bir reklam algılamazsa, başvurunuz reddedilecektir"
+
+msgctxt "backoffice_application"
+msgid "* You have to justify why you need this background audio playing to Apple."
+msgstr "* Apple oyun bu arka plan ses gerekir neden"
+
+msgctxt "backoffice_application"
+msgid "* You have to tell Apple why you need the background audio playing."
+msgstr "* Arka plan ses çalmaya Neden İhtiyaç duyduğunu Apple söylemelisin."
+
+# GMT 1558094536.0122
+msgctxt "backoffice_application"
+msgid "* You must tell Apple why you need the background audio playing."
+msgstr "* Arka plan ses çalma Neden İhtiyaç Apple söylemelisin."
+
+msgid "<b class=\"delete-warning\">You are going to remove #APP_ID# / #APP_NAME#<br />Removed application CANNOT be restored! Are you ABSOLUTELY sure?</b><br />This action can lead to data loss. To prevent accidental actions we ask you to confirm your intention.<br />Please type <code style=\"user-select: none;\">yes-delete-app-#APP_ID#</code> to proceed or close this modal to cancel."
+msgstr "kaldırmak için gidiyorsun <b class=\"delete-warning\">#APP_İD# / #APP_NAME#<br />uygulama geri yüklenemez Kaldırıldı. KESİNLİKLE emin misiniz?</b><br />Bu işlem veri kaybına yol açabilir. Yanlışlıkla eylemleri önlemek için niyeti onaylamak için<isteriz.br />#APP_İD#</code> bu kalıcı devam etmek veya kapatmak iptal etmek için app user-select: none;\">Evet-sil=\"türü <code style Lütfen."
+
+msgid "A step requires at least a title and a text."
+msgstr "Bir adım, en azından bir başlık ve bir metin gerektirir."
+
+msgid "API"
+msgstr "API"
+
+msgid "APIs"
+msgstr "API"
+
+msgid "About us"
+msgstr "Bize"
+
+msgid "Accounts"
+msgstr "Hesapları"
+
+msgid "Actions"
+msgstr "Eylemler"
+
+msgid "Activity"
+msgstr "Etkinliği"
+
+msgid "AdMob Banner ID"
+msgstr "Almasıyla Banner KİMLİĞİ"
+
+msgid "AdMob Interstitial ID"
+msgstr "Almasıyla İnterstisyel KİMLİĞİ"
+
+msgid "AdMob Type"
+msgstr "Almasıyla Türü"
+
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+msgid "Advertising"
+msgstr "Reklam"
+
+msgid "All data"
+msgstr "Tüm veri"
+
+msgid "Allow user to request app publication"
+msgstr "İzin ver kullanıcı uygulaması yayın isteği"
+
+msgid "An error occurred while loading. Please, try again later."
+msgstr "Yüklenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while saving. Please try again later."
+msgstr "Kaydedilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while uploading your file. Please, try again later."
+msgstr "Dosya yüklenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "Analytics"
+msgstr "Analytics"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "Android 4.4+"
+msgstr "Android 4.4+"
+
+msgid "Android APK"
+msgstr "Android MUAYENE"
+
+msgid "Android SDK is not installed"
+msgstr "Android SDK yüklü değil"
+
+msgid "Android SDK:"
+msgstr "Android SDK:"
+
+msgid "Android Studio 3+"
+msgstr "Android Studio 3+"
+
+# GMT 1558094535.9527
+msgctxt "backoffice_application"
+msgid "App Store Connect login"
+msgstr "App Store Connect oturum açma"
+
+# GMT 1558094535.9638
+msgctxt "backoffice_application"
+msgid "App Store Connect provider"
+msgstr "App Store Bağlantı sağlayıcı"
+
+msgid "App Store Icon"
+msgstr "App Store Simgesi"
+
+msgid "App analytics"
+msgstr "App analytics"
+
+# GMT 1558094535.9557
+msgctxt "backoffice_application"
+msgid "App store connect e-mail"
+msgstr "App store connect e-posta"
+
+msgid "Appearance"
+msgstr "Görünüm"
+
+msgctxt "backoffice_application"
+msgid "Apple Development team"
+msgstr "Apple Geliştirme ekibi"
+
+# GMT 1558094535.9603
+msgctxt "backoffice_application"
+msgid "Apple Development team id"
+msgstr "Apple Geliştirme ekibi kimliği"
+
+msgid "Apple rejects apps that includes Ad Support but doesn't use it.<br />Generate your iOS app out of this source code if you don't include Ads."
+msgstr "Apple<Reklam Desteği içeren uygulamalar reddeder ama bunu kullanmaz.eğer Reklamları istemiyorsan br />Oluşturmak iOS bu kaynak kod dışında uygulama."
+
+msgid "Application"
+msgstr "Uygulama"
+
+msgid "Application Name"
+msgstr "Uygulama Adı"
+
+msgid "Applications"
+msgstr "Uygulamalar"
+
+msgid "Applications/Previewer manifest for automatic updates."
+msgstr "Uygulamaları otomatik güncelleme için bildirim Görüntüle."
+
+msgid "Appointment Activation Key"
+msgstr "Randevu Etkinleştirme Anahtarı"
+
+msgid "Are you sure ?"
+msgstr "Emin misin ?"
+
+msgid "Are you sure you want to delete this admin?"
+msgstr "Bu admin silmek istediğinizden emin misiniz?"
+
+msgid "Are you sure you want to delete this application?"
+msgstr "Bu uygulama silmek istediğinizden emin misiniz?"
+
+msgid "Are you sure you want to duplicate this application?"
+msgstr "Bu uygulama çoğaltmak istediğinden emin misin?"
+
+msgctxt "cabride"
+msgid "Are you sure?"
+msgstr "Emin misin?"
+
+msgid "Average build time in seconds:"
+msgstr "Ortalama saniyede zaman inşa:"
+
+msgid "Back"
+msgstr "Geri"
+
+msgid "Background Color"
+msgstr "Arka plan rengi"
+
+msgid "Background Color - Active"
+msgstr "Arka Plan Rengi - Aktif"
+
+msgid "Background Color - Hover"
+msgstr "Arka Plan Rengi - Hover"
+
+msgid "Backoffice access"
+msgstr "İdari büro erişim"
+
+msgid "Banner"
+msgstr "Banner"
+
+msgid "Banner %s price"
+msgstr "Banner %fiyat s"
+
+msgid "Banner %s store label"
+msgstr "Banner %mağaza etiket s"
+
+msgid "Banner & Interstitial"
+msgstr "Banner Ve İnterstisyel"
+
+msgid "Banner author"
+msgstr "Başlık yazar"
+
+msgid "Banner button label"
+msgstr "Banner düğmesi etiket"
+
+msgid "Banner settings"
+msgstr "Banner ayarları"
+
+msgid "Banner title"
+msgstr "Başlık başlık"
+
+msgctxt "cabride"
+msgid "Base address"
+msgstr "Taban adresi"
+
+msgid "Bearer Token Auth (API)"
+msgstr "(API)taşıyıcı Belirteç Auth"
+
+msgid "Bearer Token Auth is valid."
+msgstr "Taşıyıcı Belirteç kimlik Doğrulama geçerli değil."
+
+msgid "Bin SQLite3:"
+msgstr "Bin SQLite3:"
+
+msgid "Border Blue"
+msgstr "Sınır Mavi"
+
+msgid "Border Color"
+msgstr "Kenarlık rengi"
+
+msgid "Border Green"
+msgstr "Sınır Yeşil"
+
+msgid "Border Grey"
+msgstr "Sınır Gri"
+
+msgid "Border Purple"
+msgstr "Kenarlık Mor"
+
+msgid "Border Red"
+msgstr "Sınır Kırmızı"
+
+msgid "Border Yellow"
+msgstr "Sınır Sarı"
+
+msgid "Bottom"
+msgstr "Alt"
+
+msgid "Brazilian Portuguese"
+msgstr "Brezilya Portekizcesi"
+
+# GMT 1558094536.0138
+msgid "Build information"
+msgstr "Yapı bilgi"
+
+msgid "Bundle Id"
+msgstr "Paket Kimliği"
+
+msgid "By default, popups steps try to use a smart placement. You can force this placement if needed."
+msgstr "Varsayılan olarak, adım akıllı bir yerleşim kullanmaya pop-up. Gerekirse bu yerleşim zorlayabilir."
+
+msgctxt "cabride"
+msgid "Cab-Ride"
+msgstr "Taksi Yolculuğu"
+
+msgid "CabRide"
+msgstr "CabRide"
+
+msgid "CabRide Drivers"
+msgstr "CabRide Sürücüleri"
+
+msgid "Cabride"
+msgstr "CabRide"
+
+msgid "Cabride, uws Server."
+msgstr "Cabride, Sunucu uws."
+
+msgid "Cabride, watcher."
+msgstr "Cabride, bakıcı."
+
+msgid "Cache (var/cache, system cache)"
+msgstr "(Var/cache sistemi cache)önbellek"
+
+msgid "Cancel"
+msgstr "İptal"
+
+msgid "Chatrooms"
+msgstr "Sohbet odaları"
+
+msgid "Check if this cron command is installed under the web user & if you have set a timezone in Settings > General"
+msgstr "Eğer bu cron komut Ayarları bir zaman dilimi ayarladıysanız web kullanıcı altında ve yüklü olup olmadığını kontrol Genel >"
+
+msgid "ClamAV:"
+msgstr "Deniztarağı:"
+
+msgid "Classifieds"
+msgstr "İlanlar"
+
+msgid "Clean-up sensible data"
+msgstr "Temizlik hassas veri"
+
+msgid "Clear"
+msgstr "Açık"
+
+msgid "Close"
+msgstr "Yakın"
+
+msgid "Color blue"
+msgstr "Renk mavi"
+
+msgid "Color green"
+msgstr "Renk yeşil"
+
+msgid "Color purple"
+msgstr "Mor renk"
+
+msgid "Color red"
+msgstr "Renk kırmızı"
+
+msgid "Color yellow"
+msgstr "Renk sarı"
+
+msgid "Colors"
+msgstr "Renk"
+
+msgid "Communication"
+msgstr "İletişim"
+
+msgid "Company"
+msgstr "Şirket"
+
+msgid "Configuration"
+msgstr "Yapılandırma"
+
+msgid "Confirm your password"
+msgstr "Parolanızı onaylayın"
+
+msgid "Confirmation required"
+msgstr "Onay gerekiyor"
+
+msgid "Contact e-mail"
+msgstr "İletişim e-posta"
+
+msgid "Content background"
+msgstr "İçerik arka plan"
+
+msgid "Content color"
+msgstr "İçerik renk"
+
+msgid "Create"
+msgstr "Oluşturun"
+
+msgid "Create a new application"
+msgstr "Yeni bir uygulama oluştur"
+
+msgid "Created at %s"
+msgstr "%Oluşturulan s"
+
+msgid "Cron"
+msgstr "Cron"
+
+msgid "Cron scheduler"
+msgstr "Cron zamanlayıcı"
+
+msgid "Cron scheduler help"
+msgstr "Cron zamanlayıcı yardım"
+
+msgid "Current load is"
+msgstr "Mevcut yük"
+
+msgid "Current status is"
+msgstr "Geçerli durum"
+
+msgid "Custom Page"
+msgstr "Özel Sayfa"
+
+msgctxt "cabride"
+msgid "Customer ID"
+msgstr "Müşteri KİMLİĞİ"
+
+msgid "Customization mode activated"
+msgstr "Özelleştirme modu aktif"
+
+msgid "Customize My Editor"
+msgstr "Editörüm Özelleştirmek"
+
+msgctxt "cabride"
+msgid "DELETE"
+msgstr "Sil"
+
+msgid "Danish"
+msgstr "Danimarka"
+
+msgid "Dashboard"
+msgstr "Pano"
+
+msgctxt "cabride"
+msgid "Delete driver"
+msgstr "Sil sürücüsü"
+
+msgid "Description"
+msgstr "Açıklama"
+
+msgid "Design"
+msgstr "Tasarım"
+
+msgid "Developer Accounts"
+msgstr "Geliştirici Hesapları"
+
+msgid "Development"
+msgstr "Geliştirme"
+
+msgid "Device Information"
+msgstr "Aygıt Bilgileri"
+
+msgid "Device preview"
+msgstr "Cihaz önizleme"
+
+msgid "Discounts"
+msgstr "İndirimler"
+
+msgid "Disk usage & Cache:"
+msgstr "Disk kullanım & Cache:"
+
+msgid "Domain"
+msgstr "Etki alanı"
+
+msgid "Download APK"
+msgstr "Download MUAYENE"
+
+msgid "Download latest APK"
+msgstr "İndir son MUAYENE"
+
+msgid "Download latest sources"
+msgstr "İndir son kaynakları"
+
+msgctxt "cabride"
+msgid "Driver informations"
+msgstr "Sürücü bilgileri"
+
+msgctxt "cabride"
+msgid "Drivers"
+msgstr "Sürücüler"
+
+msgctxt "cabride"
+msgid "Driving license"
+msgstr "Ehliyet"
+
+msgid "Dutch"
+msgstr "Hollanda"
+
+msgctxt "cabride"
+msgid "EDIT"
+msgstr "DÜZENLE"
+
+msgid "Edit step for this element"
+msgstr "Edit Step Bu Element için"
+
+msgid "Editor"
+msgstr "Editör"
+
+msgid "Editor access"
+msgstr "Editör erişim"
+
+msgid "Element n°"
+msgstr "Eleman n°"
+
+msgid "Email"
+msgstr "E-posta"
+
+msgid "End tour"
+msgstr "Son tur"
+
+msgid "English"
+msgstr "İngilizce"
+
+msgid "English_Australian"
+msgstr "English_Australian"
+
+msgid "English_CA"
+msgstr "English_CA"
+
+msgid "English_UK"
+msgstr "English_UK"
+
+msgid "Environment is"
+msgstr "Ortam"
+
+msgid "External extensions"
+msgstr "Harici uzantıları"
+
+msgid "Failed"
+msgstr "Başarısız"
+
+msgid "Fanwall"
+msgstr "Fanwall"
+
+msgid "Favicon"
+msgstr "Favicon"
+
+msgid "Feature Analytics"
+msgstr "Özelliği Analytics"
+
+msgid "Features"
+msgstr "Özellikleri"
+
+msgid "Filter metrics"
+msgstr "Filtre ölçütleri"
+
+msgid "Filter your apps..."
+msgstr "Uygulamalarınız filtre..."
+
+msgid "Finnish"
+msgstr "Fince"
+
+msgid "Firewall"
+msgstr "Güvenlik duvarı"
+
+msgid "Font Color blue"
+msgstr "Yazı tipi Rengi mavi"
+
+msgid "Forgot your password ?"
+msgstr "Şifrenizi mi unuttunuz ?"
+
+msgid "Forgot your password?"
+msgstr "Şifrenizi mi unuttunuz?"
+
+msgid "Forgot your password? Don't worry! Simply enter your email address and we'll send you a new one right now."
+msgstr "Şifrenizi mi unuttunuz? Merak etme! Sadece e-posta adresinizi girin şimdi size yeni bir tane göndereceğiz."
+
+msgid "Free until"
+msgstr "Kadar ücretsiz"
+
+msgid "Free until %s"
+msgstr "Ücretsiz %kadar s"
+
+msgid "French"
+msgstr "Fransızca"
+
+msgid "French_CA"
+msgstr "French_CA"
+
+msgid "From"
+msgstr "Dan"
+
+msgid "General"
+msgstr "Genel"
+
+msgid "General Information"
+msgstr "Genel Bilgiler"
+
+msgid "Generate and publish iOS Application"
+msgstr "İOS Uygulama oluşturmak ve yayımlamak"
+
+msgid "Generate build"
+msgstr "Yapı oluşturmak"
+
+msgid "Generate sources"
+msgstr "Kaynakları oluşturmak"
+
+msgid "Generating"
+msgstr "Oluşturma"
+
+msgid "German"
+msgstr "Almanca"
+
+msgid "Get user"
+msgstr "Kullanıcı"
+
+msgid "Global push"
+msgstr "Küresel itme"
+
+msgid "Google Play Icon"
+msgstr "Google Play Simgesi"
+
+msgid "Greek"
+msgstr "Yunan"
+
+msgid "Grey buttons"
+msgstr "Gri düğmeleri"
+
+msgid "HTTP Basic Auth (API)"
+msgstr "(API)HTTP Basic Auth"
+
+msgid "HTTP Basic Auth is valid."
+msgstr "HTTP Basic Auth geçerlidir."
+
+msgid "HTTPS is not available on your server."
+msgstr "HTTPS sunucu üzerinde kullanılamaz."
+
+msgid "Hide"
+msgstr "Gizle"
+
+msgctxt "backoffice_application"
+msgid "Ho"
+msgstr "Ho"
+
+# GMT 1558094535.9656
+msgctxt "backoffice_application"
+msgid "How to find Team ID, Team name & Provider? Follow this <a href=\"%s\" target=\"blank\">documentation</a>"
+msgstr "Takım KİMLİĞİ, Takım adı ve Sağlayıcı bul nasıl? İzleyin bu <a href=\"%s\" target=\"blank\">belgeleme</a>"
+
+msgid "How to install the cron scheduler ?"
+msgstr "Cron zamanlayıcı yüklemek için nasıl ?"
+
+msgid "I agree to receive information & commercial offers about the WhiteLabel program."
+msgstr "Bilgi ve ticari WhiteLabel programı hakkında teklifler almak için kabul ediyorum."
+
+# GMT 1558094535.9465
+msgctxt "backoffice_application"
+msgid "I am publishing for/with ..."
+msgstr "/İçin yayınlıyorum ..."
+
+msgid "I have read & agree the Terms of Service"
+msgstr "Okudum ve Hizmet Şartlarını kabul ediyorum."
+
+msgctxt "cabride"
+msgid "ID"
+msgstr "KİMLİĞİ"
+
+msgid "Id"
+msgstr "KİMLİĞİ"
+
+msgid "If user doesn't use AdMob, split revenue will default to 100."
+msgstr "Eğer kullanıcı Almasıyla kullanmıyorsa, split gelir 100 varsayılan olacaktır."
+
+msgid "Indonesian"
+msgstr "Endonezya"
+
+msgid "Info successfully saved"
+msgstr "Bilgi başarıyla kaydedildi"
+
+msgid "Input flat"
+msgstr "Giriş düz"
+
+msgid "Installed, version"
+msgstr "Yüklü sürüm"
+
+msgid "Installs"
+msgstr "Yükler"
+
+msgid "Interstitial"
+msgstr "İnterstisyel"
+
+msgid "Invoices"
+msgstr "Faturalar"
+
+msgid "Italian"
+msgstr "İtalyan"
+
+msgid "JAVA:"
+msgstr "JAVA:"
+
+msgid "Japanese"
+msgstr "Japon"
+
+msgid "Job"
+msgstr "İş"
+
+msgid "Join lobby"
+msgstr "Lobiye Giriş"
+
+msgid "JpegOptim:"
+msgstr "JpegOptim:"
+
+msgid "Key Password"
+msgstr "Anahtar Parolası"
+
+msgid "Keywords"
+msgstr "Anahtar kelimeler"
+
+msgid "Korean"
+msgstr "Kore"
+
+# GMT 1558094535.9676
+msgctxt "backoffice_application"
+msgid "Language"
+msgstr "Dil"
+
+msgctxt "backoffice_application"
+msgid "Languages"
+msgstr "Diller"
+
+msgid "Last cron error"
+msgstr "Son cron hata"
+
+msgid "Last error"
+msgstr "Son hata"
+
+msgid "Left"
+msgstr "Sol"
+
+msgctxt "cabride"
+msgid "License plate"
+msgstr "Plaka"
+
+# GMT 1558094535.9374
+msgctxt "backoffice_application"
+msgid "Licensing"
+msgstr "Lisans"
+
+msgid "Links"
+msgstr "Bağlantılar"
+
+msgid "List of your applications"
+msgstr "Uygulamalar listesi"
+
+msgid "Loading your white label editor."
+msgstr "Beyaz etiket editörü yükleniyor."
+
+msgid "Loading..."
+msgstr "Yükleniyor..."
+
+msgid "Local APK build"
+msgstr "Yerel kuru temizleme yapı"
+
+msgid "Lock the entire application"
+msgstr "Tüm uygulama kilidi"
+
+msgid "Log (var/log, log files)"
+msgstr "Günlük (var/log, log dosyaları)"
+
+msgid "Log in"
+msgstr "Giriş"
+
+msgid "Log-in"
+msgstr "Girş"
+
+msgid "Log-out"
+msgstr "Log-out"
+
+msgid "Login to your admin interface"
+msgstr "Yönetim arayüzü oturum açma"
+
+msgid "Logo"
+msgstr "Logo"
+
+msgid "M-Commerce"
+msgstr "M-Ticaret"
+
+msgid "MM/dd/yyyy"
+msgstr "MM/dd/yyyy"
+
+msgid "Mail logs"
+msgstr "Posta günlükleri"
+
+msgid "Main category"
+msgstr "Ana kategori"
+
+msgid "Malay"
+msgstr "Malayca"
+
+msgid "Manage"
+msgstr "Yönetmek"
+
+msgid "Manage tour"
+msgstr "Tur Yönet"
+
+msgid "Media"
+msgstr "Medya"
+
+msgid "Message"
+msgstr "Mesaj"
+
+msgid "Messages"
+msgstr "Mesaj"
+
+msgid "Missing Information"
+msgstr "Eksik Bilgi"
+
+msgid "Mobile Source Codes"
+msgstr "Mobil Kaynak Kodları"
+
+msgctxt "cabride"
+msgid "Mobile number"
+msgstr "Cep Telefonu Numarası"
+
+msgid "Modal"
+msgstr "Kalıcı"
+
+msgid "Modules"
+msgstr "Modülleri"
+
+msgid "My Account"
+msgstr "Hesabım"
+
+msgid "My Applications"
+msgstr "Uygulamalarım"
+
+msgid "My account"
+msgstr "Hesabım"
+
+msgid "Name"
+msgstr "Adı"
+
+msgid "New messages"
+msgstr "Yeni Mesaj"
+
+msgid "Next"
+msgstr "Gelecek"
+
+msgid "No build."
+msgstr "Hayır oluşturun."
+
+msgid "No data for this metrics for now."
+msgstr "Bu veri şu an için ölçümleri."
+
+msgid "No linkable element found on this page."
+msgstr "Hayır linkli elemanı bu sayfada buldum."
+
+msgctxt "cabride"
+msgid "No results for your search."
+msgstr "Aramanız için hiçbir sonuç."
+
+msgctxt "cabride"
+msgid "No, go back!"
+msgstr "Hayır, geri dön!"
+
+msgid "Norwegian"
+msgstr "Norveç"
+
+msgid "Not found"
+msgstr "Bulunamadı"
+
+msgid "Not running"
+msgstr "Çalışmıyor"
+
+msgid "Not yet generated."
+msgstr "Henüz oluşturulmuş değil."
+
+msgid "Note that if you want to add ads later, you will have to publish the app again."
+msgstr "Daha sonra reklam eklemek isterseniz, uygulamayı yeniden yayınlamak zorunda kalacak unutmayın."
+
+msgid "Note: we recommand to install under the web user to maintain file & folders permissions, but if this is not possible at all you can install it under the root user."
+msgstr "Not: web kullanıcı altında dosya ve klasörleri izinleri korumak için yüklemek için recommand, ama eğer bu mümkün değilse root kullanıcısı altında yükleyebilirsiniz."
+
+msgid "Nwicode - Backoffice"
+msgstr "Sibirya - İdari Büro"
+
+msgid "Offline"
+msgstr "Çevrimdışı"
+
+msgid "OptiPNG:"
+msgstr "OptiPNG:"
+
+msgid "Optional binaries"
+msgstr "İsteğe bağlı ikili"
+
+# GMT 1558094536.0058
+msgctxt "backoffice_application"
+msgid "Options"
+msgstr "Seçenekleri"
+
+msgid "Otherwise install it manually, from your panel, or directly from your ssh access."
+msgstr "Aksi takdirde el ile yükleyin, panel, ya da doğrudan ssh erişimi."
+
+msgid "Overview - WebApp (var/apps/browser, overview & webapp cache)"
+msgstr "(Var/apps/Tarayıcı, Genel Bakış & web önbellek)genel bakış - Web"
+
+msgid "PHP SQLite3:"
+msgstr "PHP SQLite3:"
+
+msgid "PHP version %s:"
+msgstr "PHP sürüm %s:"
+
+msgid "PNGQuant:"
+msgstr "PNGQuant:"
+
+msgid "Package Name"
+msgstr "Paket Adı"
+
+# GMT 1558094535.9542
+msgid "Password"
+msgstr "Şifre"
+
+msgctxt "cabride"
+msgid "Payments"
+msgstr "Ödemeler"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgctxt "cabride"
+msgid "Photo"
+msgstr "Fotoğraf"
+
+msgctxt "cabride"
+msgid "Pickup radius"
+msgstr "Pickup radius"
+
+msgid "Plans"
+msgstr "Planları"
+
+msgid "Please create the API keys to enable this feature."
+msgstr "Lütfen bu özelliği etkinleştirmek için API anahtarları oluşturun."
+
+msgid "Please enter a valid URL."
+msgstr "Geçerli bir URL girin lütfen."
+
+msgid "Please enter a valid credit card number."
+msgstr "Geçerli bir kredi kartı numarası girin lütfen."
+
+msgid "Please enter a valid date (ISO)."
+msgstr "(ISO) geçerli bir tarih girin."
+
+msgid "Please enter a valid date."
+msgstr "Geçerli bir tarih girin."
+
+msgid "Please enter a valid email address."
+msgstr "Geçerli bir e-posta adresi giriniz."
+
+msgid "Please enter a valid number."
+msgstr "Geçerli bir sayı giriniz."
+
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr "Uzun {0} ve {1} karakter arasında bir değer girin."
+
+msgid "Please enter a value between {0} and {1}."
+msgstr "{0} ve {1} arasında bir değer giriniz."
+
+msgid "Please enter a value greater than or equal to {0}."
+msgstr "Daha büyük ya da {0} eşit bir değer girin."
+
+msgid "Please enter a value less than or equal to {0}."
+msgstr "Daha veya {0} eşit bir değer girin."
+
+msgid "Please enter at least {0} characters."
+msgstr "{0} en azından karakter girin lütfen."
+
+msgid "Please enter no more than {0} characters."
+msgstr "{0} karakterden fazla girin lütfen."
+
+msgid "Please enter only digits."
+msgstr "Sadece rakam giriniz."
+
+msgid "Please enter the same value again."
+msgstr "Lütfen tekrar aynı değeri girin."
+
+msgid "Please fix this field."
+msgstr "Lütfen bu alanı düzeltin."
+
+msgid "Portuguese"
+msgstr "Portekizce"
+
+msgid "Previewer"
+msgstr "Önizleme"
+
+msgid "Previews"
+msgstr "Önizleme"
+
+msgid "Privacy policy URL"
+msgstr "Gizlilik Politikası URL"
+
+msgid "Production"
+msgstr "Üretim"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Promote"
+msgstr "Teşvik"
+
+# GMT 1558094535.9588
+msgctxt "backoffice_application"
+msgid "Protected App store connect e-mail"
+msgstr "Korumalı App store connect e-posta"
+
+msgid "Publication"
+msgstr "Yayın"
+
+# GMT 1558094535.9451
+msgctxt "backoffice_application"
+msgid "Publication settings"
+msgstr "Yayın ayarları"
+
+msgid "Publish under our account"
+msgstr "Hesabımıza altında yayınlamak"
+
+msgid "Push"
+msgstr "İtin"
+
+msgid "Push messages:"
+msgstr "Push mesajları:"
+
+msgid "Push notifications"
+msgstr "Push bildirimleri"
+
+msgid "Queued"
+msgstr "Sıraya"
+
+msgid "REDUCE"
+msgstr "AZALTMAK"
+
+msgid "Read"
+msgstr "Oku"
+
+msgid "Realtime Chat"
+msgstr "Gerçek Zamanlı Sohbet"
+
+msgid "Rebuild"
+msgstr "Yeniden"
+
+# GMT 1558094535.9397
+msgctxt "backoffice_application"
+msgid "Remaining builds"
+msgstr "Kalan yapılar"
+
+msgid "Remove locks"
+msgstr "Kilitleri kaldırın"
+
+msgid "Remove this step"
+msgstr "Bu adım Kaldır"
+
+msgid "Request APK generation"
+msgstr "İstek MUAYENE nesil"
+
+msgid "Request a publication"
+msgstr "Bir yayın isteği"
+
+msgid "Required extensions"
+msgstr "Gerekli uzantıları"
+
+msgctxt "cabride"
+msgid "Rides"
+msgstr "Sürmek"
+
+msgid "Right"
+msgstr "Doğru"
+
+msgid "Roles"
+msgstr "Roller"
+
+msgid "Running"
+msgstr "Çalışan"
+
+msgid "Russian"
+msgstr "Rus"
+
+msgid "Sales"
+msgstr "Satış"
+
+msgid "Satispay"
+msgstr "Satispay"
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgctxt "backoffice_application"
+msgid "Save credentials"
+msgstr "Kimlik bilgilerini kaydetmek"
+
+msgid "Save credentials & settings"
+msgstr "Kimlik bilgileri ve Ayarları kaydet"
+
+msgid "Search"
+msgstr "Arama"
+
+msgctxt "cabride"
+msgid "Search ..."
+msgstr "Arama ..."
+
+msgid "Secondary category"
+msgstr "İkincil kategori"
+
+msgid "Send"
+msgstr "Gönder"
+
+msgid "Send request"
+msgstr "İstek gönder"
+
+msgid "Send your favicon"
+msgstr "Favicon gönder"
+
+msgid "Send your logo"
+msgstr "Logo gönder"
+
+msgid "Service APK generator"
+msgstr "Hizmet kuru temizleme Jeneratör"
+
+# GMT 1558094536.0292
+msgid "Service notes"
+msgstr "Servis notları"
+
+msgid "Service status / load"
+msgstr "Hizmet durumu / yük"
+
+msgid "Services"
+msgstr "Hizmetleri"
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgid "Show applications removed from the editor."
+msgstr "Editör kaldırıldı uygulamaları göster."
+
+msgid "Show more"
+msgstr "Daha fazla göster"
+
+msgid "Show the applications waiting for publication only."
+msgstr "Yayın için sadece bekleme uygulamaları göster."
+
+msgid "Sidebar background"
+msgstr "Kenar Çubuğu arka plan"
+
+msgid "Sign up"
+msgstr "Kaydol"
+
+msgid "Simplified Chinese"
+msgstr "Basitleştirilmiş Çince"
+
+msgid "Size on disk"
+msgstr "Diskteki boyutu"
+
+msgid "Source type:"
+msgstr "Kaynak türü:"
+
+msgid "Sources"
+msgstr "Kaynakları"
+
+msgid "Spanish"
+msgstr "İspanyolca"
+
+msgid "Spanish_MX"
+msgstr "Spanish_MX"
+
+msgid "Split Ad revenue (percent for you)"
+msgstr "Senin için bölünmüş Reklam gelirleri (yüzde)"
+
+msgid "Start date must be lower than end date."
+msgstr "Başlangıç tarihi bitiş tarihi daha düşük olmalıdır."
+
+msgid "Statistics"
+msgstr "İstatistikler"
+
+msgid "Status"
+msgstr "Durumu"
+
+msgid "Step menu background"
+msgstr "Menü arka plan adım"
+
+msgid "Step placement (optional)"
+msgstr "Step yerleştirme (isteğe bağlı)"
+
+msgid "Step text"
+msgstr "Step Yazısı Text"
+
+msgid "Step title"
+msgstr "Step Başlığı"
+
+msgid "Store App ID"
+msgstr "Mağaza Uygulama KİMLİĞİ"
+
+msgid "Store Password"
+msgstr "Mağaza Parola"
+
+msgid "Store URL"
+msgstr "Mağaza URL"
+
+msgid "Stores Info"
+msgstr "Mağaza Bilgileri"
+
+msgid "Subscriptions"
+msgstr "Abonelikleri"
+
+msgid "Success"
+msgstr "Başarı"
+
+msgid "Support"
+msgstr "Destek"
+
+msgid "Swedish"
+msgstr "İsveç"
+
+msgid "System Diagnostic"
+msgstr "Sistem Tanılama"
+
+msgid "T&C's"
+msgstr "T&C"
+
+msgid "Taxes"
+msgstr "Vergi"
+
+# GMT 1558094535.9618
+msgctxt "backoffice_application"
+msgid "Team name"
+msgstr "Takım adı"
+
+msgid "Temp (var/tmp, application sources & apk)"
+msgstr "(Var/tmp, uygulama kaynakları ve muayene)Temp"
+
+msgid "Templates"
+msgstr "Şablonları"
+
+msgid "Terms & Conditions"
+msgstr "Şartlar Ve Koşullar"
+
+msgid "Text Color"
+msgstr "Metin rengi"
+
+msgid "Text Color - Active"
+msgstr "Metin Rengi - Aktif"
+
+msgid "Text Color - Hover"
+msgstr "Metin Rengi - Hover"
+
+msgid "Thai"
+msgstr "Tay"
+
+msgid "The PHP executable guessed path <b>'%s'</b> may be incorrect, please double check for it."
+msgstr "<B>'%PHP yürütülebilir tahmin yolu</b> yanlış, bunun için çift kontrol ediniz."
+
+msgid "This application is visible on the front"
+msgstr "Bu uygulama ön görülebilir"
+
+msgid "This field is required."
+msgstr "Bu alan gereklidir."
+
+msgid "Titles"
+msgstr "Başlıklar"
+
+msgid "Tools"
+msgstr "Araçlar"
+
+msgid "Top"
+msgstr "Üst"
+
+msgid "Top installs"
+msgstr "Üstüne yükler"
+
+msgid "Top visits"
+msgstr "Üst ziyaretleri"
+
+msgid "Total installs"
+msgstr "Toplam yükler"
+
+msgid "Total usage:"
+msgstr "Toplam kullanım:"
+
+msgid "Total visits"
+msgstr "Toplam ziyaret"
+
+msgid "Tour"
+msgstr "Tur"
+
+msgid "Tour Edition"
+msgstr "Tur Edition"
+
+msgid "Traditional Chinese"
+msgstr "Geleneksel Çin"
+
+msgid "Translations"
+msgstr "Çevirileri"
+
+msgid "Turkish"
+msgstr "Türkçe"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "URL Key"
+msgstr "URL Anahtar"
+
+msgid "Use Owner AdMob"
+msgstr "Kullanım Sahibi Almasıyla"
+
+msgid "User Information"
+msgstr "Kullanıcı Bilgileri"
+
+msgid "User Styler"
+msgstr "Kullanıcı Stili"
+
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+msgid "Users"
+msgstr "Kullanıcılar"
+
+msgctxt "cabride"
+msgid "Vehicle model"
+msgstr "Araç modeli"
+
+msgctxt "cabride"
+msgid "Vehicle type"
+msgstr "Araç tipi"
+
+msgctxt "cabride"
+msgid "Vehicle types"
+msgstr "Araç Tipleri"
+
+msgid "Version"
+msgstr "Sürüm"
+
+msgid "Vietnamese"
+msgstr "Vietnam"
+
+msgid "Visits"
+msgstr "Ziyaretler"
+
+msgid "Web space"
+msgstr "Web alanı"
+
+msgid "White Label"
+msgstr "Beyaz Etiket"
+
+msgid "Whitelabels"
+msgstr "Whitelabels"
+
+# GMT 1558094536.0074
+msgctxt "backoffice_application"
+msgid "With ads functionality"
+msgstr "Reklamlar işlevselliği ile"
+
+# GMT 1558094536.0106
+msgctxt "backoffice_application"
+msgid "With background audio playing"
+msgstr "Arka plan ses ile oynuyor"
+
+msgid "Xcode 9.2"
+msgstr "9.2 boru"
+
+msgctxt "cabride"
+msgid "Yes, Delete"
+msgstr "Evet, Sil"
+
+msgid "Yes, Delete!"
+msgstr "Evet, Sil!"
+
+msgid ""
+"You are about to clean all the cron lock files !\n"
+"Are you sure ?"
+msgstr ""
+"Temiz olduğunuz tüm cron kilit dosyaları .\n"
+"Emin misin ?"
+
+msgid ""
+"You are about to clean all your log files !\n"
+"Are you sure ?"
+msgstr ""
+"Tüm temizlik için günlük dosyaları .\n"
+"Emin misin ?"
+
+msgid ""
+"You are about to wipe all your temporary files, this includes the generated sources & apk builds !\n"
+"Are you sure ?"
+msgstr ""
+"Tüm geçici dosyaları silmek üzere olduğunuz bu oluşturulan kaynakları ve muayene yapılar içerir .\n"
+"Emin misin ?"
+
+# GMT 1558094535.9436
+msgctxt "backoffice_application"
+msgid "You can change your license in <b>%s > %s</b>"
+msgstr "<B>%s > %s</b>ehliyetinizi değiştirebilirsiniz"
+
+msgid "You can upload a pem certificate only."
+msgstr "Sadece pem sertifika yükleyebilirsiniz."
+
+msgid "You can upload a png only (.png)."
+msgstr "Sadece bir png upload (yükleyebilirsiniz.png)."
+
+msgid "You can upload a zip archive only."
+msgstr "Sadece bir zıp arşivi yükleyebilirsiniz."
+
+msgid "You can upload an icon only (.ico and .png)."
+msgstr "Sadece bir simge upload (yükleyebilirsiniz.ıco ve .png)."
+
+msgid "You can upload an image only (.jpg, .jpeg, .gif and .png)."
+msgstr "Sadece bir resim yükleme (.jpg, .jpeg .gif ve .png)."
+
+msgid "You can't upload more than one file at a time."
+msgstr "Bir kerede birden fazla dosya yükleyebilirsiniz."
+
+msgid "You cannot have multiple sessions to manage apps, so the session for this app is closed. This page is about to be reloaded."
+msgstr "Bu uygulama kapalı olduğu için uygulamalar, oturumu yönetmek için birden çok oturum olamaz. Bu sayfa tekrar olmak üzere."
+
+msgid "You current working environment is"
+msgstr "Mevcut çalışma ortamıdır"
+
+msgid "You don't have any applications yet"
+msgstr "Henüz herhangi bir uygulama yok"
+
+msgid "You have no new messages."
+msgstr "Hiç yeni mesajınız yok."
+
+msgid "You have to chose a start and an end date."
+msgstr "Başlangıç ve bitiş tarihini seçti."
+
+msgid "You must agree our Terms of Service"
+msgstr "Hizmet şartlarımızı kabul etmelisiniz"
+
+msgid "You must upgrade Java to 1.8"
+msgstr "1.8 Java yükseltmelisiniz"
+
+msgid "Your APK is being generated. Please come back in a few minutes."
+msgstr "MUAYENE sizin oluşturuluyor. Birkaç dakika sonra gelin lütfen."
+
+msgid "Your build should be ready"
+msgstr "Yapı hazır olmalıdır"
+
+msgid "Your customization has been applied to your white label panel."
+msgstr "Özelleştirme beyaz etiket paneli uygulandı."
+
+msgid "[APK]"
+msgstr "[Kuru temizleme]"
+
+msgid "[Global]"
+msgstr "[Küresel]"
+
+msgid "[Nwicode_Media] optimizing media %s"
+msgstr "[Nwicode_Media] optimize medya %s"
+
+msgid "[Sources]"
+msgstr "[Kaynaklar]"
+
+# GMT 1558094535.9496
+msgctxt "backoffice_application"
+msgid "a 2FA/2SV protected account, I will enter the granted account below"
+msgstr "2FA/2SV korumalı bir hesap, aşağıda verilen hesap gireceğim"
+
+# GMT 1558094535.9512
+msgctxt "backoffice_application"
+msgid "a 2FA/2SV protected account, which is granted to %s"
+msgstr "%verilen 2FA/2SV korumalı bir hesap, s"
+
+# GMT 1558094535.9481
+msgctxt "backoffice_application"
+msgid "an account without 2FA/2SV"
+msgstr "2SV hesabı olmadan 2FA/"
+
+msgid "be careful or set it back to"
+msgstr "dikkatli olun ya da ayarlamak için"
+
+msgid "development"
+msgstr "Geliştirme"
+
+msgid "e.g: On %s"
+msgstr "e.g: %s"
+
+msgid "iOS 9+"
+msgstr "9 iOS+"
+
+msgid "iPhone"
+msgstr "iPhone"
+
+msgid "iPhone (No Ads)"
+msgstr "iPhone (Reklamlar)"
+
+# GMT 1558094536.017
+msgctxt "backoffice_application"
+msgid "idle"
+msgstr "boşta"
+
+msgid "is updated once a day"
+msgstr "bir kez bir gün güncellenir"
+
+msgid "text/html; charset=utf-8"
+msgstr "text/html; charset=utf-8"
+
+msgid "to"
+msgstr "için"
+
+msgid "values are refreshed once a day only!"
+msgstr "değerleri günde bir kez sadece bir yenilenir."
+
+msgid "width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"
+msgstr "yükseklik genişlik=cihaz genişliği, yüksekliği=device-ilk-scale=1.0, maximum-scale=1.0=minimum ölçekli, kullanıcı değiştiğinde=0"
+
+msgid "Привет"
+msgstr "Привет"

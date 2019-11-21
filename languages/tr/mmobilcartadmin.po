@@ -1,0 +1,418 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-01-21T07:11:22+03:00\n"
+"PO-Revision-Date: 2019-01-21T07:11:22+03:00\n"
+"Language: \n"
+
+msgid "%s - Customer Service"
+msgstr "%s - Müşteri Hizmetleri"
+
+msgid ""
+"Add format\n"
+"Add pictures"
+msgstr ""
+"Ekle biçim \n"
+"Resim Ekle"
+
+msgid "Add new choice"
+msgstr "Yeni seçim ekleyin"
+
+msgid "Add new option"
+msgstr "Yeni seçenek ekleyin"
+
+msgid "Add new product"
+msgstr "Yeni ürün eklemek"
+
+msgid "An error occurred during the process. Please try again later."
+msgstr "Bir hata işlemi sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while saving. Please try again later."
+msgstr "Kaydedilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "Birthday"
+msgstr "Doğum günü"
+
+msgid "Categories"
+msgstr "Kategori"
+
+msgid "Choice"
+msgstr "Seçim"
+
+msgid ""
+"Choice\n"
+"Orders\""
+msgstr ""
+"Seçim \n"
+"Emir\""
+
+msgid "Code"
+msgstr "Kod"
+
+msgid "Current version"
+msgstr "Güncel sürüm"
+
+msgid "Customer"
+msgstr "Müşteri"
+
+msgid "Customer Carts"
+msgstr "Müşteri Arabaları"
+
+msgid "Customer cart"
+msgstr "Müşteri sepeti"
+
+msgid "Customers"
+msgstr "Müşteriler"
+
+msgid "Dashboard"
+msgstr "Pano"
+
+msgid "Data successfully saved"
+msgstr "Veri başarıyla kaydedildi"
+
+msgid "Date`"
+msgstr "Tarih`"
+
+msgid "Deductable"
+msgstr "İndirilebilir"
+
+msgid "Delete selected categories"
+msgstr "Sil seçili kategoriler"
+
+msgid "Delete selected products"
+msgstr "Sil seçili ürünleri"
+
+msgid "Delivery method"
+msgstr "Teslimat yöntemi"
+
+msgid "Description:"
+msgstr "Açıklama:"
+
+msgid "Discount"
+msgstr "İndirim"
+
+msgid "Discounts"
+msgstr "İndirimler"
+
+msgid "Done order"
+msgstr "Yapılan sipariş"
+
+msgid "Email"
+msgstr "E-posta"
+
+msgid "Enabled"
+msgstr "etkin"
+
+msgid "Exit to Editor"
+msgstr "Editöre çıkış"
+
+msgid "First"
+msgstr "İlk"
+
+msgid "Firstname"
+msgstr "Ad"
+
+msgid "Fixed price"
+msgstr "Sabit fiyat"
+
+msgid "Format"
+msgstr "Biçim"
+
+msgid "Formats"
+msgstr "Biçimleri"
+
+msgid ""
+"From module main settings\n"
+"Price type:\""
+msgstr ""
+"Modülü ana ayarları \n"
+"Fiyat tipi:\""
+
+msgid "Image"
+msgstr "Görüntü"
+
+msgid "In cart"
+msgstr "Sepeti"
+
+msgid "Invert selection"
+msgstr "Seçimi tersine çevir"
+
+msgid "Is hidden"
+msgstr "Gizli"
+
+msgid "Label"
+msgstr "Etiket"
+
+msgid "Last"
+msgstr "Son"
+
+msgid "Last 10 customers registered"
+msgstr "Son 10 müşteriler kayıtlı"
+
+msgid "Last 10 orders"
+msgstr "Son 10 emir"
+
+msgid "Lastname"
+msgstr "Soyadı"
+
+msgid "Min. amount"
+msgstr "Min. miktar"
+
+msgid "Missing categories."
+msgstr "Eksik kategoriler."
+
+msgid "Mmobilcartadmin"
+msgstr "Mmobilcartadmin"
+
+msgid "More Info"
+msgstr "Daha Fazla Bilgi"
+
+msgid ""
+"Multiselect option\n"
+"No"
+msgstr ""
+"Çoklu seçim seçeneği \n"
+"Hayır"
+
+msgid "Name"
+msgstr "Adı"
+
+msgid ""
+"Name is undefined\n"
+"Product list\""
+msgstr ""
+"Adı tanımlanmamış \n"
+"Ürün listesi\""
+
+msgid "New users today"
+msgstr "Yeni kullanıcılar bugün"
+
+msgid "Next"
+msgstr "Sonraki"
+
+msgid "No"
+msgstr "HAYIR"
+
+msgid "No data available in table"
+msgstr "Tabloda veri mevcut değil"
+
+msgid "No entries to show"
+msgstr "Hayır girdileri göstermek için"
+
+msgid "Number"
+msgstr "Numarası"
+
+msgid "Online"
+msgstr "çevrimiçi"
+
+msgid "Option"
+msgstr "Seçenek"
+
+msgid ""
+"Optional\n"
+"Mandatory"
+msgstr ""
+"İsteğe bağlı \n"
+"Zorunlu"
+
+msgid "Order %s cancelled"
+msgstr "Sipariş %s iptal"
+
+msgid "Order date`"
+msgstr "Sipariş tarihi`"
+
+msgid "Order successfully saved"
+msgstr "Sipariş başarıyla kaydedildi"
+
+msgid "Out in stock"
+msgstr "Stok Out"
+
+msgid "Paid summ"
+msgstr "Para summ"
+
+msgid "Payment method"
+msgstr "Ödeme yöntemi"
+
+msgid "Payment orders"
+msgstr "Ödeme emirleri"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Please fill in the following fields:"
+msgstr "Aşağıdaki alanları doldurun:"
+
+msgid "Previous"
+msgstr "Önceki"
+
+msgid "Price"
+msgstr "Fiyat"
+
+msgid "Product SKU"
+msgstr "Ürün STB"
+
+msgid ""
+"Product categories\n"
+"Product stikers"
+msgstr ""
+"Ürün kategorileri \n"
+"Ürün stikers"
+
+msgid "Product choices"
+msgstr "Ürün seçenekleri"
+
+msgid "Product choices list"
+msgstr "Ürün seçenek listesi"
+
+msgid "Product formats"
+msgstr "Ürün biçimleri"
+
+msgid ""
+"Product item note field:\n"
+"Hidden"
+msgstr ""
+"Ürün madde not alan: \n"
+"Gizli"
+
+msgid ""
+"Product model\n"
+"Product SKU:\""
+msgstr ""
+"Ürün modeli \n"
+"Ürün STB:\""
+
+msgid ""
+"Product name\n"
+"Product model:\""
+msgstr ""
+"Ürün Adı \n"
+"Ürün modeli:\""
+
+msgid "Product name:"
+msgstr "Ürün Adı:"
+
+msgid "Product options"
+msgstr "Ürün seçenekleri"
+
+msgid "Product options list"
+msgstr "Ürün seçenekleri listesi"
+
+msgid "Product with Special"
+msgstr "Özel ürün"
+
+msgid "Products"
+msgstr "Ürünleri"
+
+msgid "Qty"
+msgstr "Miktar"
+
+msgid "Quantity"
+msgstr "Miktar"
+
+msgid "Quantity:"
+msgstr "Miktar:"
+
+msgid "Required"
+msgstr "Gerekli"
+
+msgid "Search"
+msgstr "Arama"
+
+msgid "Select ALL"
+msgstr "TÜMÜNÜ seç"
+
+msgid "Show hidden options"
+msgstr "Gizli seçeneklerini göster"
+
+msgid "Showing page _PAGE_ of _PAGES_"
+msgstr "_PAGES_ gösteren sayfa _PAGE_"
+
+msgid "Sort Order"
+msgstr "Sıralama düzeni"
+
+msgid "Sort order"
+msgstr "Sıralama düzeni"
+
+msgid "Sort order:"
+msgstr "Sıralama:"
+
+msgid "Special price"
+msgstr "Özel fiyat"
+
+msgid "Status"
+msgstr "Durumu"
+
+msgid "Stores"
+msgstr "Mağaza"
+
+msgid "Summ"
+msgstr "Summ"
+
+msgid "Tax:"
+msgstr "Vergi:"
+
+msgid "This is a deprecated mechanism. We recommend  use options with a multiselect type. Choices mechanism will soon be removed from MobilCart module."
+msgstr "Bu artık bir mekanizmadır. Görünüyor bir tür ile kullanım seçenekleri öneririz. Seçimler mekanizma yakında MobilCart modülü kaldırılacaktır."
+
+msgid "Time`"
+msgstr "Zaman`"
+
+msgid "Today orders"
+msgstr "Bugün sipariş"
+
+msgid "Total Orders"
+msgstr "Toplam siparişler"
+
+msgid "Total Products"
+msgstr "Toplam Ürünleri"
+
+msgid "Total Users"
+msgstr "Toplam Kullanıcı"
+
+msgid "Total orders"
+msgstr "Toplam siparişler"
+
+msgid "Total summ"
+msgstr "Toplam summ"
+
+msgid "Type"
+msgstr "Yazın"
+
+msgid "Unselect ALL"
+msgstr "TÜM seçimi Kaldır"
+
+msgid "Updated"
+msgstr "Güncelleme"
+
+msgid "Usable once"
+msgstr "Kullanılabilir bir kez"
+
+msgid "Use Drag&Drop for category movie."
+msgstr "Sürükle&kategori film için Bırakın."
+
+msgid "Used"
+msgstr "Kullanılan"
+
+msgid "Validity date"
+msgstr "Geçerlilik tarihi"
+
+msgid "We recommend use"
+msgstr "Kullanmanızı tavsiye ederiz"
+
+msgid "with Price"
+msgstr "Fiyat"
+
+msgid "with Qty"
+msgstr "Miktar ile"
+
+msgid "without taxes"
+msgstr "vergiler olmadan"
+
+msgid "without taxes, use if greater than zero"
+msgstr "eğer sıfırdan büyük ise vergi olmadan kullanın"

@@ -1,0 +1,3033 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-06T23:02:56+03:00\n"
+"PO-Revision-Date: 2019-06-06T23:02:56+03:00\n"
+"Language: \n"
+
+msgid "%s / Month"
+msgstr "% / Ay s"
+
+msgid "%s / Year"
+msgstr "%s / Yıl"
+
+msgid "%s An unknown error occurred, please try again later."
+msgstr "%s Bilinmeyen bir hata oluştu, lütfen daha sonra tekrar deneyin."
+
+msgid "%s Image"
+msgstr "%Resim s"
+
+msgid "%s Images"
+msgstr "%Görüntüleri s"
+
+msgid "%s ago"
+msgstr "%s önce"
+
+msgid "%s, No params sent."
+msgstr "%s, parametre gönderilmedi."
+
+msgid "(DEMO)"
+msgstr "(DEMO)"
+
+msgid "10 seconds"
+msgstr "10 saniye"
+
+msgid "15 seconds"
+msgstr "15 saniye"
+
+msgid "20 seconds"
+msgstr "20 saniye"
+
+msgid "2Checkout"
+msgstr "2Checkout"
+
+msgid "30 seconds"
+msgstr "30 saniye"
+
+msgid "404, page not found"
+msgstr "404, sayfa bulunamadı"
+
+msgid "A step requires at least a title and a text."
+msgstr "Bir adım, en azından bir başlık ve bir metin gerektirir."
+
+msgid "API"
+msgstr "API"
+
+msgid "APIs"
+msgstr "API"
+
+msgid "APK Generator Service"
+msgstr "Kuru temizleme Jeneratör Servisi"
+
+msgid "APK Generator advanced settings"
+msgstr "Kuru temizleme Jeneratör gelişmiş ayarlar"
+
+msgid "APK Generator for builds from the Editor (Local or Service)"
+msgstr "İçin Kuru Temizleme Jeneratör (Yerel veya Hizmet)Editör oluşturur"
+
+msgid "Access Management"
+msgstr "Erişim yönetimi"
+
+msgid "Account"
+msgstr "Hesap"
+
+msgid "Accounts"
+msgstr "Hesapları"
+
+msgid "Acl"
+msgstr "Acl"
+
+msgid "Actions"
+msgstr "Eylemler"
+
+msgid "Activate"
+msgstr "Aktive et"
+
+msgid "Activity"
+msgstr "Etkinliği"
+
+msgid "AdMob Banner ID"
+msgstr "Almasıyla Banner KİMLİĞİ"
+
+msgid "AdMob Interstitial ID"
+msgstr "Almasıyla İnterstisyel KİMLİĞİ"
+
+msgid "Add"
+msgstr "Ekle"
+
+msgid "Add Image"
+msgstr "Görsel ekle"
+
+msgid "Add a"
+msgstr "Ekleyin"
+
+msgid "Add a page"
+msgstr "Bir sayfa Ekle"
+
+msgid "Add a picture"
+msgstr "Resim ekle"
+
+msgid "Add content"
+msgstr "İçerik ekle"
+
+msgid "Add extension"
+msgstr "Uzantı Ekle"
+
+msgid "Add feature"
+msgstr "Özellik ekle"
+
+msgid "Add image"
+msgstr "Resim Ekle"
+
+msgid "Add new upload extensions."
+msgstr "Yeni upload uzantıları ekleyin."
+
+msgid "Address"
+msgstr "Adres"
+
+msgid "Address (more)"
+msgstr "Adres (daha fazla)"
+
+msgid "Addresses"
+msgstr "Adresleri"
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Admin panel type"
+msgstr "Admin panel türü"
+
+msgid "Admob Banner ID"
+msgstr "Admob Banner Kimliği"
+
+msgid "Admob Interstitial ID"
+msgstr "Admob Interstitial Kimliği"
+
+msgid "Advanced options"
+msgstr "Gelişmiş ayarlar"
+
+msgid "After validating, you will be redirected to the 2Checkout checkout page."
+msgstr "Doğrulama işleminden sonra 2Checkout ödeme sayfasına yönlendirilirsiniz."
+
+msgid "After validating, you will be redirected to the PayPal checkout page."
+msgstr "Doğrulama işleminden sonra PayPal ödeme sayfasına yönlendirileceksiniz."
+
+msgid "Alert: The SSL Certificate %s automatic renewal failed."
+msgstr "Uyarı: SSL Sertifika %s otomatik yenileme başarısız oldu."
+
+msgid "Alignment"
+msgstr "Hizalama"
+
+msgid "All data"
+msgstr "Tüm veri"
+
+msgid "All items"
+msgstr "Tüm öğeleri"
+
+msgid "All user list"
+msgstr "Tüm kullanıcı listesi"
+
+msgid "Allow users to export features"
+msgstr "Kullanıcı özellikleri vermek için izin ver"
+
+msgid "Allow users to import features"
+msgstr "Kullanıcı özellikleri almak için izin verir"
+
+msgid "Allowed upload extensions."
+msgstr "İzin yükle uzantıları."
+
+msgid "An error occurred during process. Please try again later."
+msgstr "Bir hata işlemi sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred during process.<br />Please try again later."
+msgstr "İşlem sırasında bir hata oluştu. <br /> Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred during the process. Please try again later."
+msgstr "Bir hata işlemi sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while editing your invoice : can't find order"
+msgstr "Faturanızı düzenlerken bir hata oluştu: Sipariş bulunamıyor"
+
+msgid "An error occurred while loading places."
+msgstr "Yerler yüklenirken bir hata oluştu."
+
+msgid "An error occurred while loading. Please try again later."
+msgstr "Yüklenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while loading. Please, try again later."
+msgstr "Yüklenirken bir hata oluştu. Daha sonra tekrar deneyin."
+
+msgid "An error occurred while processing your payment."
+msgstr "Ödemeniz gerçekleştirilirken bir hata oluştu."
+
+msgid "An error occurred while saving"
+msgstr "Kaydederken bir hata oluştu"
+
+msgid "An error occurred while saving your account. Please try again later."
+msgstr "Hesabınızı kaydederken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while saving your picture. Please try again later."
+msgstr "Resminizi kaydederken bir hata oluştu. Lütfen daha sonra tekrar deneyiniz."
+
+msgid "An error occurred while saving your picture. Please try againg later."
+msgstr "Resminiz kaydedilirken bir hata oluştu. Daha sonra tekrar deneyiniz."
+
+msgid "An error occurred while saving. Please try again later."
+msgstr "Kaydedilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An error occurred while saving. Please, try again later."
+msgstr "Kaydedilirken bir hata oluştu. Daha sonra tekrar deneyin."
+
+msgid "An error occurred while uploading your file. Please, try again later."
+msgstr "Dosya yüklenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+
+msgid "An unexpected error occurred while calculating the route."
+msgstr "Rota hesaplanırken beklenmeyen bir hata oluştu."
+
+msgid "An unknown error occurred while creating the push notification."
+msgstr "Push bildirimi oluşturulurken bilinmeyen bir hata oluştu."
+
+msgid "An unknown error occurred while issue-ing your certificate."
+msgstr "Sertifikanız verilirken bilinmeyen bir hata oluştu."
+
+msgid "An unknown error occurred while loading the page."
+msgstr "Sayfa yüklenirken bilinmeyen bir hata oluştu."
+
+msgid "Android APK"
+msgstr "Android MUAYENE"
+
+msgid "Android SDK is not installed"
+msgstr "Android SDK yüklü değil"
+
+msgid "Android Source"
+msgstr "Android Kaynak"
+
+msgid "Android Spinner"
+msgstr "Android spinner"
+
+msgid "Android base Package Name can't be empty."
+msgstr "Android base paket adı boş bırakılamaz."
+
+msgid "Android base Package Name must contain only letters, dots & minus with at least two dots.<br />Example: com.mydomain.admin"
+msgstr "Android base paket adı en az iki nokta ile sadece harf, nokta ve eksi içermelidir. <br /> Örnek: com.mydomain.admin"
+
+msgid "Android base Package Name must contain only letters, dots & minus."
+msgstr "Android temel Paket Adı sadece harf, nokta ve eksi içermelidir."
+
+msgid "Android only"
+msgstr "Yalnızca Android"
+
+msgid "Answers"
+msgstr "Cevapları"
+
+msgid "App"
+msgstr "App"
+
+msgid "App analytics"
+msgstr "Uygulama analizleri"
+
+msgid "App id"
+msgstr "Uygulama KİMLİĞİ"
+
+msgid "Appearance"
+msgstr "Görünüm"
+
+msgid "Apple Development teams"
+msgstr "Apple Geliştirme ekipleri"
+
+msgid "Application"
+msgstr "Uygulama"
+
+msgid "Application Name"
+msgstr "Uygulama adı"
+
+msgid "Application base Bundle ID (iOS)"
+msgstr "Uygulama temel Paket İsmi (iOS)"
+
+msgid "Application base Package Name (Android)"
+msgstr "Uygulama temel Paket İsmi (Android)"
+
+msgid "Applications"
+msgstr "Uygulamalar"
+
+msgid "Are you sure you want to delete this admin?"
+msgstr "Bu admini silmek istediğinizden emin misiniz?"
+
+msgid "Are you sure you want to delete this element?"
+msgstr "Bu öğeyi silmek istediğinizden emin misiniz?"
+
+msgid "Are you sure you want to delete this invoice?"
+msgstr "Bu faturayı iptal etmek istediğinizden emin misiniz?"
+
+msgid "Are you sure you want to delete this subscription?"
+msgstr "Bu üyeliği silmek istediğinizden emin misiniz?"
+
+msgid "Are you sure you want to remove this account?"
+msgstr "Bu hesabı silmek istediğinizden emin misiniz?"
+
+msgid "Artist"
+msgstr "Sanatçı"
+
+msgid "At least one <b>published</b> application is required in order to use global push notifications."
+msgstr "Global push bildirimlerini kullanmak için en az bir <b> yayınlanmış</b> uygulama gereklidir."
+
+msgid "At least, 1 page in the application"
+msgstr "En az 1 Sayfa uygulama"
+
+msgid "Attachment"
+msgstr "Ek"
+
+msgid "Audio"
+msgstr "Ses"
+
+msgid "Authentication failed"
+msgstr "Kimlik doğrulaması başarısız oldu"
+
+msgid "Authentication failed. Please check your email and/or your password"
+msgstr "Kimlik doğrulaması başarısız oldu. Lütfen e-posta ve/veya şifrenizi kontrol edin"
+
+msgid "Authentication failed. Please, check the username and/or the password"
+msgstr "Kimlik doğrulama başarısız oldu. Lütfen kullanıcı adını ve / veya şifreyi kontrol edin"
+
+msgid "Autocomplete & Suggestions ..."
+msgstr "Otomatik Tamamlama Ve Öneriler ..."
+
+msgid "Average cart"
+msgstr "Ortalama sepet"
+
+msgid "Average for active users"
+msgstr "Aktif kullanıcılar için ortalama"
+
+msgid "Average for all users"
+msgstr "Tüm kullanıcılar için ortalama"
+
+msgid "Back"
+msgstr "Geri"
+
+msgid "Back button icon"
+msgstr "Geri düğmesi simgesi"
+
+msgid "Background"
+msgstr "Arka plan"
+
+msgid "Background (landscape)"
+msgstr "Arkaplan (yatay)"
+
+msgid "Background (portrait)"
+msgstr "Arka plam (dikey)"
+
+msgid "Backoffice"
+msgstr "Backoffice"
+
+msgid "Bad settings can break your APK Generator, leave empty to use defaults."
+msgstr "Kötü ayarları MUAYENE Jeneratör break, varsayılan kullanmak için boş bırakın."
+
+msgid "Banner"
+msgstr "Banner"
+
+msgid "Banner & Interstitial"
+msgstr "Banner Ve İnterstisyel"
+
+msgid "Be careful you are working in"
+msgstr "Dikkat edin, çalışıyorsunuz"
+
+msgid "Bearer Token"
+msgstr "Taşıyıcı Belirteci"
+
+msgid "Before you can send push notification, you must have at least one of iOS or Android application in a published state."
+msgstr "Push bildirimi göndermeden önce, yayınlanmış bir iOS veya Android uygulamasından en az birine sahip olmanız gerekir."
+
+msgid "Booking"
+msgstr "Rezervasyon"
+
+msgid "Booking details"
+msgstr "Rezervasyon detayları"
+
+msgid "Booking::findAction An unknown error occurred, please try again later."
+msgstr "Rezervasyon : Bilinmeyen bir hata oluştu, lütfen daha sonra tekrar deneyin."
+
+msgid "Bottom"
+msgstr "Alt"
+
+msgid "Browse"
+msgstr "Gözat"
+
+msgid "Button"
+msgstr "Düğme"
+
+msgid "Button assertive"
+msgstr "İddialı düğme"
+
+msgid "Button balanced"
+msgstr "Uyumlu düğme"
+
+msgid "Button calm"
+msgstr "Sakin düğme"
+
+msgid "Button dark"
+msgstr "Koyu düğme"
+
+msgid "Button energized"
+msgstr "Buton aktive edildi."
+
+msgid "Button light"
+msgstr "Açık renk düğme"
+
+msgid "Button positive"
+msgstr "Olumlu düğme"
+
+msgid "Button royal"
+msgstr "Asil düğme (button royal)"
+
+msgid "By checking this, a search field will appear in your folder feature"
+msgstr "Bunu onaylayarak, klasör özelliğinizde bir arama alanı görünecektir."
+
+msgid "By default, popups steps try to use a smart placement. You can force this placement if needed."
+msgstr "Varsayılan olarak, pop-up adımları akıllı yerleştirme kullanmaya çalışır. Gerektiğinde bu yerleştirmeyi deneyebilirsiniz."
+
+msgid "Cache"
+msgstr "Cache"
+
+msgid "Calendar"
+msgstr "Takvim"
+
+msgid "Callback URIs"
+msgstr "Geri Arama URI"
+
+msgid "Can only be used once"
+msgstr "Yalnızca bir kez kullanılabilir"
+
+msgid "Cancel"
+msgstr "İptal"
+
+msgid "Card"
+msgstr "Kartı"
+
+msgid "Card Item"
+msgstr "Kart öğesi"
+
+msgid "Careful, someone else is working on this application."
+msgstr "Dikkat edin, başka biri bu uygulama üzerinde çalışıyor."
+
+msgid "Cart"
+msgstr "Sepeti"
+
+msgid "Catalog"
+msgstr "Katalog"
+
+msgid "Certificate is valid and SSL is reachable, valid until: %s.<br />Issuer: %s%s"
+msgstr "Sertifika geçerli ve SSL'ye erişilebilir, şu tarihe kadar geçerlidir: %s. <br />veren: %s%s"
+
+msgid "Change password"
+msgstr "Parolayı Değiştir"
+
+msgid "Change your<br /><span class='bold'>picture</span>"
+msgstr "<br /><span class='bold'>resminizi değiştirin</ span>"
+
+msgid "Changing the Application icon requires a rebuild / republication."
+msgstr "Uygulama simgesi değiştirme yeniden / bir yayınlanması gerekir."
+
+msgid "Changing this option requires you to republish your iOS application."
+msgstr "Bu seçeneği değiştirmek iOS uygulama yayımlamak gerektirir."
+
+msgid "Checkbox"
+msgstr "Onay kutusu"
+
+msgid "Checkbox off"
+msgstr "Onay kutusu kapalı"
+
+msgid "Checkbox on"
+msgstr "Onay kutusu açık"
+
+msgid "Checking Permissions"
+msgstr "Kontrol İzinleri"
+
+msgid "Choose a file to import:"
+msgstr "İçe aktamak için bir dosya seçin"
+
+msgid "Choose an object to import:"
+msgstr "İçe aktarmak için bir şey seçin."
+
+msgid "City"
+msgstr "Şehir"
+
+msgid "City:"
+msgstr "Şehir:"
+
+msgid "ClamAV is an optional anti-virus, you can enable it up below."
+msgstr "Deniztarağı isteğe bağlı bir anti-virüs, aşağıda etkinleştirin."
+
+msgid "ClamAV settings"
+msgstr "Deniztarağı ayarları"
+
+msgid "ClamAV settings have been saved."
+msgstr "Deniztarağı ayarlar kaydedildi."
+
+msgid "Click here to log-in"
+msgstr "Giriş yapmak için tıklayın"
+
+msgid "Click here to open the application"
+msgstr "Burada uygulama açmak için tıklayın"
+
+msgid "Click on"
+msgstr "Üstüne tıkla"
+
+msgid "Click on a feature to add it to the folder"
+msgstr "Klasöre eklemek için bir özelliği tıklayın"
+
+msgid "Click on a feature to add it to the folder %s"
+msgstr "% S klasörüne eklemek için bir özelliğe tıklayın"
+
+msgid "Click to import your file"
+msgstr "Dosyanızı içe aktarmak için tıklayın"
+
+msgid "Close"
+msgstr "Yakın"
+
+msgid "Close mobile display"
+msgstr "Yakın mobil ekran"
+
+msgid "CloudFlare is not supported, please use a CNAME."
+msgstr "CloudFlare desteklenmiyor, lütfen bir CNAME kullanın."
+
+msgid "CloudFlare is not supported, you must use a CNAME targeting your main domain."
+msgstr "CloudFlare desteklenmiyor, ana alan adınızı hedefleyen bir CNAME kullanmanız gerekiyor."
+
+msgid "Cms"
+msgstr "CMS"
+
+msgid "Codescan"
+msgstr "Kod tarama"
+
+msgid "Comment"
+msgstr "Yorum"
+
+msgid "Comments"
+msgstr "Yorumlar"
+
+msgid "Commerce"
+msgstr "Ticaret"
+
+msgid "Communication"
+msgstr "İletişim"
+
+msgid "Company"
+msgstr "Şirket"
+
+msgid "Coms"
+msgstr "Kom"
+
+msgid "Conditions"
+msgstr "Koşulları"
+
+msgid "Configuration partially saved"
+msgstr "Yapılandırma kısmen kurtardı"
+
+msgid "Confirm"
+msgstr "Doğrula"
+
+msgid "Confirm Password"
+msgstr "Parolayı Onaylayın"
+
+msgid "Confirm new password"
+msgstr "Yeni parolayı onaylayın"
+
+msgid "Confirmation"
+msgstr "Onaylama"
+
+msgid "Confirmation required"
+msgstr "Onay gerekiyor"
+
+msgid "Connection type"
+msgstr "Bağlantı türü"
+
+msgid "Contact"
+msgstr "İletişim"
+
+msgid "Contact successfully added to your address book"
+msgstr "Temas başarıyla adres defterinize eklendi"
+
+msgid "Contact us"
+msgstr "Bizimle iletişime geçin"
+
+msgid "Contest"
+msgstr "Yarışma"
+
+msgid "Coordinates"
+msgstr "Koordinatlar"
+
+msgid "Copy"
+msgstr "Kopyala"
+
+msgid "Copying"
+msgstr "Kopyalama"
+
+msgid "Core"
+msgstr "Çekirdek"
+
+msgid "Country"
+msgstr "Ülke"
+
+msgid "Cover"
+msgstr "Kapak"
+
+msgid "Create"
+msgstr "Oluşturun"
+
+msgid "Create / Edit a User"
+msgstr "Bir kullanıcı oluştur/düzenle"
+
+msgid "Create a new account"
+msgstr "Yeni bir hesap oluştur"
+
+msgid "Create an account"
+msgstr "Hesap oluştur"
+
+msgid "Created at"
+msgstr "Oluşturulan"
+
+msgid "Creator Email"
+msgstr "Yaratıcı E-Posta"
+
+msgid "Currency"
+msgstr "Para birimi"
+
+msgid "Current load is"
+msgstr "Mevcut yük"
+
+msgid "Current password"
+msgstr "Geçerli parola"
+
+msgid "Current status is"
+msgstr "Geçerli durum"
+
+msgid "Custom Page"
+msgstr "Özel sayfa"
+
+msgid "Customization"
+msgstr "Kişiselleştirme"
+
+msgid "Customization mode activated"
+msgstr "Özelleştirme modu aktif"
+
+msgid "Customize your app's colors"
+msgstr "Uygulamanızın renklerini kişiselleştirin"
+
+msgid "DEFAULT"
+msgstr "Varsayılan"
+
+msgid "DELETE"
+msgstr "Sil"
+
+msgid "Dashboard"
+msgstr "Pano"
+
+msgid "Data saved successfully."
+msgstr "Veri başarıyla kaydedildi."
+
+msgid "Date"
+msgstr "Tarih"
+
+msgid "Date and time"
+msgstr "Tarih ve saat"
+
+msgid "Date of birth"
+msgstr "Doğum tarihi"
+
+msgid "Date of birth:"
+msgstr "Doğum tarihi"
+
+msgid "Deactivate"
+msgstr "Deaktif et"
+
+msgid "Debug"
+msgstr "Hata ayıklama"
+
+msgid "Debug output"
+msgstr "Hata ayıklama çıktısı"
+
+msgid "Default Languages"
+msgstr "Varsayılan Dil"
+
+msgid "Default role for all new users"
+msgstr "Tüm yeni kullanıcılar için varsayılan rol"
+
+msgid "Default search distance"
+msgstr "Varsayılan arama mesafesi"
+
+msgid "Delete"
+msgstr "Sil"
+
+msgid "Delete a feature"
+msgstr "Bir özelliği silmek"
+
+msgid "Delete the Application"
+msgstr "Uygulama silmek"
+
+msgid "Delete this folder and all its subfolders?"
+msgstr "Bu klasör ve tüm alt klasörleri silinsin mi?"
+
+msgid "Delivered"
+msgstr "Teslim edildi"
+
+msgid "Delivery Cost"
+msgstr "Masrafı"
+
+msgid "Delivery method"
+msgstr "Teslimat yöntemi"
+
+msgid "Description"
+msgstr "Açıklama"
+
+msgid "Description:"
+msgstr "Açıklama:"
+
+msgid "Details"
+msgstr "Detaylar"
+
+msgid "Development"
+msgstr "Geliştirme"
+
+msgid "Dialog"
+msgstr "İletişim"
+
+msgid "Dialog background"
+msgstr "Diyalog arka planı"
+
+msgid "Dialog button"
+msgstr "İletişim düğmesine"
+
+msgid "Dialog text"
+msgstr "Diyalog metni"
+
+msgid "Discount"
+msgstr "İndirim"
+
+msgid "Discounts"
+msgstr "İndirimler"
+
+msgid "Display pictogram instead of image in map"
+msgstr "Haritadaki resim yerine piktogramı göster"
+
+msgid "Distance unit"
+msgstr "Mesafe birimi"
+
+msgid "Do not export"
+msgstr "Verme"
+
+msgid "Do you want to download all the contents now to access it when offline? If you do, we recommend you to use a WiFi connection."
+msgstr "Çevrimdışı olduğunda erişmek için tüm içeriği şimdi indirmek istiyor musunuz? Bunu yaparken WiFi bağlantısı kullanmanızı öneririz."
+
+msgid "Do you want to return to the homepage?"
+msgstr "Ana sayfaya dönmek istiyor musunuz?"
+
+msgid "Don't close the app while downloading. This may take a while."
+msgstr "İndirirken uygulamayı kapatmayın. Bu biraz zaman alabilir."
+
+msgid "Done"
+msgstr "Tamamlandı"
+
+msgid "Download APK"
+msgstr "APK İndir"
+
+msgid "Download a copy of my data"
+msgstr "Verilerimi bir kopyasını indirin"
+
+msgid "Download as zip"
+msgstr "İndir zıp"
+
+msgid "Download complete list for this metric"
+msgstr "Bu metrik için tüm listeyi indirin"
+
+msgid "Download current search as CSV"
+msgstr "CSV olarak indirme geçerli arama"
+
+msgid "Download file is not available in DEMO mode."
+msgstr "İndirme dosyası DEMO modunda kullanılamaz."
+
+msgid "Download latest APK"
+msgstr "İndir son MUAYENE"
+
+msgid "Download latest sources"
+msgstr "İndir son kaynakları"
+
+msgid "Download list of user who used this discount"
+msgstr "İndirim kullanan kullanıcıların listesini indir"
+
+msgid "Download list of user who used this loyalty card"
+msgstr "Bu sadakat kartını kullanan kullanıcının listesini indirin"
+
+msgid "Download list of user who used this scratch card"
+msgstr "Kazı kazan kullanan kullanıcıların listesini indir"
+
+msgid "Download only winner list for this scratch card"
+msgstr "Bu kazı kazan için kazananlar listesini indir"
+
+msgid "Download the APK"
+msgstr "APK indir"
+
+msgid "Download the Source code"
+msgstr "Kaynak kodu Download"
+
+msgid "Downloading..."
+msgstr "İndiriliyor"
+
+msgid "Drop your json here"
+msgstr "Burada json bırakın"
+
+msgid "EDIT"
+msgstr "Edit"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Edit an invoice for this plan"
+msgstr "Bu plan için fatura düzenle"
+
+msgid "Edit folder"
+msgstr "Klasörü düzenle"
+
+msgid "Edit step for this element"
+msgstr "Bu öğe için adımı düzenle"
+
+msgid "Editing"
+msgstr "Düzenleme"
+
+msgid "Editor"
+msgstr "Editör"
+
+msgid "Editor note: A user with a given role can only assign Self role (if the role is SELF-ASSIGNABLE) & Child roles."
+msgstr "Editörün notu: belirli bir rolü olan Bir kullanıcı (eğer rolü SELF-ATANABİLİR) & Çocuk rolleri Kendine rol atayabilirsiniz."
+
+msgid "Editor note: A user with a given role can only assign self & child roles."
+msgstr "Editörün notu: belirli bir role sahip Bir kullanıcı sadece kendi & çocuk rolleri atayabilirsiniz."
+
+msgid "Element n°"
+msgstr "n° öğesi"
+
+msgid "Email"
+msgstr "E-posta"
+
+msgid "Email address"
+msgstr "E-posta adresi"
+
+msgid "Email:"
+msgstr "Email:"
+
+msgid "Enable search in folders"
+msgstr "Klasörlerde aramaya izin ver"
+
+msgid "Enable test API ?"
+msgstr "T"
+
+msgid "End at"
+msgstr "Sonunda"
+
+msgid "End tour"
+msgstr "Turu bitir"
+
+msgid "Enter your twitter handle"
+msgstr "Kolu twitter girin"
+
+msgid "Error"
+msgstr "Hata"
+
+msgid "Error : <br/>"
+msgstr "Hata: <br/>"
+
+msgid "Error on import configuration."
+msgstr "İçe aktarma yapılandırmasında hata oluştu."
+
+msgid "Errors : <br/>"
+msgstr "Hatalar: <br/>"
+
+msgid "European <b>General Data Protection Regulation (GDPR)</b>"
+msgstr "(GDPR) Avrupa <b>Genel Veri Koruma Yönetmeliği</b>"
+
+msgid "Event"
+msgstr "Olay"
+
+msgid "Events"
+msgstr "Etkinlikler"
+
+msgid "Export / Import"
+msgstr "İhracat / İthalat"
+
+msgid "Export / Import of features is currently in beta and available only with some features."
+msgstr "Özellikleri İhracat / İthalat şu anda sadece bazı özellikleri ile beta ve kullanılabilir."
+
+msgid "Export your customers"
+msgstr "Müşterileriniz ihracat"
+
+msgid "Extension"
+msgstr "Uzantısı"
+
+msgid "Extension %s is strictly forbidden."
+msgstr "S uzantısı %kesinlikle yasaktır."
+
+msgid "Extension can't be empty."
+msgstr "Uzantısı boş."
+
+msgid "Extension not allowed, '%s' only"
+msgstr "İzin Verilmiyor uzantısı, '%s'"
+
+msgid "Extension: txt, png, jpeg, avi, etc..."
+msgstr "Uzantısı: txt, png, jpeg, avi, vb..."
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Fan Wall"
+msgstr "Takipçi duvarı"
+
+msgid "Fanwall"
+msgstr "Fanwall"
+
+msgid "Feature Analytics"
+msgstr "Analytics özelliği"
+
+msgid "Feature Top 5 visits"
+msgstr "Top 5 ziyareti öne çıkar"
+
+msgid "Features"
+msgstr "Uygulama Özellikleri"
+
+msgid "Filter metrics"
+msgstr "Metrikleri filtrele"
+
+msgid "Firewall"
+msgstr "Güvenlik duvarı"
+
+msgid "First Name"
+msgstr "İsim"
+
+msgid "First name"
+msgstr "İsim"
+
+msgid "First name / Last name"
+msgstr "İlk Adı / Soyadı"
+
+msgid "Firstname"
+msgstr "Ad"
+
+msgid "Firstname:"
+msgstr "Adi:"
+
+msgid "Folder"
+msgstr "Klasör"
+
+msgid "Folder title is required"
+msgstr "Klasör başlığı gereklidir"
+
+msgid "Folders"
+msgstr "Klasörler"
+
+msgid "Folders (v2)"
+msgstr "Klasörler (v2)"
+
+msgid "Forbidden image format"
+msgstr "Yasak resim biçimi"
+
+msgid "Force request & Upload to panel"
+msgstr "Talebi zorla & panele yükle"
+
+msgid "Forgot your password ?"
+msgstr "Şifrenizi mi unuttunuz?"
+
+msgid "Forgot your password?"
+msgstr "Parolanızı mı unuttunuz?"
+
+msgid "Forgot your password? Don't worry! Simply enter your email address and we'll send you a new one right now."
+msgstr "Şifrenizi mi unuttunuz? Merak etme! Sadece e-posta adresinizi girin ve size şimdi yeni bir tane göndereceğiz."
+
+msgid "Form"
+msgstr "Form"
+
+msgid "Form has the following errors"
+msgstr "Form aşağıdaki hatalar var"
+
+msgid "Free until"
+msgstr "Kadar ücretsiz"
+
+msgid "From:"
+msgstr "Kimden:"
+
+msgid "Front"
+msgstr "Ön"
+
+msgid "GCM settings saved."
+msgstr "HGK ayarlar kaydedilir."
+
+msgid "GRADLE extended options"
+msgstr "GRADLE seçenekleri genişletilmiş"
+
+msgid "General"
+msgstr "Genel"
+
+msgid "Generate"
+msgstr "Üret"
+
+msgid "Generate an invoice for this offline plan by using the form below."
+msgstr "Aşağıdaki formu kullanarak bu çevrimdışı plan için bir fatura oluşturun."
+
+msgid "Generate build"
+msgstr "Yapı oluşturmak"
+
+msgid "Generate sources"
+msgstr "Kaynakları oluşturmak"
+
+msgid "Global push"
+msgstr "Küresel itme"
+
+msgid "Global push notifications"
+msgstr "Global push bildirimleri"
+
+msgid "Go back"
+msgstr "Geri dön"
+
+msgid "Google Maps settings"
+msgstr "Google Maps ayarları"
+
+msgid "HH:mm a"
+msgstr "SS:dd"
+
+msgid "Hello,"
+msgstr "Merhaba,"
+
+msgid "Here is your new password:"
+msgstr "Yeni parolanız:"
+
+msgid "Hi. I just found: $1 in the $2 app."
+msgstr "Merhaba. Az önce buldum: $2 uygulamasında $1."
+
+msgid "Hide"
+msgstr "Gizle"
+
+msgid "Hide iOS status bar"
+msgstr "İOS durum çubuğunu gizle"
+
+msgid "Hint"
+msgstr "İpucu"
+
+msgid "Home"
+msgstr "Ev"
+
+msgid "Homepage"
+msgstr "Ana sayfa"
+
+msgid "Host"
+msgstr "Sunucu"
+
+msgid "Hostnames associated with this Certificate"
+msgstr "Bu sertifika ile ilişkili ana sunucu adları"
+
+msgid "How do you want to access the backoffice if you remove the only user remaining?"
+msgstr "Eğer kalan tek kullanıcı kaldırırsanız bu idari büro erişim istiyor musunuz?"
+
+msgid "I'm listening to $1 from $2 on $3 app."
+msgstr "#3 uygulamasında #1'den #2'ye dinliyorum."
+
+msgid "I'm listening to $1 on $2 app."
+msgstr "2$ uygulamasında 1$ dinliyorum .."
+
+msgid "ID"
+msgstr "Kimliği"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "IP, example: 127.0.0.1"
+msgstr "IP, örnek: 127.0.0.1"
+
+msgid "Icons size"
+msgstr "Simge boyutu"
+
+msgid "If user doesn't use AdMob, split revenue will default to 100."
+msgstr "Kullanıcı AdMob'u kullanmazsa, split geliri varsayılanı 100 olur."
+
+msgid "Image"
+msgstr "Görsel"
+
+msgid "Image not high enough, %spx minimum allowed."
+msgstr "Görüntü yeterince yüksek değildir, %sınırının asgari izin verdi."
+
+msgid "Image not large enough, %spx minimum allowed."
+msgstr "Görüntü yeterince büyük, %sınırının asgari izin verdi."
+
+msgid "Image not large enough, '%s' allowed."
+msgstr "Resim yeterince büyük değil, '%s izin."
+
+msgid "Image successfully saved"
+msgstr "Görüntü başarıyla kaydedildi"
+
+msgid "Image too high, %spx maximum allowed."
+msgstr "Görüntü çok yüksek, %sınırının en fazla miktar."
+
+msgid "Image too large, %spx maximum allowed."
+msgstr "Resim çok büyük, %sınırının en fazla miktar."
+
+msgid "Image too large, '%s' allowed."
+msgstr "Çok büyük resim, '%izin verdi."
+
+msgid "Images"
+msgstr "Görseller"
+
+msgid "Images opacity"
+msgstr "Görüntü saydamlığı"
+
+msgid "Import"
+msgstr "İçe aktar"
+
+msgid "Import a background image"
+msgstr "Bir arka plan görüntüsü alma"
+
+msgid "Import a cover image"
+msgstr "Kapak görüntüsü alma"
+
+msgid "Import a single feature."
+msgstr "Tek bir özelliği alma."
+
+msgid "Import a thumbnail"
+msgstr "Alma küçük resim"
+
+msgid "Import a thumbnail image"
+msgstr "Küçük resim alma"
+
+msgid "Import yml"
+msgstr "İthalat yml"
+
+msgid "In order to fully enjoy our features, we encourage you to use at least:.<br />"
+msgstr "Tam özellikleri zevk için, en azından kullanmak için<öneririz.br />"
+
+msgid "In order to publish your application, we need:"
+msgstr "Uygulamanıızı yayınlamak için ihtiyacımız olanlar:"
+
+msgid "In order to publish your application, we need:<br />-"
+msgstr "Uygulamanızı yayınlayabilmemiz için gerekenler:<br />-"
+
+msgid "In order to use global push notifications your app must be published."
+msgstr "Global push bildirimlerini kullanabilmeniz için uygulamanız yayınlanmış olmalıdır."
+
+msgid "Incorrect filetype."
+msgstr "Yanlış uygulama."
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Info successfully saved"
+msgstr "Bilgi başarıyla kaydedildi"
+
+msgid "Information"
+msgstr "Bilgi"
+
+msgid "Infos successfully saved"
+msgstr "Bilgileri başarıyla kaydedildi"
+
+msgid "Inherit global layout"
+msgstr "Global layout'u al"
+
+msgid "Insert a <br /><span class'bold'>cover image</span>"
+msgstr "<br /> <span class'bold '>kapak resmi</ span> ekle"
+
+msgid "Insert a <br /><span class=\"bold\">cover image</span>"
+msgstr "Bir kapak resmi <br /><span class=\"bold\">yükleyin</span>"
+
+msgid "Insert a cover image"
+msgstr "Bir kapak resmi yükleyin"
+
+msgid "Insert a picture"
+msgstr "Resim eklemek"
+
+msgid "Installer"
+msgstr "Yükleyici"
+
+msgid "Installs"
+msgstr "Yükleme"
+
+msgid "Integration"
+msgstr "Entegrasyon"
+
+msgid "Interstitial"
+msgstr "İnterstisyel"
+
+msgid "Invalid place"
+msgstr "Geçersiz yer"
+
+msgid "Invoice creation date"
+msgstr "Fatura oluşturma tarihi"
+
+msgid "Invoice payment date"
+msgstr "Fatura ödeme tarihi"
+
+msgid "Invoices"
+msgstr "Faturalar"
+
+msgid "Issuer"
+msgstr "Veren"
+
+msgid "It seems that the renewal of the following SSL Certificate %s is failing, please check in <b>Settings > Advanced > Configuration</b> for the specified certificate."
+msgstr "It seems that the renewal of the following SSL Certificate %s is failing, please check in <b>Settings > Advanced > Configuration</b> for the specified certificate."
+
+msgid "JAVA Extended options"
+msgstr "JAVA seçenekleri Genişletilmiş"
+
+msgid "Landscape"
+msgstr "Peyzaj"
+
+msgid "Last Name"
+msgstr "Soyadı"
+
+msgid "Last action"
+msgstr "Son eylem"
+
+msgid "Last error"
+msgstr "Son hata"
+
+msgid "Last login"
+msgstr "Son giriş"
+
+msgid "Last name"
+msgstr "Soyisim"
+
+msgid "Last update date"
+msgstr "Son güncelleme tarih"
+
+msgid "Lastname"
+msgstr "Soyad"
+
+msgid "Lastname:"
+msgstr "Soyad:"
+
+msgid "Layout #1"
+msgstr "Layout #1"
+
+msgid "Layout #2"
+msgstr "Layout #2"
+
+msgid "Layout #3"
+msgstr "Layout #3"
+
+msgid "Layout #4"
+msgstr "Layout #4"
+
+msgid "Layout #5"
+msgstr "Layout #5"
+
+msgid "Layout #6"
+msgstr "Layout #6"
+
+msgid "Leave blank if your web space is the current domain."
+msgstr "Mevcut domain sizin web alanınız ise boş bırakın."
+
+msgid "Left"
+msgstr "Sol"
+
+msgid "Let your users know what is locked"
+msgstr "Kullanıcılarınıza neyin kilitli olduğunu bildirin"
+
+msgid "Like"
+msgstr "Gibi"
+
+msgid "Likes"
+msgstr "Seviyor"
+
+msgid "Link"
+msgstr "Link"
+
+msgid "Links"
+msgstr "Bağlantılar"
+
+msgid "Links are now re-ordered!"
+msgstr "Bağlantılar şimdi sipariş yeniden!"
+
+msgid "List"
+msgstr "Liste"
+
+msgid "List Item"
+msgstr "Öğeleri listele"
+
+msgid "List of your invoices"
+msgstr "Faturaların listesi"
+
+msgid "Load More"
+msgstr "Yük Daha Fazla"
+
+msgid "Loading"
+msgstr "Yükleme"
+
+msgid "Loading picture"
+msgstr "Yükleme resim"
+
+msgid "Local APK Generator"
+msgstr "Yerel kuru temizleme Jeneratör"
+
+msgid "Local APK build"
+msgstr "Yerel kuru temizleme yapı"
+
+msgid "Locate"
+msgstr "Konum Bilgisi"
+
+msgid "Location"
+msgstr "Konum"
+
+msgid "Location:"
+msgstr "Lokasyon:"
+
+msgid "Location: %s"
+msgstr "Konum: %s"
+
+msgid "Log in"
+msgstr "Günlük"
+
+msgid "Log-in"
+msgstr "Girş"
+
+msgid "Log-out"
+msgstr "Log-out"
+
+msgid "Logged in as"
+msgstr "Oturum"
+
+msgid "Login to access your data"
+msgstr "Giriş verileri erişmek için"
+
+msgid "Login to your admin interface"
+msgstr "Yönetici arayüzüne giriş yapın"
+
+msgid "Loyalty Card"
+msgstr "Sadakat kartı"
+
+msgid "LoyaltyCard"
+msgstr "Sadakat karto"
+
+msgid "MM,d yy"
+msgstr "MM,d yy"
+
+msgid "MM.dd.y"
+msgstr "AA:GG.Y"
+
+msgid "MM.dd.y 'at' HH:mm a"
+msgstr "AA.GG.Y'da SS:DD"
+
+msgid "MM/dd/y"
+msgstr "MM/dd/y"
+
+msgid "MM/dd/y 'at' hh:mm a"
+msgstr "Hh' MM/dd/y ': mm"
+
+msgid "MM/dd/y hh:mm a"
+msgstr "MM/dd/y hh:mm"
+
+msgid "MM/dd/yy"
+msgstr "MM/dd/yy"
+
+msgid "MM/dd/yyyy"
+msgstr "MM/dd/yyyy"
+
+msgid "MMMM dd y"
+msgstr "MMMM dd y"
+
+msgid "Main Platform"
+msgstr "Ana platform"
+
+msgid "Main category"
+msgstr "Ana kategori"
+
+msgid "Main domain"
+msgstr "Ana etki alanı"
+
+msgid "Main domain (without https?://) is required for services, and tools."
+msgstr "(Https olmadan?) ana etki alanı:// hizmetleri ve araçlar için gereklidir."
+
+msgid "Main hostname"
+msgstr "Ana sunucu adı"
+
+msgid "Make this image colorizable"
+msgstr "Bu görüntü colorizable olun"
+
+msgid "Manage"
+msgstr "Yönetmek"
+
+msgid "Manage Folders"
+msgstr "Klasörleri yönet"
+
+msgid "Manage Places"
+msgstr "Yerleri Yönetmek"
+
+msgid "Manage Tour"
+msgstr "Tur yönet"
+
+msgid "Manage content"
+msgstr "İçeriği yönet"
+
+msgid "Map"
+msgstr "Harita"
+
+msgid "Maps"
+msgstr "Haritalar"
+
+msgid "Mcommerce"
+msgstr "M-ticaret"
+
+msgid "Media"
+msgstr "Medya"
+
+msgid "Message"
+msgstr "Mesaj"
+
+msgid "Message from your app %s"
+msgstr "Uygulama %mesajı s"
+
+msgid "Messages"
+msgstr "Mesaj"
+
+msgid "Metadata"
+msgstr "Meta"
+
+msgid "Method"
+msgstr "Yöntem"
+
+msgid "Middle"
+msgstr "Orta"
+
+msgid "Migrate sessions"
+msgstr "Geçirme oturumları"
+
+msgid "Migrate sessions to Redis"
+msgstr "Geçirme oturumları Redis için"
+
+msgid "Misc"
+msgstr "Mısc"
+
+msgid "Missing appId"
+msgstr "Kayıp kimliği"
+
+msgid "Missing gallery_id"
+msgstr "Eksik gallery_id"
+
+msgid "Missing parameters."
+msgstr "Eksik parametreler"
+
+msgid "Missing params"
+msgstr "Eksik parametreler"
+
+msgid "Missing status"
+msgstr "Eksik durum"
+
+msgid "Missing value"
+msgstr "Eksik değer"
+
+msgid "Missing values"
+msgstr "Kayıp değerler"
+
+msgid "Mobile display"
+msgstr "Mobil ekran"
+
+msgid "Modal"
+msgstr "Kalıcı"
+
+msgid "Modules"
+msgstr "Modülleri"
+
+msgid "Monetization"
+msgstr "Para kazanma"
+
+msgid "Month"
+msgstr "Ay"
+
+msgid "Monthly"
+msgstr "Aylık"
+
+msgid "More"
+msgstr "Daha"
+
+msgid "My Users List"
+msgstr "Kullanıcı listem"
+
+msgid "My account"
+msgstr "Hesabım"
+
+msgid "My custom template"
+msgstr "Özel şablon"
+
+msgid "My invoices"
+msgstr "Faturalar Benim"
+
+msgid "MyTemplate"
+msgstr "MyTemplate"
+
+msgid "NSCameraUsageDescription"
+msgstr "NSCameraUsageDescription"
+
+msgid "NSLocationAlwaysAndWhenInUseUsageDescription"
+msgstr "NSLocationAlwaysAndWhenİnUseUsagedescription"
+
+msgid "NSLocationAlwaysUsageDescription"
+msgstr "NSLocationAlwaysUsageDescription"
+
+msgid "NSLocationWhenInUseUsageDescription"
+msgstr "NSLocationWhenİnUseUsageDescription"
+
+msgid "NSMotionUsageDescription"
+msgstr "NSMotionUsageDescription"
+
+msgid "NSPhotoLibraryUsageDescription"
+msgstr "NSPhotoLibraryUsageDescription"
+
+msgid "Name"
+msgstr "Adı"
+
+msgid "Never"
+msgstr "Asla"
+
+msgid "New"
+msgstr "Yeni"
+
+msgid "New folder"
+msgstr "Yeni klasör"
+
+msgid "New format"
+msgstr "Yeni format"
+
+msgid "New password"
+msgstr "Yeni parola"
+
+msgid "New positions are missing."
+msgstr "Yeni pozisyonlar eksik."
+
+msgid "New subfolder"
+msgstr "Yeni alt"
+
+msgid "Newswall"
+msgstr "Haber duvarı"
+
+msgid "Next"
+msgstr "Gelecek"
+
+msgid "No"
+msgstr "Hayır"
+
+msgid "No Results"
+msgstr "Sonuç yok"
+
+msgid "No address to display on map."
+msgstr "Harita üzerinde görüntülemek için bir adres yok."
+
+msgid "No data for this metrics for now."
+msgstr "Şu an bu metrik için veri yok."
+
+msgid "No features"
+msgstr "Hayır özellikleri"
+
+msgid "No invoice for now."
+msgstr "Şu an fatura yok."
+
+msgid "No items found"
+msgstr "Hiçbir öğe bulunamadı"
+
+msgid "No linkable element found on this page."
+msgstr "Bu sayfada bağlanılabilir öğe bulunamadı."
+
+msgid "No logs"
+msgstr "Hiçbir günlükleri"
+
+msgid "No modules"
+msgstr "Hayır modülleri"
+
+msgid "No place to display on map."
+msgstr "Harita üzerinde görüntülemek için bir yer yok."
+
+msgid "No profile found. Please create one in Settings tab."
+msgstr "Profil bulunamadı. Lütfen Ayarlar sekmesinde oluşturun."
+
+msgid "No published applications available."
+msgstr "Mevcut yayınlanmış uygulama yok."
+
+msgid "No results"
+msgstr "Sonuç yok"
+
+msgid "No results for your request."
+msgstr "Talebiniz için sonuç yok."
+
+msgid "No rules"
+msgstr "Kural yok"
+
+msgid "No uploaded image"
+msgstr "Hayır yüklenen resim"
+
+msgid "Not available offline."
+msgstr "Çevrimdışı erişilebilir değil."
+
+msgid "Note"
+msgstr "Not"
+
+msgid "Note: A disabled feature is not removed from published applications & can still be edited, but users can't add it anymore!"
+msgstr "Not: Yayınlanmış uygulamalardan devredışı bırakılmış bir özellik kaldırılmaz ama düzenlenebilir. Ancak kullanıcılar artık ekleyemez."
+
+msgid "Note: Let's encrypt X1 is a staging certificate."
+msgstr "Not: Not: Let's encrypt X1 bir kademelendirme sertifikasıdır."
+
+msgid "Nothing to display"
+msgstr "Gösterilecek bir şey yok"
+
+msgid "Nothing to display."
+msgstr "Gösterilecek bir şey yok."
+
+msgid "Number"
+msgstr "Numarası"
+
+msgid "Number of people"
+msgstr "Kişi sayısı"
+
+msgid "Number of reward used"
+msgstr "Ödül sayısı kullanılan"
+
+msgid "Nwicode current installation path"
+msgstr "Sibirya geçerli yükleme yolu"
+
+msgid "Nwicode domain"
+msgstr "Nwicode etki alanı"
+
+msgid "Nwicode informations"
+msgstr "Sibirya bilgileri"
+
+msgid "Nwicode uses it to scan all uploaded files that have passed the soft Firewall."
+msgstr "Nwicode yumuşak Güvenlik Duvarı geçen tüm yüklenen dosyaları taramak için kullanır."
+
+msgid "OK"
+msgstr "TAMAM"
+
+msgid "OR"
+msgstr "YA"
+
+msgid "Offline Payment"
+msgstr "Çevrimdışı ödeme"
+
+msgid "Offline content"
+msgstr "Çevrimdışı içerik"
+
+msgid "Old Password"
+msgstr "Eski parola"
+
+msgid "Only active"
+msgstr "Yalnızca aktif"
+
+msgid "Only inactive"
+msgstr "Yalnızca pasif"
+
+msgid "Only offline"
+msgstr "Yalnızca çevrimdışı"
+
+msgid "Only published application are available for global push notifications."
+msgstr "Yalnızca yayınlanmış uygulamalar global push bildirimleri için uygundur."
+
+msgid "Open custom URL"
+msgstr "Özel url aç"
+
+msgid "Open settings"
+msgstr "Açık ayarları"
+
+msgid "Options"
+msgstr "Seçenekleri"
+
+msgid "Or do you want to return to editor?"
+msgstr "Ya da editöre mi dönmek istiyorsunuz?"
+
+msgid "Order"
+msgstr "Sipariş"
+
+msgid "Order date"
+msgstr "Sipariş tarihi"
+
+msgid "Origin"
+msgstr "Kökeni"
+
+msgid "Ouch, this page doesn't exist"
+msgstr "Ah, bu sayfa mevcut değil"
+
+msgid "Override layout"
+msgstr "Layout'u geçersiz yap"
+
+msgid "PHP Version"
+msgstr "PHP Sürümü"
+
+msgid "Package name"
+msgstr "Paket Adı"
+
+msgid "Padlock"
+msgstr "Padlock"
+
+msgid "Page settings"
+msgstr "Sayfa ayarları"
+
+msgid "Paid At"
+msgstr "Para At"
+
+msgid "Paid amount"
+msgstr "Ödenen miktar"
+
+msgid "Paid at"
+msgstr "Para at"
+
+msgid "Parent"
+msgstr "Üst"
+
+msgid "Password"
+msgstr "şifre"
+
+msgid "Password (clear)"
+msgstr "Parola (açık)"
+
+msgid "Password (hashed)"
+msgstr "(Karma)şifre"
+
+msgid "Password:"
+msgstr "Şifre:"
+
+msgid "Passwords don't match"
+msgstr "Şifreler uyuşmuyor"
+
+msgid "PayPal Express Checkout"
+msgstr "PayPal Express Ödeme"
+
+msgid "Payment"
+msgstr "Ödeme"
+
+msgid "Payment ID"
+msgstr "Ödeme NUMARASI"
+
+msgid "Payment Method"
+msgstr "Ödeme yöntemi"
+
+msgid "Payment method"
+msgstr "Ödeme yöntemi"
+
+msgid "Payments"
+msgstr "Ödemeler"
+
+msgid "Permissions"
+msgstr "İzinleri"
+
+msgid "Personal data"
+msgstr "Kişisel veri"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Phone and/or E-mail"
+msgstr "Telefon  ve/veya e-posta"
+
+msgid "Phone:"
+msgstr "Tel:"
+
+msgid "Photos"
+msgstr "Fotoğraflar"
+
+msgid "Place disabled"
+msgstr "Yeri devre dışı"
+
+msgid "Places"
+msgstr "Yerler"
+
+msgid "Plain"
+msgstr "Düz"
+
+msgid "Plans"
+msgstr "Planları"
+
+msgid "Platform"
+msgstr "Platform"
+
+msgid "Platform Name"
+msgstr "Platform Adı"
+
+msgid "Platform hostname"
+msgstr "Platform hostname"
+
+msgid "Player"
+msgstr "Oyuncu"
+
+msgid "Please create the API keys to enable this feature."
+msgstr "Bu özelliği etkinleştirmek için lütfen API anahtarlarını oluşturun."
+
+msgid "Please enter a password"
+msgstr "Lütfen bir parola girin"
+
+msgid "Please enter a valid URL."
+msgstr "Geçerli bir URL girin lütfen."
+
+msgid "Please enter a valid credit card number."
+msgstr "Geçerli bir kredi kartı numarası girin lütfen."
+
+msgid "Please enter a valid date (ISO)."
+msgstr "(ISO) geçerli bir tarih girin."
+
+msgid "Please enter a valid date."
+msgstr "Lütfen geçerli bir tarih girin."
+
+msgid "Please enter a valid email address"
+msgstr "Lütfen geçerli bir e-posta adresini girin"
+
+msgid "Please enter a valid email address."
+msgstr "lütfen geçerli bir email adresi girin."
+
+msgid "Please enter a valid number."
+msgstr "Geçerli bir sayı giriniz."
+
+msgid "Please enter a valid url"
+msgstr "Lütfen geçerli bir URL girin"
+
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr "Uzun {0} ve {1} karakter arasında bir değer girin."
+
+msgid "Please enter a value between {0} and {1}."
+msgstr "{0} ve {1} arasında bir değer giriniz."
+
+msgid "Please enter a value greater than or equal to {0}."
+msgstr "Daha büyük ya da {0} eşit bir değer girin."
+
+msgid "Please enter a value less than or equal to {0}."
+msgstr "Daha veya {0} eşit bir değer girin."
+
+msgid "Please enter at least {0} characters."
+msgstr "{0} en azından karakter girin lütfen."
+
+msgid "Please enter no more than {0} characters."
+msgstr "{0} karakterden fazla girin lütfen."
+
+msgid "Please enter only digits."
+msgstr "Sadece rakam giriniz."
+
+msgid "Please enter the same value again."
+msgstr "Lütfen tekrar aynı değeri girin."
+
+msgid "Please enter your email address"
+msgstr "Lütfen e-posta adresinizi girin"
+
+msgid "Please fill in the following fields:"
+msgstr "Aşağıdaki alanları doldurun:"
+
+msgid "Please fill out the following fields"
+msgstr "Lütfen aşağıdaki alanları doldurun"
+
+msgid "Please fix this field."
+msgstr "Lütfen bu alanı düzeltin."
+
+msgid "Please log in."
+msgstr "Lütfen giriş."
+
+msgid "Please note that this page is currently displaying DEMO data. Real data will be displayed when the %s applications limit is reached."
+msgstr "Lütfen bu sayfanın şu anda DEMO verilerini görüntülediğini unutmayın. %s uygulamaları sınırına ulaşıldığında gerçek veriler görüntülenecektir."
+
+msgid "Please note that this page is currently displaying DEMO data. Real data will be displayed when your application is published."
+msgstr "Lütfen bu sayfanın şu anda DEMO verilerini görüntülediğini unutmayın. Uygulamanız yayınlandığında gerçek veriler görüntülenecektir."
+
+msgid "Please provide a certificate."
+msgstr "Lütfen bir sertifika edinin"
+
+msgid "Please select at least one application."
+msgstr "Lütfen en az bir uygulama seçin."
+
+msgid "Please wait..."
+msgstr "Lütfen bekleyin..."
+
+msgid "Please, enter a correct email address."
+msgstr "Lütfen doğru bir e-posta adresini girin."
+
+msgid "Please, enter a password."
+msgstr "Lütfen bir şifre girin."
+
+msgid "Please, enter a valid date"
+msgstr "Lütfen geçerli bir tarih girin"
+
+msgid "Podcast"
+msgstr "Podcast"
+
+msgid "Podcast URL"
+msgstr "Podcast URL"
+
+msgid "Podcast URL (iTunes format)"
+msgstr "(İTunes formatı)Podcast URL"
+
+msgid "Podcast type is invalid or can't be found"
+msgstr "Podcast tür geçersiz veya bulunamadı"
+
+msgid "Port"
+msgstr "Bağlantı noktası"
+
+msgid "Port, example: 3310"
+msgstr "Port, örnek: 2570"
+
+msgid "Position Menu"
+msgstr "Konum Menüsü"
+
+msgid "Postcode"
+msgstr "Posta kodu"
+
+msgid "Postcode:"
+msgstr "Posta Kodu:"
+
+msgid "Previewer"
+msgstr "Ön izleyici"
+
+msgid "Previews"
+msgstr "Ön izleme"
+
+msgid "Privacy"
+msgstr "Gizlilik"
+
+msgid "Privacy Policy"
+msgstr "Gizlilik Politikası"
+
+msgid "Privacy policy"
+msgstr "Gizlilik Politikası"
+
+msgid "Privacy policy section for GDPR"
+msgstr "GDPR için Gizlilik Politikası bölüm"
+
+msgid "Privacy policy successfully saved"
+msgstr "Gizlilik Politikası başarılı bir şekilde kaydedildi"
+
+msgid "Privacy settings"
+msgstr "Gizlilik Ayarları"
+
+msgid "Products"
+msgstr "Ürünleri"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Promotion"
+msgstr "Promosyon"
+
+msgid "Publication settings"
+msgstr "Yayın ayarları"
+
+msgid "Publish your app"
+msgstr "App yayınlayın"
+
+msgid "Publishable Key"
+msgstr "Anahtar Yayınlanabilir"
+
+msgid "Push"
+msgstr "İtin"
+
+msgid "Push Notifications"
+msgstr "Push Bildirimleri"
+
+msgid "Push message"
+msgstr "Push mesajı"
+
+msgid "Push message is sent."
+msgstr "Push mesaj gönderildi."
+
+msgid "Push notification"
+msgstr "Push bildirimi"
+
+msgid "Push notifications"
+msgstr "Push bildirimleri"
+
+msgid "Push notifications Your account doesn't exists on editor side. Please create it before using tour edition."
+msgstr "Push bildirimleri. Hesabınız editör tarafında mevcut değil. Lütfen tur sürümünü kullanmadan önce oluşturun."
+
+msgid "QR Code"
+msgstr "QR Kodunu"
+
+msgid "QRCode"
+msgstr "QRKod"
+
+msgid "Qty"
+msgstr "Qty"
+
+msgid "Query"
+msgstr "Sorgu"
+
+msgid "RSS Feed"
+msgstr "RSS Feed"
+
+msgid "Radio"
+msgstr "Radyo"
+
+msgid "Redis AUTH KEY"
+msgstr "Redis AUTH KEY"
+
+msgid "Registration date"
+msgstr "Kayıt tarihi"
+
+msgid "Release"
+msgstr "Serbest"
+
+msgid "Remove"
+msgstr "Kaldır"
+
+msgid "Remove this page from this folder?"
+msgstr "Bu sayfa bu klasörden kaldırılsın mı?"
+
+msgid "Remove this step"
+msgstr "Bu adımı kaldırın"
+
+msgid "Request & Upload to panel"
+msgstr "İste ve panele yükle"
+
+msgid "Request APK generation"
+msgstr "İstek MUAYENE nesil"
+
+msgid "Request or renew the certificate via Let's Encrypt."
+msgstr "Sertifikayı Let's Encrypt üzerinden isteyin veya yenileyin."
+
+msgid "Requested by"
+msgstr "Talep tarafından"
+
+msgid "Required fields"
+msgstr "Gerekli alanlar"
+
+msgid "Reset to default Privacy Policy."
+msgstr "Varsayılan Gizlilik Politikası'na dön."
+
+msgid "Resize your picture"
+msgstr "Resminizi yeniden boyutlandırma"
+
+msgid "Resize your picture:"
+msgstr "Resminizi yeniden boyutlandırın:"
+
+msgid "Restart"
+msgstr "Yeniden başlatın"
+
+msgid "Restore Apps"
+msgstr "Uygulamaları Geri Yükleme"
+
+msgid "Restore Apps sources"
+msgstr "Uygulamalar kaynaklar geri yükleme"
+
+msgid "Right"
+msgstr "Doğru"
+
+msgid "Roles"
+msgstr "Roller"
+
+msgid "Rss"
+msgstr "RSS"
+
+msgid "Rule have been added."
+msgstr "Kural eklendi."
+
+msgid "Rule have been removed."
+msgstr "Kural kaldırılmıştır."
+
+msgid "Run Android SDK update"
+msgstr "Run Android SDK güncelleme"
+
+msgid "SCSS successfully saved"
+msgstr "SCSS başarıyla kaydedildi"
+
+msgid "SELF-ASSIGNABLE"
+msgstr "KENDİNİ ATANABİLİR"
+
+msgid "SEND"
+msgstr "Gönder"
+
+msgid "SMTP"
+msgstr "SMTP"
+
+msgid "SMTP - Whitelist: An administrator sent a request for white-listing his domain."
+msgstr "SMTP - Whitelist: Bir yönetici, alan adını whitelist için bir istek gönderdi."
+
+msgid "SMTP Credentials (Affiliated to the White-Label %s)"
+msgstr "-Etiket %s (Beyaz Bağlı)SMTP Kimlik bilgileri"
+
+msgid "Sales by Categories (TOP 10)"
+msgstr "Kategoriye göre satışlar (Top 10)"
+
+msgid "Sales by Payment method"
+msgstr "Ödeme metoduna göre satış"
+
+msgid "Sales by Store"
+msgstr "Mağazaya göre satışlar"
+
+msgid "Sales by product (TOP 20)"
+msgstr "Ürün başına satış (top 20)"
+
+msgid "Sample"
+msgstr "Örnek"
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Save GCM settings"
+msgstr "HGK Ayarları kaydet"
+
+msgid "Save iTunes credentials"
+msgstr "Kimlik bilgilerini kaydetmek iTunes"
+
+msgid "Save sender id & key"
+msgstr "Kaydet gönderenin kimliği & anahtar"
+
+msgid "Scan it."
+msgstr "Tarayın."
+
+msgid "Scan now to unlock"
+msgstr "Kilidi açmak için tarayın"
+
+msgid "Scheduled for"
+msgstr "için planlandı"
+
+msgid "Scheduled for <i>%s</i>"
+msgstr "<I>% s </ i> için planlandı"
+
+msgid "Scratchcard Users"
+msgstr "Kazı kazan kullanıcıları"
+
+msgid "Search"
+msgstr "Ara"
+
+msgid "Search ..."
+msgstr "Ara"
+
+msgid "Search / Filter"
+msgstr "Arama / filtre"
+
+msgid "Search results"
+msgstr "Sonuçları ara"
+
+msgid "Search, filter ..."
+msgstr "Ara, filtrele"
+
+msgid "See"
+msgstr "Bakın"
+
+msgid "Select a Development team"
+msgstr "Geliştirme ekibi seçin"
+
+msgid "Select a country"
+msgstr "Bir ülke seçin"
+
+msgid "Select a hostname"
+msgstr "Bir sunucu adı seçin"
+
+msgid "Select a panel type or self-managed"
+msgstr "Bir panel türü veya kendiniz yönetin"
+
+msgid "Select all"
+msgstr "Tümünü seç"
+
+msgid "Select an album"
+msgstr "Bir albüm seçin"
+
+msgid "Select an iTunes Connect provider"
+msgstr "Bir sağlayıcı seçin iTunes Connect"
+
+msgid "Select target applications"
+msgstr "Hedef uygulamaları seç"
+
+msgid "Select your back button appearance"
+msgstr "Geri düğmesi görünümünüzü seçin"
+
+msgid "Selected hostname"
+msgstr "Seçili sunucu ismi"
+
+msgid "Selected main hostname"
+msgstr "Seçili ana sunucu ismi"
+
+msgid "Send"
+msgstr "Gönder"
+
+msgid "Send a cover image"
+msgstr "Kapak resmi göndermek"
+
+msgid "Send push"
+msgstr "Push gönder"
+
+msgid "Send report"
+msgstr "Rapor gönder"
+
+msgid "Send to all applications."
+msgstr "Tüm uygulamaları gönder."
+
+msgid "Send your pictures"
+msgstr "Resimlerinizi gönderin"
+
+msgid "Sender ID"
+msgstr "Gönderenin KİMLİĞİ"
+
+msgid "Sender email"
+msgstr "Gönderenin e-posta"
+
+msgid "Sender name"
+msgstr "Gönderenin adı"
+
+msgid "Server key"
+msgstr "Anahtar sunucusu"
+
+msgid "Service APK Generator"
+msgstr "Hizmet kuru temizleme Jeneratör"
+
+msgid "Service APK generator"
+msgstr "Hizmet kuru temizleme Jeneratör"
+
+msgid "Service notes"
+msgstr "Servis notları"
+
+msgid "Session settings"
+msgstr "Oturum ayarları"
+
+msgid "Set Meal"
+msgstr "Menü oluştur"
+
+msgid "Settings"
+msgstr "Ayarları"
+
+msgid "Show"
+msgstr "Göster"
+
+msgid "Show cover"
+msgstr "Kapağı göster"
+
+msgid "Show search field"
+msgstr "Arama alanını göster"
+
+msgid "Show title"
+msgstr "Başlığı göster"
+
+msgid "Size on disk"
+msgstr "Diskteki boyutu"
+
+msgid "Size:"
+msgstr "Boyutu:"
+
+msgid "Slack notification settings"
+msgstr "Bolluk bildirim ayarları"
+
+msgid "Slider"
+msgstr "Kaydırma butonu"
+
+msgid "Social"
+msgstr "Sosyal"
+
+msgid "Socialgaming"
+msgstr "Sosyal oyun"
+
+msgid "Socket"
+msgstr "Soket"
+
+msgid "Soundcloud"
+msgstr "Soundcloud"
+
+msgid "Source code"
+msgstr "Kaynak kodu"
+
+msgid "Source code generation is not configured, ask your administrator for more informations."
+msgstr "Kaynak kod oluşturma yapılandırılmamış, daha fazla bilgi için yöneticinize başvurun."
+
+msgid "Sourcecode"
+msgstr "Kaynak kodu"
+
+msgid "Sources"
+msgstr "Kaynakları"
+
+msgid "Spinner"
+msgstr "Spinner"
+
+msgid "Split Ad revenue (percent for you)"
+msgstr "Split reklam geliri (yüzde olarak)"
+
+msgid "Start date must be lower than end date."
+msgstr "Başlama tarihi bitiş tarihinden önce olmalıdır."
+
+msgid "State / Province"
+msgstr "Eyalet / İl"
+
+msgid "Step placement (optional)"
+msgstr "Adım yerleştirme (opsiyonel)"
+
+msgid "Step saved successfully."
+msgstr "Adım başarıyla kaydedildi."
+
+msgid "Step text"
+msgstr "Adım metin"
+
+msgid "Step title"
+msgstr "Başlık adım"
+
+msgid "Street"
+msgstr "Sokak"
+
+msgid "Street:"
+msgstr "Cadde:"
+
+msgid "Subscriptions"
+msgstr "Abonelikleri"
+
+msgid "Subtitle"
+msgstr "Alt başlık"
+
+msgid "Success"
+msgstr "Başarılı"
+
+msgid "Support"
+msgstr "Destek"
+
+msgid "Support Link"
+msgstr "Destek Bağlantısı"
+
+msgid "Support link"
+msgstr "Destek bağlantısı"
+
+msgid "Switch to Ionic design"
+msgstr "İyonik tasarım geçin"
+
+msgid "System"
+msgstr "Sistem"
+
+msgid "TLS"
+msgstr "TLS"
+
+msgid "Target applications"
+msgstr "Hedef uygulamalar"
+
+msgid "Target devices"
+msgstr "Hedef cihazlar"
+
+msgid "Target specific devices"
+msgstr "Hedef özel cihazlar"
+
+msgid "Tax"
+msgstr "Vergi"
+
+msgid "Taxes"
+msgstr "Vergi"
+
+msgid "Template"
+msgstr "Şablon"
+
+msgid "Test SMTP"
+msgstr "Test SMTP"
+
+msgid "Text"
+msgstr "Metin"
+
+msgid "Thank you"
+msgstr "Teşekkürler"
+
+msgid "Thank you for your request.<br />We'll answer you as soon as possible."
+msgstr "İsteğiniz için teşekkür ederiz. <br /> Size en kısa sürede cevap vereceğiz."
+
+msgid "The account has been successfully saved"
+msgstr "Hesabı başarıyla kaydedildi"
+
+msgid "The address you're looking for does not exists."
+msgstr "Aradığınız adresi mevcut değil."
+
+msgid "The admin_id is required"
+msgstr "Admin_id gerekiyor."
+
+msgid "The admin_id parameter is required"
+msgstr "Admin_id parametresi gereklidir"
+
+msgid "The app_id is required"
+msgstr "Bu app_id gereklidir"
+
+msgid "The app_id parameter is required"
+msgstr "App_id parametresi gereklidir"
+
+msgid "The certificate request failed 3 times, please check the certificate information, your panel credentials, and everything else.<br />If your certificate is valid, you can try to upload to panel only."
+msgstr "Sertifika isteği 3 kez başarısız oldu, lütfen sertifika bilgilerini, panel kimlik bilgilerinizi ve diğer her şeyi kontrol edin. <br /> Sertifikanız geçerliyse, yalnızca panele yüklemeyi deneyebilirsiniz."
+
+msgid "The email is required"
+msgstr "E-posta gereklidir"
+
+msgid "The entered text mismatch"
+msgstr "Girilen metni uyumsuzluğu"
+
+msgid "The file '%s' does not exist"
+msgstr "'%S' dosyası mevcut değil"
+
+msgid "The image '%s' does not exist"
+msgstr "'%S' görüntü yok"
+
+msgid "The image size '%s' could not be detected."
+msgstr "Görüntü boyutu '%Tespit edilemedi."
+
+msgid "The name is required"
+msgstr "İsim gereklidir."
+
+msgid "The old password does not match the entered password."
+msgstr "Eski parola girilen parola eşleşmiyor."
+
+msgid "The password is required"
+msgstr "Parola gereklidir."
+
+msgid "The password must be at least 6 characters"
+msgstr "Şifre en az 6 karakter olmalıdır"
+
+msgid "The payment has been cancelled, something wrong happened? Feel free to contact us."
+msgstr "Ödeme iptal edildi, yanlış bir şey mi oldu? Bizimle temas kurmaktan çekinmeyin."
+
+msgid "The sent request is empty."
+msgstr "Gönderilen istek boş."
+
+msgid "The user_id is required"
+msgstr "User_id gereklidir"
+
+msgid "The value_id is required."
+msgstr "Value_id gerekiyor."
+
+msgid "This URL is already used"
+msgstr "Bu URL zaten kullanılıyor"
+
+msgid "This admin can generate APK"
+msgstr "Bu admin MUAYENE oluşturabilirsiniz"
+
+msgid "This admin does not exist"
+msgstr "Bu admin mevcut değil."
+
+msgid "This admin gives you the required information to publish applications"
+msgstr "Bu yönetim uygulamaları yayımlamak için gerekli bilgileri verir"
+
+msgid "This administrator does not exist"
+msgstr "Bu yönetici yok"
+
+msgid "This application does not exist"
+msgstr "Bu uygulama mevcut değil."
+
+msgid "This block type doesn't exist"
+msgstr "Bu blok tip yok"
+
+msgid "This code is unrecognized"
+msgstr "Bu kod tanınmıyor"
+
+msgid "This email address does not exist"
+msgstr "Bu e-posta adresi mevcut değil."
+
+msgid "This email address is already used"
+msgstr "Bu e-posta adresi zaten kullanılıyor"
+
+msgid "This feature is available from the application only"
+msgstr "Bu özellik sadece uygulamadan temin edilebilir."
+
+msgid "This feature is disabled by default since update 4.12.24 and is deprecated in favor of Folders v2."
+msgstr "Bu özellik, 4.12.24 güncellemesinden itibaren varsayılan olarak devre dışıdır ve Klasörler v2 için önerilmemektedir."
+
+msgid "This feature opens the Code Scan camera"
+msgstr "Bu özellik kod tarama kamerasını açar."
+
+msgid "This field is required"
+msgstr "Bu alan gereklidir"
+
+msgid "This field is required."
+msgstr "Gerekli alanları doldurunuz."
+
+msgid "This layout has no option."
+msgstr "Bu layout'ta seçenek yok."
+
+msgid "This option doesn't exists."
+msgstr "Bu seçenek yok."
+
+msgid "This option is not compatible with applications using Forms and/or features with Keyboard."
+msgstr "Bu seçenek, Klavye ile Formları ve/veya özelliklerini kullanarak uygulamalar ile uyumlu değil."
+
+msgid "This plan is an offline plan."
+msgstr "Bu plan çevrimdışı bir plandır."
+
+msgid "This section is unlocked for mobile users only"
+msgstr "Bu bölümde, mobil kullanıcılar için sadece kilidi"
+
+msgid "This will open the code scan camera on your device."
+msgstr "Bu kod tarama kamerasını açacak."
+
+msgid "Thumbnail"
+msgstr "Küçük resimler"
+
+msgid "Time spent in application"
+msgstr "Uygulamada geçirilen zaman"
+
+msgid "Timezone"
+msgstr "Zaman dilimi"
+
+msgid "Tip"
+msgstr "Bilgi"
+
+msgid "Title"
+msgstr "Başlık"
+
+msgid "Title & Message are both required."
+msgstr "Başlık ve mesaj gerekiyor."
+
+msgid "Title's Card"
+msgstr "Başlık kartı"
+
+msgid "Title's List"
+msgstr "Başlığın listesi"
+
+msgid "Title:"
+msgstr "Başlık:"
+
+msgid "To be able to use ClamAV you must have it installed on your server and configured accordingly to our documentation."
+msgstr "Deniztarağı kullanabilmek için sunucu üzerinde yüklü ve buna göre belgeleri bizim için yapılandırılmış olması gerekir."
+
+msgid "Toggle"
+msgstr "Toggle"
+
+msgid "Toggle off"
+msgstr "Toggle kapalı"
+
+msgid "Toggle on"
+msgstr "Toggle açık"
+
+msgid "Toggle's Handle off"
+msgstr "Toggle's Handle off"
+
+msgid "Toggle's Handle on"
+msgstr "Toggle's Handle on"
+
+msgid "Token"
+msgstr "Belirteç"
+
+msgid "Tooltip"
+msgstr "Araç bilgisi"
+
+msgid "Top"
+msgstr "Üst"
+
+msgid "Top installs"
+msgstr "Top yüklemeler"
+
+msgid "Top position"
+msgstr "En üst pozisyon"
+
+msgid "Top visits"
+msgstr "Top ziyaretler"
+
+msgid "Topic"
+msgstr "Konu"
+
+msgid "Topics"
+msgstr "Konular"
+
+msgid "Total"
+msgstr "Toplam"
+
+msgid "Total Excl. Tax"
+msgstr "Vergi dahil toplam"
+
+msgid "Total installs"
+msgstr "Toplam yükleme"
+
+msgid "Total sales"
+msgstr "Toplam satış"
+
+msgid "Total visits"
+msgstr "Toplam ziyaret"
+
+msgid "Tour"
+msgstr "Tur"
+
+msgid "Tour Edition"
+msgstr "Tur Edisyonu"
+
+msgid "Translation"
+msgstr "Çeviri"
+
+msgid "Translations"
+msgstr "Çevirileri"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Unable to add the contact to your address book"
+msgstr "Adres defterinize kişi eklemek mümkün"
+
+msgid "Unable to calculate the route."
+msgstr "Rota hesaplanamadı."
+
+msgid "Unable to connect in HTTPS or to validate the SSL Certificate.<br />Check if your are not in `Staging`"
+msgstr "HTTPS'ye bağlanılamıyor veya SSL Sertifikasını doğrulamıyor. <br /> \"Staging\"de değilseniz kontrol edin."
+
+msgid "Unable to find TC with id %s."
+msgstr "%s kimliğine sahip TC bulunamıyor."
+
+msgid "Unable to save image"
+msgstr "Resim kaydedilemiyor"
+
+msgid "Unrecognized image format"
+msgstr "Bilinmeyen resim biçimi"
+
+msgid "Until:"
+msgstr "Şu zamana kadar:"
+
+msgid "Updated at"
+msgstr "Güncelleme at"
+
+msgid "Upload to panel"
+msgstr "Panele yüklemek"
+
+msgid "Upload your json here"
+msgstr "Burada json yükleyin"
+
+msgid "Use card design"
+msgstr "Kullanım kart tasarımı"
+
+msgid "Use the homepage image as background in all features"
+msgstr "Tüm özelliklerde ana sayfa resmini arka plan olarak kullan"
+
+msgid "Use this coupon"
+msgstr "Bu kuponu kullanmak"
+
+msgid "User"
+msgstr "Kullanıcı"
+
+msgid "User successfully saved"
+msgstr "Kullanıcı başarıyla kaydedildi"
+
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+msgid "Users"
+msgstr "Kullanıcılar"
+
+msgid "Users activity"
+msgstr "Kullanıcı etkinliği"
+
+msgid "Users localization"
+msgstr "Kullanıcıların konumu"
+
+msgid "VAT Number"
+msgstr "Vergi Numarası"
+
+msgid "Valid until"
+msgstr "Şu tarihe kadar geçerli"
+
+msgid "Validate"
+msgstr "Doğrulamak"
+
+msgid "Validated points"
+msgstr "Doğrulanmış noktalar"
+
+msgid "Validated points by Loyalty card Analytics"
+msgstr "Sadakat kartı analytics tarafından onaylanan puanlar"
+
+msgid "Validations by Discount Analytics"
+msgstr "İndirim analizlerine göre doğrulamalar"
+
+msgid "Version %s"
+msgstr "Sürüm %s"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Video URL"
+msgstr "Video URL"
+
+msgid "Videos"
+msgstr "Videolar"
+
+msgid "View"
+msgstr "Görünüm"
+
+msgid "View full article"
+msgstr "Tüm makaleyi oku"
+
+msgid "View my actual data"
+msgstr "Gerçek veri görüntüle"
+
+msgid "Visits"
+msgstr "Ziyaretler"
+
+msgid "Visits by feature (All)"
+msgstr "Özelliğe göre ziyaretler (tümü)"
+
+msgid "Visits by feature (Top 5)"
+msgstr "Test API'ına izin verilsin mi?"
+
+msgid "Visits by product (TOP 20)"
+msgstr "Ürün başına ziyaret (Top 20)"
+
+msgid "We are sorry but this address is already used."
+msgstr "Üzgünüz ama bu adres zaten kullanılıyor."
+
+msgid "We are sorry but this email address already exists."
+msgstr "Üzgünüz ama bu e-posta adresi zaten var."
+
+msgid "We are sorry but this feature is not available yet"
+msgstr "Üzgünüz ama bu özellik henüz mevcut değil"
+
+msgid "We are sorry but this username already exists."
+msgstr "Üzgünüz ancak bu kullanıcı adı zaten mevcut."
+
+msgid "We've sent you an e-mail with your access token."
+msgstr "Erişim belirteci ile bir e-posta gönderdik."
+
+msgid "Web folder Owner"
+msgstr "Web klasörü Sahibi"
+
+msgid "Web space"
+msgstr "Web alanı"
+
+msgid "Webhook"
+msgstr "Webhook"
+
+msgid "Weblink"
+msgstr "Adresinden"
+
+msgid "Website"
+msgstr "Web sitesi"
+
+msgid "When selecting 'Enable test API' in a payment method, be sure to create test credentials, check the documentation of your payment method."
+msgstr "Seçerken 'test APİ ödeme yöntemini Etkinleştir', test kimlik bilgileri oluşturmak için, ödeme yöntemi belgelerine bakın emin olun."
+
+msgid "When selecting \\'Enable test API\\' in a payment method, be sure to create test credentials, check the documentation of your payment method."
+msgstr "Bir ödeme yönteminde \\'Test API'sını Etkinleştir \\' seçerken, test kimlik bilgileri oluşturduğunuzdan emin olun, ödeme yönteminizin dökümanlarını kontrol edin."
+
+msgid "White Label Editor"
+msgstr "White Label Editor"
+
+msgid "Who is online"
+msgstr "Online olan"
+
+msgid "Winners list"
+msgstr "Kazananlar listesi"
+
+msgid "WordPress"
+msgstr "WordPress"
+
+msgid "Wordpress"
+msgstr "Wordpress"
+
+msgid "Year"
+msgstr "Yıl"
+
+msgid "Yearly"
+msgstr "Yıllık"
+
+msgid "Yes"
+msgstr "Evet"
+
+msgid "You already have this user in your contact"
+msgstr "Zaten kişi bu kullanıcı var"
+
+msgid "You are about to delete this certificate, Are you sure ?"
+msgstr "Bu sertifikayı silmek istediğinize emin misiniz?"
+
+msgid "You are gone offline"
+msgstr "Çevrimdışı gitti"
+
+msgid "You are not allowed to delete a feature!"
+msgstr "Bir özelliği silmek için izniniz yok!"
+
+msgid "You are using a custom SMTP configuration, and the following white-label administrator <b>%s</b> is requesting his domain <b>%s</b> to be white-listed.<br /><br />You can add his domain in your SMTP provider panel and send him the instructions to configure it for his domain."
+msgstr "Özel bir SMTP yapılandırması kullanıyorsunuz ve aşağıdaki white-label yöneticisi <b>% s </ b>, etki alanının <b>%s </ b> için whitelist istiyor. <br /><br / > Alanını SMTP sağlayıcınızın paneline ekleyebilir ve ona alan adına göre yapılandırmak için talimatları gönderebilirsiniz."
+
+msgid "You can add allowed extensions, please note that .php, .js & .ico are strictly forbidden and can't be added"
+msgstr "İzin verilen uzantıları ekleyin lütfen unutmayın .php .js ve .ıco kesinlikle yasaktır ve bunu eklenebilir"
+
+msgid "You can extend JAVA & GRADLE options to better fit your server hardware."
+msgstr "Daha iyi sunucu donanımınız uygun JAVA & GRADLE seçenekleri genişletebilirsiniz."
+
+msgid "You can follow the URL below to access your data report"
+msgstr "Veri erişim için aşağıdaki URL izleyebilirsiniz raporu"
+
+msgid "You can globally disable a feature!"
+msgstr "Bu özelliği k"
+
+msgid "You can upload a pem certificate only."
+msgstr "Sadece pem sertifika yükleyebilirsiniz."
+
+msgid "You can upload a png only (.png)."
+msgstr "Yalnızca png yükleyebilirsiniz. (.png)"
+
+msgid "You can upload a zip archive only."
+msgstr "Sadece bir zıp arşivi yükleyebilirsiniz."
+
+msgid "You can upload an icon only (.ico and .png)."
+msgstr "Sadece bir simge upload (yükleyebilirsiniz.ıco ve .png)."
+
+msgid "You can upload an image only (.jpg, .jpeg, .gif and .png)."
+msgstr "Sadece bir resim yükleme (.jpg, .jpeg .gif ve .png)."
+
+msgid "You can't upload more than one file at a time."
+msgstr "Bir kerede birden fazla dosya yükleyebilirsiniz."
+
+msgid "You cannot add this feature"
+msgstr "Bu özelliği ekleyemezsiniz."
+
+msgid "You current working environment is"
+msgstr "Mevcut çalışma ortamıdır"
+
+msgid "You don't have any applications yet"
+msgstr "Henüz hiç uygulamanız yok"
+
+msgid "You don't have any invoices yet"
+msgstr "Henüz herhangi bir fatura yok"
+
+msgid "You have gone offline"
+msgstr "Çevrimdışı oldunuz"
+
+msgid "You have to chose a start and an end date."
+msgstr "Bir başlama ve bitirme tarihi seçmeniz gerekiyor."
+
+msgid "You must be logged in to like something!"
+msgstr "Beğenmek için giriş yapmalısınız."
+
+msgid "You must be logged in to post a comment"
+msgstr "Yorum yazmak için giriş yapmalısınız"
+
+msgid "You must fill ip & port."
+msgstr "Ip & port doldurmanız gerekir."
+
+msgid "You must first complete the current category creation process"
+msgstr "Öncelikle mevcut kategori oluşturma işlemini tamamlamanız gerekir."
+
+msgid "You must give the permission to the app to add a contact to your address book"
+msgstr "Uygulamanın adres defterinize kişi eklemek için izin vermelisiniz"
+
+msgid "You must share your location to access this page."
+msgstr "Bu sayfaya erişmek için konumunuzu paylaşmak gerekir."
+
+msgid "You will lose all unsaved changes, continue?"
+msgstr "Kaydedilmemiş tüm değişiklikleri kaybedeceksiniz, devam edilsin mi?"
+
+msgid "Your PHP version is too old, please upgrade to PHP 5.4+."
+msgstr "PHP sürümünüz çok eski, lütfen PHP 5.4+ sürümüne geçin."
+
+msgid "Your access token is"
+msgstr "Erişim belirteci olduğunu"
+
+msgid "Your analytics will be computed and available soon"
+msgstr "Analizleriniz yakında hesaplanacak ve kullanıma sunulacak"
+
+msgid "Your are not allowed to assign this role."
+msgstr "Bu rol atamak için izin verilmez."
+
+msgid "Your browser is too old to view the content of our website.<br />"
+msgstr "Tarayıcınızın web sitemizin içeriğini görmek için çok yaşlı.<br />"
+
+msgid "Your build should be ready"
+msgstr "Yapı hazır olmalıdır"
+
+msgid "Your comment"
+msgstr "Yorum"
+
+msgid "Your email address"
+msgstr "E-posta adresinizi"
+
+msgid "Your email address does not exist"
+msgstr "E-posta adresinizi yok"
+
+msgid "Your invoice has been edited successfully."
+msgstr "Faturanız başarıyla düzenlenmiştir."
+
+msgid "Your name"
+msgstr "Adınızı"
+
+msgid "Your new password has been sent to the entered email address"
+msgstr "Yeni şifrenizi girdiğiniz e-posta adresi gönderildi"
+
+msgid "Your password does not match the entered password."
+msgstr "Şifrenizi girdiğiniz parola eşleşmiyor."
+
+msgid "Your request has been successfully sent, please wait for your administrator to answer."
+msgstr "Talebiniz başarıyla gönderildi. Lütfen yöneticinizin yanıt vermesini bekleyin."
+
+msgid "Your subscription has been deleted successfully."
+msgstr "Aboneliğiniz başarıyla silindi."
+
+msgid "Your subscription status has been changed successfully."
+msgstr "Abonelik durumunuz başarıyla değiştirildi."
+
+msgid "Youtube"
+msgstr "Youtube"
+
+msgid "Zip code"
+msgstr "Posta Kodu"
+
+msgid "average"
+msgstr "ortalama"
+
+msgid "be careful or set it back to"
+msgstr "dikkatli olun ya da ayarlamak için"
+
+msgid "close"
+msgstr "Yakın"
+
+msgid "confirm action, deletion, etc ..."
+msgstr "Silmeyi, eylemi vb onaylayın..."
+
+msgid "contextual, depends on module/layout"
+msgstr "Bğlamsal, modül/layout'a bağlı"
+
+msgid "day"
+msgstr "gün"
+
+msgid "days"
+msgstr "gün"
+
+msgid "disabled"
+msgstr "devre dışı"
+
+msgid "en"
+msgstr "TR"
+
+msgid "enabled"
+msgstr "etkin"
+
+msgid "form submit, search, validation, confirmation"
+msgstr "Forrm gönderme, arama, doğrulama, onaylama"
+
+msgid "hh:mm a"
+msgstr "ss:dd"
+
+msgid "high"
+msgstr "yüksek"
+
+msgid "hour"
+msgstr "saat"
+
+msgid "hours"
+msgstr "saat"
+
+msgid "iOS & Android"
+msgstr "iOS & Android"
+
+msgid "iOS Source"
+msgstr "iOS Kaynağı"
+
+msgid "iOS Spinner"
+msgstr "iOS Spinner"
+
+msgid "iOS base Bundle ID  must contain only letters, dots & minus with at least two dots.<br />Example: com.mydomain.admin"
+msgstr "iOS base Bundle kimliği, en az iki punto ile sadece harf, nokta ve eksi içermelidir. <br /> Örnek: com.mydomain.admin"
+
+msgid "iOS base Bundle ID  must contain only letters, dots & minus."
+msgstr "iOS taban paketi kimliği yalnızca harfler, nokta ve eksi içermelidir."
+
+msgid "iOS base Bundle ID can't be empty."
+msgstr "iOS base Bundle kimliği boş bırakılamaz."
+
+msgid "iOS only"
+msgstr "yalnızca iOS"
+
+msgid "iPhone"
+msgstr "iPhone"
+
+msgid "iTunes"
+msgstr "iTunes"
+
+msgid "iTunes Connect providers"
+msgstr "iTunes sağlayıcıları Bağlayın"
+
+msgid "idle"
+msgstr "boşta"
+
+msgid "informative, modal"
+msgstr "Bilgilendirici, kipsel"
+
+msgid "is updated once a day"
+msgstr "bir kez bir gün güncellenir"
+
+msgid "loading"
+msgstr "Yükleme"
+
+msgid "low"
+msgstr "düşük"
+
+msgid "maintenance"
+msgstr "bakım"
+
+msgid "minute"
+msgstr "dakika"
+
+msgid "minutes"
+msgstr "dakika"
+
+msgid "nd"
+msgstr "nd"
+
+msgid "never"
+msgstr "asla"
+
+msgid "online"
+msgstr "online"
+
+msgid "phone, locate, facebook, email, etc.."
+msgstr "Telefon, lokasyon, facebook, e-posta, vb"
+
+msgid "picture"
+msgstr "Resim"
+
+msgid "posts"
+msgstr "mesaj"
+
+msgid "remaining characters"
+msgstr "kalan karakterler"
+
+msgid "second"
+msgstr "ikinci"
+
+msgid "seconds"
+msgstr "saniye"
+
+msgid "this feature is globally disabled!"
+msgstr "Bu özellik global olarak devre dışı bırakıldı!"
+
+msgid "title"
+msgstr "Başlık"
+
+msgid "titles"
+msgstr "Başlıklar"
+
+msgid "to add a folder."
+msgstr "başka bir klasöre eklemek için."
+
+msgid "to add a subfolder."
+msgstr "bir alt klasör eklemek için."
+
+msgid "twitter"
+msgstr "heyecan"
+
+msgid "unreachable"
+msgstr "ulaşılamaz"

@@ -1,0 +1,1115 @@
+<?php
+
+$blocks = $this->getApplication()->getBlocks();
+$tabbarBlock = $this->getApplication()->getBlock('tabbar'); 
+
+?>
+
+<link rel="stylesheet"
+      href="/app/sae/design/desktop/flat/js/codemirror/lib/codemirror.css">
+<link rel="stylesheet"
+      href="/app/sae/design/desktop/flat/js/codemirror/addon/hint/show-hint.css">
+<link rel="stylesheet"
+      href="/app/sae/design/desktop/flat/js/codemirror/addon/colorpicker/colorpicker.css">
+<script defer
+        src="/app/sae/design/desktop/flat/js/codemirror/lib/codemirror.js"></script>
+<script defer
+        src="/app/sae/design/desktop/flat/js/codemirror/mode/css/css.js"></script>
+<script defer
+        src="/app/sae/design/desktop/flat/js/codemirror/addon/edit/matchbrackets.js"></script>
+<script defer
+        src="/app/sae/design/desktop/flat/js/codemirror/addon/edit/closebrackets.js"></script>
+<script defer
+        src="/app/sae/design/desktop/flat/js/codemirror/addon/hint/show-hint.js"></script>
+<script defer
+        src="/app/sae/design/desktop/flat/js/codemirror/addon/hint/css-hint.js"></script>
+<script defer
+        src="/app/sae/design/desktop/flat/js/codemirror/addon/colorpicker/colorview.js"></script>
+<script defer
+        src="/app/sae/design/desktop/flat/js/codemirror/addon/colorpicker/colorpicker.js"></script>
+
+<link rel="stylesheet"
+      href="/app/sae/design/desktop/flat/js/minicolor/jquery.minicolors.css">
+<script defer
+        src="/app/sae/design/desktop/flat/js/minicolor/jquery.minicolors.js"></script>
+
+
+
+<div class="page-content-wrapper">
+    <form id="colorsForm"
+          action="<?php echo $this->getUrl('application/customization_design_colors/save'); ?>"
+          method="post">
+        <div id="colors">
+            <div id="colors_content">
+
+                <!-- START COLORS -->
+                <div id="app_colors">
+
+                    <div class="col-md-3 col-xs-4">
+                        <h4 class="title-editor border-yellow text-center">
+                            <?php echo p__("application", "Sections"); ?>
+                        </h4>
+                        <ul class="color-sections content-color">
+                            <li class="open-section"
+                                data-rel="all">
+                                <?php echo p__("application", "All"); ?>
+                            </li>
+                            <?php foreach ($blocks as $block): ?>
+                            <?php /*Оставим на потом*/if ($block->getCode()=='ionic_4') {$ionic_block = $block; continue; }?>
+							<li class="open-section"
+                                data-rel="<?php echo $block->getCode(); ?>">
+                                <?php echo $block->getName(); ?>
+                            </li>
+                            <?php endforeach; ?>
+							<!-- link to ionic4 menu--><li class="open-section" data-rel="<?php echo $ionic_block->getCode(); ?>"><?php echo $ionic_block->getName(); ?></li>							
+                        </ul>
+                    </div>
+
+                    <div class="col-md-9 col-xs-8">
+                        <?php foreach ($blocks as $block): ?>
+						<?php /*Оставим на потом*/if ($block->getCode()=='ionic_4') {$ionic_block_data = $block; continue; }?>
+                        <?php $block_id = (strlen(dechex($block->getId())) == 2) ? dechex($block->getId()) : "0" . dechex($block->getId()); ?>
+                        <div id="sb-tour-color-section-<?php echo $block->getData("name"); ?>"
+                             class="color-section change-overview-content content-colors sb-tour"
+                             data-rel="<?php echo $block->getCode(); ?>"
+                             data-name="<?php echo $block->getName(); ?>">
+
+                            <?php
+                            $hasChildrens = false;
+                            if ($block->getChildren()) {
+                                $hasChildrens = true;
+                            }
+                            $children = $block->getChildren() ? $block->getChildren() : [$block];
+                            ?>
+
+                            <h4 class="title-editor border-yellow text-center">
+                                <?php echo $block->getName(); ?>
+                            </h4>
+
+                            <?php foreach ($children as $child) : ?>
+                                <?php $child_id = (strlen(dechex($child->getId())) == 2) ? dechex($child->getId()) : "0" . dechex($child->getId()); ?>
+                                <?php $child_id = $hasChildrens ? $child_id : "00"; ?>
+                                <?php if ($child->getParentId()) : ?>
+
+                                <?php endif; ?>
+
+
+                                <?php
+                                    $count = 0;
+                                    if ($child->getColorVariableName()) {
+                                        $count++;
+                                    }
+                                    if ($child->getBackgroundColorVariableName()) {
+                                        $count++;
+                                    }
+                                    if ($child->getBorderColorVariableName()) {
+                                        $count++;
+                                    }
+                                    if ($child->getImageColorVariableName()) {
+                                        $count++;
+                                    }
+
+                                    if ($count <= 0) {
+                                        continue;
+                                    }
+                                ?>
+
+                                <div class="subcontent content-color container-fluid custom-padding">
+
+                                    <?php if ($hasChildrens): ?>
+                                    <h6>
+                                        <?php echo $child->getName() ?>
+                                    </h6>
+                                    <?php endif; ?>
+
+                                    <div class="row block-group"
+                                         id="row_<?php echo $child->getId(); ?>">
+                                        <?php if ($child->getColorVariableName()) : ?>
+                                            <?php $hex = "#" . $block_id . $child_id . "01"; ?>
+                                            <div class="mini-color col-md-4 col-xs-6">
+                                                <input type="hidden"
+                                                       rel="color"
+                                                       data-blockid="<?php echo $child->getId(); ?>"
+                                                       data-index="<?php echo $hex; ?>"
+                                                       data-variable="<?php echo $child->getColorVariableName() ?>"
+                                                       id="<?php echo str_replace("$", "", $child->getColorVariableName()) ?>"
+                                                       class="mini-box color-picker"
+                                                       value="<?php echo $child->getColorRGBA(); ?>" />
+                                                <span class="mini-text"><?php echo p__("application", "Text") ?></span>
+                                            </div>
+                                        <?php endif; ?>
+
+                                        <?php if ($child->getBackgroundColorVariableName()) : ?>
+                                            <?php $hex = "#" . $block_id . $child_id . "02"; ?>
+                                            <div class="mini-color col-md-4 col-xs-6">
+                                                <input type="hidden"
+                                                       rel="background_color"
+                                                       data-blockid="<?php echo $child->getId(); ?>"
+                                                       data-index="<?php echo $hex; ?>"
+                                                       data-variable="<?php echo $child->getBackgroundColorVariableName() ?>"
+                                                       id="<?php echo str_replace("$", "", $child->getBackgroundColorVariableName()) ?>"
+                                                       class="mini-box color-picker"
+                                                       value="<?php echo $child->getBackgroundColorRGBA(); ?>" />
+                                                <span class="mini-text"><?php echo p__("application", "Background") ?></span>
+                                            </div>
+                                        <?php endif; ?>
+
+                                        <?php if ($child->getBorderColorVariableName()) : ?>
+                                            <?php $hex = "#" . $block_id . $child_id . "03"; ?>
+                                            <div class="mini-color col-md-4 col-xs-6">
+                                                <input type="hidden"
+                                                       rel="border_color"
+                                                       data-blockid="<?php echo $child->getId(); ?>"
+                                                       data-index="<?php echo $hex; ?>"
+                                                       data-variable="<?php echo $child->getBorderColorVariableName() ?>"
+                                                       id="<?php echo str_replace("$", "", $child->getBorderColorVariableName()) ?>"
+                                                       class="mini-box color-picker"
+                                                       value="<?php echo $child->getBorderColorRGBA(); ?>" />
+                                                <span class="mini-text"><?php echo p__("application", "Border") ?></span>
+                                            </div>
+                                        <?php endif; ?>
+
+                                        <?php if ($child->getImageColorVariableName()) : ?>
+                                            <?php $hex = "#" . $block_id . $child_id . "04"; ?>
+                                            <div class="mini-color col-md-4 col-xs-6">
+                                                <input type="hidden"
+                                                       rel="image_color"
+                                                       data-blockid="<?php echo $child->getId(); ?>"
+                                                       data-index="<?php echo $hex; ?>"
+                                                       data-variable="<?php echo $child->getImageColorVariableName() ?>"
+                                                       id="<?php echo str_replace("$", "", $child->getImageColorVariableName()) ?>"
+                                                       class="mini-box color-picker"
+                                                       value="<?php echo $child->getImageColorRGBA(); ?>" />
+                                                <span class="mini-text"><?php echo p__("application", "Image") ?></span>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                        <?php endforeach; ?>
+						
+						<!-- ionic4 colors-->
+						<?php $block=$ionic_block_data; $block_id = (strlen(dechex($block->getId())) == 2) ? dechex($block->getId()) : "0" . dechex($block->getId()); ?>
+                        <div id="sb-tour-color-section-<?php echo $block->getData("name"); ?>"
+                             class="color-section change-overview-content content-colors sb-tour"
+                             data-rel="<?php echo $block->getCode(); ?>"
+                             data-name="<?php echo $block->getName(); ?>">						
+
+                            <h4 class="title-editor border-yellow text-center">
+                                <?php echo $block->getName(); ?>
+								<div class="css-toggle sb-tour" id="toggle-scss"><!--<button type="button" id="ionic4-reset"  class="btn color-blue pull-right" onclick="resetIonic4()"> <i class="icon ion-arrow-swap"></i> <?php echo __("Reset to default"); ?></button>--></div>									
+                            </h4>
+							<div class="subcontent content-color container-fluid custom-padding">
+							<?php
+							$has_childrens = false;
+							if ($block->getChildren()) {
+								$has_childrens = true;
+							}
+							$children = $block->getChildren() ? $block->getChildren() : [$block];
+                            ?>
+                            
+                            <?php
+                                //Assign array with ionic colors for online style changing
+                                $ionic_styles['ionic_primary_color']="ion-color-primary";
+                                $ionic_styles['ionic_primary_color_contrast']="ion-color-primary-contrast";
+                                $ionic_styles['ionic_primary_color_shade']="ion-color-primary-shade";
+                                $ionic_styles['ionic_primary_color_tint']="ion-color-primary-tint";
+                                $ionic_styles['ionic_tertiary_color']="ion-color-tertiary";
+                                $ionic_styles['ionic_tertiary_color_contrast']="ion-color-tertiary-contrast";
+                                $ionic_styles['ionic_tertiary_color_shade']="ion-color-tertiary-shade";
+                                $ionic_styles['ionic_tertiary_color_tint']="ion-color-tertiary-tint"; 
+                                $ionic_styles['ionic_secondary_color']="ion-color-secondary";
+                                $ionic_styles['ionic_secondary_color_contrast']="ion-color-secondary-contrast";
+                                $ionic_styles['ionic_secondary_color_shade']="ion-color-secondary-shade";
+                                $ionic_styles['ionic_secondary_color_tint']="ion-color-secondary-tint";
+                                $ionic_styles['ionic_success_color']="ion-color-success";
+                                $ionic_styles['ionic_success_color_contrast']="ion-color-success-contrast";
+                                $ionic_styles['ionic_success_color_shade']="ion-color-success-shade";
+                                $ionic_styles['ionic_success_color_tint']="ion-color-success-tint";
+                                $ionic_styles['ionic_warning_color']="ion-color-warning";
+                                $ionic_styles['ionic_warning_color_contrast']="ion-color-warning-contrast";
+                                $ionic_styles['ionic_warning_color_shade']="ion-color-warning-shade";
+                                $ionic_styles['ionic_warning_color_tint']="ion-color-warning-tint";
+                                $ionic_styles['ionic_danger_color']="ion-color-danger";
+                                $ionic_styles['ionic_danger_color_contrast']="ion-color-danger-contrast";
+                                $ionic_styles['ionic_danger_color_shade']="ion-color-danger-shade";
+                                $ionic_styles['ionic_danger_color_tint']="ion-color-danger-tint";
+                                $ionic_styles['ionic_dark_color']="ion-color-dark";
+                                $ionic_styles['ionic_dark_color_contrast']="ion-color-dark-contrast";
+                                $ionic_styles['ionic_dark_color_shade']="ion-color-dark-shade";
+                                $ionic_styles['ionic_dark_color_tint']="ion-color-dark-tint";
+                                $ionic_styles['ionic_medium_color']="ion-color-medium";
+                                $ionic_styles['ionic_medium_color_contrast']="ion-color-medium-contrast";
+                                $ionic_styles['ionic_medium_color_shade']="ion-color-medium-shade";
+                                $ionic_styles['ionic_medium_color_tint']="ion-color-medium-tint";
+                                $ionic_styles['ionic_light_color']="ion-color-light";
+                                $ionic_styles['ionic_light_color_contrast']="ion-color-light-contrast";
+                                $ionic_styles['ionic_light_color_shade']="ion-color-light-shade";
+                                $ionic_styles['ionic_light_color_tint']="ion-color-light-tint";
+                                
+                                
+                                $ionic_styles['ionic_text_color']="ion-text-color";
+                                $ionic_styles['ionic_text_color_contrast']="ion-placeholder-color";
+                                $ionic_styles['ionic_text_color_shade']="ion-text-shade";
+                                $ionic_styles['ionic_text_color_tint']="ion-background-color";
+
+                                $ionic_styles['ionic_item_color']="ion-item-color";
+                                $ionic_styles['ionic_item_color_contrast']="ion-item-background";
+                                $ionic_styles['ionic_item_color_shade']="ion-item-background-activated";
+                                $ionic_styles['ionic_item_color_tint']="ion-item-border-color";                               
+                            
+                            ?>
+
+							<?php foreach ($children as $child) { ?>
+								<?php //получим цвета ионика, которые почему то не хотят браться
+									$db = Zend_Db_Table::getDefaultAdapter();
+									$select = $db->select()
+										->from(['tba'=>'template_block_app'])
+										->where('tba.app_id = ?', $this->getApplication()->getId())
+										->where('tba.block_id = ?', $child->getId());
+									$ionic_colors = $db->fetchRow($select);
+									//print_r($ionic_colors);
+									
+									//для ресета сделаем
+									$ionic_colors_backup['ion_color'] = $child->getData('ion_color');
+									$ionic_colors_backup['ion_color_contrast'] = $child->getData('ion_color_contrast');
+									$ionic_colors_backup['ion_color_shade'] = $child->getData('ion_color_shade');
+									$ionic_colors_backup['ion_color_tint'] = $child->getData('ion_color_tint');
+									//Заменим основной блок
+									if ($ionic_colors['ion_color']) $child->setIonColor($ionic_colors['ion_color']);
+									if ($ionic_colors['ion_color_contrast']) $child->setIonColorContrast($ionic_colors['ion_color_contrast']);
+									if ($ionic_colors['ion_color_shade']) $child->setIonColorShade($ionic_colors['ion_color_shade']);
+									if ($ionic_colors['ion_color_tint']) $child->setIonColorTint($ionic_colors['ion_color_tint']);
+								?>
+								
+								<?php $child_id = (strlen(dechex($child->getId())) == 2) ? dechex($child->getId()) : "0" . dechex($child->getId()); ?>
+								<?php $child_id = $has_childrens ? $child_id : "00"; ?>							
+							
+							
+								<?php if ($child->getCode()!="ionic_text_color" && $child->getCode()!="ionic_item_color" ) {?>
+                                    <?php $hex = "#" . $block_id . $child_id . "04"; ?>
+                                    <h6><?php echo __("Settings for color");?> - <b>"<?php echo $child->getName() ?>"</b></h6>
+									<div class="row block-group">
+										<div class="mini-color col-md-3 col-xs-6 ionic-color" id="ionic_data_ion_color_<?php echo $child->getId(); ?>">
+	
+											<input type="hidden"
+												   rel="ion_color"
+												   data-blockid="<?php echo $child->getId(); ?>"
+                                                   data-variable="--<?php echo $ionic_styles[$child->getCode()]; ?>"
+                                                   data-index="<?echo $child->getIonColor();?>"
+												   data-id="<?php echo $child->getId(); ?>"
+												   data-field="ion_color"
+												   data-default-value = "<?php echo $ionic_colors_backup['ion_color']?>"
+												   id="<?php echo $child->getCode(); ?>_image"
+												   data-value="<?echo $child->getIonColor();?>"
+												   class="mini-box color-picker-ionic"
+												   value="<?echo $child->getIonColor();?>" />
+											<span class="mini-text"><?php echo __("Color background"); ?></span>
+										</div>
+										<div class="mini-color col-md-3 col-xs-6 ionic-color" id="ionic_data_ion_color_shade_<?php echo $child->getId(); ?>">
+							
+											<input type="hidden"
+												   rel="ion_color_shade"
+												   data-blockid="<?php echo $child->getId(); ?>"
+                                                   data-variable="--<?php echo $ionic_styles[$child->getCode().'_shade']; ?>"
+                                                   data-index="<?echo $child->getIonColorShade();?>"
+												   data-id="<?php echo $child->getId(); ?>"
+												   data-field="ion_color_shade"
+												   data-default-value = "<?php echo $ionic_colors_backup['ion_color_shade']?>"
+												   id="<?php echo $child->getCode(); ?>_image"
+												   data-value="<?echo $child->getIonColorShade();?>"
+												   class="mini-box color-picker-ionic"
+												   value="<?echo $child->getIonColorShade();?>" />
+											<span class="mini-text"><?php echo __("Color background (shade)"); ?></span>
+										</div>
+										<div class="mini-color col-md-3 col-xs-6 ionic-color" id="ionic_data_ion_color_tint_<?php echo $child->getId(); ?>">
+							
+											<input type="hidden"
+												   rel="ion_color_tint"
+												   data-blockid="<?php echo $child->getId(); ?>"
+                                                   data-variable="--<?php echo $ionic_styles[$child->getCode().'_tint']; ?>"
+                                                   data-index="<?php echo $child->getIonColorTint(); ?>"
+												   data-id="<?php echo $child->getId(); ?>"
+												   data-field="ion_color_tint"
+												   data-default-value = "<?php echo $ionic_colors_backup['ion_color_tint']?>"
+												   id="<?php echo $child->getCode(); ?>_image"
+												   data-value="<?php echo $child->getIonColorTint(); ?>"
+												   class="mini-box color-picker-ionic"
+												   value="<?php echo $child->getIonColorTint(); ?>" />
+											<span class="mini-text"><?php echo __("Color background (tint)"); ?></span>
+										</div>
+										<div class="mini-color col-md-3 col-xs-6 ionic-color" id="ionic_data_ion_color_contrast_<?php echo $child->getId(); ?>">
+					
+											<input type="hidden"
+												   rel="ion_color_contrast"
+												   data-blockid="<?php echo $child->getId(); ?>"
+                                                   data-variable="--<?php echo $ionic_styles[$child->getCode().'_contrast']; ?>"
+                                                   data-index="<?php echo $child->getIonColorContrast(); ?>"
+												   data-id="<?php echo $child->getId(); ?>"
+												   data-field="ion_color_contrast"
+												   data-default-value = "<?php echo $ionic_colors_backup['ion_color_contrast']?>"
+												   id="<?php echo $child->getCode(); ?>_image"
+												   data-value="<?php echo $child->getIonColorContrast(); ?>"
+												   class="mini-box color-picker-ionic"
+												   value="<?php echo $child->getIonColorContrast(); ?>" />
+											<span class="mini-text"><?php echo __("Color font contrast (font color)"); ?></span>
+										</div>										
+									</div>
+								<?php } ?>
+								
+								<?php /*Отдельно для текста*/if ($child->getCode()=="ionic_text_color") {?>
+                                    <h6><?php echo __("Main application color and background settings")?> - <b>"<?php echo $child->getName() ?>"</b></h6>
+									<div class="row block-group">
+										<div class="mini-color col-md-4 col-xs-6 ionic-color" id="ionic_data_ion_color_<?php echo $child->getId(); ?>">
+								
+											<input type="hidden"
+												   rel="ion_color"
+												   data-blockid="<?php echo $child->getId(); ?>"
+                                                   data-variable="--<?php echo $ionic_styles[$child->getCode()]; ?>"
+                                                   data-index="<?php echo $child->getIonColor(); ?>"
+												   data-id="<?php echo $child->getId(); ?>"
+												   data-field="ion_color"
+												   data-default-value = "<?php echo $ionic_colors_backup['ion_color']?>"
+												   id="<?php echo $child->getCode(); ?>_image"
+												   data-value="<?php echo $child->getIonColor(); ?>"
+												   class="mini-box color-picker-ionic"
+												   value="<?php echo $child->getIonColor(); ?>" />
+											<span class="mini-text"><?php echo __("Text color"); ?></span>
+										</div>
+										<!-- we use contrast field to bacground color!-->
+										<div class="mini-color col-md-4 col-xs-6 ionic-color" id="ionic_data_ion_color_contrast_<?php echo $child->getId(); ?>">
+							
+											<input type="hidden"
+												   rel="ion_color_contrast"
+												   data-blockid="<?php echo $child->getId(); ?>"
+                                                   data-variable="--<?php echo $ionic_styles[$child->getCode().'_contrast']; ?>"
+                                                   data-index="<?php echo $child->getIonColorContrast(); ?>"
+												   data-id="<?php echo $child->getId(); ?>"
+												   data-field="ion_color_contrast"
+												   data-default-value = "<?php echo $ionic_colors_backup['ion_color_contrast']?>"
+												   id="<?php echo $child->getCode(); ?>_image"
+												   data-value="<?php echo $child->getIonColorContrast(); ?>"
+												   class="mini-box color-picker-ionic"
+												   value="<?php echo $child->getIonColorContrast(); ?>" />
+											<span class="mini-text"><?php echo __("Placeholder color"); ?></span>
+										</div>
+										<!-- we use ion_color_tint field to bacground color!-->
+										<div class="mini-color col-md-4 col-xs-6 ionic-color" id="ionic_data_ion_color_tint_<?php echo $child->getId(); ?>">
+						
+											<input type="hidden"
+												   rel="ion_color_tint"
+												   data-blockid="<?php echo $child->getId(); ?>"
+                                                   data-variable="--<?php echo $ionic_styles[$child->getCode().'_tint']; ?>"
+                                                   data-index=""<?php echo $child->getIonColorTint(); ?>"
+												   data-id="<?php echo $child->getId(); ?>"
+												   data-field="ion_color_tint"
+												   data-default-value = "<?php echo $ionic_colors_backup['ion_color_tint']?>"
+												   id="<?php echo $child->getCode(); ?>_image"
+												   data-value="<?php echo $child->getIonColorTint(); ?>"
+												   class="mini-box color-picker-ionic"
+												   value="<?php echo $child->getIonColorTint(); ?>" />
+											<span class="mini-text"><?php echo __("Background color"); ?></span>
+										</div>											
+									</div>									
+								<?php } ?>
+								
+								<?php /*Отдельно для card, item*/if ($child->getCode()=="ionic_item_color") {?>
+									<h6><?php echo __("Settings for LIST ITEM element")?> - <b>"<?php echo $child->getName() ?>"</b></h6>
+									<div class="row block-group">
+									
+										<div class="mini-color col-md-3 col-xs-6 ionic-color" id="ionic_data_ion_color_<?php echo $child->getId(); ?>">
+							
+											<input type="hidden"
+												   rel="ion_color"
+												   data-blockid="<?php echo $child->getId(); ?>"
+                                                   data-variable="--<?php echo $ionic_styles[$child->getCode()]; ?>"
+                                                   data-index="<?php echo $child->getIonColor(); ?>"
+												   data-id="<?php echo $child->getId(); ?>"
+												   data-field="ion_color"
+												   data-default-value = "<?php echo $ionic_colors_backup['ion_color']?>"
+												   id="<?php echo $child->getCode(); ?>_image"
+												   data-value="<?php echo $child->getIonColor(); ?>"
+												   class="mini-box color-picker-ionic"
+												   value="<?php echo $child->getIonColor(); ?>" />
+											<span class="mini-text"><?php echo __("Item color"); ?></span>
+										</div>									
+										<!-- we use contrast field to bacground color!-->
+										<div class="mini-color col-md-3 col-xs-6 ionic-color" id="ionic_data_ion_color_contrast_<?php echo $child->getId(); ?>">
+							
+											<input type="hidden"
+												   rel="ion_color_contrast"
+												   data-blockid="<?php echo $child->getId(); ?>"
+                                                   data-variable="--<?php echo $ionic_styles[$child->getCode().'_contrast']; ?>"
+                                                   data-index="<?php echo $child->getIonColorContrast(); ?>"
+												   data-id="<?php echo $child->getId(); ?>"
+												   data-field="ion_color_contrast"
+												   data-default-value = "<?php echo $ionic_colors_backup['ion_color_contrast']?>"
+												   id="<?php echo $child->getCode(); ?>_image"
+												   data-value="<?php echo $child->getIonColorContrast(); ?>"
+												   class="mini-box color-picker-ionic"
+												   value="<?php echo $child->getIonColorContrast(); ?>" />
+											<span class="mini-text"><?php echo __("Background color"); ?></span>
+										</div>
+										<!-- we use shade field to bacground activated color!-->
+										<div class="mini-color col-md-3 col-xs-6 ionic-color" id="ionic_data_ion_color_shade_<?php echo $child->getId(); ?>">
+						
+											<input type="hidden"
+												   rel="ion_color_shade"
+												   data-blockid="<?php echo $child->getId(); ?>"
+                                                   data-variable="--<?php echo $ionic_styles[$child->getCode().'_shade']; ?>"
+                                                   data-index="<?php echo $child->getIonColorShade(); ?>"
+												   data-id="<?php echo $child->getId(); ?>"
+												   data-field="ion_color_shade"
+												   data-default-value = "<?php echo $ionic_colors_backup['ion_color_shade']?>"
+												   id="<?php echo $child->getCode(); ?>_image"
+												   data-value="<?php echo $child->getIonColorShade(); ?>"
+												   class="mini-box color-picker-ionic"
+												   value="<?php echo $child->getIonColorShade(); ?>" /> 
+											<span class="mini-text"><?php echo __("Background color (activated)"); ?></span>
+										</div>
+										<!-- we use ion_color_tint field to Border color!-->
+										<div class="mini-color col-md-3 col-xs-6 ionic-color" id="ionic_data_ion_color_tint_<?php echo $child->getId(); ?>">
+					
+											<input type="hidden"
+												   rel="ion_color_tint"
+												   data-blockid="<?php echo $child->getId(); ?>"
+                                                   data-variable="--<?php echo $ionic_styles[$child->getCode().'_tint']; ?>"
+                                                   data-index="<?php echo $child->getIonColorTint(); ?>"
+												   data-id="<?php echo $child->getId(); ?>"
+												   data-field="ion_color_tint"
+												   data-default-value = "<?php echo $ionic_colors_backup['ion_color_tint']?>"
+												   id="<?php echo $child->getCode(); ?>_image"
+												   data-value="<?php echo $child->getIonColorTint(); ?>"
+												   class="mini-box color-picker-ionic"
+												   value="<?php echo $child->getIonColorTint(); ?>" />
+											<span class="mini-text"><?php echo __("Border color"); ?></span>
+										</div>									
+									</div>
+								<?php } ?>
+							<?php } ?>
+							</div>
+				
+						</div>
+                    </div>
+                </div>
+                <!-- END COLORS -->
+
+
+                <div id="sb-tour-custom-css-section"
+                     class="change-overview-content content-colors sb-tour col-xs-12">
+                    <h3 class="title-editor border-yellow text-center">
+                        <?php echo __("Advanced Customization CSS / SCSS"); ?>
+                        <div class="css-toggle sb-tour"
+                             id="toggle-scss">
+                            <input class="sb-tgl sb-tgl-flip toggle"
+                                   id="cb_on_off"
+                                   type="checkbox"
+                                   value="0"
+                                   class="color-blue checkbox"/>
+                            <label class="sb-tgl-btn"
+                                   for="cb_on_off"
+                                   data-tg-off="<?php echo __js('Show') ?>"
+                                   data-tg-on="<?php echo __js('Hide') ?>"></label>
+                        </div>
+                    </h3>
+
+                    <?php $custom_scss = $this->getApplication()->getCustomScss(); ?>
+                    <div id="row_scss"
+                         class="subcontent content-color container-fluid"
+                         style="display: none;">
+                        <h4>
+                            <?php echo __("Available SCSS Variables corresponding to previously set colors"); ?>
+                        </h4>
+                        <div class="row">
+                            <?php $variables = Template_Model_Design::getVariables($this->getApplication()); ?>
+                            <?php foreach ($variables as $name => $value): ?>
+                                <div class="mini-color col-md-4 col-xs-6">
+                                    <div class="mini-box content-options"
+                                         id="<?php echo str_replace("$", "", $name) ?>"
+                                         style="background-color: <?php echo $value; ?>">
+                                    </div>
+                                    <span><?php echo $name ?></span>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                        <div class="sb-cb"></div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label style="margin-top: 24px;">
+                                    <?php echo __("Input your SCSS here, save to validate & preview") ?>
+                                    <br/>
+                                    <br/>
+                                    <span class="keyb">Ctrl</span>
+                                    <b>+</b>
+                                    <span class="keyb">Space</span>
+                                    <b>=</b>
+                                    <?php echo __('Autocomplete & Suggestions ...') ?>
+                                    <br/>
+                                    <br/>
+                                </label>
+                                <textarea name="custom_scss"
+                                          id="custom_scss"
+                                          maxlength="16777215"
+                                          cols=""
+                                          rows="20"
+                                          class="input-flat"><?php echo $this->getApplication()->getCustomScss() ?></textarea>
+                            </div>
+                            <div class="sb-cb"></div>
+                        </div>
+                        <div class="col-sm-2 col-sm-offset-10">
+                            <button class="btn color-yellow pull-right"
+                                    id="save_scss"><?php echo __("Save") ?></button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </form>
+
+    <script type="text/javascript">
+
+		function resetIonic4() {
+			if (confirm('<?php echo __('Are you sure? Ionic colors will be reset in application.') ?>')) {
+				$("#mask").css("display","block");
+				$(".ionic-color").each(function() {
+					var el = $(this).find(".mini-box");
+					var child_id = el.attr("data-id");
+					var field = el.attr("data-field");					
+					var default_color = el.attr("data-default-value");
+					el.val(default_color);
+					/*el.css("background-color", default_color);
+					el.color=default_color;
+					$("#"+field+"_"+child_id).val(default_color);*/
+					//reload($('#ionic_data_'+field+"_"+child_id), $('#colorsForm').attr('action'), false, function () { /* empty*/});					
+				});
+				//Включим таймер на 5 сек, чтобы точно успело обновится
+				
+                setTimeout(function () {
+                   $("#mask").hide();
+                }, 5000);				
+
+			}		
+		
+		}	
+	
+        // Var overview!
+        let fakeContent = false;
+
+        // First replace link with scss!
+        let emptyCustomScss = "";
+        let template_css = "<?php echo addslashes(str_replace("\n", "", Template_Model_Design::generateCss($this->getApplication(), true, false, true))); ?>";
+        let template = template_css;
+        let scroller;
+
+
+        let mobileOverview = $("#mobile_overview");
+
+        let reloadMobileOverview = function () {
+            mobileOverview = $("#mobile_overview");
+        }
+
+        let canProcessImage = true;
+        function processImages() {
+            if (canProcessImage) {
+                canProcessImage = false;
+
+                reloadMobileOverview();
+                let overviewContents = mobileOverview.contents();
+
+                overviewContents.find("[option] img:visible").each(function (index, image) {
+                    let el = $(image);
+                    if (!el.next("img").length) {
+                        let newImage = el.clone();
+                        newImage.hide().insertAfter(image);
+                    }
+                });
+
+                overviewContents.find("[option] img").not(":visible").each(function (index, image) {
+                    let localImage = $(image);
+                    let color = $("#homepage-custom-image").val();
+                    let canvas = localImage.colorize(color, true);
+                    if (canvas) {
+                        localImage.prev("img").attr("src", canvas.toDataURL());
+                    }
+                });
+
+                setTimeout(function () {
+                    canProcessImage = true;
+                }, 200);
+            }
+        };
+
+        /** Event to catch page change in iframe overview */
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+
+        // Listen to message from child window
+        eventer(messageEvent, function (e) {
+            switch (e.data) {
+                case "state.go":
+                    setTimeout(function () {
+                        processImages();
+                    }, 100);
+                    setTimeout(function () {
+                        processImages();
+                    }, 500);
+                    setTimeout(function () {
+                        processImages();
+                    }, 2000);
+                    break;
+            }
+        }, false);
+
+        // Save color changes!
+        let updateColor = function (input, value, opacity) {
+            let inputs = $("input[data-blockid='"+input.attr("data-blockid")+"']");
+            let colors = {};
+            inputs.each(function (index, item) {
+                let $this = $(item);
+                colors[$this.attr("rel")] = $this.val();
+            });
+
+            $.ajax({
+                url: '/application/customization_design_colors/save-color',
+                method: 'POST',
+                data: {
+                    block_id: input.attr("data-blockid"),
+                    colors: colors
+                },
+                dataType: 'json',
+                success: function (data) {
+                    //form_su
+                },
+                error: function (response) {}
+            });
+        };
+
+
+        // Save color changes for IONIC4 colros
+        let updateIonicColor = function (input, value, opacity) {
+            let inputs = $("input[data-blockid='"+input.attr("data-blockid")+"']");
+            let colors = {};
+            inputs.each(function (index, item) {
+                let $this = $(item);
+                colors[$this.attr("rel")] = $this.val();
+            });
+
+
+            $.ajax({
+                url: '/application/customization_design_colors/save-color',
+                method: 'POST',
+                data: {
+                    block_id: input.attr("data-blockid"),
+                    colors: colors,
+                    return_ionic_colors: 1
+                },
+                dataType: 'json',
+                success: function (data) {
+                    //Тут надо переопределить stepped colors
+                    console.log(data.ionic_colors);
+                    $.each(data.ionic_colors, function (key, data) {
+                        console.log(key+": "+data);
+                        var reg_replace = key+":(.*?);";
+                        var replace_ionic = new RegExp(reg_replace,"g");
+                        template = template.replace(replace_ionic, key+": "+data+";");
+                        
+                        reloadMobileOverview();
+                        let overviewContents = mobileOverview.contents();
+
+                        // Remove old SCSS, adds new!
+                        overviewContents.find("#scss_live").remove();
+                        let link = overviewContents.find("style").last();
+                        link.after("<style id=\"scss_live\" type=\"text/css\">" + template + emptyCustomScss + "</style>");
+                        overviewContents.find("#scss_live").text(template + emptyCustomScss);
+                    });
+
+                },
+                error: function (response) {}
+            });
+        };
+
+        /** Then bind for onChange */
+        let processed = false;
+        let processing = false;
+        let triggerChange = function () {
+            console.log('Color change event');
+            if (processing) {
+                return;
+            }
+            processing = true;
+
+            try {
+                let template = template_css;
+                //console.log(template);
+                // Immediately apply colors!
+                //console.log(template);
+                $("input[type=hidden][data-index]").each(function () {
+                    let el = $(this),
+                        index = el.attr("data-index"),
+                        rgba = el.val();
+                    //console.log(el.data("variable")+": "+index+" :"+rgba);
+                    //template = template.replace(new RegExp(index, "g"), rgba);
+
+                    //ionic4
+                    var sel = el.data("variable");  
+                    if (sel.indexOf("--")!==-1) {
+                        console.log("Replace IONIC4 color:");
+                        console.log(sel);
+                        var reg_replace = sel+":(.*?);";
+                        var replace_ionic = new RegExp(reg_replace,"g");
+                        template = template.replace(replace_ionic, sel+": "+rgba+";");
+                        //console.log(template);
+                    } else {
+                        console.log(el.data("variable")+": "+index+" :"+rgba);
+                        template = template.replace(new RegExp(index, "g"), rgba);
+                    }
+
+                    // Colorize mini-color!
+                    let miniId = "#" + el.data("variable").replace("$", "");
+                    $(miniId).css("background-color", rgba);
+
+                    // Transparent color!
+                    let rgbaToReplace = /rgba\(12, 0, 2, 0\.2\)/gmi
+
+                    // Specific case for homepage layouts!
+                    if (el.attr("id") == "homepage_bg_receiver") {
+                        template = template.replace(rgbaToReplace, rgba);
+                    }
+                });
+
+                reloadMobileOverview();
+                let overviewContents = mobileOverview.contents();
+
+                // Remove old SCSS, adds new!
+                overviewContents.find("#scss_live").remove();
+                let link = overviewContents.find("style").last();
+                link.after("<style id=\"scss_live\" type=\"text/css\">" + template + emptyCustomScss + "</style>");
+                overviewContents.find("#scss_live").text(template + emptyCustomScss);
+
+                processing = false;
+            } catch(e) {
+                processing = false;
+            }
+        };
+
+        function refreshCss() {
+            triggerChange(false);
+        }
+
+        $(document).ready(function () {
+
+            $('#app_colors').hover(function () {
+                mobileOverview.show();
+                $('#homepage_overview').hide();
+                iframe.content = mobileOverview.contents();
+
+            }, function () {
+                return false;
+            });
+
+            /** Switch type  */
+            $(".switch_overview").on("click", function () {
+                document.getElementById("mobile_overview").src = "";
+                setTimeout(function () {
+                    document.getElementById("mobile_overview").src = overview_url;
+                }, 100);
+
+                $(".switch").addClass("button-inactive");
+                $(this).removeClass("button-inactive");
+                $(".change-overview-content").removeClass("inactive-section");
+                fakeContent = false;
+            });
+
+            $(".switch_colors").on("click", function () {
+                document.getElementById("mobile_overview").src = "";
+                setTimeout(function () {
+                    document.getElementById("mobile_overview").src = colors_url;
+                }, 100);
+
+                $(".switch").addClass("button-inactive");
+                $(this).removeClass("button-inactive");
+                fakeContent = true;
+            });
+
+
+            let saveScss = $("#save_scss");
+            saveScss.off("click");
+            saveScss.on("click", function (e) {
+                e.preventDefault();
+
+                var scss_value = $("#custom_scss").next(".CodeMirror").get(0).CodeMirror.getValue();
+                $("#custom_scss").val(scss_value);
+
+                $.ajax({
+                    url: '/application/customization_design_colors/save-custom',
+                    method: 'POST',
+                    data: {
+                        custom_scss: scss_value
+                    },
+                    dataType: 'json',
+                    success: function (data) {
+                        emptyCustomScss = scss_value;
+                        feature_form_success(data.message);
+                        refreshCss();
+                    },
+                    error: function (response) {
+                        emptyCustomScss = "";
+                        feature_form_error(JSON.parse(response.responseText).message);
+                    }
+                });
+
+                return false;
+            });
+
+            $.minicolors.defaults.changeDelay = 500;
+            $.minicolors.defaults.format = "rgb";
+            $.minicolors.defaults.opacity = true;
+            $.minicolors.defaults.displayValue = true;
+
+            $(".color-picker").each(function () {
+                let input = $(this);
+                input.minicolors({
+                    change: function(value, opacity) {
+                        triggerChange();
+                        updateColor(input, value, opacity);
+                    }
+                });
+            });
+			
+			/*ionic colors*/
+            $(".color-picker-ionic").each(function () {
+                let input = $(this);
+                input.minicolors({
+                    change: function(value, opacity) {
+                        triggerChange();
+                        updateIonicColor(input, value, opacity);
+                    },
+					format: "hex",
+					opacity: false
+                });
+            });			
+
+            /** Defaults to zero if no localStorage */
+            let toggle = 0;
+            if (typeof localStorage != "undefined") {
+                toggle = localStorage.getItem("show-scss");
+                if (toggle == null) {
+                    toggle = 0;
+                }
+            } else if (typeof sessionStorage != "undefined") {
+                toggle = sessionStorage.getItem("show-scss");
+                if (toggle == null) {
+                    toggle = 0;
+                }
+            }
+
+            $("#cb_on_off").on("click", function () {
+                let el = $("#cb_on_off");
+                let new_val = el.is(":checked") ? 1 : 0;
+                if (typeof localStorage != "undefined") {
+                    toggle = localStorage.setItem("show-scss", new_val);
+                } else if (typeof sessionStorage != "undefined") {
+                    toggle = sessionStorage.setItem("show-scss", new_val);
+                } else {
+                    toggle = new_val;
+                }
+                if (new_val == 1) {
+                    $("#row_scss").show();
+                } else {
+                    $("#row_scss").hide();
+                }
+            });
+
+            if (toggle == 1) {
+                $("#cb_on_off").click();
+            }
+
+
+            let textarea = document.getElementById("custom_scss");
+            let editor = CodeMirror.fromTextArea(textarea, {
+                matchBrackets: true,
+                autofocus: false,
+                mode: "text/x-scss",
+                lineNumbers: true,
+                colorpicker: true,
+                extraKeys: {
+                    "Ctrl-Space": "autocomplete"
+                }
+            });
+
+            setTimeout(function () {
+                editor.refresh();
+            }, 1000);
+
+
+            /**
+             * Sections toggler
+             */
+            let sectionLis = $(".color-sections li");
+            sectionLis.off("click");
+            sectionLis.on("click", function () {
+                let current = $(this);
+                let rel = current.attr("data-rel");
+                let section = $(".color-section[data-rel='"+rel+"']");
+                $(".color-section").hide();
+                section.show();
+                sectionLis.removeClass("color-yellow");
+                current.addClass("color-yellow");
+
+                // Show all!
+                if (rel === "all") {
+                    $(".color-section").show();
+                } else {
+                    if (fakeContent) {
+                        let rel = $(this).attr("data-rel");
+                        let name = $(this).attr("data-name");
+                        iframe.f.displayElement(rel, name);
+                    }
+                }
+            });
+
+            // Triggers the `all` section to open!
+            $($(".color-sections li").get(0)).trigger("click");
+
+            if (!$('#cb_on_off').is(':checked') && $('#custom_scss').val().trim() !== '') {
+                $('#cb_on_off').trigger('click');
+            }
+        });
+
+
+    </script>
+    <style>
+        .mini-color {
+            margin-bottom: 6px;
+        }
+
+        div.mini-box {
+            width: 22px;
+            height: 22px;
+            float: left;
+            margin-right: 10px;
+            border: 1px solid #303030;
+            border-radius: 2px;
+        }
+
+        .css-toggle {
+            margin-top: 0;
+            float: right;
+            margin-right: 10px;
+            font-size: 14px;
+            width: 100px;
+        }
+
+        .content-colors .custom-padding {
+            padding-top: 15px;
+            padding-bottom: 10px;
+        }
+
+        .custom-padding h6 {
+            margin-top: -5px;
+        }
+
+        h6 {
+            font-size: 12px;
+            text-align: left;
+            text-transform: uppercase !important;
+            border-bottom: 1px solid lightgrey;
+            background-color: #f0f0f0;
+            padding: 5px;
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+
+        .CodeMirror {
+            font-size: 12px;
+            background-color: #f3f3f3 !important;
+            border-color: #b2b1b1 !important;
+            border-bottom: 2px solid;
+            margin-bottom: 15px;
+        }
+
+        .keyb {
+            border: 1px solid grey;
+            border-radius: 2px;
+            background-color: white;
+            font-family: monospace;
+            font-size: 12px;
+            padding: 3px 5px;
+        }
+
+        /* only step COLORS */
+        .content-colors {
+            margin-bottom:15px;
+            padding-left: 0;
+        }
+
+        .content-color {
+            float: none !important;
+        }
+
+        ul.color-sections {
+            padding: 5px 0 5px 0;
+            list-style-type: none;
+        }
+
+        ul.color-sections li {
+            padding: 5px 5px 5px 15px;
+            text-transform: uppercase;
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+        div.color-section {
+            display: none;
+        }
+
+        .mini-color span.mini-text {
+            text-transform: uppercase;
+            font-size: 12px;
+            line-height: 22px;
+            filter: brightness(50%);
+            margin-left: 5px;
+        }
+
+        .minicolors-theme-default {
+            width: 22px !important;
+            height: 22px !important;
+            border: 1px solid #303030;
+            border-radius: 2px;
+        }
+
+        .minicolors input[type=hidden] + .minicolors-swatch {
+            width: 20px !important;
+            position: relative;
+        }
+
+        .minicolors-swatch {
+            border: 0;
+        }
+
+        .minicolors-theme-default .minicolors-swatch {
+            top: -1px;
+            left: 0px;
+            width: 20px !important;
+            height: 20px !important;
+        }
+
+        .minicolors-current-value {
+            font-family: monospace;
+            font-size: 12px;
+            color: #303030;
+        }
+
+        .minicolors-current-value input {
+            text-align: center;
+        }
+        .minicolors-panel {z-index:9999 !important;}
+        #mask {z-index:99999 !important;}
+
+    </style>
+
+</div>

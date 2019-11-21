@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <wallet_application_edit>
+        <views>
+            <content class="application_view_customization_features_edit_tabbareditor" 
+					 template="application/customization/features/edit/tabbar_editor.phtml" />
+            <content_editor class="core_view_default" 
+							template="wallet/application/edit.phtml" />
+        </views>
+    </wallet_application_edit>
+    <wallet_admin_panel>
+        <!--<addLayout name="admin_menu" />-->
+        <base>
+            <title>Wallet</title>
+        </base>
+        <views>
+            <content class="admin_view_default" template="wallet/admin/panel.phtml" />
+        </views>
+    </wallet_admin_panel>
+	<wallet_admin_dashboard>
+        <views>
+            <content class="admin_view_default" template="wallet/admin/dashboard.phtml" />
+        </views>	
+	</wallet_admin_dashboard>
+	<wallet_admin_settings>
+        <views>
+            <content class="admin_view_default" template="wallet/admin/settings.phtml" />
+        </views>	
+	</wallet_admin_settings>
+	<wallet_admin_customers>
+        <views>
+            <content class="admin_view_default" template="wallet/admin/customers.phtml" /> 
+        </views>	
+	</wallet_admin_customers>		
+</layout>

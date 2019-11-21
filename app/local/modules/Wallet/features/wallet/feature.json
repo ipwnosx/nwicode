@@ -1,0 +1,78 @@
+{
+    "name": "Wallet",
+    "code": "wallet",
+    "version": "1.0.1",
+    "category": "integration",
+    "model": "Wallet_Model_Wallet",
+    "desktop_uri": "wallet/application/",
+    "routes": [
+        {
+            "root": true,
+            "state": "wallet-view",
+            "controller": "WalletViewController",
+            "url": "wallet/mobile_view/index/value_id/:value_id",
+            "template": "view.html",
+            "layouts": {
+                "1": "l1"
+            },
+            "cache": false
+        },
+        {
+            "state": "wallet-transactions",
+            "controller": "WalletTransactionsController",
+            "url": "wallet/mobile_transactions/index/value_id/:value_id/wallet_customer_id/:wallet_customer_id",
+            "template": "history.html",
+            "layouts": {
+                "1": "l1"
+            },
+            "cache": false
+        },
+        {
+            "state": "wallet-payouts",
+            "controller": "WalletPayoutsController",
+            "url": "wallet/mobile_payouts/index/value_id/:value_id/wallet_customer_id/:wallet_customer_id",
+            "template": "payouts.html",
+            "layouts": {
+                "1": "l1"
+            },
+            "cache": false
+        },
+        {
+            "state": "wallet-bills",
+            "controller": "WalletBillsController",
+            "url": "wallet/mobile_bills/index/value_id/:value_id/wallet_customer_id/:wallet_customer_id",
+            "template": "bills.html",
+            "layouts": {
+                "1": "l1"
+            },
+            "cache": false
+        },
+        {
+            "state": "wallet-bill",
+            "controller": "WalletBillController",
+            "url": "wallet/mobile_bill/index/value_id/:value_id/wallet_customer_id/:wallet_customer_id/wallet_bill_id/:wallet_bill_id",
+            "template": "bill.html",
+            "layouts": {
+                "1": "l1"
+            },
+            "cache": false
+        }		
+    ],
+    "layouts": [
+        1
+    ],
+    "icons": [
+        "icons/wallet-1.png"
+	],
+    "files": [
+        "js/controllers/wallet.js",
+        "js/controllers/wallet-transactions.js",
+        "js/controllers/wallet-payouts.js",
+        "js/controllers/wallet-bills.js",
+        "js/factory/wallet.js",
+        "scss/wallet.scss"
+    ],
+    "compile": true,
+    "use_account": true,
+    "only_once": true
+}

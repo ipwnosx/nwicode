@@ -1,0 +1,1505 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-18T07:40:39+03:00\n"
+"PO-Revision-Date: 2019-07-18T07:40:39+03:00\n"
+"Language: \n"
+
+# GMT 1559644704.5058
+msgid "\"Remove this page from this folder?\""
+msgstr "Удалить эту страницу из этой папки?"
+
+# GMT 1559644704.5101
+msgid "#100: Unable to fetch the update. Please, try again later."
+msgstr "#100: не удается сделать обновление. Пожалуйста, повторите попытку позже."
+
+# GMT 1559644704.5145
+msgid "#101: An error occurred while saving"
+msgstr "#101: ошибка при сохранении"
+
+# GMT 1559644704.5188
+msgid "#101: Unable to fetch the update. Please, try again later."
+msgstr "#101: не удается сделать обновление. Пожалуйста, повторите попытку позже."
+
+# GMT 1559644704.5232
+msgid "#102: An error occurred while saving"
+msgstr "#102: ошибка при сохранении"
+
+# GMT 1559644704.5275
+msgid "#102: Unable to fetch the update. Please, try again later."
+msgstr "#102: не удается сделать обновление. Пожалуйста, повторите попытку позже."
+
+# GMT 1559644704.5318
+msgid "#103: An error occurred while saving. Please try again later."
+msgstr "#103: ошибка при сохранении. Пожалуйста, попробуйте снова позже."
+
+# GMT 1559644704.5357
+msgid "#104: An error occurred while saving. Please try again later."
+msgstr "#104: ошибка при сохранении. Пожалуйста, попробуйте снова позже."
+
+# GMT 1559644704.5401
+msgid "#105: An error occurred while saving"
+msgstr "#105: ошибка при сохранении"
+
+# GMT 1559644704.5444
+msgid "#106: An error occurred while saving"
+msgstr "#106: ошибка при сохранении"
+
+# GMT 1559644704.5488
+msgid "#107: An error occurred while saving"
+msgstr "#107: произошла ошибка при сохранении"
+
+# GMT 1559644704.5531
+msgid "#108: An error occurred while saving"
+msgstr "#108: ошибка при сохранении"
+
+# GMT 1559644704.5575
+msgid "#109: An error occurred while saving"
+msgstr "#109: ошибка при сохранении"
+
+# GMT 1559644704.5618
+msgid "#110: An error occurred while saving"
+msgstr "#110: ошибка при сохранении"
+
+# GMT 1559644704.5654
+msgid "#111: An error occurred while saving"
+msgstr "#111: ошибка при сохранении"
+
+# GMT 1559644704.5697
+msgid "#112: An error occurred while saving"
+msgstr "#112: ошибка при сохранении"
+
+# GMT 1559644704.5734
+msgid "#114: An error occurred while saving"
+msgstr "#114: ошибка при сохранении"
+
+# GMT 1559644704.5777
+msgid "#115: An error occurred while saving"
+msgstr "#115: ошибка при сохранении"
+
+# GMT 1559644704.5821
+msgid "#116: An error occurred while saving"
+msgstr "#116: ошибка при сохранении"
+
+# GMT 1559644704.5864
+msgid "#117: An error occurred while saving"
+msgstr "#117: ошибка при сохранении"
+
+# GMT 1559644704.5907
+msgid "#118: An error occurred while saving"
+msgstr "#118: ошибка при сохранении"
+
+# GMT 1559644704.5951
+msgid "#119: An error occurred while saving"
+msgstr "#119: ошибка при сохранении"
+
+# GMT 1559644704.5994
+msgid "#120: An error occurred while saving"
+msgstr "#120: ошибка при сохранении"
+
+# GMT 1559644704.6033
+msgid "#121: An error occurred while saving"
+msgstr "#121: произошла ошибка при сохранении"
+
+# GMT 1559644704.6076
+msgid "#122: An error occurred while saving"
+msgstr "#122: ошибка при сохранении"
+
+# GMT 1559644704.6119
+msgid "#123: An error occurred while saving"
+msgstr "#123: ошибка при сохранении"
+
+# GMT 1559644704.6156
+msgid "#156: Missing params!"
+msgstr "#156: отсутствуют параметры!"
+
+# GMT 1559644704.6192
+msgid "#19-001 The folder %s is not writable. Please fix this issue and try again."
+msgstr "#19-001 в папке %s недоступен для записи. Пожалуйста, исправьте эту проблему и попробуйте снова."
+
+# GMT 1559644704.6235
+msgid "#19-002 Unable to extract the archive. Please make sure that the 'zip' extension is installed."
+msgstr "#19-002 не удалось распаковать архив. Пожалуйста, убедитесь, что установлено расширение 'молния' это."
+
+# GMT 1559644704.6279
+msgid "#19-003: This update is designed for the %s, you can't install it in your %s."
+msgstr "#19-003: это обновление предназначено для %s, вы не можете установить его в ваш %s."
+
+# GMT 1559644704.6322
+msgid "#19-004: You already have installed this update."
+msgstr "#19-004: вы уже установили это обновление."
+
+# GMT 1559644704.6366
+msgid "#19-005: Please update your system to the %s version before installing this update."
+msgstr "#19-005: пожалуйста, обновите вашу систему до %s версии перед установкой этого обновления."
+
+# GMT 1559644704.6409
+msgid "#19-007: Please update your system to the %s version before installing this update."
+msgstr "#19-007: пожалуйста, обновите вашу систему до %s версии перед установкой этого обновления."
+
+# GMT 1559644704.6453
+msgid "#19-008: You already have installed this template."
+msgstr "#19-008: вы уже установили этот шаблон."
+
+# GMT 1559644704.6496
+msgid "#19-009: Please update your system to the %s version before installing this update."
+msgstr "#19-009: пожалуйста, обновите вашу систему до %s версии перед установкой этого обновления."
+
+# GMT 1559644704.654
+msgid "#19-010: The package you have uploaded is invalid."
+msgstr "#19-010: пакет, который вы выложили, является недействительным."
+
+# GMT 1559644704.6583
+msgid "#19-011: The package you have uploaded is invalid."
+msgstr "#19-011: пакет, который вы выложили, является недействительным."
+
+# GMT 1559644704.6628
+msgid "#19-013: The folder %s is not writable."
+msgstr "#19-013: в папке %s недоступен для записи."
+
+# GMT 1559644704.6671
+msgid "#19-014: Your system doesn't meet the requirements for this module, version >=%s is required."
+msgstr "#19-014: ваша система не удовлетворяет требованиям для данного модуля, версия >=%S не требуется."
+
+# GMT 1559644704.6715
+msgid "#19-016: You already have installed this %s or a newer version."
+msgstr "#19-016: вы уже установили этот %s или более новой версии."
+
+# GMT 1559644704.6756
+msgid "#354-01: An error occurred while saving your colors."
+msgstr "#354-01: ошибка при сохранении своего цвета."
+
+# GMT 1559644704.6795
+msgid "#354-02: An error occurred while saving your colors."
+msgstr "#354-02: ошибка при сохранении своего цвета."
+
+# GMT 1559644704.6838
+msgid "#354-03: SCSS Compilation error, you must input valid SCSS."
+msgstr "#354-03: ошибка компиляции SCSS, вы должны ввести действительный SCSS."
+
+# GMT 1559644704.6882
+msgid "#498-01: An error occured while exporting your application."
+msgstr "#498-01: ошибка при экспорте приложения."
+
+# GMT 1559644704.6925
+msgid "#500-01: This application does not exist"
+msgstr "#500-01: это приложение не существует"
+
+# GMT 1559644704.6969
+msgid "#500-02: This application does not exist"
+msgstr "#500-02: это приложение не существует"
+
+# GMT 1559644704.7012
+msgid "#567-03: Missing value_id or place_id."
+msgstr "#567-03: отсутствует value_id или place_id."
+
+# GMT 1559644704.7056
+msgid "#567-04: An error occured."
+msgstr "#567-04: произошла ошибка."
+
+# GMT 1559644704.7091
+msgid "#567-07: Missing value_id or place_id."
+msgstr "#567-07: отсутствует value_id или place_id."
+
+# GMT 1559644704.7134
+msgid "#567-09: Missing value_id or company_id."
+msgstr "#567-09: отсутствует value_id или company_id."
+
+# GMT 1559644704.7177
+msgid "#734-01: Missing yandex API key"
+msgstr "#734-01: отсутствует ключ API Яндекс"
+
+# GMT 1559644704.7221
+msgid "#734-03: Invalid yandex API key OR Free limit request exceeded."
+msgstr "#734-03: неверный ключ API Яндекс или бесплатный лимит запросов превышен."
+
+# GMT 1559644706.1015
+msgid "%s - Access to your personal data."
+msgstr "%s - доступ к вашим персональным данным."
+
+# GMT 1559644705.3948
+msgid "(Offline)"
+msgstr "(Offline)"
+
+# GMT 1559644704.5014
+msgid "-"
+msgstr "-"
+
+# GMT 1559644706.0052
+msgid "<a href=\"%s\" target=\"_blank\">Click here for more information about AdMob</a>"
+msgstr "<a href=\"%s\" target=\"_blank\">Нажмите здесь для получения дополнительной информации о компании AdMob</а>"
+
+# GMT 1559644706.0096
+msgid "<a href=\"%s\">Click here</a> to go back to your applications list"
+msgstr "<a href=\"%s\" target=\"_blank\">Нажмите здесь</a>, чтобы вернуться к списку приложений"
+
+# GMT 1559644706.0131
+msgid "<b>File type:</b> %s<br /><b>Recommended size:</b> %s"
+msgstr "<b>тип файла:</b> %s<br /><b>размер:</b> %s"
+
+# GMT 1559644706.0174
+msgid "<b>Geolocation</b> option for the Overview & HTML5 will be displayed & work only when using HTTPS, however it works in Android & iOS apps without HTTPS."
+msgstr "Параметр <b> Геолокация </b> для обзора и HTML5 будет отображаться и работать только при использовании HTTPS, однако он работает в приложениях для Android и iOS без HTTPS."
+
+# GMT 1559644706.0209
+msgid "<button class=\"add btn color-blue\" type=\"button\"><i class=\"fa fa-plus-circle\"></i><span> Click to add an item</span></button>"
+msgstr "<button class=\"add btn color-blue\" type=\"button\"><i class=\"fa fa-plus-circle\"></i><span> Нажмите, чтобы добавить пункт</span></button>"
+
+# GMT 1559644706.068
+msgid "<img src=\"%s\" width=\"160\" title=\"%s\" />"
+msgstr "<img src=\"%s\" width=\"160\" title=\"%s\" />"
+
+# GMT 1559644704.7257
+msgid "A e-mail has been sent to %s, please check your inbox."
+msgstr "Электронное письмо было отправлено на %s, пожалуйста, проверьте свой почтовый ящик."
+
+# GMT 1559644704.73
+msgid "A place can belong to multiple categories."
+msgstr "Место может принадлежать нескольким категориям."
+
+# GMT 1559644704.7344
+msgid "ACTIVATE"
+msgstr "Активировать"
+
+# GMT 1559644704.7388
+msgid "Above 50 active whitelabels, Nwicode's automated Let's Encrypt SSL certificate generation is not supported."
+msgstr "Более 50 активных whitelabels не поддерживается автоматической генерацией SSL-сертификата Let's Encrypt в Nwicode."
+
+# GMT 1559644704.7431
+msgid "Accepted Terms of Service"
+msgstr "Принял условия предоставления услуг"
+
+# GMT 1559644704.7475
+msgid "Account Settings"
+msgstr "Настройки учетной записи"
+
+# GMT 1559644704.7518
+msgid "Action '{$action}' executed for module '{$module}'."
+msgstr "Действие '{$action}' выполнено для модуля '{$module}'."
+
+# GMT 1559644704.7562
+msgid "Add an <br /><span class=\"bold\">image</span>"
+msgstr "Добавить  <br /><span class=\"bold\">изображение</span>"
+
+# GMT 1559644704.7605
+msgid "Add<br /><span class=\"bold\">Attachment</span>"
+msgstr "Добавить<br /><span class=\"bold\">вложения</span>"
+
+# GMT 1559644704.7649
+msgid "Add<br /><span class=\"bold\">Pictures</span>"
+msgstr "Добавить<br /><span class=\"bold\">фотографии</span>"
+
+# GMT 1559644704.7692
+msgid "Addresses blocks can now have a website & a phone number."
+msgstr "Адреса блоки, теперь можете добавить свой сайт и номер телефона."
+
+# GMT 1559644704.7736
+msgid "Ads type"
+msgstr "Тип объявления"
+
+# GMT 1559644704.778
+msgid "After the upgrade you will be required to upload new homepage & splashscreen, actual homepages & splashscreens can still be downloaded."
+msgstr "Для обновления вам необходимо загрузить новую страницу и заставку, старые изображения и splashscreens еще можно скачать."
+
+# GMT 1559644704.7823
+msgid "All places"
+msgstr "Все места"
+
+# GMT 1559644704.7867
+msgid "Allow line return?"
+msgstr "Начать обратку?"
+
+# GMT 1559644704.791
+msgid "Alphabetically"
+msgstr "По алфавиту"
+
+# GMT 1559644704.7953
+msgid "An error occurred while processing the payment."
+msgstr "Произошла ошибка при обработке платежа."
+
+# GMT 1559644704.7996
+msgid "Android 4.4+"
+msgstr "Андроид 4.4+"
+
+# GMT 1559644704.804
+msgid "Android Studio 3+"
+msgstr "Android-Студия 3+"
+
+# GMT 1559644704.8084
+msgid "Android being more restrictive with screen orientation some combination are not possible."
+msgstr "Android более ограничен в отношении ориентации экрана, некоторые комбинации невозможны."
+
+# GMT 1559644704.8127
+msgid "Android only (You must set a Firebase Key)"
+msgstr "Только для Android (вы должны установить ключ  Firebase)"
+
+# GMT 1559644704.8171
+msgid "Android orientation is invalid!"
+msgstr "Ориентация Android является недействительной!"
+
+# GMT 1559644704.8214
+msgid "Android orientation settings"
+msgstr "Параметры ориентации андроид"
+
+# GMT 1559644704.8258
+msgid "Api User"
+msgstr "Пользователь API"
+
+# GMT 1559644704.8302
+msgid "Apple"
+msgstr "Apple"
+
+# GMT 1559644704.8345
+msgid "Application %s"
+msgstr "Приложение %s"
+
+# GMT 1559644704.8388
+msgid "Application_Mobile_DataController::findall, class: {$model} doesn't exists."
+msgstr "Application_Mobile_DataController::не существует метод findAll, класс: {$model} ."
+
+# GMT 1559644704.8475
+msgid "Are you sure you want to delete this discount?"
+msgstr "Вы уверены, что хотите удалить эту скидку?"
+
+# GMT 1559644704.8518
+msgid "Background Color - Active"
+msgstr "Цвет Фона - Активный"
+
+# GMT 1559644704.8561
+msgid "Background Color - Hover"
+msgstr "Цвет Фона При Наведении Курсора"
+
+# GMT 1559644704.8604
+msgid "Backoffice access"
+msgstr "Офис"
+
+# GMT 1559644704.8648
+msgid "Backoffice page Title"
+msgstr "Название в браузере"
+
+# GMT 1559644704.8691
+msgid "Backoffice theme (BETA)"
+msgstr "Оформление бэкофиса (бета)"
+
+# GMT 1559644704.8734
+msgid "Banner ID"
+msgstr "ID баннера"
+
+# GMT 1559644704.8778
+msgid "Before you can generate your application, you must upload new homepage & splashscreen."
+msgstr "Прежде чем вы можете создать приложение, вы должны загрузить новый фон и стартовую страницу"
+
+# GMT 1559644704.8821
+msgid "Before you can re-publish your application, you must upgrade it to the new <b>unified</b> homepage & splashscreen."
+msgstr "Прежде чем вы сможете повторно опубликовать приложение, вы должны обновить его до новой <b>ВЕРСИИ</b>с единым фоном и стартовой картинкой."
+
+# GMT 1559644704.8864
+msgid "Build failed!"
+msgstr "Сгенерировать не удалось!"
+
+# GMT 1559644704.8907
+msgid "Build succeed!"
+msgstr "Сгенерировано!"
+
+# GMT 1559644704.8947
+msgid "By checking this box, you agree <a href=\"%s\" target=\"_blank\" class=\"underline\">to our terms and conditions</a>"
+msgstr "Установив этот флажок, вы соглашаетесь с <a href=\"%s\" target=\"_blank\" class=\"underline\">нашими условиями</а>"
+
+# GMT 1559644704.899
+msgid "CANCEL"
+msgstr "Отменить"
+
+# GMT 1559644704.9034
+msgid "CSS Editor is saved!"
+msgstr "Редактор CSS сохранен!"
+
+# GMT 1559644704.9077
+msgid "Cancel Subscription"
+msgstr "Отменить подписку"
+
+# GMT 1559644704.912
+msgid "Cancel current Offline subscription"
+msgstr "Отменить текущий автономный план подписки"
+
+# GMT 1559644704.9163
+msgid "Cancel subscription!"
+msgstr "Отменить подписку!"
+
+# GMT 1559644704.9207
+msgid "Cancelled and expired"
+msgstr "Отменен"
+
+# GMT 1559644704.9251
+msgid "Cancelled to be expired"
+msgstr "Аннулировано, истек"
+
+# GMT 1559644704.9294
+msgid "Catalog is up-to-date."
+msgstr "Каталог является актуальным."
+
+# GMT 1559644704.9338
+msgid "Category is up-to-date."
+msgstr "Категория является актуальной."
+
+# GMT 1559644704.9381
+msgid "Channel: #security, #notifications, etc..."
+msgstr "Канал: #безопасности, #уведомления, и т. д..."
+
+# GMT 1559644704.9425
+msgid "Check payments"
+msgstr "Чек"
+
+# GMT 1559644704.9469
+msgid "Choose your font family"
+msgstr "Выберите любой шрифт"
+
+# GMT 1559644704.9513
+msgid "Clean-up sensible data"
+msgstr "Очистка  данных"
+
+# GMT 1559644704.9557
+msgid "Click here for more information about AdMob"
+msgstr "Кликните здесь для получения дополнительной информации о компании AdMob"
+
+# GMT 1559644704.9601
+msgid "Click here to send your fullchain"
+msgstr "Нажмите здесь, чтобы отправить"
+
+# GMT 1559644704.9644
+msgid "Click on a page to add it to the folder <span id=\"folder_name\" class=\"folder_name\">\"%s\"</span>"
+msgstr "Нажмите на функцию, чтобы добавить её в папку <span id=\"имя_папки\">\"%s\"</span>"
+
+# GMT 1559644704.9688
+msgid "Cram-MD5"
+msgstr "Cram-MD5"
+
+# GMT 1559644704.9731
+msgid "Create a new category"
+msgstr "Создать новую категорию"
+
+# GMT 1559644704.9768
+msgid "Custom font"
+msgstr "Ваш шрифт"
+
+# GMT 1559644704.9811
+msgid "DEACTIVATE"
+msgstr "Выкл"
+
+# GMT 1559644704.9851
+msgid "Default layout"
+msgstr "Макет по умолчанию"
+
+# GMT 1559644704.9894
+msgid "Default page"
+msgstr "Страница по умолчанию"
+
+# GMT 1559644704.9937
+msgid "Delete category!"
+msgstr "Категория удалить!"
+
+# GMT 1559644704.9981
+msgid "Delete product!"
+msgstr "Удалить продукт!"
+
+# GMT 1559644705.0018
+msgid "Display"
+msgstr "Дисплей"
+
+# GMT 1559644705.0061
+msgid "Display phone"
+msgstr "Дисплей телефона"
+
+# GMT 1559644705.0104
+msgid "Display website"
+msgstr "Сайт дисплей"
+
+# GMT 1559644705.0148
+msgid "Download CA"
+msgstr "Скачать CA"
+
+# GMT 1559644705.0189
+msgid "Download Certificate"
+msgstr "Сертификат Скачать"
+
+# GMT 1559644705.0233
+msgid "Download Private"
+msgstr "Скачать"
+
+# GMT 1559644705.0276
+msgid "Download icon pack example"
+msgstr "Скачать пример иконок"
+
+# GMT 1559644705.0319
+msgid "Download non-unified previous images!"
+msgstr "Скачать необработанные предыдущие фото!"
+
+# GMT 1559644705.0358
+msgid "During the <b>beta</b> stage, themes are likely to evolve slightly."
+msgstr "На этапе <b> бета </b> темы могут развиваться незначительно."
+
+# GMT 1559644705.0401
+msgid "E-Mail render preview"
+msgstr "Электронная почта предварительная отрисовка"
+
+# GMT 1559644705.0618
+msgid "E-mail is required in order to test SMTP"
+msgstr "Электронная почта необходима для того, чтобы проверить SMTP"
+
+# GMT 1559644705.0574
+msgid "E-mail is required!"
+msgstr "E-mail обязательно!"
+
+# GMT 1559644705.0653
+msgid "E-mail test"
+msgstr "Электронная почта тест"
+
+# GMT 1559644705.0444
+msgid "Editing subscription:"
+msgstr "Подписка на приложение:"
+
+# GMT 1559644705.0487
+msgid "Editor access"
+msgstr "Редактор"
+
+# GMT 1559644705.053
+msgid "Elegance"
+msgstr "Элегантность"
+
+# GMT 1559644705.0696
+msgid "Enable search"
+msgstr "Включить поиск"
+
+# GMT 1559644705.0731
+msgid "Enabled?"
+msgstr "Включен?"
+
+# GMT 1559644705.0774
+msgid "Enter the token you received by e-mail to access your personal data."
+msgstr "Введите токен, который вы получили по электронной почте, чтобы получить доступ к вашим персональным данным."
+
+# GMT 1559644705.0817
+msgid "Environment is"
+msgstr "Окружающая среда"
+
+# GMT 1559644705.086
+msgid "Everything seems ok."
+msgstr "Вроде все ок."
+
+# GMT 1559644705.0904
+msgid "Example: https://hooks.slack.com/services/XDEFFE/DE45GFV/RxwdF4bnhtRDsqsqzd234,"
+msgstr "Пример: https://hooks.slack.com/services/XDEFFE/DE45GFV/RxwdF4bnhtRDsqsqzd234,"
+
+# GMT 1559644705.0948
+msgid "FIX"
+msgstr "Исправить"
+
+# GMT 1559644705.0991
+msgid "Feature this place?"
+msgstr "Особенность этого места?"
+
+# GMT 1559644705.1035
+msgid "Featured label"
+msgstr "Представленный лейбл"
+
+# GMT 1559644705.1078
+msgid "Features to export & Options"
+msgstr "Возможности для экспорта и параметры"
+
+# GMT 1559644705.1112
+msgid "Feed URL <span class=\"required-entry\">*</span> :"
+msgstr "URL-адрес канала новостей <span class=\"обязательно\">*</span> :"
+
+# GMT 1559644705.1155
+msgid "Field name:"
+msgstr "Название поля:"
+
+# GMT 1559644705.1198
+msgid "Firebase Cloud Messaging"
+msgstr "Firebase Cloud Messaging"
+
+# GMT 1559644705.1241
+msgid "Folder is up-to-date."
+msgstr "Папка является актуальной."
+
+# GMT 1559644705.1284
+msgid "Font saved!"
+msgstr "Шрифт сохранён!"
+
+# GMT 1559644705.1328
+msgid "For instance <b>Account A</b> creates an app, all other accounts tied to this app, will have the <b>publication type settings of the Account A</b>."
+msgstr "Например, теги <b>Account A</b>, и создает приложение, все другие аккаунты привязаны к этому приложению, будут иметь теги <b>Тип издания в настройках аккаунта</b>."
+
+# GMT 1559644705.1371
+msgid "For more information, please feel free to contact us."
+msgstr "Для получения более подробной информации, пожалуйста, не стесняйтесь связаться с нами."
+
+# GMT 1559644705.1414
+msgid "Forgot your password ?"
+msgstr "Забыли пароль ?"
+
+# GMT 1559644705.1502
+msgid "Fulltext"
+msgstr "Полнотекстовый"
+
+# GMT 1559644705.1545
+msgid "Gallery Name <span class=\"required-entry\">*</span> :"
+msgstr "Галерея имя <span class=\"required-entry\">*</span> :"
+
+# GMT 1559644705.1589
+msgid "Global notifications"
+msgstr "Глобальные уведомления"
+
+# GMT 1559644705.1632
+msgid "Go back to homepage"
+msgstr "Вернуться на главную страницу"
+
+# GMT 1559644705.1672
+msgid "Google"
+msgstr "Google"
+
+# GMT 1559644705.1715
+msgid "Google Cloud Messaging (GCM, Deprecated)"
+msgstr "Google облако сообщений (GCM, устаревший)"
+
+# GMT 1559644705.1759
+msgid "Grid view"
+msgstr "Вид сетки"
+
+# GMT 1559644705.1845
+msgid "How to install the cron scheduler ?"
+msgstr "Как установить cron-планировщик ?"
+
+# GMT 1559644705.1888
+msgid "I agree to receive information & commercial offers about the WhiteLabel program."
+msgstr "Я согласен получать информационные и коммерческие предложения о продуктах NWICODE"
+
+# GMT 1559644705.1931
+msgid "I have a Google developer account"
+msgstr "У меня есть аккаунт разработчика Google"
+
+# GMT 1559644705.1974
+msgid "I have read & agree the Terms of Service"
+msgstr "Я прочитал и принимаю условия обслуживания"
+
+# GMT 1559644705.2018
+msgid "IMPERSONATE"
+msgstr "ПЕРЕЙТИ"
+
+# GMT 1559644705.2061
+msgid "If you need it to work you will need to manually generate your corresponding SSL certificate."
+msgstr "Если вам нужно, чтобы он работал, вам нужно будет вручную создать соответствующий SSL-сертификат."
+
+# GMT 1559644705.2104
+msgid "In case your Stripe subscription is not linked (ie: missing or wrong sub_xxxx id), you can search the right reference here and apply it to the subscription."
+msgstr "В случае, если ваша подписка Stripe не связана (т. Е. Отсутствует или неверный идентификатор sub_xxxx), вы можете найти правильную ссылку здесь и применить ее к подписке."
+
+# GMT 1559644705.2148
+msgid "In-App links"
+msgstr "В приложении ссылки"
+
+# GMT 1559644705.2191
+msgid "Inactive, Cancelled or Expired"
+msgstr "Не активен, аннулировано или истек"
+
+# GMT 1559644705.2235
+msgid "Insert a <br /><span class=\"bold\">cover image</span>"
+msgstr "Вставить в <br /><span class=\"bold\">фото</span>"
+
+# GMT 1559644705.2278
+msgid "Insert a <span class=\"bold\">cover image</span>"
+msgstr "Вставить <span class=\"bold\">фото</span>"
+
+# GMT 1559644705.2321
+msgid "Installing module <em><span id=\"label_module\"></span></em>"
+msgstr "Установка модуля <em><span id=\"label_module\"></span></em>"
+
+# GMT 1559644705.2364
+msgid "Interstitial ID"
+msgstr "Интерстициальный ИД"
+
+# GMT 1559644705.2408
+msgid "Invoice N°"
+msgstr "Счет №"
+
+# GMT 1559644705.2451
+msgid "Is self assignable (a user with a self-assignable role can create users with the same role)"
+msgstr "Само назначение (пользователь самостоятельно может переназначить роль и создавать пользователей с одной и той же ролью)"
+
+# GMT 1559644705.2495
+msgid "Kilometers"
+msgstr "Километров"
+
+# GMT 1559644705.2626
+msgid "Licenses"
+msgstr "Лицензии"
+
+# GMT 1559644705.2664
+msgid "List view"
+msgstr "Вид списка"
+
+# GMT 1559644705.2707
+msgid "Loading ..."
+msgstr "Загрузка ..."
+
+# GMT 1559644705.275
+msgid "Location settings"
+msgstr "Настройки местоположения"
+
+# GMT 1559644705.2794
+msgid "M-Commerce"
+msgstr "M-Коммерция"
+
+# GMT 1559644705.2837
+msgid "Mail logger"
+msgstr "Адрес регистратора"
+
+# GMT 1559644705.2881
+msgid "Mail logs"
+msgstr "Почтовые логи"
+
+# GMT 1559644705.2925
+msgid "Main nwicode domain"
+msgstr "Основной домен nwicode"
+
+# GMT 1559644705.2968
+msgid "Mais encore ?"
+msgstr "Но все же?"
+
+# GMT 1559644705.3012
+msgid "Manage tour"
+msgstr "Управление тур"
+
+# GMT 1559644705.3055
+msgid "Miles"
+msgstr "Миль"
+
+# GMT 1559644705.3098
+msgid "Missing font family!"
+msgstr "Отсутствует параметры шрифтов!"
+
+# GMT 1559644705.3142
+msgid "Missing name parameter."
+msgstr "Отсутствует параметр name."
+
+# GMT 1559644705.3186
+msgid "Missing params."
+msgstr "Недостающие параметры."
+
+# GMT 1559644705.3225
+msgid "Missing value_id."
+msgstr "Отсутствует value_id."
+
+# GMT 1559644705.3268
+msgid "Modern"
+msgstr "Современные"
+
+# GMT 1559644705.3311
+msgid "Module installed/updated"
+msgstr "Установлен модуль/обновление"
+
+# GMT 1559644705.3354
+msgid "Monetize my app using AdMob"
+msgstr "Монетизировать приложения, использующие AdMob"
+
+# GMT 1559644705.3435
+msgid "My users"
+msgstr "Мои пользователи"
+
+# GMT 1559644705.3478
+msgid "MySQL (Default)"
+msgstr "В MySQL (По Умолчанию)"
+
+# GMT 1559644705.3522
+msgid "NO"
+msgstr "Нет"
+
+# GMT 1559644705.3563
+msgid "Nearest"
+msgstr "Ближайшие"
+
+# GMT 1559644705.3607
+msgid "New backoffice themes are available, check them out <a href=\"/system/backoffice_config_design\">here</a>."
+msgstr "Доступны новые темы backoffice, ознакомьтесь с ними<a href=\"/system/backoffice_config_design\"> здесь</a>."
+
+# GMT 1559644705.365
+msgid "New publication request on your platform %s, for the Application %s."
+msgstr "Новый запрос на публикацию на вашей платформе %s, для приложения %s."
+
+# GMT 1559644705.3693
+msgid "No result found."
+msgstr "Нет."
+
+# GMT 1559644705.3738
+msgid "No results."
+msgstr "Нет результатов."
+
+# GMT 1559644705.3781
+msgid "Non-featured label"
+msgstr "Не представленный лейблом"
+
+# GMT 1559644705.3824
+msgid "Note: the migration will only work if redis is configured & running!"
+msgstr "Примечание: миграция будет работать только если Рэдис настроен и работает!"
+
+# GMT 1559644705.3868
+msgid "Note: we recommand to install under the web user to maintain file & folders permissions, but if this is not possible at all you can install it under the root user."
+msgstr "Примечание: мы рекомендуем установить под веб-пользователей, чтобы сохранить разрешения для файлов и папок, но если это не возможно, вы можете установить его под пользователя root."
+
+# GMT 1559644705.3905
+msgid "Nothing to do!"
+msgstr "Ничего не делать!"
+
+# GMT 1559644705.6
+msgid "Nwicode main domain (without https?://) is required for services, and tools."
+msgstr "Основной домен Nwicode (без https?: //) необходим для сервисов и инструментов."
+
+# GMT 1559644705.3983
+msgid "Offline awaiting validation"
+msgstr "В автономном режиме в ожидании проверки"
+
+# GMT 1559644705.4026
+msgid "Ok, proceed to minimal upgrade!"
+msgstr "ОК, переходим на минимальное обновление!"
+
+# GMT 1559644705.4069
+msgid "Ok, skip automated upgrade!"
+msgstr "ОК, пропустить автоматическое обновление!"
+
+# GMT 1559644705.4113
+msgid "Only active subscriptions not linked are shown below!"
+msgstr "Только активные подписки не связаны показаны ниже!"
+
+# GMT 1559644705.4156
+msgid "Only showing latest 100 e-mail logs."
+msgstr "Показывает только последние 100 записей в электронной почте."
+
+# GMT 1559644705.4199
+msgid "Opt-in e-mails"
+msgstr "добровольная рассылка"
+
+# GMT 1559644705.4243
+msgid "Order places by"
+msgstr "Поиск мест по"
+
+# GMT 1559644705.4286
+msgid "Outstanding balance of %s %s."
+msgstr "Остаток на  %s %s."
+
+# GMT 1559644705.4329
+msgid "Owner / Application"
+msgstr "Владелец / Приложения"
+
+# GMT 1559644705.4373
+msgid "PNG icons are recommended for a better display result."
+msgstr "Иконки PNG- рекомендуется для лучшего результата отображения."
+
+# GMT 1559644705.4416
+msgid "Page design"
+msgstr "Дизайн страницы"
+
+# GMT 1559644705.446
+msgid "Path to your Fullchain"
+msgstr "Путь к Fullchain"
+
+# GMT 1559644705.4503
+msgid "PayPal subscription is Active"
+msgstr "Подписка PayPal является активной"
+
+# GMT 1559644705.4547
+msgid "PayPal subscription is now correctly synced and will correctly expire by %s!"
+msgstr "Подписка PayPal теперь правильно синхронизированы и истекает  %s!"
+
+# GMT 1559644705.459
+msgid "Places upgrade! New version with a better search engine, categories & display options."
+msgstr "Места апгрейд! Новая версия лучшего поисковика, категории и параметры отображения."
+
+# GMT 1559644705.4634
+msgid "Plan"
+msgstr "План"
+
+# GMT 1559644705.4678
+msgid "Platform contact informations"
+msgstr "Платформа контактная информация"
+
+# GMT 1559644705.4765
+msgid "Position"
+msgstr "Положение"
+
+# GMT 1559644705.4801
+msgid "Proceed to full ugrade!"
+msgstr "Перейти на полную !"
+
+# GMT 1559644705.4839
+msgid "Proceed to ugrade!"
+msgstr "Перейти к скачать!"
+
+# GMT 1559644705.4882
+msgid "Product is up-to-date."
+msgstr "Товар актуален."
+
+# GMT 1559644705.4925
+msgid "Publication request"
+msgstr "Запрос на публикацию"
+
+# GMT 1559644705.4969
+msgid "Publication type"
+msgstr "Тип издания"
+
+# GMT 1559644705.5013
+msgid "REDUCE"
+msgstr "Уменьшить"
+
+# GMT 1559644705.5056
+msgid "RESTORE"
+msgstr "Восстановить"
+
+# GMT 1559644705.51
+msgid "Re-check payments"
+msgstr "Повторная проверка платежей"
+
+# GMT 1559644705.5143
+msgid "Recipients"
+msgstr "Получатели"
+
+# GMT 1559644705.5273
+msgid "Redis (requires to install php-redis & Redis server)"
+msgstr "Рэдис (требуется для установки PHP-Redis в & сервер Redis)"
+
+# GMT 1559644705.5187
+msgid "Redis AUTH KEY, only required if configured on your Redis server."
+msgstr "Ключевые Redis для авторизации требуется только если настроен на ваш сервер Redis."
+
+# GMT 1559644705.523
+msgid "Redis enpoint (example: tcp://127.0.0.1:6379)"
+msgstr "Рэдис enpoint (пример: TCP://127.0.0.1:6379)"
+
+# GMT 1559644705.5317
+msgid "Refresh available Teams & Providers"
+msgstr "Обновление существующих команд и поставщиков"
+
+# GMT 1559644705.536
+msgid "SELECT"
+msgstr "Выберите"
+
+# GMT 1559644705.5404
+msgid "SYNC"
+msgstr "Синхронизация"
+
+# GMT 1559644705.5448
+msgid "Safe in portrait & landscape"
+msgstr "Безопасный в портрет и пейзаж"
+
+# GMT 1559644705.5491
+msgid "Safe in portrait (locked)"
+msgstr "Безопасный в портрет (заблокировано)"
+
+# GMT 1559644705.5578
+msgid "Save settings & Publish"
+msgstr "Сохранить настройки и публикации"
+
+# GMT 1559644705.5622
+msgid "Search, filter ..."
+msgstr "Поиск, фильтр ..."
+
+# GMT 1559644705.5665
+msgid "Secondary category (optional)"
+msgstr "Вторичная категория (опционально)"
+
+# GMT 1559644705.5708
+msgid "Security logs (last 50 triggers)"
+msgstr "Безопасности журналы (последние 50 триггеры)"
+
+# GMT 1559644705.5752
+msgid "Sender"
+msgstr "Отправитель"
+
+# GMT 1559644705.5838
+msgid "Settings & Options"
+msgstr "Настройки и опции"
+
+# GMT 1559644705.5878
+msgid "Show featured labels"
+msgstr "Показать избранные ярлыки"
+
+# GMT 1559644705.5921
+msgid "Show non-featured labels"
+msgstr "популярные метки"
+
+# GMT 1559644705.5965
+msgid "Showing"
+msgstr "Показывая"
+
+# GMT 1559644705.6042
+msgid "Slots"
+msgstr "Слоты"
+
+# GMT 1559644705.6079
+msgid "Socket, example: /var/run/clamav/clamd.ctl"
+msgstr "Сокет, пример: /var/run/clamav/clamd.ctl"
+
+# GMT 1559644705.6115
+msgid "Something went wrong, the category do not exists!"
+msgstr "Что-то не заладилось, категория не существует!"
+
+# GMT 1559644705.6158
+msgid "Start search"
+msgstr "Начать поиск"
+
+# GMT 1559644705.6201
+msgid "Status color chart"
+msgstr "Статус  цвета"
+
+# GMT 1559644705.6245
+msgid "Stores Informations"
+msgstr "Информация в маркетах"
+
+# GMT 1559644705.6288
+msgid "Stripe subscription ID"
+msgstr "Stripe ID подписки"
+
+# GMT 1559644705.6332
+msgid "Stripe subscription saved!"
+msgstr "Подписка Stripe сохранена!"
+
+# GMT 1559644705.6375
+msgid "Stripe utility tools!"
+msgstr "Сервисные инструменты Stripe!"
+
+# GMT 1559644705.6419
+msgid "Subject"
+msgstr "Тема"
+
+# GMT 1559644705.6462
+msgid "Subscription date & time"
+msgstr "Дата подписки и время"
+
+# GMT 1559644705.6506
+msgid "Sur quelles plateformes ?"
+msgstr "На каких платформах?"
+
+# GMT 1559644705.655
+msgid "T&C's"
+msgstr "T&C's"
+
+# GMT 1559644705.6593
+msgid "Tags are used to improve full-text search."
+msgstr "Теги используются для улучшения полнотекстового поиска."
+
+# GMT 1559644705.6629
+msgid "Tags will be de-duplicated, migrated to categories & associated to existing places."
+msgstr "Теги дублируются и мигрировали в категории и связанной с существующими места."
+
+# GMT 1559644705.6671
+msgid "Text Color - Active"
+msgstr "Цвет Текста - Активный"
+
+# GMT 1559644705.6713
+msgid "Text Color - Hover"
+msgstr "Цвет Текста При Наведении Курсора"
+
+# GMT 1559644705.6756
+msgid "The Platform name"
+msgstr "Имя платформы"
+
+# GMT 1559644705.6799
+msgid "The category you are trying to edit doesn't exists.."
+msgstr "Раздел, который вы пытаетесь редактировать, не существует.."
+
+# GMT 1559644705.6843
+msgid "The folder & it's sub-folders have been removed!"
+msgstr "Папки и ее вложения были удалены!"
+
+# GMT 1559644705.6886
+msgid "The following folders are not writable: <br /> - %s"
+msgstr "Следующие папки записи: <br /> - %s"
+
+# GMT 1559644705.693
+msgid "The installation of the module <span id=\"installation_failed_module_name\"></span> has failed: <span id=\"installation_failed_because\"></span>"
+msgstr "Установка модуля <span id=\"installation_failed_module_name\"></span> не удалась: <span id=\"installation_failed_because\"></span>"
+
+# GMT 1559644705.6973
+msgid "The publication access type of an Application is determined by the publication type settings that are set for its Creator."
+msgstr "Тип публикации доступ к приложения определяется публикацию параметры типа, которые устанавливаются на своего создателя."
+
+# GMT 1559644705.7013
+msgid "The setup fee is not a valid price (e.g. 12.34"
+msgstr "стоимость установки не действительной цене (например, 12.34"
+
+# GMT 1559644705.7057
+msgid "The splashscreen image"
+msgstr "Заставки изображения"
+
+# GMT 1559644705.71
+msgid "The store & mcommerce instances mismatch!"
+msgstr "Магазин & несоответствие мобильной коммерции!"
+
+# GMT 1559644705.7144
+msgid "The strip customer '%s' is missing!"
+msgstr "Заказчик strip '%s' отсутствует!"
+
+# GMT 1559644705.7187
+msgid "The stripe subscription '%s' is missing!"
+msgstr "Подписка на stripe '%s' отсутствует!"
+
+# GMT 1559644705.7231
+msgid "The subscription '%s' doesn't exists!"
+msgstr "Подписка '%s'  не существует!"
+
+# GMT 1559644705.7275
+msgid "The subscription was already inactive or cancelled"
+msgstr "Подписка  не активна или отменена"
+
+# GMT 1559644705.731
+msgid "The version number format is invalid, please use x.y.z where x, y & z are only digits."
+msgstr "Формат номера версии является недействительным, пожалуйста, используйте X.г.Z, где X, Y и Z являются только цифры."
+
+# GMT 1559644705.7353
+msgid "Theme"
+msgstr "Тема"
+
+# GMT 1559644705.7396
+msgid "There is no user with this ID."
+msgstr "Нет пользователя с этим ID."
+
+# GMT 1559644705.7439
+msgid "This Application has some M-Commerce invoices associated, you can not delete it!"
+msgstr "Это приложение имеет некоторые м-коммерции накладные связаны, вы не можете удалить его!"
+
+# GMT 1559644705.7483
+msgid "This Google Font do not exists!"
+msgstr "Этот шрифт Google не существует!"
+
+# GMT 1559644705.7526
+msgid "This action is not allowed in demo."
+msgstr "Данное действие недоступно в демо."
+
+# GMT 1559644705.757
+msgid "This application does not exists."
+msgstr "Это приложение не существует."
+
+# GMT 1559644705.7613
+msgid "This application was not upgraded to the unified splashscreens & can't be published right now."
+msgstr "Это приложение не было обновлено до единой версии картинок и не может быть опубликовано прямо сейчас."
+
+# GMT 1559644705.7657
+msgid "This build do not exists."
+msgstr "Эта сборка не существует."
+
+# GMT 1559644705.77
+msgid "This combination is not valid, if you want both portrait & landscape please check all orientations."
+msgstr "Эта комбинация не действует, если вы хотите, чтобы и портрет и пейзаж проверьте все направления."
+
+# GMT 1559644705.7744
+msgid "This is not a valid e-mail address."
+msgstr "Это не действительный адрес электронной почты."
+
+# GMT 1559644705.7787
+msgid "This is only a generic preview, header & footer are adjusted depending on the context!"
+msgstr "Это единственный универсальный предварительный просмотр, колонтитулы настраиваются в зависимости от контекста!"
+
+# GMT 1559644705.7831
+msgid "This place do not exists!"
+msgstr "Этого места не существует!"
+
+# GMT 1559644705.7874
+msgid "Three columns"
+msgstr "Три колонки"
+
+# GMT 1559644705.7918
+msgid "Title for featured places"
+msgstr "Название-избранные места"
+
+# GMT 1559644705.7962
+msgid "Title for non-featured places"
+msgstr "Название для не рекомендуемых мест"
+
+# GMT 1559644705.8005
+msgid "Two columns"
+msgstr "Две колонки"
+
+# GMT 1559644705.8049
+msgid "URL (.mp3)"
+msgstr "URL-адрес (.МР3)"
+
+# GMT 1559644705.8092
+msgid "Upgrade done!"
+msgstr "Обновление сделано!"
+
+# GMT 1559644705.8136
+msgid "Upgrade required for Sources APK / IPA"
+msgstr "Требуется обновление для  АПК / IPA"
+
+# GMT 1559644705.8179
+msgid "User %s just signed-up on the platform."
+msgstr "Пользователь %s  подписался на платформе."
+
+# GMT 1559644705.8223
+msgid "User-Styler Module"
+msgstr "Модуль Пользователя-Стайлер"
+
+# GMT 1559644705.8261
+msgid "Username: nwicode-notifier, etc..."
+msgstr "Имя пользователя:"
+
+# GMT 1559644705.8298
+msgid "VIEW"
+msgstr "Вид"
+
+# GMT 1559644705.8341
+msgid "We were unable to automatically cancel the subscription, please check manually on your %s dashboard."
+msgstr "Мы не смогли автоматически отказаться от подписки, пожалуйста, проверьте вручную на ваш %sзаявок."
+
+# GMT 1559644705.8384
+msgid "We were unable to verify you payment, please try again later!"
+msgstr "Мы были не в состоянии проверить оплату, пожалуйста, попробуйте снова позже!"
+
+# GMT 1559644705.8427
+msgid "Website must start with http:// or https://, invalid value have been removed!"
+msgstr "Сайт должен начинаться с HTTP:// или https://, недопустимое значение, были удалены!"
+
+# GMT 1559644705.8466
+msgid "What if I choose the minimal upgrade?"
+msgstr "Что, если я выбираю минимальный апгрейд?"
+
+# GMT 1559644705.8509
+msgid "What if I skip the upgrade?"
+msgstr "Что, если я пропущу обновление?"
+
+# GMT 1559644705.8552
+msgid "What will the full upgrade do?"
+msgstr "Что будет полное обновление делать?"
+
+# GMT 1559644705.8596
+msgid "What will the upgrade do?"
+msgstr "Какие будут обновление?"
+
+# GMT 1559644705.8639
+msgid "What's new?"
+msgstr "Что нового?"
+
+# GMT 1559644705.8683
+msgid "Whitelabel Settings"
+msgstr "Параметры Whitelabel"
+
+# GMT 1559644705.8721
+msgid "YES"
+msgstr "Да"
+
+# GMT 1559644705.8764
+msgid "Yes, Cancel my subscription"
+msgstr "Да, отменить подписку"
+
+# GMT 1559644705.8808
+msgid "Yes, activate"
+msgstr "Да, активировать"
+
+# GMT 1559644705.8851
+msgid "Yes, cancel!"
+msgstr "Да, отменить!"
+
+# GMT 1559644705.8885
+msgid "Yes, deactivate"
+msgstr "Да, отключить"
+
+# GMT 1559644705.8928
+msgid "Yes, delete!"
+msgstr "Да, Удалить!"
+
+# GMT 1559644705.8972
+msgid "You already have a google-services.json file"
+msgstr "У вас уже есть Google-сервисы.JSON-файл"
+
+# GMT 1559644705.9016
+msgid "You are about to cancel your Subscription, if this is a paid plan the subscription will be cancelled at the end of the recurring period, otherwise the subscription will be immediately cancelled and the application locked.<br /><br />Below you can leave a message for the Administrator.<br />"
+msgstr "Вы собираетесь отменить подписку, если это платный план подписки будут отменены в конце повторяющегося периода, в противном случае подписка будет автоматически отменена и приложение закрыто.<br /><br />ниже вы можете оставить сообщение для администратора.<br />"
+
+# GMT 1559644705.9059
+msgid "You are about to delete the category #CATEGORY_NAME# with all it's subcategories<br />Please note that any products inside the category and it's subcategories will be deleted!"
+msgstr "Вы собираетесь удалить категорию предупреждения ## со всеми его подразделами<br />учтите, что все продукты внутри категории, и подкатегории будут удалены!"
+
+# GMT 1559644705.9103
+msgid "You are about to delete the folder #FOLDER_NAME# with all it's subfolders, please note that any features inside the folder and it's subfolders will be re-assigned to the Homepage!"
+msgstr "Вы собираетесь удалить папку #ИМЯ_ПАПКИ# со всеми его подпапками, обратите внимание, что любые объекты внутри папки и ее подпапках будут переназначены на главную страницу!"
+
+# GMT 1559644705.9146
+msgid "You are about to delete the product #PRODUCT_NAME#"
+msgstr "Вы собираетесь удалить продукт #ИМЯ_ПРОДУКТА#"
+
+# GMT 1559644705.9189
+msgid "You are not allowed to delete this account in demo!"
+msgstr "Вам не разрешается удалять этот аккаунт в демо!"
+
+# GMT 1559644705.9232
+msgid "You are not allowed to edit this account in demo!"
+msgstr "Вам не разрешено редактировать эту запись в демо!"
+
+# GMT 1559644705.9275
+msgid "You can also use another Google Font not listed up there"
+msgstr "Вы также можете использовать другой шрифт Google"
+
+# GMT 1559644705.9319
+msgid "You can change the browser tab title with the translations: Edit the backoffice.csv and translate Nwicode - Backoffice."
+msgstr "Вы можете изменить заголовок в браузере во вкладке с переводами: НАСТРОЙКИ - ПЕРЕВОДЫ файл .CSV"
+
+# GMT 1559644705.9363
+msgid "You have no mail logs."
+msgstr "У вас нет почтовых логов."
+
+# GMT 1559644705.9406
+msgid "You have to create a Google account before publishing your application. <a href=\"https://play.google.com/apps/publish/signup\" target=\"_blank\">Click here to create one.</a>"
+msgstr "Вы должны создать учетную запись Google, прежде чем публиковать свое приложение. <br /> <a href=\"https://play.google.com/apps/publish/signup\" target=\"_blank\"> Нажмите здесь, чтобы создать его. < / а>"
+
+# GMT 1559644705.945
+msgid "You have to create a Google account before publishing your application.<br /><a href=\"https://play.google.com/apps/publish/signup\" target=\"_blank\">Click here to create one.</a>"
+msgstr "Вы должны создать учетную запись Google, прежде чем публиковать свое приложение. <br /> <a href=\"https://play.google.com/apps/publish/signup\" target=\"_blank\"> Нажмите здесь, чтобы создать его. </a>"
+
+# GMT 1559644705.9493
+msgid "You have to create an Apple account before publishing your application. <a href=\"https://appleid.apple.com/account#!&page=create\" target=\"_blank\">Click here to create one.</a>"
+msgstr "Вы должны создать учетную запись Apple перед публикацией вашего приложения. <a href=\"https://appleid.apple.com/account#!&page=create\" target=\"_blank\">Нажмите здесь, чтобы создать.</а>"
+
+# GMT 1559644705.9537
+msgid "You have to create an Apple account before publishing your application.<br /><a href=\"https://appleid.apple.com/account#!&page=create\" target=\"_blank\">Click here to create one.</a>"
+msgstr "Вы должны создать учетную запись Apple перед публикацией вашего приложения.<br /><a href=\"https://appleid.apple.com/account#!&page=create\" target=\"_blank\">Нажмите здесь, чтобы создать.</а>"
+
+# GMT 1559644705.958
+msgid "You just received a publication request:"
+msgstr "Вы только что получили запрос на публикацию:"
+
+# GMT 1559644705.9623
+msgid "You must agree our Terms of Service"
+msgstr "Вы должны согласиться с нашими условиями обслуживания"
+
+# GMT 1559644705.9667
+msgid "You must agree to Terms of Service."
+msgstr "Вы должны согласиться с условиями обслуживания."
+
+# GMT 1559644705.9711
+msgid "You must agree to our Terms of Service."
+msgstr "Вы должны согласиться с нашими условиями предоставления услуг."
+
+# GMT 1559644705.9754
+msgid "You must be logged-in to request a new token."
+msgstr "Вы должны войти в систему запросить новый маркер."
+
+# GMT 1559644705.9798
+msgid "You must select at least one orientation for Android!"
+msgstr "Вы должны выбрать по крайней мере одну ориентацию для Android!"
+
+# GMT 1559644705.9841
+msgid "You must select both a Development Team & an iTunes Connect provider!"
+msgstr "Вы должны выбрать как команда разработчиков и поставщика в iTunes подключиться!"
+
+# GMT 1559644705.9884
+msgid "You offline subscription is awaiting approval from an Administrator!"
+msgstr "Вы в автономном режиме подписки ожидает одобрения администратора!"
+
+# GMT 1559644705.9928
+msgid "Your application is set to use the homepage background for all the features!<br />You can't upload individual backgrounds for the features."
+msgstr "Ваше приложение, чтобы использовать главный фон для всех функций!<br />вы не можете загружать отдельные фоны для функции."
+
+# GMT 1559644705.9966
+msgid ""
+"Your are about to replace the current application template, colors & features.\n"
+"Are you sure ?"
+msgstr "Вы собираетесь заменить текущий шаблон приложения, цвета и функции. Ты уверен ?"
+
+msgid "Your are about to replace the current application template, colors & features.\\nAre you sure ?"
+msgstr "Вы собираетесь заменить текущий шаблон приложения, цвета и функции. вы уверены ?"
+
+# GMT 1559644706.0009
+msgid "Your licenses"
+msgstr "Ваши лицензии"
+
+# GMT 1559644705.2539
+msgid "[Let's Encrypt] cron renewal is disabled until %s due to rate limit hit, skipping."
+msgstr "[Let's Encrypt] Обновление крон отключено до %s из-за лимита."
+
+# GMT 1559644705.2582
+msgid "[Let's Encrypt] will expire in %s days."
+msgstr "Срок действия [Let's Encrypt] истекает через %s дней."
+
+# GMT 1559644705.4721
+msgid "[Plesk] %s"
+msgstr "[Plesk] %s"
+
+# GMT 1559644706.0252
+msgid "category_id"
+msgstr "category_id"
+
+# GMT 1559644706.0296
+msgid "fa-toggle-on"
+msgstr "fa-toggle-on"
+
+# GMT 1559644706.0336
+msgid "filtered from #TOTAL# total records"
+msgstr "отфильтрованный от #всего# всего записей"
+
+# GMT 1559644706.0378
+msgid "iOS & Android (You must set both a Firebase Key & upload a Push Certificate for the Application)"
+msgstr "Android и iOS (необходимо установить Firebase Key и загрузить сертификат push-уведомлений для приложения)"
+
+# GMT 1559644706.0421
+msgid "iOS 9+"
+msgstr "с iOS 9+"
+
+# GMT 1559644706.0464
+msgid "iOS NS*Descriptions"
+msgstr "iOS NS * Описания"
+
+# GMT 1559644706.0507
+msgid "iOS only (You must upload a Push Certificate for the Application)"
+msgstr "только для iOS (вы должны загрузить сертификат push-уведомлений для приложения)"
+
+# GMT 1559644706.055
+msgid "iOS-Autopublish service is unreachable."
+msgstr "Сервис iOS-Autopublish недоступен."
+
+# GMT 1559644706.0594
+msgid "iPhone & iPad & Android orientation"
+msgstr "iPhone и iPad и ориентация Андроид"
+
+# GMT 1559644706.0637
+msgid "iPhone (No Ads)"
+msgstr "iPhone (без рекламы)"
+
+# GMT 1559644706.0723
+msgid "of"
+msgstr "из"
+
+# GMT 1559644706.0766
+msgid "or"
+msgstr "или"
+
+# GMT 1559644706.0809
+msgid "or unlimited?"
+msgstr "или неограниченное?"
+
+# GMT 1559644706.0853
+msgid "php-redis module is required!"
+msgstr "требуется модуль для PHP-Redis!"
+
+# GMT 1559644706.0896
+msgid "please respect the font name case!"
+msgstr "пожалуйста, вставьте корректное название шрифта!"
+
+# GMT 1559644706.0932
+msgid "record"
+msgstr "запись"
+
+# GMT 1559644706.0975
+msgid "records"
+msgstr "записи"
+
+# GMT 1559644706.1093
+msgid "to"
+msgstr "Для"
+
+# GMT 1559644706.1135
+msgid "value_id"
+msgstr "value_id"

@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-05-05T12:34:24+03:00\n"
+"PO-Revision-Date: 2019-05-05T12:34:24+03:00\n"
+"Language: \n"
+
+msgid "Add gratuity (Optional)"
+msgstr "Оставить чаевые"
+
+msgid "Customer can add tip to a command?"
+msgstr "Клиент может оставлять чаевые"
+
+msgid "Deduction"
+msgstr "Скидка"
+
+msgid "Done"
+msgstr "Сохранить"
+
+msgid "Gratuity"
+msgstr "Чаевые"
+
+msgid "I will pay"
+msgstr "К оплате"
+
+msgid "Remaining due"
+msgstr "Оставшаяся задолженность"
+
+msgid "Subtotal Excl. Tax"
+msgstr "Итого без налога"
+
+msgid "Total:"
+msgstr "Итого:"
+
+msgid "Total: %s"
+msgstr "Итого:"

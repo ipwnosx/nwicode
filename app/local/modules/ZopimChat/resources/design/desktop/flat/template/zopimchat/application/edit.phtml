@@ -1,0 +1,32 @@
+<?php
+$optionValue = $this->getOptionValue();
+$application = $this->getApplication();
+$zopim_chat_model = $optionValue->getObject();
+$zopim_chat_model->find($optionValue->getId(), "value_id");
+$config = $zopim_chat_model->getData();
+$zopim_chat_form = new ZopimChat_Form_Form();
+$zopim_chat_form->setValueId($optionValue->getId());
+$zopim_chat_form->populate($config);
+?>
+<div class="zopimchat">
+    <div>
+        <h3 class="title-editor no-border-radius title-feature-indent"><?php echo __("Zopim Chat Settings")?></h3>
+    </div>
+	<div class="container-fluid margin-top">
+		<?php echo $zopim_chat_form; ?>
+	</div>
+	<div class="container-fluid margin-top">
+		<br><strong><?php echo __("Where can I get the code to use? In your Zopim account, go to Settings, then to Widgets.") ?></strong><br>
+		<img src="/app/local/modules/ZopimChat/resources/design/desktop/flat/images/customization/layout/zopimchat/info.png">
+	</div>		
+</div>
+<script>
+            $('#zopim_chat_form').submit(function() {
+                reload(this, this.action, true, function(data) {
+                    if(data.success) {
+                        //page.reload();
+                    }
+                });
+                return false;
+            });
+</script>
