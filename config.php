@@ -3,7 +3,7 @@
  * NwicodeCMS
  *
  * @version 1.3.1
- * @author Nwicode SAS <support@nwicode.com>
+ * @author Nwicode CMS <support@nwicode.com>
  *
  * @configuration
  *
