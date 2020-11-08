@@ -1,4 +1,4 @@
-# Nwicode FREE version 1.3.1
+# Nwicode FREE version 1.3.1 ( Support and development of the free version is stopped.)
 CMS Nwicode
 
 
